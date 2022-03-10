@@ -1,0 +1,286 @@
+B U L L E T I N OF
+I~ATHEI~IATICAL BIOLOGY
+VOLU~E 39. 1977
+STABILITY ANALYSIS OF PI~EDATOR-PREY MODELS VIA THE LIAPUNOV METHOD
+• M. G~TTOand S. RIN~LDI Centre di Teoria dei Sistemi, C.N.R. Milano, Italy
+As is well-known from the classical applications in the electrical and mechanical sciences, energy is a suitable Liapunov function: thus, by analogy, all energy functions proposed in ecology are potential Liapunov functions. In this paper, a generalized Lotka-Volterra model is considered and the stability properties of its non-trivial equilibrium are studied by means of an energy function first proposed by Volterra in the context of conservative ecosystems. The advantage of this Liapunov function with respect to the one that can be induced through linearization is also illustrated.
+1. Introduction. One of the classical problems in mathematical ecology is the stability analysis of equilibria and, in particular, the determination of the region of attraction associated with any asymptotically stable equilibrium point. It is also known that the best way of obtaining an approximation of such regions is La Salle's extension of the Liapunov method (La Salle, 1960; Rosen,
+1970).
+Nevertheless, this approach has not been very popular among ecologists (except for biochemical reactions: see ttiggins, 1968; Shear, 1967; Walter, 1969a, b), the main reason being that Liapunov functions are in general difficult to devise, as pointed out by Gilpin, 1974. One straightforward, but often not very effective, way of overcoming this difficulty is through linearization as shown in Section 3, while a more fruitful way consists in considering as candidates for Liapunov functions any function that has the meaning of an internal energy of the system. This is the approach that is, for example, commonly followed by engineers in the analysis of mechanical systems or in the study of nonlinear electrical networks. The reason why Liapunov method has
+339
+
+340
+
+~¢I. G A T T O A ~ D S. R I I ~ A L D I
+
+not been widely used in ecology possibly rests upon the lack of a definition of an energy function in the context of ecological systems. One major exception is represented by the pioneering work of Volterra and by the more recent work of Kerner, 1957, who discussed the analogy between ecological and mechanical systems in terms of energy. Nevertheless, these works are limited to conservative ecosystems, a case that seems to be very peculiar indeed.
+The aim of this paper is to show how the energy function proposed by Volterra (from now on called Volterra function) quite often turns out to be a Liapunov function even for non-conservative ecosystems. In order to avoid complexity in notation and proofs, the only case that is dealt with in the following is the one of second-order (predator-prey) systems, but the authors strongly conjecture that the results presented in this paper could be easily generalized to more complex ecological models.
+
+2. The Volterra Function. Consider the simple Lotka-Volterra model
+
+dx/dt = x(a-by),
+
+(1.a)
+
+dy/dt = y( - c + dx),
+
+(1.b)
+
+where x and y are prey and predator populations and (a, b, c, d) are strictly positive constants. This system has a non-trivial equilibrium (2, 77) given b y (2, 77) = (c/d, a/b) which is simply stable in the sense of Liapunov. Moreover, any initial state in the positive quadrant gives rise to a periodic motion. This can easily be proved by means of the energy function proposed by Volterra :
+
+V = @ ~ 2 - l o g x / 2 ) + p ( y / ~ - l o g y / ~ ) - (1 + p ) ,
+
+(2)
+
+where
+
+29 = b~/d2,
+
+since this function is constant along any trajectory and its contour lines are closed lines in the positive quadrant. In other words, the Volterra function (2) is a Liapunov function because it is positive definite and its derivative d V/dt is negative semidefinite (identically zero).
+In the following, the Volterra function will be used in relation with nonconservative ecosystems of the form:
+
+dx/dt = x(a- by +f(x, y)),
+(3)
+dy/dt = y(-c+dx+g(x, y)),
+
+where f and g are continuously differentiable functions. Moreover, we assume that there exists a non-trivial equilibrium (2, ~) > 0 and that the positive
+
+STABILITYANALYSISOF PREDATOR-PREY MODELS 341
+quadrant is an invariant set for system (3) so that it can be identified from now on with the state set of the system.
+3. Zinearization and the Liapunov Equation. As is well-known, Liapunov functions can be constructed by solving the so-called Liapunov equation. This procedure is now briefly described so that the advantage of the Volterra function can be better appreciated in the next sections.
+Let (ix = x - 2, 5y = y - ff
+be the variations of prey and predator populations with respect to the equilibrium (£, 3). Then the linearized system associated with this equilibrium is given by
+
+LayJ LayJ = L(d+ ~x)~ ~y~ jLayJ,
+
+(4)
+
+where (fz, f~, g~, gv) are the partial derivatives o f / a n d g evaluated for (x, y) = (£, if). Now, assume that the matrix 2' has eigenvalues with negative real parts which implies that the equilibrium is asymptotically stable (recall that the converse is not true). Under this assumption Lipaunov's equation (matrix equation)
+
+FTp + PF = - O
+
+(5)
+
+has one and only one solution in the unknown matrix P for any positive definite matrix Q. Moreover, the matrix P is positive definite and the function
+
+W = [Sx 5y]P[Sx 5y]T
+
+(6)
+
+is a Liapunov function because its derivative, d W / d t -- -[fix 5y]Q[Sx 5y]T, is negative definite. In conclusion, the Liapunov function (6) can be very easily determined by solving (5) with F given as in (4) and with Q positive definite (e.g. Q = identity matrix). The only limitation to the applicability of this method is the assumption on the eigenvalues of the matrix F: for example, the Lotka-Volterra model (1) cannot be discussed in this way, since the F matrix has purely imaginary oigenvahies. Nevertheless, even when this method can be applied, the results are not in general as satisfactory as the ones that can be obtained by moans of the Volterra function as shown in the next section.
+
+4. The Volterra Function as a Liapunov Function. Consider the generalized Lotka-Volterra model (3) and the Volterra function V given by (2). Then, the
+
+342
+
+M. GATTO AND S. R I ~ A L D I
+
+derivative of the Volterra function along trajectories is given by
+
+d--[ = --~x'-dt + ~y dt = - 1 ( a - b y + f ( x , y ) )
++-~ y-1 (-c+gx+g(x,y))
+In order to study dV/dt in a neighborhood of the equilibrium (2, ?)), it is possible to expand this function in Taylor series up to the second-order terms, i.e.
+
+-d- t ~- dt ~,~ + ~
+
+~,~~ +
+
+-~)1~,~- -
+
+1 d 2 /'dV'~
+
+~ 1 d2 [dV'~l
+
++ ~ t , ~ ) ~,~(,~x) + ~ ~ ( , - ~ ) ~,~(~Y)~
+
+d~ (dr)
+
++ ~
+
+- -dt ~,~5 x @ .
+
+(7)
+
+Since
+
+d--t ~,y = ~ x x \ ' ~ ] .~,~ = ~ \ ~ / I . ~ , ~ o,
+
+dx 2
+
+~,~ x
+
+dy 2 --~ ~,~ d2
+
+dxdy (7) becomes
+
+~,~ x d2 '
+
+dV ½15xSy]
+
+2
+
+(8)
+
+d---[ ~-
+
+f~ +b~x 2b~y I [SxSy]~"
+
+22 2d2 d2 l
+
+Therefore the second-order approximation of dV/dt turns out to be a homogeneous quadratic form; studying the negative or positive definiteness of such a form, it is possible to derive sufficient conditions for the Volterra function
+
+STABILITY ANALYSIS OF BI%ED2~TOR-PI%EY MODELS
+
+343
+
+to be a Liapunov function. More precisely, by applying the well-known Sylvester conditions and performing easy computations, we get the results
+
+f~<O
+
+} dV
+
+(b~z+dfy) ~' < 4bdfx~y =~ -(It negative definite,
+
+(9)
+
+f~>O
+
+} dV
+
+(b~x+dfy) 2 > 4bdfx{y ~ --~ positive definite.
+
+(10)
+
+Notice that these conditions are only sufficient for Liapunov methods to be applicable; thus, even if these conditions are not satisfied, it is possible that the Volterra function turns out to be a Liapunov function (see Example 2).
+As far as the study of stability properties in the large is concerned, the Volterra function is definitely advantageous with respect to the quadratic forms derived by means of Liapunov's equation (5). This is apparent in the ease of global stability; in fact, global stability can be inferred by means of Volterra function, whose contour lines in the state set are closed, while this is never possible by means of a positive definite quadratic form of the kind (6), since the contour lines are not closed (see Examples 1 and 2).
+
+5. Examples. This section is devoted to clarifying by means of some examples what has been previously exposed, with particular emphasis on the trade-offs between Volterra function and the quadratic Liapunov function that can be obtained by solving the Liapunov equation.
+
+Example 1. The first example is a simple symmetric competition model between two species described by the following equations (see May 1973):
+
+dx/dt = x(ki-x-~y),
+
+dy/dt = y(ka-y-ax),
+
+where ki, kg. and ~ are positive parameters. Provided that
+
+~ki > k2 or [ a k i < k2
+a non-trivial equilibrium (2, 9) exists and is given by
+
+•
+
+344
+
+NI. GikTTO A N D S. R I N A L D I
+
+Thus, the matrix F of the linearized system is given by
+
+and its eigenvalues have negative real parts, provided that its trace is strictly negative and its determinant is strictly positive. These conditions are obviously satisfied if ~ < 1. On the other hand, also the sufficient conditions given by (9) work well. I n fact
+fx = -1<0 and
+( b g x + d f y ) 2 =- ( z 2 ( l n u ~ ) 2 < 4bdfx~x = 4o~
+provided that ~ < 1. However, the Volterra function guarantees the global stability of the
+equilibrium. This can be easily understood when taking into account that there is no error in the Taylor expansion (7), because the functions f and g are linear. Thus, d V/dt is negative definite in the state set and global stability follows from La Salle's conditions.
+Example 2. Consider the well-known modification obtained from the classical Lotka-Volterra model, when assuming, in the absence of predation, a logistic growth for the prey:
+dx/dt = x(a- by - kx),
+k>O. dy/dt = y( - c + dx)
+If ad > kc a non-trivial equilibrium
+
+@, ?/) = ' b exists and linearization around it yields
+
+- kc
+d
+F =
+da - kc
+---V--
+
+- bc -
+d
+o
+
+which has eigenvalues with negative real parts. On the other hand, it turns out
+
+that
+
+STABILITY ANALYSIS OF PREDATOR-PREY MODELS
+
+345
+
+4bdfx~y = (bgx + dry) 2 = O.
+
+Therefore (9) is not satisfied. Nevertheless, b y means of a direct computation, we have the result
+
+dV
+-
+dt
+
+k
+(x-~)%
+b~ff
+
+i.e. dV/dt is negative semidefinite. Since the locus dV/d~ -- 0 is not a trajectory of the system (easy to check), Krasowskyi conditions are met with and asymptotic stability can be inferred. Moreover, sinc~ dV/dt is negative semidefinite in the whole state set, global stability can be straightforwardly deduced.
+
+Example 3. A third example is given to show how a subregion of the region of asymptotic stability can be found by means of the Volterra function.
+Consider a situation where the prey, in the absence of predators, has an asymptotic carrying capacity fl and a minimum density a, below which successful mating cannot overcome the death processes. This model can be described by
+dx/dt = x( - (x - a)(x - fl) - Vy),
+dy/dt = y( - c + x),
+
+where ~, fl, ~ are positive parameters which are supposed to satisfy the relations
+
+< c < /~,
+
+(~+/~)/2 < c.
+
+It is easy to check that there exists only one non-trivial equilibrium given by
+(~, ~) = (c, - ( c - ~ ) ( ~ - / ~ ) / ~ ) .
+This equilibrium is not globally stable, since the origin of the state space is also asymptotically stable. The regions A and B of asymptotic stability obtained by simulation for particular values of the parameters are shown in Figure 1. I t is possible to determine an approximation of region A b y means of Volterra function. In fact
+
+dVdt - 1 ( - ( x - ~)(x - fl) - ~y) + ~ ~ \?] /
+1
+= : (x-~)~(~+~-c-x) x
+D
+
+346 M. GATTO AND S. I:~INALDI
+is negative semidefinite in the region
+
+x > ~+fl-c,
+
+y >0
+
+since (a+ fl)/2 < c. Moreover the straight line x = ~, where dV/dt = 0, does not contain any perturbed trajectory. Therefore the region bounded by the contour line of the Volterra function that is tangent to the straight line x = a + f l - c (see Figure 1) represents an estimate of the region of attraction, since La Salle's conditions are satisfied.
+
+y4
+B
+
+0(=10 /3 =3-0
+~ =05
+c =2-t
+
+/ I
+
+"
+
+1
+
+2
+
+3
+
+Figure 1. The estimation of the region A of attraction b y means of Volterra function
+
+6. Concluding Remarks. The energy function proposed by Volterra has been used in this paper to analyze the asymptotic behavior of non-conservative ecosystems of the predator-prey type. The main result is that the Volterra function turns out to be a well-defined Liapunov function for a large class of systems and therefore allows the discussion of the local and global stability properties of such systems. The Volterra function definitively seems advantageous with respect to the Liapunov functions that can be obtained through linearization, particularly in the case of global stability. Moreover, it is worthwhile noting that the Volterra function is also of interest when the equilibrium state under discussion is unstable. The results obtained in this paper allow us to prove in a very simple form some general properties like the following: if the
+functions f and g in the general model (3) are linear and satisfy (9), then the
+local stability of an equilibrium implies its global stability.
+
+STABILITY ANALYSIS OF PI%EDATOI~-PREY MODELS 347
+The authors are grateful to Dr. Dixon D. Jones, University of British Columbia, for his helpful suggestions. This work was supported by Centro di Teoria dei Sistemi, C.N.R., Milano, Italy, and I.I.A.S.A. (International Institute for Applied Systems Analysis), Schloss Laxenburg, Austria.
+LITERATURE
+Gilpin, M. E. 1974. "A Liapunov function for competition communities." J. Theor. Biol., 44, 35-48.
+ttlOOlXS, J. 1968. "Some remarks on Shear's Liapunov function for systems of chemical reactions." d. Theor. Biol., 21, 293-304.
+Kerner, E. H. 1957. "A statistical mechanics of interacting biological species." Bull. Math. Biophys., 19, 121-146.
+La Salle, J.P. 1960. "Some extensions of Liapunov's second method." I R E Trans. Circuit Theory, 7, 520-527.
+May, 1%.lYi. 1973. Stability and complexity in model ecosystems. Princeton University Press. Rosen, 1%. 1970. Dynamical system theory in biology, Vol. I. Wiley-Interscienee, l~ew
+York. Shear, G. 1967. "An analog of the Boltzmann H-theorem (a Liapunov function) for
+systems of coupled chemical reactions." J. Theor. Biol., 16, 212-228. Walter, C. 1969a. "Stability of controlled biological systems." J. Theor. Biol., 23, 23-38.
+. 1969b. "The absolute stability of certain types of controlled biological systems." J. Theor. Biol., 23, 39-52.
+RECEIVED 10-22-75
+

@@ -1,0 +1,432 @@
+
+Skip to main content
+Advertisement
+Nature
+
+    View all journals
+    Search
+    Login
+
+    Explore content
+    About the journal
+    Publish with us
+
+    Sign up for alerts
+    RSS feed
+
+    nature
+    matters arising
+    article
+
+    Matters Arising
+    Published: 24 March 2021
+
+Reply to: Old-growth forest carbon sinks overestimated
+
+    Sebastiaan Luyssaert   ,
+    E.-Detlef Schulze ,
+    Alexander Knohl   ,
+    Beverly E. Law   ,
+    …
+    Philippe Ciais &
+    John Grace  
+
+Nature volume  591 ,  pages E24–E25 ( 2021 ) Cite this article
+
+    3332 Accesses
+
+    3 Citations
+
+    24 Altmetric
+
+    Metrics details
+
+The Original Article was published on 24 March 2021
+
+You have full access to this article via your institution.
+Download PDF
+
+replying to: P. Gundersen et al. Nature https://doi.org/10.1038/s41586-021-03266-z (2021)
+
+Following re-analysis, Gundersen and collaborators 1 found inconsistencies between the independent data they used and the flux measurements reported in our Letter 2 . In the accompanying Comment 1 , each of these inconsistencies is then used to question the quality of the flux measurements, which, if correct, would indeed call for the refutation of the main message: that at present, forests continue to take up carbon even in old age 2 . Although most of the points raised by Gundersen et al. 1 do call for further investigation, none provides unequivocal proof of consistently low-quality flux measurements.
+
+In a first line of reasoning, Gundersen and collaborators 1 use carbon (C) and nitrogen (N) stoichiometry to show that for most regions in the world there is not enough plant available N to sustain the C sink we reported in Luyssaert et al. 2 . Typically, the old sites included in our analysis are relicts in a landscape dominated by young and managed forest that should, therefore, receive similar atmospheric N deposition loads. The stoichiometric approach not only suggests that the sink strength of old forests cannot be sustained but also suggests that the sink strength of young and managed forest cannot be sustained if 10 kg N ha –1  yr –1 of atmospheric deposition would be the only source of plant available N 1 . However, a meta-analysis 3 of 124 age sequences suggested that ageing forests have an intrinsic ability to accrue on average 22 kg N ha –1  yr –1 , twice the available N estimated by Gundersen et al. 1 . Rather than questioning the quality of the flux measurements and hence the overwhelming and independent evidence showing accelerated growth rates and the presence of a strong C sink in managed forests 4 , the inconsistency revealed by the stoichiometric approach could be seen as a justification to study knowledge gaps in the contribution of priming 5 , chemical weathering 6 , recycling of organic N by microbes, and biological N fixation to the N cycle.
+
+The second line of reasoning by Gundersen and collaborators 1 suggests that our estimate is in conflict with estimates of the global net land sink. When the aim is to estimate the global net land sink, multiplying the mean net ecosystem productivity (NEP) of old unmanaged forests with the cover of temperate and boreal forests is basic and ignores the temporal evolution of the sink, that is, disturbances also affect old-growth forest everywhere and our study did not aim at quantifying the impact of disturbance on the contribution of old forest to the global net biome production 7 . Although the accounting approach by Gundersen et al. 1 (see their Supplementary Table S1) seems to be correct, it overlooks the considerable uncertainty in all of the required adjustments, which is essential to come to a fair comparison on which meaningful conclusions could be based.
+
+Their third line of reasoning uses observed soil C pools to evaluate present-day flux measurements. The observational database underlying the results in Luyssaert et al. 2 represent fluxes over an approximately 20-year period centred around the year 2000. After accounting for the biological volatile emissions and losses through dissolved (in)organic C fluxes, the adjusted fluxes should have been compared to the changes in soil C pools between 1990 and 2010 to draw conclusions on the quality of the eddy-covariance measurements. The method applied by Gundersen et al. 1 assumes that the fluxes observed around the year 2000 will persist into the next century; a claim not made by Luyssaert et al. 2 and that violates present-day understanding of how plant ecophysiology is driven by changes in environmental conditions 8 .
+
+Along the same lines, Gundersen et al. 1 compares a biometric assessment of NEP based on net primary production (NPP) and heterotrophic respiration (Rh) measurements to a micrometeorological assessment based on eddy-covariance measurements. Unless C leaching and subsidies from the plant to the mycorrhizae are accounted for in the biometric estimate, it is likely to underestimate NPP by up to 30% (ref. 9 ). Using total NPP, instead of solely its biomass component, will push the ratio of Rh to NPP towards C neutrality, if not to a C sink. We note that this issue was addressed in Luyssaert et al. 2 by the large uncertainty interval surrounding the Rh:NPP estimates as reproduced in figure 1b of Gundersen et al. 1 . We 2 chose not to stratify the data by the management history of the forests even though the underlying database includes this information because further stratification would have resulted in questionable sample sizes (see Supplementary Table 3 in Gundersen et al. 1 ). The large variation in the biometric NEP estimates for unmanaged forests points to either methodological issues or a large heterogeneity in NPP and/or Rh due to, for example, climate indices such as the El Niño/Southern Oscillation 10 . Data from such processes should only be averaged if their time series are long enough to represent the temporal variation in climate indices. Contrary to most biometric assessments of NEP, micrometeorological assessments were sustained for long enough to meet this criterion. They 1 conclude that a mismatch between biometric and micrometeorological NEP assessments proves that the eddy-covariance method causes overestimation, which is a misguided conclusion that ignores relevant studies 11 , including the observation that where the data were available, eddy-covariance sites passed consistency cross-checking 12 .
+
+Gundersen et al. 1 continue to question our use of the eddy-covariance method by showing that post-processing of micrometeorological NEP estimates introduces additional uncertainties which could result in sign-switches for sites where the micrometeorological NEP estimates are close to zero. The observed sign-switch is the result of the statistical distribution of the measurements rather than a shortcoming of the eddy-covariance method. In other words, for a biometric estimate of a small mean NEP where the uncertainty exceeds the mean flux, small differences in data processing could also result in sign-switches of the mean flux. The poor performance of a method at individual sites—where there are too many gaps and results are sensitive to methodological choices in gap-filling—does not justify questioning the method as a whole. It may justify excluding those specific sites from the analysis although we consider it preferable to account for this uncertainty through the statistical analysis, which should prevent our jumping to conclusions.
+
+Although the database we used in Luyssaert et al. 2 was state-of-the-art 12 years ago, the scaling-up was basic, despite being in line with the data availability. Going beyond Luyssaert et al. 2 would require both revisiting the database to include observations that have become available in the past 12 years, such as refs. 13 , 14 , 15 , 16 , and making use of 12 years of progress in micrometeorological 17 and biometric approaches to reprocess the observations from before publication. Much could probably be gained by refining the scaling-up approach: (1) contrary to 12 years ago, an updated database may contain sufficient observational sites to support stratifying the observations; (2) if the observed sinks could be related to widely available variables, such as stand density, scaling-up could better account for regional differences in forest structure and functioning; and (3) further refinements are to be expected from making use of over a decade worth of progress in mapping intact forests 18 .
+
+Given that the Comment 1 does not make use of new data and their re-analysis confirms that forests continue to accumulate C in old age, although at a rate 30% lower (1.6 ± 0.6 Mg C ha –1  yr –1 instead of 2.4 ± 0.8 Mg C ha –1  yr –1 ) than our estimate 2 , the loss of additional sink capacity should still be accounted for when comparing the C budgets of different forest management systems. This being said, the drivers of this C sink 19 , 20 , its size 3 , 21 and its persistence 22 remain topics of continuing research.
+References
+
+    Gundersen, P. Old-growth forest carbon sinks overestimated. Nature https://doi.org/10.1038/s41586-021-03266-z (2021).
+    14
+    0
+    8
+    0
+
+    Luyssaert, S. et al. Old-growth forests as global carbon sinks. Nature 455 , 213–215 (2008).
+
+    ADS   CAS   Article   Google Scholar  
+    1,131
+    52
+    792
+    15
+
+    Yang, Y., Luo, Y. & Finzi, A. C. Carbon and nitrogen dynamics during forest stand development: a global synthesis. New Phytol . 190 , 977–989 (2011).
+
+    CAS   Article   Google Scholar  
+    180
+    9
+    146
+    2
+
+    Pan, Y. et al. A large and persistent carbon sink in the world’s forests. Science 333 , 988–993 (2011).
+
+    ADS   CAS   Article   Google Scholar  
+    4,058
+    97
+    3,103
+    23
+
+    Fontaine, S. et al. Stability of organic carbon in deep soil layers controlled by fresh carbon supply. Nature 450 , 277–280 (2007).
+
+    ADS   CAS   Article   Google Scholar  
+    1,422
+    52
+    926
+    9
+
+    Houlton, B. Z. & Dahlgren, R. A. Convergent evidence for widespread rock nitrogen sources in Earth’s surface environment. Science 62 , 58–62 (2018).
+
+    ADS   Article   Google Scholar  
+    118
+    2
+    127
+    1
+
+    Anderegg, W. R. L. et al. Climate-driven risks to the climate mitigation potential of forests. Science 368 , eaaz7005 (2020).
+
+    CAS   Article   Google Scholar  
+    115
+    1
+    89
+    1
+
+    Hyvönen, R. et al. The likely impact of elevated [CO 2 ], nitrogen deposition, increased temperature and management on carbon sequestration in temperate and boreal forest ecosystems: a literature review. New Phytol . 173 , 463–480 (2006).
+
+    Article   Google Scholar  
+    512
+    14
+    374
+    3
+
+    Clark, D. A. et al. Net primary production in tropical forests: an evaluation and synthesis of existing field data. Ecol. Appl . 11 , 371–384 (2001).
+
+    Article   Google Scholar  
+    470
+    24
+    226
+    3
+
+    Wharton, S. & Falk, M. Climate indices strongly influence old-growth forest carbon exchange. Environ. Res. Lett . 11 , 044016 (2016).
+
+    ADS   Article   Google Scholar  
+    20
+    1
+    19
+    0
+
+    Campioli, M. et al. Evaluating the convergence between eddy-covariance and biometric methods for assessing carbon budgets of forests. Nat. Commun . 7 , 13717 (2016).
+
+    ADS   CAS   Article   Google Scholar  
+    67
+    0
+    60
+    1
+
+    Luyssaert, S. et al. Toward a consistency cross-check of eddy covariance flux-based and biometric estimates of ecosystem carbon balance. Glob. Biogeochem. Cycles 23 , https://doi.org/10.1029/2008GB003377 (2009).
+    62
+    1
+    36
+    0
+
+    Nord-Larsen, T., Vesterdal, L., Bentsen, N. S. & Larsen, J. B. Ecosystem carbon stocks and their temporal resilience in a semi-natural beech-dominated forest. For. Ecol. Manage . 447 , 67–76 (2019).
+
+    Article   Google Scholar  
+    11
+    0
+    9
+    0
+
+    Kwon, H., Law, B. E., Thomas, C. K. & Johnson, B. G. The influence of hydrological variability on inherent water use efficiency in forests of contrasting composition, age, and precipitation regimes in the Pacific Northwest U.S. Agric. For. Meteorol . 249 , 488–500 (2018).
+
+    ADS   Article   Google Scholar  
+    19
+    3
+    12
+    0
+
+    Law, B. E. & Berner, L. T. NACP TERRA-PNW: Forest Plant Traits, NPP, Biomass, and Soil Properties 1999–2014 https://doi.org/10.3334/ORNLDAAC/1292 (ORNL DAAC, 2015).
+    4
+    0
+    0
+    0
+
+    Falk, M., Wharton, S., Schroeder, M., Ustin, S. L. & Paw, U. K. T. Flux partitioning in an old-growth forest: seasonal and interannual dynamics. Tree Physiol . 28 , 509–520 (2008).
+
+    CAS   Article   Google Scholar  
+    78
+    5
+    59
+    1
+
+    FLUXNET2015 Dataset: Data Processing https://fluxnet.fluxdata.org/data/fluxnet2015-dataset/data-processing/ (Fluxnet, accessed 25 April 2020).
+
+    Potapov, P. et al. The last frontiers of wilderness: tracking loss of intact forest landscapes from 2000 to 2013. Sci. Adv . 3 , e1600821 (2017).
+
+    ADS   Article   Google Scholar  
+    342
+    7
+    373
+    0
+
+    Magnani, F. et al. The human footprint in the carbon cycle of temperate and boreal forests. Nature 447 , 849–851 (2007).
+
+    ADS   CAS   Article   Google Scholar  
+    814
+    28
+    733
+    8
+
+    Jiang, M. et al. The fate of carbon in a mature forest under carbon dioxide enrichment. Nature 580 , 227–231 (2020).
+
+    ADS   CAS   Article   Google Scholar  
+    107
+    8
+    90
+    1
+
+    Zhou, G. et al. Old-growth forests can accumulate carbon in soils. Science 314 , 1417–1417 (2006).
+
+    ADS   CAS   Article   Google Scholar  
+    356
+    18
+    242
+    7
+
+    Nabuurs, G.-J. et al. First signs of carbon sink saturation in European forest biomass. Nat. Clim. Chang . 3 , 792–796 (2013).
+
+    ADS   CAS   Article   Google Scholar  
+    237
+    6
+    164
+    2
+
+Download references
+Author information
+Affiliations
+
+    Faculty of Science, Vrije Universiteit Amsterdam, Amsterdam, The Netherlands
+
+    Sebastiaan Luyssaert
+
+    Max-Planck Institute for Biogeochemistry, Jena, Germany
+
+    E.-Detlef Schulze
+
+    Bioclimatology, University of Göttingen, Göttingen, Germany
+
+    Alexander Knohl
+
+    College of Forestry, Oregon State University, Corvallis, OR, USA
+
+    Beverly E. Law
+
+    Laboratoire des Sciences du Climat et de l’Environnement (LSCE/IPSL), CEA-CNRS-UVSQ, Université Paris-Saclay, Gif-sur-Yvette, France
+
+    Philippe Ciais
+
+    School of GeoSciences, The University of Edinburgh, Edinburgh, UK
+
+    John Grace
+
+Contributions
+
+All authors contributed to the writing of the Matters Arising Reply. We could not reach Annett Börner and Dominik Hessenmöller, who co-authored the original study.
+Corresponding author
+
+Correspondence to Sebastiaan Luyssaert .
+Ethics declarations
+Competing interests
+
+The authors declare no competing interests.
+Additional information
+
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Rights and permissions
+
+Reprints and Permissions
+About this article
+Verify currency and authenticity via CrossMark
+Cite this article
+
+Luyssaert, S., Schulze, ED., Knohl, A. et al. Reply to: Old-growth forest carbon sinks overestimated. Nature 591, E24–E25 (2021). https://doi.org/10.1038/s41586-021-03267-y
+
+Download citation
+
+    Published : 24 March 2021
+
+    Issue Date : 25 March 2021
+
+    DOI : https://doi.org/10.1038/s41586-021-03267-y
+
+Share this article
+
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+
+Provided by the Springer Nature SharedIt content-sharing initiative
+Subjects
+
+    Carbon cycle
+    Ecosystem ecology
+
+Further reading
+
+    Land Use Effects on Climate: Current State, Recent Progress, and Emerging Topics
+        Julia Pongratz
+        Clemens Schwingshackl
+        Suqi Guo
+
+    Current Climate Change Reports (2021)
+    0
+    0
+    0
+    0
+
+Comments
+
+By submitting a comment you agree to abide by our Terms and Community Guidelines . If you find something abusive or that does not comply with our terms or guidelines please flag it as inappropriate.
+
+You have full access to this article via your institution.
+Download PDF
+
+You have full access to this article via University of Washington
+Download PDF
+Associated Content
+Old-growth forests as global carbon sinks
+
+    Sebastiaan Luyssaert
+    E. -Detlef Schulze
+    John Grace
+
+Letter 11 Sept 2008
+
+    Sections
+    References 
+
+    References
+    Author information
+    Ethics declarations
+    Additional information
+    Rights and permissions
+    About this article
+    Further reading
+    Comments 
+
+Advertisement
+
+Nature ( Nature ) ISSN 1476-4687 (online) ISSN 0028-0836 (print)
+nature.com sitemap
+Nature portfolio
+
+    About us
+    Press releases
+    Press office
+    Contact us
+
+Discover content
+
+    Journals A-Z
+    Articles by subject
+    Nano
+    Protocol Exchange
+    Nature Index
+
+Publishing policies
+
+    Nature portfolio policies
+    Open access
+
+Author & Researcher services
+
+    Reprints & permissions
+    Research data
+    Language editing
+    Scientific editing
+    Nature Masterclasses
+    Nature Research Academies
+
+Libraries & institutions
+
+    Librarian service & tools
+    Librarian portal
+    Open research
+    Recommend to library
+
+Advertising & partnerships
+
+    Advertising
+    Partnerships & Services
+    Media kits
+    Branded content
+
+Career development
+
+    Nature Careers
+    Nature Conferences
+    Nature events
+
+Regional websites
+
+    Nature Africa
+    Nature China
+    Nature India
+    Nature Italy
+    Nature Japan
+    Nature Korea
+    Nature Middle East
+
+Legal & Privacy
+
+    Privacy Policy
+    Use of cookies
+    Manage cookies/Do not sell my data
+    Legal notice
+    Accessibility statement
+    Terms & Conditions
+    California Privacy Statement
+
+Springer Nature
+
+© 2022 Springer Nature Limited
+Close banner Close
+Nature Briefing
+
+Sign up for the Nature Briefing newsletter — what matters in science, free to your inbox daily.
+Email address
+Sign up
+I agree my information will be processed in accordance with the Nature and Springer Nature Limited Privacy Policy .
+View PDF
+3
+0
+0
+0
+hide

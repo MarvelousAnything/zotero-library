@@ -1,0 +1,58 @@
+ 
+A CS Research Topic Generator 
+or 
+How To pick A Worthy Topic In 10 Seconds 
+ 
+ 
+Computer Science is facing a major roadblock to further research. The problem is most evident with students, but afflicts many researchers as well: people simply have a tough time inventing research topics that sound sufficiently profound and exciting. Many Ph.D. students waste needless years simply coming up with a thesis topic. And researchers often resort to reading documents from government grant agencies so they will know what to work on for the next proposal! 
+ 
+Good news for the CS community: the problem has at last been solved. The table below provides the answer. 
+ 
+Column 1 	Column 2 	Column 3 
+		 
+integrated 	mobility 	network 
+parallel 	functional 	preprocessor 
+virtual 	programmable 	compiler 
+interactive 	distributed 	system 
+responsive 	logical 	interface 
+synchronized 	digital 	protocol 
+balanced 	concurrent 	architecture 
+virtual 	knowledge-based 	database 
+meta-level 	multimedia 	algorithm 
+optimized 	binary 	toolkit 
+active 	object-oriented 	display 
+parameterized 	secure 	technology 
+conceptual 	high-speed 	solution 
+scalable 	real-time 	language 
+dynamic 	functional 	agent 
+high-level 	parallelizing 	theorem prover 
+collaborative 	watermarking 	work cluster 
+type-safe 	proxy 	cache 
+reliable 	cloud-based 	network 
+open 	big data 	data center 
+coordinated 	bioinformatic 	hypervisor 
+ 
+ 
+To generate a technical phrase, randomly choose one item from each column. For example, selecting synchronized from column 1, secure from column 2, and protocol from column 3 produces: 
+ 
+A synchronized secure protocol 
+ 
+ 
+Best of all, two phrases can be combined with simple connectives, making the result suitable for the most demanding use. Possible connectives include: 
+ 
+for 
+related to 
+derived from 
+applied to 
+embedded in 
+ 
+ 
+For example, one could generate a thesis title by selecting a second phrase and a connective: 
+ 
+A synchronized secure protocol for an interactive knowledge-based system 
+ 
+ 
+The technique described here for selecting a research topic is far superior to the method currently in use because it can be automated -- a computer program can be written to select a phrase at random whenever one is needed. Furthermore, thanks to an enhancement by Ian Stark at The University of Edinburgh in Scotland, it is possible to automate an additional step in the research process by performing an automated literature search. Try the system by first generating a random topic and then performing an automated literature search. 
+ 
+ 
+ 

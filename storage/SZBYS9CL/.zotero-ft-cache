@@ -1,0 +1,53 @@
+Stability Analysis of Lotka–Volterra Equations for Predator-Prey Systems
+Crystal L. Bennett
+Department of Mathematics, North Carolina A&T State University, Greensboro, NC clbennet@ncat.edu, clbenn88@gmail.com http://iblend.wikispaces.com/Crystal+Bennett
+
+ABSTRACT
+The Lotka–Volterra equations model an ecological relationship between a hunter and it’s food source, or a predator and it’s prey. In this project we will do stability analysis on the equilibrium points of a simple Lotka –Volterra model and compare it to one that accounts for overcrowding. Usage of techniques like a Liapunov function and the Poincare’-Bendixson Theorem allow us a more complete analysis of equilibrium points than the Jacobian and Globalization techniques.
+
+Linearizing the system and doing Eigen value analysis on (0,0) we see that the origin is a saddle point.
+
+BACKGROUND
+The Lotka-Volterra model of a predator –prey system was developed by Lotka (1925) and Volterra (1926). LotkaVolterra in it’s simplest model of predator prey interaction does not account for overcrowding, nor does it include diffusion or time delays. It is deemed simple because it accounts only for population growth( or decline) based on predator prey interaction.
+Simple L-V
+• Consider pair of species; predator species, and prey species. • Predators = y population • Prey – x population • Prey population is total food supply for predators. • All parameters a, b, c, d >0; and x, y> or = 0. So confined to
+Q1.
+
+Steps taken to analyze (c/d, a/b) • Eigen values analysis yields imaginary values • May have a center • Draw nullclines to get better picture • Still cannot determine if it spirals in to equilibrium point
+or outwards • So now we try a Liapunov Function so we can use
+separation of variables to get a solid answer
+
+• Predators or prey being absent leads to simplest form of logistic growth
+• Predators are present means that the prey population decreases based on predator prey encounter.
+• Prey present in model means there is an increase in predator population based on predator prey encounter.
+• The equilibrium points are (0,0) and (c/d, a/b).
+
+Liapunov Formula applied to our system. Solution L(x,y) to system.
+
+•So L(x,y) is a constant on solution curves of the system when x, y> 0.
+•So we conclude (c/d, a/b) is a stable center.
+
+L-V with Overcrowding
+• Predator Prey equations for populations with limited growth. • Notice, when x, or y = 0, We get the logistic population
+growth or decline.
+
+•Now, we analyze the nullclines when the intersect at a point (x0, y0).
+
+•When y = 0, equilibriums are (0,0), and (a/λ,0). •When x = 0, y’ is negative and since y > 0 , everything draws to the origin.
+
+Nullclines for system gives two cases. When the nullclines meet and when they don’t.
+• Based on the nullclines in this case everything gets drawn to (a/λ,0), saddle point.
+• The Predator population will become extinct and the prey hit their limit value (a/λ,0).
+
+•Eigen values from the Jacobian give us all negative or all complex with negative real parts so we see the point is asymptotically stable.
+CONCLUSIONS
+• Through the usage of the Jacobian and globalization techniques you can find the equilibrium points Lotka – Volterra systems.
+• Too many parameters, may require another method to determine stability of periodic solutions.
+• As you add more criteria to Lotka – Volterra like overcrowding, diffusion, or time delays it becomes more difficult to analyze nullclines and interpret globalization.
+• More advanced techniques may need to be acquired to analyze more complex modified Lotka-Volterra systems.
+REFERENCES
+Differential Equations, Dynamical Systems, & an Introduction to Chaos, 2e, 2004; Hirsch, Smale, Devaney. P. 239 -246.
+Differential Equations with Boundary Value Problems, 7e, 2009; Zill, Cullen.
+Boyce, W. E. and DiPrima, R. C. Elementary Differential Equations and Boundary Value Problems, 5th ed. New York: Wiley, p. 494, 1992.
+Zwillinger, D. Handbook of Differential Equations, 3rd ed. Boston, MA: Academic Press, p. 135, 1997.
+

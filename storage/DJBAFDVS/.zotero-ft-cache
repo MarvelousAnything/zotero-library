@@ -1,0 +1,105 @@
+
+
+Either your browser does not support Javascript or you have disabled it. A web page that does not use Javascript is at Spouting cylinder fluid flow w/o Javascript. .
+4physics.com logo. 	
+Water Flow from a Spouting Cylinder
+
+Top » Consulting » Tutorials » Spouting Cylinder
+
+Spouting cylinder photo. 	
+
+A spouting cylinder provides a visual demonstration of incompressible fluid pressure as a function of depth. Since water is nearly incompressible this is an experiment children can do themselves.
+
+The simple experiment can be revisited, or introduced for the first time, to older students where a fuller view of the physics can be appreciated. This writing is primarily aimed at the latter group.
+
+Assume that the spouting cylinder is full of water. Pressure is defined as force per unit area. Therefore, the pressure at some depth below the water's surface is the weight of the water above that depth divided by the cross-sectional area. We write this as
+P = W A
+	(1)
+
+where W is the weight of the water above and A is the cylinder's cross-sectional area.
+Consider the case where the cylinder is filled to the top and one of the three plugs along the side is removed. Since the pressure is higher as you go further beneath the water's surface, the water will spill out of a lower outlet harder and faster than an outlet closer to the top of the cylinder.
+
+The question is just how fast water gushes from one of these outlets over time. To answer this we look at water spouting from a single aperture as depicted in the schematic on the right.
+
+An incompressible fluid, water, whose mass density is ρ is poured into the spouting tube to its full height H . The cross-section of the cylinder is a circle of radius R and area A .
+
+Water passes from a small aperture at height c as labeled in the sketch. This opening has a circular cross-section with an area a and a radius of r . The velocity of the water as it exits the cylinder is horizontal at a speed v x .
+
+The rate at which a volume of water leaves the cylinder is called the flux. This can be expressed as
+d V d t = v x a .
+	(2)
+	Schematic for discussions.
+
+At some time t the surface of the water is at a height h . As the water exits the cylinder the water level drops. The water volume in the tube is decreasing with a loss rate given by
+d V d t = − A d h d t .
+	(3)
+
+Since the water is not created or destroyed it is a conserved quantity. This allows us to equate Eqs. (2) and (3) to write
+v x a = − A d h d t .
+	(4)
+
+where v x is the speed of the exiting water, a is the aperture's cross-sectional area, and h is the fluid height at time t .
+
+To determine the water's exiting speed over time we need more information. We use energy conservation to complete the problem.
+
+Let's examine what happens to a small Δ m mass from one instant in time to the next. A picture of this is below.
+
+Mass dm at height h exits the cylinder at height c with an exit speed of v_x.
+
+Since the energy of our small mass must remain unchanged, we require that
+( Δ m ) g h = ( Δ m ) g c + 1 2 ( Δ m ) v 2 x
+	(5)
+
+where Δ m is the mass, g is the acceleration of gravity, h and c are the heights of the fluid and the aperture respectively, and v x is the water's exiting speed.
+
+Multiplying both sides by 2 and dividing by the mass Δ m we have
+2 g h = 2 g c + v 2 x .
+	(6)
+
+Taking the derivative of Eq.(6) with respect to time yields
+2 g d h d t = 2 v x d v x d t .
+	(7)
+
+This gives a fluid level time derivative of
+d h d t = v x g d v x d t .
+	(8) 
+
+Plugging into Eq.(4) we rid our primary expression of its dependence on the varying fluid level.
+− v x a A = v x g d v x d t .
+	(9)
+
+We cancel v x since it appears on both sides of Eq.(9). Rearranging the integrations over time and fluid exit velocity are set up as follows.
+− g a A ∫ t 0 d t = ∫ v x v x o d v x
+	(10)
+
+where g is the acceleration of gravity and a A is the ratio of the aperture and cylinder cross-sectional areas. The integrations begin at time is zero and velocity is at its initial value denoted as v x o . The upper limits are an arbitrary time t when the exit velocity is v x
+
+Performing the integration leaves us with
+− a A g t = v x − v x o .
+	(11)
+
+Note that Eq.(11) should be used with an eye on reality. It is valid from time is zero until the water level is at the aperture - that is, until v x is zero.
+
+We use Eq.(6) to determine the initial fluid exit velocity v x o . When we first started are fluid velocity quest, we stated that the cylinder would be completely filled to its height H . Plugging into Eq.(6) we obtain the initial fluid exit velocity of
+v x o = 2 g ( H − c ) ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ √
+	(12)
+
+where c is the aperture height as shown in the two drawings above. Substituting Eq.(12) into Eq.(11) we have
+− a A g t = v x − 2 g ( H − c ) ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ √
+	(13)
+
+or
+v x = 2 g ( H − c ) ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ √ − a A g t .
+	(14)
+
+Reviewing the symbols in Eq.(14) we have the fluid's exit velocity v x from a height c aperture of cross-sectional area a at time t . The sprouting tube has a cross-sectional area A and was initially filled to a height H . Acceleration of gravity is denoted as g . Keeping the physical situation in mind, Eq.(14) is valid for positive v x , i.e. until the fluid height drops to that of the aperture.
+
+After leaving the cylinder the water's path is parabolic in time as given by standard kinematics. (A pretty good estimate can be made ignoring air resistance in most cases.)
+
+©2005-2012 4Physics ®
+
+Powered by Google Translate Translate
+
+Geo Visitors Map 	Get your own spouting cylinder. 	
+
+ˆ

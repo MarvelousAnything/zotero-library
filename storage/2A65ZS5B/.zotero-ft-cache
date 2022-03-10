@@ -1,0 +1,80 @@
+ 
+Skip to main content 
+Cornell University 
+We gratefully acknowledge support from 
+the Simons Foundation and member institutions. 
+arXiv.org > cs > arXiv:2002.04634 
+ 
+Help | Advanced Search 
+Search 
+Computer Science > Neural and Evolutionary Computing 
+(cs) 
+[Submitted on 11 Feb 2020] 
+Title: Neuroevolution of Neural Network Architectures Using CoDeepNEAT and Keras 
+Authors: Jonas da Silveira Bohrer , Bruno Iochins Grisci , Marcio Dorn 
+Download PDF 
+ 
+    Abstract: Machine learning is a huge field of study in computer science and statistics dedicated to the execution of computational tasks through algorithms that do not require explicit instructions but instead rely on learning patterns from data samples to automate inferences. A large portion of the work involved in a machine learning project is to define the best type of algorithm to solve a given problem. Neural networks - especially deep neural networks - are the predominant type of solution in the field. However, the networks themselves can produce very different results according to the architectural choices made for them. Finding the optimal network topology and configurations for a given problem is a challenge that requires domain knowledge and testing efforts due to a large number of parameters that need to be considered. The purpose of this work is to propose an adapted implementation of a well-established evolutionary technique from the neuroevolution field that manages to automate the tasks of topology and hyperparameter selection. It uses a popular and accessible machine learning framework - Keras - as the back-end, presenting results and proposed changes concerning the original algorithm. The implementation is available at GitHub ( this https URL ) with documentation and examples to reproduce the experiments performed for this work.  
+ 
+Comments: 	The original work was presented by Jonas da Silveira Bohrer in partial fulfillment of the requirements for the degree of Bachelor in Computer Engineering at the Institute of Informatics of the Federal University of Rio Grande do Sul (UFRGS), Brazil, with Marcio Dorn as advisor and Bruno Iochins Grisci as co-advisor. The original text is available at Lume: this https URL 
+Subjects: 	Neural and Evolutionary Computing (cs.NE) ; Computer Vision and Pattern Recognition (cs.CV); Machine Learning (cs.LG) 
+MSC classes: 	68T20, 68T05 
+ACM  classes: 	I.2.6 
+Cite as: 	arXiv:2002.04634 [cs.NE] 
+  	(or arXiv:2002.04634v1 [cs.NE] for this version) 
+Submission history 
+From: Bruno Iochins Grisci [ view email ] 
+[v1] Tue, 11 Feb 2020 19:03:34 UTC (2,977 KB) 
+Full-text links: 
+Download: 
+ 
+    PDF 
+    Other formats  
+ 
+( license ) 
+Current browse context: 
+cs.NE 
+< prev   |   next > 
+new | recent | 2002 
+Change to browse by: 
+cs 
+cs.CV 
+cs.LG 
+References & Citations 
+ 
+    NASA ADS 
+    Google Scholar 
+    Semantic Scholar 
+ 
+DBLP - CS Bibliography 
+listing | bibtex 
+a export bibtex citation Loading... 
+Bookmark 
+BibSonomy logo Mendeley logo Reddit logo ScienceWISE logo 
+Bibliographic Tools 
+Bibliographic and Citation Tools 
+Bibliographic Explorer Toggle 
+Bibliographic Explorer ( What is the Explorer? ) 
+Litmaps Toggle 
+Litmaps ( What is Litmaps? ) 
+scite.ai Toggle 
+scite Smart Citations ( What are Smart Citations? ) 
+Code & Data 
+Related Papers 
+About arXivLabs 
+Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? ) 
+ 
+    About 
+    Help 
+ 
+    contact arXiv Click here to contact arXiv Contact 
+    subscribe to arXiv mailings Click here to subscribe Subscribe 
+ 
+    Copyright 
+    Privacy Policy 
+ 
+    Web Accessibility Assistance 
+ 
+    arXiv Operational Status 
+    Get status notifications via email or slack 
+ 

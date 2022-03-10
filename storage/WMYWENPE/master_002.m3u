@@ -1,0 +1,9 @@
+#EXTM3U
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=399000,RESOLUTION=480x270,CODECS="avc1.66.30, mp4a.40.2",CLOSED-CAPTIONS=NONE
+https://rferl-vh.akamaihd.net/i/retry/Pangeavideo/2019/08/f/f2/f21f660c-7026-4a5e-9179-49149436d862,_mobile,,_hq,_fullhd,.mp4.csmil/index_0_av.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=698000,RESOLUTION=640x360,CODECS="avc1.64001f, mp4a.40.2",CLOSED-CAPTIONS=NONE
+https://rferl-vh.akamaihd.net/i/retry/Pangeavideo/2019/08/f/f2/f21f660c-7026-4a5e-9179-49149436d862,_mobile,,_hq,_fullhd,.mp4.csmil/index_1_av.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1571000,RESOLUTION=1280x720,CODECS="avc1.64001f, mp4a.40.2",CLOSED-CAPTIONS=NONE
+https://rferl-vh.akamaihd.net/i/retry/Pangeavideo/2019/08/f/f2/f21f660c-7026-4a5e-9179-49149436d862,_mobile,,_hq,_fullhd,.mp4.csmil/index_2_av.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=3510000,RESOLUTION=1920x1080,CODECS="avc1.64001f, mp4a.40.2",CLOSED-CAPTIONS=NONE
+https://rferl-vh.akamaihd.net/i/retry/Pangeavideo/2019/08/f/f2/f21f660c-7026-4a5e-9179-49149436d862,_mobile,,_hq,_fullhd,.mp4.csmil/index_3_av.m3u8

@@ -1,0 +1,407 @@
+
+
+    Deutsch
+    English
+    Home
+    Mechanics
+        Gases and liquids
+    Chemistry
+        Structure of matter
+        Atomic models
+        Chemical bonds
+    Material science
+        Structure of metals
+        Ductility of metals
+        Solidification of metals
+        Alloys
+        Steelmaking
+        Iron-carbon phase diagram
+        Heat treatment of steels
+        Material testing
+    Mechanical power transmission
+        Basics
+        Gear types
+        Belt drive
+        Planetary gear
+        Involute gear
+        Cycloidal gear
+    Thermodynamics
+        Temperature
+        Kinetic theory of gases
+        Heat
+        Thermodynamic processes in closed systems
+        Thermodynamic processes in open systems
+    Optics
+        Geometrical optics
+
+Search
+logo tec-science tec-science
+logo tec-science
+
+    Deutsch
+    English
+    Home
+    Mechanics
+    Chemistry
+    Material science
+    Mechanical power transmission
+    Thermodynamics
+    Optics
+
+Home Mechanics Gases and liquids Discharge of liquids (Torricelli’s law)
+
+    Mechanics
+    Gases and liquids 
+
+Discharge of liquids (Torricelli’s law)
+By
+tec-science
+-
+11/21/2019
+21061
+
+Torricelli’s law (Torricelli’s theorem) states that the discharge velocity of a liquid equals a free fall of the liquid from the liquid surface to the opening of the tank.
+
+    1 Outflow speed (discharge velocity)
+        1.1 Derivation
+        1.2 Interpretation of the formula
+        1.3 Torricelli’s Theorem
+        1.4 Communicating vessels 
+    2 Drainage time (discharge time)
+        2.1 Significance for everyday life and technology
+        2.2 Continuity equation (conservation of mass)
+        2.3 Torricelli’s law
+        2.4 Solving the differential equation
+        2.5 Decrease in liquid level over time
+        2.6 Volumetric flow rate of discharge (rate of efflux) 
+    3 Influence of velocity of descent on discharge velocity
+    4 Discharge through large openings
+    5 Real discharge processes
+        5.1 Coefficient of discharge
+        5.2 Viscosity (internal friction)
+            5.2.1 Coefficient of velocity
+            5.2.2 Experimental determination of the coefficient of velocity 
+        5.3 Contraction of streamlines
+            5.3.1 Streamlines
+            5.3.2 Coefficient of contraction 
+        5.4 Relationship between discharge coefficient, velocity coefficient and contraction coefficient
+        5.5 Experimental determination of the coefficient of discharge
+        5.6 Influence of the shape of the outlet on the coefficient of discharge
+            5.6.1 Round openings
+            5.6.2 Rectangular openings 
+
+Outflow speed (discharge velocity)
+Derivation
+
+It is relatively easy to determine the speed at which a liquid in a vessel flows out through an opening due to the hydrostatic pressure . For this we consider a container filled with water. Near the bottom, there is an orifice pointing upwards. The water thus flows upwards at a certain speed, which we would like to know. In this case, the following question must be answered: At what maximum velocity can the water flow out at all, so that the law of conservation of energy is not violated?
+Figure: Calculation of the outflow speed of a liquid through an orifice (Torricelli's law) Figure: Calculation of the outflow speed of a liquid through an orifice (Torricelli’s law)
+
+The answer is: The water can flow out so strongly that the jet is not higher than the water surface (neglecting friction). If this were the case, a higher vessel could be filled with this jet. One could now fill another, even higher vessel. The water would practically move upwards by itself. But this would contradict the law of conservation of energy . Conversely, energy would be destroyed if water only reached a lower height than the original water surface.
+
+From an energetic point of view it is therefore clear that the kinetic energy of a water particle (W kin =½⋅m⋅v d 2 ) can be converted at most completely into potential energy (W pot =m⋅g⋅h). The height h corresponds to the height of the water surface above the opening (or the depth of the opening below the water surface) and m to the mass of a water particle. Thus the velocity of a fluid flowing out from an orifice can be calculated as follows:
+
+W L m ⋅ g ⋅ h = W k i n = 1 2 ⋅ m ⋅ v 2 d (1) (2) (1) W L = W k i n (2) m ⋅ g ⋅ h = 1 2 ⋅ m ⋅ v d 2
+
+v d = 2 g h ‾ ‾ ‾ ‾ √ (3) (3) v d = 2 g h
+
+Note that this formula is only valid under the condition that the liquid can flow out freely. If a counter pressure builds up during the outflow, this formula is no longer valid because the liquid is then prevented from outflowing. This will be the case, for example, if the outflowing liquid is led through a hose into a closed container. As the liquid level in the closed container rises, the air inside it is compressed and a counter pressure builds up. The outflow speed (discharge velocity) is then lower than equation ( 3 3 ) suggests.
+Interpretation of the formula
+
+As can be seen from the equation, the speed at which a fluid flows out of a container with a hole only depends on the difference in height between the opening and the surface of the liquid. It is also irrelevant to the discharge speed (which is directly measured at the opening) whether the opening is pointing upwards, downwards or sideways.
+
+Equation ( 3 3 ) also shows that the discharge velocity does not depend on the density of the liquid! Neglecting friction, it doesn’t matter which liquid is in the container. This seems paradoxical at first, since the hydrostatic pressure in a denser liquid is also greater. As a result, one might think that a denser liquid is then pressed through the opening at a greater pressure and therefore reaches a higher height. The fact that the pressure is higher is completely correct, but this is exactly how the “heavier” liquid reaches the same height!
+
+This interpretation also makes clear that equation ( 3 3 ) is only valid if the sink rate of the liquid surface is negligibly small compared to the discharge velocity. Otherwise a particle at the water surface would not only have positional energy but also kinetic energy. This should then also be taken into account in the energy equation (more on this later).
+Torricelli’s Theorem
+
+The derivation of the discharge speed, however, allows another interesting interpretation. For this we do not consider the outflow process outside the vessel, but the processes inside. Water flows from the surface downwards and then out of the opening. So we consider a small amount of liquid of mass m at the height h above the opening (reference level). This mass can therefore be assigned the positional energy W pot =m⋅g⋅h. On the way to the opening, this positional energy is converted into kinetic energy. At the opening, the kinetic energy is completely converted into kinetic energy W kin =½⋅m⋅v d 2 . Equating the energies yields the same result as equation ( 3 3 ).
+Figure: Calculation of the outflow speed of a liquid through an orifice (Torricelli's law) Figure: Calculation of the outflow speed of a liquid through an orifice (Torricelli’s law)
+
+In the present approach, it is obviously assumed that a water mass considered at the surface performs a free fall to the opening. Even if the water particles actually do not free fall, this is still the same from an energetic point of view. Because with every outflow of a certain mass from the opening, water must sink down to the same extent, i.e. fall down.
+
+Such a continuous process can also be imagined as a discontinuous process. Imagine closing the opening with a finger. For a short time the outlet is opened, so that suddenly a small amount of water flows out immediately. This causes the water level to drop abruptly. It falls down for a short distance in free fall. One can therefore imagine the sinking of the liquid surface when the water flows out of the opening as many small free falls.
+
+The imaginary free fall of a quantity of liquid as it flows out of an orifice is also called Torricelli’s law oder Torricelli’s theorem .
+Communicating vessels
+
+Equation ( 3 3 ) can also be used to explain why a common liquid level results when differently filled vessels are connected to each other. This is also known as the principle of communicating vessels .
+Balancing out to the same water level (communicating vessels) Figure: Balancing out to the same water level (communicating vessels)
+
+The vessel with the lower liquid level can be regarded as the opening of the other vessel. The water flows out through this opening at the velocity v according to the equation ( 3 3 ). So as long as there is a difference in height in the water level, water flows upwards. Only when there is no more difference in the water levels does the water stop flowing out, because the discharge velocity is then zero. In this case, identical water levels have been reached.
+Drainage time (discharge time)
+
+When a liquid drains out of a tank, the question often arises as to how long it will take to completely empty the tank. Such a case could be, for example, when a bathtub filled with water is emptied. In the following, we would therefore like to determine such discharge times for simple geometric containers. To simplify, we assume that the height of the outlet opening (orifice diameter) is small compared to the filling level of the tank.
+
+How quickly a container is drained depends, among other things, on how quickly the liquid flows out. After all, a high outflow velocity means a lot of outflowing mass per time. According to the equation ( 3 3 ), the outflow velocity depends on the head h (depth of flow). In the beginning, when the liquid level is high, a lot of liquid flows out of the tank per unit time. Thus, the level drops relatively quickly at first. As the level drops, however, the discharge velocity decreases more and more and the tank drains more slowly.
+Significance for everyday life and technology
+
+An important conclusion can already be drawn at this point. The higher the liquid level, the faster a tank can be emptied. This is also the reason why a bathtub drains faster if you lie in it. Because thereby one displaces the surrounding water and the filling level is longer on a higher level than if one gets out of the bathtub.
+Water level in a bathtub with and without a person in it Figure: Water level in a bathtub with and without a person in it
+Animation: Water level in a bathtub with and without a person in it
+
+In technical terms, this means that tanks that have to drain very quickly should be built in height rather than in width. A simple alternative to this is to just place the outlet as low as possible with a hose. The deeper the hose is laid, the faster the water flows out and the shorter the discharge time.
+Continuity equation (conservation of mass)
+
+The determination of the discharge time is generally not so easy, as this also depends on the shape of the tank. In technical practice, however, it is mostly vessels with a constant cross-section that are used. This means that the surface area of the liquid remains constant even when the liquid level drops. Think, for example, of rain barrels or beverage tanks in the food industry. Even in the case of a bathtub, the surface area of the water hardly changes over the height (except towards the end, when the water has almost completely drained off).
+
+In the following we therefore consider a tank whose cross-section area A always remains constant. At the bottom of the container the liquid flows out through a hole with the cross-section area A d . First of all we have to find a connection between the discharge velocity of the liquid from the tank and the velocity of descent of the liquid surface in the tank. This is done by the simple condition that the mass which flows out through the hole corresponds exactly to the mass by which liquid inside the tank decrease ( conservation of mass ). For incompressible fluids , this means that the volume of liquid inside the tank is reduced by exactly the amount of the discharged volume.
+Continuity equation (conservation of mass) Figure: Continuity equation (conservation of mass)
+
+For this we consider a very small period of time ⋅Δt at an arbitrary head h. The liquid would drain through the opening at a constant velocity v d and thus cover the distance Δs=v d ⋅Δt. The cross section of the hole A d can now be used to determine the discharged liquid volume ΔV:
+
+Δ V = Δ s ⋅ A d = v d ⋅ Δ t ⋅ A d (4) (4) Δ V = Δ s ⋅ A d = v d ⋅ Δ t ⋅ A d
+
+The discharging liquid causes the liquid level inside the tank to drop. Within the considered time period Δt), the velocity of descent is assumed to be constant and is denoted by v. Thus the liquid level drops within this time by the distance Δh=v⋅Δt. The liquid volume in the tank thus decreases by an amount ΔV analogous to the equation above:
+
+Δ V = Δ h ⋅ A = v ⋅ Δ t ⋅ A (5) (5) Δ V = Δ h ⋅ A = v ⋅ Δ t ⋅ A
+
+Due to the already mentioned conservation of mass , the discharged volume according to equation ( 4 4 ) corresponds to the volume of liquid removed from the container according to equation ( 5 5 ). Both equations can thus be equated and a relation between the discharge velocity v d and the velocity of descent v is obtained:
+
+v ⋅ Δ t ⋅ A = v d ⋅ Δ t ⋅ A d v = A d A ⋅ v d           continuity equation for incompressible substances (6) (7) (6) v ⋅ Δ t ⋅ A = v d ⋅ Δ t ⋅ A d (7) v = A d A ⋅ v d           continuity equation for incompressible substances
+
+Equation ( 7 7 ) is also called continuity equation and ultimately describes mass conservation. In concrete terms, this means that the smaller the cross-section, the faster a liquid must flow, since the same mass must be moved through it within the same time. In this respect, the tank can be regarded as a pipe system whose cross-section tapers from A to A d .
+
+At this point, it becomes clear why the assumption of a constant container cross-section A over the height simplifies much in the following.This is because the velocity of descent and discharge velocity are always in the same ratio, independent of the filling level.
+Torricelli’s law
+
+Once the relationship between the velocity of descent and the discharge velocity has been clarified, the dependence of the discharge velocity on the head must be found. Torricelli’s theorem helps in the form of an equation ( 3 3 ), which can be used directly in equation ( 7 7 ):
+
+v = A d A ⋅ 2 g h ‾ ‾ ‾ ‾ √       velocity of descent (8) (8) v = A d A ⋅ 2 g h       velocity of descent
+
+At this point we can see in mathematical form what has already been explained. The velocity of descent depends on the liquid level, which in turn affects the level itself and thus influences the velocity of descent again. However, the velocity of descent is nothing more than the rate of change of the liquid level. I.e. the velocity of descent corresponds to the change of the level dh per time dt. The negative sign indicates that the level decreases with a positive velocity of descent.
+
+v = – d h d t (9) (9) v = – d h d t
+
+If one combines both equations, one finally obtains the following differential equation , which is to be solved:
+
+− d h d t = A d A ⋅ 2 g h ‾ ‾ ‾ ‾ √ (10) (10) − d h d t = A d A ⋅ 2 g h
+
+Solving the differential equation
+
+In order to make the calculations clearer, the constant quantities in the differential equation are combined to the constant C):
+
+− d h d t = C ⋅ h ‾ √       and  C = 2 g ‾ ‾ ‾ √ ⋅ A d A = konstant (11) (11) − d h d t = C ⋅ h       and  C = 2 g ⋅ A d A = konstant
+
+To solve this differential equation, separate the variables h and t. I.e. all variables dependent on the variable h come on one side of the equation and all variables dependent on the variable t come on the other side of the equation. It does not matter which side the constant C is on, because it doesn’t depend on either of the two variables.
+
+− d h h ‾ √ = C ⋅ d t (12) (12) − d h h = C ⋅ d t
+
+Both sides of the equation can now be integrated independently. The integration limits result from the following consideration. At time 0 the head is H and at any other time t the head is h.
+
+− ∫ H h d h h ‾ √ = ∫ 0 t C ⋅ d t − [ 2 h ‾ √ ] h H = C ⋅ [ t ] t 0 − 2 ( h ‾ √ − H ‾ ‾ √ ) = C ⋅ t t = 2 C ( H ‾ ‾ √ − h ‾ √ ) (13) (14) (15) (16) (13) − ∫ H h d h h = ∫ 0 t C ⋅ d t (14) − [ 2 h ] H h = C ⋅ [ t ] 0 t (15) − 2 ( h − H ) = C ⋅ t (16) t = 2 C ( H − h )
+
+For the sake of completeness, the constant C is applied in the equation above. The time t required to drain a container from the level H to the level h can be calculated using the following formula:
+
+t = 2 2 g ‾ ‾ ‾ √ ⋅ A d A      = C ( H ‾ ‾ √ − h ‾ √ ) t = A A d 2 g ‾ ‾ √ ( H ‾ ‾ √ − h ‾ √ ) (17) (18) (17) t = 2 2 g ⋅ A d A ⏟ = C ( H − h ) (18) t = A A d 2 g ( H − h )
+
+For a complete emptying of the tank h equals 0 and the discharge time t can be calculated using the following formula:
+
+t d = A A d 2 g ‾ ‾ √ H ‾ ‾ √ t d = A A d 2 H g ‾ ‾ ‾ ‾ √       discharge time (19) (20) (19) t d = A A d 2 g H (20) t d = A A d 2 H g       discharge time
+
+Remark
+
+It was explained at the beginning that a high tank with the same filling volume drains faster than a wider one. The formula for calculating the discharge time seems to be contradictory. According to this equation, the discharge time increases when the liquid level is higher.
+
+Of course, this is not a contradiction in terms, because with the same filling volume, the cross-sectional area of the container decreases to the same extent as the filling level increases. If, for example, the cross-sectional area is halved, the head doubles. However, for calculating the discharge time, the head ist taken into account by its square root. If the head is doubled, this would correspond to a factor of 1.4 (=√2). By halving the cross-sectional area, this reduces the discharge time by a factor of 0.7 (=√2 ⋅ 0.5).
+Decrease in liquid level over time
+
+If one wants to calculate the decrease of the liquid level as a function of time, the equation ( 18 18 ) has to be rearranged for the liquid level h:
+
+t A d A g 2 ‾ ‾ √ ⋅ t h ‾ √ h = A A d 2 g ‾ ‾ √ ( H ‾ ‾ √ − h ‾ √ ) = H ‾ ‾ √ − h ‾ √ = H ‾ ‾ √ – A d A g 2 ‾ ‾ √ ⋅ t = ( H ‾ ‾ √ – A d A g 2 ‾ ‾ √ ⋅ t ) 2 (21) (22) (23) (24) (21) t = A A d 2 g ( H − h ) (22) A d A g 2 ⋅ t = H − h (23) h = H – A d A g 2 ⋅ t (24) h = ( H – A d A g 2 ⋅ t ) 2
+
+h ( t ) = ( H ‾ ‾ √ – A d A g 2 ‾ ‾ √ ⋅ t ) 2 (25) (25) h ( t ) = ( H – A d A g 2 ⋅ t ) 2
+
+The level thus decreases quadratically over time. The apex of the parabola corresponds to the time at which the container is completely discharged.
+Decrease in filling level over time Figure: Decrease in filling level over time
+Volumetric flow rate of discharge (rate of efflux)
+
+According to the equation ( 8 8 ) the discharge velocity v can be calculated for each head h. Therefore, it is also possible to calculate the volumetric flow rate of discharge V* (also referred to as rate of efflux or just discharge rate ) of the fluid flowing through the outlet. The volumetric flow rate is the volume of liquid ΔV per time Δt that exits the tank:
+
+V ˙ = Δ V Δ t       [ V ˙ ] = m³ s       volumetric flow rate of discharge (26) (26) V ˙ = Δ V Δ t       [ V ˙ ] = m³ s       volumetric flow rate of discharge
+
+The discharge rate V* can be determined according to this definition by rearranging the equation ( 4 4 ):
+
+Δ V = A d ⋅ v d ⋅ Δ t Δ V Δ t = V ˙ = A d ⋅ v d (27) (28) (27) Δ V = A d ⋅ v d ⋅ Δ t (28) Δ V Δ t = V ˙ = A d ⋅ v d
+
+Finally, the discharge velocity due to the equation ( 3 3 ) can now be used in equation ( 28 28 ) to calculate the discharge rate as a function of head:
+
+V ˙ = A d ⋅ 2 g h ‾ ‾ ‾ ‾ √ (29) (29) V ˙ = A d ⋅ 2 g h
+
+Influence of velocity of descent on discharge velocity
+
+It has already been said that the derived formulas only apply as long as the velocity of descent is negligibly small compared to the discharge velocity. Especially with large openings, however, a lot of liquid can flow out. The level then drops relatively quickly. According to Torricelli’s theorem, this is no longer a simple free fall, but a free fall with an initial velocity. The initial velocity corresponds to the velocity of descent of the liquid level at the current time.
+Influence of the rate of decrease on the outflow velocity Figure: Influence of the rate of decrease on the outflow velocity
+
+From an energetic point of view, a considered amount of liquid on the surface has therefore not only positional energy (m⋅g⋅h) but also kinetic energy (½⋅m⋅v 2 ). In this general case the following formula results for the discharge velocity v d :
+
+m ⋅ g ⋅ h + 1 2 ⋅ m ⋅ v 2 = 1 2 ⋅ m ⋅ v 2 d (30) (30) m ⋅ g ⋅ h + 1 2 ⋅ m ⋅ v 2 = 1 2 ⋅ m ⋅ v d 2
+
+v d = v 2 + 2 g h ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ √ (31) (31) v d = v 2 + 2 g h
+
+The discharge velocity is higher when the liquid surface sinks rapidly. The outflowing liquid draws additional kinetic energy from the drop in the liquid level so to speak. Of course, the continuity equation according to equation ( 7 7 ) still applies. Thus, the velocity of descent v and discharge velocity v d are now related as in the following way:
+
+v = A d A ⋅ v d v = A d A ⋅ v 2 + 2 g h ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ √ (32) (33) (32) v = A d A ⋅ v d (33) v = A d A ⋅ v 2 + 2 g h
+
+Solving this equation for the velocity of descent v:
+
+v = 1 1 − ( A d A ) 2 √ ⋅ A d A ⋅ 2 g h ‾ ‾ ‾ ‾ √ (34) (34) v = 1 1 − ( A d A ) 2 ⋅ A d A ⋅ 2 g h
+
+If one compares this formula with the formula ( 8 8 ) (which was obtained by neglecting the velocity of descent), the two formulas differ only by the term marked in red. This geometric term is ultimately only determined by the ratio of the cross-sectional areas of the opening and the tank. The figure below shows the course of this term as a function of the ratio. If the cross-section of the opening is smaller than 10 % of the container cross-section, then this factor is only 1.005. The influence of the velocity of descent remains negligible below a cross-section ratio of 0.1! This should apply to many cases.
+Influence of the ratio of the cross-sectional areas on the discharge process Figure: Influence of the ratio of the cross-sectional areas on the discharge process
+
+In cases where this does not apply, this factor must be taken into account. Accordingly, this has an effect on the discharge velocity v d , the discharge time t and the discharge flow rate V* (the additional term is marked in red compared to the neglect of the sink rate):
+
+v d = 1 1 − ( A d A ) 2 √ ⋅ 2 g h ‾ ‾ ‾ ‾ √ (35) (35) v d = 1 1 − ( A d A ) 2 ⋅ 2 g h
+
+V ˙ = 1 1 − ( A d A ) 2 √ ⋅ A d ⋅ 2 g h ‾ ‾ ‾ ‾ √ (36) (36) V ˙ = 1 1 − ( A d A ) 2 ⋅ A d ⋅ 2 g h
+
+t = 1 − ( A d A ) 2 ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ ‾ √ ⋅ A A d 2 g ‾ ‾ √ ( H ‾ ‾ √ − h ‾ √ ) (37) (37) t = 1 − ( A d A ) 2 ⋅ A A d 2 g ( H − h )
+
+Discharge through large openings
+
+So far it was assumed that the dimension of the opening was small compared to the head. This assumption is particularly advantageous for sideways discharges. This gives a (nearly) constant pressure over the entire opening and therefore a nearly constant discharge velocity. If, on the other hand, the opening is relatively high, the hydrostatic pressure at the upper edge is lower than at the lower edge. Consequently, the discharge velocities also differ across the opening.
+Derivation of the discharge rate for large openings Figure: Derivation of the discharge rate for large openings
+
+For the sake of simplicity, a rectangular discharge cross-section is considered on the side of a tank (see figure above). Imagine the opening as being made up of many small “slots”. The cross-sectional area dA d of such a slot results from the product of slot width b and slot height dh. Through each slot at the depth h the respective volumetric flow rate dV* can be calculated according to the equation ( 29 29 ):
+
+d V ˙ = d A d ⋅ 2 g h ‾ ‾ ‾ ‾ √ = b ⋅ d h ⋅ 2 g h ‾ ‾ ‾ ‾ √ d V ˙ = b ⋅ 2 g h ‾ ‾ ‾ ‾ √ ⋅ d h (38) (39) (38) d V ˙ = d A d ⋅ 2 g h = b ⋅ d h ⋅ 2 g h (39) d V ˙ = b ⋅ 2 g h ⋅ d h
+
+According to the defined coordinate system, this equation is to be integrated within the limits of h u (upper edge of opening) and h l (lower edge of opening) and thus provides the total discharge rate V* through the entire opening:
+
+V ˙ = ∫ h u h l b ⋅ 2 g h ‾ ‾ ‾ ‾ √ ⋅ d h = 2 g ‾ ‾ ‾ √ ⋅ b ∫ h u h l h ‾ √ ⋅ d h = 2 g ‾ ‾ ‾ √ ⋅ b ∫ h u h l h 1 2 ⋅ d h = 2 3 2 g ‾ ‾ ‾ √ ⋅ b ⋅ | h 3 2 | h l h u = 2 3 2 g ‾ ‾ ‾ √ ⋅ b ⋅ ( h 3 2 u – h 3 2 l ) (40) (41) (42) (43) (44) (40) V ˙ = ∫ h u h l b ⋅ 2 g h ⋅ d h (41) = 2 g ⋅ b ∫ h u h l h ⋅ d h (42) = 2 g ⋅ b ∫ h u h l h 1 2 ⋅ d h (43) = 2 3 2 g ⋅ b ⋅ | h 3 2 | h u h l (44) = 2 3 2 g ⋅ b ⋅ ( h u 3 2 – h l 3 2 )
+
+V ˙ = 2 3 2 g ‾ ‾ ‾ √ ⋅ b ⋅ ( h 3 l ‾ ‾ √ – h 3 u ‾ ‾ √ ) (45) (45) V ˙ = 2 3 2 g ⋅ b ⋅ ( h l 3 – h u 3 )
+
+Note that the indicated depths h u and h l do not refer to the tank bottom, but to the liquid surface!
+Real discharge processes
+Coefficient of discharge
+
+If one compares the theoretical predictions about the discharge process of a tank with a real measurement, very large differences can be found in some cases. In reality, the tank usually drains much more slowly.
+Comparison of the theoretical prediction with a real measurement Figure: Comparison of the theoretical prediction with a real measurement
+
+The outgoing flow rate according to the equation ( 29 29 ) is therefore lower in practice. The reduction of the ideal discharge rate can be considered with a so-called coefficient of discharge C d <1:
+
+V ˙ real = C d ⋅ V ideal V ˙ real = C d ⋅ A d 2 g h ‾ ‾ ‾ ‾ √         and  C d < 1       coefficient of discharge (46) (47) (46) V ˙ real = C d ⋅ V ideal (47) V ˙ real = C d ⋅ A d 2 g h         and  C d < 1       coefficient of discharge
+
+The coefficient of discharge indicates the factor by which the real discharge rate is reduced in comparison to the ideal rate! Two phenomena have a significant influence on the coefficient of discharge and will be discussed in more detail below.
+Viscosity (internal friction)
+
+When draining through an orifice, currents occur within the liquid. This means that layers of liquid move faster than others. This is particularly the case in the vicinity of the discharge, where the liquid flowing towards the orifice shears off at the surrounding layers. The friction of the liquid layers is due to the bonding forces between the molecules within the layers. These are either Van-der-Waals forces ( dipole-dipole interactions ) or hydrogen bonds .
+Animation: Liquid with high viscosity (left) and low viscosity (right)
+
+In order to shift one layer of liquid against another, one must overcome these binding forces. Liquid layers are therefore hindered from shearing off from each other by these binding forces, analogous to friction forces in mechanics. This is why in the case of liquids one also speaks of internal friction . The stronger the bonding forces, the greater the internal friction when the liquid layers are shifted. The magnitude of the internal friction is described by the viscosity of the liquid.
+Coefficient of velocity
+
+Viscosity is the reason why in reality a liquid flows through an outlet at a slower speed than theoretically expected. The decrease of the discharge velocity can be considered with a so-called coefficient of velocity C v <1 in equation ( 3 3 ):
+
+v d,real = C v ⋅ v d,ideal v d,real = C v ⋅ 2 g h ‾ ‾ ‾ ‾ √     and  C v < 1   coefficient of velocity (48) (49) (48) v d,real = C v ⋅ v d,ideal (49) v d,real = C v ⋅ 2 g h     and  C v < 1   coefficient of velocity
+
+Experimental determination of the coefficient of velocity
+
+For horizontal discharges, the coefficient of velocity can be determined from the trajectory of the jet. Neglecting the air friction, the jet maintains a constant (discharge) velocity v d,real in the horizontal direction. Thus the jet covers the following distance x within a time t:
+
+x = v d,real ⋅ t (50) (50) x = v d,real ⋅ t
+
+Experimental determination of the coefficient of velocity Figure: Experimental determination of the coefficient of velocity
+
+Within the time t gravity causes an accelerated downward motion of the jet (free fall). For the falling distance y in vertical direction, the formula given below applies. This equation is then solved for the time t and used in the equation above and solved with respect to the discharge velocity v d,real .
+
+y = 1 2 ⋅ g ⋅ t 2         ⇒         t = 2 y g ‾ ‾ ‾ √ x = v d,real ⋅ t = v d,real ⋅ 2 y g ‾ ‾ ‾ √ v d,real = x ⋅ g 2 y ‾ ‾ ‾ √ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ (51) (52) (53) (51) y = 1 2 ⋅ g ⋅ t 2         ⇒         t = 2 y g (52) x = v d,real ⋅ t = v d,real ⋅ 2 y g (53) v d,real = x ⋅ g 2 y _
+
+This equation is now to be equated with equation ( 49 49 ) and solved with respect to the coefficient of velocity C v :
+
+C v ⋅ 2 g h ‾ ‾ ‾ ‾ √ = x ⋅ g 2 y ‾ ‾ ‾ √ C v = x 2 h y ‾ ‾ √ (54) (55) (54) C v ⋅ 2 g h = x ⋅ g 2 y (55) C v = x 2 h y
+
+For the experimental determination of the coefficients of velocity only one point of the trajectory (described by x and y) has to be determined. Tests on such trajectories show that for low-viscosity liquids such as water, the coefficients of velocity are about 0.95 and higher.
+
+The small decreases in discharge velocity cannot therefore be solely responsible for the relatively large deviations between the theoretical discharge rate and the observed rate. A much greater phenomenon must have an influence on this, which we will discuss in more detail in the next section.
+Contraction of streamlines
+Streamlines
+
+Practice shows that the position and the shape of the discharge are decisive for the deviations in the volumetric flow rate. The influence is particularly evident at sharp-edged transitions between the tank and the outlet opening. A simple hole in a tank is such a sharp edge. The figure below shows a tank in which the discharge takes place through a round hole at the bottom. The flow paths are made visible by so-called streamlines (white lines in the figure below). Such streamlines are paths on which massless particles would flow if they were placed in the fluid.
+
+Streamlines are trajectories that massless particles would take when flowing with the fluid!
+Vena contracta (narrowing of the streamlines) Figure: Vena contracta (narrowing of the streamlines)
+
+The streamlines made visible also provide the answer to the question of why a lower discharge rate is observed in practice than the model so far predicts. In practice, the outflowing liquid does not exits completely perpendicular through the cross-section, but the opening is mostly flowed against from the side. From a physical point of view, the flow paths (streamlines) cannot bend at right angles. To do this, the fluid would have to be massless in order to be able to follow the forces without inertia.
+Coefficient of contraction
+
+In practice, the cross-section of the discharged jet is thus smaller than the cross-section of the outlet. This cross-section, in which the streamlines actually run parallel downwards, is located downstream of the opening. This is the actual cross-section of discharge A d,real which one would have to take as a basis. This cross-section is also called the effective cross-section . The phenomenon of the narrowing of streamlines and the resulting decrease of the jet cross-section is also known as vena contracta .
+
+The term vena contracta refers to the contraction of the streamlines due to cross-sectional changes, i.e. the narrowing of the jet cross-section less than the actual tube cross-section.
+
+The decrease of the jet cross-section is considered by the so-called coefficient of contraction C c . It indicates the ratio of the actual jet cross-section A d,real to the discharge cross-section A d :
+
+A d,real = C c ⋅ A d       and  C c < 1       coefficient of contraction (56) (56) A d,real = C c ⋅ A d       and  C c < 1       coefficient of contraction
+
+Relationship between discharge coefficient, velocity coefficient and contraction coefficient
+
+Both the phenomenon of speed reduction and the far greater effect of streamline contraction influence the volumetric flow rate in practice. If the flow rate is based on the real values according to the equation ( 28 28 ), then the following relationship is evident between the coefficient of discharge C d , the coefficient of contraction C c and the coefficient of velocity C v :
+
+V ˙ d,real = A d,real ⋅ v d,real = C c A ˙ d ⏟ A d,real ⋅ C v v d ⏟ v d,real = C c ⋅ C v ⋅ A d v d       and        v d = 2 g h ‾ ‾ ‾ ‾ √       : = C c ⋅ C v ⏟ = C d ⋅ A d 2 g h ‾ ‾ ‾ ‾ √ (57) (58) (59) (60) (57) V ˙ d,real = A d,real ⋅ v d,real (58) = C c A ˙ d ⏟ A d,real ⋅ C v v d ⏟ v d,real (59) = C c ⋅ C v ⋅ A d v d       and        v d = 2 g h       : (60) = C c ⋅ C v ⏟ = C d ⋅ A d 2 g h
+
+V ˙ d,real = C d ⋅ A d 2 g h ‾ ‾ ‾ ‾ √       und       C d = C c ⋅ C v (61) (61) V ˙ d,real = C d ⋅ A d 2 g h       und       C d = C c ⋅ C v
+
+If one compares equation ( 60 60 ) with equation ( 47 47 ), then it becomes apparent that the discharge coefficient C d results from the product of the contraction coefficient C c and the velocity coefficient C v . Since the coefficient of velocity for fluids commonly used in practice is usually negligible compared to the coefficient of contraction, the coefficient of discharge is decisively determined by the vena contracta. In practice, however, one is usually only interested in the discharge coefficient anyway, so that the velocity coefficient and the contraction coefficient are not determined separately.
+Experimental determination of the coefficient of discharge
+
+The coefficient of discharge directly influences the time required to empty a container. The discharge coefficient has therefore a direct impact on the equation ( 18 18 ) and increases the discharge time accordingly:
+
+t = 1 C d ⋅ A A d 2 g ‾ ‾ √ ( H ‾ ‾ √ − h ‾ √ ) (62) (62) t = 1 C d ⋅ A A d 2 g ( H − h )
+
+In practice, one only has to determine the time t during which the liquid level decreased from the level H to the level h. Solving the above equation with respect to the discharge coefficient:
+
+C d = 1 t ⋅ A A d 2 g ‾ ‾ √ ( H ‾ ‾ √ − h ‾ √ ) (63) (63) C d = 1 t ⋅ A A d 2 g ( H − h )
+
+Influence of the shape of the outlet on the coefficient of discharge
+Round openings
+
+In the case of a round hole in a tank, the coefficient of discharge for water is about 0.65. In practice, a high discharge coefficient is usually desirable in order to get as close as possible to the ideal (maximum) volumetric flow rate. This requires a adaptation of the opening shape.
+
+Since the discharge coefficient is decisively determined by the vena contracta, the contraction of the streamlines must be kept as low as possible. This is achieved by adjusting the geometry of the opening. A simple possibility is to use pipe sockets . The liquid then does not flow out of the tank straight away, but is led through a short piece of pipe.This ensures that the streamlines can be arranged parallel again and can occupy the entire cross-section.
+Discharge through a pipe socket Figure: Discharge through a pipe socket
+
+In order to achieve an optimal effect, pipe sockets should be about 2 to a maximum of 3 times as long as their diameter. Within this range, it is possible to increase the discharge rate by about 25 % compared to the discharge at sharp-edged openings leading directly into the environment. For reasons of increased pipe friction, the pipe sockets should be kept as short as possible.
+
+A further increase in the discharge rate can be achieved by rounding out the edges (“fairing”) so that the streamlines are smoothly guided around these edges. In this way, discharge coefficients above 0.9 and higher are possible.
+Discharge through a rounded pipe socket Figure: Discharge through a rounded pipe socket
+
+In contrast, the discharge can also be made considerably less favourable than with a hole. For example, if a short pipe socket does not protrude from the tank, but into it. Then the streamlines make very strong changes with a more pronounced vena contracta. Such an unfavourable arrangement of a pipe socket is also called Borda’s opening . The coefficients of dicharge are about 0.53.
+Discharge through a Borda opening Figure: Discharge through a Borda opening
+Rectangular openings
+
+Until now, round openings were tacitly assumed. Above all, however, when liquids discharge sideways, the shape of the cross-section has a very strong influence on the coefficient of discharge. With rectangular openings, it is always unfavorable if liquid flows into the opening from the side. In this way the streamlines show very strong changes in direction. Therefore, the opening height should be kept as low as possible and the width should be greater than the height.
+Discharge through rectangular openings Figure: Discharge through rectangular openings
+
+For square openings where the opening height corresponds to the opening width, the discharge coefficient is about 0.58. If the opening height is twice as large as the opening width, the discharge coefficient drops to about 0.44. If the opening height is only half the opening width, the discharge coefficient rises to 0.64. Although the opening height can be further reduced, a maximum discharge coefficient of 0.67 can be achieved with rectangular openings.
+Previous article How does a hot air balloon work: Buoyancy in gases
+Next article Derivation of the barometric formula (adiabatic atmosphere)
+RELATED ARTICLES MORE FROM AUTHOR
+Gold ingot and crown
+Gases and liquids
+Archimedes’ principle of buoyancy (crown of Archimedes)
+Why does water boil at high altitudes at lower temperatures?
+Gases and liquids
+Why does water boil faster at high altitudes?
+Normal and shear stresses of the viscous stress tensor
+Gases and liquids
+Derivation of the Navier-Stokes equations
+Druckkraft auf ein Fluidelement entlang der x-Richtung
+Gases and liquids
+Derivation of the Euler equation of motion (conservation of momentum)
+Divergence of a vector field as a measure for the strength of a source
+Gases and liquids
+Derivation of the continuity equation (conservation of mass)
+Momentum transfer as the cause of viscosity in ideal gases
+Gases and liquids
+Viscosity of an ideal gas
+Categories
+Categories
+logo tec-science
+Contact us: info@tec-science.com
+
+    Imprint
+    Privacy Policy
+
+© Copyright 2021 tec-science
+This website uses cookies. If you continue to use this website, we will assume your consent and we will only use personalized ads that may be of interest to you. As long as your consent is not given, no ads will be displayed. More information about this in the privacy policy. Accept Refuse Privacy Policy

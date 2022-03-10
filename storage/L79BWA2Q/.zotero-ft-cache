@@ -1,0 +1,3423 @@
+Mathematical Logic
+
+OXFORD TEXTS IN LOGIC
+Books in the series 1. Shawn Hedman: A First Course in Logic: An introduction to model theory,
+proof theory, computability, and complexity 2. Richard Bornat: An Introduction to Proof and Disproof in Formal Logic 3. Ian Chiswell and Wilfrid Hodges: Mathematical Logic
+
+Mathematical Logic
+I A N C H I S W E L L and W I L F R I D H O D G E S
+1
+
+3
+Great Clarendon Street, Oxford OX2 6DP Oxford University Press is a department of the University of Oxford. It furthers the University’s objective of excellence in research, scholarship, and education by publishing worldwide in Oxford New York Auckland Cape Town Dar es Salaam Hong Kong Karachi Kuala Lumpur Madrid Melbourne Mexico City Nairobi New Delhi Shanghai Taipei Toronto With oﬃces in Argentina Austria Brazil Chile Czech Republic France Greece Guatemala Hungary Italy Japan Poland Portugal Singapore South Korea Switzerland Thailand Turkey Ukraine Vietnam
+Oxford is a registered trade mark of Oxford University Press in the UK and in certain other countries
+Published in the United States by Oxford University Press Inc., New York
+c Ian Chiswell and Wilfrid Hodges, 2007
+The moral rights of the author have been asserted Database right Oxford University Press (maker)
+First published 2007
+All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted, in any form or by any means, without the prior permission in writing of Oxford University Press, or as expressly permitted by law, or under terms agreed with the appropriate reprographics rights organization. Enquiries concerning reproduction outside the scope of the above should be sent to the Rights Department, Oxford University Press, at the address above
+You must not circulate this book in any other binding or cover and you must impose the same condition on any acquirer
+British Library Cataloguing in Publication Data Data available
+Library of Congress Cataloging in Publication Data Data available
+Typeset by Newgen Imaging Systems (P) Ltd., Chennai, India Printed in Great Britain on acid-free paper by Biddles Ltd., King’s Lynn, Norfolk
+ISBN 978–0–19–857100–1 ISBN 978–0–19–921562–1 (Pbk)
+10 9 8 7 6 5 4 3 2 1
+
+Preface
+This course in Mathematical Logic reﬂects a third-year undergraduate module that has been taught for a couple of decades at Queen Mary, University of London. Both the authors have taught it (though never together). Many years ago the ﬁrst author put together a set of lecture notes broadly related to Dirk van Dalen’s excellent text Logic and Structure (Springer-Verlag, 1980). The present text is based on those notes as a template, but everything has been rewritten with some changes of perspective. Nearly all of the text, and a fair number of the exercises, have been tested in the classroom by one or other of the authors.
+The book covers a standard syllabus in propositional and predicate logic. A teacher could use it to follow a geodesic path from truth tables to the Completeness Theorem. Teachers who are willing to follow our choice of examples from diophantine arithmetic (and are prepared to take on trust Matiyasevich’s analysis of diophantine relations) should ﬁnd, as we did, that Go¨del’s Incompleteness Theorem and the undecidability of predicate logic fall out with almost no extra work. Sometimes the course at Queen Mary has ﬁnished with some applications of the Compactness Theorem, and we have included this material too.
+We aimed to meet the following conditions, probably not quite compatible:
+• The mathematics should be clean, direct and correct. • As each notion is introduced, the students should be given something rele-
+vant that they can do with it, preferably at least a calculation. (For example, parsing trees, besides supporting an account of denotational semantics, seem to help students to make computations both in syntax and in semantics.) • Appropriate links should be made to other areas in which mathematical logic is becoming important, for example, computer science, linguistics and cognitive science (though we have not explored links to philosophical logic). • We try to take into account the needs of students and teachers who prefer a formal treatment, as well as those who prefer an intuitive one.
+We use the Hintikka model construction rather than the more traditional HenkinRasiowa-Sikorski one. We do this because it is more hands-on: it allows us to set up the construction by deciding what needs to be done and then doing it, rather than checking that a piece of magic does the work for us.
+We do not assume that our students have studied any logic before (though in practice most will at least have seen a truth table). Until the more specialist
+
+vi
+
+Preface
+
+matter near the end of the book, the set theory is very light, and we aim to explain any symbolism that might cause puzzlement. There are several proofs by induction and deﬁnitions by recursion; we aim to set these out in a format that students can copy even if they are not conﬁdent with the underlying ideas.
+Other lecturers have taught the Queen Mary module. Two who have certainly inﬂuenced us (though they were not directly involved in the writing of this book) were Stephen Donkin and Thomas Mu¨ller—our thanks to them. We also thank Lev Beklemishev, Ina Ehrenfeucht, Jaakko Hintikka, Yuri Matiyasevich and Zbigniew Ras for their kind help and permissions with the photographs of Anatoliˇı Mal’tsev, Alfred Tarski, Hintikka, Matiyasevich and Helena Rasiowa respectively. Every reasonable eﬀort has been made to acknowledge copyright where appropriate. If notiﬁed, the publisher will be pleased to rectify any errors or omissions at the earliest opportunity.
+We have set up a web page at www.maths.qmul.ac.uk/∼wilfrid/mathlogic.html for errata and addenda to this text.
+Ian Chiswell Wilfrid Hodges School of Mathematical Sciences Queen Mary, University of London August 2006
+
+Contents
+
+1 Prelude
+
+1
+
+1.1 What is mathematics?
+
+1
+
+1.2 Pronunciation guide
+
+3
+
+2 Informal natural deduction
+
+5
+
+2.1 Proofs and sequents
+
+6
+
+2.2 Arguments introducing ‘and’
+
+9
+
+2.3 Arguments eliminating ‘and’
+
+14
+
+2.4 Arguments using ‘if’
+
+16
+
+2.5 Arguments using ‘if and only if’
+
+22
+
+2.6 Arguments using ‘not’
+
+24
+
+2.7 Arguments using ‘or’
+
+27
+
+3 Propositional logic
+
+31
+
+3.1 LP, the language of propositions
+
+32
+
+3.2 Parsing trees
+
+38
+
+3.3 Propositional formulas
+
+45
+
+3.4 Propositional natural deduction
+
+53
+
+3.5 Truth tables
+
+62
+
+3.6 Logical equivalence
+
+69
+
+3.7 Substitution
+
+72
+
+3.8 Disjunctive and conjunctive normal forms
+
+78
+
+3.9 Soundness for propositional logic
+
+85
+
+3.10 Completeness for propositional logic
+
+89
+
+4 First interlude: Wason’s selection task
+
+97
+
+5 Quantiﬁer-free logic
+
+101
+
+5.1 Terms
+
+101
+
+5.2 Relations and functions
+
+105
+
+5.3 The language of ﬁrst-order logic
+
+111
+
+5.4 Proof rules for equality
+
+121
+
+5.5 Interpreting signatures
+
+128
+
+5.6 Closed terms and sentences
+
+134
+
+5.7 Satisfaction
+
+139
+
+viii
+
+Contents
+
+5.8 Diophantine sets and relations
+
+143
+
+5.9 Soundness for qf sentences
+
+148
+
+5.10 Adequacy and completeness for qf sentences
+
+150
+
+6 Second interlude: the Linda problem
+
+157
+
+7 First-order logic
+
+159
+
+7.1 Quantiﬁers
+
+159
+
+7.2 Scope and freedom
+
+163
+
+7.3 Semantics of ﬁrst-order logic
+
+169
+
+7.4 Natural deduction for ﬁrst-order logic
+
+177
+
+7.5 Proof and truth in arithmetic
+
+186
+
+7.6 Soundness and completeness for ﬁrst-order logic
+
+189
+
+7.7 First-order theories
+
+194
+
+7.8 Cardinality
+
+199
+
+7.9 Things that ﬁrst-order logic cannot do
+
+206
+
+8 Postlude
+
+213
+
+Appendix A The natural deduction rules
+
+217
+
+Appendix B Denotational semantics
+
+223
+
+Appendix C Solutions to some exercises
+
+229
+
+Index
+
+245
+
+1 Prelude
+1.1 What is mathematics?
+Euclid Egypt, c. 325–265 bc. For Euclid, mathematics consists of proofs and constructions.
+Al-Khw¯arizm¯ı Baghdad, c. 780–850. For Al-Khwa¯rizm¯ı, mathematics consists of calculations.
+
+2
+
+Prelude
+
+G. W. Leibniz Germany, 1646–1716. According to Leibniz, we can calculate whether a proof is correct. This will need a suitable language (a universal characteristic) for writing proofs.
+Gottlob Frege Germany, 1848–1925. Frege invented a universal characteristic. He called it Concept-script (Begriﬀsschrift).
+Gerhard Gentzen Germany, 1909–1945. Gentzen’s system of natural deduction allows us to write proofs in a way that is mathematically natural.
+
+Prelude
+
+3
+
+1.2 Pronunciation guide
+To get control of a branch of mathematics, you need to be able to speak it. Here are some symbols that you will probably need to pronounce, with some suggested pronunciations:
+
+⊥
+|= ∀ ∃ tA |=A φ ≈ ≺
+
+‘absurdity’ ‘turnstile’ ‘models’ ‘for all’ ‘there is’ ‘the interpretation of t in A’ ‘A is a model of φ’ ‘has the same cardinality as’ ‘has smaller cardinality than’
+
+The expression ‘x → y’ is read as ‘x maps to y’, and is used for describing functions. For example, ‘x → x2’ describes the function ‘square’, and ‘n → n + 2’ describes the function ‘plus two’. This notation is always a shorthand; the surrounding context must make clear where the x or n comes from.
+The notation ‘A ⇒ B’ is shorthand for ‘If A then B’, or ‘A implies B’, or sometimes ‘the implication from A to B’, as best suits the context. Do not confuse it with the notation ‘→’. From Chapter 3 onwards, the symbol ‘→’ is not shorthand; it is an expression of our formal languages. The safest way of reading it is probably just ‘arrow’ (though in Chapters 2 and 3 we will discuss its translation into English).
+The notation ‘N’ can be read as ‘the set of natural numbers’ or as ‘the natural number structure’, whichever makes better sense in context. (See Example 5.5.1 for the natural number structure. Note that our natural numbers are 0, 1, 2, . . . , starting at 0 rather than 1.)
+The following rough pronunciations of personal names may help, though they are no substitute for guidance from a native speaker:
+
+Frege: FRAY-ga Hintikka: HIN-ticka Leibniz: LIBE-nits Lo´s: WASH Lukasiewicz: woo-ka-SHAY-vitch Matiyasevich: ma-ti-ya-SAY-vitch Giuseppe Peano: ju-SEP-pe
+pay-AH-no
+
+Peirce: PURSE Helena Rasiowa: he-LAY-na
+ra-SHOW-va Scholz: SHOLTS Dana Scott: DAY-na SCOTT Sikorski: shi-COR-ski Van Dalen: fan DAH-len Zermelo: tser-MAY-low
+
+This page intentionally left blank
+
+2 Informal natural deduction
+In this course we shall study some ways of proving statements. Of course not every statement can be proved; so we need to analyse the statements before we prove them. Within propositional logic we analyse complex statements down into shorter statements. Later chapters will analyse statements into smaller expressions too, but the smaller expressions need not be statements.
+What is a statement? Here is a test. A string S of one or more words or symbols is a statement if it makes sense to put S in place of the ‘. . . ’ in the question
+Is it true that . . .?
+For example, it makes sense to ask any of the questions
+Is it true that π is rational? Is it true that diﬀerentiable functions are continuous? Is it true that f (x) > g(y)?
+So all of the following are statements:
+π is rational. Diﬀerentiable functions are continuous. f (x) > g(y).
+For this test it does not matter that the answers to the three questions are diﬀerent:
+No. Yes. It depends on what f , g, x and y are.
+On the other hand, none of the following questions make sense:
+Is it true that π? Is it true that Pythagoras’ Theorem? Is it true that 3 + cos θ?
+So none of the expressions ‘π’, ‘Pythagoras’ Theorem’ and ‘3 + cos θ’ is a statement.
+
+6
+
+Informal natural deduction
+
+The above test assumes that we know what counts as a ‘symbol’. In practice, we do know and a precise deﬁnition is hardly called for. But we will take for granted (1) that a symbol can be written on a page—given enough paper, ink, time and patience; (2) that we know what counts as a ﬁnite string of symbols; (3) that any set of symbols that we use can be listed, say as s0, s1, s2, . . ., indexed by natural numbers. In some more advanced applications of logic it is necessary to call on a more abstract notion of symbol; we will discuss this brieﬂy in Section 7.9.
+
+2.1 Proofs and sequents
+Deﬁnition 2.1.1 A mathematical proof is a proof of a statement; this statement is called the conclusion of the proof. The proof may use some assumptions that it takes for granted. These are called its assumptions. A proof is said to be a proof of its conclusion from its assumptions.
+For example, here is a proof from a textbook of pure mathematics:
+
+Proposition Let z = r(cos θ + i sin θ), and let n be a positive integer. Then zn = rn(cos nθ + i sin nθ).
+Proof Applying Theorem 6.1 with z1 = z2 = z gives z2 = zz = rr(cos(θ + θ) + i sin(θ + θ)) = r2(cos 2θ + i sin 2θ).
+Repeating, we get zn = r · · · r(cos(θ + · · · + θ) + i sin(θ + · · · + θ)) = rn(cos nθ + i sin nθ).
+
+The proof is a proof of the equation
+
+(2.1)
+
+zn = rn(cos nθ + i sin nθ)
+
+so this equation (2.1) is the conclusion of the proof. (Note that the conclusion need not come at the end!) There are several assumptions:
+
+• One assumption is stated at the beginning of the proposition, namely
+
+z = r(cos θ + i sin θ), and n is a positive integer.
+
+(The word ‘Let’ at the beginning of the proposition is a sign that what follows is an assumption.)
+• Another assumption is an earlier theorem, mentioned by name: Theorem 6.1.
+(Note that this assumption is referred to but not written out as a statement.)
+
+Informal natural deduction
+
+7
+
+• Finally, there are a number of unstated assumptions about how to do arithmetic. For example, the proof assumes that if a = b and b = c then a = c. These assumptions are unstated because they can be taken for granted between reader and writer.
+When we use the tools of logic to analyse a proof, we usually need to write down statements that express the conclusion and all the assumptions, including unstated assumptions.
+A proof P of a conclusion ψ need not show that ψ is true. All it shows is that ψ is true if the assumptions of P are true. If we want to use P to show that ψ is true, we need to account for these assumptions. There are several ways of doing this. One is to show that an assumption says something that we can agree is true without needing argument. For example, we need no argument to see that 0 = 0.
+A second way of dealing with an assumption is to ﬁnd another proof Q that shows the assumption must be true. In this case the assumption is called a lemma for the proof P . The assumption no longer counts as an assumption of the longer proof consisting of P together with Q.
+Section 2.4 will introduce us to a third and very important way of dealing with assumptions, namely to discharge them; a discharged assumption is no longer needed for the conclusion. We will see that—just as with adding a proof of a lemma—discharging an assumption of a proof will always involve putting the proof inside a larger proof. So mathematical proofs with assumptions are really pieces that are available to be ﬁtted into larger proofs, like bricks in a construction kit.
+
+Sequents Deﬁnition 2.1.2 A sequent is an expression
+
+(Γ ψ) (or Γ ψ when there is no ambiguity)
+
+where ψ is a statement (the conclusion of the sequent) and Γ is a set of statements (the assumptions of the sequent). We read the sequent as ‘Γ entails ψ’. The sequent (Γ ψ) means
+
+(2.2)
+
+There is a proof whose conclusion is ψ and whose undischarged assumptions are all in the set Γ.
+
+When (2.2) is true, we say that the sequent is correct. The set Γ can be empty, in which case we write ( ψ) (read ‘turnstile ψ’); this sequent is correct if and only if there is a proof of ψ with no undischarged assumptions.
+
+8
+
+Informal natural deduction
+
+We can write down properties that sequents ought to have. For example:
+Sequent Rule (Axiom Rule) If ψ ∈ Γ then the sequent (Γ ψ) is correct.
+Sequent Rule (Transitive Rule) If (∆ ψ) is correct and for every δ in ∆, (Γ δ) is correct, then (Γ ψ) is correct.
+Sequent rules like these will be at the heart of this course. But side by side with them, we will introduce other rules called natural deduction rules. The main diﬀerence will be that sequent rules are about provability in general, whereas natural deduction rules tell us how we can build proofs of a particular kind (called derivations) for the relevant sequents. These derivations, together with the rules for using them, form the natural deduction calculus. In later chapters we will redeﬁne sequents so that they refer only to provability by natural deduction derivations within the natural deduction calculus. This will have the result that the sequent rules will become provable consequences of the natural deduction rules. (See Appendix A for a list of all our natural deduction rules.)
+Derivations are always written so that their conclusion is their bottom line. A derivation with conclusion φ is said to be a derivation of φ.
+We can give one natural deduction rule straight away. It tells us how to write down derivations to justify the Axiom Rule for sequents.
+Natural Deduction Rule (Axiom Rule) Let φ be a statement. Then
+φ
+is a derivation. Its conclusion is φ, and it has one undischarged assumption, namely φ.
+Both sequent rules and natural deduction rules were introduced in 1934 by Gerhard Gentzen as proof calculi. (A proof calculus is a system of mathematical rules for proving theorems. See Section 3.9 for some general remarks about proof calculi.) Gentzen’s sequents were more complicated than ours—he allowed sets of statements on the right-hand side as well as the left. His sequent calculus lies behind some other well-known proof calculi such as tableaux (truth trees), but we will not study it in this course.
+
+Exercises
+2.1.1. What are the conclusion and the assumptions of the following argument?
+Theorem Let r be a positive real number. Then r has a square root.
+
+Informal natural deduction
+
+9
+
+Proof Write f (x) = x2− r for any real x. Then f is a continuous function on R. If x = 0 then f (x) = 0 − r < 0 since r is positive. If x is very large then f (x) = x2 − r > 0. So by the Intermediate Value Theorem there must be x such that f (x) = 0. For this value x,
+r = r + 0 = r + f (x) = r + (x2 − r) = x2.
+2.1.2. A ﬁrst-year calculus textbook contains the following paragraph:
+
+Given that
+
+x2
+
+x2
+
+1−
+
+u(x) 1 + for all x = 0,
+
+4
+
+2
+
+we calculate lim u(x). Since
+x→0
+
+lim (1 − (x2/4)) = 1 and lim (1 + (x2/2)) = 1,
+
+x→0
+
+x→0
+
+the Sandwich Theorem implies that lim u(x) = 1.
+x→0
+
+What is the conclusion of this argument, and what are the assumptions? (You can answer this question without knowing what all the expressions in it mean.)
+
+2.1.3.
+
+From your understanding of mathematical arguments, which (if any) of the following possible sequent rules seem to be true? Give reasons. Possible sequent rule A: If the sequent (Γ ψ) is a correct sequent, and every statement in Γ is also in ∆, then the sequent (∆ ψ) is also correct.
+Possible sequent rule B: If the sequent ({φ} ψ) is correct, then so is the sequent ({ψ} φ). Possible sequent rule C: If the sequents (Γ ψ) and (∆ ψ) are both correct, then so is the sequent ((Γ ∩ ∆) ψ).
+
+2.2 Arguments introducing ‘and’
+Tell me about the word ‘and’ and its behaviour. Your knowledge of logic won’t do you any good if you don’t know about this word. (Abu Sa’¯ıd As-S¯ıra¯f¯ı, ad 941 )
+
+We shall study how the word ‘and’ appears in arguments. We are mainly interested in this word where it appears between two statements, as, for example, in
+
+(2.3)
+
+v is a vector and α is a scalar.
+
+10
+
+Informal natural deduction
+
+We shall write this sentence as
+
+(2.4)
+
+(v is a vector ∧ α is a scalar)
+
+We shall write ∧ for ‘and’ (between statements). The parentheses are an essential part of the notation; later we will adopt some rules for leaving them out, but only in contexts where they can be reconstructed.
+There are a number of things that we can say with the help of this notation, even when the word ‘and’ does not appear between statements in the original English. Here are some typical examples:
+
+(2.5)
+
+The function f is surjective and diﬀerentiable (The function f is surjective ∧ the function f is diﬀerentiable)
+
+(2.6)
+
+√ 2 < √5 < 3√ (2 < 5 ∧ 5 < 3)
+
+The next example is a little subtler. If A and B are sets, then a necessary and suﬃcient condition for A and B to be the same set is that every member of A is a member of B (in symbols A ⊆ B) and every member of B is a member of A (in symbols B ⊆ A). So we can use our new symbol:
+
+(2.7)
+
+A=B (A ⊆ B ∧ B ⊆ A)
+
+This paraphrase is often useful in proofs about sets.
+Now consider how we prove a statement made by joining together two other
+statements with ‘and’. √
+Example 2.2.1 We prove that 2 < 5 < 3. (Compare with (2.6).) √
+(1) We prove that 2 < 5 as follows. We k√now t√hat 4 < 5. Taking positive square roots of these positive numbers, 2 = 4 < 5. √
+(2) We prove that 5 < 3 as follows. √We kn√ow that 5 < 9. Taking positive square roots of these positive numbers, 5 < 9 = 3.
+
+The moral of this example is that if we put together a proof of φ and a proof of ψ, the result is a proof of (φ ∧ ψ). The assumptions of this proof of (φ ∧ ψ) consist of the assumptions of the proof of φ together with the assumptions of the proof of ψ. We can write this fact down as a sequent rule:
+
+Sequent Rule (∧I) If (Γ φ) and (∆ ψ) are correct sequents then (Γ∪∆ (φ ∧ ψ)) is a correct sequent.
+
+The name (∧I) expresses that this is a rule about ∧, and the symbol ∧ is introduced (hence ‘I’) in the last sequent of the rule. We refer to this rule as ∧-introduction.
+
+Informal natural deduction
+
+11
+
+We also adopt a schematic notation for combining the proofs of φ and ψ:
+
+Proof of φ
+
+Proof of ψ
+
+(φ ∧ ψ)
+This diagram represents a proof of (φ ∧ ψ), which appears at the bottom. This bottom expression is called the conclusion of the proof.
+The box notation is a little heavy, so we adopt a lighter version. We write
+
+D (2.8)
+φ
+
+to stand for a proof D whose conclusion is φ. Using this notation, we recast the picture above as a rule for forming proofs. This new rule will be our second natural deduction rule. We give it the same label (∧I) as the corresponding sequent rule above.
+
+Natural Deduction Rule (∧I) If
+
+D
+
+D
+
+and
+
+φ
+
+ψ
+
+are derivations of φ and ψ respectively, then
+
+D
+
+D
+
+φ
+
+ψ
+
+(∧I)
+
+(φ ∧ ψ)
+
+is a derivation of (φ ∧ ψ). Its undischarged assumptions are those of D together with those of D .
+
+Example 2.2.2 Suppose
+
+D φ
+
+is a derivation of φ. Then
+
+D φ
+(φ ∧ φ)
+
+D φ
+(∧I)
+
+is a derivation of (φ ∧ φ). Its undischarged assumptions are those of D.
+
+12
+
+Informal natural deduction
+
+Example 2.2.3 Suppose
+
+DD
+
+D
+
+,
+
+and
+
+φψ
+
+χ
+
+are respectively derivations of φ, ψ and χ. Then
+
+D φ
+(φ ∧ ψ)
+
+D ψ
+(∧I)
+((φ ∧ ψ) ∧ χ)
+
+D χ
+(∧I)
+
+is a derivation of ((φ ∧ ψ) ∧ χ), got by applying ∧-introduction twice; the second time we apply it with D as the second derivation. The undischarged assumptions of this derivation are those of D, those of D and those of D .
+
+Remark 2.2.4 The following points will apply (with obvious adjustments) to all future derivations too.
+
+• The conclusion of a derivation is the statement written in the bottom line.
+• If the conclusion of an application of (∧I) is (φ ∧ ψ), then the derivation of φ must go on the left and the derivation of ψ on the right.
+• In Example 2.2.2 we used the same derivation of φ twice. So the derivation must be written twice.
+• As we go upwards in a derivation, it may branch. The derivation in Example 2.2.3 has at least three branches (maybe more, depending on what branches the derivations D, D and D have). The branches stay separate as we go up them; they never join up again. A derivation never branches downwards.
+• The name of the rule used in the last step of a derivation is written at the right-hand side of the horizontal line above the conclusion of the derivation. In our formal deﬁnition of derivations (Deﬁnition 3.4.1) these rule labels will be essential parts of a derivation.
+
+Now by the Axiom Rule for natural deduction (Section 2.1), φ by itself is a derivation of φ with undischarged assumption φ. So in Example 2.2.3 the derivation D could be this derivation, and then there is no need to write ‘D’. Similarly we can leave out ‘D ’ and ‘D ’, regarding ψ and χ as derivations with
+
+Informal natural deduction
+
+13
+
+themselves as conclusions. The result is the derivation
+
+(2.9)
+
+φ (φ ∧ ψ)
+
+ψ (∧I)
+((φ ∧ ψ) ∧ χ)
+
+χ (∧I)
+
+Now the undischarged assumptions of this derivation are those of D, D and D
+
+together; so they are φ, ψ and χ. Thus the derivation (2.9) shows that there is a proof of ((φ ∧ ψ) ∧ χ) with undischarged assumptions φ, ψ and χ. In other words, it shows that the following sequent is correct:
+
+(2.10)
+
+{φ, ψ, χ} ((φ ∧ ψ) ∧ χ).
+
+Likewise if we cut out the symbol ‘D’ from Example 2.2.2, what remains is a derivation of (φ ∧ φ) from φ and φ, establishing the correctness of
+
+(2.11)
+
+{φ} (φ ∧ φ).
+
+There is no need to put φ twice on the left of , since Γ in a sequent (Γ ψ) is a set, not a sequence.
+
+Remark 2.2.5 The derivation (2.9) is a proof of its conclusion ((φ ∧ ψ) ∧ χ) from certain assumptions. It is also a proof of the sequent (2.10), by showing that (2.10) is correct. In mathematics this is par for the course; the same argument can be used to establish many diﬀerent things. But in logic, where we are comparing diﬀerent proofs all the time, there is a danger of confusion. For mental hygiene we shall say that (2.9) is a derivation of its conclusion, but a proof of the sequent (2.10).
+
+Exercises
+2.2.1. Express the following using ∧ between statements: (a) The real number r is positive but not an integer. (b) v is a nonzero vector. (c) φ if and only if ψ. [Here φ and ψ stand for statements.]
+2.2.2. Write out derivations that prove the following sequents: (a) {φ, ψ, χ} (φ ∧ (ψ ∧ χ)). (b) {φ, ψ} (ψ ∧ φ). (c) {φ} ((φ ∧ φ) ∧ φ). (d) {φ, ψ} ((φ ∧ ψ) ∧ (φ ∧ ψ)).
+
+14
+
+Informal natural deduction
+
+2.3 Arguments eliminating ‘and’
+Often in arguments we rely on a statement of the form (φ and ψ) to justify the next step in the argument. The simplest examples are where the next step is to deduce φ, or to deduce ψ.
+Example 2.3.1 We prove that every prime greater than 2 is odd. Let p be a prime greater than 2. Since p is prime, p is not divisible by any integer n with 1 < n < p. Since p is greater than 2, 1 < 2 < p. So p is not divisible by 2, in other words, p is odd.
+In this argument we assume
+
+(2.12)
+
+(p is prime ∧ p is greater than 2)
+
+(the ﬁrst passage in italics). From (2.12) we deduce
+
+(2.13)
+
+p is prime
+
+(the second passage in italics). Reﬂecting on this example, we extract another natural deduction rule:
+Natural Deduction Rule (∧E) If
+
+D (φ ∧ ψ)
+
+is a derivation of (φ ∧ ψ), then
+
+D
+
+D
+
+(φ ∧ ψ) (∧E) and (φ ∧ ψ) (∧E)
+
+φ
+
+ψ
+
+are derivations of φ and ψ, respectively. Their undischarged assumptions are those of D.
+In the label (∧E) the E stands for Elimination, and this rule is known as ∧-elimination. The reason is that in the derivations of φ and ψ, the occurrence of the symbol ∧ in the middle of (φ ∧ ψ) is eliminated in the conclusion (together with one of the statements φ and ψ). This is the opposite to (∧I), where an occurrence of ∧ is introduced in the conclusion.
+In sequent terms, this natural deduction rule tells us:
+Sequent Rule (∧E) If the sequent (Γ (φ ∧ ψ)) is correct, then so are both the sequents (Γ φ) and (Γ ψ).
+
+Informal natural deduction
+
+15
+
+We can use both of the rules (∧I) and (∧E) in a single derivation, for example:
+
+Example 2.3.2
+
+(φ ∧ ψ)
+
+(φ ∧ ψ)
+
+(∧E)
+
+(∧E)
+
+ψ
+
+φ
+
+(∧I)
+
+(ψ ∧ φ)
+
+This derivation proves the sequent {(φ ∧ ψ)} (ψ ∧ φ).
+
+Example 2.3.3
+
+(φ ∧ (ψ ∧ χ)) (∧E)
+φ (φ ∧ ψ)
+
+(φ ∧ (ψ ∧ χ)) (∧E)
+(ψ ∧ χ) (∧E)
+ψ (∧I)
+((φ ∧ ψ) ∧ χ)
+
+(φ ∧ (ψ ∧ χ)) (∧E)
+(ψ ∧ χ) (∧E)
+χ (∧I)
+
+This derivation proves the sequent {(φ ∧ (ψ ∧ χ))} ((φ ∧ ψ) ∧ χ).
+
+Exercises
+2.3.1. Write out derivations that prove the following sequents: (a) {(φ ∧ ψ)} (φ ∧ φ). (b) {((φ ∧ ψ) ∧ χ)} (φ ∧ (ψ ∧ χ)). (c) {φ, (ψ ∧ χ)} (χ ∧ φ). (d) {(φ ∧ (ψ ∧ χ))} ((χ ∧ φ) ∧ ψ).
+2.3.2. Fill in the blanks (marked ) in the derivation below. Then show that the derivation can be shortened to a derivation with the same conclusion and no extra assumptions, but with fewer applications of (∧I) and (∧E).
+
+D
+
+D
+
+ψ (∧I)
+
+(∧E) φ [The moral is that there is never any point in doing an (∧E) immediately after an (∧I).]
+
+2.3.3. Show that {φ1, φ2} ψ if and only if {(φ1 ∧ φ2)} ψ.
+
+16
+
+Informal natural deduction
+
+2.4 Arguments using ‘if’
+We write (φ → ψ) for ‘If φ then ψ’, where φ and ψ are statements. There are two natural deduction rules for →, an introduction rule (→I) and an elimination rule (→E). As with ∧, these rules are based on the ways that we use the words ‘if . . . then’ in arguments.
+We begin with the introduction rule. How does one prove a conclusion of the form ‘If φ then ψ’ ? Here is a typical example. Example 2.4.1 Write p for the statement that if x is real then x2 + 1 2x. We prove p as follows. Assume x is real. Then x − 1 is real, so
+0 (x − 1)2 = x2 − 2x + 1 = (x2 + 1) − 2x
+So
+2x x2 + 1
+It may help to arrange this proof in a diagram:
+
+(2.14)
+
+Assume x is real. Then x − 1 is real, so 0 (x − 1)2 = x2 − 2x + 1 = (x2 + 1) − 2x So, 2x x2 + 1.
+
+So, if x is real then x2 + 1 2x.
+We have two proofs here. The larger proof consists of the whole of (2.14), and its conclusion is
+
+(2.15)
+
+If x is real then x2 + 1 2x.
+
+The smaller proof is inside the box, and its conclusion is
+
+(2.16)
+
+2x x2 + 1.
+
+The smaller proof assumes that√x is real. But the larger proof does not assume anything about x. Even if x is −1, it is still true (but uninteresting) that if x is real then x2 + 1 2x. We say that in the larger proof the assumption ‘x is real’ is discharged —it is no longer needed, because the assumption has been put as the ‘if’ part of the conclusion.
+
+Informal natural deduction
+
+17
+
+In the natural deduction calculus we have a notation for discharging assumptions. Every assumption of a derivation D is written somewhere in D, perhaps in several places. (Remember from Section 2.1 that for logicians it is important to make our assumptions explicit.) We shall discharge occurrences of assumptions. We do it by writing a line through the text of the assumption. We call this line a dandah. (This is the authors’ terminology, taken from Sanskrit grammar; there is no standard name for the discharging symbol.)
+Thus if φ is an assumption written somewhere in D, then we discharge φ by writing a dandah through it: φ. In the rule (→I) below, and in similar rules later, the φ means that in forming the derivation we are allowed to discharge any occurrences of the assumption φ written in D. The rule is still correctly applied if we do not discharge all of them; in fact the rule is correctly applied even if φ is not an assumption of D at all, so that there is nothing to discharge. Example 2.4.4 will illustrate these points.
+Natural Deduction Rule (→I) Suppose
+
+D ψ
+
+is a derivation of ψ, and φ is a statement. Then the following is a derivation of
+
+(φ → ψ):
+
+φ
+
+D
+
+ψ (→I)
+(φ → ψ)
+
+Its undischarged assumptions are those of D, except possibly φ.
+We can also express (→I) as a sequent rule:
+Sequent Rule (→I) If the sequent (Γ ∪ {φ} ψ) is correct then so is the sequent (Γ (φ → ψ)).
+Discharging is a thing that happens in derivations, not in sequents. Instead of being discharged, the assumption φ in the ﬁrst sequent of the sequent rule (→I) is allowed to drop out of the assumptions of the second sequent. But note that φ could be one of the assumptions in Γ, and in this case it will still be an assumption of the second sequent. This corresponds to the fact that the natural deduction rule (→I) allows us to discharge any occurrence of the assumption φ when we form the derivation of (φ → ψ).
+Remark 2.4.2 Thanks to the rule (→I), a derivation D can have assumptions of two kinds: discharged assumptions and undischarged assumptions. (It is quite possible for the same statement to appear as a discharged assumption in one
+
+18
+
+Informal natural deduction
+
+Antoine Arnauld France, 1612–1694. His Port-Royal Logic, written in 1662 with Pierre Nicole, introduced the rule (→I) as a way of rewriting arguments to make them more ‘beautiful’.
+
+part of a derivation and an undischarged assumption in another.) We say that D is a derivation of its conclusion from its undischarged assumptions. We count D as proving a sequent Γ ψ when ψ is the conclusion of D and all the undischarged assumptions of D lie in Γ. The discharged assumptions have fulﬁlled their purpose by being discharged when (→I) is used, and they need not be mentioned again. In particular, we can now have derivations with no undischarged assumptions at all; these derivations prove sequents of the form ( φ) (recall Deﬁnition 2.1.2).
+We can combine the rule (→I) with the rules for ∧ to give new derivations.
+Example 2.4.3 A proof of the sequent (φ → (ψ → (φ ∧ ψ))):
+
+φ¨¨ 2k
+
+ψ¨¨
+
+1k (∧I)
+
+1k (φ ∧ ψ)
+
+(→I)
+
+2k (ψ → (φ ∧ ψ))
+
+(→I)
+
+(φ → (ψ → (φ ∧ ψ)))
+
+In this derivation the top step is an application of (∧I) to assumptions φ and ψ. Since φ and ψ are assumed, we have no proofs to write above them, so we do not write the D and D of the rule (∧I). Next we extend the derivation downwards by applying (→I) once, adding ‘ψ →’ on the left of the conclusion. This allows us to discharge the assumption ψ. To show that ψ is discharged at this step, we number the step 1 (by writing 1 in a circle at the left side of the step), and we attach the same label ‘1’ to the dandah through ψ at top right. Finally we apply (→I) once more; this discharges φ, and so we number the step 2 and put the label 2 on the dandah through φ at top left.
+
+Informal natural deduction
+
+19
+
+Example 2.4.4 Here we prove the sequent (φ → (φ → φ)).
+
+1k
+
+φ¨¨ ?k (→I)
+
+2k (φ → φ)
+
+(→I)
+
+(φ → (φ → φ))
+
+The sequent has no assumptions, so we need to discharge φ somewhere. But there are two steps where we can discharge it, and it does not matter which we use. We could discharge it when we ﬁrst apply (→I), so that ‘?’ becomes 1; in this case there is nothing to discharge at the second application of (→I). Alternatively we could leave it undischarged at the ﬁrst application of (→I) and discharge it at the second, writing 2 for ‘?’. Both ways are correct.
+Turning to the rule for eliminating ‘if’, suppose we have proved something of the form ‘If φ then ψ’. How do we use this to deduce something else? Suppose, for example, that we have proved a lemma saying
+
+(2.17)
+
+If q 1 then f (q) = π
+
+The most straightforward way to apply (2.17) is to prove q 1, and then deduce from (2.17) that f (q) = π. In short, if we have proved both φ and ‘If φ then ψ’, then we can deduce ψ. This idea goes over straightforwardly into the following natural deduction rule.
+Natural Deduction Rule (→E) If
+
+D φ
+
+and
+
+D (φ → ψ)
+
+are derivations of φ and (φ → ψ), respectively, then
+
+D
+
+D
+
+φ
+
+(φ → ψ)
+
+(→E)
+
+ψ
+
+is a derivation of ψ. Its undischarged assumptions are those of D together with those of D .
+In sequent terms:
+Sequent Rule (→E) If (Γ φ) and (∆ (φ → ψ)) are both correct sequents, then the sequent (Γ ∪ ∆ ψ) is correct.
+We can combine (→E) with other rules to make various derivations.
+
+20
+
+Informal natural deduction
+
+Example 2.4.5 A derivation to prove the sequent {(φ → ψ), (ψ → χ)} (φ → χ).
+
+¨φ¨ 1k
+
+(φ → ψ)
+
+(→E)
+
+ψ
+
+(ψ → χ)
+
+(→E)
+
+1k χ
+
+(→I)
+
+(φ → χ)
+
+Exercises
+
+2.4.1. Write the following using → between statements: (a) f is continuous if f is diﬀerentiable.
+
+(b) Supposing x is positive, x has a square root.
+
+(c) ab/b = a provided a = 0.
+
+2.4.2.
+
+In the following two derivations, the names of the rules are missing, and so are the dandahs and step numbers for the assumptions that are discharged. Write out the derivations, including these missing pieces. (a) A proof of ((φ ∧ ψ) → (ψ ∧ φ))
+
+(φ ∧ ψ)
+
+(φ ∧ ψ)
+
+ψ
+
+φ
+
+(ψ ∧ φ)
+
+((φ ∧ ψ) → (ψ ∧ φ))
+
+(b) A proof of ((ψ → χ) → ((φ → ψ) → (φ → χ)))
+
+φ
+
+(φ → ψ)
+
+ψ
+
+(ψ → χ)
+
+χ
+
+(φ → χ)
+
+((φ → ψ) → (φ → χ))
+
+((ψ → χ) → ((φ → ψ) → (φ → χ)))
+
+Informal natural deduction
+
+21
+
+2.4.3.
+
+Each of the following derivations proves a sequent. Write out the sequent
+
+that it proves. (a)
+
+φ¨¨ 1k
+
+(→I)
+
+1k (ψ → φ)
+
+(→I).
+
+(φ → (ψ → φ))
+
+(b)
+
+φ
+
+(→I)
+
+(ψ → φ)
+
+(→I).
+
+(φ → (ψ → φ))
+
+(c)
+
+1 k
+
+(φ ∧ ψ) (∧E)
+
+ψ
+
+φ
+
+(∧I).
+
+1k (ψ ∧ φ)
+
+(→I)
+
+(ψ → (ψ ∧ φ))
+
+(d)
+
+1k
+
+φ¨¨ 1k (→I).
+
+(φ → φ)
+
+2.4.4. Write out derivations to prove each of the following sequents. (a) (φ → (ψ → ψ)). (b) ((φ → φ) ∧ (ψ → ψ)). (c) ((φ → (θ → ψ)) → (θ → (φ → ψ))). (d) {(φ → ψ), (φ → χ)} (φ → (ψ ∧ χ)). (e) {(φ → ψ), ((φ ∧ ψ) → χ)} (φ → χ). (f) {(φ → (ψ → χ))} ((φ ∧ ψ) → χ). (g) ((φ → ψ) → ((ψ → θ) → (φ → θ))). (h) ((φ → (ψ ∧ θ)) → ((φ → θ) ∧ (φ → ψ))).
+2.4.5 Show that {φ} ψ if and only if (φ → ψ). [Prove the directions ⇒ and ⇐ separately.]
+2.4.6 Let φ and ψ be statements and Γ a set of statements. Consider the two sequents (a) Γ ∪ {φ} ψ. (b) Γ (φ → ψ).
+
+22
+
+Informal natural deduction
+
+Show that if D1 is a derivation proving (a), then D1 can be used to construct a derivation D1 proving (b). Show also that if D2 is a derivation proving (b), then D2 can be used to construct a derivation D2 proving (a). (Together these show that (a) has a proof by derivation if and only
+if (b) has a proof by derivation. The previous exercise is the special case
+where Γ is empty.)
+
+2.5 Arguments using ‘if and only if’
+We shall write
+
+(2.18)
+
+(φ ↔ ψ)
+
+for ‘φ if and only if ψ’. We saw already in Exercise 2.2.1(c) that ‘φ if and only if ψ’ expresses the same as
+
+(2.19)
+
+(if φ then ψ ∧ if ψ then φ)
+
+Thanks to this paraphrase, we can use the introduction and elimination rules for ∧ to devise introduction and elimination rules for ↔, as follows.
+
+Natural Deduction Rule (↔I) If
+
+D
+
+D
+
+(φ → ψ) and (ψ → φ)
+
+are derivations of (φ → ψ) and (ψ → φ), respectively, then
+
+D
+
+D
+
+(φ → ψ)
+
+(ψ → φ) (↔I)
+
+(φ ↔ ψ)
+
+is a derivation of (φ ↔ ψ). Its undischarged assumptions are those of D together with those of D .
+Natural Deduction Rule (↔E) If
+D (φ ↔ ψ)
+is a derivation of (φ ↔ ψ), then
+
+D
+
+D
+
+(φ ↔ ψ) (↔E) and (φ ↔ ψ) (↔E)
+
+(φ → ψ)
+
+(ψ → φ)
+
+Informal natural deduction
+
+23
+
+are derivations of (φ → ψ) and (ψ → φ), respectively. Their undischarged assumptions are those of D.
+Example 2.5.1 A proof of the sequent {(φ ↔ ψ)} (ψ ↔ φ). (Compare Example 2.3.2, and make sure to get the left and right branches of the derivation the right way round.)
+
+(φ ↔ ψ) (↔E)
+(ψ → φ) (ψ ↔ φ)
+
+(φ ↔ ψ) (↔E)
+(φ → ψ) (↔I)
+
+Exercises
+
+2.5.1.
+
+Give derivations to prove the following sequents: (a) {φ, (φ ↔ ψ)} ψ. (b) (φ ↔ φ). (c) {(φ ↔ ψ), (ψ ↔ χ)} (φ ↔ χ). (d) ((φ ↔ (ψ ↔ χ)) ↔ ((φ ↔ ψ) ↔ χ)). (e) {(φ ↔ (ψ ↔ ψ))} φ.
+
+2.5.2. Let S be any set of statements, and let ∼ be the relation on S deﬁned by: for all φ, ψ ∈ S,
+
+φ ∼ ψ if and only if (φ ↔ ψ).
+
+Show that ∼ is an equivalence relation on S. That is, it has the three properties: • (Reﬂexive) For all φ in S, φ ∼ φ. • (Symmetric) For all φ and ψ in S, if φ ∼ ψ then ψ ∼ φ. • (Transitive) For all φ, ψ and χ in X, if φ ∼ ψ and ψ ∼ χ then φ ∼ χ. [For reﬂexivity use (b) of Exercise 2.5.1. With a little more work, (c) and Example 2.5.1 give transitivity and symmetry.]
+
+2.5.3
+
+Show that if we have a derivation D of ψ with no undischarged assumptions, then we can use it to construct, for any statement φ, a derivation of ((φ ↔ ψ) ↔ φ) with no undischarged assumptions.
+
+2.5.4 Devise suitable sequent rules for ↔.
+
+24
+
+Informal natural deduction
+
+2.6 Arguments using ‘not’
+The rules for ‘not’ and ‘or’ are not quite as straightforward as the rules we have encountered so far. But in the spirit of natural deduction, they do all correspond to moves commonly made in mathematical arguments. We consider ‘not’ in this section and ‘or’ in the next.
+If φ is a statement, we write (¬φ) for the statement expressing that φ is not true. The symbol ¬ is pronounced ‘not’ or ‘negation’, and (¬φ) is called the negation of φ.
+How is ¬ used in arguments? We take our ﬁrst cue not from the mathematicians, but from a statement of Ian Hislop, the editor of the journal Private Eye. In 1989 the journal lost a libel case and was instructed to pay £600,000 damages. Coming out of the trial, Ian Hislop stood on the courthouse steps and said
+
+(2.20)
+
+If that’s justice then I’m a banana.
+
+He meant ‘That’s not justice’. He was using the following device. We write ⊥ (pronounced ‘absurdity’ or ‘bottom’ according to taste) for a
+statement which is deﬁnitely false, for example, ‘0 = 1’ or ‘I’m a banana’. In derivations we shall treat (¬φ) exactly as if it was written (φ → ⊥).
+How does this work in practice? Suppose ﬁrst that we have proved or assumed (¬φ). Then we can proceed as if we proved or assumed (φ → ⊥). The rule (→E) tells us that from φ and (φ → ⊥) we can deduce ⊥. So we will deduce ⊥ from φ and (¬φ).
+This gives us our ﬁrst natural deduction rule for ¬:
+Natural Deduction Rule (¬E) If
+
+D φ
+
+and
+
+D (¬φ)
+
+are derivations of φ and (¬φ) respectively, then
+
+D
+
+D
+
+φ
+
+(¬φ)
+
+(¬E)
+
+⊥
+
+is a derivation of ⊥. Its undischarged assumptions are those of D together with those of D .
+Second, suppose we want to prove (¬φ). Then we proceed as if we were using (→I) to prove (φ → ⊥). In other words, we assume φ and deduce ⊥. The assumption φ is discharged after it has been used.
+
+Informal natural deduction
+
+25
+
+Natural Deduction Rule (¬I) Suppose
+D ⊥
+is a derivation of ⊥, and φ is a statement. Then the following is a derivation of (¬φ):
+
+φ
+D
+⊥ (¬I)
+(¬φ)
+
+Its undischarged assumptions are those of D, except possibly φ. Example 2.6.1 The following derivation proves (φ → (¬(¬φ))).
+
+2 k φ
+
+(¨¬¨φ¨)
+
+1k (¬E)
+
+1k ⊥
+
+(¬I)
+
+2k (¬(¬φ))
+
+(→I)
+
+(φ → (¬(¬φ)))
+
+At the application of (¬I) we discharge the assumption (¬φ) to get the conclusion (¬(¬φ)).
+Just to say that (¬φ) behaves like (φ → ⊥), without adding anything about how ⊥ behaves, leaves rather a lot unexplained. Surprisingly, we were able to carry out the derivation in Example 2.6.1 without using any information about ⊥. But to go any further, we need to know how absurdity behaves in proofs. The following argument is a case in point.
+Example 2.6.2
+Theorem There are inﬁnitely many prime numbers.
+Proof Assume not. Then there are only ﬁnitely many prime numbers
+
+Consider the integer
+
+p1, . . . , pn
+
+q = (p1 × · · · × pn) + 1
+
+26
+
+Informal natural deduction
+
+The integer q must have at least one prime factor r. But then r is one of the pi, so it cannot be a factor of q. Hence r both is and is not a factor of q; absurd! So our assumption is false, and the theorem is true.
+A close inspection of this argument shows that we prove the theorem φ by assuming (¬φ) and deducing an absurdity. The assumption (¬φ) is then discharged. This form of argument is known as reductio ad absurdum, RAA for short. In natural deduction terms it comes out as follows.
+Natural Deduction Rule (RAA) Suppose we have a derivation
+
+D ⊥
+
+whose conclusion is ⊥. Then there is a derivation
+(¬φ) D ⊥ (RAA) φ
+Its undischarged assumptions are those of D, except possibly (¬φ).
+Example 2.6.3 We prove ((¬(¬φ)) → φ).
+
+(¨¬¨φ¨) 1k
+
+(¬(¬φ))
+
+2k (¬E)
+
+1k⊥ (RAA)
+
+2k
+
+φ
+
+(→I)
+
+((¬(¬φ)) → φ)
+
+Although Examples 2.6.2 and 2.6.3 are reasonably straightforward, the use of (RAA) can lead to some very unintuitive proofs. Generally, it is the rule of last resort, if you cannot ﬁnd anything else that works.
+Here are the sequent rules corresponding to (¬E), (¬I) and (RAA):
+Sequent Rule (¬E) If (Γ φ) and (∆ (¬φ)) are both correct sequents, then the sequent (Γ ∪ ∆ ⊥) is correct.
+Sequent Rule (¬I) If the sequent (Γ ∪ {φ} ⊥) is correct, then so is the sequent (Γ (¬φ)).
+
+Informal natural deduction
+
+27
+
+Sequent Rule (RAA) If the sequent (Γ ∪ {(¬φ)} ⊥) is correct, then so is the sequent (Γ φ).
+
+Exercises
+2.6.1. Find natural deduction proofs for the following sequents (none of which need (RAA)): (a) (¬(φ ∧ (¬φ))). (b) ((¬(φ → ψ)) → (¬ψ)). (c) ((φ ∧ ψ) → (¬(φ → (¬ψ)))). (d) {((¬(φ ∧ ψ)) ∧ φ)} (¬ψ). (e) {(φ → ψ)} ((¬ψ) → (¬φ)). (f) {(φ → ψ)} (¬(φ ∧ (¬ψ))).
+2.6.2. Find natural deduction proofs for the following sequents (all of which need (RAA)): (a) {((¬ψ) → (¬φ))} (φ → ψ). [Assume φ and ((¬ψ) → (¬φ)). Prove ψ by (RAA), assuming (¬ψ) and deducing ⊥.] (b) ((¬(φ → ψ)) → φ). (c) (φ → ((¬φ) → ψ)). (d) {(¬(φ ↔ ψ))} ((¬φ) ↔ ψ). (Hard.)
+
+2.7 Arguments using ‘or’
+We write (φ ∨ ψ) for ‘Either φ or ψ or both’. The symbol ‘∨’ is read as ‘or’. For example, (x = 0 ∨ x > 0) says
+Either x is 0 or x is greater than 0 or both.
+In this case (as often) the ‘or both’ doesn’t arise and can be ignored. The whole statement is equivalent to ‘x 0’.
+There are introduction and elimination rules for ∨. The introduction rule is much easier to handle than the elimination rule.
+Sequent Rule (∨I) If at least one of (Γ φ) and (Γ ψ) is a correct sequent, then the sequent (Γ (φ ∨ ψ)) is correct.
+Natural Deduction Rule (∨I) If
+D φ
+
+28
+
+Informal natural deduction
+
+is a derivation with conclusion φ, then
+D φ (φ ∨ ψ)
+is a derivation of (φ∨ψ). Its undischarged assumptions are those of D. Similarly if
+
+D ψ
+is a derivation with conclusion ψ, then
+D ψ (φ ∨ ψ)
+is a derivation with conclusion (φ ∨ ψ). Its undischarged assumptions are those of D.
+Example 2.7.1 We prove the sequent (¬(¬(φ ∨ (¬φ)))). Since the conclusion begins with ¬, common sense suggests we try using (¬I) to derive it. In other words, we should try ﬁrst to derive ⊥ from (¬(φ ∨ (¬φ))). We can do this by ﬁrst proving (φ ∨ (¬φ)) from the assumption (¬(φ ∨ (¬φ))). This looks like a curious thing to do, but it works:
+
+(2.21)
+
+1 k
+
+φ (∨I)
+(φ ∨ (¬φ))
+
+(@¬@(φ@∨@(¬@φ)@))@ 2k (¬E)
+
+1k ⊥ (¬I)
+
+(¬φ) (∨I)
+(φ ∨ (¬φ))
+
+@(¬@(φ@∨@(¬@φ)@))@ 2k (¬E)
+
+2k
+
+⊥
+
+(¬I)
+
+(¬(¬(φ ∨ (¬φ))))
+
+At ﬁrst sight it looks as if the two ¬ signs at the beginning of the conclusion have made extra work for us. This is not so. The sequent ( (φ ∨ (¬φ))) is certainly valid, but it is just as hard to prove; in fact the proof needs (RAA).
+You might guess that the sequent ( (φ∨(¬φ))) could be proved immediately by (∨I). But reﬂection shows that this would involve proving either φ or (¬φ), and since we have not said what statement φ is, it is hardly likely that we could prove either one of φ and (¬φ). This leaves us with no obvious strategy. In such
+
+Informal natural deduction
+
+29
+
+cases, a sensible move is to try to prove a contradiction from the negation of the conclusion, and then ﬁnish with (RAA). The derivation below does exactly this.
+
+(¨¬φ¨¨)
+
+1k
+(∨I)
+
+(φ ∨ (¬φ))
+
+($¬($φ ∨$($¬φ$)))$$
+
+3k
+(¬E)
+
+1k⊥ (RAA)
+
+φ
+
+3k ⊥
+(φ ∨ (¬φ))
+
+2 k
+
+φ
+
+(∨I)
+
+(φ ∨ (¬φ))
+
+($¬($φ ∨$($¬φ$)))$$
+
+3k
+(¬E)
+
+2k ⊥ (¬I)
+
+(¬φ)
+
+(¬E)
+
+(RAA)
+
+(2.22)
+We turn to the elimination rule for ∨. How do we use assumptions of the form (φ ∨ ψ) in mathematical arguments? Here is an example. We leave out the technical details—they can be found in calculus texts.
+Example 2.7.2 Consider how we show that if n is an integer = 0 and x = 0 then dxn = nxn−1. dx
+There is a well-known proof when n is positive. But this argument will not work when n is negative. So a diﬀerent argument is needed for this case. The resulting proof has the following form
+We assume n = 0, and so either n > 0 or n < 0.
+Case One: n > 0, etc., so dxn/dx = nxn−1. Case Two: n < 0, etc., so dxn/dx = nxn−1.
+
+Since the conclusion holds in both cases, and at least one of the cases must apply, the conclusion holds.
+
+Natural Deduction Rule (∨E) Given derivations
+
+D (φ ∨ ψ)
+
+,
+
+D χ
+
+and
+
+D χ
+
+we have a derivation
+
+φψ D DD (φ ∨ ψ) χ χ
+χ
+
+30
+
+Informal natural deduction
+
+Its undischarged assumptions are those of D, those of D except possibly φ, and those of D except possibly ψ.
+Sequent Rule (∨E) If (Γ ∪ {φ} χ) and (∆ ∪ {ψ} χ) are correct sequents, then the sequent (Γ ∪ ∆ ∪ {(φ ∨ ψ)} χ) is correct.
+
+Exercises
+2.7.1. Give natural deduction proofs of the following sequents (none of which need (∨E)): (a) (φ → (φ ∨ ψ)). (b) {(¬(φ ∨ ψ))} ((¬φ) ∧ (¬ψ)). (c) ((φ → ψ) → ((¬φ) ∨ ψ)).
+2.7.2. Give natural deduction proofs of the following sequents. (These need (∨E).) (a) {(φ ∨ ψ)} (ψ ∨ φ). (b) {(φ ∨ ψ), (φ → χ), (ψ → χ)} χ. (c) {(φ ∨ ψ), (¬φ)} ψ. (d) {((¬φ) ∧ (¬ψ))} (¬(φ ∨ ψ)). (e) {(φ ∧ ψ)} (¬((¬φ) ∨ (¬ψ))).
+
+3 Propositional logic
+We have now proved a wide range of statements. For example, in Section 2.4 we proved the correctness of the sequent (φ → (ψ → (φ ∧ ψ))) (Example 2.4.3).
+Strictly this is not correct. The Greek letters ‘φ’ and ‘ψ’ are not statements; they are variables ranging over statements (just as x, y can be variables ranging over real numbers). We could put any statement in place of φ and any statement in place of ψ.
+Nevertheless, we did prove something. What we proved in Example 2.4.3 was that
+Every statement of the form (φ → (ψ → (φ ∧ ψ))) is true.
+Likewise the natural deduction ‘proof’ of (φ → (ψ → φ)) is strictly not a proof of a statement; it is a pattern of inﬁnitely many proofs of diﬀerent statements. Such patterns are called formal proofs.
+So we are studying patterns that inﬁnitely many diﬀerent statements could have. These patterns are the real subject matter of mathematical logic. To study them closer, we work with formal languages which are designed to express the patterns that are important for arguments.
+To design a language, we need to describe three things.
+• The lexicon is the set of ‘words’ of the language. In a formal language the words are called symbols.
+• The syntax describes how the words are built up into sentences. A sentence of a formal language is called a formula. (In Chapter 5 we will introduce a particular class of formulas that we call ‘sentences’. Having two meanings of ‘sentence’ is unfortunate, but the terminology is well established and there is little danger of confusion.)
+• The semantics is the correlation between symbols and their meanings. In our formal languages the symbols fall into two classes. Some of the symbols are symbolisations of expressions in ordinary English, such as ‘and’, ‘not’ and ‘for all’. These symbols could be—and some of them often are—used in ordinary mathematical writing. We can study their meanings by seeing how they are used in mathematical arguments. These are the ‘pattern’ words. Other symbols of our language have no ﬁxed meaning, but we have ways of attaching temporary meanings to them. In the formal semantics of logical
+
+32
+
+Propositional logic
+
+languages, we give formal necessary and suﬃcient conditions for a statement to be true, depending on how the temporary meanings are assigned.
+
+Augustus De Morgan London, 1806–1871. He proposed the name ‘mathematical logic’ for the mathematical study of patterns that guarantee the correctness of arguments.
+
+You should bear in mind throughout this chapter that we will be doing calculations. The meanings of symbols may motivate this or that calculation, but the calculations themselves do not involve meanings; they operate entirely with the lexicon and the syntax.
+
+3.1 LP, the language of propositions
+We begin with LP, a formal language for expressing propositions. The ﬁrst step in constructing LP is to choose a set of symbols that can stand
+for statements. We call this set the signature (or more strictly the propositional signature, though in this chapter we use the shorter name). In theory, it can be any set of symbols; but in practice we should avoid putting into it symbols that already have other uses. We should certainly not put into it any of the symbols
+
+(3.1)
+
+∧∨ →↔ ¬⊥
+
+(we call these the truth function symbols) and the parentheses
+
+(3.2)
+
+()
+
+The symbols in the signature are called propositional symbols. The usual custom is to choose them to be lower-case letters near p, sometimes with indices or dashes, for example,
+
+(3.3)
+
+p q r p1 q215 r r
+
+Propositional logic
+
+33
+
+In computer science applications of logic one often meets propositional symbols that are several letters long, like MouseEvent. The inﬁnite set of symbols
+
+(3.4)
+
+p0, p1, p2, . . .
+
+will serve as a default signature in this chapter. For each choice of signature σ there is a dialect LP(σ) of LP.
+
+Deﬁnition 3.1.1 For each signature σ:
+
+(a) The lexicon of LP(σ) is the set of symbols consisting of the truth function symbols (3.1), the parentheses (3.2) and the symbols in σ.
+(b) An expression of LP(σ) is a string of one or more symbols from the lexicon of LP(σ). The length of the expression is the number of occurrences of symbols in it. (Often the same symbol will occur more than once.)
+
+It will be useful to be able to say things like ‘If φ is an expression then so is (¬φ)’, where the Greek letter φ is not an expression itself but a variable ranging over expressions.
+Deﬁnition 3.1.2 When we are studying a language L, we distinguish between (1) symbols of L and (2) symbols like φ above, that are not in L but are used to range over expressions of L. The symbols in (2) are called metavariables. They will usually be Greek letters such as φ, ψ, χ.
+We need to say which of the expressions of LP(σ) are ‘grammatical sentences’ of the language. These expressions are known as formulas. There is a short and sweet deﬁnition, as follows.
+
+(3.5)
+
+• ⊥ is a formula of LP(σ), and so is every symbol in σ. • If φ is a formula of LP(σ) then so is (¬φ). • If φ and ψ are formulas of LP(σ), then so are (φ ∧ ψ), (φ ∨ ψ),
+(φ → ψ) and (φ ↔ ψ). • Nothing else is a formula of LP(σ).
+
+Deﬁnitions, such as (3.5), that describe a set by saying that certain things are in it and it is closed under certain operations are known as inductive deﬁnitions. They require some mathematical explanation, for example, to make sense of the last bullet point. Even with that explanation taken as read, this deﬁnition of ‘formula’ is not necessarily the most helpful. It presents the formulas as a set of strings, and it hides the fact that formulas (like the sentences of any language) have a grammatical structure that underpins the uses we make of them. So in this and the next section we will follow an approach that has become standard in the study of natural languages, taking the grammatical structure as fundamental.
+
+34
+
+Propositional logic
+
+We begin with a particular formula of LP(σ) where σ contains p:
+
+(3.6)
+
+(p → (¬(¬p)))
+
+This formula comes from the statement proved in Example 2.6.1 of Section 2.6, by putting p in place of φ throughout. It has the form (φ → ψ) with p for φ and (¬(¬p)) for ψ. We can write this analysis as a diagram:
+
+(3.7)
+
+b→ d
+d
+
+bp
+
+db (¬(¬p))
+
+The formula on the left in (3.7) cannot be analysed any further. But on the right, (¬(¬p)) has the form (¬φ) where φ is (¬p). So we can extend the diagram downwards:
+
+(3.8)
+
+b→ d
+d
+
+bp
+
+db ¬
+
+b (¬p)
+
+One more step analyses (¬p) as the result of negating p:
+
+(3.9)
+
+b→ d
+d
+
+bp
+
+db ¬
+
+b¬
+
+bp
+So we have a diagram (3.9) of small circles (we call them nodes) joined by lines, with labels on the right of the nodes. The labels on the two bottom nodes are one-symbol formulas (in this case both p). The other nodes carry the labels →, ¬ and ¬. The diagram with its labels analyses how formula (3.6) was put together. This kind of grammatical analysis is traditionally known as parsing. The diagram branches downward, rather like a family tree, and so it will be called the parsing tree of the formula.
+
+Propositional logic
+
+35
+
+Given the tree diagram, we can reconstruct the formula that it came from. We illustrate this with a diﬀerent tree that uses the signature {p0, p1}:
+b¬ b→b p0
+
+(3.10)
+
+b→
+
+d d
+
+b p1
+
+db ¬
+
+b p0
+We reconstruct the formula by starting at the bottom tips of the tree and working upwards. As we go, we record our progress by writing labels on the left side of the tree nodes. The ﬁrst step is to copy each propositional symbol on the left side of its node:
+b→ b¬ p0 b p0
+
+(3.11)
+
+p1 b p1
+
+b→ d
+d db ¬
+
+p0 b p0
+In the middle branch, the ¬ on the node just above p0 shows that we form the formula (¬p0). We write this formula on the left of the node:
+b¬ b→p0 b p0
+
+(3.12)
+
+p1 b p1
+
+b→ d
+d (¬p0d) b ¬
+
+p0 b p0
+
+36
+
+Propositional logic
+
+Now the → on the left joins p1 and (¬p0) together to give (p1 → (¬p0)), and we attach this on the left of the node that carries the →:
+b¬ b→p0 b p0
+
+(3.13)
+
+(p1 → (¬p0)) p1 b p1
+
+b→ d
+d (¬p0d) b ¬
+
+p0 b p0
+With two more moves to incorporate the remaining ¬ and →, we ﬁnally reach the tree
+
+((¬(p1 → (¬p0))) (¬(p1 → (¬p0)))
+
+→b¬p0) 
+
+b→ p0 b
+
+p0
+
+(3.14)
+
+(p1 → (¬p0)) p1 b p1
+
+b→ d
+d (¬p0d) b ¬
+
+p0 b p0
+with ((¬(p1 → (¬p0))) → p0) on the left of the top node. This is the formula constructed by the tree. If we started with this formula and decomposed it to form a tree, the result would be (3.10). So the tree and the formula go hand in hand; we say the formula is associated with the tree, and the tree is the parsing tree of the formula. The labels on the left sides of nodes in (3.14) form the syntax labelling of the parsing tree; the next section will deﬁne this more rigorously.
+Pause for a moment to think about the way we constructed the labels on the left of the nodes. We started at the bottom of the tree and worked upwards. At each node we knew how to write the label on its left, depending only on the symbol written on its right and the left-hand labels on the nodes (if any) one level down. A set of instructions for writing a left labelling in this way is called a compositional deﬁnition. If δ is a compositional deﬁnition and we apply it to a parsing tree π, the thing we are trying to ﬁnd is the left label on the top node; we call this label the root label and we write it δ(π).
+In the example above, the labels on the left of nodes were expressions. But there are also compositional deﬁnitions that put other kinds of label on the left
+
+Propositional logic
+
+37
+
+of nodes. For example, this is a compositional deﬁnition:
+
+Put 0 on the left of each node at the bottom of the tree. Next, if you have left labelled the nodes immediately below a given node ν, say with numbers m1, . . . , mn, then write
+
+(3.15)
+
+max{m1, . . . , mn} + 1
+
+on the left of ν. This deﬁnition does not involve labels on the right at all. The label that it puts on the left of a node is called the height of the node; the root label is called the height of the tree.
+
+Remark 3.1.3 Parsing trees were ﬁrst designed by Frege in 1879 for his Begriﬀsschrift. Here is Frege’s own version of (3.10):
+a
+
+a
+
+(3.16)
+
+b
+
+Our top is his top left. His signature used a and b instead of our p0 and p1. He marked ¬ with a short line jutting out downwards, and → with an unlabelled branching. Frege himself used his parsing trees as formulas. The problem with this approach is that you cannot pronounce a parsing tree aloud, and even writing it can use up paper and patience. Imagine writing out a natural deduction derivation with parsing trees as formulas! In this book we follow Frege in using parsing trees to show the structure of formulas, but we do not try to use them in place of formulas.
+
+Exercises
+3.1.1. For each of the following formulas, draw a parsing tree that has the formula as its associated formula. (Trial and error should suﬃce, but later we will give an algorithm for this.)
+(a) (p ∧ q). (b) p. (c) (p → (q → (r → s))). (d) ((¬(p2 → (p1 ↔ p0))) ∨ (p2 → ⊥)), (e) ((p6 ∧ (¬p5)) → (((¬p4) ∨ (¬p3)) ↔ (p2 ∧ p1))). (f) (((¬(p3 ∧ p7)) ∨ (¬(p1 ∨ p2))) → (p2 ∨ (¬p5))). (g) (((¬(p1 → p2)) ∧ (p0 ∨ (¬p3))) → (p0 ∧ (¬p2))).
+
+38
+
+Propositional logic
+
+3.1.2. Find the associated formula of each of the following parsing trees.
+
+(a) b ¬ b⊥
+
+(b)
+
+b¬
+
+b∨ d b p2 d b p0
+
+(c)
+
+b∧
+
+d b ∧ d b p6
+
+d b ∧ d b p5
+
+d b ∧ d b p4
+
+d b ∧ d b p2
+
+d b p0 d b p1
+
+3.1.3. For each of the formulas in Exercise 3.1.1, ﬁnd a smallest possible signature σ such that the formula is in the language LP(σ).
+
+3.2 Parsing trees
+In this section we make precise the ideas of Section 3.1. Note that the language LP, as we have constructed it so far, consists of strings of symbols. In this chapter we have not yet attached any meanings to these symbols, and we will not until Section 3.5.
+We will deﬁne the formulas of LP(σ) in terms of their parsing trees. So ﬁrst we need to deﬁne ‘tree’—or more precisely ‘planar tree’, because for our trees it is important how they are written on the page.
+Deﬁnition 3.2.1 A (planar) tree is an ordered pair (N , D) where
+
+(a) N is a ﬁnite non-empty set whose elements are called nodes;
+(b) D is a function that takes each node µ in N to a sequence (possibly empty) of distinct nodes:
+
+(3.17)
+
+D(µ) = (ν1, . . . , νn)
+
+the nodes ν1, . . . , νn are called the daughters of µ, and µ is called the mother of ν1, . . . , νn; (c) every node except one has exactly one mother; the exception is a node called the root, in symbols √, which has no mother;
+(d) there are no cycles, that is, sequences
+
+(3.18)
+
+ν1, ν2, . . . , νk (k > 1)
+
+where νk = ν1 and each νi with 1 i < k has mother νi+1.
+
+Propositional logic
+
+39
+
+To draw a tree (N , D), we ﬁrst draw a node for its root √. If D(√) =
+
+µ1, . . joined
+
+.to, µ√n
+
+, then below the root by lines. Then we put
+
+we draw nodes µ1, . . . , µn the daughters of µ1 below
+
+from left to right, µ1, the daughters
+
+of µ2 below µ2, etc., and we carry on downwards until all the nodes are included.
+
+This will happen sooner or later, because N is ﬁnite by Deﬁnition 3.2.1(a); and
+
+if we start from any node and go to its mother, the mother of its mother and so
+
+on, then by (d) we must eventually reach a node with no mother, which by (c) must be √. The route from a node to the root is unique, since a node has at
+
+most one mother.
+
+Deﬁnition 3.2.2
+(a) In a tree, an edge is an ordered pair of nodes (µ, ν), where µ is the mother of ν. (So the lines in a tree diagram represent the edges.) Mixing metaphors, we describe a node as a leaf of a tree if it has no daughters. (Botanically speaking our trees are upside down, with their root at the top and their leaves at the bottom.)
+(b) The number of daughters of a node is called its arity. (So the leaves are the nodes of arity 0.)
+(c) We deﬁne a height for each node of a tree as follows. Every leaf has height 0. If µ is a node with daughters ν1, . . . , νn, then the height of µ is
+
+(3.19)
+
+max{height(ν1), . . . , height(νn)} + 1
+
+The height of a tree is deﬁned to be the height of its root (cf. (3.15)). (d) A path from node ν to node µ is a set of nodes {ν0, . . . , νk} where ν0 is ν,
+νk is µ, and for each i < k, νi is the mother of νi+1. A path from the root to a leaf µ is called a branch (to µ).
+Here are three examples of trees:
+
+(3.20)
+
+c
+
+c
+c
+c c ddc
+
+c¨¨¨ crrr c c ddc c dd c
+c¡¡ c¡¡ ee c ee c
+
+The left-hand tree in (3.20) has one leaf and no non-leaves, and its height is 0. The centre tree has two leaves, two nodes of arity 1 and one node of arity 2; the root has height 3, so the height of the tree is also 3. The right-hand tree has ﬁve leaves, two nodes of arity 1 and four nodes of arity 2; again the height of the
+
+40
+
+Propositional logic
+
+tree is 3. (3.21)
+
+c¨¨¨ cr$$r$r$c $$ cc¨¨ ¨ crrr c
+
+c
+
+c dd c
+
+c
+
+The tree (3.21) is strictly not the same tree as the third tree in (3.20), because the two trees are on diﬀerent pages; also the angles are diﬀerent in the two diagrams. But there is a unique correspondence between the nodes of one tree and the nodes of the other, and likewise between the edges of one tree and those of the others, which makes one tree a copy of the other (cf. Exercise 3.2.6). So it will do no harm if we ‘identify’ the two trees, that is, count them as the same tree.
+Deﬁnition 3.2.3 A labelling of a tree is a function f deﬁned on the set of nodes. We make it a right labelling by writing f (ν) to the right of each node ν, and a left labelling by writing f (ν) to the left of ν. A labelled tree is a tree together with a labelling; likewise we talk of left-labelled trees and right-labelled trees. (Sometimes we refer to right labels as right-hand labels, to avoid confusion between right/left and right/wrong.)
+Deﬁnition 3.2.4 A parsing tree for LP(σ) is a right-labelled tree where
+• every node has arity 2; • every leaf is labelled with either ⊥ or a symbol from σ; • every node of arity 1 is labelled with ¬; • every node of arity 2 is labelled with one of ∧, ∨, →, ↔.
+Now you can easily check that all the parsing trees of Section 3.1 are parsing trees in the sense of Deﬁnition 3.2.4. So we can deﬁne the formulas of LP(σ) by saying how they are constructed from parsing trees. The method that we use, working up from leaves to the root as in Section 3.1, will have many applications. For example, we use it to set up alternative notations, and to deﬁne properties of formulas, and to assign meanings to formulas. To make it precise, we make the following deﬁnition.
+Deﬁnition 3.2.5 A compositional deﬁnition δ is a set of rules that tell us how to put a left labelling on any parsing tree, in such a way that the left label on any node µ—write it δ(µ)—is determined by just two things:
+• the right-hand label on µ and • the sequence of values (δ(ν1), . . . , δ(νn)) where µ has daughters ν1, . . . , νn
+from left to right.
+
+Propositional logic
+
+41
+
+(In parsing trees for LP, n can only be 0, 1 or 2.) The rules must always determine δ(µ) uniquely from this data, so that they deﬁne a unique left labelling for any parsing tree π; the label on the root of π is called the root label , in symbols δ(π).
+
+Example 3.2.6 The rules that we used in Section 3.1 for recovering a formula
+
+from its parsing tree form a compositional deﬁnition. For convenience we can
+
+write it
+
+(3.22)
+
+χ bχ
+
+(¬φ) b ¬ φb
+
+(φ ψ) φb
+
+b
+d d ψd b
+
+where χ is ⊥ or a propositional symbol in σ, and is a truth function symbol ∧, ∨, → or ↔.
+
+This is three instructions. The ﬁrst says: at a leaf, copy the right-hand label on the left. The second says: at a node with right-hand label ¬, write (¬φ) where φ is the left label on the daughter. The third tells you what to do at a node with two daughters. Together the three instructions cover all cases unambiguously.
+
+Deﬁnition 3.2.7
+(a) If π is a parsing tree for LP(σ), then the formula associated to π is δ(π) where δ is the compositional deﬁnition (3.22). We say that π is a parsing tree for δ(π). The formulas of LP(σ) are the formulas associated to parsing trees of LP(σ). A formula of LP is a formula of LP(σ) for some signature σ.
+(b) The formula ⊥ and propositional symbols are called atomic formulas. (These have parsing trees with just one node.) All other formulas are said to be complex .
+(c) A formula has complexity k if it is associated to a parsing tree of height k. (So atomic formulas are those with complexity 0.)
+
+For example, using the default signature, the following are atomic formulas:
+
+⊥ p0 p2002 p999999999999
+
+(Remember that in LP, each of these counts as a single symbol, even though, for example, the last one is a string of length 13.) On the other hand the following three expressions
+
+(¬p1) (p0 → (p1 → p0)) ((p1 ∧ (¬p0)) ↔ p5)
+
+are complex formulas. (It is easy to draw parsing trees for them.)
+
+42
+
+Propositional logic
+
+WARNING: Suppose the same formula was associated to two diﬀerent parsing trees, one of height 17 and the other of height 18; what would the complexity of the formula be, according to Deﬁnition 3.2.7(c)? In fact this strange situation never occurs, but we should prove that it never does. That will be the task of Section 3.3.
+Remark 3.2.8 Let π be a parsing tree and ν a node of π. Then removing all the nodes of π which are not ν and cannot be reached from ν by going downwards along edges, we get a smaller parsing tree. The left label on ν given by (3.22) is the label on the root of this smaller tree, so it is itself a formula. Thus all the left labels on nodes of a parsing tree given by (3.22) are formulas.
+The next notion, though very useful, is rather hard to formalise. In practice there are indirect ways of formalising most of the information we get out of it. For the moment we will fall back on an informal description.
+Imagine we are travelling up a parsing tree, using (3.22) to attach formulas on the left sides of nodes. Nothing gets thrown away: if we write a formula φ against a node, then φ reappears in the label of its mother node. In fact we can say what part of the label on the mother node is this φ, and we call this the trace of φ. Take, for example, a part of a parsing tree:
+
+(3.23)
+
+(φ ∨ φ) φb
+
+bd∨ d φd b
+
+We labelled both of the two lower nodes φ. Then the upper node gets the label (φ ∨ φ). In this label the left-hand φ is the trace of the φ on the bottom left node, and the right-hand φ is the trace of the φ on the bottom right node. We say in this case that there are two occurrences of φ in the formula (φ ∨ φ); each trace is a separate occurrence. If the parsing tree contains further nodes above the top node in (3.23), then we can trace each of the φ’s in the labels on these nodes too.
+Deﬁnition 3.2.9 Let φ be the associated formula of a parsing tree P . Then the subformulas of φ are the traces in φ of the left labels of all the nodes in P . (The formula φ itself counts as the trace of the root label.)
+
+Propositional logic
+
+43
+
+For example, the formula ((¬(p1 → (¬p0))) → p0) has the parsing tree
+
+((¬(p1 → (¬p0))) (¬(p1 → (¬p0)))
+
+→b¬p0) 
+
+b→ p0 b
+
+p0
+
+(3.24)
+
+(p1 → (¬p0)) p1 b p1
+
+b→ d
+d (¬p0d) b ¬
+
+p0 b p0
+
+as we calculated in (3.14). The tree has seven nodes in its parsing tree, and hence the formula has seven subformulas, illustrated as follows:
+
+((¬(p1 → (¬p0))) → p0)
+
+(3.25)
+Note that the last two subformulas are the same formula, namely p0, but occurring in diﬀerent places.
+
+Exercises
+3.2.1. List all the subformulas of the following formula. (You found its parsing tree in Exercise 3.1.1(d).)
+((¬(p2 → (p1 ↔ p0))) ∨ (p2 → ⊥)).
+3.2.2. Take σ to be the default signature {p0, p1, . . . }. Draw six parsing trees π1, . . . , π6 for LP(σ), so that each πi has i nodes. Keep your parsing trees for use in later exercises of this section.
+
+44
+
+Propositional logic
+
+3.2.3.
+
+Consider the following compositional deﬁnition, which uses numbers as
+
+labels:
+
+1 bχ
+
+m+3 b ¬ mb
+
+m+n+3 mb
+
+b d
+d nd b
+
+where χ is atomic and ∈ {∧, ∨, →, ↔}.
+
+If π is any parsing tree for LP, and δ is the deﬁnition above, what is δ(π)? Justify your answer. [You might ﬁnd it helpful to try the deﬁnition in your trees from Exercise 3.2.2.]
+3.2.4. Construct a compositional deﬁnition δ so that for each parsing tree π, δ(π) is the number of parentheses ‘(’ or ‘)’ in the associated formula of π.
+3.2.5. This exercise turns formulas into numbers. Let σ be the default signature {p0, p1, p2, . . . }. We assign distinct odd positive integers (s) to symbols s of LP(σ) as follows:
+
+s ∧ ∨ → ↔ ¬ ⊥ p0 p1 . . . (s) 1 3 5 7 9 11 13 15 . . .
+
+The following compositional deﬁnition
+
+2 (χ) b χ (3.26)
+
+2m × 39 b ¬ mb
+
+2m × 3n × 5 ( ) mb
+
+where χ is atomic and ∈ {∧, ∨, →, ↔}.
+
+b d
+d nd b
+
+assigns a number to each node of any parsing tree. The number on the root is called the Go¨del number of the associated formula of the tree. Explain how, if you know the Go¨del number of a formula of LP(σ), you can reconstruct the formula. [Use unique prime decomposition.] Illustrate by reconstructing the formula with Go¨del number
+
+22215 ×39 × 3213 × 53
+
+For goodness sake do not try to calculate the number!
+
+3.2.6.
+
+Suppose (N1, D1) and (N2, D2) are planar trees. An isomorphism from (N1, D1) to (N2, D2) is a bijection f : N1 → N2 such that for every node µ ∈ N1, if D(µ) = (ν1, . . . , νn) then D(f µ) = (f ν1, . . . , f νn). We say that two planar trees are isomorphic if there is an isomorphism from the
+
+Propositional logic
+
+45
+
+ﬁrst to the second. (Then isomorphism is an equivalence relation.) Prove: If f and g are two isomorphisms from (N1, D1) to (N2, D2) then f = g. [If (N1, D1) has height n, prove by induction on k that for each k, the functions f and g agree on all nodes of height n − k in N1.]
+
+3.3 Propositional formulas
+The main aim of this section is to prove that each formula of LP(σ) is associated to a unique parsing tree. When we analysed the formula (p → (¬(¬p))) in Section 3.1, we built a parsing tree for it. What has to be shown is that this method of analysis always works in a unique way, and it recovers the parsing tree that the formula is associated to.
+By Deﬁnition 3.2.7 every formula φ of LP is the root label got by applying the compositional deﬁnition (3.22) to some parsing tree π. Looking at the clause of (3.22) used at the root, we see that φ is either atomic or a complex formula that can be written in at least one of the forms (¬φ), (φ ∧ ψ), (φ ∨ ψ), (φ → ψ) or (φ ↔ ψ), where φ and ψ are formulas (using Remark 3.2.8). In the complex cases the shown occurrence of ¬, ∧, ∨, → or ↔ is said to be a head of the formula. To show that each formula has a unique parsing tree, we need to prove that each complex formula has a unique head. In fact this is all we need prove, because the rest of the tree is constructed by ﬁnding the heads of the formulas on the daughter nodes, and so on all the way down. Our proof will give an algorithm, that is, a mechanical method of calculation, for ﬁnding the head.
+Purely for this section, we call the symbols ¬, ∧, ∨, →, ↔ the functors. So a functor is a truth function symbol but not ⊥.
+Deﬁnition 3.3.1 As in Deﬁnition 3.1.1(b), an expression is a string a1 · · · an of symbols and its length is n. A segment of this expression is a string
+ai · · · aj (with 1 i j n)
+This segment is initial if i = 1; so the initial segments are
+a1 a1a2 a1 · · · a3 . . . a1 · · · an
+The proper initial segments of the expression are those of length < n. For each initial segment s we deﬁne the depth d[s] to be the number of occurrences of ‘(’ in s minus the number of occurrences of ‘)’ in s. The depth of an occurrence aj of a symbol in the string is deﬁned as the depth of a1 · · · aj.
+Once again, remember that a propositional symbol is a single symbol. For example, we count p31416 as one symbol, not as a string of six symbols.
+
+46
+
+Propositional logic
+
+Example 3.3.2 In the string (p0 → (p1 → p0)) the depths of the initial segments are as follows:
+
+Initial segment
+(
+(p0 (p0 → (p0 → ( (p0 → (p1 (p0 → (p1 → (p0 → (p1 → p0 (p0 → (p1 → p0) (p0 → (p1 → p0))
+
+Depth 1 1 1 2 2 2 2 1 0
+
+Lemma 3.3.3 Let χ be any formula of LP. Then
+
+(a) χ has depth 0, and every proper initial segment of χ has depth > 0;
+(b) if χ is complex then exactly one occurrence of ∧, ∨, →, ↔ or ¬ in χ has depth 1, and this occurrence is the unique head of χ.
+Proof By Deﬁnition 3.2.7, χ is the associated formula of some parsing tree π. If µ is a node of π, write µ for the formula assigned by (3.22) as left label of µ. We show that for every node µ of π, µ has the properties (a) and (b) of the lemma. The proof is by induction on the height of µ.
+Case 1: µ has height 0. Then µ is a leaf, so µ is atomic, its depth is 0 and it has no proper initial segments.
+Case 2: µ has height k + 1 > 0, assuming the result holds for all nodes of height k. Then µ has one of the forms (φ ∧ ψ), (φ ∨ ψ), (φ → ψ), (φ ↔ ψ) or (¬φ),
+depending on the right-hand label at µ. The cases are all similar; for illustration we take the ﬁrst. In this case, µ has two daughters ν1 and ν2, and µ is (ν1 ∧ ν2). By induction assumption both ν1 and ν2 satisfy (a) and (b). The initial segments of µ¯ are as follows:
+
+(α) ( This has depth 1.
+(β) (s where s is a proper initial segment of ν1. Since ν1 satisﬁes (a), the depth d[s] is at least 1, so the depth d[(s] is at least 2.
+(γ) (ν1 Since ν1 satisﬁes (a), the depth is 1 + 0 = 1.
+(δ) (ν1∧ The depth is 1 + 0 + 0 = 1; so the head symbol ∧ has depth 1.
+
+Propositional logic
+
+47
+
+(ε) (ν1 ∧ s where s is a proper initial segment of ν2. As in case (β), the fact that ν1 and ν2 satisfy (a) implies that the depth is at least 2.
+(ζ) (ν1 ∧ ν2 The depth is 1 + 0 + 0 + 0 = 1.
+(η) µ itself The depth is 1 + 0 + 0 + 0 − 1 = 0 as required.
+This proves that µ satisﬁes (a). To prove that it satisﬁes (b), we note from (δ) that the head symbol has depth 1. If t is any other occurrence of a functor in µ, then t must be inside either ν1 or ν2, and it’s not the last symbol since the last symbol of a complex formula is always ‘)’. Hence t is the end of an initial segment as in case (β) or (ε), and in both these cases the depth of t is at least 2.
+Theorem 3.3.4 (Unique Parsing Theorem) Let χ be a formula of LP. Then χ has exactly one of the following forms:
+(a) χ is an atomic formula. (b) χ has exactly one of the forms (φ ∧ ψ), (φ ∨ ψ), (φ → ψ), (φ ↔ ψ), where φ
+and ψ are formulas. (c) χ has the form (¬φ), where φ is a formula.
+Moreover in case (b) the formulas φ and ψ are uniquely determined segments of φ. In case (c) the formula φ is uniquely determined.
+Proof Every formula of LP has a parsing tree. As noted at the start of this section, from the possible forms in (3.22), it follows that every formula of LP has at least one of the forms listed in the theorem. It remains to prove the uniqueness claims.
+Inspection shows whether χ is atomic. Suppose then that χ is complex. By the lemma, χ has a unique head. The ﬁrst symbol of χ is ‘(’. If the head is ¬, it is the second symbol of χ; if the head of χ is not ¬ then we are in case (b) and the second symbol of χ is the ﬁrst symbol of φ, which cannot ever be ¬. So the second symbol determines whether we are in case (b) or (c).
+In case (b) the occurrence of the head is uniquely determined as in the lemma. So φ is everything to the left of this occurrence, except for the ﬁrst ‘(’ of χ; and ψ is everything to the right of the occurrence, except for the last ‘)’ of χ. Similarly in case (c), φ is the whole of χ except for the ﬁrst two symbols and the last symbol.
+The theorem allows us to ﬁnd the parsing tree of any formula of LP, starting at the top and working downwards.
+
+48
+
+Propositional logic
+
+Example 3.3.5 We parse (p1 → ((¬p3) ∨ ⊥)). It is clearly not atomic, so we check the depths of the initial segments in order to ﬁnd the head. Thus
+
+d[(] = 1, d[(p1] = 1, d[(p1 →] = 1
+
+Found it! The third symbol is a functor of depth 1, so it must be the head. Therefore, the formula was built by applying this head to p1 on the left and ((¬p3) ∨ ⊥) on the right. The formula on the left is atomic. A check for the head of the formula on the right goes
+
+d[(]=1, d[((]=2, d[((¬]=2, d[((¬p3]=2, d[((¬p3)]=1, d[((¬p3)∨]=1
+
+so again we have found the head. Then we need to ﬁnd the head of (¬p3). After this is done, we have analysed down to atomic formulas. So starting at the top, we can draw the complete parsing tree:
+
+(3.27)
+
+bp1 
+
+b→b ∨ d
+
+d
+
+b¬
+
+db ⊥
+
+b p3
+After your experience with Section 3.1, you could probably ﬁnd this tree without needing the algorithm. But the algorithm makes the process automatic, and even experienced logicians can ﬁnd this useful with complicated formulas.
+
+Example 3.3.6 What happens if you try to use the algorithm above to ﬁnd the parsing tree of an expression s that is not a formula? If you succeed in constructing a parsing tree, then s must be the associated formula of the tree, which is impossible. So you cannot succeed, but what happens instead? There is no question of going into an inﬁnite loop; since the process breaks s down into smaller and smaller pieces, it has to halt after a ﬁnite time. What must happen is that you eventually hit an expression which is not an atomic formula and has no identiﬁable head. At this point the algorithm is telling you that s is not a formula.
+For example, we try to parse (p0 → p1) → p2). The ﬁrst → has depth 1, so we can get this far:
+
+(3.28)
+
+b→ d b p0 d b p1) → p2
+
+Propositional logic
+
+49
+
+But at bottom right we need to calculate a tree for p1) → p2. This expression is not an atomic formula and it does not contain any functor of depth 1. So the procedure aborts at this point and tells us that (p0 → p1) → p2) is not a formula of LP.
+
+The Unique Parsing Theorem often allows us to rewrite compositional
+
+deﬁnitions in a simpler form. For example, the deﬁnition
+
+m+3 b ¬
+
+m+n+3
+
+1 bχ
+
+(3.29)
+
+mb
+
+mb
+
+b d
+d nd b
+
+where χ is atomic and ∈ {∧, ∨, →, ↔}.
+
+shakes down to the equivalent deﬁnition of a function f giving the left labels:
+
+(3.30)
+
+f (φ)
+
+= 1 when φ is atomic
+
+f ((¬φ)) = f (φ) + 3;
+
+f ((φ ψ)) = f (φ) + f (ψ) + 3
+
+when
+
+∈ {∧, ∨, →, ↔}.
+
+This second deﬁnition works because for each formula, exactly one case of the definition of f applies, and the formulas φ and ψ are uniquely determined. Because the deﬁnition of f needs only one line for each case, not a tree diagram, we say that this deﬁnition is got by ﬂattening the compositional deﬁnition. Deﬁnitions, such as (3.30), that deﬁne some property of formulas by deﬁning it outright for atomic formulas, and then for complex formulas in terms of their smaller subformulas, are said to be recursive, or by recursion on complexity. The name is because the same clause may recur over and over again. For example, in the calculation of f (φ), the clause for ¬ in (3.30) will be used once for each occurrence of ¬ in φ.
+
+Exercises
+3.3.1. Calculate the depths of all the initial segments of the string
+
+(¬(p22 ↔ (¬⊥))).
+
+3.3.2. 3.3.3.
+3.3.4.
+
+Prove the case when µ has the form (¬φ) in Case Two of the proof of Lemma 3.3.3.
+Calculate the heads of the following formulas of LP: (a) ((((¬(¬p0)) ↔ (¬(p1 → ⊥))) → p1) → p1). (b) (¬((¬p0) ↔ ((((¬p1) → ⊥) → p1) → p1))). True or false?: Given a formula φ of LP, if you remove the parentheses, then for every occurrence of ∧, ∨, → or ↔ in φ, there is a way of putting
+
+50
+
+Propositional logic
+
+3.3.5. 3.3.6.
+
+parentheses back into the formula so as to create a formula of LP in which the given occurrence is the head.
+For each of the following strings, either write down its parsing tree (thereby showing that it is a formula of LP), or show by the method of Example 3.3.6 that it is not a formula of LP. (a) ((p3 ∧ (p3 ∧ p2)). (b) ((((¬p1) ↔ ⊥) ∨ p1) ∧ p2). (c) (((¬(p0 ∨ p1)) ∧ (p2 → p3))) → (p3 ∧ p4)). (d) (p1 ∧ ¬¬(p2 ∨ p0)). (e) ((¬p1) → (¬p2) ∧ p1)). (f) ((p1 ∧ (p2 ∨ p3)) ↔ (¬(¬p0))). (g) (((p1 ∧ p2)) ∧ (p3 ∧ p4)). (h) ((p1 → (¬(p2))) ↔ p3). (i) (p1 → (p2 → (p3 ∧ p4) → p5))). Item (a) below gives us a second method for showing that a given expression is not a formula of LP(σ) for a given signature σ. Its advantage is that you normally do not need parsing trees for it. Its disadvantage is that you have to have an idea, unlike the method of Example 3.3.6 which is an algorithm that could be done by a computer. (a) Prove the following: let S be a set of expressions such that
+(1) every atomic formula of LP(σ) is in S;
+(2) if s and t are any expressions in S, then the expressions
+
+(¬s) (s ∧ t) (s ∨ t) (s → t) (s ↔ t)
+
+are all in S.
+Then every formula of LP(σ) is in S. [Let π be a parsing tree. Show (by induction on height of ν) that if (1) and (2) are true then for every node ν of π, the formula ν at ν is in S.]
+(b) Use (a) to show that every formula of LP(σ) has equal numbers of left parentheses ‘(’ and right parentheses ‘)’. [Put S = {s | s has equal numbers of left and right parentheses}, and remember to prove that (1) and (2) are true for this S.] Deduce that
+
+(((p → q) ∨ (¬p))
+
+is not a formula of LP(σ).
+
+Propositional logic
+
+51
+
+3.3.7. 3.3.8.
+
+In each case below, use Exercise 3.3.6(a) to show that the given expression is not a formula of LP(σ) where σ = {p0, p1, . . . }, by ﬁnding a set that satisﬁes (1) and (2) above but does not contain the given expression. [The expressions all do have equal numbers of left and right parentheses, so you cannot just use S from (b) of the previous exercise. Avoid mentioning ‘formulas’ in the deﬁnition of your S.] (a) p√2 . (b) )p0(.
+(c) (p1 ∧ p2 → p3).
+(d) (¬¬p1). [WARNING. The obvious choice S = {s | s does not have two ¬ next to each other} does not work, because it fails (2); ¬ is in S but (¬¬) is not.]
+(e) (p1 → ((p2 → p3)) → p2).
+(f) (¬p1)p2.
+(g) (¬p1 → (p1 ∨ p2)).
+The Unique Parsing Theorem makes essential use of the parentheses ‘(’ and ‘)’ in a formula. But there are other logical notations that do not need parentheses. For example, Polish (also known as head-initial ) notation has the following compositional deﬁnition:
+
+(3.31)
+
+χ bχ
+
+Nφ b ¬ φb
+
+φψ φb
+
+b d
+d ψd b
+
+where χ is atomic, ∧ is K, ∨ is A, → is C and ↔ is E.
+
+(a) Verify that in Polish notation the associated formula of the parsing tree
+
+b→ d
+d
+
+bp
+
+db ¬
+
+(3.32) b¬
+
+bp
+
+is CpN N p.
+
+52
+
+Propositional logic
+
+3.3.9.
+
+(b) Construct the parsing trees of the following Polish-notation formulas: (i) EN pq.
+(ii) CCCpppp.
+(iii) CN pAqKpN q.
+(c) Translate the following formulas from LP notation to Polish notation: (i) (p ∨ (q ∧ (¬p))). (ii) (((p → q) → p) → p).
+(d) Translate the following formulas from Polish notation to LP notation: (i) EApqN KN pN q.
+(ii) CCqrCCpqCpr.
+Formulate a Unique Parsing Theorem for LP with Polish notation (cf. Exercise 3.3.8), and prove your theorem. [The problem is to show, for example, that if Kφψ and Kφ ψ are the same formula then φ = φ and ψ = ψ . Try using a diﬀerent depth function d deﬁned by: d[s] = the number of symbols from K, A, C, E in s, minus the number of propositional symbols in s, plus 1.] If the examples in Exercise 3.3.8 are not enough, you can test your algorithm and your eyesight on the following sentence in a book by Lukasiewicz:
+
+C C C pq C C q rC prC C C C q rC prsC C pq s.
+
+Jan Lukasiewicz Poland, 1878–1956. The inventor of Polish notation.
+3.3.10. (a) We write N S(φ) for the number of occurrences of subformulas in φ. Write out a compositional deﬁnition for N S(φ), and then ﬂatten it
+
+Propositional logic
+
+53
+
+to a recursive deﬁnition of N S(φ). (N S(φ) is equal to the number of nodes in the parsing tree for φ, so your compositional deﬁnition can be a slight adjustment of Exercise 3.2.3.)
+(b) Write a recursive deﬁnition for Sub(φ), the set of formulas that occur as subformulas of φ. (There is a compositional deﬁnition for Sub(φ), but in fact a recursive deﬁnition is easier to write down directly.)
+
+3.4 Propositional natural deduction
+Intuitively speaking, derivations in this chapter are the same thing as derivations in Chapter 2, except that now we use formulas of LP instead of English statements. But we need to be more precise than this, for two reasons. First, we want to be sure that we can check unambiguously whether a given diagram is a derivation or not. Second, we need a description of derivations that will support our later mathematical analysis (e.g. the Soundness proof in Section 3.9, or the general results about provability in Chapter 8).
+Our starting point will be the fact that the derivations of Chapter 2 have a tree-like feel to them, except that they have their root at the bottom and they branch upwards instead of downwards. (From a botanical point of view, of course, this is correct.) So we can borrow the deﬁnitions of Section 3.2, but with the trees the other way up. We will think of derivations as a kind of left-andright-labelled tree, and we will deﬁne exactly which trees we have in mind. In practice we will continue to write derivations in the style of Chapter 2, but we can think of these derivations as a kind of shorthand for the corresponding trees.
+To illustrate our approach, here is the derivation of Example 2.4.5:
+
+(3.33)
+
+¨φ¨ 1k ψ
+
+Here is our tree version of it.
+
+(φ → ψ) (→E)
+1k χ (φ → χ)
+
+(ψ → χ) (→I)
+
+(→E)
+
+(3.34)
+
+φ
+
+brr(Ar) rrψr
+
+b¨r(r(¨→φr¨→Er)¨ψr¨)χ¨r
+
+b (A) b¨(→(¨ψE¨→) ¨χ¨) ¨
+
+b
+
+(A)
+
+(φ → χ) b (→I)
+
+54
+
+Propositional logic
+
+The formulas are the left labels. The right-hand label on a node tells us the rule that was used to bring the formula to the left of it into the derivation. Formulas not derived from other formulas are allowed by the Axiom Rule of Section 2.1, so we label them (A). Also we leave out the numbering of the discharged assumptions, which is not an essential part of the derivation.
+With these preliminaries we can give a mathematical deﬁnition of ‘derivation’ that runs along the same lines as Deﬁnition 3.2.4 for parsing trees. The deﬁnition is long and repeats things we said earlier; so we have spelt out only the less obvious clauses. As you read it, you should check that the conditions in (d)–(g) correspond exactly to the natural deduction rules as we deﬁned them in Chapter 2. (These rules are repeated in Appendix A.)
+Deﬁnition 3.4.1 Let σ be a signature. Then a σ-derivation or, for short, a derivation is a left-and-right-labelled tree (drawn branching upwards) such that the following hold:
+(a) Every node has arity 0, 1, 2 or 3.
+(b) Every left label is either a formula of LP(σ), or a formula of LP(σ) with a dandah.
+(c) Every node of arity 0 carries the right-hand label (A).
+(d) If ν is a node of arity 1, then one of the following holds: (i) ν has right-hand label (→I), and for some formulas φ and ψ, ν has the left label (φ → ψ) and its daughter has the left label ψ;
+(ii) ν has right-hand label (¬I) or (RAA), the daughter of ν has left label ⊥, and if the right-hand label on ν is (¬I) then the left label on ν is of the form (¬φ).
+(iii),(iv),(v) Similar clauses for (∧E), (∨I) and (↔E) (left as an exercise).
+(e) If ν is a node of arity 2, then one of the following holds: (i) ν has right-hand label (→E), and there are formulas φ and ψ such that ν has the left label ψ, and the left labels on the daughters of ν are (from left to right) φ and (φ → ψ).
+(ii),(iii),(iv) Similar clauses for (∧I), (¬E) and (↔I) (left as an exercise).
+(f) If ν is a node of arity 3, then the right-hand label on ν is (∨E), and there are formulas φ, ψ such that the leftmost daughter of ν is a leaf with left label (φ ∨ ψ), and the other two daughters of ν carry the same left label as ν,
+
+Propositional logic
+
+55
+
+(g) If a node µ has left label χ with a dandah, then µ is a leaf, and the branch to µ (Deﬁnition 3.2.2(d)) contains a node ν where one of the following happens: (i) Case (d)(i) occurs with formulas φ and ψ, and φ is χ, (ii) Case (d)(ii) occurs; if the right-hand label on ν is (¬I) then the left label on ν is (¬χ), while if it is (RAA) then χ is (¬φ) where φ is the left label on ν. (iii) ν has label (∨E) with formulas φ and ψ as in Case (f), and either χ is φ and the path from the root to ν goes through the middle daughter of ν, or χ is ψ and the path goes through the right-hand daughter.
+The conclusion of the derivation is the left label on its root, and its undischarged assumptions are all the formulas that appear without dandahs as left labels on leaves. The derivation is a derivation of its conclusion.
+Theorem 3.4.2 Let σ be a ﬁnite signature, or the signature {p0, p1, . . . }. There is an algorithm that, given any diagram, will determine in a ﬁnite amount of time whether or not the diagram is a σ-derivation.
+Proof Deﬁnition 3.4.1 tells us exactly what to look for. The diagram must form a tree with both left and right labels, where every node has arity 3. The left labels must all be formulas of LP(σ) (possibly with dandahs); Section 3.3 told us how to check this. The right labels must all be from the ﬁnite set (→I), (→E), etc. Each of the clauses (d)–(g) can be checked mechanically.
+Leibniz would have been delighted. But in the seventeenth century, when Leibniz lived, it was assumed that any calculation must be with numbers. So when Leibniz asked for a way of calculating whether proofs are correct, he took for granted that this would involve converting the proofs into numbers; in fact he sketched some ideas for doing this. Exercise 3.2.5 was a modern version of the same ideas, due to Kurt Go¨del. Since a derivation is also a tree, the same idea adapts and gives a Go¨del number for each derivation. We will use this numbering in Chapter 8 to prove some important general facts about logic.
+Example 3.4.3 Suppose D is a σ-derivation whose conclusion is ⊥, and φ is a formula of LP(σ). Let D be the labelled tree got from D by adding one new node below the root of D, putting left label φ and right label (RAA) on the new node, and writing a dandah on (¬φ) whenever it labels a leaf. We show that D is a σ-derivation. The new node has arity 1, and its daughter is the root of D. Clearly (a)–(c) of Deﬁnition 3.4.1 hold for D since they held for D. In (d)–(f) we need to only check for (d)(ii), the case for (RAA); D satisﬁes this since the root of D carried ⊥. There remains (g) with (¬φ) for χ: here D satisﬁes (g)(ii),
+
+56
+
+Propositional logic
+
+so the added dandahs are allowed. You will have noticed that we wrote D as
+
+(3.35)
+
+(¬φ) D
+⊥ (RAA) φ
+
+in the notation of Chapter 2. We will continue to use that notation, but now we also have Deﬁnition 3.4.1 to call on when we need to prove theorems about derivations. (This example continues after Deﬁnition 3.4.4.)
+We can now recast the deﬁnition of sequents, Deﬁnition 2.1.2, as follows.
+Deﬁnition 3.4.4 Let σ be a signature. A σ-sequent, or for short just a sequent, is an expression
+
+(3.36)
+
+Γ σψ
+
+where ψ is a formula of LP(σ) (the conclusion of the sequent) and Γ is a set of formulas of LP(σ) (the assumptions of the sequent). The sequent (3.36) means
+
+(3.37)
+
+There is a σ-derivation whose conclusion is ψ and whose undischarged assumptions are all in the set Γ.
+
+(This is a precise version of Deﬁnition (2.1.2).) When (3.37) is true, we say that the sequent is correct, and that the σ-derivation proves the sequent. The set Γ can be empty, in which case we write the sequent as
+
+(3.38)
+
+σψ
+
+This sequent is correct if and only if there is a σ-derivation of ψ with no undischarged assumptions.
+When the context allows, we leave out σ and write σ as . This is innocent: Exercises 3.4.3 and 3.4.4 explain why the choice of signature σ is irrelevant so long as LP(σ) includes the assumptions and conclusion of the sequent.
+Example 3.4.3 (continued) Let Γ be a set of formulas of LP(σ) and φ a formula of LP(σ). We show that if the sequent Γ ∪ {¬φ} σ ⊥ is correct, then so is the sequent Γ σ φ. Intuitively this should be true, but thanks to the deﬁnition (3.37) we can now prove it mathematically. By that deﬁnition, the correctness of Γ ∪ {(¬φ)} σ ⊥ means that there is a σ-derivation D whose conclusion is ⊥ and whose undischarged assumptions are all in Γ ∪ {(¬φ)}. Now let D be the derivation constructed from D earlier in this example. Then D has
+
+Propositional logic
+
+57
+
+conclusion φ and all its undischarged assumptions are in Γ, so it proves Γ σ φ as required.
+The Greek metavariables φ, ψ etc. are available to stand for any formulas of LP. For example, the derivation in Example 2.4.5 whose tree we drew is strictly not a derivation but a pattern for derivations. Taking σ as the default signature {p0, p1, . . . }, an example of a genuine σ-derivation that has this pattern is
+
+¨p¨5 1k
+
+(p5 → p3) (→E) p3
+1k ⊥ (p5 → ⊥)
+
+(p3 → ⊥) (→E) (→I)
+
+This derivation is a proof of the sequent
+
+{(p5 → p3), (p3 → ⊥)} σ (p5 → ⊥).
+
+In practice, we will continue to give derivations using Greek letters, as a way of handling inﬁnitely many derivations all at once.
+
+Charles S. Peirce USA, 1839–1914. A very inventive logician, one of the creators of modern semantics.
+Problem: How do we know we have all the rules we ought to have for propositional natural deduction? Example 3.4.5 The following example shows that this is not a fake problem. In the late nineteenth century, Charles Peirce showed the correctness of the sequent (((φ → ψ) → φ) → φ). In fact, we can prove it by the following
+
+58
+
+Propositional logic
+
+derivation:
+
+1 k φ
+
+(¨¬¨φ¨)
+
+2k (¬E)
+
+⊥ (RAA)
+
+1k ψ
+
+(→I)
+
+(φ → ψ)
+
+(2(φ2→2ψ2)2→2φ2) 2(→3kE)
+
+φ
+
+2k ⊥ (RAA)
+
+(¨¬¨φ¨)
+
+2k (¬E)
+
+3k
+
+φ (→I)
+
+(((φ → ψ) → φ) → φ)
+
+However, it is also possible to show that there is no derivation that proves this sequent and uses just the rules for → and the Axiom Rule (cf. Exercise 3.9.2). The derivation above needs the symbol ⊥ and the rule (RAA) as well. This raises the depressing thought that we might be able to prove still more correct sequents that use no truth function symbols except →, if we knew what extra symbols and rules to add.
+
+Fortunately, the situation is not as bad as this example suggests. The class of acceptable rules of propositional logic is not open-ended; we can draw a boundary around it.
+Recall that our language LP for propositional logic consists of meaningless statement-patterns, not actual statements. We can allow our propositional symbols to stand for any statements that we want, true or false as required. This gives us plenty of freedom for ruling out unwanted sequents: a sequent Γ ψ is unacceptable if there is a way of reading the propositional symbols in it so that Γ becomes a set of truths and ψ becomes a falsehood.
+Example 3.4.6 We show that the sequent {(p0 → p1)} p1 is unacceptable. To do this we interpret the symbols p0 and p1 by making them stand for certain sentences that are known to be true or false. The following example shows a notation for doing this:
+
+(3.39)
+
+p0 2 = 3 p1 2 = 3
+
+Under this interpretation p1 is false, but (p0 → p1) says ‘If 2 = 3 then 2 = 3’, which is true. So any rule which would deduce p1 from (p0 → p1) would be unacceptable.
+
+Propositional logic
+
+59
+
+Deﬁnition 3.4.7 Let (Γ ψ) be a σ-sequent, and let I be an interpretation that makes each propositional symbol appearing in formulas in the sequent into a meaningful sentence that is either true or false. Using this interpretation, each formula in the sequent is either true or false. (For the present, this is informal common sense; in the next section we will give a mathematical deﬁnition that allows us to calculate which formulas are true and which are false under a given interpretation.) We say that I is a counterexample to the sequent if I makes all the formulas of Γ into true sentences and ψ into a false sentence.
+The moral of Example 3.4.6 is that if a sequent in propositional logic has a counterexample, then the sequent is unacceptable as a rule of logic. This suggests a programme of research: show that for every sequent of propositional logic, either there is a derivation (so that the sequent is correct in the sense of Deﬁnition 3.4.4) or there is a counterexample to it. If we can show this, then we will have shown that we have a complete set of rules for natural deduction; any new rules would either be redundant or lead to ‘proofs’ of unacceptable sequents. David Hilbert proposed this programme in lectures around 1920 (though in terms of a diﬀerent proof calculus, since natural deduction hadn’t yet been invented). The programme worked out well, and in sections 3.9 and 3.10 we will see the results.
+
+David Hilbert Germany, 1862–1943. Hilbert’s Go¨ttingen lectures of 1917–1922 were the ﬁrst systematic presentation of ﬁrst-order logic.
+Exercises
+3.4.1. Add the missing clauses (d)(iii)–(v) and (e)(ii)–(iv) to Deﬁnition 3.4.1. 3.4.2. Let σ be the default signature {p0, p1, . . . }. Neither of the following two
+diagrams is a σ-derivation. In them, ﬁnd all the faults that you can, and state which clause of Deﬁnition 3.4.1 is violated by each fault. (Consider
+
+60
+
+Propositional logic
+
+the diagrams as shorthand for labelled trees, as (3.33) is shorthand for (3.34).)
+
+p0
+
+$(p$0 →$$⊥)$$ (→E)
+
+⊥ (¬E)
+
+(a)
+
+p1
+
+(→I)
+
+(p1 → p0)
+
+(¬(p0 → p1)) ((¬(p0 → p1)) → ⊥)
+
+($¬$(p1$→$p$$0)) (→E) ⊥
+(RAA) ⊥
+(→I)
+
+p2
+
+($p2$→$q$)$
+
+(b)
+
+($¬$((¬$p$2) $∨ q$)) ⊥
+
+¨(¬¨p2¨) ((¬p2) ∨ q)
+
+(∨I) (¬E)
+
+(→E)
+
+q ((¬p2) ∨ q)
+
+(∨I)
+
+($¬($(¬$p2$) ∨$$q))
+
+⊥
+
+(¬I)
+
+(RAA)
+
+p2
+
+(¬p2) (¬I)
+
+⊥
+
+(¬I)
+
+((¬p2) ∨ q)
+
+3.4.3. Let ρ and σ be signatures with ρ ⊆ σ.
+(a) Show that every parsing tree for LP(ρ) is also a parsing tree for LP(σ).
+(b) Show that every formula of LP(ρ) is also a formula of LP(σ).
+(c) Show that every ρ-derivation is also a σ-derivation. [Use Deﬁnition 3.4.1.]
+(d) Show that if (Γ ρ ψ) is a correct sequent then so is (Γ σ ψ). [Use Deﬁnition 3.4.4.]
+3.4.4. Let ρ and σ be signatures with ρ ⊆ σ.
+(a) Suppose D is a σ-derivation, and D is got from D by writing ⊥ in place of each symbol in D that is in σ but not in ρ. Show that D is a ρ-derivation. [Use Deﬁnition 3.4.1.]
+(b) Suppose Γ is a set of formulas of LP(ρ) and ψ is a formula of LP(ρ), such that the sequent (Γ σ ψ) is correct. Show that the sequent (Γ ρ ψ) is correct. [If D is a σ-derivation proving (Γ σ ψ), apply part (a) to D and note that this does not change the conclusion or the undischarged assumptions.]
+
+Propositional logic
+
+61
+
+3.4.5. Let σ be a signature, Γ a set of formulas of LP(σ) and φ a sentence of LP(σ). Show the following, using Deﬁnitions 3.4.1 and 3.4.4:
+(a) The sequent Γ ∪ {(¬φ)} σ ⊥ is correct if and only if the sequent Γ σ φ is correct. (Left to right was proved in Example 3.4.3.)
+(b) The sequent Γ ∪ {φ} σ ⊥ is correct if and only if the sequent Γ σ (¬φ) is correct.
+3.4.6. We have stated several rules about correct sequents, and veriﬁed them informally. With our new formal deﬁnition of sequents we can prove them mathematically. Do so using Deﬁnition 3.4.1. (The formulas mentioned are all assumed to be in LP(σ).)
+(a) The Axiom Rule: If ψ is a formula in Γ then (Γ σ ψ) is correct. (b) Monotonicity: If Γ ⊆ ∆ and (Γ σ ψ) is correct, then (∆ σ ψ) is
+correct. (This was part of Exercise 2.1.3, but now we can do it with proper precision.)
+(c) The Transitive Rule: If (∆ σ ψ) is correct and for every formula χ in ∆, (Γ σ χ) is correct, then (Γ σ ψ) is correct.
+(d) The Cut Rule: If (Γ σ φ) is correct and (Γ ∪ {φ} σ ψ) is correct, then (Γ σ ψ) is correct.
+[The proofs of (c) and (d) involve taking derivations and ﬁtting them together to create a new derivation.]
+3.4.7. (a) In some systems of logic (mostly constructive systems where ‘true’ is taken to mean ‘provable’) there is a rule
+if (Γ (φ ∨ ψ)) is a correct sequent then at least one of (Γ φ) and (Γ ψ) is also correct.
+By giving a counterexample to a particular instance, show that this is unacceptable as a rule for LP. [Start by giving counterexamples for both the sequents ( p0) and ( (¬p0)).] (b) Aristotle (Greece, fourth century bc), who invented logic, once said ‘It is not possible to deduce a true conclusion from contradictory premises’ (Prior Analytics 64b7). He must have meant something subtler, but his statement looks like the following sequent rule:
+if ({φ} ψ) and ({(¬φ)} ψ) are correct sequents, then so is the sequent ( (¬ψ)).
+By giving a counterexample to a particular instance, show that this is unacceptable as a rule for LP.
+3.4.8. One of the reasons for moving to derivations in a formal language is that if we use sentences of English, then even the most plausibly valid sequents
+
+62
+
+Propositional logic
+
+have irritating counterexamples. For instance, in Example 2.4.5 we proved the sequent
+{(φ → ψ), (ψ → χ)} (φ → χ)
+But the fourteenth century English logician Walter Burley proposed the counterexample
+φ is the statement ‘I imply you are a donkey’ ψ is the statement ‘I imply you are an animal’ χ is the statement ‘I imply the truth’.
+What goes wrong in Burley’s example? Your answer should consider whether we could construct a mathematical counterexample of this kind, and how we can ensure that nothing like this example can appear in our formal language.
+
+3.5 Truth tables
+Deﬁnition 3.5.1 We take for granted henceforth that truth and falsehood are two diﬀerent things. It will never matter exactly what things they are, but in some contexts it is convenient to identity truth with the number 1 and falsehood with 0. We refer to truth and falsehood as the truth values, and we write them as T and F, respectively. The truth value of a statement is T if the statement is true and F if the statement is false.
+In Section 3.4, we suggested that we can give a formula φ of LP a truth value by giving suitable meanings to the propositional symbols in φ. In fact, it turns out that the truth value of φ depends only on the truth values given to the propositional symbols, and not on the exact choice of meanings.
+Example 3.5.2 We want to calculate the truth value of a statement (φ ∧ ψ) from the truth values of φ and ψ. The following table shows how to do it:
+
+(3.40)
+
+φψ TT TF FT FF
+
+(φ ∧ ψ) T F F F
+
+The table has four rows corresponding to the four possible assignments of truth values to φ and ψ.
+
+Propositional logic
+
+63
+
+The ﬁrst row in (3.40) says that if φ is true and ψ is true, then (φ ∧ ψ) is true. The second says that if φ is true and ψ is false, then (φ ∧ ψ) is false; and so on down.
+We can do the same for all the symbols ∨, →, ↔, ¬, ⊥, using the meanings that we gave them when we introduced them in Chapter 2. The following table shows the result:
+
+(3.41)
+
+φψ TT TF FT FF
+
+(φ ∧ ψ) (φ ∨ ψ) (φ → ψ) (φ ↔ ψ) (¬φ) ⊥
+
+T
+
+T
+
+T
+
+T
+
+FF
+
+F
+
+T
+
+F
+
+F
+
+F
+
+T
+
+T
+
+F
+
+T
+
+F
+
+F
+
+T
+
+T
+
+The only part of this table that may raise serious doubts is the listing for →. In fact not all linguists are convinced that the table is correct for ‘If . . . then’ in ordinary English. But the following argument conﬁrms that the table for → does correspond to normal mathematical usage.
+In mathematics we accept as true that
+
+(3.42)
+
+if p is a prime > 2 then p is odd.
+
+In particular,
+
+(3.43)
+
+if 3 is a prime > 2 then 3 is odd. (If T then T.)
+
+This justiﬁes the T in the ﬁrst row. But also
+
+(3.44)
+
+if 9 is a prime > 2 then 9 is odd. (If F then T.)
+
+This justiﬁes the T in the third row. Also
+
+(3.45)
+
+if 4 is a prime > 2 then 4 is odd. (If F then F.)
+
+This justiﬁes the T in the fourth row. There remains the second row. But everybody agrees that if φ is true and ψ is false then ‘If φ then ψ’ must be false.
+The table (3.41) tells us, for example, that (φ ∧ ψ) is true if we already know that φ and ψ are both true. But we have to start somewhere: to calculate whether a formula χ is true, we usually need to start by ﬁnding out which of the propositional symbols in χ are true and which are false; then we can apply (3.41), walking up the parsing tree for χ.
+The propositional symbols in χ are just symbols; they do not mean anything, so they are not in themselves either true or false. But in applications of propositional logic, the propositional symbols are given meanings so that they
+
+64
+
+Propositional logic
+
+will be true or false. As mathematicians we are not concerned with how meanings are assigned, but we are interested in what follows if the symbols have somehow been given truth values. So our starting point is an assignment of truth values to propositional symbols.
+Deﬁnition 3.5.3 Let σ be a signature. By a σ-structure we mean a function A with domain σ, that assigns to each symbol p in σ a truth value A(p).
+We call this object a ‘structure’ in preparation for Chapters 5 and 7, where the corresponding ‘structures’ are much closer to what a mathematician usually thinks of as a structure. For practical application and for comparison with the later structures, we note that if σ is {q1, . . . , qn} (where the symbols are listed without repetition), then we can write the structure A as a chart
+q1 . . . qn A(q1) . . . A(qn)
+Every σ-structure A gives a truth value A (χ) to each formula χ of LP(σ) in accordance with table (3.41). It is useful to think of A (χ) as the truth value that χ has ‘in A’ . (Compare the way that the sentence ‘The rain stays mainly on the plain’ is true ‘in Spain’.) We can calculate the value A (χ) by climbing up the parsing tree of φ as follows. Example 3.5.4 Let χ be (p1 ∧ (¬(p0 → p2))). Given the {p0, p1, p2}-structure:
+A : p0 p1 p2 FTT
+we calculate the truth value A (χ) of χ thus. Here is the parsing tree of χ, with the leaves marked to show their truth values in A:
+
+(3.46)
+
+T bp1  b∧ b ¬
+
+F b p0
+
+b→ d
+d Tdb p2
+
+Propositional logic
+
+65
+
+We work out the truth value at the node marked → by checking the third row of (3.41) for →: F → T makes T. So we label this node T:
+
+(3.47)
+
+T bp1  b∧b ¬
+
+T b→
+
+d d
+
+F b p0
+
+Tdb p2
+
+and so on upwards, until eventually we reach the root. This is marked F, so χ is false in A:
+
+(3.48)
+
+F b∧ T bp1  F b ¬
+
+T b→
+
+d d
+
+F b p0
+
+Tdb p2
+
+As always, the compositional deﬁnition attaches the left-hand labels, starting at the leaves of the parsing tree and working upwards.
+The following table contracts (3.48) into two lines, together with an optional bottom line showing a possible order for visiting the nodes. The truth value at each node ν is written under the head of the subformula corresponding to ν. The head of χ itself is indicated by ⇑. We call the column with ⇑ the head column of the table; this is the last column visited in the calculation, and the value shown in it is the truth value of χ.
+
+(3.49)
+
+p0 p1 p2 FTT
+
+(p1 ∧ (¬ (p0 → p2))) TF F F T T 1⇑ 5 2 4 3
+
+Table (3.49) shows the truth value of χ for one particular {p0, p1, p2}-structure. There are eight possible {p0, p1, p2}-structures. The next table lists them on the
+
+66
+
+Propositional logic
+
+left, and on the right it calculates the corresponding truth value for χ. These values are shown in the head column.
+
+(3.50)
+
+p0 p1 p2 TTT TTF TFT TFF FTT FTF FFT FFF
+
+(p1 ∧ (¬ (p0 → p2))) TF F T T T TT T T F F FF F T T T FF T T F F TF F F T T TF F F T F FF F F T T FF F F T F ⇑
+
+Deﬁnition 3.5.5 A table like (3.50), which shows when a formula is true in terms of the possible truth values of the propositional symbols in it, is called the truth table of the formula. Note the arrangement: the ﬁrst column, under p0, changes slower than the second column under p1, the second column changes slower than the third, and T comes above F. It is strongly recommended that you keep to this arrangement, otherwise other people (and very likely you yourself) will misread your tables.
+
+Truth tables were invented by Charles Peirce in an unpublished manuscript of 1902, which may have been intended for a correspondence course in logic.
+
+Models Let σ be a signature and A a σ-structure. We have seen how A assigns a truth value A (χ) to each formula χ of LP(σ). This function A is calculated by climbing up the parsing tree of χ, so it has a compositional deﬁnition; (B.3) in Appendix B shows how. But a ﬂattened version by recursion on the complexity of χ is a little easier to write down (not least because it avoids boolean functions, which are explained in the Appendix). You should check that the parts of the following deﬁnition are in accordance with table (3.41).
+Deﬁnition 3.5.6 (a) If p is a propositional symbol in σ then A (p) = A(p). (b) A (⊥) = F. (c) A ((¬φ)) = T if and only if A (φ) = F. (d) A ((φ ∧ ψ)) is T if A (φ) = A (ψ) = T, and is F otherwise. (e) A ((φ ∨ ψ)) is T if A (φ) = T or A (ψ) = T, and is F otherwise. (f) A ((φ → ψ)) is F if A (φ) = T and A (ψ) = F, and is T otherwise.
+
+Propositional logic
+
+67
+
+(g) A ((φ ↔ ψ)) is T if A (φ) = A (ψ), and is F otherwise.
+
+Deﬁnition 3.5.7 Let σ be a signature, A a σ-structure and φ a formula of LP(σ). When A (φ) = T, we say that A is a model of φ, and that φ is true in A. (In later chapters we will introduce the notation |=A φ for ‘A is a model of φ’.)
+The process of checking whether a certain structure A is a model of a certain formula φ is known as model checking. This name is in use mostly among computer scientists, who have in mind commercial applications using much more intricate examples than our humble (3.49).
+Several important notions are deﬁned in terms of models.
+Deﬁnition 3.5.8 Let σ be a signature and φ a formula of LP(σ).
+
+(a) We say that φ is valid , and that it is a tautology, in symbols |=σ φ, if every σ-structure is a model of φ. (So (|=σ φ) says that A (φ) = T for all σstructures A.) When the context allows, we drop the subscript σ and write |= φ.
+(b) We say that φ is consistent, and that it is satisﬁable, if some σ-structure is a model of φ.
+(c) We say that φ is a contradiction, and that it is inconsistent, if no σ-structure is a model of φ.
+
+If σ is the ﬁnite set {p1, . . . , pn}, then we can check mechanically which of these properties φ has by calculating the truth table of φ, with all the {p1, . . . , pn}-structures listed at the left-hand side. In fact φ is a tautology if and only if the head column of the table has T everywhere; φ is consistent if and only if the head column has T somewhere; and φ is a contradiction if and only if the head column has F everywhere.
+
+Example 3.5.9 We conﬁrm that Peirce’s Formula, which we proved in Example 3.4.5, is a tautology:
+
+(3.51)
+
+p1 p2 TT TF FT FF
+
+(((p1 → p2) → p1) → p1) T TTTTTT T FFTTTT F TTFFTF F TFFFTF ⇑
+
+The notions in Deﬁnition 3.5.8 set us on track to use the ideas of Hilbert that we introduced at the end of Section 3.4. Simply put, the tautologies are the formulas that we ought to be able to prove. We will return to this in Sections 3.9 and 3.10, after exploring some important facts about tautologies.
+
+68
+
+Propositional logic
+
+In applications of the results of this section, the following fact is often used silently:
+Lemma 3.5.10 (Principle of Irrelevance) If σ is a signature, φ a formula of LP(σ) and A a σ-structure, then A (φ) does not depend on the value of A at any propositional symbol that does not occur in φ.
+This is obvious: the rules for assigning A (φ) never refer to A(p) for any symbol p not occurring in φ. A formal proof would run as follows: Let σ and τ be signatures, φ a formula of LP(σ ∩ τ ), and A and B a σ-structure and a τ -structure respectively. Suppose that A(p) = B(p) for every propositional symbol p ∈ σ ∩ τ . Then we prove, by induction on the complexity of φ, that A (φ) = B (φ). Propositional logic is simple enough that the formal proof has no great advantage. But analogues of the Principle of Irrelevance apply also to more complicated languages; the more complex the language, the more important it becomes to check the Principle of Irrelevance formally.
+
+Exercises
+3.5.1. Prove by truth tables that the following are tautologies.
+(a) (p ↔ p). (b) (p → (q → p)). (c) ((p1 → p2) ↔ ((¬p2) → (¬p1))). (d) ((p1 → (¬p1)) ↔ (¬p1)). (e) (p1 ∨ (¬p1)). (f) (⊥ → p1). (g) ((p1 → (p2 → p3)) ↔ ((p1 ∧ p2) → p3)).
+3.5.2. Write out truth tables for the formulas in the following list. For each of these formulas, say whether it is (a) a tautology, (b) a contradiction, (c) satisﬁable. (It can be more than one of these.)
+(a) ((p0 → ⊥) ↔ (¬p0)). (b) (p1 ↔ (¬p1)). (c) ((p2 ∧ p1) → (¬p1)). (d) (((p1 ↔ p2) ∧ ((¬p1) ↔ p3)) ∧ (¬(p2 ∨ p3))). (e) ((((p → q) → r) → ((r → p) → q)) → ((q → r) → p)). (f) ((p0 → p1) → ((¬(p1 ∧ p2)) → (¬(p0 ∧ p1)))).
+
+Propositional logic
+
+69
+
+(g) (((p ∧ q) ∨ (p ∧ (¬r))) ↔ (p ∨ (r → q))). (h) ((p ∧ (¬((¬q) ∨ r))) ∧ (r ∨ (¬p))).
+
+3.5.3.
+
+You forgot whether the Logic class is at 11 or 12. Your friend certainly knows which; but sometimes he tells the truth and at other times he deliberately lies, and you know that he will do one of these but you do not know which. What should you ask him? [Let p be the statement that your friend is telling the truth, and let q be the statement that the lecture is at 11. You want to ask your friend whether a certain formula φ is true, where φ is chosen so that he will answer ‘Yes’ if and only if the lecture is at 11. The truth table of φ will be that of q if p is true, and that of (¬q) if p is false. Find an appropriate φ which contains both p and q.]
+
+3.5.4. 3.5.5.
+
+Let ρ and σ be signatures with ρ ⊆ σ, and let φ be a formula of LP(ρ). Explain how it follows from Lemma 3.5.10 (the Principle of Irrelevance) that |=ρ φ if and only if |=σ φ.
+Let σ be a signature containing k symbols. Calculate
+
+(a) the number of σ-structures;
+
+(b) the number α(k, n) of times that you need to write either T or F in writing out a truth table for a formula φ of LP(σ) which uses all of the propositional symbols in σ and has n nodes in its parsing tree;
+
+(c) the largest value β( ) of α(k, n) given that the formula φ has length .
+The calculation of (c) shows that in the worst case, the size of a truth table of a formula of length rises exponentially with . Airline scheduling easily creates truth table problems with signatures of size greater than a million, and obviously for these one has to ﬁnd some quicker approach if possible, depending on exactly what the question is.
+
+3.6 Logical equivalence
+Lemma 3.6.1 Let σ be a signature and φ, ψ formulas of LP(σ). Then the following are equivalent:
+(i) For every σ-structure A, A is a model of φ if and only if it is a model of ψ. (ii) For every σ-structure A, A (φ) = A (ψ). (iii) |= (φ ↔ ψ). Proof (i) and (ii) are equivalent by Deﬁnition 3.5.7.
+(ii) and (iii) are equivalent by Deﬁnitions 3.5.6(g) and 3.5.8(a).
+
+70
+
+Propositional logic
+
+Deﬁnition 3.6.2 Let σ be a signature and φ, ψ formulas of LP(σ). We say that φ and ψ are logically equivalent, in symbols
+φ eq ψ
+if any of the equivalent conditions (i)–(iii) of Lemma 3.6.1 hold.
+Example 3.6.3 Clause (ii) in Lemma 3.6.1 says that φ and ψ have the same head column in their truth tables. We can use this fact to check logical equivalence. For example, the following truth table shows that
+(p1 ∨ (p2 ∨ p3)) eq ((p1 ∨ p2) ∨ p3)
+
+(3.52)
+
+p1 p2 p3 TTT TTF TFT TFF FTT FTF FFT FFF
+
+(p1 ∨ (p2 ∨ p3)) T T TTT T T TTF T T FTT T T FFF F T TTT F T TTF F T FTT F F FFF
+⇑
+
+((p1 ∨ p2) ∨ p3) TTT T T TTT T F TTF T T TTF T F FTT T T FTT T F FFF T T FFF F F ⇑
+
+Theorem 3.6.4 Let σ be a signature. Then eq is an equivalence relation on the set of all formulas of LP(σ). In other words it is
+• Reﬂexive: For every formula φ, φ eq φ. • Symmetric: If φ and ψ are formulas and φ eq ψ, then ψ eq φ. • Transitive: If φ, ψ and χ are formulas and φ eq ψ and ψ eq χ, then φ eq χ. Proof All three properties are immediate from Lemma 3.6.1(ii). Example 3.6.5 Here follow some commonly used logical equivalences. Associative Laws
+(p1 ∨ (p2 ∨ p3)) eq ((p1 ∨ p2) ∨ p3) (p1 ∧ (p2 ∧ p3)) eq ((p1 ∧ p2) ∧ p3)
+Distributive Laws (p1 ∨ (p2 ∧ p3)) eq ((p1 ∨ p2) ∧ (p1 ∨ p3)) (p1 ∧ (p2 ∨ p3)) eq ((p1 ∧ p2) ∨ (p1 ∧ p3))
+Commutative Laws (p1 ∨ p2) eq (p2 ∨ p1) (p1 ∧ p2) eq (p2 ∧ p1)
+
+Propositional logic
+
+71
+
+De Morgan Laws
+
+(¬(p1 ∨ p2)) eq ((¬p1) ∧ (¬p2)) (¬(p1 ∧ p2)) eq ((¬p1) ∨ (¬p2)
+Idempotence Laws
+
+Double Negation Law
+
+(p1 ∨ p1) eq p1 (p1 ∧ p1) eq p1
+
+(¬(¬p1)) eq p1 See also the equivalences in Exercise 3.6.2.
+
+Exercises
+
+3.6.1. Choose ﬁve of the equivalences in Example 3.6.5 (not including the ﬁrst Associative Law) and prove them by truth tables.
+
+3.6.2. Prove the following equivalences.
+
+(a) (p ∧ q) is logically equivalent to (¬((¬p) ∨ (¬q))), and to (¬(p → (¬q))).
+
+(b) (p ∨ q) is logically equivalent to (¬((¬p) ∧ (¬q))), and to ((p → q) → q).
+
+(c) (p → q) is logically equivalent to (¬(p ∧ (¬q))), and to ((¬p) ∨ q).
+
+(d) (p ↔ q) is logically equivalent to ((p → q) ∧ (q → p)), and to ((p ∧ q) ∨ ((¬p) ∧ (¬q))).
+
+3.6.3. Show the following logical equivalences.
+
+3.6.4.
+
+(a) (p1 ↔ p2) eq (p2 ↔ p1). (b) (p1 ↔ (p2 ↔ p3)) eq ((p1 ↔ p2) ↔ p3). (c) (¬(p1 ↔ p2)) eq ((¬p1) ↔ p2). (d) (p1 ↔ (p2 ↔ p2)) eq p1. Suppose ρ and σ are signatures with ρ ⊆ σ, and φ and ψ are formulas of LP(ρ). Show that φ and ψ are logically equivalent when regarded as formulas of LP(ρ) if and only if they are logically equivalent when regarded as formulas of LP(σ). [Use Lemma 3.6.1(iii) and Exercise 3.5.4.]
+
+3.6.5. Show that the following are equivalent, for any formula φ of LP(σ):
+
+(a) φ is a tautology.
+
+(b) (¬φ) is a contradiction.
+
+72
+
+Propositional logic
+
+(c) φ is logically equivalent to (¬⊥). (d) φ is logically equivalent to some tautology.
+
+3.7 Substitution
+In this section we study what happens when we replace a part of a formula by another formula. We begin by making a double simpliﬁcation. First, we limit ourselves to substitutions for propositional symbols. Second, we assume that a substitution changes either all or none of the occurrences of any given propositional symbol.
+
+Deﬁnition 3.7.1 By a substitution S (for LP) we mean a function whose domain is a ﬁnite set {q1, . . . , qk} of propositional symbols, and which assigns to each qj (1 j k) a formula ψi of LP. We normally write this function S as
+
+(3.53)
+
+ψ1/q1, . . . , ψk/qk
+
+Changing the order in which the pairs ψi/qi are listed does not aﬀect the function. (To remember that it is ψ1/q1 and not q1/ψ1, think of ψ1 as pushing down on q1 to force it out of the formula.)
+We apply the substitution (3.53) to a formula φ by simultaneously replacing every occurrence of each propositional symbol qj in φ by ψj (1 j k), and we write the resulting expression as φ[S], that is,
+
+(3.54)
+
+φ[ψ1/q1, . . . , ψk/qk]
+
+Example 3.7.2 Let φ be the formula
+
+((p1 → (p2 ∧ (¬p3))) ↔ p3) Let ψ1 be (¬(¬p3)), let ψ2 be p0 and let ψ3 be (p1 → p2). Then the expression
+φ[ψ1/p1, ψ2/p2, ψ3/p3] is
+
+(3.55)
+
+(((¬(¬p3)) → (p0 ∧ (¬(p1 → p2)))) ↔ (p1 → p2))
+
+The expression (3.55) is also a formula of LP, as we ought to expect. But from our explanation of (3.54) it is not immediately clear how one should prove that the expression φ[S] is always a formula of LP. So we need a more formal description of φ[S]. To ﬁnd one, we start from the fact that occurrences of a propositional symbol p correspond to leaves of the parsing tree that are labelled p.
+
+Propositional logic
+
+73
+
+A picture may help. Suppose we are constructing the expression φ[ψ/q]. Let
+
+π be the parsing tree of φ, and ν1, . . . , νn the leaves of π which are labelled q. Let τ be the parsing tree of ψ. Then we get a parsing tree of φ[ψ/q] by making
+
+n copies of τ , and ﬁtting them below π so that the root of the i-th copy of τ
+
+replaces νi:
+
+(3.56)
+
+¨¨¨b ¨¨¨πbrrrrbrr
+
+ν1
+
+νn
+
+T
+
+T
+
+b
+
+b
+
+τdd . . .
+
+τ dd
+
+d
+
+¨¨¨b ¨¨¨brrrrbrr
+
+d d
+
+...
+
+d d
+
+Now what happens when we climb up the new tree to ﬁnd its associated formula? Starting at the bottom as always, we ﬁnd the left labels on each of the copies of τ , and ψ will be the left label on the root of each of these copies. Then we label the rest of the tree; the process is exactly the same as when we label π except that now the left labels on the nodes ν1, . . . , νn are ψ and not q. The situation with φ[ψ1/q1, . . . , ψk/qk] is very much the same but takes more symbols to describe.
+In short, we build φ[ψ1/q1, . . . , ψk/qk] by applying a slightly altered version of (3.22), the deﬁnition of LP syntax, to the parsing tree of φ. The diﬀerence is the clause for leaf nodes, which now says
+
+(3.57)
+
+ ⊥
+
+where χ
+
+=
+
+ψi p
+
+χ ◦χ
+if χ is ⊥, if χ is qi (1 i k), if χ is any other propositional symbol p.
+
+Flattening this compositional deﬁnition down gives the following recursive deﬁnition, which is our formal deﬁnition of φ[ψ1/q1, . . . , ψk/qk]. Like our previous recursive deﬁnitions, it relies on the Unique Parsing Theorem.
+Deﬁnition 3.7.3 Let q1, . . . , qk be propositional symbols, ψ1, . . . , ψk formulas and φ a formula of LP. We deﬁne φ[ψ1/q1, . . . , ψk/qk] by recursion on the complexity of φ as follows.
+
+If φ is atomic then
+
+φ[ψ1/q1, . . . , ψk/qk] =
+
+ψi φ
+
+if φ is qi (1 otherwise,
+
+i
+
+k),
+
+74
+
+Propositional logic
+
+If φ = (¬χ) where χ is a formula, then
+φ[ψ1/q1, . . . , ψk/qk] = (¬χ[ψ1/q1, . . . , ψk/qk])
+If φ = (χ1 χ2), where χ1 and χ2 are formulas and ∈ {∧, ∨, →, ↔}, then
+φ[ψ1/q1, . . . , ψk/qk] = (χ1[ψ1/q1, . . . , ψk/qk] χ2[ψ1/q1, . . . , ψk/qk])
+From this deﬁnition one can check, by an induction on the complexity of φ, that if φ is a formula of LP(σ ∪ {q1, . . . , qk}) and ψ1, . . . , ψk are formulas of LP(σ), then φ[ψ1/q1, . . . , ψk/qk] is a formula of LP(σ).
+Now we consider the eﬀect on truth values when a substitution is made. The truth value A (φ[ψ/q]) of φ[ψ/q] in A is calculated by climbing up the tree in (3.56), just as the formula φ[ψ/q] itself was. The calculation is the same as for A (φ), except that the truth value assigned to the nodes νi is A (ψ) instead of A(q). So the eﬀect is the same as if we calculated the truth value of φ in a structure A[ψ/q], which is the same as A except that A[ψ/q](q) is A (ψ). This motivates the following deﬁnition. Deﬁnition 3.7.4 If A is a propositional structure and S is the substitution ψ1/q1, . . . , ψk/qk, we deﬁne a structure A[S] by
+A[S](p) = A (ψj) if p is qj where 1 ≤ j ≤ k; A(p) otherwise.
+Lemma 3.7.5 Let A be a σ-structure and S the substitution ψ1/q1, . . . , ψk/qk with ψ1, . . . , ψk in LP(σ). Then for all formulas φ of LP(σ ∪ {q1, . . . , qk}),
+A (φ[S]) = A[S] (φ)
+Proof We prove this by induction on the complexity of φ. Case 1: φ has complexity 0. If φ is a propositional symbol that is not one of q1, . . . , qk, then
+A (φ[S]) = A(φ) = A[S] (φ)
+If φ is qi for some i then
+A (φ[S]) = A (ψi) = A[S] (φ)
+If φ is ⊥ then both A (φ[S]) and A[S] (φ) are ⊥.
+
+Propositional logic
+
+75
+
+Case 2: φ has complexity k + 1, assuming the lemma holds for all formulas of complexity k. Suppose ﬁrst that φ is (χ1 ∨ χ2) where χ1 and χ2 are formulas. Then
+A (φ[S]) = T ⇔ A ((χ1[S] ∨ χ2[S])) = T ⇔ A (χ1[S]) = T or A (χ2[S]) = T ⇔ A[S] (χ1) = T or A[S] (χ2) = T ⇔ A[S] (φ) = T
+where the ﬁrst step is by Deﬁnition 3.7.3, the second and ﬁnal steps are by Deﬁnition 3.5.6(e), and the third step is by the induction hypothesis (since χ1 and χ2 have complexity at most k). It follows that A (φ[S]) = A[S] (φ). The other possibilities under Case Two are that φ = (χ1 χ2) where is ∧, → or ↔, and φ = (¬χ). These are similarly dealt with and left to the reader.
+Lemma 3.7.5 allows us to increase our stock of tautologies and logical equivalences dramatically.
+Theorem 3.7.6 (a) (Substitution Theorem) Let S be a substitution and φ1, φ2 logically
+equivalent formulas of LP. Then φ1[S] eq φ2[S]. (b) (Substitution Theorem) Let S1 and S2 be the following substitutions:
+ψ1/q1, . . . , ψk/qk, ψ1/q1, . . . , ψk/qk
+where for each j (1 j k), ψj eq ψj. Then for every formula φ, φ[S1] eq φ[S2].
+Proof We assume that the formulas in question are in LP(σ), so that we can test logical equivalence by σ-structures.
+(a) Let A be any σ-structure. Let B = A[S] and note that by assumption, B (φ1) = B (φ2). By two applications of Lemma 3.7.5,
+A (φ1[S]) = B (φ1) = B (φ2) = A (φ2[S])
+It follows that φ1[S] eq φ2[S]. (b) Again let A be any σ-structure. Since ψj eq ψj, A (ψj) = A (ψj) for
+1 j k. Hence A[S1] = A[S2], and by Lemma 3.7.5,
+A (φ[S1]) = A[S1] (φ) = A[S2] (φ) = A (φ[S2])
+It follows that φ[S1] eq φ[S2].
+
+76
+
+Propositional logic
+
+Example 3.7.7 of the Substitution Theorem. A formula is a tautology if and only if it is logically equivalent to (¬⊥) (cf. Exercise 3.6.5), and (¬⊥)[S] is just (¬⊥). Hence the Substitution Theorem implies that if φ is a tautology then so is φ[S]. For example, the formula (p → (q → p)) is a tautology. By applying the substitution
+
+(p1 ∧ (¬p2))/p, (p0 ↔ ⊥)/q
+
+we deduce that
+
+((p1 ∧ (¬p2)) → ((p0 ↔ ⊥) → (p1 ∧ (¬p2))))
+
+is a tautology. More generally, we could substitute any formula φ for p and any formula ψ for q, and so by the Substitution Theorem any formula of the form
+
+(φ → (ψ → φ))
+
+is a tautology.
+
+Example 3.7.8 of the Replacement Theorem. We know that
+
+(3.58)
+
+(p1 ∧ p2) eq (¬((¬p1) ∨ (¬p2)))
+
+We would like to be able to put the right-hand formula in place of the left-hand one in another formula, for example, ((p1 ∧ p2) → p3). The trick for doing this is to choose another propositional symbol, say r, that does not occur in the formulas in front of us. (This may involve expanding the signature, but that causes no problems.) Then
+
+((p1 ∧ p2) → p3) is (r → p3)[(p1 ∧ p2)/r] ((¬((¬p1) ∨ (¬p2))) → p3) is (r → p3)[(¬((¬p1) ∨ (¬p2)))/r]
+Then the Replacement Theorem tells us at once that
+
+((p1 ∧ p2) → p3) eq ((¬((¬p1) ∨ (¬p2))) → p3)
+
+Example 3.7.9 of the Substitution Theorem. Starting with the same logical equivalence (3.58) as in the previous example, we can change the symbols p1 and p2, provided that we make the same changes in both formulas of (3.58). Let φ and ψ be any formulas, and let S be the substitution
+
+φ/p1, ψ/p2
+Then (p1 ∧ p2)[S] is (φ ∧ ψ), and (¬((¬p1) ∨ (¬p2)))[S] is (¬((¬φ) ∨ (¬ψ))). So we infer from the Substitution Theorem that
+
+(φ ∧ ψ) eq (¬((¬φ) ∨ (¬ψ))).
+
+Propositional logic
+
+77
+
+How to remember which is the Substitution Theorem and which the Replacement? In the Substitution Theorem it is the Same Substitution on both Sides.
+
+Exercises
+3.7.1. Carry out the following substitutions. (a) (p → q)[p/q]. (b) (p → q)[p/q][q/p]. (c) (p → q)[p/q, q/p]. (d) (r ∧ (p ∨ q))[((t → (¬p)) ∨ q)/p, (¬(¬q))/q, (q ↔ p)/s].
+
+3.7.2. (a) Using one of the De Morgan Laws (Example 3.6.5), show how the following equivalences follow from the Replacement and Substitution Theorems:
+(¬((p1 ∧ p2) ∧ p3)) eq ((¬(p1 ∧ p2)) ∨ (¬p3)) eq (((¬p1) ∨ (¬p2)) ∨ (¬p3)).
+(b) Show the following generalised De Morgan Law, by induction on n: If φ1, . . . , φn are any formulas then
+(¬(· · · (φ1 ∧ φ2) ∧ · · · ) ∧ φn)) eq (· · · ((¬φ1) ∨ (¬φ2)) ∨ · · · ) ∨ (¬φn)).
+
+(And note that by the other De Morgan Law, the same goes with ∧ and ∨ the other way round.)
+(c) The four formulas below are logically equivalent. Justify the equivalences, using the Replacement and Substitution Theorems, the De Morgan and Double Negation Laws (Example 3.6.5) and (a), (b) above.
+
+(i)
+
+(¬((p1 ∧ (¬p2)) ∨ (((¬p1) ∧ p2) ∧ p3)))
+
+(ii) eq ((¬(p1 ∧ (¬p2))) ∧ (¬(((¬p1) ∧ p2) ∧ p3)))
+
+(iii) eq (((¬p1) ∨ (¬(¬p2))) ∧ (((¬(¬p1)) ∨ (¬p2)) ∨ (¬p3)))
+
+(iv) eq (((¬p1) ∨ p2) ∧ ((p1 ∨ (¬p2)) ∨ (¬p3)))
+
+3.7.3. We know that (p → q) is logically equivalent to ((¬p) ∨ q), and hence (by the Substitution Theorem) for all formulas φ and ψ, (φ → ψ) is logically equivalent to ((¬φ) ∨ ψ).
+
+(a) Deduce that every formula of LP is logically equivalent to one in which → never occurs. [Using the Substitution and Replacement Theorems, show that if φ contains n occurrences of → with
+
+78
+
+Propositional logic
+
+n > 0, then φ is logically equivalent to a formula containing n − 1 occurrences of →.] (b) Illustrate this by ﬁnding a formula that is logically equivalent to
+((((p → q) → r) ↔ s) → t)
+in which → never appears. 3.7.4. By Exercise 3.6.2, both (p ∧ q) and (p ∨ q) are logically equivalent to
+formulas in which no truth function symbols except → and ¬ occur. (a) Show that each of (p ↔ q) and ⊥ is logically equivalent to a formula
+in which no truth function symbols except → and ¬ occur. (b) Find a formula of LP logically equivalent to
+(q ∨ (((¬p) ∧ q) ↔ ⊥))
+in which no truth function symbols except → and ¬ occur. 3.7.5. Let φ be a propositional formula using no truth function symbols except
+↔ and ¬. Show that φ is a tautology if and only if φ satisﬁes the following two conditions: (a) Every propositional symbol occurs an even number of times in φ. (b) The negation sign ¬ occurs an even number of times in φ. [Exercise 3.6.3 should help.] 3.7.6. Suppose S and T are substitutions. Show that there is a substitution ST such that for every formula φ,
+φ[ST ] = φ[S][T ]
+
+3.8 Disjunctive and conjunctive normal forms
+So far we have been careful to write formulas of LP correctly according to the deﬁnition of the language. But some abbreviations are commonly used, and in this section they will help to make some formulas clearer.
+
+Deﬁnition 3.8.1 (a) A conjunction of formulas is a formula
+
+(3.59)
+
+(· · · (φ1 ∧ φ2) ∧ · · · ) ∨ φn)
+
+where φ1, . . . , φn are formulas; these n formulas are called the conjuncts of the conjunction. We allow n to be 1, so that a single formula is a conjunction of itself. We abbreviate (3.59) to
+
+(φ1 ∧ · · · ∧ φn)
+
+Propositional logic
+
+79
+
+leaving out all but the outside parentheses. (b) A disjunction of formulas is a formula
+
+(3.60)
+
+(· · · (φ1 ∨ φ2) ∨ · · · ) ∨ φn)
+
+where φ1, . . . , φn are formulas; these n formulas are called the disjuncts of the conjunction. We allow n to be 1, so that a single formula is a disjunction of itself. We abbreviate (3.60) to
+
+(φ1 ∨ · · · ∨ φn)
+
+leaving out all but the outside parentheses. (c) The negation of a formula φ is the formula
+
+(3.61)
+
+(¬φ)
+
+We abbreviate (3.61) to
+
+¬φ
+
+A formula that is either an atomic formula or the negation of an atomic formula is called a literal .
+
+It can be shown (though we will not show it) that even after these parentheses are left oﬀ, unique parsing still holds. In fact we can also safely leave oﬀ the outside parentheses of any complex formula, provided that it is not a subformula of another formula.
+Remark 3.8.2 It is easily checked that (d) and (e) of Deﬁnition 3.5.6 generalise as follows:
+
+(d) A (φ1 ∧ · · · ∧ φn) = T if and only if A (φ1) = · · · = A (φn) = T. (e) A (φ1 ∨ · · · ∨ φn) = T if and only if A (φi) = T for at least one i.
+
+Deﬁnition 3.8.3 Let σ be a signature and φ a formula of LP(σ). Then φ determines a function |φ| from the set of all σ-structures to the set {T, F} of truth values, by:
+
+|φ|(A) = A (φ) for each σ-structure A
+
+This function |φ| is really the same thing as the head column of the truth table of φ, if you read a T or F in the i-th row as giving the value of |φ| for the σ-structure described by the i-th row of the table. So the next theorem can be read as ‘Every truth table is the truth table of some formula’.
+
+80
+
+Propositional logic
+
+Emil Post Poland and USA, 1897–1954. ‘It is desirable . . . to have before us the vision of the totality of these [formulas] streaming out . . . through forms of ever-growing complexity’ (1921).
+
+Theorem 3.8.4 (Post’s Theorem) Let σ be a ﬁnite non-empty signature and g a function from the set of σ-structures to {T, F}. Then there is a formula ψ of LP(σ) such that g = |ψ|.
+
+Proof Let σ be {q1, . . . , qm} with m 1. We split into three cases. Case 1: g(A) = F for all σ-structures A. Then we take ψ to be (q1 ∧ ¬q1), which is always false. Case 2: There is exactly one σ-structure A such that g(A) = T. Then take ψ to be q1 ∧ · · · ∧ qm where
+
+qi =
+
+qi ¬qi
+
+if A(qi) = T, otherwise.
+
+We write ψA for this formula ψ. Then for every σ-structure B,
+
+|ψA|(B) = T ⇔ B (ψA) = T ⇔ B (qi) = T for all i (1 i m), by Remark 3.8.2 ⇔ B(qi) = A(qi) for all i (1 i m) ⇔ B=A
+⇔ g(B) = T.
+
+So |ψA| = g.
+
+Case 3: g(A) = T exactly when A is one of A1, . . . , Ak with k > 1. In this case let ψ be ψA1 ∨ · · · ∨ ψAk . Then for every σ-structure B,
+
+|ψ|(B) = T ⇔ B (ψ) = T
+⇔ B (ψAj ) = T for some j (1 j ⇔ B = Aj for some j (1 j k) ⇔ g(B) = T.
+
+k), by Remark 3.8.2
+
+So again |ψ| = g.
+
+Propositional logic
+
+81
+
+Example 3.8.5 We ﬁnd a formula to complete the truth table
+
+p1 p2 p3 ? TTT F TTF T TFT T TFF F FTT T FTF F FFT F FFF F
+There are three rows with value T:
+
+p1 p2 p3 ? TTT F T T F T ⇐ A1 T F T T ⇐ A2 TFF F F T T T ⇐ A3 FTF F FFT F FFF F
+The formula ψA1 is p1 ∧ p2 ∧ ¬p3. The formula ψA2 is p1 ∧ ¬p2 ∧ p3. The formula ψA3 is ¬p1 ∧ p2 ∧ p3. So the required formula is
+(p1 ∧ p2 ∧ ¬p3) ∨ (p1 ∧ ¬p2 ∧ p3) ∨ (¬p1 ∧ p2 ∧ p3)
+Our proof of Post’s Theorem always delivers a formula ψ in a certain form. The next few deﬁnitions will allow us to describe it.
+Deﬁnition 3.8.6 • A basic conjunction is a conjunction of one or more literals, and a basic disjunction is a disjunction of one or more literals. A single literal counts as a basic conjunction and a basic disjunction. • A formula is in disjunctive normal form (DNF) if it is a disjunction of one or more basic conjunctions. • A formula is in conjunctive normal form (CNF) if it is a conjunction of one or more basic disjunctions.
+
+82
+
+Propositional logic
+
+Example 3.8.7 (1)
+p1 ∧ ¬p1
+is a basic conjunction, so it is in DNF. But also p1 and ¬p1 are basic disjunctions, so the formula is in CNF too. (2)
+(p1 ∧ ¬p2) ∨ (¬p1 ∧ p2 ∧ p3)
+is in DNF. (3) Negating the formula in (2), applying the De Morgan Laws and removing
+double negations gives
+¬((p1 ∧ ¬p2) ∨ (¬p1 ∧ p2 ∧ p3)) eq ¬(p1 ∧ ¬p2) ∧ ¬(¬p1 ∧ p2 ∧ p3) eq (¬p1 ∨ ¬¬p2) ∧ (¬¬p1 ∨ ¬p2 ∨ ¬p3) eq (¬p1 ∨ p2) ∧ (p1 ∨ ¬p2 ∨ ¬p3)
+This last formula is in CNF. (See Exercise 3.7.2(c) for these equivalences.)
+Theorem 3.8.8 Let σ be a non-empty ﬁnite signature. Every formula φ of LP(σ) is logically equivalent to a formula φDNF of LP(σ) in DNF, and to a formula φCNF of LP(σ) in CNF.
+Proof From the truth table of φ we read oﬀ the function |φ|. The proof of Post’s Theorem constructs a formula ψ of LP(σ) such that |ψ| = |φ|. By inspection, the formula ψ is in DNF. Now if A is any σ-structure, then
+A (ψ) = |ψ|(A) = |φ|(A) = A (φ)
+and hence ψ eq φ. So we can take φDNF to be ψ. To ﬁnd φCNF , ﬁrst use the argument above to ﬁnd (¬φ)DNF , call it θ.
+Then θ eq ¬φ, so ¬θ is logically equivalent to ¬¬φ and hence to φ. Hence ¬θ is a formula of LP(σ) which is logically equivalent to φ.
+Now apply the method of Example 3.8.7(3) above to ¬θ, pushing the negation sign ¬ inwards by the De Morgan Laws and then cancelling double negations, to get a logically equivalent formula in CNF. Corollary 3.8.9 Let σ be any signature (possibly empty). Every formula φ of LP(σ) is logically equivalent to a formula of LP(σ) in which no truth function symbols appear except ∧, ¬ and ⊥.
+Proof First suppose φ contains some propositional symbol, so that σ is not empty. The theorem tells us that φ is logically equivalent to a formula φDNF of
+
+Propositional logic
+
+83
+
+LP(σ) in which no truth function symbols appear except ∧, ∨ and ¬. So we only need to get rid of the ∨. But we can do that by applying to φDNF the logical
+equivalence
+
+(3.62)
+
+(p ∨ q) eq ¬(¬p ∧ ¬q)
+
+with the help of the Replacement Theorem. Next, if φ contains no propositional symbols, then φ must be built up
+from ⊥ using truth function symbols. But every such formula has the value T or F, independent of any structure. So φ is logically equivalent to one of ¬⊥ and ⊥.
+
+Satisﬁability of formulas in DNF and CNF A formula in DNF is satisﬁable if and only if at least one of its disjuncts is satisﬁable. Consider any one of these disjuncts; it is a basic conjunction
+φ1 ∧ · · · ∧ φm.
+This conjunction is satisﬁable if and only if there is a σ-structure A such that
+A (φ1) = . . . = A (φm) = T
+Since the φi are literals, we can ﬁnd such an A unless there are two literals among φ1, . . . , φn which are respectively p and ¬p for the same propositional symbol p. We can easily check this condition by inspecting the formula. So checking the satisﬁability of a formula in DNF and ﬁnding a model, if there is one, are trivial. (See Exercise 3.8.3(b) for a test of this.)
+The situation with formulas in CNF is completely diﬀerent. Many signiﬁcant mathematical problems can be written as the problem of ﬁnding a model for a formula in CNF. The general problem of determining whether a formula in CNF is satisﬁable is known as SAT. Many people think that the question of ﬁnding a fast algorithm for solving SAT, or proving that no fast algorithm solves this problem, is one of the major unsolved problems of twenty-ﬁrst century mathematics. (It is the ‘P = NP’ problem.)
+Example 3.8.10 A proper m-colouring of a map is a function assigning one of m colours to each country in the map, so that no two countries with a common border have the same colour as each other. A map is m-colourable if it has a proper m-colouring.
+Suppose a map has countries c1, . . . , cn. Write pij for ‘Country ci has the jth colour’. Then ﬁnding a proper m-colouring of the map is equivalent to ﬁnding
+
+84
+
+Propositional logic
+
+a model of a certain formula θ in CNF. Namely, take θ to be the conjunction of the following formulas:
+
+(3.63)
+
+pi1 ∨ pi2 ∨ · · · ∨ pim (for all i from 1 to n); ¬pik ∨ ¬pjk (for all i, j, k where countries ci, cj have a
+common border).
+
+More precisely, if A is a model of θ, then we can colour each country ci with the ﬁrst colour j such that A (pij) = T.
+
+Exercises
+3.8.1. For each of the following formulas φ, ﬁnd a formula φDNF in DNF, and a formula φCNF in CNF, which are both equivalent to φ. (a) ¬(p1 → p2) ∨ ¬(p2 → p1). (b) (p2 ↔ (p1 ∧ p3)). (c) ¬(p1 → p2) ∨ (p0 ↔ p2). (d) ¬(p1 ∧ p2) → (p1 ↔ p0). (e) ¬(p ∧ q) → (q ↔ r). (f) ((p0 → p1) → p2) → (p0 ∧ p1). (g) ((p ↔ q) → r) → q. (h) (p0 → p1) → (¬(p1 ∧ p2) → ¬(p0 ∧ p2)). (i) (p1 ∧ p2) → ¬(p3 ∨ p4). (j) p1 → (p2 → (p3 → p4)).
+3.8.2. The formulas φDNF got by the method of Theorem 3.8.8 are not necessarily the most eﬃcient. For example, consider the formula
+(p1 ∧ ¬p2 ∧ p3 ∧ ¬p4) ∨ (p1 ∧ ¬p2 ∧ ¬p3 ∧ ¬p4)
+Here the two conjuncts are identical except that one has p3 where as the other has ¬p3. In this case we can leave out p3; the whole formula is logically equivalent to p1 ∧ ¬p2 ∧ ¬p4. (a) Justify the statement above. [By the Distributive Law in Example
+3.6.5, (φ ∧ ψ) ∨ (φ ∧ ¬ψ) is logically equivalent to φ ∧ (ψ ∨ ¬ψ), and this in turn is logically equivalent to ψ.] (b) Use this method to ﬁnd a shorter formula in DNF that is logically equivalent to the following:
+(p1 ∧ ¬p2 ∧ ¬p3 ∧ p4) ∨ (p1 ∧ ¬p2 ∧ ¬p3 ∧ ¬p4) ∨ (p1 ∧ p2 ∧ p3 ∧ ¬p4).
+
+Propositional logic
+
+85
+
+3.8.3. (a) For each of the following formulas in DNF, either ﬁnd a model if there is one, or show that there is none. Do not write out truth tables for the formulas.
+
+(i) (p1 ∧ p2 ∧ ¬p1) ∨ (p2 ∧ ¬p3 ∧ p3) ∨ (¬p1 ∧ p3). (ii) (p2 ∧ ¬p1 ∧ p3 ∧ ¬p5 ∧ ¬p2 ∧ p4) ∨ (¬p2 ∧ p1 ∧ ¬p3 ∧ p5 ∧ ¬p8 ∧ ¬p1)
+
+(b) In your own words, write instructions for your younger sister (who is not a mathematician) so that she can answer (i), (ii) and similar questions by herself.
+
+3.8.4.
+
+Let σ be a signature containing k symbols. The relation eq splits the set of formulas of LP(σ) into classes, where each class consists of a formula and all the other formulas logically equivalent to it. (These are the equivalence classes of the equivalence relation eq.) Calculate the number of equivalence classes of the relation eq. [By Post’s Theorem, every possible head column in a truth table for σ describes an equivalence class.]
+
+3.8.5. 3.8.6.
+
+Let σ be a non-empty signature. Show that every formula of LP(σ) is logically equivalent to a formula of LP(σ) in which no truth function symbols are used except → and ¬. Let σ be a non-empty signature. Let LP| be the result of expanding LP by adding a new truth function symbol | (known as the Sheﬀer stroke) with the truth table
+
+(3.64)
+
+φψ TT TF FT FF
+
+(φ|ψ) F T T T
+
+3.8.7.
+
+Show that every formula of LP|(σ) is logically equivalent to a formula of LP|(σ) which contains no truth function symbols except |.
+Show that ¬p is not logically equivalent to any formula whose only truth function symbols are ∧, ∨, → and ↔. [Show that for any signature σ, if A is the structure taking every propositional symbol to T, and φ is built up using at most ∧, ∨, → and ↔, then A (φ) = T.]
+
+3.9 Soundness for propositional logic
+In Deﬁnition 3.4.4 of Section 3.4 we deﬁned exactly what is meant by the sequent
+
+(3.65)
+
+Γ σψ
+
+86
+
+Propositional logic
+
+where σ is a signature, Γ is a set of formulas of LP(σ) and ψ is a formula of LP(σ). It will be convenient to write
+
+Γ σψ
+to express that (3.65) is not correct. We also described a programme, proposed by Hilbert, for checking that
+the provable sequents (3.65) are exactly those that on grounds of truth and falsehood we ought to be able to prove. In this section and the next, we make the programme precise and carry it through for propositional logic.
+
+Deﬁnition 3.9.1 Let σ be a signature, Γ a set of formulas of LP(σ) and ψ a formula of LP(σ).
+
+(a) We say that a σ-structure A is a model of Γ if it is a model of every formula in Γ, that is, if A (φ) = T for every φ ∈ Γ.
+(b) We write
+
+(3.66)
+
+Γ |=σ ψ
+
+to mean that for every σ-structure A, if A is a model of Γ then A is a model of ψ. The expression (3.66) is called a semantic sequent.
+
+(c) We write
+
+Γ |=σ ψ to mean that (3.66) is not true.
+
+When the context allows, we will ignore the subscript and write Γ |= ψ instead of Γ |=σ ψ. Using the Principle of Irrelevance, one can show that the choice of σ makes no diﬀerence as long as it contains all the propositional symbols in Γ and ψ (cf. the proof of Exercise 3.5.4).
+Our aim will be to establish that for all Γ and ψ,
+
+(3.67)
+
+Γ σ ψ ⇔ Γ |=σ ψ.
+
+The two directions in (3.67) say very diﬀerent things. Going from left to right, (3.67) says that if there is a derivation with undis-
+charged assumptions in Γ and conclusion ψ, then every model of Γ is a model of ψ. What would it mean for this to fail? It would mean that there is such a derivation D, and there is also a structure A in which all the formulas in Γ are true but ψ is false. Hence we would have derived a formula that is false in A from formulas that are true in A. This would be a devastating breakdown of our rules of proof: they should never derive something false from something true. So the left-to-right direction in (3.67) is verifying that we did not make some dreadful mistake when we set up the rules of natural deduction. The second half of this section will be devoted to this veriﬁcation.
+
+Propositional logic
+
+87
+
+The direction from right to left in (3.67) says that if the truth of Γ guarantees the truth of ψ, then our natural deduction rules allow us to derive ψ from Γ. That is to say we do not need any more natural deduction rules besides those that we already have. We return to this in the next section.
+Both directions of (3.67) are best read as saying something about our system of natural deduction. There are other proof calculi, and they have their own versions of (3.67). We can write Γ C ψ to mean that ψ is derivable from Γ in the proof calculus C. Then
+
+Γ C ψ ⇒ Γ |= ψ is called Soundness of the calculus C, and the converse
+
+Γ |= ψ ⇒ Γ C ψ
+is called Adequacy of the calculus C. The two directions together are called Completeness of C.
+The main other proof calculi in common use among mathematical logicians are Hilbert-style calculi, the sequent calculus and tableaux. In Hilbert-style calculi one begins with axioms and draws consequences until one reaches the conclusion; there are no rules for discharging assumptions. The sequent calculus derives sequents from sequents rather than formulas from formulas. Tableau proofs prove ψ from Γ by trying systematically to describe a model of Γ that is not a model of ψ, and showing that there is no such model. Some other styles of proof calculus are more suitable for machine use.
+
+Theorem 3.9.2 (Soundness of Natural Deduction for Propositional Logic) Let σ be a signature, Γ a set of formulas of LP(σ) and ψ a formula of LP(σ). If Γ σ ψ then Γ |=σ ψ.
+
+Proof The theorem states that
+
+(3.68)
+
+If D is a σ-derivation whose conclusion is ψ and whose undischarged assumptions all lie in Γ, then every σ-structure that is a model of Γ is also a model of ψ.
+
+Recall from Section 3.4 that D is a tree. We prove (3.68) for all Γ, ψ and D by induction on the height of this tree, as given by Deﬁnition 3.2.2(c). (Although we have turned the trees upside down, the deﬁnition of height is unchanged.) Case 1: D has height 0. Then D is the derivation
+
+ψ
+
+which has ψ as both conclusion and undischarged assumption. So ψ ∈ Γ, and any model of Γ must be a model of ψ in particular. Case 2: D has height k 1, where we assume that (3.68) is true for all derivations D with height < k. Let R be the right label on the bottom node of D, which indicates what natural deduction rule was used to derive ψ. We divide
+
+88
+
+Propositional logic
+
+into subcases according to R. We consider only some typical cases, leaving the rest to the reader. Case 2 (a): R is (→I), so that by Deﬁnition 3.4.1(d)(i), D has the form
+
+φ D χ
+(φ → χ)
+
+(→I)
+
+where D is a derivation of height < k with conclusion χ. By Deﬁnition 3.4.1(g)
+
+the only formulas which can owe their dandahs to the bottom node of D are
+
+occurrences of φ (this is the meaning of the discharged φ written above at the top
+
+of D). So the undischarged assumptions of D all lie in Γ ∪ {φ}. Let A be any
+
+σ-structure that is a model of Γ; we must show that it is also a model of (φ → χ).
+
+If it is not, then by the truth table for →, we have A (φ) = T and A (χ) = F.
+
+But this is impossible, since A is now a model of Γ ∪ {φ} in which χ is false, and
+
+the induction assumption on D says that there is no such model.
+
+Case 2 (b): R is (→E), so that by Deﬁnition 3.4.1(e)(i), D has the form
+
+D1
+
+D2
+
+φ
+
+(φ → ψ)
+
+(→E)
+
+ψ
+
+where D1 is a derivation of φ and D2 a derivation of (φ → ψ), both with their undischarged assumptions in Γ (since by (g), (→E) authorises no dandahs). Both D1 and D2 have height < k. Let A be any σ-structure that is a model of Γ. We must show that it is also a model of ψ. Now the induction assumption on D1 and D2 implies that A is a model of both φ and (φ → ψ). It follows by truth tables that A is a model of ψ as required.
+Case 2 (c): R is (RAA), so that by Deﬁnition 3.4.1(d)(ii), D has the form
+
+(¬ψ) D
+⊥ (RAA) ψ
+
+where D is a derivation of height < k with conclusion ⊥. By (g) the only formula that can be discharged thanks to the bottom node of D is (¬ψ), as indicated in the diagram. So the undischarged assumptions of D all lie in Γ ∪ {(¬ψ)}. Let A be any σ-structure that is a model of Γ; we must prove that A is a model of ψ. We know that A is not a model of ⊥, since no structure is a model of ⊥. So by the induction assumption on D , A cannot be a model of Γ ∪ {(¬ψ)}. But A is
+
+Propositional logic
+
+89
+
+a model of Γ by assumption; hence it cannot be a model of ¬ψ—in other words, it must be a model of ψ.
+
+Exercises
+
+3.9.1. In the proof of Theorem 3.9.2, add clauses dealing with the cases where R is (∧I) and where R is (∨E).
+
+3.9.2
+
+The following argument shows that Peirce’s Formula (((p → q) → p) →
+
+p) (from Example 3.4.5) can’t be proved using just the Axiom Rule and
+
+the rules (→I) and (→E); your task is to ﬁll in the details. Instead of two
+
+truth
+
+values
+
+T
+
+and
+
+F,
+
+we
+
+introduce
+
+three
+
+truth
+
+values
+
+1,
+
+1 2
+
+,
+
+0.
+
+Intuitively
+
+1
+
+is
+
+truth,
+
+0
+
+is
+
+falsehood
+
+and
+
+1 2
+
+is
+
+somewhere
+
+betwixt
+
+and
+
+between.
+
+If
+
+φ
+
+has
+
+the
+
+value
+
+i
+
+and
+
+ψ
+
+has
+
+the
+
+value
+
+j
+
+(so
+
+i, j
+
+∈
+
+{1,
+
+1 2
+
+,
+
+0}),
+
+then
+
+the
+
+value
+
+of (φ → ψ) is
+
+(3.69) the greatest real number r 1 such that min{r, i} j
+
+(a) Write out the truth table for → using the three new truth values.
+
+(For
+
+example,
+
+you
+
+can
+
+check
+
+that
+
+(p
+
+→
+
+q)
+
+has
+
+the
+
+value
+
+1 2
+
+when
+
+p
+
+has
+
+value
+
+1
+
+and
+
+q
+
+has
+
+value
+
+1 2
+
+.)
+
+(b) Find values of p and q for which the value of (((p → q) → p) → p)
+
+is not 1.
+
+(c) Show that the following holds for every derivation D using at most the Axiom Rule, (→I) and (→E): If ψ is the conclusion of D and A is a structure with A (ψ) < 1, then A (φ) A (ψ) for some undischarged assumption φ of D. [The argument is very similar to the proof of Theorem 3.9.2, using induction on the height of D.]
+
+3.10 Completeness for propositional logic
+Our target in this section is the following theorem. Throughout the section, σ is assumed to be the default signature {p0, p1, . . . }. We will brieﬂy discuss this assumption at the end of the section.
+Theorem 3.10.1 (Adequacy of Natural Deduction for Propositional Logic) Let Γ be a set of formulas of LP(σ) and ψ a formula of LP(σ). If Γ |=σ ψ then Γ σ ψ.
+For simplicity the proof will use a stripped-down version of LP in which the only truth function symbols are
+∧¬⊥
+
+90
+
+Propositional logic
+
+Adding the other truth function symbols of LP makes the proof a bit longer but does not add any substantial new ideas. In any case we know from Corollary 3.8.9 that every formula of LP(σ) is logically equivalent to one in which the only truth function symbols are ∧, ¬ and ⊥.
+The proof will go in three steps, which we label as lemmas.
+Deﬁnition 3.10.2 We say that a set Γ of formulas of LP(σ) is syntactically consistent if Γ σ ⊥. (This notion is independent of what signature σ we choose, so long as LP(σ) contains all of Γ; cf. Exercises 3.4.3, 3.4.4.)
+Lemma 3.10.3 To prove the Adequacy Theorem it is enough to show that every syntactically consistent set of formulas of LP(σ) has a model.
+Proof of lemma Suppose every syntactically consistent set of formulas has a model. Let Γ be a set of formulas of LP(σ) and ψ a formula of LP(σ), and assume
+
+(3.70)
+
+Γ |=σ ψ
+
+Then we claim that
+
+(3.71)
+
+Γ ∪ {(¬ψ)} has no models
+
+For by (3.70) every model of Γ is a model of ψ, and so not a model of (¬ψ). Since we assume that every syntactically consistent set has a model, it
+follows from (3.71) that Γ ∪ {(¬ψ)} is not syntactically consistent, that is,
+
+(3.72)
+
+Γ ∪ {(¬ψ)} σ ⊥
+
+Then the correctness of the sequent Γ σ ψ follows by Example 3.4.3.
+
+Jaakko Hintikka Finland and USA, living. How to construct a set of formulas that gives an exact description of a situation.
+
+Propositional logic
+
+91
+
+The remaining steps of the proof rest on the following deﬁnition.
+Deﬁnition 3.10.4 We say that a set Γ of formulas of (the stripped-down) LP is a Hintikka set (for LP) if it has the following properties:
+
+(1) If a formula (φ ∧ ψ) is in Γ then φ is in Γ and ψ is in Γ. (2) If a formula (¬(φ ∧ ψ)) is in Γ then at least one of (¬φ) and (¬ψ) is in Γ. (3) If a formula (¬(¬φ)) is in Γ then φ is in Γ. (4) ⊥ is not in Γ. (5) There is no propositional symbol p such that both p and (¬p) are in Γ.
+
+Lemma 3.10.5 Every Hintikka set has a model.
+Proof of lemma Let Γ be a Hintikka set whose formulas are in LP(σ). Let A be the following σ-structure:
+
+(3.73)
+
+A(p) = T if p ∈ Γ F otherwise
+
+We will show that for every formula φ of LP(σ), both (a) and (b) are true:
+
+(3.74)
+
+(a) If φ is in Γ then A (φ) = T (b) If (¬φ) is in Γ then A (φ) = F
+
+We prove this by induction on the complexity of φ, using Deﬁnition 3.5.6. Case 1: φ is a propositional symbol p. Then A (p) = A(p). If φ ∈ Γ then A (p) = T by (3.73), proving (a). If (¬p) ∈ Γ then by property (5) of Hintikka sets, p ∈/ Γ, so A (p) = F by (3.73), proving (b). Case 2: φ is ⊥. Then by property (4) of Hintikka sets, ⊥ ∈/ Γ, so (a) of (3.74) holds trivially. Also by truth tables A (⊥) = F so that (b) holds too. Case 3: φ is (¬ψ) for some proposition ψ; by induction assumption (3.74) holds for ψ. If φ ∈ Γ then (¬ψ) ∈ Γ, so A (ψ) = F by (b) for ψ, and hence A (φ) = T. This proves (a) for φ. For (b), suppose (¬φ) ∈ Γ. Then (¬(¬ψ)) ∈ Γ, and so by property (3) of Hintikka sets, ψ ∈ Γ, so that A (ψ) = T by (a) for ψ. But then A (φ) = A ((¬ψ)) = F, proving (b) for φ. Case 4: φ is (ψ ∧ χ); by induction assumption (3.74) holds for both ψ and χ. To prove (a) for φ, if φ ∈ Γ then by property (1) of Hintikka sets, ψ ∈ Γ and χ ∈ Γ. So by induction assumption (a), A (ψ) = A (χ) = T. But then A ((φ ∧ ψ)) = T, proving (a) for φ. For (b), suppose (¬φ) ∈ Γ. Then by property (2) of Hintikka sets, at least one of (¬ψ) and (¬χ) is in Γ; say (¬ψ) ∈ Γ. Then by induction assumption (b) for ψ, A (ψ) = F. It follows that A (φ) = F, proving
+(b) for φ.
+This proves (3.74) for every formula φ of LP(σ). By (a) of (3.74), A is a
+model of Γ.
+

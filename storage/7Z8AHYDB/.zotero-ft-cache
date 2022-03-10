@@ -1,0 +1,214 @@
+
+Mass flow rate
+From Wikipedia, the free encyclopedia
+
+This is the current revision of this page, as edited by BattyBot ( talk | contribs ) at 01:07, 13 December 2021 (Removed non-content empty section(s), performed general fixes ) . The present address (URL) is a permanent link to this version.
+Revision as of 01:07, 13 December 2021 by
+( diff ) ← Previous revision | Latest revision (diff) | Newer revision → (diff)
+Jump to navigation Jump to search
+Mass of a substance which passes per unit of time
+Not to be confused with Volumetric flow rate .
+Mass Flow rate
+Common symbols
+	m ˙ {\displaystyle {\dot {m}}} {\dot {m}}
+SI unit 	kg/s
+
+In physics and engineering , mass flow rate is the mass of a substance which passes per unit of time . Its unit is kilogram per second in SI units, and slug per second or pound per second in US customary units . The common symbol is m ˙ {\displaystyle {\dot {m}}} {\dot {m}} ( ṁ , pronounced "m-dot"), although sometimes μ ( Greek lowercase mu ) is used.
+
+Sometimes, mass flow rate is termed mass flux or mass current , see for example Schaum's Outline of Fluid Mechanics . [1] In this article, the (more intuitive) definition is used.
+
+Mass flow rate is defined by the limit : [2] [3]
+
+    m ˙ = lim Δ t → 0 Δ m Δ t = d m d t {\displaystyle {\dot {m}}=\lim \limits _{\Delta t\rightarrow 0}{\frac {\Delta m}{\Delta t}}={\frac {{\rm {d}}m}{{\rm {d}}t}}} {\dot {m}}=\lim \limits _{{\Delta t\rightarrow 0}}{\frac {\Delta m}{\Delta t}}={\frac {{{\rm {d}}}m}{{{\rm {d}}}t}} 
+
+i.e. the flow of mass m through a surface per unit time t .
+
+The overdot on the m is Newton's notation for a time derivative . Since mass is a scalar quantity, the mass flow rate (the time derivative of mass) is also a scalar quantity. The change in mass is the amount that flows after crossing the boundary for some time duration, not the initial amount of mass at the boundary minus the final amount at the boundary, since the change in mass flowing through the area would be zero for steady flow .
+Contents
+
+    1 Alternative equations
+    2 Usage
+    3 Analogous quantities
+    4 See also
+    5 References
+
+Alternative equations [ edit ]
+Illustration of volume flow rate. Mass flow rate can be calculated by multiplying the volume flow rate by the mass density of the fluid, ρ . The volume flow rate is calculated by multiplying the flow velocity of the mass elements, v , by the cross-sectional vector area, A .
+
+Mass flow rate can also be calculated by:
+
+    m ˙ = ρ ⋅ V ˙ = ρ ⋅ v ⋅ A = j m ⋅ A {\displaystyle {\dot {m}}=\rho \cdot {\dot {V}}=\rho \cdot \mathbf {v} \cdot \mathbf {A} =\mathbf {j} _{\rm {m}}\cdot \mathbf {A} } {\displaystyle {\dot {m}}=\rho \cdot {\dot {V}}=\rho \cdot \mathbf {v} \cdot \mathbf {A} =\mathbf {j} _{\rm {m}}\cdot \mathbf {A} } 
+
+where:
+
+    V ˙ {\displaystyle {\dot {V}}} {\dot V} or Q = Volume flow rate ,
+    ρ = mass density of the fluid,
+    v = Flow velocity of the mass elements,
+    A = cross-sectional vector area /surface,
+    j m = mass flux .
+
+The above equation is only true for a flat, plane area. In general, including cases where the area is curved, the equation becomes a surface integral :
+
+    m ˙ = ∬ A ρ v ⋅ d A = ∬ A j m ⋅ d A {\displaystyle {\dot {m}}=\iint _{A}\rho \mathbf {v} \cdot {\rm {d}}\mathbf {A} =\iint _{A}\mathbf {j} _{\rm {m}}\cdot {\rm {d}}\mathbf {A} } {\displaystyle {\dot {m}}=\iint _{A}\rho \mathbf {v} \cdot {\rm {d}}\mathbf {A} =\iint _{A}\mathbf {j} _{\rm {m}}\cdot {\rm {d}}\mathbf {A} } 
+
+The area required to calculate the mass flow rate is real or imaginary, flat or curved, either as a cross-sectional area or a surface, e.g. for substances passing through a filter or a membrane , the real surface is the (generally curved) surface area of the filter, macroscopically - ignoring the area spanned by the holes in the filter/membrane. The spaces would be cross-sectional areas. For liquids passing through a pipe, the area is the cross-section of the pipe, at the section considered. The vector area is a combination of the magnitude of the area through which the mass passes through, A , and a unit vector normal to the area, n ^ {\displaystyle \mathbf {\hat {n}} } \mathbf {\hat {n}} . The relation is A = A n ^ {\displaystyle \mathbf {A} =A\mathbf {\hat {n}} } \mathbf {A} =A\mathbf {\hat {n}} .
+
+The reason for the dot product is as follows. The only mass flowing through the cross-section is the amount normal to the area, i.e. parallel to the unit normal. This amount is:
+
+    m ˙ = ρ v A cos ⁡ θ {\displaystyle {\dot {m}}=\rho vA\cos \theta } {\dot m}=\rho vA\cos \theta 
+
+where θ is the angle between the unit normal n ^ {\displaystyle \mathbf {\hat {n}} } \mathbf {\hat {n}} and the velocity of mass elements. The amount passing through the cross-section is reduced by the factor cos ⁡ θ {\displaystyle \cos \theta } \cos\theta , as θ increases less mass passes through. All mass which passes in tangential directions to the area, that is perpendicular to the unit normal, doesn't actually pass through the area, so the mass passing through the area is zero. This occurs when θ = π /2:
+
+    m ˙ = ρ v A cos ⁡ ( π / 2 ) = 0 {\displaystyle {\dot {m}}=\rho vA\cos(\pi /2)=0} {\dot m}=\rho vA\cos(\pi /2)=0 
+
+These results are equivalent to the equation containing the dot product. Sometimes these equations are used to define the mass flow rate.
+
+Considering flow through porous media, a special quantity, superficial mass flow rate, can be introduced. It is related with superficial velocity , v s , with the following relationship:
+
+    m ˙ s = v s ⋅ ρ = m ˙ / A {\displaystyle {\dot {m}}_{s}=v_{s}\cdot \rho ={\dot {m}}/A} {\dot m}_{s}=v_{s}\cdot \rho ={\dot m}/A [4] 
+
+The quantity can be used in particle Reynolds number or mass transfer coefficient calculation for fixed and fluidized bed systems.
+Usage [ edit ]
+
+In the elementary form of the continuity equation for mass, in hydrodynamics : [5]
+
+    ρ 1 v 1 ⋅ A 1 = ρ 2 v 2 ⋅ A 2 {\displaystyle \rho _{1}\mathbf {v} _{1}\cdot \mathbf {A} _{1}=\rho _{2}\mathbf {v} _{2}\cdot \mathbf {A} _{2}} {\displaystyle \rho _{1}\mathbf {v} _{1}\cdot \mathbf {A} _{1}=\rho _{2}\mathbf {v} _{2}\cdot \mathbf {A} _{2}} 
+
+In elementary classical mechanics, mass flow rate is encountered when dealing with objects of variable mass , such as a rocket ejecting spent fuel. Often, descriptions of such objects erroneously [6] invoke Newton's second law F  =d( m v )/d t by treating both the mass m and the velocity v as time-dependent and then applying the derivative product rule. A correct description of such an object requires the application of Newton's second law to the entire, constant-mass system consisting of both the object and its ejected mass. [6]
+
+Mass flow rate can be used to calculate the energy flow rate of a fluid: [7]
+
+    E ˙ = m ˙ e {\displaystyle {\dot {E}}={\dot {m}}e} {\displaystyle {\dot {E}}={\dot {m}}e} 
+
+where:
+
+    e {\displaystyle e} e = unit mass energy of a system
+
+Energy flow rate has SI units of kilojoule per second or kilowatt .
+Analogous quantities [ edit ]
+
+In hydrodynamics, mass flow rate is the rate of flow of mass. In electricity, the rate of flow of charge is electric current . [8]
+See also [ edit ]
+
+    Continuity equation
+    Fluid dynamics
+    Mass flow controller
+    Mass flow meter
+    Mass flux
+    Orifice plate
+    Standard cubic centimetres per minute
+    Thermal mass flow meter
+    Volumetric flow rate 
+
+References [ edit ]
+
+    ^ Fluid Mechanics, M. Potter, D.C. Wiggart, Schaum's Outlines, McGraw Hill (USA), 2008, ISBN   978-0-07-148781-8
+    ^ "Mass Flow Rate Fluids Flow Equation - Engineers Edge" .
+    ^ "Mass Flow Rate" .
+    ^ Lindeburg M. R. Chemical Engineering Reference Manual for the PE Exam. – Professional Publications (CA), 2013.
+    ^ Essential Principles of Physics, P.M. Whelan, M.J. Hodgeson, 2nd Edition, 1978, John Murray, ISBN   0-7195-3382-1
+    ^ Jump up to: a b Halliday; Resnick (1977). Physics . 1 . p. 199. ISBN   978-0-471-03710-1 . " It is important to note that we cannot derive a general expression for Newton's second law for variable mass systems by treating the mass in F = d P / dt = d ( M v ) as a variable . [...] We can use F = d P / dt to analyze variable mass systems only if we apply it to an entire system of constant mass having parts among which there is an interchange of mass." [Emphasis as in the original]
+    ^ Çengel, Yunus A. (2002). Thermodynamics : an engineering approach . Boles, Michael A. (4th ed.). Boston: McGraw-Hill. ISBN   0-07-238332-1 . OCLC   45791449 .
+    ^ Horowitz, Paul, 1942- (30 March 2015). The art of electronics . Hill, Winfield (Third ed.). New York, NY, USA. ISBN   978-0-521-80926-9 . OCLC   904400036 . CS1 maint: multiple names: authors list ()
+
+hide
+Authority control Edit this at Wikidata
+General	
+
+    Integrated Authority File (Germany) 
+
+National libraries	
+
+    France (data)
+    United States 
+
+Other	
+
+    Microsoft Academic 
+
+Retrieved from ""
+Categories :
+
+    Fluid dynamics
+    Temporal rates
+    Mass 
+
+Hidden categories:
+Navigation menu
+
+    Not logged in
+    Talk
+    Contributions
+    Create account
+    Log in 
+
+    Article
+    Talk 
+
+    Read
+    Edit
+    View history 
+
+Search
+
+    Main page
+    Contents
+    Current events
+    Random article
+    About Wikipedia
+    Contact us
+    Donate 
+
+Contribute
+
+    Help
+    Learn to edit
+    Community portal
+    Recent changes
+    Upload file 
+
+Tools
+
+    What links here
+    Related changes
+    Special pages
+    Permanent link
+    Page information
+    Cite this page
+    Wikidata item 
+
+Print/export
+
+    Download as PDF
+    Printable version 
+
+Languages
+
+    العربية
+    Deutsch
+    Español
+    हिन्दी
+    Bahasa Indonesia
+    Bahasa Melayu
+    Português
+    Русский
+    中文
+    23 more 
+
+Edit links
+
+    This page was last edited on 13 December 2021, at 01:07  (UTC) .
+    Text is available under the Creative Commons Attribution-ShareAlike License ; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc. , a non-profit organization.
+
+    Privacy policy
+    About Wikipedia
+    Disclaimers
+    Contact Wikipedia
+    Mobile view
+    Developers
+    Statistics
+    Cookie statement
+
+    Wikimedia Foundation
+    Powered by MediaWiki
+

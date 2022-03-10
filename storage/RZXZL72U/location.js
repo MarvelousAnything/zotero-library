@@ -1,0 +1,1 @@
+jsonFeed({"country":"US","state":"WA","stateName":"Washington","zipcode":"98403","timezone":"America/Los_Angeles","latitude":"47.26870","longitude":"-122.45750","city":"Tacoma","continent":"NA"});

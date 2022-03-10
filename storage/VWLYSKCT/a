@@ -1,0 +1,120 @@
+// this is a dynamically generated file. Please DO NOT store or cache it! Otherwise, metrics, configuration, etc will work incorrectly
+
+var currentScript = document.currentScript || (function() {
+    var scripts = document.getElementsByTagName('script');
+    return scripts[scripts.length - 1];
+})();
+
+(function() {
+    window.TRINITY_PLAYER = window.TRINITY_PLAYER || {
+        isLegacyBrowser: true,
+        isDev: false,
+        options: {
+            isTrinityEnabled: true,
+            unitId: '2900003088',
+            filters: [{"name":"nodefiltered","params":["connatix","label-body-bannner","twitter-tweet","twitter-tweet-rendered","hide-for-premium"]}],
+            partnerName: '',
+            paramsObject: {},
+            abTestAlias: '',
+            FAB_config: {"m_bottom":"15%","bottom":"15%"},
+            documentLoadType: '',
+            documentLoadTypeSelector: '',
+            adsDurationThreshold: '',
+            loaderText: '',
+            useCFCDN: 0,
+            serverSubdomain: '',
+            language: 'en',
+            FABOnly: false,
+            pageURL: '',
+            contentURL: '',
+            rchURL: '',
+            publisherSections: [{"regexp":".com/([\\w\\-]+)/","selector":"","example":"https://www.jpost.com/breaking-news/joe-biden-announces-all-woman-communications-team-650641","type":"url"}],
+            themeData: {"mainButton": {"id": "forbes"}, "playerHeight": "80", "minWidth": "559px", "fonts": [{"link": "https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap"}], "layout": "coda", "loadingIcon": {"color": "#333"}},
+            themeId: '140',
+            estimatedDuration: '', // will be used as mocked duration
+            placeholderSelector: {},
+            cf: '',
+            unitType: 'tts-player'
+        },
+
+        config: {
+            injectorScript: 'https://vd.trinitymedia.ai/trinity-player/tts-player/20220310_d58209c9945eaa9b2b69b87efca2c68ffe891539/trinity-injector-script-legacy.js'
+        },
+
+        publisherUserId: '',
+        publisherUserIdOptions: '{}',
+        version: '20220310_d58209c9945eaa9b2b69b87efca2c68ffe891539',
+        userAgentData: {"browser":"Firefox","os":"Mac OS X","os_ver":"10.16","device":"Mac","browser_ver":"60.0","is_bot":false,"is_legacy_browser":true},
+        userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.16; rv:60.0) Gecko/20100101 Firefox/60.0',
+        SDKData: {"platform":null,"version":null,"app_name":null,"app_version":null},
+        isDebugMode: false,
+        userId: '',
+        server: 'ip-10-64-51-131.thetimmedia.site',
+        server_region: 'NA',
+        server_env: 'NA',
+        publisherId: '1236',
+        ts: Date.now(),
+        tsServer: 1646954761566,
+        isOembed: 0,
+        isShowFAB: false    };
+
+    const playerId = currentScript.dataset.playerId || '7ba8d32f117e0f5b439be37088f0ca96'
+    currentScript.setAttribute('data-player-id', playerId); // set dynamically generated ID
+
+    window.TRINITY_PLAYER.players = window.TRINITY_PLAYER.players || {};
+    window.TRINITY_PLAYER.players[playerId] = {
+        language: 'en',
+        textSelector: 'h1.article-title, h2.article-subtitle, div.article-inner-content, div[itemprop="articleBody"]',
+        readContentType: '',
+        readContentConfig: '',
+        imageSelector: '',
+        state: 'not-started'
+    };
+
+    /* NOTE: This script doesn't transpiled. Please use ES5 code here */
+window.TRINITY_PLAYER.injectScript = function(playerId) {
+  var isDOMContentLoaded = false;
+
+  /* TTS could be loaded dynamically and skip DOMContentLoaded event. So check if document already ready as well */
+  function checkIfDocumentReady() {
+    return ['interactive', 'complete', 'loaded'].indexOf(document.readyState) !== -1 || isDOMContentLoaded;
+  }
+
+  function run() {
+    if (document.body) {
+      if (!document.getElementById('trinity-audio-js')) {
+        var js = document.createElement('script');
+        js.type = 'text/javascript';
+        js.setAttribute('crossorigin', 'anonymous');
+        js.src = window.TRINITY_PLAYER.config.injectorScript;
+        js.id = 'trinity-audio-js';
+
+        js.addEventListener('load', createPlayer);
+
+        document.body.appendChild(js);
+      } else {
+        if (window.TRINITY_PLAYER.isLoaded) createPlayer();
+        else document.getElementById('trinity-audio-js').addEventListener('load', createPlayer);
+      }
+    }
+  }
+
+  function createPlayer() {
+    if (checkIfDocumentReady()) window.TRINITY_PLAYER.api._internal.createPlayer(playerId);
+    else document.addEventListener('DOMContentLoaded', function() {
+      isDOMContentLoaded = true;
+      window.TRINITY_PLAYER.api._internal.createPlayer(playerId);
+    });
+  }
+
+  run();
+
+  document.addEventListener('DOMContentLoaded', function() {
+    isDOMContentLoaded = true;
+    run();
+  });
+};
+
+    window.TRINITY_PLAYER.injectScript(playerId);
+})();
+var __TRINITY_TAG_TIME__ = 22;

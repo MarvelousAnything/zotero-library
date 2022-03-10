@@ -1,0 +1,1758 @@
+arXiv:1910.01515v1 [physics.bio-ph] 2 Oct 2019
+
+Lotka-Volterra representation of general nonlinear systems
+
+Benito Hern´andez–Bermejo
+
+V´ıctor Fair´en∗
+
+Departamento de F´ısica Fundamental, Universidad Nacional de Educaci´on a Distancia. Aptdo. 60141, 28080 Madrid (Spain). E–mail: vfairen@uned.es
+
+ABSTRACT
+In this paper we elaborate on the structure of the Generalized Lotka-Volterra (GLV) form for nonlinear diﬀerential equations. We discuss here the algebraic properties of the GLV family, such as the invariance under quasimonomial transformations and the underlying structure of classes of equivalence. Each class possesses a unique representative under the classical quadratic Lotka-Volterra form. We show how other standard modelling forms of biological interest, such as S-systems or mass-action systems are naturally embedded into the GLV form, which thus provides a formal framework for their comparison, and for the establishment of transformation rules. We also focus on the issue of recasting of general nonlinear systems into the GLV format. We present a procedure for doing so, and point at possible sources of ambiguity which could make the resulting Lotka-Volterra system dependent on the path followed. We then provide some general theorems that deﬁne the operational and algorithmic framework in which this is not the case.
+Running title: Lotka-Volterra representation
+∗ Author tho whom all correspondence should be addressed.
+
+1
+
+1 Introduction
+The search and study of canonical representations (reference formats which are form-invariant under a given set of transformations) in nonlinear systems of ordinary diﬀerential equations has been a recurrent theme in the literature. Although the powerful algebraic structure which characterizes the theory of linear diﬀerential systems does not seem to have a counterpart in the nonlinear realm (a not so surprising fact, once we take into consideration the apparent diversity in structure and richness of behaviors of nonlinear vector ﬁelds), there is an increasing number of suggestions for a partial solution to this problem, which we shall partly review later in this paper.
+Recasting an n-dimensional diﬀerential system into a canonical form conveys a gain in algebraic order which is not without cost, for it has usually to be embedded in a higher dimensional mathematical structure. The procedure is then justiﬁed if in the context of the target canonical form we are in possession of powerful mathematical tools allowing for a better analysis of the original system. This is not always the case, for not all suggested canonical forms provide, in this sense, a satisfactory level.
+The Lotka-Volterra structure can be considered one of the favored forms to this eﬀect. First, it may qualify for canonical form in a classical context, for Plank [1] has demonstrated that n-dimensional Lotka-Volterra equations are hamiltonian, and are thereby amenable to a classical canonical description once an appropriate Poisson structure is chosen. Second, its paramount importance in ecological modeling equals its ubiquity in all ﬁelds of science, from plasma physics [2] to neural nets [3]. This may not be unrelated to the fact that it is quadratic, and thus appears in many models in which interaction processes are viewed as fortuitous ‘collisions’, or ‘encounters’, between at most two constitutive entities; those with more than two participants being seen as extremely unprobable. Additionally, it is characterized as simple algebraic objects as matrices, which makes its analysis far more attractive than that of other formats. Also, being representable in terms of a network, it spans a bridge to a possible connection to a graph theory approach in the qualitative study of nonlinear diﬀerential equations, either directly or through its equivalence with the well known replicator equations [4].
+The purpose of this article is to elaborate on the algebraic structure of the so
+2
+
+called GLV formalism, deﬁned on equations the structure of which generalizes the n-dimensional Lotka-Volterra system -it contains them as a particular case-. It thus oﬀers a natural bridge towards the representation of nonlinear systems in terms of Lotka-Volterra equations. We will also review other known canonical forms, paying special attention, due to its biological implications, to the so called S-system format, introduced by Savageau and coworkers as a potential way of approaching nonlinear systems (see Savageau, Chap.1 in [5]). We will show how the GLV formalism oﬀers a formal solution to the issue of transformations between diﬀerent canonical forms, a problem which has already attracted the attention of Savageau and Voit in the case involving Lotka-Volterra and S-system forms [6].
+Despite the versatility of the GLV equations, they do not seem at ﬁrst sight to encompass many model systems of biological or physical signiﬁcance, with, for example, saturating rates deﬁned in terms of rational functions. This exclusion is, however, only apparent, for it is a well kown fact that non-polynomial rate laws are always amenable to a polynomial format by the introduction of conveniently chosen auxiliary variables. This trick, which was known from old in the ﬁeld of Celestial Mechanics [7], was popularized by Kerner [8], and independently by Savageau and collaborators (see Voit, Chap.12 in [5]), who have made ample use of this technique. Although the GLV equations are somewhat diﬀerent from polynomial ones, there is no obstacle for aplying the same procedure, as it will be shown. The problem is that the above technique is unfortunately not systematic, as it relies on a clever selection of the additional variables and of their derivatives (as we shall see later) and does not generally lead to a unique system in anyone of the desired formats, let it be polynomial, S-system, or any other whatsoever (in our case in GLV form). This ambiguity, and the resulting multiplicity of target systems (an inﬁnite number is not so uncommon), may throw some shadow on the procedure, and be especially confusing when a single choice of auxiliary variables leads to the disclosure of several entirely diﬀerent target systems, or reversely, when a single target system originates from completely diﬀerent choices of auxiliary variables.
+No doubt, the previous method of auxiliary variables has important drawbacks, but it is presently the only known course of action when confronted to this type of recasting problem. The limits of these ambiguities should be then clearly outlined, for it is essential to enhance the conﬁdence in the applicability
+3
+
+of the method. This task is carried out in the ﬁnal sections of the article.
+2 Overview of canonical forms
+A) Infinite-dimensional linear systems. If the theory of linear vector ﬁelds has been given a well deﬁned and coherent structure, can we somehow linearize? This sensible question was given an answer in 1931 by T. Carleman [9], following Poincar´e’s suggestion. He showed that a ﬁnite-dimensional system of ordinary polynomial diﬀerential equations is equivalent to an inﬁnite-dimensional linear system of ODE’s. The whole issue lay dormant until the late seventies. Since, several authors have greatly contributed to the investigation of the potential applications of the Carleman embedding, which have been recently reviewed by Kowalski and Steeb [10]. Although there has been an interesting suggestion of a ‘quantum mechanical’ formalism applicable to the Carleman linearization, the scheme does not seem to provide, for the time being, an operationally acceptable framework. Additionally, the manipulation of an inﬁnite-dimensional system, as linear as it may be, can still be considered objectable by many users.
+B) Riccati systems. Some time ago Kerner [8] proposed a scheme with the purpose of bringing general nonlinear diﬀerential systems down to polynomial vector ﬁelds, and ultimately to what he termed elemental Riccati systems:
+x˙ i = Ajikxj xk,
+j,k
+with Ajik either 0 or 1. He suggests to do so by introducing step by step new variables which represent collectives of other variables and, by making use of the sequential diﬀerentiation rule -in a way similar to that of the Carleman embedding-. This rather heuristic recipe is the traditional, and widely used, method for reducing the degree of a nonlinearity. The dimension of the elemental Riccati system is, of course, greater than that of the initial system; but the gain in structure -so to say, in order- is not costless.
+C) Mass action systems. Chemical kinetics has been considered by certain authors a good candidate for prototype in nonlinear science [11]. They claim that it would already deserve this consideration if it were only because it embraces all types of behavior of interest, from multiplicity of steady states to chaotic evolution, with the backing of a large corpus of experimental evidence.
+4
+
+The simplicity of the stoichiometric rules and that of the algebraic structure of the corresponding evolution equations has made chemical kinetics a traditional point of reference in modeling within such ﬁelds as population biology [12], quantitative sociology [13], prebiotic evolution [4] and other biomathematic problems [14], where a system is viewed as a collection of ‘species’ interacting as molecules do. As emphazised by Erdi and T´oth [11], even the algebraic structure of the evolution equations from many other ﬁelds can be converted into ‘chemical language’, where a formal ‘analog’ in terms of a chemical reaction network is deﬁned. However, the serious obstacle of negative cross-eﬀects was emphasized by T´oth and Ha´rs [15], by showing that no orthogonal transformation leads the Lorenz and Ro¨ssler systems to a ‘kinetic’ format. Although many suggestions have been made in order to overcome the diﬃculty of the negative cross-eﬀects [16, 17, 18, 19], the problem seems to remain unsolved.
+D) S-systems. S-systems constitute an interesting canonical form that has been developed in the context of the power-law formalism in theoretical biochemistry. Its proponents have made a considerable eﬀort in showing how it is a good candidate for representing general nonlinear systems, as well as in elaborating on its relation to other forms, from generalized mass-action to Lotka-Volterra systems (See Voit, Chap. 12 in [5]). Its particularly simple form
+
+n
+
+n
+
+x˙ i = αi xgjij − βi xhj ij , i = 1, . . . , n ,
+
+j=1
+
+j=1
+
+optimal estimation of parameter values from steady-state experiments and the possibility of symbolic steady-state analysis (See Weinberger, Chap. 6 in [5]) have been proposed, among others, as arguments to justify the choice of Ssystems. Although some preliminary steps have been covered (see Voit, Chap. 15 in [5], and also [20]), much work is still necessary to provide the S-systems formalism with a proper formal framework yielding a workable algebraic structure, wherefrom insight on their mathematical properties might be gained. We will pay special attention to S-systems in the present paper. We will do it by showing how they ﬁnd their place within the generalized Lotka-Volterra formalism.
+E) Lotka-Volterra systems. The well-known n-dimensional Lotka-
+
+5
+
+Volterra (LV) equations,
+
+n
+
+x˙ i = λixi + xi Aijxj , i = 1, ..., n,
+
+(1)
+
+j=1
+
+have obvious quadratic nonlinearities and are characterized by simple algebraic objects: matrices λ and A. Though they have occupied a priviledged position in ecology -practically all high dimensional strategic models are set in terms of them- they also appear in many other ﬁelds, such as virology, where the concept of quasispecies has given a whole new perspective [21, 22]. Cair´o and Feix [23] refer to a fairly long list of systems modeled by LV equations; a sample which speaks in favor of their representative role, and that has prompted Peschel and Mende [24] to head their book on the issue with the title: Do we live in a Volterra World? We may also recall that Lotka-Volterra equations are also equivalent to game dynamical equations, replicator or autocatalytic networks [4]. Through this connection, LV dynamics is linked to the whole fruitful ﬁeld of replicator dynamics and autocatalytic networks, which is a continuous source of modeling in prebiotic evolution, game dynamics, or population genetics. LV systems will be given a priviledged status in what is to follow.
+
+3 Generalized Lotka-Volterra formalism
+
+The term generalized Lotka-Volterra equations (GLV) has been recently coined by Brenig [25] to refer to a system of the following form:
+
+m
+
+n
+
+x˙ i = λixi + xi Aij xBk jk , i = 1, ..., n,
+
+(2)
+
+j=1
+
+k=1
+
+where m is a positive integer not necessarily equal to n. Following Brenig [25], vectors x and λ, and the n×m matrix A and m×n matrix B may be indiﬀerently real or complex. However, we shall assume in what follows that the xi are real and positive and that the matrix entries are arbitrary real numbers. The importance of (2) as a representation of Lotka-Volterra models was previously studied by Peschel and Mende (see [24, p. 120 ﬀ]), who anticipated many of the interesting properties of the algebraic structure of (2) (they termed them multinomial diﬀerential systems). These equations also appear in independent developments by Br’uno [26] and Gouz´e [27]. They embrace a large category of
+
+6
+
+relevant systems of diﬀerential equations, and can be considered as equivalent to the Generalized Mass Action systems (GMA) which have been dealt with by Savageau and coworkers [5].
+Several important properties reveal the potential interest of the GLV equations (2). We may start by recalling some propositions from Peschel and Mende [24, Sec. 5.2], Brenig and Goriely [28] and Hern´andez–Bermejo and Fair´en [29], which we summarize in a single Theorem:
+
+THEOREM 1
+
+i) GLV equations (2) are form-invariant under quasimonomial power transfor-
+
+mations:
+n
+
+xi = ykCik , i = 1, ..., n,
+
+(3)
+
+k=1
+
+deﬁned by any non-singular (in our case, real) n × n matrix, C. In other words,
+
+the system of equations obtained from eqs. (2) by a quasimonomial transforma-
+
+tion, (3), is also a GLV system of the same dimension. Moreover, if we denote
+
+such system as
+
+m
+
+n
+
+y˙i = λˆiyi + yi
+
+Aˆij
+
+ykBˆjk , i = 1, ..., n,
+
+(4)
+
+j=1
+
+k=1
+
+then:
+
+λˆ = C−1 · λ, Aˆ = C−1 · A, Bˆ = B · C .
+
+(5)
+
+ii) The product matrices,
+
+Bˆ · λˆ = B · λ, Bˆ · Aˆ = B · A,
+
+(6)
+
+are invariants under the quasimonomial transformations (3). The whole family of systems (2) is then split into classes of equivalence according to relations (6), such that, for given values of n and m, to each class of equivalence speciﬁc realizations of the product matrices B · λ and B · A can be associated.
+iii) The quasimonomials
+
+n
+
+xBk jk , j = 1, ..., m
+
+(7)
+
+k=1
+
+constitute a set of m invariants of the class of equivalence to which the corresponding GLV system belongs.
+
+7
+
+iv) All GLV systems (2) deﬁned in an open subset of the positive orthant which belong to the same class of equivalence are topologically equivalent, that is, their phase spaces can be mapped into each other by a diﬀeomorphism [30], given by (3).
+In particular, the importance of quasimonomial transformations in what follows cannot be underestimated. Their relevance has been clearly emphasized in the literature (see [24, Secs. 5.2 and 5.4] and [25, 26]). These transformations have been also used by Voit to study symmetry properties of GMA systems in [5, Ch. 15] and [20].
+
+3.1 The Lotka-Volterra canonical form
+In order to go further ahead in detailing the features of the GLV formalism in the context of its canonical forms we should now distinguish three independent cases, two of which have been studied by Brenig and Goriely (m = n, m > n) while the third (m < n) is considered in here for the ﬁrst time. We shall ﬁnd necessary to elaborate on them all, for they will help us in understanding the recasting technique which we shall later on use for embedding S-systems into the GLV formalism.
+
+3.1.1 Case m = n
+
+A and B in (2) are n × n square matrices. We consider some speciﬁc transformation matrices C which lead to interesting canonical forms. Assume ﬁrst that B is invertible and C is taken as B−1. According to (5) Bˆ reduces to the identity matrix and (4) takes the usual LV form,
+
+n
+
+y˙i = λˆiyi + yi Aˆij yj, i = 1, ..., n,
+
+(8)
+
+j=1
+
+By construction, for those classes of equivalence with non-singular matrices B there is a unique LV representative. It is interesting to observe that, according to (3), each of the variables yj in (8) is actually
+
+n
+
+yj = xBk jk , j = 1, ..., n.
+
+(9)
+
+k=1
+
+In other words, each of the variables in the LV scheme (8) accounts for one of the diﬀerent nonlinear quasimonomials in (2).
+
+8
+
+3.1.2 Example with m = n:
+
+We shall reduce to the Lotka-Volterra canonical form the generic GLV system:
+x˙ 1 = x1[λ1 + a11xp1 + a12xq2] x˙ 2 = x2[λ2 + a21xp1 + a22xq2]
+If we perform a transformation of the form (3) with matrix C = B−1, we are led to a LV system with matrices Aˆ = B · A and λˆ = B · λ. It is:
+
+y˙1 = y1[pλ1 + pa11y1 + pa12y2] y˙2 = y2[qλ2 + qa21y1 + qa22y2] , where y1 = xp1 and y2 = xq2.
+
+3.1.3 Case m > n
+
+Here, the number of quasimonomials m is higher than that of independent
+
+variables. Accordingly, the target LV form (8) is to be an m-dimensional system,
+
+its variables standing for the m quasimonomials in (2). The transformation
+
+of section 3.1.1 cannot be carried out unless (2) is previously embedded in an
+
+equivalent m-dimensional system. To do so we enlarge system (2) by introducing
+
+m − n auxiliary ‘arguments’, to which we assign a ﬁxed value, xl = 1, l = n + 1, ..., m, and that enter the equations in the following way:
+
+m
+
+n
+
+x˙ i = λixi + xi
+
+Aij
+
+xBk jk
+
+·
+
+[xBj,n+1
+n+1
+
+. . . xBmjm ],
+
+i = 1, ..., n,
+
+j=1
+
+k=1
+
+(10)
+
+with arbitrary values of Bj,n+1, ..., Bjm: we are in fact adding m − n arbitrary
+
+columns to the m × n matrix B in order to complete a non-singular m × m matrix B˜. In (10), the term in brackets should not aﬀect the equations as long
+
+as the new arguments stick to their assigned value. We do ensure it by deﬁning
+
+for them the equations:
+
+m
+
+n
+
+x˙ l = λlxl + xl
+
+Alj
+
+xBk jk
+
+·
+
+[xBj,n+1
+n+1
+
+. . . xBmjm ],
+
+l = n + 1, ..., m,
+
+j=1
+
+k=1
+
+(11)
+
+with entries λl = 0 and Alj = 0, for l = n + 1, ..., m, and initial conditions,
+
+xl(0) = 1. Then, (10) and (11) deﬁne an expanded m-dimensional system to which the procedure of subsection 3.1.1 can be applied. This embedding
+
+technique preserves the topological equivalence between the initial and ﬁnal
+
+systems, as has been demonstrated in [29].
+
+9
+
+3.1.4 Example with m > n:
+As an example, we shall consider a simple spheroid-model for tumor growth, due to Maruˇsi´c et al. [31]:
+V˙ = V [−3ω + 3αk1/3V −1/3 − 3αk2/3V −2/3 + αkV −1], α, k, ω > 0.
+
+Here V denotes the tumor volume, provided V ≥ k. We perform the embedding described by equations (10) and (11). The matrices of the expanded system are given by:
+
+ 3αk1/3 −3αk2/3 αk 
+
+ −1/3 0 0 
+
+ −3ω 
+
+A˜ =  0
+
+0
+
+0  ; B˜ =  −2/3 1 0  ; λ˜ =  0 
+
+0
+
+0
+
+0
+
+−1 0 1
+
+0
+
+We are now in the case n = m. The resulting LV system is thus:
+
+y˙1 = y1[ω + µ1y1 + µ2y2 + µ3y3] y˙2 = y2[2ω + 2µ1y1 + 2µ2y2 + 2µ3y3] y˙3 = y3[3ω + 3µ1y1 + 3µ2y2 + 3µ3y3] ,
+where µ1 = −αk1/3, µ2 = αk2/3 and µ3 = −αk/3.
+
+3.1.5 Case m < n
+
+In this case, the number of quasimonomials, m, is smaller than that of variables, n. Consequently, there is no need to perform an embedding, as in the previous
+case. Only m variables of the n-dimensional LV system will stand for the m original quasimonomials, while the n − m remaining variables of that same
+LV system, as we shall see, will have an arbitrary dependence on the original variables. This means, as we can guess, that only m variables are actually independent. In fact, we demand to the m× n Bˆ matrix of the target LV system to be of the form Bˆ = (Im×m | 0m×(n−m)) (save row and column permutations), where I is the identity matrix, 0 is the null matrix, and the subindexes indicate
+the sizes of these submatrices. On the other hand, we also have from (5), Bˆ = B · C. If Z denotes the inverse of matrix C, we have Bˆ · Z = B. Since the structure of Bˆ is very simple, we can explicitly evaluate, and write:
+
+ z11 . . . z1n 
+
+B= 
+
+...
+
+...
+
+...
+
+ 
+
+(12)
+
+zm1 . . . zmn
+
+10
+
+Thus, the ﬁrst m rows of Z = C−1 are given by the entries of matrix B from the original GLV system. Since C must be an invertible matrix, we have demonstrated the following result:
+THEOREM 2 If m < n, a necessary and suﬃcient condition for the existence of a transformation (3) leading to a LV system is that matrix B is of rank m.
+The procedure continues straightforwardly by completing the n − m undeﬁned rows of Z with arbitrary selected entries which make the resulting matrix invertible. There are inﬁnite ways of doing this, generating a multiplicity of LV systems present in the corresponding class of equivalence. If m = n, we would obtain directly Z = B: a known result from 3.1.1. In other words, all features of the limit case n = m are preserved when m < n, with the only exception of the uniqueness of the LV system: now we have inﬁnite LV systems in a given class of equivalence.
+
+3.1.6 Example with m < n:
+
+We shall consider the following GLV system:
+
+x˙ 1 = x1(−1 + x1x2x3 + x21x2x23) x˙ 2 = x2(3 + 2x1x2x3 + x21x2x23) x˙ 3 = x3(2 − x1x2x3 + 2x21x2x23)
+
+(13) (14) (15)
+
+We choose the LV matrix B of the form (the row permutation is irrelevant):
+
+Bˆ =
+
+010 100
+
+Consequently:
+
+z21 z22 z23 z11 z12 z13
+
+=B=
+
+111 212
+
+We now complete Z with an arbitrary third row: (1 0 0) for example. Then C = Z−1. After evaluation of C, Aˆ and λˆ can be obtained, and the resulting
+
+LV system is:
+
+y˙1 = y1(5 + 7y1 + 2y2) y˙2 = y2(4 + 4y1 + 2y2) y˙3 = y3(−1 + y1 + y2)
+
+11
+
+where y1 = x21x2x23 and y2 = x1x2x3, and stand for the two quasimonomials present in (13)–(15). As mentioned above, the n − m remaining variables (here y3) have been freely chosen, a fact that implies the selection of one of the inﬁnite existing LV systems in the class of equivalence. We should nevertheless, notice that the m actually independent variables (here y1 and y2) obey a unique Lotka-Volterra system. As far as this is valid we can also claim in this case the uniqueness of the Lotka-Volterra as representative of a class of equivalence.
+
+3.2 Single-quasimonomial canonical form
+We shall brieﬂy mention another form which will prove to be of interest in later sections (see [24, p. 124]).
+
+3.2.1 Case m = n
+
+For any class of equivalence for which A is non-singular we can choose C = A. In which case we have for (4),
+
+n
+y˙i = λˆiyi + yi ykBˆik , i = 1, ..., n.
+k=1
+
+(16)
+
+This canonical form has interesting integrability properties which have been studied in depth by Goriely and Brenig [32].
+On the other hand, it is clear that if all λ’s are nonpositive, equation (16) is also an S-system. We shall ﬁnd this similarity useful and consider in a forthcoming section an example of the single quasimonomial canonical form under the viewpoint of the S-system recasting technique.
+
+3.2.2 Case m > n
+
+As done in subsection 3.1.3, a preliminary embedding of the original GLV equation in a m-dimensional system is also a prescriptive requirement prior to the application of the procedure for case m = n and the obtainment of this canonical form. However, this time the embedding must be such that the extended matrix A be invertible. In order to satisfy this condition, Brenig and Goriely [28] introduce m − n auxiliary variables such that:
+
+x˙ α =
+
+λαxα + xα ραxα + xα
+
+m β=1
+
+Aαβ
+
+n γ =1
+
+xBγ βγ
+
+·
+
+[x0n+1
+
+. . . x0m],
+
+α = 1, . . . , n
+
+m β=1
+
+aαβ
+
+n γ =1
+
+xBγ βγ
+
+·
+
+[x0n+1
+
+. . . x0m],
+
+α = n + 1, . . . , m
+
+12
+
+We can then proceed as in subsection 3.2.1. A proof, which is rather involved, of the topological invariance of the solutions under this embedding process will be provided in a future work.
+
+4 S-systems within the GLV formalism
+
+The observation that a generic S-system
+
+n
+
+n
+
+x˙ i = αi xgjij − βi xhj ij , i = 1, . . . , n,
+
+j=1
+
+j=1
+
+is in fact a particular case of GLV system, allows us to focus the attention to applying the previous formalism to the inverse problem, that is, the conversion of a GLV system into an equivalent S-system. We shall see how the recasting procedure can now be standarized within the formalism we have presented. We complement the multiple heuristic recipes quoted for this purpose (see Voit, Ch.12 in [5]) by presenting a formal strategy which allows a non-negligeable freedom of design of target S–system matrices, within the obvious restriction of topological equivalence (TE). This TE will be ensured if the target S–system is reachable through any element of the inﬁnite group of quasimonomial transformations. This, together with the ability to predict the dimension, number and exact deﬁnition of the variables are some of the advantages derived from dealing with the problem in a well characterized mathematical framework.
+We shall again study the problem of recasting into S–systems in three steps of increasing complexity:
+
+4.1 Case m = n
+4.1.1 Recasting theory
+
+We start from a GLV system:
+
+n
+
+n
+
+x˙i = xi(λi + Aij xBk jk ), i = 1 . . . n.
+
+j=1
+
+k=1
+
+(17)
+
+We must apply a quasimonomial transformation to (17) and proceed consequently to a new GLV system (with matrices λˆ, Aˆ, Bˆ) to which we also demand the fulﬁllment of an S–system format speciﬁcations. This target system must be designed taking into account the fact that, according to the S–system form, in
+
+13
+
+every equation there is only one positive and one negative term (the linear term is also a possible term in an S–system). In order to ﬁnd the right transformation matrix, C, we rewrite equations (5) by introducing the extended matrices E and D, associated to the GLV system (17) and to the transformation matrix C respectively:
+
+E=
+
+1 0t λA
+
+, D=
+
+1 0t 0C
+
+, {E, D} ⊂ M(n+1)×(n+1) .
+
+(18)
+
+Then the GLV system matrices A, B and λ are equivalently speciﬁed by E and B. The equivalence between C and D is obvious. When a transformation of the kind (3) is performed, the GLV matrices change to:
+
+Bˆ = B · C, Eˆ = D−1 · E
+
+(19)
+
+By means of this construction, which will be very useful later, the following result can be easily demonstrated:
+
+THEOREM 3
+Suppose that m = n and that matrices A and λ of system (17) possess arbitrary
+real entries. Assume the target S–system is characterized by some speciﬁcally chosen matrices λˆ and Aˆ. Then, there exists a unique transformation of the form (3), given by C = A · Aˆ−1, which leads from (17) to such S–system, provided matrices A and Aˆ are regular and vectors λ and λˆ can be related by the compatibility condition λ = A · Aˆ−1 · λˆ.
+
+Notice also that in the general case the design of the ﬁnal S–system can be done easily working directly with the extended matrix Eˆ. That is, the rule is that every row of Eˆ must contain only two nonzero elements, one of which is positive and the other negative.
+On the other hand, the compatibility condition of Theorem 3 yields a system of equations with n2 unknown quantities (the entries of matrix C = A · Aˆ−1). The application of the Rouch´e–Fr¨obenius theorem [33] shows that there will always be inﬁnite solutions to such a system, thus ensuring precisely the fulﬁllment of that same compatibility condition.
+As we can see, there exist inﬁnite diﬀerent S–systems in every class of equivalence. In the case n = m, however, there is a single LV system, provided matrix B is regular: the one resulting through the election C = B−1. In fact,
+
+14
+
+it is straighforward to notice that in this case such LV system can be chosen as the canonical element of the class.
+A remarkable feature of the previous theory is the complete freedom in the choice of the form for matrix Aˆ. This means that the last theorem can be applied equally to any kind of canonical form, not necessarily that of an S– system. For example, choosing a diagonal matrix Aˆ we construct a family of systems which includes the single quasimonomial canonical form as a special case [25, 28]. As we shall see subsequently, this freedom is maintained in the other general situations.
+
+4.1.2 Example with m = n.
+
+We shall recast the system of section 3.1.2 as an S-system. The original system
+
+is characterized by the two matrices:
+
+B=
+
+p0 0q
+
+1 0 0  , E =  λ1 a11 a12 
+λ2 a21 a22
+
+We may wish to transform our starting system into, for example, an S-system
+
+deﬁned by matrix:
+
+1 0 0  Eˆ =  µ1 −σ1 0  , µi, σi > 0, i = 1, 2.
+µ2 0 −σ2
+
+According to the prescription of Theorem 3 we shall assume that | A |= a11a22 − a12a21 = 0. Additionally, the compatibility condition implies that:
+
+µ1/σ1 µ2/σ2
+
+= − A−1 ·
+
+λ1 λ2
+
+≡
+
+ξ1 ξ2
+
+The quantities ξ1 and ξ2 must be positive in order to have a consistent set of
+equations. If this is the case we may then set, for example, σi = 1 and µi = ξi, i = 1, 2. Notice that Aˆ = −I with this choice of parameters. We infer, from Theorem 3, C = A · Aˆ−1 = −A. Consequently, our new variables are:
+
+y1 = x1−∆a22 x∆2 a12 y2 = x∆1 a21 x2−∆a11
+where ∆ = (| A |)−1. We shall thereby obtain a matrix B of the form
+
+Bˆ = B · C = −
+
+pa11 pa12 qa21 qa22
+
+;
+
+15
+
+the target S-system being given by:
+y˙1 = ξ1y1 − y11+pa11 y2pa12 y˙2 = ξ2y2 − y1qa21 y21+qa22
+
+4.2 Case m > n
+4.2.1 Recasting theory
+The general solution of this problem requires the introduction of one or more auxiliary new variables: in fact, without the aid of an embedding the recasting of a GLV system into an S-system may be rigorously impossible in some cases, as the following theorem shows:
+THEOREM 4 If m > 2n there exists no quasimonomial transformation (3) which leads from a GLV system to an equivalent S-system.
+In systems not precluded by Theorem 4, a uniﬁed description shall proceed by reducing to the m = n case through the same embedding technique of subsection 3.2.2. The advantage of this particular embedding is that it leads to an expanded GLV system whose matrix A˜ is regular, and allows the direct application of Theorem 3. We shall skip a formal description and go directly to illustrate the matter with an example.
+
+4.2.2 Example with m > n.
+
+We shall recast as an S-system the tumor growth model of section 3.1.4. Once embedded, we can follow the procedure of the m = n case. We write the corresponding extended matrices of the embedded system:
+
+1
+
+E˜
+
+=
+
+ 
+
+
+
+3ω −1
+
+−1
+
+0 3αk1/3
+0 0
+
+0 −3αk2/3
+1 0
+
+0 αk 0 1
+
+
+
+ 
+
+;
+
+
+
+ B˜ = 
+
+−1/3 −2/3 −1
+
+0 0 0
+
+0 0 , 0
+
+where, for convenience, we have expanded the original vector λ = (3ω) with two elements of value -1. We now investigate the recasting of this GLV system as a
+
+16
+
+target S-system of extended matrix:
+
+ 1 0 0 0
+
+Eˆ
+
+=
+
+ 
+
+
+
+−a′ −b′
+
+a 0
+
+0 b
+
+0
+
+0
+
+ 
+
+−c′ 0 0 c
+
+All constants are taken as strictly positive. We shall look once more for the fulﬁllment of the compatibility condition of Theorem 3, which leads us to the matrix identity:
+
+ 3ω   −3αk1/3a′/a + 3αk2/3b′/b − αkc′/c 
+
+ −1  = 
+
+−b′/b
+
+
+
+−1
+
+−c′/c
+
+We may choose, for example, the following values for our parameters:
+
+a = b = c = b′ = c′ = 1 ;
+
+a′ = γ ,
+
+γ
+
+=
+
+k1/3
+
+−
+
+1 3
+
+k2/3
+
+−
+
+α−1ωk−1/3
+
+,
+
+which yields for our target S-system the following extended matrix:
+
+ 1 0 0 0
+
+Eˆ
+
+=
+
+ 
+
+
+
+−γ −1
+
+1 0
+
+0 1
+
+0
+
+0
+
+ 
+
+−1 0 0 1
+
+It is worth noticing how all the complexity of the system has been conveyed into
+a single constant, γ. Also, from Theorem 3, the transformation matrix is given by C = A˜ · Aˆ−1 = A˜. Since Aˆ = I, our target system is also, by deﬁnition, the single quasimonomial canonical form. Solving for Bˆ = B˜ · C = B˜ · A˜ we obtain
+that the ﬁnal system of equations is:
+
+y˙1 = −γy1 + y11+µ1 y2µ2 y3µ3 y˙2 = −y2 + y12µ1 y21+2µ2 y32µ3 y˙3 = −y3 + y13µ1 y23µ2 y31+3µ3 ,
+
+where the µ’s are deﬁned as in the example of section 3.1.4. This system, which
+coincides with the single quasimonomial canonical form, will be also an S-system
+provided that the values of the constants k, α and ω are such that γ is positive or zero. Since C = A˜, the value of V can be now straightforwardly retrieved as V = y1−3µ1 y2−3µ2 y3−3µ3 .
+
+17
+
+4.3 Case m < n
+4.3.1 Recasting theory
+Once again, the situation here is formally similar to the one where m = n, the only diﬀerences arising from the fact that here the extended matrices E and Eˆ are not square. This means that, once Eˆ has been designed, the equation to solve is D · Eˆ = E, where D must comply to format (18). The existence and uniqueness of D will depend on the ranks of the matrices involved.
+
+4.3.2 Example with m < n
+
+We here analyze the example of 3.1.6. For the matter of sake, we choose the following S–system extended matrix.
+
+1 0 0 
+
+Eˆ
+
+=
+
+ 
+
+
+
+1 0
+
+−1 2
+
+0
+
+−1
+
+ 
+
+01 0
+
+Then we are led to the following matrix equation:
+
+ 1 0 0 0  1 0 0   1 0 0 
+
+0
+
+ 
+
+0
+
+c11 c21
+
+c12 c22
+
+c13   1
+
+c23
+
+ 
+
+0
+
+−1 2
+
+0 −1
+
+  
+
+=
+
+  
+
+−1 3
+
+1 2
+
+1
+
+1
+
+ 
+
+0 c31 c32 c33
+
+01 0
+
+2 −1 2
+
+In this example there exists a unique solution, that given by
+
+ −1 −1 2  C =  3 −1 7 
+2 −2 5
+
+Solving for Bˆ we reach the following target S–system:
+
+y˙1 = y1 − y15y2−4y314 y˙2 = 2y14y2−3y314 − y15y2−6y321 y˙3 = y14y2−4y315
+
+18
+
+5 General Nonlinear Systems within the GLV formalism
+
+5.1 The auxiliary variables procedure
+
+In order to brieﬂy describe the auxiliary variable method which we have mentioned earlier, we shall proceed by a very general approach. We may start by assuming that we have at hand an n-dimensional system dependent on what we can deﬁne to be a set of r functions, {fk}, which do not comply to the quasimonomial form, given by (2). We shall elaborate on a system which has previously rearranged into the following form:
+
+m
+
+n
+
+r
+
+x˙ i = xi(λi +
+
+Aij
+
+xBk jk
+
+fsCjs ) , i = 1, . . . , n ,
+
+j=1
+
+k=1
+
+s=1
+
+(20)
+
+which is a GLV–like form except for the set {fk}. Our concern shall be to examine the circumstances under which (20) can be rewritten as a GLV system.
+For this purpose, we shall take into account that most of the functions which are actually used in modelling in a biological context (elementary, most of them) obey equations relating their partial derivatives to members of the properly chosen set {fk} itself in the following way:
+
+∂fk ∂xi
+
+=
+
+m′
+Er(ik)
+
+x n
+
+G(rijk)
+
+j
+
+r
+
+f , sHr(isk) i = 1, . . . , n,
+
+r=1
+
+j=1
+
+s=1
+
+k = 1, . . . , r.
+
+(21)
+
+The set {fk} must be appropriately deﬁned in order to fulﬁll (21). If, for
+
+example, the circular sine–function appears in (20), the cosine–function will
+
+correspondingly be present in (21). The set shall then include both functions,
+
+the cosine–function appearing with an exponent zero in (20).
+
+Thus, if the set {fk} has been appropriately deﬁned, that is, such that (20)
+
+and (21) hold, it is then straightforward to obtain a GLV form by assigning each
+
+function fk to an extra variable yk, and taking into consideration that:
+
+y˙k
+
+=
+
+n i=1
+
+∂fk ∂xi
+
+x˙ i
+
+,
+
+(22)
+
+5.2 Sources of ambiguity
+
+So far, everything seems consistent in the procedure developed in 5.1. However, there is some degree of arbitrariness as far as equations (20)-(22) are ambigu-
+
+19
+
+ously deﬁned. We point at two sources of ambiguity:
+
+1. The set of functions {fk} is certainly not unique. Any other set {Fi} such
+
+as
+
+
+
+
+
+r
+
+n
+
+Fi =
+
+fkqik  xpjkj  , i = 1, . . . , r′ ,
+
+(23)
+
+k=1
+
+j=1
+
+will also comply to the general starting prescribed forms (20) and (21).
+
+This statement holds in all three cases: r < r′; r = r′; r > r′.
+
+2. Any chosen set of functions {fk} may be compatible with more than one expression for each of its partial derivatives (21), and thus generate different GLV systems.
+
+We are going to see that there is a substantial diﬀerence between the two previous propositions. While the issue raised in point 1 will be shown to be formally cleared and settled in three subsequent general theorems, that forwarded in point 2 cannot conversely be given a general formal foothold, and has to rely on a rather empirical knowledge from a collection of examples, let it be inﬁnite. This diﬀerence will result in a consistent solution to the problem posed by the ambiguity of point 1; a task we undertake in the present paper. On the contrary, the problem set in point 2 cannot be formally solved, though we later comment on its consequences.
+We now state three theorems in connection to point 1:
+
+THEOREM 5
+
+Let {fk} and {Fk} be two sets of a number r of C1-functions deﬁned on the
+
+strictly positive orthant of ℜn, which we shall denote int ℜn+. For every k, we assume fk > 0 and Fk > 0 for all x ∈ int ℜn+.
+
+Then, if
+
+
+
+
+
+r
+
+n
+
+Fi =  fjqij 
+
+xpkik ,
+
+j=1
+
+k=1
+
+(24)
+
+we have:
+
+(i) The inverse transformation from the set {Fk} to the set {fk} is deﬁned iﬀ det Q = 0, with (Q)ij = qij , i, j = 1, . . . , r.
+
+(ii) The transformations deﬁned by (24) constitute a parametric group, Ξ ≡ {ξ(Q, P )}, where (P )ik = pik , k = 1, . . . , n.
+
+20
+
+THEOREM 6 Let r = card{fk} and r′ = card{Fi} in (23). Suppose r = r′ and ρ =
+max{r, r′}. Let Q be an r′ × r matrix deﬁned as in Theorem 5. If rank(Q) is maximum, there exists two new sets of ρ functions, in which {fk} and {Fi} can be embedded, and for which the statement of Theorem 5 holds.
+
+THEOREM 7 Equations (20) and (21) are form invariant under the group Ξ.
+The set whose elements are themselves those sets of functions generated through the action of the group Ξ on the set {fk} constitute a class of equivalence Γ{fk}. According to the procedure of subsection 5.1, each member of a class Γ will be mapped onto a GLV system, which will eventually diﬀer from that obtained by applying the same procedure to any other element of the class. The question is to know if, in spite of that, all elements of a class Γ are mapped into a single GLV class of equivalence. We will answer it in sections 5.3 and 6.
+
+5.3 Heuristic considerations on an illustrative model system
+
+Before supplying the reader with the formal theorems which will demonstrate that the class of equivalence Γ{fk}, generated by the group of transformations Ξ, is mapped into a single GLV class of equivalence by applying the procedure of section 5.1, we will make a heuristic analysis of a simple one-dimensional model. It was introduced by Ludwig et al. [34], in order to simulate the evolution of
+
+the population of the spruce budworm in the presence of predation by birds. In dimensionless form it is:
+
+x˙
+
+=
+
+rx(1
+
+−
+
+x k
+
+)
+
+−
+
+1
+
+x2 + x2
+
+.
+
+(25)
+
+Let us thus consider the model system deﬁned by (25). In order to recast it into the GLV format we can initially choose the following function f = (1 + x2)−1 with derivative f ′(x) = −2xf 2. According to the casuistry
+
+21
+
+of the previous section we shall examine what happens for a general transform
+
+y = F = xpf q, q = 0. After elementary calculations, we obtain from (25):
+
+x˙
+
+=
+
+x
+
+r
+
+−
+
+r k
+
+x
+
+−
+
+x1−p/q y1/q
+
+y˙
+
+=
+
+y
+
+pr
+
+−
+
+pr k
+
+x
+
+−
+
+px1−p/q y1/q
+
+−2rqx2−p/q y 1/q
+
++
+
+2rq k
+
+x3−p/q
+
+y1/q
+
++
+
+2qx3−2p/q y2/q
+
+(26)
+
+It is straightforward to check that the products B · A and B · λ are independent
+
+of exponents p and q. That means that all parameter-dependent GLV systems
+
+(26) do actually belong to a single GLV class of equivalence, and makes the
+
+result of the procedure independent of any speciﬁc choice of auxiliary variables within the class of functions xpf q. Thus, the class Γ{f } is mapped into a single
+
+GLV class of equivalence. We shall generalize this assertion for any function in
+
+section 6.
+
+The previous invariance is not so surprising. In fact, (24) and the functions xpf q are disguised forms of quasimonomial transformations [25], and these map
+
+into one another diﬀerent GLV systems within a given GLV class of equivalence,
+
+leaving B · A and B · λ invariant. The quasimonomials of the GLV systems are also invariants of the class [29]. In the present case, from (26): x ; x1−p/qy1/q = x/(1+x2) ; x2−p/qy1/q = x2/(1+x2) ; x3−p/qy1/q = x3/(1+x2) ; x3−2p/qy2/q = x3/(1 + x2)2 .
+
+We now examine the context of Theorem 6. For that we may start from two
+
+diﬀerent sets of functions to deal with the problem, for example:
+
+{f1} =
+
+1 1 + x2
+
+, {F1, F2} =
+
+1
+
+1 +
+
+x2
+
+,
+
+1
+
+x3 + x2
+
+According to Theorem 6, set {f1} is embedded into set {f1, f2}, with f2 ≡ 1.
+Then both sets, {fk} and {Fk}, are related through an invertible transformation of form (⁀5) with matrices
+
+Q=
+
+10 11
+
+, P=
+
+0 3
+
+Note that the second column of matrix Q is arbitrary: the only requirement
+
+imposed by Theorem 6 is that Q must be invertible. If we use the set {f1, f2}
+
+to carry out the substitution in (25), we arrive at the following system:
+
+x˙
+
+=
+
+x
+
+r
+
+−
+
+r k
+
+x
+
+−
+
+xy1
+
+22
+
+y˙1
+
+=
+
+y1
+
+−2rx2y1
+
++
+
+2r k
+
+x3y1
+
++
+
+2x3y12
+
+y˙2 = 0
+
+(27)
+
+If, on the contrary, we start from {F1, F2}, we are led to the system:
+
+x˙
+
+=
+
+x
+
+r
+
+−
+
+r k
+
+x
+
+−
+
+xy1
+
+y˙1
+
+=
+
+y1
+
+−2rx2y1
+
++
+
+2r k
+
+y2
+
++
+
+2x3y12
+
+y˙2
+
+=
+
+y2
+
+3r
+
+−
+
+3r k
+
+x
+
+−
+
+3xy1
+
+−
+
+2rx2y1
+
++
+
+2r k
+
+y2
+
++
+
+2x3y12
+
+(28)
+
+It can be easily checked that, after the apparently naive introduction of the function f2 = 1, systems (27) and (28) belong to the same class of equivalence: both possess the same quasimonomials and the same matrix invariants B · A and B · λ.
+We can however skip the application of Theorem 6, and introduce both sets of auxiliary functions independently, namely {f1} and {F1, F2}. In this case the result is the same as before, with the only diﬀerence that the last equation in system (27) does not exist now. Consequently, the two systems cannot be in a same class of equivalence, since the number of variables is diﬀerent in each case. Nevertheless, it can be easily seen that the quasimonomials and the matrix invariants still coincide. As a consequence, we can make use of a general procedure we have seen in subsection 3.1.3 for the reduction of these GLV systems to a common class of equivalence: the Lotka-Volterra embedding. When we perform such an embedding over both systems, the result will be GLV systems with ﬁve variables and ﬁve quasimonomials, both in the same class of equivalence. In particular, the systems are equivalent to a 5 × 5 LotkaVolterra system of matrices A˜ = B · A and λ˜ = B · λ. We can thus infer that, independently of the number of auxiliary variables of form xpf q that we introduce in system (25), once the deﬁnitions of f and its derivative are ﬁxed, all the (p, q)-dependent GLV systems we obtain can be embedded into the same class of equivalence.
+We conclude the section by examining what happens when we start from diﬀerent forms of the derivative. If, for example, we set
+
+f
+
+=
+
+1
+
+x2 + x2
+
+(29)
+
+23
+
+there are in fact inﬁnite possible deﬁnitions of the derivative for this function,
+
+namely:
+
+df dx
+
+= 2x−2n−3f n+2(1 + x2)n
+
+,
+
+n = 0, 1, 2 . . .
+
+It can be easily checked that, in general, diﬀerent expressions of the derivative
+
+lead to diﬀerent quasimonomials, both in number and form, and consequently
+
+to diﬀerent classes of equivalence (point (iii) of Theorem 1).
+
+6 Embedding into the GLV form
+
+We shall now proceed to formalize the results obtained in section 5.3. There will be no conceptual objection in dealing with a single non-quasimonomial function f . This is what we shall do from now on, in order to develop the essential features of the problem with the greatest simplicity. We shall thus consider a system of the general form:
+
+x˙ s =
+
+a x is1...isnjs
+
+is1 1
+
+.
+
+. . xinsn f (x¯)js
+
+is1 ,...,isn ,js
+
+xs(t0) = x0s, s = 1, . . . , n
+
+(30)
+
+We additionally assume that f (x¯) is such that its partial derivatives can be expressed in the following form:
+
+∂f ∂xs
+
+=
+
+b x es1...esnes
+
+es1 1
+
+.
+
+.
+
+.
+
+xensn f (x¯)es
+
+es1 ,...,esn ,es
+
+(31)
+
+All constants in (30) and (31) are assumed to be real numbers.
+
+The procedure to transform (30) and (31) into a GLV system is then straightforward. We know from Section 5 that this can be carried out by introducing a
+
+set of l additional variables of the form
+
+n
+yr = f qr xpsrs , qr = 0, ∀ r = 1 . . . l ,
+s=1
+
+(32)
+
+with real exponents qr, prs. For the time being, we shall assume that a given value of l is selected, that is, we shall deal with a ﬁxed number of auxiliary variables. We will later release this requirement.
+
+24
+
+The introduction of the auxiliary variables (32) leads to the following system for the original variables:
+
+ x˙ s = xs 
+
+
+n
+
+a yjs/q1
+is1...isnjs 1
+
+x  isk −δsk −jsp1k /q1
+k
+
+is1 ,...,isn ,js
+
+k=1
+
+(33)
+
+for s = 1, . . . , n. As usual, δsk = 1 if s = k, and 0 otherwise. For the new variables (32) we obtain
+
+y˙r
+
+=
+
+n s=1
+
+∂yr ∂xs
+
+x˙ s
+
+=
+
+yr
+
+n
+{prsx−s 1x˙ s+
+s=1
+
+
+n
+
++
+
+aisα,js besαes qryr(es+js−1)/qr
+
+x } isk +esk +(1−es−js)prk/qr
+k
+
+isα ,js ,esα ,es
+
+k=1
+
+(34)
+
+where α = 1, . . . , n. Appropriate initial conditions yr(0) must also be included (this will be assumed whenever a new variable is introduced). Thus, with (33) and (34) the reduction of system (30) to the GLV format is achieved. Notice that, from (32), the expression of f in terms of the yr is not unique. It has been speciﬁed, in (33), in terms of y1, but this could have been done by choosing any other variable yr. We will prove that this choice is irrelevant.
+Let us now focus attention on the generic GLV system (33)–(34). It is clear that diﬀerent systems are obtained for distinct choices of the auxiliary variables (32). We shall ﬁrst demonstrate that all these systems are part of one and the same equivalence class [25, 29], that is:
+
+THEOREM 8 Let us assume a speciﬁc realization for equations (30) and (31). Then, all GLV systems -eqs. (33)–(34)- generated by the introduction of a given number l of auxiliary variables (32) belong to the same class of equivalence.
+
+All systems complying with the format (33)–(34) are in the same GLV class
+
+of equivalence: according to the previous results they must thus possess identical
+
+quasimonomials. This can be easily checked if we rewrite such quasimonomials
+
+in terms of the original variables x¯ and f (x¯). The corresponding equations for
+
+the xs are
+
+
+
+
+
+n
+
+x˙ s = xs 
+
+a f is1...isnjs js
+
+xiksk−δsk 
+
+is1 ,...,isn ,js
+
+k=1
+
+(35)
+
+25
+
+with s = 1, . . . , n. For the yr we obtain:
+
+
+
+
+
+n
+
+n
+
+y˙r = yr  {prsx−s 1x˙ s +
+
+aisαjs besαes qrf es+js−1
+
+xiksk+esk }
+
+s=1
+
+isαjs esαes
+
+k=1
+
+(36)
+
+where α = 1, . . . , n. The quasimonomials, as functions of xk, k = 1, . . . , n, do not depend in any way on the deﬁnition of the auxiliary variables (32), but only on constants from (30)–(31).
+We can then state the following proposition:
+
+COROLLARY 9 For a given number l of auxiliary variables, the GLV class of equivalence in which (30) is embedded is completely determined by the choices for f (x¯) and the particular representation of its derivatives (31).
+
+Irrespectively of the number l of auxiliary variables, we have classes of equivalence with the same m quasimonomials. Moreover, in all these classes the matrix invariants B · A and B · λ are of sizes m × m and m × 1, respectively. This makes us suspect that those products can also be identical, as in the case of the quasimonomials. This would imply that, after an appropriate embedding (see subsection 3.1.3), we could include all those systems into the same class of equivalence of m-dimensional systems, independently of the actual value of l. The next theorem shows that this is the case.
+
+THEOREM 10 Let us assume, as in Theorem 8, a speciﬁc realization for eqs. (30) and (31). Let us consider the set Φ of all (n+l)-dimensional systems, (33)-(34), obtained from all possible choices of auxiliary variables (32), as l varies in the interval 1 ≤ l ≤ m − n, where m is the number of quasimonomials. Then, all elements of Φ can be embedded in a single GLV class of equivalence of m-dimensional systems.
+
+Thus it has been demonstrated that, independently of the number l, 1 ≤ l ≤ (m − n) and speciﬁc form of variables of type (32), the ﬁnal class obtained is always the same, since the m invariant quasimonomials and the matrices B · A and B · λ are completely independent of those degrees of freedom. We also have the following:
+
+26
+
+COROLLARY 11 All elements of the set Φ can be embedded in a unique m-dimensional LotkaVolterra system.
+7 Direct calculation of the quasimonomials
+An important issue in the practical application of Theorem 10 and Corollary 11 is that of the knowledge of the m quasimonomials which are actually going to be the variables of the target m-dimensional Lotka-Volterra system. These quasimonomials can be evaluated directly from equations (30)-(31), without any need to ﬁrst comply with the GLV form (33)-(34).
+An important previous deﬁnition is that of vector of exponents associated with a given quasimonomial xi11 . . . xinn f (x¯)j. The vector of exponents is a shorthand notation in which this quasimonomial is expressed as (i1, . . . , in|j). Since the order of the variables is implicit in this “vector”, all the information about the quasimonomial is contained in it.
+Thus the algorithm consists of the following sequential rules:
+1. Build the vectors of exponents for all the quasimonomials present in both equations (30) and (31). We shall label such sets of vectors Es for the s-th equation in (30): Es = {(is1, . . . , isn | js)} , and Ds for the s-th equation in (31):
+Ds = {(es1, . . . , esn | es)} .
+Notice that these families of vectors must be constructed separately for each one of equations (30) and (31).
+2. In the x˙ s equation of the GLV system the quasimonomials will be:
+{(is1, . . . , iss − 1, . . . , isn | js)}
+This expression is obviously to be applied over all vectors in Es.
+3. While in the y˙r GLV equation:
+• Those quasimonomials already present in x˙ s, for all s = 1, . . . , n such that prs = 0.
+27
+
+• Those coming from all pairwise combinations of elements of Es and Ds, such that:
+(is1 + es1, . . . , isn + esn | js + es − 1) ,
+for all s = 1, . . . , n.
+
+This constructive evaluation also makes straightforward the derivation of algebraic expressions for bounds to the number m of quasimonomials, or, equivalently, upper and lower bounds to the phase-space dimension of the target class, as we have:
+
+THEOREM 12 If ǫs = card(Es) and δs = card(Ds) :
+
+• An upper bound to m is:
+
+n
+ω = (1 + δs)ǫs
+s=1
+
+• A lower bound to m is:
+n
+α = card{ [Es\(δs1, . . . , δsn | 0)]} + δ1n ,
+s=1
+
+where δαβ is Kronecker’s delta.
+
+We can observe that, the shorter the expressions for the derivatives, the
+
+smaller the upper bound. This establishes an ecomomy principle in election
+
+(31).
+
+To illustrate the preceding results, we can make use of the example of section
+
+5.3:
+
+x˙
+
+=
+
+rx(1 −
+
+x k
+
+)
+
+−
+
+x2 1 + x2
+
+,
+
+f
+
+=
+
+1
+
+1 + x2
+
+,
+
+df dx
+
+=
+
+−2xf 2
+
+We shall evaluate the quasimonomials resulting from the introduction of a
+
+generic auxiliary variable of the form y = xpf q, q = 0. The sets of vectors
+
+are E1 = {(1 | 0), (2 | 0), (2 | 1)}, and D1 = {(1 | 2)}. We thus have ǫ = 3 and δ = 1. Since card{E1\(1 | 0)} = 2 and n = 1, the bounds to the number of quasimonomials are α = 3 and ω = 6.
+
+28
+
+By applying the second rule, we see that the quasimonomials in the x˙ equation are: (0 | 0), which is a constant and must be discarded; (1 | 0) = x and (1 | 1) = xf . From the third rule, if p = 0, the set {x, xf } will also be present in the y˙ equation. This equation will always contain the quasimonomials (2 | 1) = x2f , (3 | 1) = x3f and (3 | 2) = x3f 2.
+Thus, we ﬁnd ﬁve diﬀerent quasimonomials. The conﬁrmation that they coincide with those in the explicit system (26) is straightforward (see Section 5.3).
+8 Final comments
+The structure of the generalized Lotka-Volterra equations has been shown to provide an ideal setting for codifying in a uniﬁed framework the relations between diﬀerent formats of practical use when modelling in terms of ordinary diﬀerential equations.
+When encapsulated in the context of the GLV formalism, a given model ﬁnds itself embedded in a class of equivalence, the members of which deﬁne an inﬁnite set of models topologically equivalent to one another. It is found that a class of equivalence may contain several members belonging to those representative canonical forms we mentioned before, each one of them being mapped into another by the quasimonomial transformation rules, but a single LV representative. For these reasons, together with the Hamiltonian properties of the Lotka-Volterra equations [1], this form may rightly deserve to be called canonical.
+Finally, if the GLV formalism is to be of any practical use, additionally to its algebraic structure it must comply to the requirement of providing a framework for the fairly general class of model systems whose vector ﬁeld either does not obey its format or cannot be rewritten in some trivial way in terms of it. We have demonstrated that this is possible. The way in which this can be unambiguosly done has been the issue of the concluding sections of the work.
+Acknowledgements: This work has been supported by the DGICYT (Spain), under grant PB94-0390. B. H. acknowledges a doctoral fellowship from Comunidad Aut´onoma de Madrid. The authors also thank Drs. A. Sorribas and E. O. Voit for supplying them with copies of their articles.
+29
+
+Appendix
+
+We carry out those demonstrations of previous theorems which are nontrivial.
+
+Proof of Theorem 8. Given two diﬀerent choices of auxiliary variables
+
+n
+
+n
+
+yr = f qr
+
+xpsrs , yr′ = f qr′
+
+xps′rs , r = 1, . . . , l; qr, qr′ = 0 ∀r,
+
+s=1
+
+s=1
+
+the resulting sets of GLV variables will be, respectively, (x1, . . . , xn, y1, . . . , yl) ≡ (x1, . . . , xn+l) and (x1, . . . , xn, y1′ , . . . , yl′) ≡ (xˆ1, . . . , xˆn+l). An easy calculation shows that both sets of variables are connected through a quasimonomial transformation of the kind
+
+n+l
+xi = xˆCk ik , i = 1, . . . , n + l ,
+k=1
+
+with C given by:
+
+C=
+
+In×n On×l A˜l×n B˜l×l
+
+,
+
+where the dimension of the submatrices is indicated by the subindexes, I is the identity matrix, O is the zero matrix, A˜ij = αij, B˜ij = βiδij, with
+
+αrs = prs − βrp′rs,
+
+βr
+
+=
+
+qr qr′
+
+.
+
+Consequently, both systems are members of the same class.✷
+
+Proof of Theorem 10.
+
+We shall write for simplicity the GLV system (33)-(34) in the equivalent
+
+form
+
+m
+
+n+l
+
+x˙i = xi(λi + Aij xBk jk ), i = 1, . . . , n + l , m ≥ n + l.
+
+j=1
+
+k=1
+
+When we perform the changes (32) for diﬀerent numbers of new variables, that
+
+is, for diﬀerent values of l, we arrive at diﬀerent-sized GLV systems. However,
+
+for a given l all of them lead to the same Lotka-Volterra system, since they
+
+belong to a same GLV class of equivalence. Moreover, from (33)-(34) we know
+
+30
+
+that all of them possess the same quasimonomials (the Lotka-Volterra variables) independently of l. Thus, in order to complete this proof, we only need to demonstrate that the Lotka-Volterra matrices B′ = B · A and λ′ = B · λ do not depend on l, either. We can do this by induction.
+First, we consider the case l = 1. If we introduce a single new variable y1 = xn+1 of the kind (32), the GLV system will be characterized by three matrices A, B, λ. If we add to this system a second auxiliary variable xn+2 = y2, a simple way to write the corresponding m × (n + 2) matrix B˜ is:
+
+B˜ = (B, 0)
+
+where the 0 indicates that the last column of B˜ is composed of zeros. We shall denote as A˜ and λ˜ the other two matrices of this system for which l = 2. Note that rank(B˜) = n + 1, so this matrix is not of maximal rank and cannot be employed to perform an embedding of the kind showed in subsection 3.1.3. Nevertheless, this will not aﬀect this demonstration, since we shall consider all possible matrices, including those of maximal rank, starting from this one: suppose that we reexpress the quasimonomials as powers of the variables x1, . . . , xn, xn+1, xn+2, but with a choice of the exponents diﬀerent to the one given by B˜. These exponents will be the entries of a new matrix B˜′ (there are inﬁnite possibilities for this alternative description). The equality of the i-th quasimonomial, 1 ≤ i ≤ m implies:
+
+x x bi,1 bi,2
+12
+
+.
+
+.
+
+.
+
+xbi,n+1
+n+1
+
+=
+
+xb′i,1
+1
+
+. . . x x x b′i,n b′i,n+1 b′i,n+2
+n n+1 n+2
+
+,
+
+(37)
+
+where b, b′ are the elements of B˜, B˜′ respectively. It is important to notice that
+
+xn+2 is not independent of the rest of the variables x1, . . . , xn, xn+1:
+
+n
+
+xn+2 = xαn+1
+
+xβkk , α = 0 .
+
+k=1
+
+If we substitute this expression into (37) and regroup in the left side we are led
+
+to:
+
+
+
+
+
+n
+
+
+
+x  x = 1 . bi,j −b′i,j −βj b′i,n+2
+j
+
+bi,n+1 −b′i,n+1−αb′i,n+2 n+1
+
+(38)
+
+j=1
+
+Since all the variables in (38) are independent, the only solution is that the exponents are identically zero. We can rewrite this condition as:
+
+B˜′ = B˜ − Q ,
+
+31
+
+with
+
+ 
+
+b′i,n+2βj ,
+
+1≤j≤n
+
+(Q)ij = b′i,n+2α , j = n + 1
+
+ −b′i,n+2 , j = n + 2
+
+The relationships among the coeﬃcients of the quasimonomials in (33)–(34) imply the vanishing of the products Q · A˜ and Q · λ˜. This step of the proof involves a simple but lengthy algebra. We do not detail it. Then, B˜′ · A˜ = B˜ · A˜, and B˜′ · λ˜ = B˜ · λ˜, and the theorem is proved for the case l = 2.
+
+In a similar way it can be shown that this equality holds for the step l → l+1
+
+in the induction procedure. Again the algebra is simple but the process is
+
+tedious, and will not be reproduced here.✷
+
+Proof of theorem 12. The lower bound in the case n = 1 and the upper bound are obvious consequences of rules 2 and 3 of the algorithm. The demonstration then reduces to prove that if n = 1
+ω = card{E1\(1|0)} + 1 . To understand the addition of 1 to this expression we need a previous lemma:
+LEMMA
+If n = 1 there exists (α|β) ∈ D1 such that (α|β) = (−1|1).
+
+Proof of the Lemma. Suppose that the lemma is false: then D1 = {(−1|1)}. Consequently,
+
+df dx
+
+=
+
+kx−1f
+
+and f is of the form cxk with c a real constant. This contradicts the assumption of a nonquasipolynomial f and demonstrates the lemma.✷
+We return to the Theorem. Taking into account the fact stated in this lemma, the proof for the case n = 1 holds by a simple counting procedure: if D1 = {(−1|1)}, then rule 3 of the algorithm automatically repeats the quasimonomials generated from rule 2, all of them of the form (i − 1|j). However, since D1 = {(−1|1)}, at least one new quasimonomial will appear from rule 3 which is not generated by rule 2.✷
+
+32
+
+References
+[1] M. Plank, Hamiltonian structures for the n-dimensional Lotka-Volterra equations, J. Math. Phys. 36(7): 3520-3534 (1995).
+[2] G. Laval and R. Pellat, Plasma Physics, Proceedings of the Summer School of Theoretical Physics, Gordon and Breach, New York, 1975.
+[3] V.W. Noonburg, A neural network modeled by an adaptive Lotka-Volterra system, SIAM J. Appl. Math. 49(6): 1779-1792 (1989).
+[4] J. Hofbauer and K. Sigmund, The theory of evolution and Dynamical Systems, Cambridge University Press, Cambridge, 1988.
+[5] E. O. Voit, Canonical Nonlinear Modelling: S-system Approach to Understanding Complexity, Van Nostrand Reinhold, New York, 1991.
+[6] E. O. Voit and M. A. Savageau, Equivalence between S-Systems and Volterra Systems, Math. Biosci. 78: 47-55 (1986).
+[7] F. R. Molton, An Introduction to Celestial Mechanics, Mc Millan, New York, 1941, p. 313.
+[8] E. H. Kerner, Universal formats for nonlinear ordinary diﬀerential systems, J. Math. Phys. 22(7): 1366-1371 (1981).
+[9] T. Carleman, Application de la th´eorie des ´equations int´egrales lin´eaires aux syst`emes d’´equations diﬀerentielles non lin´eaires, Acta. Math. 59: 6387 (1932).
+[10] K. Kowalski and W. H. Steeb, Nonlinear Dynamical Systems and Carleman Linearization, World Scientiﬁc, Singapore, 1991, pp. 1-13.
+[11] P. Erdi and J. T´oth, Mathematical Models of Chemical reactions, Manchester University Press, Manchester, 1989, Ch. 1.
+[12] E. C. Pielou, Mathematical Ecology, John Wiley & Sons, New York, 1977.
+[13] W. Weidlich and G. Haag, Concepts and Models of a Quantitative Sociology, Springer-Verlag, Berlin, 1983, p. 10.
+33
+
+[14] J. D. Murray, Mathematical Biology, 2nd edition, Springer-Verlag, Berlin, 1993.
+[15] J. T´oth and V. Ha´rs, Orthogonal transforms of the Lorenz and Ro¨ssler equation, Physica D 19: 135-144 (1986).
+[16] K. Kowalski, Universal formats for nonlinear dynamical systems, Chem. Phys. Lett. 209(1,2): 167-170 (1993).
+[17] D. Poland, Cooperative catalysis and chemical chaos: a chemical model for the Lorenz equations, Physica D 65: 86-99 (1993).
+[18] N. Samardzija, L. D. Greller and E. Wasserman, Nonlinear Chemical kinetic schemes derived from mechanical and electrical dynamical systems, J. Chem. Phys. 90(4): 2296-2304 (1989).
+[19] M. A. Savageau and E. O. Voit, Recasting Nonlinear Diﬀerential Equations as S-Systems: A Canonical Nonlinear Form, Math. Biosci. 87: 83-115 (1987).
+[20] E. O. Voit, Symmetries of S-Systems, Math. Biosci. 109: 19-37 (1992).
+[21] M. Eigen, J. Mc Caskill and P. Schuster, The molecular quasi-species, Adv. Chem. Phys. 75: 149-263 (1989).
+[22] M. Eigen and R. Winkler-Oswatitsch, Steps Towards Life, Oxford University Press, Oxford, 1992.
+[23] L. Cair´o and M. R. Feix, Families of invariants of the motion for the LotkaVolterra equations: the linear polynomials family, J. Math. Phys. 33: 24402455 (1992).
+[24] M. Peschel and W. Mende, The Predator–Prey Model. Do we live in a Volterra World? Springer-Verlag, Wien–New York, 1986.
+[25] L. Brenig, Complete factorisation and analytic solutions of generalized Lotka-Volterra equations, Phys. Lett. A 133(7,8): 378-382 (1988).
+[26] A. Br’uno, Local Methods in the Theory of Diﬀerential Equations, Springer Verlag, New York, 1989.
+34
+
+[27] J.L. Gouz´e, Transformation of polynomial diﬀerential systems in the positive orthant, Rapport INRIA, Sophia-Antipolis, 06561 Valbonne, France, 1990.
+[28] L. Brenig and A. Goriely, Universal canonical forms for time-continuous dynamical systems, Phys. Rev. A 40(7): 4119-4122 (1989).
+[29] B. Hern´andez–Bermejo and V. Fair´en, Nonpolynomial vector ﬁelds under the Lotka–Volterra normal form, Phys. Lett. A 206(1,2): 31-37 (1995).
+[30] E. A. Jackson, Perspectives of Nonlinear Dynamics, Vol. 1, 1st edition, Cambridge University Press, Cambridge, 1994, p. 22.
+[31] E. Maruˇsi´c, Zˇ. Bajzer, S. Vuk-Pavlovi´c and J. Freyer, Tumor growth in vivo and as multicellular spheroids compared by mathematical models, Bull. Math. Biol. 56(4): 617-631 (1994).
+[32] A. Goriely and L. Brenig, Algebraic degeneracy and partial integrability for systems of ordinary diﬀerential equations, Phys. Lett. A 145(5): 245-249 (1990).
+[33] G. Hadley, Linear Algebra, Addison-Wesley, Reading, Massachusetts, 1961, Ch. 5.
+[34] D. Ludwig, D. D. Jones and C. S. Holling, Qualitative Analysis of insect outbreak systems: the spruce budworm and Forest, J. Anim. Ecol. 47: 315-332 (1978).
+35
+

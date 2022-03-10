@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap');
+/*== common ==*/
+#el_battelgHome{box-sizing: border-box;}
+#el_battelgHome * {box-sizing: border-box;}
+#el_battelgHome .clearfix { display: block;}
+#el_battelgHome .clearfix::after {content: ""; clear: both; display: table;}
+#el_battelgHome a, #el_battelgHome a:hover, #el_battelgHome a:visited {text-decoration:none; outline:none !important;}
+#el_battelgHome input:focus, #el_battelgHome select:focus {outline:none;}
+h1, .h1, h2, .h2, h3, .h3 {margin:0px;}
+/*== common ==*/
+
+
+/*== slick slider ==*/
+#el_battelgHome .slick-slider{position:relative; display:block; box-sizing:border-box; -webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent;}
+#el_battelgHome .slick-list{position:relative;display:block;overflow:hidden;margin:0;padding:0;}
+#el_battelgHome .slick-track {overflow: hidden;}
+#el_battelgHome .slick-list:focus{outline:none;}
+#el_battelgHome .slick-list.dragging{cursor:pointer;cursor:hand;}
+#el_battelgHome .slick-slider .slick-track,.slick-slider .slick-list{-webkit-transform:translate3d(0, 0, 0);-moz-transform:translate3d(0, 0, 0);-ms-transform:translate3d(0, 0, 0);-o-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);}
+#el_battelgHome .slick-track{position:relative;top:0;left:0;display:block;margin-left:auto;margin-right:auto; display: flex;}
+#el_battelgHome .slick-track:before,.slick-track:after{display:table;content:'';}
+#el_battelgHome .slick-track:after{clear:both;}
+#el_battelgHome .slick-loading .slick-track{visibility:hidden;}
+#el_battelgHome .slick-slide{display:none;float:left;height:100%;min-height:1px; text-align: center; margin: 0 22px; outline:none !important;}
+[dir='rtl'] .slick-slide{float:right;}
+#el_battelgHome .slick-slide.slick-loading img{display:none;}
+#el_battelgHome .slick-slide.dragging img{pointer-events:none;}
+#el_battelgHome .slick-initialized .slick-slide{display:block;}
+#el_battelgHome .slick-loading .slick-slide{visibility:hidden;}
+#el_battelgHome .slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent;}
+#el_battelgHome .slick-arrow.slick-hidden{display:none;}
+#el_battelgHome .slick-prev, #el_battelgHome .slick-next {position: absolute;}
+#el_battelgHome .slick-prev:hover:before, #el_battelgHome .slick-prev:focus:before,.slick-next:hover:before,.slick-next:focus:before {opacity:1;}
+#el_battelgHome .slick-prev.slick-disabled:before, #el_battelgHome .slick-next.slick-disabled:before {opacity:.25;}
+#el_battelgHome .slick-prev:before, #el_battelgHome .slick-next:before {font-family:'slick';font-size:20px;line-height:1; opacity:.75; color:white; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;}
+#el_battelgHome .slick-dotted.slick-slider{margin-bottom:30px;}
+#el_battelgHome .slick-dots{position:absolute;bottom:-25px;display:block;width:100%;padding:0;margin:0;list-style:none;text-align:center;}
+#el_battelgHome .slick-dots li{position:relative; display:inline-block; width:10px; height:10px; margin:0 5px; padding:0; cursor:pointer;}
+#el_battelgHome .slick-dots li button{font-size:0; line-height:0; display:block; width:6px; height:6px; padding:5px; cursor:pointer; color:transparent; border:0; outline:none; background:transparent;}
+#el_battelgHome .slick-dots li button:hover, #el_battelgHome .slick-dots li button:focus{outline:none;}
+#el_battelgHome .slick-dots li button:hover:before, #el_battelgHome .slick-dots li button:focus:before{opacity:1;}
+#el_battelgHome .slick-dots li button:before {font-family:'slick'; font-size: 30px; line-height:20px; position:absolute; top:0; left:0; width:6px; height:6px; content:'';text-align:center; color:black;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale; border-radius: 0; background-color: #ffffff; border:2px solid #ed2128;}
+.slick-dots li.slick-active button:before {background-color: #ed2128; color:black; opacity: 1;}
+/*== slick slider ==*/
+
+
+
+#el_battelgHome { position: relative; margin-bottom: 25px;}
+#el_battelgHome:before { background:#FFFAE3; content: ""; width:100%; position:absolute; top:00px;  height:370px;}
+#el_battelgHome.exitpl22:before {  height: 270px;}
+
+/*.battel2022 { display: flex; padding:0 130px 10px; background:url("https://images.moneycontrol.com/mcnews/images/election_2022/top_circle_revised.png") 270px 35px no-repeat;}*/
+.battel2022{display: flex; padding:0 130px 10px; background:url("https://images.moneycontrol.com/mcnews/images/election_2022/top_circle_revised.png") 200px 30px no-repeat;}
+.heading_battlep { margin-right:15px;  /*padding-left:70px;*/ padding-left:0px; padding-top:50px;  color:#315A48; font:900 56px/56px 'Playfair Display', sans-serif;}
+.heading_battlep span { top: -20px; position: relative;display: block; padding-left:140px; color:#802E1A; font:900 89px/89px 'Playfair Display', sans-serif;}
+.heading_battlep span:before { height:10px; border-radius: 10px; background: #4F806B; width:140px; position: absolute; left:-10px; top:40px; content: "";}
+
+.battle_leader { height:157px; position: relative; display: flex; width:750px;  margin-left: auto;}
+.battle_leader:after { position: absolute; left: 0px; bottom:-10px; content:""; height:16px; width:100%; background:#4F806B; border-radius:25px;}
+.battle_leader figure { display: flex; align-items: flex-end; margin: 0 auto; width:400px;}
+.election_battleground_2022 .mcel-line-title-wrap { position: relative;  }
+.election_battleground_2022 .mcel-line-title { padding:0px 0 20px 0;}
+.election_battleground_2022 .mcel-line-title-wrap:before { content: ""; width:150px; height:150px; position: absolute; left:50%; margin-left:-75px; background:url("https://images.moneycontrol.com/mcnews/images/election_2022/orange_dots_bg_white.png") center center no-repeat; background-size:100%; top:-50px;   }
+
+
+
+
+#el_battelgHome a.candidate_list:focus {text-decoration: none; outline: 0;}
+#el_battelgHome .candidate_list .image_block {float: left; border: 1px solid #cdcdcd;}
+#el_battelgHome .candidate_list .content_block {overflow: hidden; padding: 0 0px 10px 7px; text-align: left; color: #000000;}
+#el_battelgHome .candidate_list h3 {font: 800 11px/17px 'Poppins', sans-serif; color: #000000; margin: 0;}
+#el_battelgHome .partyname {font: 500 10px/20px 'Poppins', sans-serif; color: #626262;}
+#el_battelgHome .candidate_list {box-sizing: content-box; font: 600 15px 'Product Sans', sans-serif; color: #fff; color: #000000; text-decoration: none; margin: 0 8px;}
+#el_battelgHome .candidate_list:hover, #el_battelgHome .candidate_list:focus {text-decoration: none; color: #000000;}
+#el_battelgHome .content_block:hover, #el_battelgHome .content_block:focus {color: #000;}
+#el_battelgHome .election_wrapper .slick-prev {text-indent: -999em; position: absolute; text-align: center; line-height: 32px; width: 32px; height: 32px; bottom: -45px; right:42px; border:1px solid #4F806B; border-radius: 50%; background-color: transparent; outline: 0; cursor: pointer; background: none !important; left:calc( 50% - 35px ); top: unset;}
+
+
+#el_battelgHome .election_wrapper .slick-next {text-indent: -999em; position: absolute; text-align: center; line-height: 32px; width: 32px; height: 32px; bottom: -45px; right:calc( 50% - 35px ); border: 1px solid #4F806B; border-radius:50%; background-color: transparent; outline: 0; cursor: pointer; background: none !important; top: unset; }
+
+.election_battleground_2022 { position: relative;}
+
+
+.election_battleground_2022:after { background:url("https://images.moneycontrol.com/mcnews/images/election_2022/right_bg.png") right -150px top no-repeat; width:475px; height:415px; right:0px; bottom:-280px; position: absolute; content: ""; z-index:-1;}
+
+
+#el_battelgHome .election_wrapper .slick-prev:before, #el_battelgHome .election_wrapper .slick-next:before { content: ""; position: absolute; left:9px; top:10px; background: url(https://images.moneycontrol.com/mcnews/images/election_2022/contarrow.svg) no-repeat; width:13px; height:9px; transform: rotate(180deg);}
+
+#el_battelgHome .election_wrapper .slick-prev:before {transform: rotate(180deg); top:11px; }
+
+
+#el_battelgHome .candidate {background-color: #fff; border: 1px solid #D1D1D1; border-radius: 10px; margin-bottom: 4px; -webkit-box-shadow: 9px 10px 11px -15px rgba(0,0,0,.75); -moz-box-shadow: 9px 10px 11px -15px rgba(0,0,0,.75); box-shadow: 9px 10px 11px -15px rgba(0,0,0,.75); overflow: hidden; padding: 10px; height:100%; position: relative;}
+#el_battelgHome .winloss {font: 700 22px/22px 'Poppins', sans-serif; text-transform: uppercase;}
+#el_battelgHome .win {color: #438945;}
+#el_battelgHome .loss {color: #E40C2B;}
+#el_battelgHome .show_in_mobile {display: none;} 
+/*== candidate slider ==*/ 
+
+
+#el_battelgHome .election_container {padding:10px 0 30px 0; margin-bottom:70px;  }
+#el_battelgHome .election_container_wrapper {background-color: #F7F4E9;}
+#el_battelgHome .election_wrapper {width: 1260px; margin: 0 auto; position: relative;}
+#el_battelgHome .election_wrapper .first_column {width: 24%;}
+#el_battelgHome .election_wrapper .second_column {width: 40%; position: relative; margin: 0 40px;}
+#el_battelgHome .election_wrapper .third_column {width: 24%; margin-top: -17px;}
+#el_battelgHome .card_slider .statename {font: 24px/14px 'Poppins', sans-serif; font-weight: 700; color: #1D1D2C; margin-bottom: 15px; margin-top: 10px; margin-top: 10px; text-align: center;}
+#el_battelgHome .peach {background-color: rgba(235, 166, 63, 0.35);}
+#el_battelgHome .blue {background-color: rgba(60, 188, 195, 0.35);}
+#el_battelgHome .pink {background-color: rgba(228, 12, 43, 0.35);}
+#el_battelgHome .purple {background-color: rgba(29, 29, 44, 0.35);}
+#el_battelgHome .party_table td {padding: 4px 10px; font: 15px/17px 'Poppins', sans-serif; font-weight: 700; color: #ffffff; text-align: left;}
+
+#el_battelgHome .party_list { margin-bottom: 145px;}
+#el_battelgHome .whiterow {display: block; margin-bottom: -2px;}
+#el_battelgHome .total_seats {margin-top: 20px; position: absolute; bottom: 0; left: 0; right: 0; margin: auto; padding-bottom: 10px;} 
+#el_battelgHome .seats {position: relative; /*height: 127px;*/ text-align: center; background-size: contain;}
+#el_battelgHome .total_number {font: 32px/38px 'Poppins', sans-serif; font-weight: 400; color: #1D1D2C; position: absolute; bottom: 20px; left: 0; right: 0;}
+#el_battelgHome .totalseats {font: 12px/26px 'Poppins', sans-serif; font-weight: 500; color: #000000; text-transform: uppercase; position: absolute; bottom: 0px; left: 0; right: 0; letter-spacing: 1px;}
+#el_battelgHome .overall_seat {font: 46px/38px 'Poppins', sans-serif; font-weight: 400; color: #1D1D2C;}
+#el_battelgHome .timedate {font: 11px/38px 'Poppins', sans-serif; font-weight: 500; color: #005493; text-transform: uppercase;}
+#el_battelgHome .election_wrapper .second_column .mapblock {position: absolute; top: -20px;}
+#el_battelgHome .partyname_number {position: absolute; bottom: -20px; right: 0px;}
+#el_battelgHome .partyname_number ul {display: flex;}
+#el_battelgHome .partyname_number ul li {font: 17px/24px 'Poppins', sans-serif; font-weight: 400; color: #1D1D2C; border-right: 1px solid #707070; padding-left: 15px; padding-right: 5px; width: 70px;}
+#el_battelgHome .partyname_number ul li:last-child {border-right: 0;}
+#el_battelgHome .partyname_number ul li .bjp {background-color: #EBA63F; height: 4px;}
+#el_battelgHome .partyname_number ul li .inc {background-color: #3CBCC3; height: 4px;}
+#el_battelgHome .partyname_number ul li .xyz {background-color: #005493; height: 4px;}
+#el_battelgHome .partyname_number ul li .pqr {background-color: #E40C2B; height: 4px;}
+#el_battelgHome .partyname_number ul li .oth {background-color: #D1D1D1; height: 4px;}
+
+#el_battelgHome .card_slider .candidate_list {width: 236px; float: left;}
+#el_battelgHome .card_slider .candidate_list .image_block {float: none;}
+#el_battelgHome .candidate_slider .statename {font: 10px/14px 'Poppins', sans-serif; font-weight: 500; color: #523412; text-transform: uppercase;}
+#el_battelgHome .candidate_slider .candidate_list .image_block img {width: 55px;}
+#el_battelgHome .card_slider {margin-bottom: 20px; display:flex;}
+/*
+#el_battelgHome .highcharts-container {height: 122px; top: -39px;}*/
+.election_headline ul {display: flex;}
+.election_headline ul li {font: 40px/47px 'Playfair Display', sans-serif; font-weight: 900; color: #000000; border-right: 1px solid #dedede; padding-right: 20px; padding-left:50px; flex: 0 0 50%;}
+.election_headline ul li a{ color: #000000; font-family:'Playfair Display', sans-serif;}
+.election_headline ul li:first-child {padding-left:0px;}
+.election_headline ul li:last-child {font-weight: 400; border-right: 0px; padding-right:0px;}
+.election_headline {width: 1260px; margin: 0 auto 20px;}/*
+#el_battelgHome #tamilnaduPieWidget .highcharts-container {top: -20px;}*/
+#el_battelgHome .candidate_slider .candidate {padding: 10px 3px 0px 10px;}
+#el_battelgHome .candidate_slider .candidate_list {height: auto;}
+.election_headline * { box-sizing: border-box;}
+.elction_chart {position:relative; z-index:1;}
+
+
+
+
+@media screen and (max-width:1024px){
+#el_battelgHome .election_wrapper { width: 1000px;}
+#el_battelgHome .card_slider .candidate_list { width:188px; margin:0 6px; height: auto; }
+#el_battelgHome .total_number { font:25px/25px 'Poppins', sans-serif; }
+#el_battelgHome .politician { right:100px;}
+.election_headline ul li{padding-left:30px;}
+#el_battelgHome{margin-top:-20px;}
+.election_headline {width: auto; padding: 0 15px;}
+}
+
+@media screen and (max-width:980px){
+#el_battelgHome .election_wrapper { width: 100%;}
+#el_battelgHome .politician { right:10px;}
+#el_battelgHome .battleground_text { left:20px;}
+#el_battelgHome .election_wrapper { padding:0px 10px; }
+#el_battelgHome .card_slider .statename { font:18px/14px 'Poppins', sans-serif;}
+#el_battelgHome .candidate_slider{padding-right:10px;}
+#el_battelgHome .election_headline .election_wrapper{padding-right:10px;}
+}
+
+@media screen and (max-width:767px){
+	#el_battelgHome .election_battleground_2021 {width: 100%;}
+	#el_battelgHome .election_wrapper {display:block;}
+	#el_battelgHome .battleground_text {font-size: 16px; margin: 0; padding-top:3px; left:10px;} 
+	#el_battelgHome .battleground_text span {font-size: 16px;}
+	#el_battelgHome .election_wrapper .first_column, #el_battelgHome .election_wrapper .second_column, #el_battelgHome .election_wrapper .third_column {width: 100%; margin-bottom: 65px; margin-left: 0;}
+	#el_battelgHome .politician {width: 185px; height: 73px; background-size: contain; top: -17px; right: 17px;}
+	#el_battelgHome .battleground2021 {margin-top: 25px;}
+	#el_battelgHome .statename {font-size: 45px; line-height: 24px;}
+	#el_battelgHome .party_list {width: 100%;}
+	#el_battelgHome .election_wrapper .second_column .mapblock {position: static;}
+	#el_battelgHome .election_wrapper .second_column .mapblock img {background-size: contain; width: 100%;}
+	#el_battelgHome .partyname_number {position: static; margin-top: 20px;}
+	#el_battelgHome .hide_in_mobile {display: none;}
+	#el_battelgHome .show_in_mobile {display: block;}
+	#el_battelgHome .election_wrapper .third_column .slick-next, #el_battelgHome .election_wrapper .third_column .slick-prev {bottom: -40px;}
+	#el_battelgHome .candidate_list .content_block {width: unset;}
+	#el_battelgHome .party_table td {/*font-size: 30px;*/ font-size: 21px; line-height: 28px;}
+	#el_battelgHome .total_number {font-size: 30px; line-height: 30px;}
+	#el_battelgHome .card_slider .candidate_list {margin: 0px 10px 0 0; width: 325px; height: auto;}
+	#el_battelgHome .candidate_slider .slick-list {padding: 0 0 !important;}
+	.election_headline ul {display: block;}
+	.election_headline ul li {border-right: 0; border-bottom: 1px solid #707070; margin-right: 0px; margin-bottom: 8px; padding-bottom: 8px; font-size: 24px; line-height: 33px; flex:0 0 100%;}	
+	.election_headline ul li:first-child {padding-right:0px;}
+	.election_headline ul li:last-child {font-weight: 400; border-right: 0px; padding-right:0px; border-bottom: 0; padding-left:0px;}
+	#el_battelgHome .candidate_list, #el_battelgHome .candidate_slider { margin:0px; padding:0px;   }
+ #el_battelgHome .candidate_slider { overflow: hidden; padding-bottom:50px; }
+	#el_battelgHome .card_slider .statename {/*font-size: 45px;*/ font-size: 32px; line-height: 24px; font-weight: 700; margin-bottom: 25px;}
+	#el_battelgHome .totalseats {font-size: 15px; line-height: 50px; bottom: -19px;}
+ #el_battelgHome .election_wrapper .slick-prev, #el_battelgHome .election_wrapper .slick-next { bottom:0px;}
+ #el_battelgHome .election_container { margin-bottom:0px; padding-bottom: 0px; }
+ 
+}

@@ -1,0 +1,844 @@
+Forest Ecology and Management, 8 (1984) 299--312
+
+299
+
+Elsevier Science Publishers B.V., Amsterdam -- Printed in The Netherlands
+
+WOODY BIOMASS OF FOREST STANDS
+M.G.R. CANNELL Instituteof TerrestrialEcology, Bush Estate,Penicuik,Midlothian EH26 OQB (Great Britain) (Accepted 4 November 1983)
+ABSTRACT
+Cannell, M.G.R., 1984. Woody biomass of forest stands. For. Ecol. Manage., 8: 299--312.
+Published data on the total aboveground w o o d y biomass (stems and branches), WT, of 640 forest and woodland stands around the world (Cannell, 1982) were divided into 32 species groups. Differences between groups were examined in the relationship: W T = F(HG) D, where F was a stand form factor; H was mean tree height; G was basal area at breast height; and D was m e a n w o o d basic specific gravity. W T was linearly related to (HG); broadleaved species, owing to their greater D, had greater regre~ion coefficients than conifers.
+Regression coefficients and F factors tended to be smallest in groups having the smallest percentage biomass as branches and greatest in those having most branches. F factors of about 0.5 corresponded to groups having 5--10% branches. The shapes of the w o o d y parts of trees in those groups would conform most closely to quadratic paraboloids as hypothesized by Dawkins (1963) and Gray (1966). But heavily branched broadleaved stands had F factors of 0.6--0.8, and the F factor of tapped Hevea rubber with 8 1 % branches exceeded 1. Thus, for any given G and H, the greatest W T was contained in those forests which had the greatest proportion of branches.
+INTRODUCTION
+Those interested in complete tree utilization, fuel wood and forest ecology, often wish to estimate the total aboveground woody biomass per hectare of stems and branches, including bark, of forests or woodlands. The biomass obviously depends on the age, stocking density and height of the stands, but does it also depend on the proportion of branches to stems?
+Where WT is the total, oven~iry, aboveground woody biomass per area, D is the mean wood basic specific gravity (dry weight/fresh volume), and VT is the total overbark volume o f the stems and branches per area, then WT = DVT. Clearly, D is fairly easily estimated, but VT is not. For those species and localities where foresters have developed reliable stand volume tables or models, the merchantable or 'derbholz' volume per area (i.e. wood greater than about 7 cm diameter) can be estimated using the mean heights of dominant trees and stand basal areas at breast height. In those instances,
+0378-1127/84/$03.00 © 1984 Elsevier Science Publishers B.V.
+
+300
+
+Dawkins (1967) suggested that a rough estimate of VT could be made on the assumption that the ratio of VT/'derbholz' volume for most forests was about 1.3. But a better method of estimating VT, is from the equation VT = F ( H G ) , where F is a stand form factor, H is mean tree height, and G is stand, overbark, basal area at breast height. Dawkins (1961, 1963) and Gray (1956, 1966) suggested that the value of F for a wide range of forests and woodlands was in the range 0.4--0.6 (see below), and Edwards and Grubb (1977) assumed F to be 0.5 for tropical rain forests. But Gray's work suggested that F might differ among forest types having different proportions of branches to stems (see below).
+In this paper I examine variation in F among the major coniferous and broadleaved forest types of the world, making use of published estimates of WT made by ecologists and forest researchers, notably as part of the International Biological Programme. They estimated WT directly, by felling, subsampling, oven-drying and weighing sample trees, and then estimating the biomass per area, most often by calculating so-called aUometric regressions of the form: w = a(d) c or w = a(d2h) c, where w was the woody biomass per tree; d was tree diameter at breast height; h was tree height; and a and c were constants specific to each case or species (Ogawa and Kira, 1977; Gholz et al., 1979; Satoo and Madgwick, 1982). Estimates of WT have been made for over 1000 forest and woodland stands around the world (CanneU, 1982). For this study I selected those stands for which values of H, G and D were also available, in order to derive estimates of F from the relationship:
+
+WT = F(HG) V
+
+(1)
+
+Thus, it was expected that WT was linearly related to (HG) and that the slope of the relationship differed between forests which differed in D. Any remaining variation could be partly attributed to differences in F, and the crucial question was whether those differences were related to the proportion of stems to branches. Fundamentally, this question concerned hypotheses put forward by Gray and Dawkins about the basic shape of the woody parts of trees.
+
+HYPOTHESES OF GRAYAND DAWKINSON TREE FORM FACTORS
+
+Gray (1956, 1966) hypothesized that the shape of the underbark stemwood of most forest trees approximated that of a quadratic paraboloid (Fig. 1A). Consequently, their cross-sectional areas decreased linearly with increase in height, so they could be represented as triangles, as in Fig. 1B and 1C, and their parabolic volumes (vp) were given by:
+
+Vp = 0.5 (hpsp)
+
+(2)
+
+where hp was parabolic height, and Sp was cross-sectional area at the base of the pamboloid. That is, according to this hypothesis, the basic underbark tree stemwood form factor was 0.5.
+
+A
+
+B
+
+C
+
+D
+
+301 E
+
+h
+1 L
+
+Fig. 1. The under-bark stem volume of forest trees in relation to the volume of a quadratic paraboloid: (A), (B) and (C), the dimensions of a paraboloid, where hp = parabolic height; dp = diameter; and Sp = sectional area at the base of the paraboloid. (D), the dimensions of a mature coniferous tree, with a small percentage of branch wood, where h = tree height; s = sectional area at breast height; b ffibark plus buttswell; and x = small volume of stemwood in excess of the paraboloid volume. (E), the dimensions of a mature broadleaved tree, with a large percentage of branch wood, where y = volume of the paraboloid in excess of the stem volume. Modified from Gray (1966)
+
+However, in reality the actual volumes of stemwood measured on trees d i f f e r e d f r o m Vp in the f o l l o w i n g ways: (1) t h e r e was always s o m e buttsweU, giving volume b in Fig. 1D and 1E, additional to the theoretical parabolic volume; (2) the heights, h, of trees with small branch crowns (e.g. mature conifers) were greater than hp, so that, for these trees, there was an additional volume, x in Fig. 1D, exceeding the parabolic volume; (3) conversely, the heights of trees with large branch crowns (e.g. broadleaved trees) were less than hp, so that there was a volume, y in Fig. 1E, such that the volume of the paraboloid exceeded the true stemwood volume; (4) in practice, stem volume was estimated using overbark cross-sectional area at breast height, s, which was greater t h a n Sp e x c e p t o n very small trees (Fig. 1D and 1E).
+From measurements on several species of small-crowned trees, Gray (1966) found that the underbark stem volume was given by 0.54(hpsp), and
+t h a t hp/h ~ 0.9, and S/Sp ~ 1.3. Assuming t h a t t h e r a t i o o f o v e r b a r k v o l u m e
+including branches to underbark stemwood volume was 1.2, then overbark t o t a l v o l u m e p e r t r e e , •T b e c o m e s :
+
+VT ~ ( 0 . 5 4 × 0 . 9 / 1 . 3 × 1.2) hS = 0.45 (hs)
+
+and VT ~ 0.45(HG)
+
+(3)
+
+For heavily-crowned trees the values were approximately:
+
+vT ~ (0.54 X 1.1/1.3 X 1.3) hs = 0.59 (hs)
+
+and VT ~ 0.59(HG)
+
+(4)
+
+That is, according to Gray's measurements the overbark stand form factor
+
+302
+for total aboveground wood, F, should be about 0.45 for sparsely branched conifer-type stands, and 0.59 for heavily branched broadleaved-type stands.
+Dawkins (1961, 1963, personal communication) made detailed measurements of the volumes of stems and branches on individual trees of many tropical broadleaved species, and showed that VT was linearly related to the product of h and s. Most interestingly he found that the average underbark form factor including branch wood was 0.50 (see eq. 2). He therefore suggested that, if the branches were squeezed on to the stems (as if a ring were passed up the stems) the resulting shapes would be quadratic paraboloids. This would mean that the volume y in Fig. 1E would be about equal to the underbark volume of the branches; and in Gray's equations it would mean that, for heavily-crowned trees, hpsp ~ hs.
+According to Dawkins, the overbark tree form factor, with which we are concerned here, would be about 0.6 for tropical broadleaved trees, although his measurements showed that it differed between individuals in the range 0.55 to 0.68.
+SOURCES OF DATA
+Published data on stem biomass (Ws), branch biomass (WB), stand overbark basal area at breast height (G), and mean tree height per stand (H) were used for a total of 640 forest and woodland stands, divided into 32 species or species groups (Table I). The data had been abstracted from 171 studies conducted during the period 1930--1981 in a total of 23 countries around the world. Four points should be noted about this data set: (1) the studies almost certainly differed in the accuracy with which Ws and WB had been estimated, owing to differences in the number of trees felled, the goodnessof-fit of regressions, sampling procedures, and so on; (2) the height values used were probably slight overestimates of H, because some authors seemed to have reported dominant rather than mean tree heights, although this was known to be the case in only 34 of the 640 stands (not exceeding 5% within any of the 32 groups); (3) the mean values of D and F reported here for individual species should not be regarded as wholly representative of the species, because the locations, ages, stocking densities, growth rates and number of stands for which data were available differed greatly between species (Table I); (4) Alnus spp. and Populus spp. were omitted, because the data produced insignificant regressions of WT on (HG), and Acacia spp, were not included because of insufficient data on D of the sample stands.
+The mean percentage branches (100 × WB/WT) in each of the 32 groups was calculated using the sum of stem and branch biomass of all stands within each group. Mean D values were based on measurements obtained for at least 65% of the stands within each group (491 stands in all) from data in the original publications (see Cannell, 1982), from Kingsdon and Risdon (1961), HMSO (1969) and by correspondence with the original authors.
+
+303
+
+TABLE I
+
+Forest tree species and species groups, numbers of stands (or plots), and page numbers in Cannell (1982) which give the original biomass data and source references
+
+Species
+
+Number of stands Page numbers or plots
+
+A b|es spp.
+
+Abfes elba Other Abies spp.
+
+16 45
+
+Chamaecyparts obtuse
+
+50
+
+Cryptomeria japonica
+
+114
+
+87--89 40, 123--133, 199, 289, 290, 292
+134--144 146--150, 152--166
+
+Picea spp.
+
+P~cea abies Other Picea spp.
+
+29
+
+29, 62, 73, 169, 170, 361--364
+
+11
+
+41, 43, 85, 242, 296, 297
+
+P/nus spp.
+
+Pinus bankstana Pinus densiflora Pinus elliottii Pinus nigra Pinus Ponderosa Pinus radiata Ptnus resinosa Ptnus sy|vestrts Pinus taeda Pinus thunbergll
+Other P/nus SPP.
+
+17
+
+48, 49, 299
+
+10
+
+171, 173,174
+
+9
+
+175, 304
+
+25
+
+69, 246, 247 and ref. cited
+
+6
+
+310, 311
+
+13
+
+21,205, 206
+
+i0
+
+312, 314, 315
+
+31
+
+63,225--228, 232, 244, 245
+
+28
+
+178, 179,321--327
+
+II
+
+181, 182
+
+15
+
+50, 177, 303, 316, 317, 319, 328
+
+Pseudotsuga menziesii
+
+22
+
+Tsuga spp.
+
+6
+
+Thujopsls dolobrata
+
+9
+
+Sequoia spp.
+
+10
+
+llevea brazi|iens~s
+
+7
+
+Betule spP.
+
+15
+
+29, 71, 329--332, 334--337, 341 185, 186,200, 349 183, 184 168,345, 346 192, 193 61, 96---98, 222, 238
+
+Japanese evergreens
+
+Camellia japonica
+
+10
+
+Castanopsis cuspidata
+
+14
+
+Cyclobaianopsis myninaefolia
+
+5
+
+99, 101
+102--105 107
+
+Eucalyptus spp.
+
+14
+
+8, 9, 12--15
+
+Fagua spp.
+
+Fagus crenata Fagus sylvatica
+
+18
+
+111,114--117
+
+11
+
+24, 31, 59, 72, 86, 224
+
+Quercus spp.
+
+28
+
+Tropical
+
+Shorca robusta
+
+12
+
+plantations Tectona grandfs
+
+7
+
+Tropical
+
+Micmnda spruceana et al
+
+13
+
+ralnforeet
+
+27, 67, 77, 117,197, 201, 213, 219, 222, 223, 229, 230, 240, 276,278--280,282, 283, 356, 358
+79, S0 82, 83
+370, 371
+
+RELATIONSHIP B E T W E E N W O O D Y B I O M A S S (WT) A N D H E I G H T X B A S A L A R E A
+(HG)
+Least squares linear regressions were calculated between (1) Ws or WT (t/ha) and (2) HG (m X m2/ha) for all 640 stands together, for each of the 32 groups, and for combinations between them.
+Because WT differed by three orders of magnitude among stands, regres-
+
+304
+
+sions using all 640 stands were calculated after loge transformation, giving the following highly significant relationships:
+
+loge WT = --0.37 + 0.84 loge(HG)
+
+r2 = 0.91 (Fig. 2)
+
+(5)
+
+loge Ws = - 0 . 9 0 + 0.90 loge(HG)
+
+r2 = 0.94
+
+Both of these regression coefficients were significantly less than 1.0, the value which would be expected if WT or Ws were proportional to a
+constant fraction of (HG). Stands with small (HG) values tended to have larger biomasses than expected relative to stands with large (HG) values,
+particularly when branches were included. The main reason for this was that the small stands included a high proportion of broadleaved species which had larger values of D and F than conifer species (see below).
+
+-9 5000"
+-8 2000 -
+
+1000- -7
+
+o
+
+500- -6
+
+200- -5 100 ~
+50-
+
+20- -3
+
+o >
+
+10-2
+
+5-
+
+-1
+2
+I°ge,
+
+2
+
+2
+
+3 /
+
+4 I
+
+5 I
+
+6l ,
+
+t 7
+
+18
+
+9 I
+
+1i0 t11
+
+10 20 50 100 200 500 1000200050~10~ 2000050000
+
+Mean tree height (m) x basal area (m2/ha)
+
+Fig. 2. Relationship, for 640 stands of all kinds of forests and woodlands around the
+world, between: (1) the measured aboveground dry weight of stems and branches (WT);
+and (2) the product o f mean tree height and stand basal area (HG). The smallest values are for young or stunted forests, the largest values are for stands of Sequoia sempervirens
+in northern California. See regression equation 5 in the text.
+
+The relationships between WT and (HG) were visually linear for all 32
+species groups, based on 5 to 114 stands per group (Table 1). Linear regressions accounted for over 70% of the variation within all groups, and over 90% of the variation within 25 groups.
+However, the regression coefficients differed significantly between groups,
+with or without loge transformation (untransformed values, b, are given in Table II and Fig. 3). Broadleaved species, because of their greater D, had larger coefficients than conifers. The greatest coefficients were given by
+Hevea braziliensis (0.64), followed by Micranda spruceana dominated tropical forests (0.43), Fagus sylvatica (0.40), Japanese evergreen broad-
+
+305
+1000
+
+800
+
+3
+
+18
+
+600
+0 e.,
+
+3/2/,,.' ,o/ jj
+
+400
+
+200
+
+o I
+
+l
+
+[
+
+I
+
+[
+
+1000
+
+2000
+
+3000
+
+4000
+
+Mean tree height (m) x basal area (m2/ha)
+
+I 5000
+
+Fig. 3. Relationships between: (I) the measured aboveground dry weight of stems and
+branches (WT); and (2) the product of mean tree height and stand basal area (HG), for
+different species and species groups given in Table I. Solid lines: conifers;broken lines: broadleaved species. The numbers on the graph correspond with the species numbers in Table If.
+
+leaved species (0.37) and Indian plantations of Shorea robusta and Tectona grandis (0.33). Among the conifers, the smallest coefficients were given by Sequoia spp. (0.13) and plantations of Cryptomeria japonica and Pinus radiata (0.17).
+Regressions were also calculated forcing the intercepts through the origins (bl in Table II). This was done to remove intercept differences as a source of variation when comparing species values of F (see below), although the true intercepts must have been greater than 0, because G was measured at breast height. Forcing the intercepts through 0 generally decreased the percentage of variation accounted for, and increased the regression coefficients by an average of 0.03.
+WOOD SPECIFIC GRAVITY AND PERCENTAGE BRANCHES
+The mean wood basic specific gravity (D) of the broadleaved species was 0.61 g/cm3 compared with 0.41 g/cm3 for the conifer species. As mentioned, this difference accounted for much of the difference between the two groups in the regressions between WT and (HG). However, variation in regression coefficients among either broadleaved species or conifers were not related to variation in D (Fig. 4).
+By contrast, species differences in the mean percentage of branches explained 35% and 42% of the variation in regression coefficients among the broadleaved and conifer species, respectively (Fig. 5) -- those species
+
+306
+
+•
+
+°
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+~C
+
+o
+
+•
+
+•
+
+*
+
+•
+
+U 00000~000000~000~0
+0q q0 ~0q q0 q0q q~ ~0q q0 ~~q ~0 q0q 0q q0 0 0 ~ 0
++1 ~ +1 ~ ~ ~ ~ ÷1 ÷1 +1 +1 +1 ÷1 ÷1 +1 ÷1 +1 +1
+|
+E
+°~ 0
+0
+o ~ ~ ~, o ~, ~, ~, ~, ~, ~, ~ ~ ~, ~, o ~,
+0
+.m m
+
+,
+
+•
+
+°
+
+•
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+0000000000
+
+•
+
+.
+
+0000
+
+o°oo.oo.°o°ooo
+
+000~000000
+
+0000
+
+•
+
+•
+
+.
+
+•
+
+o
+
+o
+
+o
+
+•
+
+......
+
+000~000000
+
+0000
+
+°ooo°.oo°°
+
+....
+
+o .~
+
+o,
+
+......
+
+o°,oo,
+
+0000000000
+
+0000
+
+0 . 0 . 0 , 0, 0o 0o 0o 0 o 0 . 0 o o . 0 o 0 , 0 0
+
+0000000000
+
+0000
+
+~+l~+l÷t~+t~+l+l÷l
+
+ooo,ooo,oo.o,o
+
+0000000000
+
+0000
+
+0 o 0 o0 o0 o0 , 0 , 0 o 0 o 0 . 0 o o , 0o 0 o 0 0
+
+0000000000
+
+0000
+
+,oo.oo,o..,,oo
+
+0000000000
+
+0000
+
+C~O
+
+a;
+
+~ : ~ ' ~ ~ ~ ,,
+
+m ~,~
+
+~
+
+0
+
+•
+
+e 00
+o~
+
+~'~
+
+.o
+~.~'~'~os~ ~
+
+~'~
+
+~ ~.~ o
+
+~.~ ~-: ; ,~
+
+~.~go~
+
+307
+
+308 0.5-
+
+0-4 u
+tJ 0'3
+
+032 029 026
+025
+
+- - o16. . . . . . . o31. . . . . . . . . . . .
+
+024 .....
+
+o 23 o30
+
+9"'6
+
+.17
+
+028
+
+• 10 . 8 ~
+
+027
+
+n, 0.2
+
+• 1 ..4J~3 .o j . - , 1 3 ,2 %11 .~.8"5
+
+/ "4 12- 19" ,20"1~
+
+"21
+
+0.1
+
+i
+
+}
+
+I
+
+f
+
+r
+
+0.3
+
+0'4
+
+0.5
+
+0.6
+
+07
+
+0.8
+
+Mean wood basic specific gravity (gfcm 3)
+
+Fig. 4. Relationship between: (1) the regression coefficients (b in Table II) between aboveground woody biomass and height times basal area: and (2) mean wood basic specific gracity (D in Table II). Values are numbered as in Table II. Hevea braziliensis is not included, o, conifers; o broadleaved species.
+
+0-5-
+
+0-4 -
+u
+0-3
+_ 0.2
+
+029 026
+I
+025 ~ "
+
+I
+
+024
+
+o31 . ' % 1 6
+
+" " 023
+
+030
+
+..9 17
+
+270 . . 8 1 , 1 ) ~ 2 8
+
+I " 032
+
+0.1 _1 0
+
+I
+
+I
+
+I
+
+i
+
+r
+
+I
+
+r
+
+I
+
+5
+
+10
+
+15
+
+20
+
+25
+
+30
+
+35
+
+40
+
+Percentage branches
+
+Fig. 5. Relationship between: (1) the regression coefficients (b in Table II) between aboveground woody biomass and height times basal area; and (2) branches as a percentage of the total aboveground woody biomass (%B in Table II). (See legend to Fig. 4.)
+
+with most branches had the greatest w o o d y biomass (WT) for a given (HG). Multiple linear regressions were calculated using (HG), D and percentage
+branches as regressor variables on WT. Using 491 stands for which all vari-
+ables were known, (HG) and D together accounted for 9 4 % of the variation, (HG) and percentage branches accounted for 92%, and all three regressor
+
+309
+variables accounted for 95%. When the 32 individual groups of species were considered separately, there were ten conifer and five broadleaved groups for which the addition of percentage branches significantly improved the regression of WT on (HG).
+STAND FORM FACTORS
+Since W T = C/ "l- b ( t - ] G ) , it follows from equation 1 t h a t the stand form factor derived from total aboveground woody biomass is F = (a/HGD) + (b/D). Thus, F values tended to be greatest in those species groups with the greatest intercept values, a~ and in all groups, F decreased slightly with increase in (HG). Values of F are given in Table II calculated using the mean values of (HG) for each group. To remove potential bias owing to species differences in intercept and in mean (HG), alternative stand form factors were calculated as F1 = bl/D (see Table II).
+The very large regression coefficients b and bl given by Heuea braziliensis, combined with its wood specific gravity of 0.51 g/cm3 (Ng, personal communication), gave F and Fl values of 1.23 and 1.26, respectively, suggesting that the trees were 'top heavy'. This could well have been the case, because the trees had been tapped for latex, which decreases stem radial growth, and the branches formed 81% of the total aboveground woody biomass.
+The mean F value of the other broadleaved species was 0.72, compared with 0.59 for the conifers. (Equivalent Fl values were 0.60 and 0.56). Most importantly, the variation among species in F was positively correlated with percentage branches (%B) with no significant curvilinearity or difference in slope between conifer and broadleaved species (Fig. 6). Excluding
+1.0
+
+11e *16
+0.8
+
+2~°28
+
+32
+
+o
+2 0.6
+
+10 .9 ,17
+
+,.. 8 *
+
+~ o 2 4- -
+
+E
+
+40
+
+50 .19
+
+..
+
+~018
+
+012
+
+olo
+
+o¢ 0.4
+u)
+
+.21
+
+o 2"1
+
+0.2 j
+
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+J
+
+5
+
+10
+
+15
+
+20
+
+25
+
+30
+
+35
+
+40
+
+Percentage branches
+
+Fig. 6, Relationship between the stand form factor (F) and the percentage branches, for each of the species groups in Table If. (See legend to Fig. 4.)
+
+310
+
+H. braziliensis, the regression was:
+
+F = 0.42 + 0.0107 (%B)
+
+r2 = 0.34 (Fig. 6)
+
+(6)
+
+The equivalent equation using Fl was very similar, namely, FI = 0.41 + 0.0101 (%B), with r2 = 0.38.
+Stand form factors were also calculated for the stems only, from the equation Fs = (as]HGD) + (bs/D) where as and bs were the intercepts and coefficients of regressions of W8 against (HG). The mean Fs value for broadleaved species excluding H. braziliensis was 0.48, and for conifer species was 0.50 (Table II). There was no significant relationship between Fs and percentage branches.
+The reality of the relationship in Fig. 6 was reinforced by the fact that the predicted value of F (from equation 6) for H. braziliensis was 1.29, which was very similar to the actual value of 1.23.
+
+DISCUSSION
+Clearly, the woody biomass of any tree stand can be estimated from the product of its basal area, mean tree height, basic wood specific gravity, and a form factor (eq. 1). This study supports Gray's (1966) finding that the form factor is smaller for sparsely-branched conifers than for heavilybranched broadleaved trees (equations 3 and 4). However the form factor seems to be the same function of percentage branches (100 × branch biomass/total aboveground woody biomass) irrespective of whether the trees are coniferous or broadleaved (Fig. 6). For any tree stand, the overbark, total, aboveground, wood form factor seems to be 0.4--0.5, 0.5--0.6, 0.6-0.7 and 0.7--0.8 for stands having about 5%, 15%, 25% and 35% branches, respectively. These values are somewhat greater than suggested by Gray's work (equations 3 and 4, 0.45 for conifers, 0.59 for broadleaved species). The majority of coniferous forest stands have 10--20% branches, and so have form factors of 0.60 + 0.05, while tropical broadleaved stands can have over 35% branches; and Hevea rubber can have over 80% branches, corresponding to a form factor exceeding 1. It follows that the shapes of the overbark total aboveground woody parts of trees (compressed as if by a ring passed upwards from the base of the stems) conform to the shapes of quadratic paraboloids only when 5--10% of the wood is branches. Only then will the volume of stems and branches be about half the product of basal area and tree height (eq. 2). An interpretation is that very sparsely branched trees taper more than paraboloids, whereas heavily branched trees are probably bulged at the level of the branches, as in Fig. 7. It may be concluded that for any given basal area and mean tree height, the greatest woody biomass will be contained in those stands with a large proportion of branch wood.
+By contrast, the volumes of the stems alone seem to conform more closely to those of paraboloids. Most stand form factors calculated for stems alone
+
+Approximate form factor 0.4-0.5
+
+Percentage branches
+
+5~ ^
+
+0.5-0.6 157.
+
+0.6-0.7 257.
+
+0.7-0.8 35~.
+
+311
+
+I! /
+
+Tree height
+
+Fig. 7. Hypothetical profiles of the woody parts of trees (stems and branches with bark) having different percentages of branches, shown relative to the shape of a quadratic paraboloid. Solid lines: paraboloids. Dashed lines: shapes of woody tree parts, i.e. of stems and branches as if a ring had been passed up the stems from the base.
+(Fs) were in t h e range 0.5 -+ 0.05 ( T a b l e II), a l t h o u g h m u c h l o w e r values
+were given b y Sequoia and Eucalyptus, which had a small p r o p o r t i o n o f b r a n c h e s , and b y Hevea w h i c h h a d a large p r o p o r t i o n o f branches.
+Although these points are supported by trends in the world biomass data, it should be stressed that there was considerable scatter in the data, especially in the relationship between stand form factors and percentage branches (Fig. 6). Some of this scatter will have been due to differences in the accuracy with which biomass, basal areas and heights were estimated in different studies, but it is also likely that species, site and other factors influence the shapes of trees, and hence the form factors, as well as the percentage branches.
+ACKNOWLEDGEMENT
+I am grateful to Drs. H.C. Dawkins and M.H. Unsworth for helpful comments on a draft of this paper, and to all those authors of forest biomass studies who generously supplied me with supplementary unpublished data.
+
+REFERENCES
+Cannell, M.G.R., 1982. World Forest Biomass and Primary Production Data. Academic Press, London, 391 pp.
+Dawkins, H.C., 1961. Estimating total volume of some Caribbean trees. Caribb. For., 22 : 62--63.
+Dawkins, H.C., 1963. The productivity of tropical high-forest trees and their reaction to controlled environment. Ph.D. Thesis, University of Oxford (unpublished).
+Dawkins, H.C., 1967. Wood production in tropical rain forests. J. Appl. Ecol., 4: 20--21. Edwards, P.J. and Grubb, P.J., 1977. Studies of mineral cycling in a montane rain forest
+in New Guinea. I. The distribution of organic matter in the vegetation and soil. J. Ecol., 65: 943--969.
+
+312
+Gholz, H.L., Grief, C.C., Campbell, A.G. and Brown, A.T., 1979. Equations for estimating biomass and leaf area of plants in the Pacific Northwest. For. Lab. Res. Pap. 41, School of Forestry, Oregon State University, Corvallis, OR, 37 pp.
+Gray, H.R., 1956. The form and taper of forest tree stems. Imp. For. Inst. Pap. 32. Gray, H.R., 1966. Principles of forest tree and crop volume growth: a mensuration
+monograph. Aust. Bull. For. Timber Bur. 42. HMSO, 1969. The strengths and properties of timber. For. Prod. Res. Bull. 50, HMSO,
+London, 82 pp. Kingston, R.S.T. and Risdon, C.J.E. 1961. Shrinkage and density of Australian and other
+south-west Pacific woods. CSIRO Aust. Div. For. Prod. Technol. Pap. 15, 65 pp. Ogawa, H. and Kira, T., 1977. Methods of estimating forest biomass. In: T. Shidei and
+T. Kira (Editors), Primary Productivity of Japanese Forests. J.I.B.P. Synthesis, Vol. 16. University of Tokyo Press. Sato0, T. and Madgwick, H.A.I., 1982. Forest Biomass. Nijhoff, The Hague, 162 pp.
+

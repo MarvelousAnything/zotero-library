@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	
+	
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-NZNXNC9');</script>
+	<!-- End Google Tag Manager -->
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge"><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]},distributed_tracing:{enabled:true}};(window.NREUM||(NREUM={})).loader_config={agentID:"1588592311",accountID:"3313832",trustKey:"66686",xpid:"VwUGUl5QChABUFRUBgIAUlAB",licenseKey:"NRJS-fdd049944e23da01b2c",applicationID:"1456137440"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(32),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{l?l-=1:o(s||new UncaughtException(t,e,n),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t,e){var n=e?null:c.now();i("err",[t,n])}var i=t("handle"),a=t(33),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,p="nr@seenError";if(!c.disabled){var l=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(14),t(13),"addEventListener"in window&&t(7),c.xhrWrappable&&t(15),d=!0)}s.on("fn-start",function(t,e,n){d&&(l+=1)}),s.on("fn-err",function(t,e,n){d&&!n[p]&&(f(n,p,function(){return!0}),this.thrown=!0,o(n))}),s.on("fn-end",function(){d&&!this.thrown&&l>0&&(l-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})}},{}],3:[function(t,e,n){var r=t("loader");r.disabled||(r.features.ins=!0)},{}],4:[function(t,e,n){function r(){U++,L=g.hash,this[u]=y.now()}function o(){U--,g.hash!==L&&i(0,!0);var t=y.now();this[h]=~~this[h]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+g,e])}function a(t,e){t.on(e,function(){this[e]=y.now()})}var s="-start",c="-end",f="-body",u="fn"+s,d="fn"+c,p="cb"+s,l="cb"+c,h="jsTime",m="fetch",v="addEventListener",w=window,g=w.location,y=t("loader");if(w[v]&&y.xhrWrappable&&!y.disabled){var x=t(11),b=t(12),E=t(9),R=t(7),O=t(14),T=t(8),S=t(15),P=t(10),M=t("ee"),C=M.get("tracer"),N=t(23);t(17),y.features.spa=!0;var L,U=0;M.on(u,r),b.on(p,r),P.on(p,r),M.on(d,o),b.on(l,o),P.on(l,o),M.buffer([u,d,"xhr-resolved"]),R.buffer([u]),O.buffer(["setTimeout"+c,"clearTimeout"+s,u]),S.buffer([u,"new-xhr","send-xhr"+s]),T.buffer([m+s,m+"-done",m+f+s,m+f+c]),E.buffer(["newURL"]),x.buffer([u]),b.buffer(["propagate",p,l,"executor-err","resolve"+s]),C.buffer([u,"no-"+u]),P.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),a(T,m+s),a(T,m+"-done"),a(P,"new-jsonp"),a(P,"jsonp-end"),a(P,"cb-start"),E.on("pushState-end",i),E.on("replaceState-end",i),w[v]("hashchange",i,N(!0)),w[v]("load",i,N(!0)),w[v]("popstate",function(){i(0,U>1)},N(!0))}},{}],5:[function(t,e,n){function r(){var t=new PerformanceObserver(function(t,e){var n=t.getEntries();s(v,[n])});try{t.observe({entryTypes:["resource"]})}catch(e){}}function o(t){if(s(v,[window.performance.getEntriesByType(w)]),window.performance["c"+p])try{window.performance[h](m,o,!1)}catch(t){}else try{window.performance[h]("webkit"+m,o,!1)}catch(t){}}function i(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var a=t("ee"),s=t("handle"),c=t(14),f=t(13),u=t(6),d=t(23),p="learResourceTimings",l="addEventListener",h="removeEventListener",m="resourcetimingbufferfull",v="bstResource",w="resource",g="-start",y="-end",x="fn"+g,b="fn"+y,E="bstTimer",R="pushState",O=t("loader");if(!O.disabled){O.features.stn=!0,t(9),"addEventListener"in window&&t(7);var T=NREUM.o.EV;a.on(x,function(t,e){var n=t[0];n instanceof T&&(this.bstStart=O.now())}),a.on(b,function(t,e){var n=t[0];n instanceof T&&s("bst",[n,e,this.bstStart,O.now()])}),c.on(x,function(t,e,n){this.bstStart=O.now(),this.bstType=n}),c.on(b,function(t,e){s(E,[e,this.bstStart,O.now(),this.bstType])}),f.on(x,function(){this.bstStart=O.now()}),f.on(b,function(t,e){s(E,[e,this.bstStart,O.now(),"requestAnimationFrame"])}),a.on(R+g,function(t){this.time=O.now(),this.startPath=location.pathname+location.hash}),a.on(R+y,function(t){s("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),u()?(s(v,[window.performance.getEntriesByType("resource")]),r()):l in window.performance&&(window.performance["c"+p]?window.performance[l](m,o,d(!1)):window.performance[l]("webkit"+m,o,d(!1))),document[l]("scroll",i,d(!1)),document[l]("keypress",i,d(!1)),document[l]("click",i,d(!1))}}},{}],6:[function(t,e,n){e.exports=function(){return"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver}},{}],7:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],8:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=i(arguments),e={};o.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var s=r.apply(this,t);return o.emit(n+"start",[t,a],s),s.then(function(t){return o.emit(n+"end",[null,t],s),t},function(t){throw o.emit(n+"end",[t],s),t})})}var o=t("ee").get("fetch"),i=t(33),a=t(32);e.exports=o;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,p=s.Response,l=s.fetch,h="prototype",m="nr@context";d&&p&&l&&(a(u,function(t,e){r(d[h],e,f),r(p[h],e,f)}),r(s,"fetch",c),o.on(c+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),o.emit(c+"done",[null,e],n)}else o.emit(c+"done",[t],n)}))},{}],9:[function(t,e,n){var r=t("ee").get("history"),o=t("wrap-function")(r);e.exports=r;var i=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;i&&i.pushState&&i.replaceState&&(a=i),o.inPlace(a,["pushState","replaceState"],"-")},{}],10:[function(t,e,n){function r(t){function e(){f.emit("jsonp-end",[],l),t.removeEventListener("load",e,c(!1)),t.removeEventListener("error",n,c(!1))}function n(){f.emit("jsonp-error",[],l),f.emit("jsonp-end",[],l),t.removeEventListener("load",e,c(!1)),t.removeEventListener("error",n,c(!1))}var r=t&&"string"==typeof t.nodeName&&"script"===t.nodeName.toLowerCase();if(r){var o="function"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var d=s(a),p="function"==typeof d.parent[d.key];if(p){var l={};u.inPlace(d.parent,[d.key],"cb-",l),t.addEventListener("load",e,c(!1)),t.addEventListener("error",n,c(!1)),f.emit("new-jsonp",[t.src],l)}}}}}function o(){return"addEventListener"in window}function i(t){var e=t.match(d);return e?e[1]:null}function a(t,e){var n=t.match(l),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function s(t){var e=t.match(p);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var c=t(23),f=t("ee").get("jsonp"),u=t("wrap-function")(f);if(e.exports=f,o()){var d=/[?&](?:callback|cb)=([^&#]+)/,p=/(.*)\.([^.]+)/,l=/^(\w+)(\.|$)(.*)$/,h=["appendChild","insertBefore","replaceChild"];Node&&Node.prototype&&Node.prototype.appendChild?u.inPlace(Node.prototype,h,"dom-"):(u.inPlace(HTMLElement.prototype,h,"dom-"),u.inPlace(HTMLHeadElement.prototype,h,"dom-"),u.inPlace(HTMLBodyElement.prototype,h,"dom-")),f.on("dom-start",function(t){r(t[0])})}},{}],11:[function(t,e,n){var r=t("ee").get("mutation"),o=t("wrap-function")(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],12:[function(t,e,n){function r(t){var e=i.context(),n=s(t,"executor-",e,null,!1),r=new f(n);return i.context(r).getCtx=function(){return e},r}var o=t("wrap-function"),i=t("ee").get("promise"),a=t("ee").getOrSetContext,s=o(i),c=t(32),f=NREUM.o.PR;e.exports=i,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){i.emit("propagate",[null,!o],a,!1,!1),o=o||!t}}var o=!1;c(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var a=e.apply(f,arguments),s=f.resolve(a);return s}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&i.emit("propagate",[t,!0],n,!1,!1),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),c(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),o.wrapInPlace(f.prototype,"then",function(t){return function(){var e=this,n=o.argsToArray.apply(this,arguments),r=a(e);r.promise=e,n[0]=s(n[0],"cb-",r,null,!1),n[1]=s(n[1],"cb-",r,null,!1);var c=t.apply(this,n);return r.nextPromise=c,i.emit("propagate",[e,!0],c,!1,!1),c}}),i.on("executor-start",function(t){t[0]=s(t[0],"resolve-",this,null,!1),t[1]=s(t[1],"resolve-",this,null,!1)}),i.on("executor-err",function(t,e,n){t[1](n)}),i.on("cb-end",function(t,e,n){i.emit("propagate",[n,!0],this.nextPromise,!1,!1)}),i.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=i.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],13:[function(t,e,n){var r=t("ee").get("raf"),o=t("wrap-function")(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],14:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t("wrap-function")(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],15:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){x.push(t),m&&(E?E.then(a):w?w(a):(R=-R,O.data=R))}function a(){for(var t=0;t<x.length;t++)r([],x[t]);x.length&&(x=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(7);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),p=t(23),l=NREUM.o,h=l.XHR,m=l.MO,v=l.PR,w=l.SI,g="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],x=[];e.exports=u;var b=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(g,o,p(!1))}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(h,b),b.prototype=h.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),m){var E=v&&v.resolve();if(!w&&!v){var R=1,O=document.createTextNode(R);new m(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===g||a()})},{}],16:[function(t,e,n){function r(t){if(!s(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=l.generateSpanId(),m=l.generateTraceId(),v=Date.now(),w={spanId:h,traceId:m,timestamp:v};return(t.sameOrigin||c(t)&&p())&&(w.traceContextParentHeader=o(h,m),w.traceContextStateHeader=i(h,v,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&c(t)&&d())&&(w.newrelicHeader=a(h,m,v,n,r,f)),w}function o(t,e){return"00-"+e+"-"+t+"-01"}function i(t,e,n,r,o){var i=0,a="",s=1,c="",f="";return o+"@nr="+i+"-"+s+"-"+n+"-"+r+"-"+t+"-"+a+"-"+c+"-"+f+"-"+e}function a(t,e,n,r,o,i){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:o,id:t,tr:e,ti:n}};return i&&r!==i&&(s.d.tk=i),btoa(JSON.stringify(s))}function s(t){return f()&&c(t)}function c(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var o=h(n.allowed_origins[r]);if(t.hostname===o.hostname&&t.protocol===o.protocol&&t.port===o.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function p(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var l=t(29),h=t(18);e.exports={generateTracePayload:r,shouldGenerateTrace:s}},{}],17:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<p;r++)t.removeEventListener(d[r],this.listener,!1);return e.protocol&&"data"===e.protocol?void g("Ajax/DataUrl/Excluded"):void(e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):i(this,t),n.cbTime=this.cbTime,s("xhr",[e,n,this.startTime,this.endTime,"xhr"],this)))}}function o(t,e){var n=c(e),r=t.params;r.hostname=n.hostname,r.port=n.port,r.protocol=n.protocol,r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=n,t.sameOrigin=n.sameOrigin}function i(t,e){t.params.status=e.status;var n=v(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable&&!a.disabled){var s=t("handle"),c=t(18),f=t(16).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],p=d.length,l=t("id"),h=t(24),m=t(22),v=t(19),w=t(23),g=t(25).recordSupportability,y=NREUM.o.REQ,x=window.XMLHttpRequest;a.features.xhr=!0,t(15),t(8),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,e.params=this.params||{},e.metrics=this.metrics||{},t.addEventListener("load",function(n){i(e,t)},w(!1)),h&&(h>34||h<10)||t.addEventListener("progress",function(t){e.lastSize=t.loaded},w(!1))}),u.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=m(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<p;s++)e.addEventListener(d[s],this.listener,w(!1))}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("xhr-resolved",function(){this.endTime=a.now()}),u.on("addEventListener-end",function(t,e){e instanceof x&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof x&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof x&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url?n=t[0].url:window.URL&&t[0]&&t[0]instanceof URL&&(n=t[0].href),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var o=f(this.parsedOrigin);if(o&&(o.newrelicHeader||o.traceContextParentHeader))if("string"==typeof t[0]||window.URL&&t[0]&&t[0]instanceof URL){var i={};for(var a in r)i[a]=r[a];i.headers=new Headers(r.headers||{}),e(i.headers,o)&&(this.dt=o),t.length>1?t[1]=i:t.push(i)}else t[0]&&t[0].headers&&e(t[0].headers,o)&&(this.dt=o)}),u.on("fetch-start",function(t,e){this.params={},this.metrics={},this.startTime=a.now(),this.dt=e,t.length>=1&&(this.target=t[0]),t.length>=2&&(this.opts=t[1]);var n,r=this.opts||{},i=this.target;if("string"==typeof i?n=i:"object"==typeof i&&i instanceof y?n=i.url:window.URL&&"object"==typeof i&&i instanceof URL&&(n=i.href),o(this,n),"data"!==this.params.protocol){var s=(""+(i&&i instanceof y&&i.method||r.method||"GET")).toUpperCase();this.params.method=s,this.txSize=m(r.body)||0}}),u.on("fetch-done",function(t,e){if(this.endTime=a.now(),this.params||(this.params={}),"data"===this.params.protocol)return void g("Ajax/DataUrl/Excluded");this.params.status=e?e.status:0;var n;"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var r={txSize:this.txSize,rxSize:n,duration:a.now()-this.startTime};s("xhr",[this.params,r,this.startTime,this.endTime,"fetch"],this)})}},{}],18:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];if(0===(t||"").indexOf("data:"))return{protocol:"data"};var e=document.createElement("a"),n=window.location,o={};e.href=t,o.port=e.port;var i=e.href.split("://");!o.port&&i[1]&&(o.port=i[1].split("/")[0].split("@").pop().split(":")[1]),o.port&&"0"!==o.port||(o.port="https"===i[0]?"443":"80"),o.hostname=e.hostname||n.hostname,o.pathname=e.pathname,o.protocol=i[0],"/"!==o.pathname.charAt(0)&&(o.pathname="/"+o.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&&e.port===n.port;return o.sameOrigin=a&&(!e.hostname||s),"/"===o.pathname&&(r[t]=o),o}},{}],19:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?o(t.response):"text"===n||""===n||void 0===n?o(t.responseText):void 0}var o=t(22);e.exports=r},{}],20:[function(t,e,n){function r(){}function o(t,e,n,r){return function(){return u.recordSupportability("API/"+e+"/called"),i(t+e,[f.now()].concat(s(arguments)),n?null:this,r),n?void 0:this}}var i=t("handle"),a=t(32),s=t(33),c=t("ee").get("tracer"),f=t("loader"),u=t(25),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",h=l+"ixn-";a(p,function(t,e){d[e]=o(l,e,!0,"api")}),d.addPageAction=o(l,"addPageAction",!0),d.setCurrentRouteName=o(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(h+"tracer",[f.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=o(h,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),u.recordSupportability("API/noticeError/called"),i("err",[t,f.now(),!1,e])}},{}],21:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],22:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],23:[function(t,e,n){var r=!1;try{var o=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,o),window.removeEventListener("testPassive",null,o)}catch(i){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],24:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],25:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return i("storeMetric",n,null,"api"),n}function o(t,e){var n=[s,t,{name:t},e];return i("storeEventMetrics",n,null,"api"),n}var i=t("handle"),a="sm",s="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:s},recordSupportability:r,recordCustom:o}},{}],26:[function(t,e,n){function r(){return s.exists&&performance.now?Math.round(performance.now()):(i=Math.max((new Date).getTime(),i))-a}function o(){return i}var i=(new Date).getTime(),a=i,s=t(34);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=o},{}],27:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],28:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function o(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(f&&f<r.startTime)return;var o=[r],i=a({});i&&o.push(i),l("lcp",o)}}function i(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function s(t){if(t instanceof w&&!y){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=h.now()?n.fid=h.now()-e:e>h.offset&&e<=Date.now()?(e-=h.offset,n.fid=h.now()-e):e=h.now(),y=!0,l("timing",["fi",e,n])}}function c(t){"hidden"===t&&(f=h.now(),l("pageHide",[f]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,d,p,l=t("handle"),h=t("loader"),m=t(31),v=t(23),w=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){u=new PerformanceObserver(r);try{u.observe({entryTypes:["paint"]})}catch(g){}d=new PerformanceObserver(o);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(g){}p=new PerformanceObserver(i);try{p.observe({type:"layout-shift",buffered:!0})}catch(g){}}if("addEventListener"in document){var y=!1,x=["click","keydown","mousedown","pointerdown","touchstart"];x.forEach(function(t){document.addEventListener(t,s,v(!1))})}m(c)}},{}],29:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<i.length;s++)o=i[s],"x"===o?a+=t().toString(16):"y"===o?(o=3&t()|8,a+=o.toString(16)):a+=o;return a}function o(){return a(16)}function i(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,o=window.crypto||window.msCrypto;o&&o.getRandomValues&&Uint8Array&&(n=o.getRandomValues(new Uint8Array(31)));for(var i=[],a=0;a<t;a++)i.push(e().toString(16));return i.join("")}e.exports={generateUuid:r,generateSpanId:o,generateTraceId:i}},{}],30:[function(t,e,n){function r(t,e){if(!o)return!1;if(t!==o)return!1;if(!e)return!0;if(!i)return!1;for(var n=i.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}e.exports={agent:o,version:i,match:r}},{}],31:[function(t,e,n){function r(t){function e(){t(s&&document[s]?document[s]:document[i]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,o(!1))}var o=t(23);e.exports=r;var i,a,s;"undefined"!=typeof document.hidden?(i="hidden",a="visibilitychange",s="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",a="webkitvisibilitychange",s="webkitVisibilityState")},{}],32:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],33:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],34:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?f(t,c,a):a()}function n(n,r,o,i,a){if(a!==!1&&(a=!0),!l.aborted||i){t&&a&&t(n,r,o);for(var s=e(o),c=m(n),f=c.length,u=0;u<f;u++)c[u].apply(s,r);var p=d[y[n]];return p&&p.push([x,n,r,s]),s}}function i(t,e){g[t]=m(t).concat(e)}function h(t,e){var n=g[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return g[t]||[]}function v(t){return p[t]=p[t]||o(n)}function w(t,e){l.aborted||u(t,function(t,n){e=e||"feature",y[n]=e,e in d||(d[e]=[])})}var g={},y={},x={on:i,addEventListener:i,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:w,abort:s,aborted:!1};return x}function i(t){return f(t,c,a)}function a(){return new r}function s(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var c="nr@context",f=t("gos"),u=t(32),d={},p={},l=e.exports=o();e.exports.getOrSetContext=i,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!S++){var t=T.info=NREUM.info,e=v.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();c(R,function(e,n){t[e]||(t[e]=n)});var n=a();s("mark",["onload",n+T.offset],null,"api"),s("timing",["load",n]);var r=v.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=h+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function o(){"complete"===v.readyState&&i()}function i(){s("mark",["domContent",a()+T.offset],null,"api")}var a=t(26),s=t("handle"),c=t(32),f=t("ee"),u=t(30),d=t(27),p=t(21),l=t(23),h=p.getConfiguration("ssl")===!1?"http":"https",m=window,v=m.document,w="addEventListener",g="attachEvent",y=m.XMLHttpRequest,x=y&&y.prototype,b=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:y,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var E=""+location,R={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1215.min.js"},O=y&&x&&x[w]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:u,disabled:b};if(!b){t(20),t(28),v[w]?(v[w]("DOMContentLoaded",i,l(!1)),m[w]("load",r,l(!1))):(v[g]("onreadystatechange",o),m[g]("onload",r)),s("mark",["firstbyte",a.getLastTimestamp()],null,"api");var S=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,f){function nrWrapper(){var i,a,u,p;try{a=this,i=d(arguments),u="function"==typeof r?r(i,a):r||{}}catch(l){o([l,"",[i,a,c],u],t)}s(n+"start",[i,a,c],u,f);try{return p=e.apply(a,i)}catch(h){throw s(n+"err",[i,a,h],u,f),h}finally{s(n+"end",[i,a,p],u,f)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,i(e,nrWrapper,t),nrWrapper)}function r(t,e,r,o,i){r||(r="");var s,c,f,u="-"===r.charAt(0);for(f=0;f<e.length;f++)c=e[f],s=t[c],a(s)||(t[c]=n(s,u?c+r:r,o,c,i))}function s(n,r,i,a){if(!h||e){var s=h;h=!0;try{t.emit(n,r,i,e,a)}catch(c){o([c,n,r,i],t)}h=s}}return t||(t=u),n.inPlace=r,n.flag=p,n}function o(t,e){e||(e=u);try{e.emit("internal-error",t)}catch(n){}}function i(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(i){o([i],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function s(t,e){var n=e(t);return n[p]=t,i(t,n,u),n}function c(t,e,n){var r=t[e];t[e]=s(r,n)}function f(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var u=t("ee"),d=t(33),p="nr@original",l=Object.prototype.hasOwnProperty,h=!1;e.exports=r,e.exports.wrapFunction=s,e.exports.wrapInPlace=c,e.exports.argsToArray=f},{}]},{},["loader",2,17,5,3,4]);</script>
+	<meta name="format-detection" content="telephone=no">
+	
+	<meta name="is-fpage" content="0">
+	<meta name="is-page" content="0">
+	<meta name="is-category" content="0">
+	<meta name="is-tag" content="0">
+	<meta name="is-single" content="1">
+	
+		<meta name="ad-category" content="top-news">		
+
+	
+    <!--Cafe Media Head Tag -->
+    <script>
+    (function(w, d) {
+            w.adthrive = w.adthrive || {};
+            w.adthrive.cmd = w.adthrive.cmd || [];
+            w.adthrive.plugin = 'adthrive-ads-1.0.39';
+            w.adthrive.host = 'ads.adthrive.com';
+            w.adthrive.threshold = Math.floor(Math.random() * 100 + 1);
+            var s = d.createElement('script');
+            s.async = true;
+            s.referrerpolicy = 'no-referrer-when-downgrade';
+            s.src = 'https://' + w.adthrive.host + '/sites/5f6a7a5292608a0e85035662/ads.min.js?referrer=' + w.encodeURIComponent(w.location.href) + '&threshold=' + w.adthrive.threshold;
+            var n = d.getElementsByTagName('script')[0];
+            n.parentNode.insertBefore(s, n);
+        })(window, document);
+    function cam_getKeyByValue(object, value) {
+        return Object.keys(object).find(key => object[key] === value);
+    }
+    function cam_unique_array(a) {
+        var seen = {};
+        return a.filter(function(item) {
+            return seen.hasOwnProperty(item) ? false : (seen[item] = true);
+        });
+    }
+    window.adthrive.cmd.push(function() {
+        cam_targeting_values = [
+            ...(document.body.classList || [])
+        ];
+        cam_unique_targeting = [];
+        var cam_hubb_location = encodeURIComponent(window.location.pathname.split('/')[1]).toLowerCase();
+        if (cam_hubb_location.length == 0) {
+            cam_targeting_values.push('home');
+        } else if (cam_hubb_location.length <= 35) {
+            cam_targeting_values.push(cam_hubb_location);
+        } else {
+            cam_targeting_values.push(cam_hubb_location.substring(0, 35));
+        }
+        try {
+            if (catid) {
+                cam_tv_catid = cam_getKeyByValue(SEOSlugArray, parseInt(catid));
+                cam_tv_vd = cam_getKeyByValue(virtualDirectoryArray, parseInt(catid));
+                cam_adunitarray = adUnitArray[catid].replace('/6585/', '').split('/');
+                if (adUnitArray[catid].replace('/6585/', '').split('/')[2]) {
+                    cam_targeting_values.push('hubb_' + adUnitArray[catid].replace('/6585/', '').split('/')[2].substring(0, 35));
+                }
+                if (adUnitArray[catid].replace('/6585/', '').split('/')[3]) {
+                    cam_targeting_values.push('hubb_' + adUnitArray[catid].replace('/6585/', '').split('/')[3].substring(0, 35));
+                }
+                cam_targeting_values.push(cam_tv_catid.substring(0, 35));
+                cam_targeting_values.push(cam_tv_vd.substring(0, 35));
+            }
+        } catch (err) {}
+        try {
+            if (window.DFP_custom_targeting.slug) {
+                cam_slug = DFP_custom_targeting.slug;
+                console.log(cam_slug.substring(0, 35));
+                cam_targeting_values.push(cam_slug.substring(0, 35));
+            }
+        } catch (err) {}
+        try {
+            cam_corr = Math.floor((Math.random() * 12) + 1);
+            if (cam_corr <= 3) {
+                cam_2spon = 'A';
+                cam_3spon = 'A';
+                cam_4spon = 'A';
+            } else if (cam_corr == 4) {
+                cam_2spon = 'A';
+                cam_3spon = 'A';
+                cam_4spon = 'B';
+            } else if (cam_corr <= 6) {
+                cam_2spon = 'A';
+                cam_3spon = 'B';
+                cam_4spon = 'B';
+            } else if (cam_corr <= 8) {
+                cam_2spon = 'B';
+                cam_3spon = 'B';
+                cam_4spon = 'C';
+            } else if (cam_corr == 9) {
+                cam_2spon = 'B';
+                cam_3spon = 'C';
+                cam_4spon = 'C';
+            } else {
+                cam_2spon = 'B';
+                cam_3spon = 'C';
+                cam_4spon = 'D';
+            }
+            cam_targeting_values.push('corr_' + cam_corr);
+            cam_targeting_values.push('corr_2sponsors_spon' + cam_2spon);
+            cam_targeting_values.push('corr_3sponsors_spon' + cam_3spon);
+            cam_targeting_values.push('corr_4sponsors_spon' + cam_4spon);
+        } catch (err) {}
+        try {
+            if (window.DFP_custom_targeting.is_article) {
+                cam_is_article = DFP_custom_targeting.is_article;
+                console.log(cam_is_article.substring(0, 24));
+                cam_targeting_values.push('is_article_' + cam_is_article.substring(0, 24));
+            }
+        } catch (err) {}
+        try {
+            if (window.DFP_custom_targeting.sponsor) {
+                cam_sponsor = DFP_custom_targeting.sponsor;
+                console.log(cam_sponsor.substring(0, 35));
+                cam_targeting_values.push(cam_sponsor.substring(0, 35));
+            }
+        } catch (err) {}
+        try {
+            if (window.DFP_custom_targeting.category && Array.isArray(window.DFP_custom_targeting.category)) {
+                for (i = 0; i <= window.DFP_custom_targeting.category.length - 1; i++) {
+                    cam_cat = window.DFP_custom_targeting.category[i];
+                    cam_targeting_values.push(cam_cat.substring(0, 35));
+                    console.log(window.DFP_custom_targeting.category[i]);
+                }
+            } else if (window.DFP_custom_targeting.category) {
+                cam_cat = window.DFP_custom_targeting.category;
+                cam_targeting_values.push(cam_cat.substring(0, 35));
+                console.log(window.DFP_custom_targeting.category);
+            }
+        } catch (err) {}
+        // if (cam_targeting_values.length > 0) {
+        //     cam_unique_targeting = cam_unique_array(cam_targeting_values);
+        //     window.adthrive.siteAds.targeting.push({
+        //         key: 'at_custom_1',
+        //         value: cam_unique_targeting,
+        //     });
+        // }
+        if (cam_targeting_values.length > 0) {
+            window.adthrive.setTargeting({key: 'at_custom_1', value: cam_targeting_values.map(x => 'hubb_' + x.toLowerCase().replace(/\s/g, ''))});
+        }
+        setTimeout(function() {
+            window.adthrive.advertiser_ids = [];
+            window.adthrive.slots._slots.forEach((values, key) => {
+                if (values.googleTagSlot.getResponseInformation()) {
+                    if (values.googleTagSlot.getResponseInformation().advertiserId == 4927324502) {
+                        console.log('CAM - disabling refresh on : ' + key);
+                        window.adthrive.slotManager.updateRefreshTimeout(key, 0);
+                    }
+                }
+            });
+        }, 10000);
+    });
+    </script>
+    <!-- End Head Tags - Cafe Media --><!-- Zeta Global Head Tag --><script async="" type="text/javascript">function zync_call() { var z = document.createElement("script"); var zmpID="kstp-hubbard-tv"; var z_src = "https://live.rezync.com/sync?c=16b6410431b6374e780104abb0443ca8&p=9b78d9d5371f2d747e7824a9ee3fa5c4&k=kstp-hubbard-tv-pixel-0084&zmpID="+zmpID; z.setAttribute("src", z_src); document.body.appendChild(z); } if (['complete', 'interactive'].indexOf(document.readyState) >= 0) { zync_call(); } else { window.addEventListener("DOMContentLoaded", () => { zync_call(); }); } </script><!-- End Tags - Zeta Global --><meta name="bt:id" content="article-2100414"><meta name="bt:pubDate" content="1646190696"><meta name="bt:modDate" content="1646260182">
+    <!--Chartbeat Head Tag -->
+    <script type="text/javascript">
+    (function() {
+        /** CONFIGURATION START **/
+        var _sf_async_config = window._sf_async_config = (window._sf_async_config || {});
+        _sf_async_config.uid = 65898 //CHANGE THIS TO YOUR ACCOUNT ID
+        _sf_async_config.domain = 'kstp.com'; //CHANGE THIS TO YOUR SITE ID
+        _sf_async_config.useCanonical = true;
+        _sf_async_config.useCanonicalDomain = true;
+        _sf_async_config.sections = 'Top News,National &amp; World News,AP Business'; //SET PAGE SECTION(S)
+        _sf_async_config.authors = ''; //SET PAGE AUTHOR(S)
+        /** CONFIGURATION END **/
+        function loadChartbeat() {
+            var e = document.createElement('script');
+            var n = document.getElementsByTagName('script')[0];
+            e.type = 'text/javascript';
+            e.async = true;
+            e.src = '//static.chartbeat.com/js/chartbeat.js';
+            n.parentNode.insertBefore(e, n);
+        }
+        loadChartbeat();
+     })();
+    </script>
+    <!-- End Head Tags - Chartbeat -->
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v17.3 (Yoast SEO v17.8) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Russia-Ukraine War: What to know on Day 7 of Russian assault - KSTP.com Eyewitness News</title>
+	<meta name="description" content="The number of people who have fled Ukraine since Russian forces invaded on Feb. 24 has reached 1 million. The U.N. refugee agency says the tide of people fleeing Ukraine — including by car, train and on foot — marks the swiftest exodus of refugees this century. Russia and Ukraine said Wednesday that they were prepared to hold talks for the second time, expected to take place Thursday in Belarus. There appears to be little common ground between the two sides. The U.N. General Assembly has condemned the invasion and called on Russia to withdraw its troops from Ukraine.">
+	<link rel="canonical" href="https://kstp.com/kstp-news/top-news/russia-ukraine-war-what-to-know-on-day-7-of-russian-assault/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Russia-Ukraine War: What to know on Day 7 of Russian assault">
+	<meta property="og:description" content="The number of people who have fled Ukraine since Russian forces invaded on Feb. 24 has reached 1 million. The U.N. refugee agency says the tide of people fleeing Ukraine — including by car, train and on foot — marks the swiftest exodus of refugees this century. Russia and Ukraine said Wednesday that they were prepared to hold talks for the second time, expected to take place Thursday in Belarus. There appears to be little common ground between the two sides. The U.N. General Assembly has condemned the invasion and called on Russia to withdraw its troops from Ukraine.">
+	<meta property="og:url" content="https://kstp.com/kstp-news/top-news/russia-ukraine-war-what-to-know-on-day-7-of-russian-assault/">
+	<meta property="og:site_name" content="KSTP.com Eyewitness News">
+	<meta property="article:publisher" content="https://www.facebook.com/KSTPTV/">
+	<meta property="article:published_time" content="2022-03-02T09:11:36+00:00">
+	<meta property="article:modified_time" content="2022-03-03T04:29:42+00:00">
+	<meta property="og:image" content="https://kstp.com/wp-content/uploads/AP/Russia_Ukraine_War_82981.jpg">
+	<meta property="og:image:width" content="512">
+	<meta property="og:image:height" content="341">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:creator" content="@KSTP">
+	<meta name="twitter:site" content="@KSTP">
+	<meta name="twitter:label1" content="Est. reading time">
+	<meta name="twitter:data1" content="7 minutes">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://kstp.com/#organization","name":"KSTP-TV LLC","url":"https://kstp.com/","sameAs":["https://www.facebook.com/KSTPTV/","https://www.instagram.com/kstptv/?hl=en","https://www.youtube.com/channel/UCVBmhZPjBx0DsvQKQYYDGxw","https://twitter.com/KSTP"],"logo":{"@type":"ImageObject","@id":"https://kstp.com/#logo","inLanguage":"en-US","url":"https://kstp.com/wp-content/uploads/2021/06/5abc_1024x1024_WhiteBKG.jpg","contentUrl":"https://kstp.com/wp-content/uploads/2021/06/5abc_1024x1024_WhiteBKG.jpg","width":1024,"height":1024,"caption":"KSTP-TV LLC"},"image":{"@id":"https://kstp.com/#logo"}},{"@type":"WebSite","@id":"https://kstp.com/#website","url":"https://kstp.com/","name":"KSTP.com Eyewitness News","description":"Minneapolis and St. Paul - News, Weather and Sports","publisher":{"@id":"https://kstp.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kstp.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://kstp.com/kstp-news/top-news/russia-ukraine-war-what-to-know-on-day-7-of-russian-assault/#primaryimage","inLanguage":"en-US","url":"https://kstp.com/wp-content/uploads/AP/Russia_Ukraine_War_82981.jpg","contentUrl":"https://kstp.com/wp-content/uploads/AP/Russia_Ukraine_War_82981.jpg","width":512,"height":341,"caption":"Smoke and flameS are seen inside a damaged gym following shelling in Kyiv, Ukraine, Wednesday, March 2, 2022. Russian forces have escalated their attacks on crowded cities in what Ukraine\u2019s leader called a blatant campaign of terror. (AP Photo/Efrem Lukatsky)"},{"@type":"WebPage","@id":"https://kstp.com/kstp-news/top-news/russia-ukraine-war-what-to-know-on-day-7-of-russian-assault/#webpage","url":"https://kstp.com/kstp-news/top-news/russia-ukraine-war-what-to-know-on-day-7-of-russian-assault/","name":"Russia-Ukraine War: What to know on Day 7 of Russian assault - KSTP.com Eyewitness News","isPartOf":{"@id":"https://kstp.com/#website"},"primaryImageOfPage":{"@id":"https://kstp.com/kstp-news/top-news/russia-ukraine-war-what-to-know-on-day-7-of-russian-assault/#primaryimage"},"datePublished":"2022-03-02T09:11:36+00:00","dateModified":"2022-03-03T04:29:42+00:00","description":"The number of people who have fled Ukraine since Russian forces invaded on Feb. 24 has reached 1 million. The U.N. refugee agency says the tide of people fleeing Ukraine \u2014 including by car, train and on foot \u2014 marks the swiftest exodus of refugees this century. Russia and Ukraine said Wednesday that they were prepared to hold talks for the second time, expected to take place Thursday in Belarus. There appears to be little common ground between the two sides. The U.N. General Assembly has condemned the invasion and called on Russia to withdraw its troops from Ukraine.","breadcrumb":{"@id":"https://kstp.com/kstp-news/top-news/russia-ukraine-war-what-to-know-on-day-7-of-russian-assault/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://kstp.com/kstp-news/top-news/russia-ukraine-war-what-to-know-on-day-7-of-russian-assault/"]}]},{"@type":"BreadcrumbList","@id":"https://kstp.com/kstp-news/top-news/russia-ukraine-war-what-to-know-on-day-7-of-russian-assault/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kstp.com/"},{"@type":"ListItem","position":2,"name":"Russia-Ukraine War: What to know on Day 7 of Russian assault"}]},{"@type":"NewsArticle","@id":"https://kstp.com/kstp-news/top-news/russia-ukraine-war-what-to-know-on-day-7-of-russian-assault/#article","isPartOf":{"@id":"https://kstp.com/kstp-news/top-news/russia-ukraine-war-what-to-know-on-day-7-of-russian-assault/#webpage"},"author":{"@id":""},"headline":"Russia-Ukraine War: What to know on Day 7 of Russian assault","datePublished":"2022-03-02T09:11:36+00:00","dateModified":"2022-03-03T04:29:42+00:00","mainEntityOfPage":{"@id":"https://kstp.com/kstp-news/top-news/russia-ukraine-war-what-to-know-on-day-7-of-russian-assault/#webpage"},"wordCount":1479,"publisher":{"@id":"https://kstp.com/#organization"},"image":{"@id":"https://kstp.com/kstp-news/top-news/russia-ukraine-war-what-to-know-on-day-7-of-russian-assault/#primaryimage"},"thumbnailUrl":"https://kstp.com/wp-content/uploads/AP/Russia_Ukraine_War_82981.jpg","keywords":["Ukraine","Russia"],"articleSection":["Top News","National &amp; World News","AP Business"],"inLanguage":"en-US","copyrightYear":"2022","copyrightHolder":{"@id":"https://kstp.com/#organization"}}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel="dns-prefetch" href="https://kstp.com/">
+<link rel="dns-prefetch" href="https://cdnjs.cloudflare.com/">
+<link rel="dns-prefetch" href="https://stackpath.bootstrapcdn.com/">
+<link rel="dns-prefetch" href="https://s.w.org/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/kstp.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="sbi_styles-css" href="sbi-styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="sby_styles-css" href="sb-youtube.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="style.css" type="text/css" media="all">
+<link rel="stylesheet" id="cff_carousel_css-css" href="carousel.css" type="text/css" media="all">
+<link rel="stylesheet" id="ctf_styles-css" href="ctf-styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="sp-ea-font-awesome-css" href="font-awesome.css" type="text/css" media="all">
+<link rel="stylesheet" id="sp-ea-animation-css" href="animate.css" type="text/css" media="all">
+<link rel="stylesheet" id="sp-ea-style-css" href="ea-style.css" type="text/css" media="all">
+<style id="sp-ea-style-inline-css" type="text/css">
+#sp-ea-1676764 .spcollapsing{height: 0; overflow: hidden; transition-property: height; transition-duration: 500ms;}.sp-easy-accordion iframe{width: 100%;}#sp-ea-1676764.sp-easy-accordion>.sp-ea-single.eap_inactive>.ea-header a{background-color: #bb0000 !important; color: #fff !important;}#sp-ea-1676764.sp-easy-accordion>.sp-ea-single{ margin-bottom: 10px; border: 1px solid #e2e2e2; border-radius: 3px;} #sp-ea-1676764.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-icon{ color: #444;font-size: 20px;} #sp-ea-1676764.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-custom-icon{ max-width: 20px; }#sp-ea-1676764.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .eap-title-icon{color: #444;} #sp-ea-1676764.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .eap-title-icon{color: #444;} #sp-ea-1676764.sp-easy-accordion>.sp-ea-single>.ea-header a{padding: 15px 15px 15px 15px; color: #444; font-size: 20px; line-height: 30px; text-align: left; letter-spacing: 0; text-transform: none;}#sp-ea-1676764.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{color: #444;}#sp-ea-1676764.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{color: #444;}#sp-ea-1676764.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{background: #fff; padding: 15px 15px 15px 15px; border-radius: 0 0 3px 3px; color: #444; font-size: 16px; text-align: left; letter-spacing: 0; line-height: 26px; animation-delay: 200ms; text-transform: none;}#sp-ea-1676764.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{color: #444; font-size: 16px;}#sp-ea-1676764.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .ea-expand-icon.fa{color: #444;}#sp-ea-1676764.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .ea-expand-icon.fa{color: #444;}#sp-ea-1676764.sp-easy-accordion>.sp-ea-single>.ea-header a{background: #eee;}#sp-ea-1676764.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{background: #eee;}#sp-ea-1676764.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{background: #eee;}#sp-ea-1676764.sp-easy-accordion>.sp-ea-single{border-radius: 3px; border: 1px solid #e2e2e2;}#sp-ea-1676764.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{border-radius: 0 0 3px 3px; border: none;}#sp-ea-1676764.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{float: left; margin-right: 10px;}#sp-ea-1676764 #eap_faq_search_bar_container input{display:none; opacity:0;}
+#sp-ea-1676764 #eap_faq_search_bar_container ::before{content:"";}#sp-ea-1339349 .spcollapsing{height: 0; overflow: hidden; transition-property: height; transition-duration: 500ms;}.sp-easy-accordion iframe{width: 100%;}#sp-ea-1339349.sp-easy-accordion>.sp-ea-single.eap_inactive>.ea-header a{background-color: #bb0000 !important; color: #fff !important;}#sp-ea-1339349.sp-easy-accordion>.sp-ea-single{ margin-bottom: 10px; border: 1px solid #e2e2e2; border-radius: 3px;} #sp-ea-1339349.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-icon{ color: #f7f7f7;font-size: 20px;} #sp-ea-1339349.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-custom-icon{ max-width: 20px; }#sp-ea-1339349.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .eap-title-icon{color: #828282;} #sp-ea-1339349.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .eap-title-icon{color: #f9f9f9;} #sp-ea-1339349.sp-easy-accordion>.sp-ea-single>.ea-header a{padding: 15px 15px 15px 15px; color: #f4f4f4; font-size: 20px; line-height: 30px; text-align: left; letter-spacing: 0; text-transform: none;}#sp-ea-1339349.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{color: #828282;}#sp-ea-1339349.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{color: #f7f7f7;}#sp-ea-1339349.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{background: #fff; padding: 15px 15px 15px 15px; border-radius: 0 0 3px 3px; color: #000000; font-size: 16px; text-align: left; letter-spacing: 0; line-height: 26px; animation-delay: 200ms; text-transform: none;}#sp-ea-1339349.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{color: #fcfcfc; font-size: 16px;}#sp-ea-1339349.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .ea-expand-icon.fa{color: #828282;}#sp-ea-1339349.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .ea-expand-icon.fa{color: #f9f9f9;}#sp-ea-1339349.sp-easy-accordion>.sp-ea-single>.ea-header a{background: #800000;}#sp-ea-1339349.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{background: #800000;}#sp-ea-1339349.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{background: #800000;}#sp-ea-1339349.sp-easy-accordion>.sp-ea-single{border-radius: 3px; border: 1px solid #e2e2e2;}#sp-ea-1339349.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{border-radius: 0 0 3px 3px; border: none;}#sp-ea-1339349.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{float: left; margin-right: 10px;}#sp-ea-1339349 #eap_faq_search_bar_container input{display:none; opacity:0;}
+#sp-ea-1339349 #eap_faq_search_bar_container ::before{content:"";}#sp-ea-1042144 .spcollapsing{height: 0; overflow: hidden; transition-property: height; transition-duration: 500ms;}.sp-easy-accordion iframe{width: 100%;}#sp-ea-1042144.sp-easy-accordion>.sp-ea-single.eap_inactive>.ea-header a{background-color: #bb0000 !important; color: #fff !important;}#sp-ea-1042144.sp-easy-accordion>.sp-ea-single{ margin-bottom: 10px; border: 1px solid #e2e2e2; border-radius: 3px;} #sp-ea-1042144.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-icon{ color: #f2f2f2;font-size: 20px;} #sp-ea-1042144.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-custom-icon{ max-width: 20px; }#sp-ea-1042144.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .eap-title-icon{color: #bfbfbf;} #sp-ea-1042144.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .eap-title-icon{color: #f2f2f2;} #sp-ea-1042144.sp-easy-accordion>.sp-ea-single>.ea-header a{padding: 15px 15px 15px 15px; color: #ffffff; font-size: 20px; line-height: 30px; text-align: left; letter-spacing: 0; text-transform: none;}#sp-ea-1042144.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{color: #afafaf;}#sp-ea-1042144.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{color: #ffffff;}#sp-ea-1042144.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{background: #fff; padding: 15px 15px 15px 15px; border-radius: 0 0 3px 3px; color: #000000; font-size: 16px; text-align: left; letter-spacing: 0; line-height: 26px; animation-delay: 200ms; text-transform: none;}#sp-ea-1042144.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{color: #f2f2f2; font-size: 16px;}#sp-ea-1042144.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .ea-expand-icon.fa{color: #afafaf;}#sp-ea-1042144.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .ea-expand-icon.fa{color: #f2f2f2;}#sp-ea-1042144.sp-easy-accordion>.sp-ea-single>.ea-header a{background: #002699;}#sp-ea-1042144.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{background: #eeeeee;}#sp-ea-1042144.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{background: #002699;}#sp-ea-1042144.sp-easy-accordion>.sp-ea-single{border-radius: 3px; border: 1px solid #e2e2e2;}#sp-ea-1042144.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{border-radius: 0 0 3px 3px; border: none;}#sp-ea-1042144.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{float: left; margin-right: 10px;}#sp-ea-1042144 #eap_faq_search_bar_container input{display:none; opacity:0;}
+#sp-ea-1042144 #eap_faq_search_bar_container ::before{content:"";}#sp-ea-976271 .spcollapsing{height: 0; overflow: hidden; transition-property: height; transition-duration: 500ms;}.sp-easy-accordion iframe{width: 100%;}#sp-ea-976271.sp-easy-accordion>.sp-ea-single.eap_inactive>.ea-header a{background-color: #bb0000 !important; color: #fff !important;}#sp-ea-976271.sp-easy-accordion>.sp-ea-single{ margin-bottom: 10px; border: 1px solid #e2e2e2; border-radius: 3px;} #sp-ea-976271.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-icon{ color: #f7f7f7;font-size: 20px;} #sp-ea-976271.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-custom-icon{ max-width: 20px; }#sp-ea-976271.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .eap-title-icon{color: #bfbfbf;} #sp-ea-976271.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .eap-title-icon{color: #f9f9f9;} #sp-ea-976271.sp-easy-accordion>.sp-ea-single>.ea-header a{padding: 15px 15px 15px 15px; color: #f7f7f7; font-size: 20px; line-height: 30px; text-align: left; letter-spacing: 0; text-transform: none;}#sp-ea-976271.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{color: #000000;}#sp-ea-976271.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{color: #f7f7f7;}#sp-ea-976271.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{background: #fff; padding: 15px 15px 15px 15px; border-radius: 0 0 3px 3px; color: #444; font-size: 16px; text-align: left; letter-spacing: 0; line-height: 26px; animation-delay: 200ms; text-transform: none;}#sp-ea-976271.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{color: #f7f7f7; font-size: 16px;}#sp-ea-976271.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .ea-expand-icon.fa{color: #bfbfbf;}#sp-ea-976271.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .ea-expand-icon.fa{color: #f9f9f9;}#sp-ea-976271.sp-easy-accordion>.sp-ea-single>.ea-header a{background: #144697;}#sp-ea-976271.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{background: #eee;}#sp-ea-976271.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{background: #144697;}#sp-ea-976271.sp-easy-accordion>.sp-ea-single{border-radius: 3px; border: 1px solid #e2e2e2;}#sp-ea-976271.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{border-radius: 0 0 3px 3px; border: none;}#sp-ea-976271.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{float: left; margin-right: 10px;}#sp-ea-976271 #eap_faq_search_bar_container input{display:none; opacity:0;}
+#sp-ea-976271 #eap_faq_search_bar_container ::before{content:"";}#sp-ea-695474 .spcollapsing{height: 0; overflow: hidden; transition-property: height; transition-duration: 500ms;}.sp-easy-accordion iframe{width: 100%;}#sp-ea-695474.sp-easy-accordion>.sp-ea-single.eap_inactive>.ea-header a{background-color: #bb0000 !important; color: #fff !important;}#sp-ea-695474.sp-horizontal-accordion>.single-horizontal, #sp-ea-695474.sp-horizontal-accordion>.single-horizontal>.ea-header{-webkit-transition: width 500ms ease; -moz-transition: width 500ms ease; -ms-transition: width 500ms ease; -o-transition: width 500ms ease; transition: width 500ms ease;}#sp-ea-695474.sp-horizontal-accordion>.single-horizontal{width: 60px; height: 700px; background: #fff; border: 1px solid #e2e2e2; border-radius: 3px; margin-right: 10px; ;}#sp-ea-695474.sp-horizontal-accordion>.single-horizontal>.ea-header{width: 700px; top: 700px; background: #eee;}#sp-ea-695474.sp-horizontal-accordion>.single-horizontal>.ea-header:hover{background: #969696;}#sp-ea-695474.sp-horizontal-accordion>.single-horizontal.ea-expand>.ea-header{background: #eee;}#sp-ea-695474.sp-horizontal-accordion>.single-horizontal:last-of-type{border-right: 1px solid #e2e2e2;}#sp-ea-695474.sp-horizontal-accordion>.single-horizontal .ea-header a{color: #444; font-size: 20px; letter-spacing: 0; text-transform: none;} #sp-ea-695474.sp-horizontal-accordion>.single-horizontal>.ea-header{line-height: 30px; text-align: left;}#sp-ea-695474.sp-horizontal-accordion>.single-horizontal>.sp-collapse>.ea-body{margin-left: 70px; height: 700px; overflow: auto; animation-delay: 500ms; padding: 15px 15px 15px 15px; background: #fff; border-radius: 0 0 3px 3px; color: #444; font-size: 16px; text-align: left; letter-spacing: 0; line-height: 26px; text-transform: none;}#sp-ea-695474.sp-horizontal-accordion>.single-horizontal>.ea-header a .ea-expand-icon{margin-right: 10px; font-size: 16px; color: #444;}#sp-ea-695474.sp-horizontal-accordion>.single-horizontal>.ea-header:hover a .ea-expand-icon{color: #444;}#sp-ea-695474.sp-horizontal-accordion>.single-horizontal.ea-expand>.ea-header a .ea-expand-icon{color: #444;}#sp-ea-695474.sp-horizontal-accordion>.single-horizontal.ea-expand.active>.ea-header a{border-bottom: 1px solid #e2e2e2;}#sp-ea-695474 #eap_faq_search_bar_container input{display:none; opacity:0;}
+#sp-ea-695474 #eap_faq_search_bar_container ::before{content:"";}#sp-ea-695297 .spcollapsing{height: 0; overflow: hidden; transition-property: height; transition-duration: 500ms;}.sp-easy-accordion iframe{width: 100%;}#sp-ea-695297.sp-easy-accordion>.sp-ea-single.eap_inactive>.ea-header a{background-color: #bb0000 !important; color: #fff !important;}#sp-ea-695297.sp-easy-accordion>.sp-ea-single{ margin-bottom: 10px; border: 1px solid #96c0d4; border-radius: 3px;} #sp-ea-695297.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-icon{ color: #000000;font-size: 20px;} #sp-ea-695297.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-custom-icon{ max-width: 20px; }#sp-ea-695297.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .eap-title-icon{color: #7a7a7a;} #sp-ea-695297.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .eap-title-icon{color: #d3d3d3;} #sp-ea-695297.sp-easy-accordion>.sp-ea-single>.ea-header a{padding: 15px 15px 15px 15px; color: #164a8e; font-size: 20px; line-height: 30px; text-align: left; letter-spacing: 0; text-transform: none;}#sp-ea-695297.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{color: #ffffff;}#sp-ea-695297.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{color: #ffffff;}#sp-ea-695297.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{background: #fff; padding: 15px 15px 15px 15px; border-radius: 0 0 3px 3px; color: #000000; font-size: 16px; text-align: left; letter-spacing: 0; line-height: 26px; animation-delay: 200ms; text-transform: none;}#sp-ea-695297.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{color: #ffffff; font-size: 16px;}#sp-ea-695297.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .ea-expand-icon.fa{color: #b7b7b7;}#sp-ea-695297.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .ea-expand-icon.fa{color: #7a7a7a;}#sp-ea-695297.sp-easy-accordion>.sp-ea-single>.ea-header a{background: #96c0d4;}#sp-ea-695297.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{background: #7a7a7a;}#sp-ea-695297.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{background: #96c0d4;}#sp-ea-695297.sp-easy-accordion>.sp-ea-single{border-radius: 3px; border: 1px solid #96c0d4;}#sp-ea-695297.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{border-radius: 0 0 3px 3px; border: none;}#sp-ea-695297.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{float: left; margin-right: 10px;}#sp-ea-695297 #eap_faq_search_bar_container input{display:none; opacity:0;}
+#sp-ea-695297 #eap_faq_search_bar_container ::before{content:"";}#sp-ea-695294 .spcollapsing{height: 0; overflow: hidden; transition-property: height; transition-duration: 500ms;}.sp-easy-accordion iframe{width: 100%;}#sp-ea-695294.sp-easy-accordion>.sp-ea-single.eap_inactive>.ea-header a{background-color: #bb0000 !important; color: #fff !important;}#sp-ea-695294.sp-easy-accordion>.sp-ea-single{ margin-bottom: 10px; border: 1px solid #96c0d4; border-radius: 3px;} #sp-ea-695294.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-icon{ color: #000000;font-size: 20px;} #sp-ea-695294.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-custom-icon{ max-width: 20px; }#sp-ea-695294.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .eap-title-icon{color: #7a7a7a;} #sp-ea-695294.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .eap-title-icon{color: #d3d3d3;} #sp-ea-695294.sp-easy-accordion>.sp-ea-single>.ea-header a{padding: 15px 15px 15px 15px; color: #164a8e; font-size: 20px; line-height: 30px; text-align: left; letter-spacing: 0; text-transform: none;}#sp-ea-695294.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{color: #ffffff;}#sp-ea-695294.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{color: #ffffff;}#sp-ea-695294.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{background: #fff; padding: 15px 15px 15px 15px; border-radius: 0 0 3px 3px; color: #000000; font-size: 16px; text-align: left; letter-spacing: 0; line-height: 26px; animation-delay: 200ms; text-transform: none;}#sp-ea-695294.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{color: #ffffff; font-size: 16px;}#sp-ea-695294.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .ea-expand-icon.fa{color: #b7b7b7;}#sp-ea-695294.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .ea-expand-icon.fa{color: #7a7a7a;}#sp-ea-695294.sp-easy-accordion>.sp-ea-single>.ea-header a{background: #96c0d4;}#sp-ea-695294.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{background: #7a7a7a;}#sp-ea-695294.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{background: #96c0d4;}#sp-ea-695294.sp-easy-accordion>.sp-ea-single{border-radius: 3px; border: 1px solid #96c0d4;}#sp-ea-695294.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{border-radius: 0 0 3px 3px; border: none;}#sp-ea-695294.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{float: left; margin-right: 10px;}#sp-ea-695294 #eap_faq_search_bar_container input{display:none; opacity:0;}
+#sp-ea-695294 #eap_faq_search_bar_container ::before{content:"";}#sp-ea-695291 .spcollapsing{height: 0; overflow: hidden; transition-property: height; transition-duration: 500ms;}.sp-easy-accordion iframe{width: 100%;}#sp-ea-695291.sp-easy-accordion>.sp-ea-single.eap_inactive>.ea-header a{background-color: #bb0000 !important; color: #fff !important;}#sp-ea-695291.sp-easy-accordion>.sp-ea-single{ margin-bottom: 10px; border: 1px solid #96c0d4; border-radius: 3px;} #sp-ea-695291.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-icon{ color: #000000;font-size: 20px;} #sp-ea-695291.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-custom-icon{ max-width: 20px; }#sp-ea-695291.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .eap-title-icon{color: #7a7a7a;} #sp-ea-695291.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .eap-title-icon{color: #d3d3d3;} #sp-ea-695291.sp-easy-accordion>.sp-ea-single>.ea-header a{padding: 15px 15px 15px 15px; color: #164a8e; font-size: 20px; line-height: 30px; text-align: left; letter-spacing: 0; text-transform: none;}#sp-ea-695291.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{color: #ffffff;}#sp-ea-695291.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{color: #ffffff;}#sp-ea-695291.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{background: #fff; padding: 15px 15px 15px 15px; border-radius: 0 0 3px 3px; color: #000000; font-size: 16px; text-align: left; letter-spacing: 0; line-height: 26px; animation-delay: 200ms; text-transform: none;}#sp-ea-695291.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{color: #ffffff; font-size: 16px;}#sp-ea-695291.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .ea-expand-icon.fa{color: #b7b7b7;}#sp-ea-695291.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .ea-expand-icon.fa{color: #7a7a7a;}#sp-ea-695291.sp-easy-accordion>.sp-ea-single>.ea-header a{background: #96c0d4;}#sp-ea-695291.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{background: #7a7a7a;}#sp-ea-695291.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{background: #96c0d4;}#sp-ea-695291.sp-easy-accordion>.sp-ea-single{border-radius: 3px; border: 1px solid #96c0d4;}#sp-ea-695291.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{border-radius: 0 0 3px 3px; border: none;}#sp-ea-695291.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{float: left; margin-right: 10px;}#sp-ea-695291 #eap_faq_search_bar_container input{display:none; opacity:0;}
+#sp-ea-695291 #eap_faq_search_bar_container ::before{content:"";}#sp-ea-695138 .spcollapsing{height: 0; overflow: hidden; transition-property: height; transition-duration: 500ms;}.sp-easy-accordion iframe{width: 100%;}#sp-ea-695138.sp-easy-accordion>.sp-ea-single.eap_inactive>.ea-header a{background-color: #bb0000 !important; color: #fff !important;}#sp-ea-695138.sp-easy-accordion>.sp-ea-single{ margin-bottom: 10px; border: 1px solid #96c0d4; border-radius: 3px;} #sp-ea-695138.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-icon{ color: #000000;font-size: 20px;} #sp-ea-695138.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-custom-icon{ max-width: 20px; }#sp-ea-695138.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .eap-title-icon{color: #7a7a7a;} #sp-ea-695138.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .eap-title-icon{color: #d3d3d3;} #sp-ea-695138.sp-easy-accordion>.sp-ea-single>.ea-header a{padding: 15px 15px 15px 15px; color: #164a8e; font-size: 20px; line-height: 30px; text-align: left; letter-spacing: 0; text-transform: none;}#sp-ea-695138.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{color: #ffffff;}#sp-ea-695138.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{color: #ffffff;}#sp-ea-695138.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{background: #fff; padding: 15px 15px 15px 15px; border-radius: 0 0 3px 3px; color: #000000; font-size: 16px; text-align: left; letter-spacing: 0; line-height: 26px; animation-delay: 200ms; text-transform: none;}#sp-ea-695138.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{color: #ffffff; font-size: 16px;}#sp-ea-695138.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .ea-expand-icon.fa{color: #b7b7b7;}#sp-ea-695138.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .ea-expand-icon.fa{color: #7a7a7a;}#sp-ea-695138.sp-easy-accordion>.sp-ea-single>.ea-header a{background: #96c0d4;}#sp-ea-695138.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{background: #7a7a7a;}#sp-ea-695138.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{background: #96c0d4;}#sp-ea-695138.sp-easy-accordion>.sp-ea-single{border-radius: 3px; border: 1px solid #96c0d4;}#sp-ea-695138.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{border-radius: 0 0 3px 3px; border: none;}#sp-ea-695138.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{float: left; margin-right: 10px;}#sp-ea-695138 #eap_faq_search_bar_container input{display:none; opacity:0;}
+#sp-ea-695138 #eap_faq_search_bar_container ::before{content:"";}#sp-ea-694892 .spcollapsing{height: 0; overflow: hidden; transition-property: height; transition-duration: 500ms;}.sp-easy-accordion iframe{width: 100%;}#sp-ea-694892.sp-easy-accordion>.sp-ea-single.eap_inactive>.ea-header a{background-color: #bb0000 !important; color: #fff !important;}#sp-ea-694892.sp-easy-accordion>.sp-ea-single{ margin-bottom: 10px; border: 1px solid #96c0d4; border-radius: 3px;} #sp-ea-694892.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-icon{ color: #000000;font-size: 20px;} #sp-ea-694892.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-custom-icon{ max-width: 20px; }#sp-ea-694892.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .eap-title-icon{color: #7a7a7a;} #sp-ea-694892.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .eap-title-icon{color: #d3d3d3;} #sp-ea-694892.sp-easy-accordion>.sp-ea-single>.ea-header a{padding: 15px 15px 15px 15px; color: #164a8e; font-size: 20px; line-height: 30px; text-align: left; letter-spacing: 0; text-transform: none;}#sp-ea-694892.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{color: #ffffff;}#sp-ea-694892.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{color: #ffffff;}#sp-ea-694892.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{background: #fff; padding: 15px 15px 15px 15px; border-radius: 0 0 3px 3px; color: #000000; font-size: 16px; text-align: left; letter-spacing: 0; line-height: 26px; animation-delay: 200ms; text-transform: none;}#sp-ea-694892.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{color: #ffffff; font-size: 16px;}#sp-ea-694892.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .ea-expand-icon.fa{color: #b7b7b7;}#sp-ea-694892.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .ea-expand-icon.fa{color: #7a7a7a;}#sp-ea-694892.sp-easy-accordion>.sp-ea-single>.ea-header a{background: #96c0d4;}#sp-ea-694892.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{background: #7a7a7a;}#sp-ea-694892.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{background: #96c0d4;}#sp-ea-694892.sp-easy-accordion>.sp-ea-single{border-radius: 3px; border: 1px solid #96c0d4;}#sp-ea-694892.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{border-radius: 0 0 3px 3px; border: none;}#sp-ea-694892.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{float: left; margin-right: 10px;}#sp-ea-694892 #eap_faq_search_bar_container input{display:none; opacity:0;}
+#sp-ea-694892 #eap_faq_search_bar_container ::before{content:"";}#sp-ea-694826 .spcollapsing{height: 0; overflow: hidden; transition-property: height; transition-duration: 500ms;}.sp-easy-accordion iframe{width: 100%;}#sp-ea-694826.sp-easy-accordion>.sp-ea-single.eap_inactive>.ea-header a{background-color: #bb0000 !important; color: #fff !important;}#sp-ea-694826.sp-easy-accordion>.sp-ea-single{ margin-bottom: 10px; border: 1px solid #96c0d4; border-radius: 3px;} #sp-ea-694826.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-icon{ color: #000000;font-size: 20px;} #sp-ea-694826.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-custom-icon{ max-width: 20px; }#sp-ea-694826.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .eap-title-icon{color: #7a7a7a;} #sp-ea-694826.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .eap-title-icon{color: #d3d3d3;} #sp-ea-694826.sp-easy-accordion>.sp-ea-single>.ea-header a{padding: 15px 15px 15px 15px; color: #164a8e; font-size: 20px; line-height: 30px; text-align: left; letter-spacing: 0; text-transform: none;}#sp-ea-694826.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{color: #ffffff;}#sp-ea-694826.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{color: #ffffff;}#sp-ea-694826.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{background: #fff; padding: 15px 15px 15px 15px; border-radius: 0 0 3px 3px; color: #000000; font-size: 16px; text-align: left; letter-spacing: 0; line-height: 26px; animation-delay: 200ms; text-transform: none;}#sp-ea-694826.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{color: #ffffff; font-size: 16px;}#sp-ea-694826.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .ea-expand-icon.fa{color: #b7b7b7;}#sp-ea-694826.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .ea-expand-icon.fa{color: #7a7a7a;}#sp-ea-694826.sp-easy-accordion>.sp-ea-single>.ea-header a{background: #96c0d4;}#sp-ea-694826.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{background: #7a7a7a;}#sp-ea-694826.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{background: #96c0d4;}#sp-ea-694826.sp-easy-accordion>.sp-ea-single{border-radius: 3px; border: 1px solid #96c0d4;}#sp-ea-694826.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{border-radius: 0 0 3px 3px; border: none;}#sp-ea-694826.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{float: left; margin-right: 10px;}#sp-ea-694826 #eap_faq_search_bar_container input{display:none; opacity:0;}
+#sp-ea-694826 #eap_faq_search_bar_container ::before{content:"";}#sp-ea-694514 .spcollapsing{height: 0; overflow: hidden; transition-property: height; transition-duration: 500ms;}.sp-easy-accordion iframe{width: 100%;}#sp-ea-694514.sp-easy-accordion>.sp-ea-single.eap_inactive>.ea-header a{background-color: #bb0000 !important; color: #fff !important;}#sp-ea-694514.sp-easy-accordion>.sp-ea-single{ margin-bottom: 10px; border: 1px solid #db1c2c; border-radius: 3px;} #sp-ea-694514.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-icon{ color: #ffffff;font-size: 20px;} #sp-ea-694514.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-custom-icon{ max-width: 20px; }#sp-ea-694514.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .eap-title-icon{color: #7a7a7a;} #sp-ea-694514.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .eap-title-icon{color: #444;} #sp-ea-694514.sp-easy-accordion>.sp-ea-single>.ea-header a{padding: 15px 15px 15px 15px; color: #ffffff; font-size: 20px; line-height: 30px; text-align: left; letter-spacing: 0; text-transform: none;}#sp-ea-694514.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{color: #ffffff;}#sp-ea-694514.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{color: #ffffff;}#sp-ea-694514.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{background: #fff; padding: 15px 15px 15px 15px; border-radius: 0 0 3px 3px; color: #000000; font-size: 16px; text-align: left; letter-spacing: 0; line-height: 26px; animation-delay: 200ms; text-transform: none;}#sp-ea-694514.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{color: #ffffff; font-size: 16px;}#sp-ea-694514.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .ea-expand-icon.fa{color: #b7b7b7;}#sp-ea-694514.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .ea-expand-icon.fa{color: #7a7a7a;}#sp-ea-694514.sp-easy-accordion>.sp-ea-single>.ea-header a{background: #db1c2c;}#sp-ea-694514.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{background: #7a7a7a;}#sp-ea-694514.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{background: #db1c2c;}#sp-ea-694514.sp-easy-accordion>.sp-ea-single{border-radius: 3px; border: 1px solid #db1c2c;}#sp-ea-694514.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{border-radius: 0 0 3px 3px; border: none;}#sp-ea-694514.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{float: left; margin-right: 10px;}#sp-ea-694514 #eap_faq_search_bar_container input{display:none; opacity:0;}
+#sp-ea-694514 #eap_faq_search_bar_container ::before{content:"";}#sp-ea-694148 .spcollapsing{height: 0; overflow: hidden; transition-property: height; transition-duration: 500ms;}.sp-easy-accordion iframe{width: 100%;}#sp-ea-694148.sp-easy-accordion>.sp-ea-single.eap_inactive>.ea-header a{background-color: #bb0000 !important; color: #fff !important;}#sp-ea-694148.sp-easy-accordion>.sp-ea-single{ margin-bottom: 10px; border: 1px solid #f28100; border-radius: 3px;} #sp-ea-694148.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-icon{ color: #ffffff;font-size: 20px;} #sp-ea-694148.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-custom-icon{ max-width: 20px; }#sp-ea-694148.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .eap-title-icon{color: #7a7a7a;} #sp-ea-694148.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .eap-title-icon{color: #444;} #sp-ea-694148.sp-easy-accordion>.sp-ea-single>.ea-header a{padding: 15px 15px 15px 15px; color: #ffffff; font-size: 20px; line-height: 30px; text-align: left; letter-spacing: 0; text-transform: none;}#sp-ea-694148.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{color: #ffffff;}#sp-ea-694148.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{color: #ffffff;}#sp-ea-694148.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{background: #fff; padding: 15px 15px 15px 15px; border-radius: 0 0 3px 3px; color: #000000; font-size: 16px; text-align: left; letter-spacing: 0; line-height: 26px; animation-delay: 200ms; text-transform: none;}#sp-ea-694148.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{color: #ffffff; font-size: 16px;}#sp-ea-694148.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .ea-expand-icon.fa{color: #b7b7b7;}#sp-ea-694148.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .ea-expand-icon.fa{color: #7a7a7a;}#sp-ea-694148.sp-easy-accordion>.sp-ea-single>.ea-header a{background: #f28100;}#sp-ea-694148.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{background: #7a7a7a;}#sp-ea-694148.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{background: #f28100;}#sp-ea-694148.sp-easy-accordion>.sp-ea-single{border-radius: 3px; border: 1px solid #f28100;}#sp-ea-694148.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{border-radius: 0 0 3px 3px; border: none;}#sp-ea-694148.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{float: left; margin-right: 10px;}#sp-ea-694148 #eap_faq_search_bar_container input{display:none; opacity:0;}
+#sp-ea-694148 #eap_faq_search_bar_container ::before{content:"";}#sp-ea-694142 .spcollapsing{height: 0; overflow: hidden; transition-property: height; transition-duration: 500ms;}.sp-easy-accordion iframe{width: 100%;}#sp-ea-694142.sp-easy-accordion>.sp-ea-single.eap_inactive>.ea-header a{background-color: #bb0000 !important; color: #fff !important;}#sp-ea-694142.sp-easy-accordion>.sp-ea-single{ margin-bottom: 10px; border: 1px solid #415858; border-radius: 3px;} #sp-ea-694142.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-icon{ color: #ffffff;font-size: 20px;} #sp-ea-694142.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-custom-icon{ max-width: 20px; }#sp-ea-694142.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .eap-title-icon{color: #7a7a7a;} #sp-ea-694142.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .eap-title-icon{color: #444;} #sp-ea-694142.sp-easy-accordion>.sp-ea-single>.ea-header a{padding: 15px 15px 15px 15px; color: #ffffff; font-size: 20px; line-height: 30px; text-align: left; letter-spacing: 0; text-transform: none;}#sp-ea-694142.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{color: #ffffff;}#sp-ea-694142.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{color: #ffffff;}#sp-ea-694142.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{background: #fff; padding: 15px 15px 15px 15px; border-radius: 0 0 3px 3px; color: #000000; font-size: 16px; text-align: left; letter-spacing: 0; line-height: 26px; animation-delay: 200ms; text-transform: none;}#sp-ea-694142.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{color: #ffffff; font-size: 16px;}#sp-ea-694142.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .ea-expand-icon.fa{color: #b7b7b7;}#sp-ea-694142.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .ea-expand-icon.fa{color: #7a7a7a;}#sp-ea-694142.sp-easy-accordion>.sp-ea-single>.ea-header a{background: #415858;}#sp-ea-694142.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{background: #7a7a7a;}#sp-ea-694142.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{background: #415858;}#sp-ea-694142.sp-easy-accordion>.sp-ea-single{border-radius: 3px; border: 1px solid #415858;}#sp-ea-694142.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{border-radius: 0 0 3px 3px; border: none;}#sp-ea-694142.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{float: left; margin-right: 10px;}#sp-ea-694142 #eap_faq_search_bar_container input{display:none; opacity:0;}
+#sp-ea-694142 #eap_faq_search_bar_container ::before{content:"";}#sp-ea-694124 .spcollapsing{height: 0; overflow: hidden; transition-property: height; transition-duration: 500ms;}.sp-easy-accordion iframe{width: 100%;}#sp-ea-694124.sp-easy-accordion>.sp-ea-single.eap_inactive>.ea-header a{background-color: #bb0000 !important; color: #fff !important;}#sp-ea-694124.sp-easy-accordion>.sp-ea-single{ margin-bottom: 10px; border: 1px solid #444422; border-radius: 3px;} #sp-ea-694124.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-icon{ color: #ffffff;font-size: 20px;} #sp-ea-694124.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-custom-icon{ max-width: 20px; }#sp-ea-694124.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .eap-title-icon{color: #7a7a7a;} #sp-ea-694124.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .eap-title-icon{color: #444;} #sp-ea-694124.sp-easy-accordion>.sp-ea-single>.ea-header a{padding: 15px 15px 15px 15px; color: #ffffff; font-size: 20px; line-height: 30px; text-align: left; letter-spacing: 0; text-transform: none;}#sp-ea-694124.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{color: #ffffff;}#sp-ea-694124.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{color: #ffffff;}#sp-ea-694124.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{background: #fff; padding: 15px 15px 15px 15px; border-radius: 0 0 3px 3px; color: #000000; font-size: 16px; text-align: left; letter-spacing: 0; line-height: 26px; animation-delay: 200ms; text-transform: none;}#sp-ea-694124.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{color: #ffffff; font-size: 16px;}#sp-ea-694124.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .ea-expand-icon.fa{color: #b7b7b7;}#sp-ea-694124.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .ea-expand-icon.fa{color: #7a7a7a;}#sp-ea-694124.sp-easy-accordion>.sp-ea-single>.ea-header a{background: #444422;}#sp-ea-694124.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{background: #7a7a7a;}#sp-ea-694124.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{background: #444422;}#sp-ea-694124.sp-easy-accordion>.sp-ea-single{border-radius: 3px; border: 1px solid #444422;}#sp-ea-694124.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{border-radius: 0 0 3px 3px; border: none;}#sp-ea-694124.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{float: left; margin-right: 10px;}#sp-ea-694124 #eap_faq_search_bar_container input{display:none; opacity:0;}
+#sp-ea-694124 #eap_faq_search_bar_container ::before{content:"";}#sp-ea-684599 .spcollapsing{height: 0; overflow: hidden; transition-property: height; transition-duration: 500ms;}.sp-easy-accordion iframe{width: 100%;}#sp-ea-684599.sp-easy-accordion>.sp-ea-single.eap_inactive>.ea-header a{background-color: #bb0000 !important; color: #fff !important;}#sp-ea-684599.sp-easy-accordion>.sp-ea-single{ margin-bottom: 10px; border: 1px solid #3e4b74; border-radius: 3px;} #sp-ea-684599.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-icon{ color: #ffffff;font-size: 20px;} #sp-ea-684599.sp-easy-accordion>.sp-ea-single>.ea-header a .eap-title-custom-icon{ max-width: 20px; }#sp-ea-684599.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .eap-title-icon{color: #7a7a7a;} #sp-ea-684599.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .eap-title-icon{color: #444;} #sp-ea-684599.sp-easy-accordion>.sp-ea-single>.ea-header a{padding: 15px 15px 15px 15px; color: #ffffff; font-size: 20px; line-height: 30px; text-align: left; letter-spacing: 0; text-transform: none;}#sp-ea-684599.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{color: #ffffff;}#sp-ea-684599.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{color: #ffffff;}#sp-ea-684599.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{background: #fff; padding: 15px 15px 15px 15px; border-radius: 0 0 3px 3px; color: #000000; font-size: 16px; text-align: left; letter-spacing: 0; line-height: 26px; animation-delay: 200ms; text-transform: none;}#sp-ea-684599.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{color: #ffffff; font-size: 16px;}#sp-ea-684599.sp-easy-accordion>.sp-ea-single>.ea-header:hover a .ea-expand-icon.fa{color: #b7b7b7;}#sp-ea-684599.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a .ea-expand-icon.fa{color: #7a7a7a;}#sp-ea-684599.sp-easy-accordion>.sp-ea-single>.ea-header a{background: #3e4b74;}#sp-ea-684599.sp-easy-accordion>.sp-ea-single>.ea-header:hover a{background: #7a7a7a;}#sp-ea-684599.sp-easy-accordion>.sp-ea-single.ea-expand>.ea-header a{background: #3e4b74;}#sp-ea-684599.sp-easy-accordion>.sp-ea-single{border-radius: 3px; border: 1px solid #3e4b74;}#sp-ea-684599.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body{border-radius: 0 0 3px 3px; border: none;}#sp-ea-684599.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa{float: left; margin-right: 10px;}#sp-ea-684599 #eap_faq_search_bar_container input{display:none; opacity:0;}
+#sp-ea-684599 #eap_faq_search_bar_container ::before{content:"";}
+</style>
+<link rel="stylesheet" id="cff-css" href="cff-style.css" type="text/css" media="all">
+<link rel="stylesheet" id="enqueue_handle_style-css" href="style-min.css" type="text/css" media="all">
+<link rel="stylesheet" id="addtoany-css" href="addtoany.css" type="text/css" media="all">
+<script type="text/javascript" src="jquery.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="jquery-migrate.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="addtoany.js" id="addtoany-js"></script>
+<script type="text/javascript" id="addtoany-js-after">
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+(function(d,s,a,b){a=d.createElement(s);b=d.getElementsByTagName(s)[0];a.async=1;a.src="https://static.addtoany.com/menu/page.js";b.parentNode.insertBefore(a,b);})(document,"script");
+</script>
+<script type="text/javascript" src="pre_theme_scripts-min.js" id="enqueue_handle_pre_theme_scripts-js"></script>
+<script type="text/javascript" src="cache-min.js" id="enqueue_handle_cache_scripts-js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://kstp.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://kstp.com/wp-includes/wlwmanifest.xml"> 
+<link rel="shortlink" href="https://kstp.com/?p=2100414">
+<link rel="alternate" type="application/json+oembed" href="https://kstp.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkstp.com%2Fkstp-news%2Ftop-news%2Frussia-ukraine-war-what-to-know-on-day-7-of-russian-assault%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://kstp.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkstp.com%2Fkstp-news%2Ftop-news%2Frussia-ukraine-war-what-to-know-on-day-7-of-russian-assault%2F&amp;format=xml">
+<!-- Custom Facebook Feed JS vars -->
+<script type="text/javascript">
+var cffsiteurl = "https://kstp.com/wp-content/plugins";
+var cffajaxurl = "https://kstp.com/wp-admin/admin-ajax.php";
+
+
+var cfflinkhashtags = "false";
+</script>
+<script language="javascript">
+var wxIconDir = "https://kstp.com/wp-content/plugins/hbi-2020-weather-content/assets/img/";
+var wsiClientID = "654566225";
+var wsiApiKey = "0d4d961193d24fa38d961193d21fa376";
+var defaultLat = "44.9684802";
+var defaultLong = "-93.2099457";
+var geoAllowedBySite = 1;
+</script>
+<link rel="amphtml" href="https://kstp.com/kstp-news/top-news/russia-ukraine-war-what-to-know-on-day-7-of-russian-assault/?amp"><link rel="icon" href="https://kstp.com/wp-content/uploads/2021/06/cropped-5abc_1024x1024_WhiteBKG-32x32.jpg" sizes="32x32">
+<link rel="icon" href="https://kstp.com/wp-content/uploads/2021/06/cropped-5abc_1024x1024_WhiteBKG-192x192.jpg" sizes="192x192">
+<link rel="apple-touch-icon" href="https://kstp.com/wp-content/uploads/2021/06/cropped-5abc_1024x1024_WhiteBKG-180x180.jpg">
+<meta name="msapplication-TileImage" content="https://kstp.com/wp-content/uploads/2021/06/cropped-5abc_1024x1024_WhiteBKG-270x270.jpg">
+
+</head>
+
+
+
+
+<body class="post-template-default single single-post postid-2100414 single-format-standard wp-embed-responsive cafemedia-wp-test ad-top-news">
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZNXNC9" style="display:none;visibility:hidden" width="0" height="0"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+<style>
+body.admin-bar .fixed-top {
+	top:32px;
+}
+@media all and (max-width:782px) {
+	body.admin-bar .fixed-top {
+		top:46px;
+	}
+}
+</style>
+
+<!-- HEADER -->
+<header id="navheader" class="fixed-top" style="background-color: #234692 !important;">
+
+	<!-- NAVIGATION -->
+	<nav class="p-0 navbar navbar-expand-xs navbar-dark">
+		<div class="container p-0">
+			
+			<div style="height: 70px;">
+				
+									
+					<script>
+					function showHideX() {
+						var x = document.getElementById("closeNav");
+						var y = document.getElementById("openNav");
+						if (x.style.display === "none") {
+							x.style.display = "block";
+							y.classList.add("navbar-toggler-icon-alt");
+						} else {
+							x.style.display = "none";
+							y.classList.remove("navbar-toggler-icon-alt");
+						}
+					}
+					</script>
+					<button onclick="showHideX()" class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span id="openNav" class="navbar-toggler-icon"><span id="closeNav" style="display: none; font-size: 1.1em;">X</span><span id="closeNavtxt" style="display: none; font-size: .5em;">close</span></span>
+					</button>
+
+								
+				<a class="navbar-brand" href="https://kstp.com/">
+
+					<img class="m-0 p-0" src="5EWN-276X111.png" heigh="60" style="max-height: 60px; max-width: 150px;" width="149">
+				</a>
+
+				<a class="navbar-brand navbar-brand-link" href="https://kstp.com/news-stories/">News</a>
+<a class="navbar-brand navbar-brand-link" href="https://kstp.com/weather/todays-forecast/">Weather</a>
+<a class="navbar-brand navbar-brand-link" href="https://kstp.com/live-video/">Watch Live</a>
+<a class="navbar-brand navbar-brand-link" href="https://kstp.com/traffic-news/">Traffic</a>
+<a class="navbar-brand navbar-brand-link" href="https://kstp.com/sports-home/">Sports</a>
+
+			</div>
+
+			<!-- WEATHER WIDGET -->
+<a href="https://kstp.com/weather/">
+<span class="navbar-text mr-3 p-0">
+<script language="javascript">
+wxWidgetImageDefault = "https://kstp.com/wp-content/plugins/hbi-2020-weather-content/assets/img/wx_default.png";
+displayWeatherWidget();
+</script>
+</span>
+</a>
+<!-- /WEATHER WIDGET -->
+
+		</div>
+		
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<div class="container">
+				
+				<!-- SEARCH FOR ALL SCREENS/PAGES -->
+				<div style="width: 100%;">
+					<li id="solrpower_facet_widget-2" class="widget solrpower_facet_widget"><h2 class="widgettitle">Search</h2>
+<form action="https://kstp.com/" method="get" id="solr_facet"><input class="" name="s" style="width:60%;" id="solr_s" type="text"><input class="btn btn-danger btn-sm" value="Search" onclick="showHideX();submit();" type="button"><input name="paged" id="solr_paged" value="1" type="hidden"><div id="solr_facets"></div></form></li>
+				</div>
+				<!-- /SEARCH FOR ALL SCREENS/PAGES -->
+
+				<ul class="navbar-nav mr-auto mb-3">
+					
+					<li class="nav-item">
+<a class="nav-link" href="https://kstp.com/">Home Page</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="https://kstp.com/kstp-news/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="https://kstp.com/top-stories/">Top Stories</a>
+<a class="dropdown-item" href="https://kstp.com/local-news/">Local News</a>
+<a class="dropdown-item" href="https://kstp.com/five-investigates/">5 Investigates</a>
+<a class="dropdown-item" href="https://kstp.com/world/">National &amp; World News</a>
+<a class="dropdown-item" href="https://kstp.com/political-news/">Political News</a>
+<a class="dropdown-item" href="https://kstp.com/kstp-news/outdoors/">Outdoor News</a>
+<a class="dropdown-item" href="https://kstp.com/covid-19/">COVID-19 Pandemic</a>
+<a class="dropdown-item" href="https://kstp.com/health-and-medical-news/">Health &amp; Medical News</a>
+<a class="dropdown-item" href="https://kstp.com/kstp-news/science-technology/">Science &amp; Technology</a>
+<a class="dropdown-item" href="https://kstp.com/business/">Business</a>
+<a class="dropdown-item" href="https://kstp.com/kstp-news/entertainment/">Entertainment News</a>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="https://kstp.com/weather/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Weather</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="https://kstp.com/weather/">Current Conditions</a>
+<a class="dropdown-item" href="https://kstp.com/weather/todays-forecast/">Today’s Forecast</a>
+<a class="dropdown-item" href="https://kstp.com/weather/interactive-radar/">Interactive Radar</a>
+<a class="dropdown-item" href="https://kstp.com/weather/weather-alerts/">Severe Weather Alerts</a>
+<a class="dropdown-item" href="https://kstp.com/school-alert/">School Alert</a>
+<a class="dropdown-item" href="https://kstp.com/weather/minnesota-winter-weather/">Winter Weather Guide</a>
+<a class="dropdown-item" href="https://kstp.com/snow-emergency-information/">Snow Emergency Information</a>
+<a class="dropdown-item" href="https://kstp.com/traffic-news/">Traffic</a>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="https://kstp.com/video/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Video</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="https://kstp.com/live-video/">Watch Live Newscasts</a>
+<a class="dropdown-item" href="https://kstp.com/at-issue-with-tom-hauser/">At Issue with Tom Hauser</a>
+<a class="dropdown-item" href="https://www.45tv.com/" target="_blank">45TV</a>
+<a class="dropdown-item" href="https://kstp.com/abc-news-live-video/">ABC News Live Video</a>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="https://kstp.com/kstp-tv-schedules/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Programming</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="https://kstp.com/kstp-tv-schedules/">KSTP TV Schedules</a>
+<a class="dropdown-item" href="https://www.twincitieslive.com/" target="_blank">Twin Cities Live</a>
+<a class="dropdown-item" href="https://kstp.com/minnesota-live/">Minnesota Live</a>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="https://kstp.com/sports-home/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sports</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="https://kstp.com/sports-home/">Sports Home</a>
+<a class="dropdown-item" href="https://kstp.com/minnesota-vikings/">Minnesota Vikings</a>
+<a class="dropdown-item" href="https://kstp.com/minnesota-timberwolves/">Minnesota Timberwolves</a>
+<a class="dropdown-item" href="https://kstp.com/minnesota-wild/">Minnesota Wild</a>
+<a class="dropdown-item" href="https://kstp.com/minnesota-lynx/">Minnesota Lynx</a>
+<a class="dropdown-item" href="https://kstp.com/minnesota-twins/">Minnesota Twins</a>
+<a class="dropdown-item" href="https://kstp.com/minnesota-united/">Minnesota United</a>
+<a class="dropdown-item" href="https://kstp.com/tag/college-sports/">College Sports</a>
+<a class="dropdown-item" href="https://kstp.com/high-school-sports/">High School Sports</a>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="https://kstp.com/featuredon5/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Featured on 5</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="https://kstp.com/featuredon5/">Featured on 5 Links</a>
+<a class="dropdown-item" href="https://kstp.com/so-minnesota/">So Minnesota</a>
+<a class="dropdown-item" href="https://kstp.com/insideyourhealth/">Inside Your Health</a>
+<a class="dropdown-item" href="https://kstp.com/kstp-connection-events/">KSTP Connection</a>
+<a class="dropdown-item" href="https://kstp.com/contests/">Contests</a>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="https://kstp.com/contact-5-eyewitness-news/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact Us</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="https://kstp.com/contact-5-eyewitness-news/">Contact 5 Eyewitness News</a>
+<a class="dropdown-item" href="https://kstp.com/news-team/">News Team</a>
+<a class="dropdown-item" href="https://kstp.com/mobile-apps/">KSTP Mobile Apps</a>
+<a class="dropdown-item" href="https://kstp.com/contact-5-eyewitness-news/submit-a-news-tip/">Submit a News Tip</a>
+<a class="dropdown-item" href="https://kstp.com/contact-5-eyewitness-news/submit-photos-and-videos/">Submit Photos and Videos</a>
+<a class="dropdown-item" href="https://kstp.com/contact-5-eyewitness-news/viewer-feedback/">Viewer Feedback</a>
+<a class="dropdown-item" href="https://kstp.com/contact-5-eyewitness-news/kstp-advertising-and-marketing-services/">Advertising and Marketing Services</a>
+<a class="dropdown-item" href="https://hubbardbroadcasting.com/" target="_blank">Careers</a>
+<a class="dropdown-item" href="https://kstp.com/faqs/">Frequently Asked Questions</a>
+<a class="dropdown-item" href="https://kstp.com/hubbard-broadcasting-stations/">Hubbard Broadcasting Stations</a>
+</div>
+</li>
+					
+				</ul>
+
+			</div>
+
+		</div>
+	</nav>
+	<!-- /NAVIGATION -->
+	
+</header>
+<!-- /HEADER -->
+
+
+<!-- MAIN -->
+<main>
+	
+		
+	<!-- ALERTS -->
+	<div class="container" id="alertContainer"><div class="row" id="alertContainerRow"></div></div>
+	<!-- /ALERTS -->
+
+
+	<div class="container">
+		
+		<!-- Output search form for large screens -->
+				
+		<!-- STORY -->
+		<div class="row py-2">
+			<div class="col-12 col-lg-8 col-xxl-9 hbi2020-post">
+				
+				
+					
+					<h1>Russia-Ukraine War: What to know on Day 7 of Russian assault</h1>
+					<div class="byline p-3 mb-3">
+						
+													
+							<strong>By The Associated Press The Associated Press</strong><br>
+												
+						<script language="javascript">outputDateTimeDetails(1646212296, 1646281782, 1);</script>						
+					</div>
+					<div class="row">
+						<!--<div class="col-12 col-md-10 offset-md-1">-->
+						<div class="col-12 col-md-10 offset-md-1 noSidePadding">
+
+																													
+							<div class="carousel-caption-alt"><img src="Russia_Ukraine_War_82981.jpg" class="img-fluid d-block w-100 p-0 wp-post-image" alt="" loading="lazy" title="Smoke and flameS are seen inside a damaged gym following shelling in Kyiv, Ukraine, Wednesday, March 2, 2022. Russian forces have escalated their attacks on crowded cities in what Ukraine’s leader called a blatant campaign of terror. (AP Photo/Efrem Lukatsky)" srcset="https://kstp.com/wp-content/uploads/AP/Russia_Ukraine_War_82981.jpg 512w, https://kstp.com/wp-content/uploads/AP/Russia_Ukraine_War_82981-300x200.jpg 300w" sizes="(max-width: 512px) 100vw, 512px" width="512" height="341"><h5>Smoke
+ and flameS are seen inside a damaged gym following shelling in Kyiv, 
+Ukraine, Wednesday, March 2, 2022. Russian forces have escalated their 
+attacks on crowded cities in what Ukraine’s leader called a blatant 
+campaign of terror. (AP Photo/Efrem Lukatsky)[ASSOCIATED PRESS/Efrem 
+Lukatsky]</h5></div>							
+							<style>
+							#storyContent a {
+								text-decoration: underline;
+								font-weight: bold;
+								color: #234692;
+							}
+							</style>
+							
+							<div id="storyContent">
+								<p></p><p>The number of people who have fled Ukraine since 
+Russian forces invaded on Feb. 24 has reached 1 million, the U.N. 
+refugee agency said Wednesday. </p><p>The tide of people fleeing Ukraine
+ — by car, train and on foot — marks the swiftest exodus of refugees 
+this century. Shabia Mantoo, spokeswoman for the U.N. High Commissioner 
+for Refugees, said “at this rate,” it could become “the biggest refugee 
+crisis this century.”</p><p>Russia and Ukraine said Wednesday that they 
+were prepared to hold talks for the second time, expected to take place 
+Thursday in Belarus. There appears to be little common ground between 
+the two sides. </p><p>Also Wednesday, the U.N. General Assembly condemned the invasion and called on Russia to withdraw its troops from Ukraine.</p><p>Russia
+ claimed to have taken control of its first major Ukrainian city, 
+Kherson. Kherson Mayor Igor Kolykhaev said Russian soldiers were in the 
+city and had come to the city administration building. He said he asked 
+them not to shoot civilians and to allow crews to gather bodies from the
+ streets.</p><!-- CAROUSEL --><div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false"><ol class="carousel-indicators"><li data-target="#carouselExampleIndicators" data-slide-to="0"></li><li data-target="#carouselExampleIndicators" data-slide-to="1"></li><li data-target="#carouselExampleIndicators" data-slide-to="2"></li><li data-target="#carouselExampleIndicators" data-slide-to="3"></li><li data-target="#carouselExampleIndicators" data-slide-to="4"></li><li data-target="#carouselExampleIndicators" data-slide-to="5"></li><li data-target="#carouselExampleIndicators" data-slide-to="6"></li><li data-target="#carouselExampleIndicators" data-slide-to="7"></li><li data-target="#carouselExampleIndicators" data-slide-to="8"></li><li data-target="#carouselExampleIndicators" data-slide-to="9"></li><li data-target="#carouselExampleIndicators" data-slide-to="10"></li><li data-target="#carouselExampleIndicators" data-slide-to="11"></li><li data-target="#carouselExampleIndicators" data-slide-to="12"></li><li data-target="#carouselExampleIndicators" data-slide-to="13"></li><li data-target="#carouselExampleIndicators" data-slide-to="14"></li><li data-target="#carouselExampleIndicators" data-slide-to="15"></li><li data-target="#carouselExampleIndicators" data-slide-to="16"></li><li data-target="#carouselExampleIndicators" data-slide-to="17"></li><li data-target="#carouselExampleIndicators" data-slide-to="18"></li></ol><div class="carousel-inner"><div class="carousel-item active attachment"><img class="img-fluid d-block w-100 p-0" src="Russia_Ukraine_War_45145.jpg" alt="Next slide"><div class="carousel-caption-alt"><h5>A
+ journalist walks inside a damaged gym following shelling in Kyiv, 
+Ukraine, Wednesday, March 2, 2022. Russian forces have escalated their 
+attacks on crowded cities in what Ukraine's leader called a blatant 
+campaign of terror. (AP Photo/Efrem Lukatsky)</h5><p>Photo: ASSOCIATED PRESS/Efrem Lukatsky</p></div></div><div class="carousel-item  attachment"><img class="img-fluid d-block w-100 p-0" src="Russia_Ukraine_War_74449.jpg" alt="Next slide"><div class="carousel-caption-alt"><h5>A
+ satellite image shows cars waiting to cross the border from Ukraine to 
+Hungary, at the Vilok-Tiszabecs border crossing, on Tuesday, March 1, 
+2022. Of the hundreds of refugees gathered on the grounds of a small 
+village school in eastern Hungary, almost all are women and children who
+ left their husbands, fathers, brothers and sons behind to fight in 
+Ukraine's resistance to the deadly Russian invasion. (Planet Labs PBC 
+via AP)</h5><p>Photo: ASSOCIATED PRESS</p></div></div><div class="carousel-item  attachment"><img class="img-fluid d-block w-100 p-0" src="Russia_Ukraine_War_66951.jpg" alt="Next slide"><div class="carousel-caption-alt"><h5>People
+ gather in the Kyiv subway, using it as a bomb shelter in Kyiv, Ukraine,
+ Wednesday, March 2, 2022. Russian forces have escalated their attacks 
+on crowded cities in what Ukraine's leader called a blatant campaign of 
+terror. (AP Photo/Efrem Lukatsky)</h5><p>Photo: ASSOCIATED PRESS/Efrem Lukatsky</p></div></div><div class="carousel-item  attachment"><img class="img-fluid d-block w-100 p-0" src="Russia_Ukraine_War_77958.jpg" alt="Next slide"><div class="carousel-caption-alt"><h5>Andrey
+ Goncharuk, 68, a member of the territorial defense stands in the 
+backyard of a house damaged by a Russian airstrike, according to locals,
+ in Gorenka, outside the capital Kyiv, Ukraine, Wednesday, March 2, 
+2022. Russia renewed its assault on Ukraine's second-largest city in a 
+pounding that lit up the skyline with balls of fire over populated 
+areas, even as both sides said they were ready to resume talks aimed at 
+stopping the new devastating war in Europe. (AP Photo/Vadim Ghirda)</h5><p>Photo: ASSOCIATED PRESS/Vadim Ghirda</p></div></div><div class="carousel-item  attachment"><img class="img-fluid d-block w-100 p-0" src="APTOPIX_Russia_Ukraine_War_51862.jpg" alt="Next slide"><div class="carousel-caption-alt"><h5>A
+ woman cries outside houses damaged by a Russian airstrike, according to
+ locals, in Gorenka, outside the capital Kyiv, Ukraine, Wednesday, March
+ 2, 2022. Russia renewed its assault on Ukraine's second-largest city in
+ a pounding that lit up the skyline with balls of fire over populated 
+areas, even as both sides said they were ready to resume talks aimed at 
+stopping the new devastating war in Europe. (AP Photo/Vadim Ghirda)</h5><p>Photo: ASSOCIATED PRESS/Vadim Ghirda</p></div></div><div class="carousel-item  attachment"><img class="img-fluid d-block w-100 p-0" src="Russia_Ukraine_War_09364.jpg" alt="Next slide"><div class="carousel-caption-alt"><h5>Andrey
+ Goncharuk, 68, right, a member of the territorial defense speaks to a 
+man in the backyard of a house damaged by a Russian airstrike, according
+ to locals, in Gorenka, outside the capital Kyiv, Ukraine, Wednesday, 
+March 2, 2022. Russia renewed its assault on Ukraine's second-largest 
+city in a pounding that lit up the skyline with balls of fire over 
+populated areas, even as both sides said they were ready to resume talks
+ aimed at stopping the new devastating war in Europe. (AP Photo/Vadim 
+Ghirda)</h5><p>Photo: ASSOCIATED PRESS/Vadim Ghirda</p></div></div><div class="carousel-item  attachment"><img class="img-fluid d-block w-100 p-0" src="APTOPIX_Russia_Ukraine_War_99517.jpg" alt="Next slide"><div class="carousel-caption-alt"><h5>People
+ gather in the Kyiv subway, using it as a bomb shelter in Kyiv, Ukraine,
+ Wednesday, March 2, 2022. Russian forces have escalated their attacks 
+on crowded cities in what Ukraine's leader called a blatant campaign of 
+terror. (AP Photo/Efrem Lukatsky)</h5><p>Photo: ASSOCIATED PRESS/Efrem Lukatsky</p></div></div><div class="carousel-item  attachment"><img class="img-fluid d-block w-100 p-0" src="Poland_Russia_Ukraine_War_26547.jpg" alt="Next slide"><div class="carousel-caption-alt"><h5>People
+ from Ukraine arrive at the border crossing in Medyka, southeastern 
+Poland, Wednesday, March 2, 2022. Seven days into the war, roughly 
+874,000 people have fled Ukraine and the U.N. refugee agency warned the 
+number could cross the 1 million mark soon. (AP Photo/Markus Schreiber)</h5><p>Photo: ASSOCIATED PRESS/Markus Schreiber</p></div></div><div class="carousel-item  attachment"><img class="img-fluid d-block w-100 p-0" src="APTOPIX_Russia_Ukraine_War_39078.jpg" alt="Next slide"><div class="carousel-caption-alt"><h5>A
+ woman is overwhelmed by emotion in the backyard of a house damaged by a
+ Russian airstrike, according to locals, in Gorenka, outside the capital
+ Kyiv, Ukraine, Wednesday, March 2, 2022. Russia renewed its assault on 
+Ukraine's second-largest city in a pounding that lit up the skyline with
+ balls of fire over populated areas, even as both sides said they were 
+ready to resume talks aimed at stopping the new devastating war in 
+Europe.(AP Photo/Vadim Ghirda)</h5><p>Photo: ASSOCIATED PRESS/Vadim Ghirda</p></div></div><div class="carousel-item  attachment"><img class="img-fluid d-block w-100 p-0" src="Russia_Ukraine_War_52338.jpg" alt="Next slide"><div class="carousel-caption-alt"><h5>A
+ woman cries as she leaves a house damaged by a Russian airstrike, 
+according to locals, in Gorenka, outside the capital Kyiv, Ukraine, 
+Wednesday, March 2, 2022. Russia renewed its assault on Ukraine's 
+second-largest city in a pounding that lit up the skyline with balls of 
+fire over populated areas, even as both sides said they were ready to 
+resume talks aimed at stopping the new devastating war in Europe.(AP 
+Photo/Vadim Ghirda)</h5><p>Photo: ASSOCIATED PRESS/Vadim Ghirda</p></div></div><div class="carousel-item  attachment"><img class="img-fluid d-block w-100 p-0" src="Russia_Ukraine_War_Economy_40187.jpg" alt="Next slide"><div class="carousel-caption-alt"><h5>Visitors
+ walk past a closed 're:Store', an Apple reseller shop in a shopping 
+mall in Omsk, Russia, Wednesday, March 2, 2022. Apple on Tuesday 
+announced halting the sales of its iPhone and other popular products in 
+Russia as part of an intensifying corporate crackdown spurred by the 
+country's invasion of Ukraine. Stores of the re:Store chain, the 
+company's official reseller in Russia, didn't open on Wednesday, citing 
+the need to reassess the situation. (AP Photo/Evgeniy Sofiychuk)</h5><p>Photo: ASSOCIATED PRESS/Evgeniy Sofiychuk</p></div></div><div class="carousel-item  attachment"><img class="img-fluid d-block w-100 p-0" src="Brazil_Russia_Ukraine_War_70443.jpg" alt="Next slide"><div class="carousel-caption-alt"><h5>People,
+ some of whom are Ukrainians living in Brazil, demonstrate in support of
+ Ukraine amid Russia's invasion outside the Ukrainian embassy in 
+Brasilia, Brazil, Wednesday, March 2, 2022. (AP Photo/Eraldo Peres)</h5><p>Photo: ASSOCIATED PRESS/Eraldo Peres</p></div></div><div class="carousel-item  attachment"><img class="img-fluid d-block w-100 p-0" src="Romania_Russia_Ukraine_War_38153.jpg" alt="Next slide"><div class="carousel-caption-alt"><h5>Refugees
+ fleeing the conflict from neighbouring Ukraine carry bags shortly after
+ crossing the border in Siret, Romania, Wednesday, March 2, 2022. The 
+U.N. refugee agency says more than 874,000 people have fled Ukraine 
+since Russia's invasion last week and the figure is "rising 
+exponentially," putting it on track to cross the 1 million mark possibly
+ within hours. (AP Photo/Renata Brito)</h5><p>Photo: ASSOCIATED PRESS/Renata Brito</p></div></div><div class="carousel-item  attachment"><img class="img-fluid d-block w-100 p-0" src="APTOPIX_Russia_Ukraine_War_04008.jpg" alt="Next slide"><div class="carousel-caption-alt"><h5>A
+ woman cries in the small basement of a house crowded with people 
+seeking shelter from Russian airstrikes, outside the capital Kyiv, 
+Ukraine, Wednesday, March 2, 2022. Russia renewed its assault on 
+Ukraine's second-largest city in a pounding that lit up the skyline with
+ balls of fire over populated areas, even as both sides said they were 
+ready to resume talks aimed at stopping the new devastating war in 
+Europe.(AP Photo/Vadim Ghirda)</h5><p>Photo: ASSOCIATED PRESS/Vadim Ghirda</p></div></div><div class="carousel-item  attachment"><img class="img-fluid d-block w-100 p-0" src="Russia_Ukraine_War_81849.jpg" alt="Next slide"><div class="carousel-caption-alt"><h5>Police
+ detain a demonstrator during an action against Russia's attack on 
+Ukraine in St. Petersburg, Russia, Wednesday, March 2, 2022. Protests 
+against the Russian invasion of Ukraine resumed on Wednesday, with 
+people taking to the streets of Moscow and St. Petersburg and other 
+Russian towns despite mass arrests. (AP Photo/Dmitri Lovetsky)</h5><p>Photo: ASSOCIATED PRESS/Dmitri Lovetsky</p></div></div><div class="carousel-item  attachment"><img class="img-fluid d-block w-100 p-0" src="Russia_Ukraine_War_70721.jpg" alt="Next slide"><div class="carousel-caption-alt"><h5>Police
+ detain a demonstrator during an action against Russia's attack on 
+Ukraine in St. Petersburg, Russia, Wednesday, March 2, 2022. Protests 
+against the Russian invasion of Ukraine resumed on Wednesday, with 
+people taking to the streets of Moscow and St. Petersburg and other 
+Russian towns despite mass arrests. (AP Photo/Dmitri Lovetsky)</h5><p>Photo: ASSOCIATED PRESS/Dmitri Lovetsky</p></div></div><div class="carousel-item  attachment"><img class="img-fluid d-block w-100 p-0" src="UN_Russia_Ukraine_War_02918.jpg" alt="Next slide"><div class="carousel-caption-alt"><h5>United
+ Nations members stand up and applaud after a vote on a resolution 
+concerning the Ukraine during an emergency meeting of the General 
+Assembly at United Nations headquarters, Wednesday, March 2, 2022. (AP 
+Photo/Seth Wenig)</h5><p>Photo: ASSOCIATED PRESS/Seth Wenig</p></div></div><div class="carousel-item  attachment"><img class="img-fluid d-block w-100 p-0" src="Russia_Ukraine_War_72550.jpg" alt="Next slide"><div class="carousel-caption-alt"><h5>A
+ woman gestures in the small basement of a house crowded with people 
+seeking shelter from Russian airstrikes and shelling in Gorenka, outside
+ the capital Kyiv, Ukraine, Wednesday, March 2, 2022. Russia renewed its
+ assault on Ukraine's second-largest city in a pounding that lit up the 
+skyline with balls of fire over populated areas, even as both sides said
+ they were ready to resume talks aimed at stopping the new devastating 
+war in Europe.(AP Photo/Vadim Ghirda)</h5><p>Photo: ASSOCIATED PRESS/Vadim Ghirda</p></div></div><div class="carousel-item  attachment"><img class="img-fluid d-block w-100 p-0" src="Russia_Ukraine_War_13596.jpg" alt="Next slide"><div class="carousel-caption-alt"><h5>A
+ displaced Ukrainian takes shelter in an auditorium in Lviv, western 
+Ukraine, Wednesday, March 2, 2022. Russian forces have escalated their 
+attacks on crowded urban areas in what Ukraine's leader called a blatant
+ campaign of terror. (AP Photo/Bernat Armangue)</h5><p>Photo: ASSOCIATED PRESS/Bernat Armangue</p></div></div></div><a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span></a></div><!-- /CAROUSEL --><p>“We
+ don’t have any Ukrainian forces in the city, only civilians and people 
+here who want to LIVE,” he said in a statement posted on Facebook. </p><p>In
+ a video address to the nation early Thursday, Ukrainian President 
+Volodymyr Zelenskyy called on Ukrainians to keep up the resistance but 
+didn’t comment on whether the Russians have seized any cities, including
+ Kherson.</p><p>“They will have no peace here,” Zelenskyy said. “They will have no food. They will have here not one quiet moment.”</p><p>Here’s a look at key things to know about the conflict:</p><p>POSSIBLE TALKS</p><p>The
+ Ukrainian president’s office said Wednesday evening that the country’s 
+delegation was on its way to the second round of talks with Russia since
+ the invasion began, but it didn’t say when it was expected to arrive. 
+Vladimir Medinsky, Russian President Vladimir Putin’s aide and the head 
+of Russia’s delegation, told reporters that the Ukrainians were expected
+ to arrive Thursday for the talks in the Brest region of Belarus, which 
+borders Poland.</p><p>Ukrainian Foreign Minister Dmytro Kuleba said 
+earlier Wednesday that his country was ready for talks to resume, but he
+ noted that Russia’s demands hadn’t changed and that he wouldn’t accept 
+any ultimatums.</p><p>DID KHERSON FALL?</p><p>Igor Konashenkov, a 
+Russian Defense Ministry spokesman, said Wednesday that the key Black 
+Sea port city of nearly 300,000 people was under Russia’s “complete 
+control,” and that talks were underway between Russian commanders and 
+city and regional authorities over how to maintain order. The status of 
+the city was unclear. </p><p>Kolykhaev, the mayor, said the port city 
+would maintain an 8 p.m. to 6 a.m. curfew, restrict incoming traffic to 
+food and medicine deliveries, and require pedestrians to walk alone or 
+in pairs only and to obey commands to stop.</p><p>“The flag flying over us is Ukrainian,” he wrote. “And for it to stay that way these demands must be observed.”</p><p>Kherson
+ was one of at least three cities that Russian troops had encircled, 
+along with the coastal city of Mariupol and Kharkiv, in northeastern 
+Ukraine. </p><p>WHAT’S HAPPENING IN KHARKIV?</p><p>Russia’s assault on Kharkiv, which has nearly 1.5 million residents, <a href="https://apnews.com/article/russia-ukraine-war-live-updates-9c70fb215d15e0b054b5b2d40169f940">continued with a strike</a>
+ on the regional police and intelligence headquarters, and a university 
+building across the street, according to the Ukrainian emergency 
+services and government officials. A central square near other 
+government buildings, including the city council’s, was also hit by 
+explosions.</p><p>Oleksiy Arestovich, an adviser to Zelenskyy, said an 
+advance of Russian troops on Kharkiv was stopped, so Russia shelled the 
+city with rockets and airstrikes in response.</p><p>“Kharkiv today is 
+the Stalingrad of the 21st century,” said Arestovich, who added that 
+several Russian planes were shot down over the city.</p><p>Oleg 
+Sinehubov, head of the Kharkiv regional administration, said 21 people 
+had been killed and at least 112 wounded over the previous 24 hours.</p><p>WHAT ABOUT VIOLENCE ELSEWHERE?</p><p>Russia
+ reported its military casualties for the first time since the invasion 
+began last week, saying nearly 500 of its troops had been killed and 
+almost 1,600 wounded. Ukraine insisted Russia’s losses were far higher 
+but did not immediately disclose its own.</p><p>Russia’s 40-mile-long 
+(64-kilometer-long) convoy of tanks and other vehicles remained outside 
+Kyiv as the capital continued to be struck by shelling.</p><p>Zelenskyy’s
+ office reported a powerful explosion Wednesday night between the 
+Southern Railway Station and the Ibis hotel in Kyiv. Ukraine’s Defense 
+Ministry is located near that area. Ukrainian Railway Service said at 
+the time of the strike, thousands of women and children were being 
+evacuated from the station, which suffered only minor damage. </p><p>Two
+ cruise missiles hit a hospital in the northern city of Chernihiv, the 
+Ukrainian news agency UNIAN quoted the city’s chief health 
+administrator, Serhiy Pivovar, as saying. The hospital’s main building 
+was damaged and authorities were working to determine the casualty toll,
+ he said.</p><p>And in Mariupol, at least one teenager died and two more
+ were wounded by apparent Russian shelling. The boys’ families said they
+ had been playing soccer near a school.</p><p>WHAT IS THE HUMANITARIAN SITUATION?</p><p>U.N.
+ High Commissioner for Refugees Filippo Grandi tweeted: “In just seven 
+days we have witnessed the exodus of one million refugees from Ukraine 
+to neighboring countries.”</p><p>The tally amounts to more than 2% of 
+Ukraine’s population, though some of those fleeing Ukraine are citizens 
+of other countries. </p><p>The U.N. agency has predicted that up to 4 
+million people could eventually leave Ukraine but cautioned that even 
+that projection could be revised upward. The World Bank counted 
+Ukraine’s population at 44 million at the end of 2020.</p><p>Ukraine’s 
+State Emergency Service said more than 2,000 civilians have died, though
+ it was impossible to verify the claim. The U.N. human rights office 
+said it had recorded the deaths of 136 civilians, including 13 children,
+ in Ukraine since the Feb. 24 start of the invasion.</p><p>The EU 
+Commission said Wednesday that it will give temporary residence permits 
+to refugees fleeing the violence and allow them to study and work in the
+ 27-nation bloc. The move would need the approval of member states, 
+which have already expressed broad support.</p><p>U.N. CONDEMNATION AND WAR CRIMES INVESTIGATION</p><p>The <a href="https://apnews.com/article/russia-ukraine-vladimir-putin-united-nations-general-assembly-business-north-korea-80c6e848c8d904ef981b5df50bd024d1">U.N. General Assembly voted Wednesday</a>
+ to demand that Russia stop its offensive in Ukraine and withdraw all 
+troops, with nations from world powers to tiny island states condemning 
+Moscow. The vote was 141 to 5, with 35 abstentions. </p><p>U.S. 
+President Joe Biden said the vote “demonstrates the extent of global 
+outrage at Russia’s horrific assault on a sovereign neighbor.”</p><p>The
+ resolution deplored Russia’s “aggression” against Ukraine “in the 
+strongest terms.” General Assembly resolutions aren’t legally binding.</p><p>The
+ International Criminal Court’s prosecutor opened an investigation 
+Wednesday into possible war crimes, crimes against humanity or genocide 
+in Ukraine, dating back to 2013 and covering the current conflict.</p><p>Prosecutor Karim Khan said he did so after 39 of the court’s member states requested an investigation.</p><p>ARE THE SANCTIONS HURTING RUSSIA?</p><p>Russia has found itself increasingly isolated, hit by sanctions that have <a href="https://apnews.com/article/russia-ukraine-vladimir-putin-business-stock-markets-sydney-f71aa1336ec2e6e8ea9751aad4974dd3">thrown its economy into turmoil</a> and left the country practically friendless, apart from China, Belarus and a few other countries.</p><p>Leading
+ Russian bank Sberbank said Wednesday that it was pulling out of 
+European markets amid tightening Western sanctions. The bank said its 
+subsidiaries in Europe were facing an “abnormal outflow of funds and a 
+threat to the safety of employees and branches,” according to Russian 
+news agencies.</p><p>In Washington, the White House announced additional
+ sanctions against Russia and Belarus, including extending export 
+controls that target Russian oil refining and entities supporting both 
+countries’ militaries.</p><p>The West’s sanctions and resulting crash of
+ the ruble have left the Kremlin scrambling to keep the economy running.
+ Putin got some good news Wednesday when the head of China’s bank 
+regulator said China wouldn’t impose financial sanctions on Russia. 
+China is a major buyer of Russian oil and gas and the only major 
+government that has refrained from criticizing the Ukraine invasion.</p><p>WHAT ABOUT THE SANCTIONS ON RUSSIA’S ULTRA-RICH?</p><p>The war <a href="https://apnews.com/article/russia-ukraine-war-oligarchs-speak-out-72080fbdffc28516a0469e4521c451d9">has sent shockwaves</a>
+ through the global community of wealthy Russians, who face sanctions 
+that threaten their London mansions, Mediterranean yachts and children’s
+ places at elite European private schools. Some have begun, albeit 
+tentatively, to speak out — though it may be too little to end the war, 
+or to protect their Western fortunes.</p><p>Chelsea owner Roman Abramovich confirmed Wednesday that <a href="https://apnews.com/article/russia-ukraine-sports-soccer-europe-premier-league-907c65a988ec91fd28cfd620078935d7">he’s trying to sell the Premier League soccer club</a>
+ that he turned into an elite trophy-winning machine with his lavish 
+investment. Pressure has been growing on the British government to 
+include him among the wealthy Russians to be targeted by sanctions.</p><p>___</p><p>Follow the AP’s coverage of the war between Russia and Ukraine: <a href="https://apnews.com/hub/russia-ukraine">https://apnews.com/hub/russia-ukraine</a></p><p></p><p>Copyright
+ 2022 The Associated Press. All rights reserved. This material may not 
+be published, broadcast, rewritten or redistributed without permission.</p><div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_26 addtoany_list" data-a2a-url="https://kstp.com/kstp-news/top-news/russia-ukraine-war-what-to-know-on-day-7-of-russian-assault/" data-a2a-title="Russia-Ukraine War: What to know on Day 7 of Russian assault"><a class="a2a_button_sms" href="https://www.addtoany.com/add_to/sms?linkurl=https%3A%2F%2Fkstp.com%2Fkstp-news%2Ftop-news%2Frussia-ukraine-war-what-to-know-on-day-7-of-russian-assault%2F&amp;linkname=Russia-Ukraine%20War%3A%20What%20to%20know%20on%20Day%207%20of%20Russian%20assault" title="SMS" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fkstp.com%2Fkstp-news%2Ftop-news%2Frussia-ukraine-war-what-to-know-on-day-7-of-russian-assault%2F&amp;linkname=Russia-Ukraine%20War%3A%20What%20to%20know%20on%20Day%207%20of%20Russian%20assault" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_facebook_messenger" href="https://www.addtoany.com/add_to/facebook_messenger?linkurl=https%3A%2F%2Fkstp.com%2Fkstp-news%2Ftop-news%2Frussia-ukraine-war-what-to-know-on-day-7-of-russian-assault%2F&amp;linkname=Russia-Ukraine%20War%3A%20What%20to%20know%20on%20Day%207%20of%20Russian%20assault" title="Messenger" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_reddit" href="https://www.addtoany.com/add_to/reddit?linkurl=https%3A%2F%2Fkstp.com%2Fkstp-news%2Ftop-news%2Frussia-ukraine-war-what-to-know-on-day-7-of-russian-assault%2F&amp;linkname=Russia-Ukraine%20War%3A%20What%20to%20know%20on%20Day%207%20of%20Russian%20assault" title="Reddit" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fkstp.com%2Fkstp-news%2Ftop-news%2Frussia-ukraine-war-what-to-know-on-day-7-of-russian-assault%2F&amp;linkname=Russia-Ukraine%20War%3A%20What%20to%20know%20on%20Day%207%20of%20Russian%20assault" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_whatsapp" href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fkstp.com%2Fkstp-news%2Ftop-news%2Frussia-ukraine-war-what-to-know-on-day-7-of-russian-assault%2F&amp;linkname=Russia-Ukraine%20War%3A%20What%20to%20know%20on%20Day%207%20of%20Russian%20assault" title="WhatsApp" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fkstp.com%2Fkstp-news%2Ftop-news%2Frussia-ukraine-war-what-to-know-on-day-7-of-russian-assault%2F&amp;linkname=Russia-Ukraine%20War%3A%20What%20to%20know%20on%20Day%207%20of%20Russian%20assault" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div>								
+								<nav aria-label="breadcrumb"><ol class="breadcrumb"><strong>For Related Stories:</strong>&nbsp;<a href="https://kstp.com/tag/ukraine/" rel="tag">Ukraine</a>&nbsp;&nbsp;<a href="https://kstp.com/tag/russia/" rel="tag">Russia</a></ol></nav>								
+								<div class="s2nPlayer-fBIrSMw7 mb-4" data-type="full"></div><script type="text/javascript" src="embedcode.js" data-type="s2nScript"></script>
+																	<div class="row mb-2 p-1" id="zetaRecommends" style="width: 100%;">
+									
+									</div>
+								
+								
+																			<!-- Revcontent Tag --><div id="rc-widget-414a80" data-rc-widget="" data-widget-host="habitat" data-endpoint="//trends.revcontent.com" data-widget-id="268007"></div><script type="text/javascript" src="delivery.js" defer="defer"></script><!-- End Tags - Revcontent -->									
+																
+																
+							</div><!-- #storyContent -->
+
+						</div><!-- col-12 col-md-10 offset-md-1 noSidePadding -->
+
+					</div><!-- row -->
+
+					
+					
+			</div>
+			<div class="col-12 col-lg-4 col-xxl-3">
+				<div class="stickySidebar d-none d-lg-block">
+
+				</div>
+			</div>
+		</div>
+		<!-- /STORY -->
+
+
+
+	</div>
+
+</main>
+<!-- /MAIN -->
+
+<!-- FOOTER -->
+<footer style="background-color: #234692 !important;">
+	<div class="container">
+		<div class="row py-2">
+			<div class="col-12 col-md-9">
+				<ul class="nav font-weight-bold footer-divider">
+					
+					<li class="nav-item"><a class="nav-link text-light" href="https://kstp.com/">Home Page</a></li>
+<li class="nav-item"><a class="nav-link text-light" href="https://kstp.com/kstp-news/">News</a></li>
+<li class="nav-item"><a class="nav-link text-light" href="https://kstp.com/weather/">Weather</a></li>
+<li class="nav-item"><a class="nav-link text-light" href="https://kstp.com/video/">Video</a></li>
+<li class="nav-item"><a class="nav-link text-light" href="https://kstp.com/kstp-tv-schedules/">Programming</a></li>
+<li class="nav-item"><a class="nav-link text-light" href="https://kstp.com/sports-home/">Sports</a></li>
+<li class="nav-item"><a class="nav-link text-light" href="https://kstp.com/featuredon5/">Featured on 5</a></li>
+<li class="nav-item"><a class="nav-link text-light" href="https://kstp.com/contact-5-eyewitness-news/">Contact Us</a></li>
+
+				</ul>
+				<ul class="nav footer-divider">
+					
+					<li class="nav-item small-footer-link"><a class="nav-link text-light" href="https://publicfiles.fcc.gov/tv-profile/KSTP-TV" target="_blank">KSTP-TV FCC Public Inspection File</a></li>
+<li class="nav-item small-footer-link"><a class="nav-link text-light" href="https://publicfiles.fcc.gov/tv-profile/KSAX" target="_blank">KSAX-TV FCC Public Inspection File</a></li>
+<li class="nav-item small-footer-link"><a class="nav-link text-light" href="https://publicfiles.fcc.gov/tv-profile/KRWF" target="_blank">KRWF-TV FCC Public Inspection File</a></li>
+<li class="nav-item small-footer-link"><a class="nav-link text-light" href="https://kstp.com/general-information/public-information/">Additional Public Information</a></li>
+<li class="nav-item small-footer-link"><a class="nav-link text-light" href="https://kstp.com/general-information/fcc-applications/">KSTP-TV FCC Applications</a></li>
+<li class="nav-item small-footer-link"><a class="nav-link text-light" href="https://kstp.com/general-information/ksax-fcc-applications/">KSAX-TV FCC Applications</a></li>
+<li class="nav-item small-footer-link"><a class="nav-link text-light" href="https://kstp.com/general-information/krwf-fcc-applications/">KRWF-TV FCC Applications</a></li>
+<li class="nav-item small-footer-link"><a class="nav-link text-light" href="https://hubbardbroadcasting.com/privacy-policy/?utm_source=kstp&amp;utm_medium=link&amp;utm_campaign=privacy-policy" target="_blank">Privacy Policy</a></li>
+<li class="nav-item small-footer-link"><a class="nav-link text-light" href="https://kstp.com/general-information/terms-of-use/">Terms of Use</a></li>
+<li class="nav-item small-footer-link"><a class="nav-link text-light" href="https://hubbardbroadcasting.com/data-request/" target="_blank">DMCA Notice</a></li>
+<li class="nav-item small-footer-link"><a class="nav-link text-light" href="https://kstp.com/general-information/kstp-tv-and-kstc-tv-contest-rules/">Contest Rules</a></li>
+<li class="nav-item small-footer-link"><a class="nav-link text-light" href="https://hubbardbroadcasting.com/data-request/?site=kstp&amp;utm_source=kstp&amp;utm_medium=link&amp;utm_campaign=data-request" target="_blank">Do Not Sell My Info</a></li>
+
+				</ul>
+				<div class="px-3 py-4 text-light">
+					<p>Any person with disabilities who needs help accessing the content of the FCC Public File may contact KSTP via our <strong><a href="https://kstp.com/contact-5-eyewitness-news/" class="text-light">online form</a></strong> or call 651-646-5555</p>
+					<p>This website is not intended for users located within the European Economic Area.<br>
+					© <span id="thisYear"></span> KSTP-TV, LLC<br>
+					A Hubbard Broadcasting Company</p>
+				</div>
+			</div>
+			<div class="col-12 col-md-3 text-center">
+				<p class="text-light float-right">
+					</p><div>
+						
+						<img class="m-0 p-0" src="5EWN-276X111.png" style="max-height: 60px; max-width: 150px; margin-bottom: 10px !important;">						
+					</div>
+
+					<li id="a2a_follow_widget-2" class="widget widget_a2a_follow_widget"><h2 class="widgettitle">KSTP Follow</h2>
+<div class="a2a_kit a2a_kit_size_26 a2a_follow addtoany_list"><a class="a2a_button_facebook" href="https://www.facebook.com/KSTPTV" title="Facebook" rel="noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://twitter.com/kstp" title="Twitter" rel="noopener" target="_blank"></a><a class="a2a_button_instagram" href="https://www.instagram.com/kstptv/" title="Instagram" rel="noopener" target="_blank"></a><a class="a2a_button_youtube" href="https://www.youtube.com/channel/UCVBmhZPjBx0DsvQKQYYDGxw" title="YouTube" rel="noopener" target="_blank"></a></div></li>
+<li id="block-2" class="widget widget_block"><a href="https://abc.com/" target="_blank"><img src="ABC-2021-LOGO.png" alt="ABC" style="width: 40px; height: 40px; padding-bottom: 0px;" vspace="2" border="0"></a>
+<a href="https://www.45tv.com/" target="_blank"><img src="45tv-40x40-1.png" alt="45TV KSTC" style="width: 40px; height: 40px; padding-bottom: 0px;" vspace="2" border="0"></a>
+<a href="https://www.metv.com/" target="_blank"><img src="metv.png" alt="Me TV" style="width: 40px; height: 40px; padding-bottom: 0px;" vspace="2" border="0"></a>
+<br>
+<a href="https://antennatv.tv/" target="_blank"><img src="antennatv.png" alt="Antenna TV" style="width: 40px; height: 40px; padding-bottom: 0px;" vspace="2" border="0"></a>
+<a href="https://www.truerealtv.com/" target="_blank"><img src="truereal.png" alt="True Real" style="width: 40px; height: 40px; padding-bottom: 0px;" vspace="2" border="0"></a>
+<a href="https://thistv.com/" target="_blank"><img src="thistv.png" alt="This TV" style="width: 40px; height: 40px; padding-bottom: 0px;" vspace="2" border="0"></a>
+<a href="https://www.handitv.com/" target="_blank"><img src="handi.png" alt="H&amp;I TV" style="width: 40px; height: 40px; padding-bottom: 0px;" vspace="2" border="0"></a></li>
+
+				<p></p>
+			</div>
+		</div>
+	</div>
+
+	
+</footer>
+<!-- /FOOTER -->
+
+<!-- Custom Feeds for Instagram JS -->
+<script type="text/javascript">
+var sbiajaxurl = "https://kstp.com/wp-admin/admin-ajax.php";
+
+</script>
+<!-- YouTube Feed JS -->
+<script type="text/javascript">
+
+</script>
+<script type="text/javascript" src="carousel.js" id="cff_carousel_js-js"></script>
+<script type="text/javascript" id="cffscripts-js-extra">
+/* <![CDATA[ */
+var cffOptions = {"placeholder":"https:\/\/kstp.com\/wp-content\/plugins\/custom-facebook-feed-pro\/assets\/img\/placeholder.png","resized_url":"https:\/\/kstp.com\/wp-content\/uploads\/sb-facebook-feed-images\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="cff-scripts.js" id="cffscripts-js"></script>
+<script type="text/javascript" src="popper.js" id="popper_scripts-js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="bootstrap.js" id="bootstrap_scripts-js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="post_theme_scripts-min.js" id="enqueue_handle_post_theme_scripts-js"></script>
+<script type="text/javascript" src="wp-embed.js" id="wp-embed-js"></script>
+
+	<script type="text/javascript">
+	window._taboola = window._taboola || [];
+	_taboola.push({flush: true});
+	</script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-fdd049944e23da01b2c","applicationID":"1456137440","transactionName":"Yl0EMEAEC0MAVUxaWlsXJwdGDApeTkVRXVJZXQ==","queueTime":0,"applicationTime":473,"atts":"ThoHRggeGE0=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+</body></html>

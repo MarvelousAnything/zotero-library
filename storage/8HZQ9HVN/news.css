@@ -1,0 +1,123 @@
+.site-text,
+.siteName,
+.siteName a,
+.siteName a:hover,
+.siteName a:active,
+.siteName a:visited,
+.content .modal h1,
+.content .topic h1,
+.content .meta h1,
+.content .sidebar h1,
+.content .meta .heading,
+.content .category,
+.right-block .article:hover .header-font,
+.right-block .article:hover .header-font a,
+.right-block .article:hover .news-lead-font,
+.left-block .article:hover .header-font,
+.left-block .article:hover .header-font a,
+.left-block .article:hover .news-lead-font,
+.event-block .gray-bg .article:hover .header-font,
+.event-block  .gray-bg  .article:hover .news-lead-font,
+.prime .body aside.quote,
+.category-name,
+.small-double:hover .header-font a {
+	color: #0054a6;
+}
+
+.left-block a:hover, .left-block a:active, .right-block a:hover, .right-block a:active {
+	color: #0054a6;
+	text-decoration: none;
+}
+
+.content a,
+.content a:hover,
+.content a:active{
+	color:#0054a6;
+	text-decoration: none;
+}
+
+.prime .body .text p a:hover, .prime .body .text p a:active, .prime .body .text p a:after,
+.prime .body .lead a:hover, .prime .body .lead a:active, .prime .body .lead a:after {
+	text-decoration-color: rgba(0, 84, 166, .8);
+}
+
+.btn-inverted{
+	background-color: #0054a6;
+	border-color: #0054a6;
+	color: #fff;
+}
+
+.btn.primary{
+	color:#444;
+}
+
+.btn.modest:hover,
+.btn.modest:active {
+	color: #fff;
+}
+
+.dropdown1:hover {
+	border-bottom: 4px solid #0054a6;
+}
+
+.theme-block.dark-theme .article:hover .header-font,
+.theme-block.dark-theme .article:hover .header-font a,
+.theme-block.dark-theme .article:hover .news-lead-font,
+.theme-block.dark-theme .small-double:hover .header-font a {
+	color: #ffffff;
+}
+/**** SVG (play, gallery)**/
+
+.atlas-play-svg *, .atlas-gallery-svg * {
+    fill: #0054a6;
+}
+
+.atlas-svg-stroke {
+    stroke: #0054a6;
+}
+
+.atlas-svg-white {
+    fill:#ffffff;
+}
+
+/*Poll colors*/
+.article-poll-header {
+	color: #0054a6;
+}
+
+.article-poll-progress-bar-color-ovleray {
+	background-color: #0054a6;
+}
+
+.article-poll-checkmark {
+	border: 2px solid #0054a6;
+}
+
+.article-poll-checkmark-container .article-poll-checkmark:after {
+	border: solid #0054a6;
+	border-width: 0 2px 2px 0;
+}
+
+.poll-voted-votes {
+	opacity: 1;
+	background-color: black;
+}
+
+.article-poll-progress-bar {
+	background-color: white !important;
+}
+
+@media (min-width: 568px) {
+
+	.social-button-like:hover {
+		width: 85px;
+	}
+
+	.social-button-like:hover .fa-heart {
+		margin-left: 38px;
+	}
+
+	.social-button:hover .social-button-like-count {
+		left: 36px;
+	}
+}

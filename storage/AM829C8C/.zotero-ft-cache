@@ -1,0 +1,244 @@
+Towards Data Science
+
+Sign in
+Get started
+Follow
+614K Followers
+·
+Editors' Picks Features Deep Dives Grow Contribute
+About
+Responses (1)
+
+What are your thoughts?
+Cancel
+Respond
+
+Also publish to my profile
+
+There are currently no responses for this story.
+
+Be the first to respond.
+
+You have 2 free member-only stories left this month.
+Sign up for Medium and get an extra one
+
+Hands-on Tutorials , Learning
+How to Write a Scientific Paper from a Data Science Project
+Some tips on how to transform your Data Science project into a wonderful scientific paper.
+Angelica Lo Duca
+
+Angelica Lo Duca
+
+Sep 9, 2021 · 7 min read
+Photo by Scott Graham on Unsplash
+
+Writing a scientific paper is generally associated to academics and researchers. Indeed, also industries and other people may benefit of a scientific production, because of:
+
+    publishing into a journal or into conference proceedings makes your work more rigorous from a conceptual point of view
+    publishing a scientific work establishes you as an expert of a given field of research
+    a scientific publication can be added to a company/person curriculum or portfolio 
+
+If you are still wondering regarding the benefits of writing a scientific paper, you could read the following article: 8 Reasons to Publish Research Papers in Peer-Reviewed Journals .
+
+Hoping that I have convinced you to write a scientific paper, in the remainder of the article, I describe how to transform a Data Science Project into a Wonderful Scientific Publication, to be submitted to some journals or conferences.
+Photo by Andrew Neel on Unsplash
+1 Define the Topic
+
+First of all, you should define which problem your project solves , such as how to increase product sales , or extract the sentiment from reviews. You may write a short summary of your project , maximum 200 words. This represents a very first draft of the abstract of your paper.
+
+Now you can shorten your summary to a sentence . This is the temporary title of your paper.
+
+Then you could resume your abstract into 3-4 keywords . I suggest you to include very common keywords, such as machine learning, natural language processing or data visualisation.
+
+Once written the abstract, you could search for a journal or conference, which focuses on your topic. You could search on Wiki for Call for Papers for conferences on your topic.
+
+    Conferences can be classified in different classes, ranging from A (the most prestigious) to C (less prestigious), down to conferences without a rank.
+
+I strongly suggest to start from conferences of B-C ranks, because it is very difficult to get published in class A conferences, if you have not written any article yet.
+
+If you want to write for a journal, you may check the list of journals in the Scimago Journal & Country Rank web site, which provides a search bar, where you can search for your topics. A good journal is represented by a high h-index, as well as a high quartile (typically Q1 or maximum Q2).
+
+Once chosen the journal/conference which fits your topic, you should deepen the journal/conference aim and rewrite your abstract to fit it . I strongly recommend you to download the conference/journal paper template and use it while writing your paper.
+2 Study the literature
+
+Now you are ready to look around you: what are other people doing on the same topics? In other words, you should search for similar papers . This part is the most difficult, because it requires studying.
+
+You could exploit some web sites to search for similar papers, such as Google Scholar or IEEE Xplore . You should search at least 8-10 similar papers, possibly recent papers. If you dot find any papers, maybe you are not searching in a correct way. You should retry, maybe changing keywords, until you find a minimum number of papers.
+
+Now you can study the read papers. There is an interesting article by
+Michael Berk
+describing how to read a scientific paper.
+
+You can search for other articles, by looking at the proceedings of the top conferences of your field, such as those presented in this article .
+
+As you read the articles, I strongly recommend you to write a summary of each of them . Optionally, you could group similar articles and describe their similar approach.
+
+    You also should annotate the difference between the other articles and yours, and what is the added value of your work, with respect to the state of the art.
+
+At the end of your readings, you can extend your abstract to also include this last aspect, i.e. the added value of your work.
+
+It is now time to build a first draft of bibliography. Check the required style by the journal/conference and format your references according to it. You can exploit the Google Scholar citation option under each paper, to export the bibliography, as illustrated in the following figure:
+Image by Author
+3 Write the Introduction
+
+You are ready to extend your paper. Take again the abstract and try to extend it, in order to provide more details on your project. You do not need to add technical details, but you should give an deepen overview of your work . You should also add a context to your work, i.e. where the idea comes from. This new paragraph is the draft of the Introduction. The length of this section is variable. However, I recommend at least 1 page and maximum 2 pages.
+
+The introduction should summarise:
+
+    The context of your work
+    The objective of your work
+    The adopted methodology to reach your objective
+    Achieved Results
+
+All the sections of the Introduction should be balanced, thus you should reserve the same number of paragraphs to all of them, more or less.
+Photo by NeONBRAND on Unsplash
+4 Give a Structure to your paper
+
+Up to now, you have written a draft of the abstract and the Introduction and Related Work Sections. You are ready to give a structure to your paper. I strongly encourage you to take again the Introduction and split it into paragraphs. Then, you could add one section for each paragraph.
+
+    Remind that while writing the paper, you can add, delete or modify any section you have already written.
+
+More or less, the paper should contain the following sections:
+
+    Abstract (already written)
+    Introduction (already written)
+    Related work (already written)
+    Methodology
+    Experiments
+    Results/Discussion
+    Conclusions and Future Work.
+
+4.1 Methodology
+
+Here you should describe the theory behind your project , without describing the adopted technology or dataset. For example, you could describe the architecture of your project, including the Machine Learning pipeline, or the algorithm adopted to perform a Machine Learning task.
+4.2 Experiments
+
+In this section, you should illustrate data, their structure, where you took your data, the size of your datasets and if you cleaned or enriched them. You could also add a data sample, to better describe your dataset. In addition, if your data cover a temporal period, you describe it.
+
+Once described your data source, you should describe how you split the dataset into training and test set, how long the training phase was and other similar stuff.
+
+Then you could describe how you measured the goodness of your results, if applicable. For example, you could give a short definition of accuracy, precision, recall or other employed metrics. Finally, you could describe the adopted technology, such as a Python library ( scikit-learn or others).
+
+Summarising, this section may be split in the following subsections:
+
+    Data description
+    Metrics description
+    Adopted technology
+
+4.3 Results/Discussion
+
+This section aims at demonstrating that what you have described so far is true. Thus, in this section you should describe your findings. You can use tables and figures . You do not have to put all the produced figures, but only the interesting ones. An added value to this section could be a comparison with other work.
+
+A good discussion should not describe the figures, but it could narrate a story. Thus you could transform this section into a storytelling.
+4.4 Conclusions and Future Work
+
+Here you should recap the presented work, as well its limitations , the impact to the society, the industry and the research. In addition, you should add future work , such as extending your dataset, tuning some parameters, that you have not considered in this paper and other similar stuff.
+5. Review and Submit the paper
+
+Once you have completed your paper, take a break of about 1 day . Then, come back to your paper and read it again. Surely, you will find many stuff to modify. Thus, as you read the paper, you can correct it. Read the full paper at least 4–5 times .
+
+If possible, ask some friends or colleagues to read your paper. Correct the paper on the basis of their suggestions.
+
+Eventually, your paper is ready to be submitted! You can create an account into the submission system of the journal/conference and send it!
+Photo by Brooke Cagle on Unsplash
+Summary
+
+In this article, I have illustrated some guidelines to turn your data science project into a wonderful scientific publications.
+
+Summarising:
+
+    firstly write the abstract and the title
+    search for similar work and write the related work section
+    write the introduction
+    write the other sections
+    review the paper
+    submit the paper.
+
+Related Work
+How to build a narrative from data
+Some tricks to analyse data according to the setup-conflict-resolution paradigm
+
+towardsdatascience.com
+How to design a Data Journalism Story
+How to design a Data Journalism Story
+
+How to design a Data Journalism Storyalod83.medium.com
+Dataset Manipulation with Open Refine
+Open Refine is a web application for cleaning, transforming and enriching datasets. It can be downloaded at the…
+
+towardsdatascience.com
+New to Medium? You can subscribe for few dollars per month and unlock unlimited articles — click here .
+Angelica Lo Duca
+
+4x Top 1000 Medium Writer | +40k monthly views | I write on Data Science, Python, Tutorials and, occasionally, Web Applications.
+Follow
+Angelica Lo Duca Follows
+
+    Sik-Ho Tsang
+    Sik-Ho Tsang
+    Artturi Jalli
+    Artturi Jalli
+    ODSC - Open Data Science
+    ODSC - Open Data Science
+    Christianlauer
+    Christianlauer
+    Tim Denning
+    Tim Denning
+
+See all (102)
+
+77
+
+1
+
+Related
+Data Science for Global Wildlife Trafficking
+A broad and deep analysis of illicit wildlife trafficking imports into the United States
+A Brief Introduction to Azure Machine Learning Studio
+Brain-computer interface to decode imagined handwriting into real-time text
+Combine Your Machine Learning Models With Voting
+Sign up for The Variable
+By Towards Data Science
+
+Every Thursday, the Variable delivers the very best of Towards Data Science: from hands-on tutorials and cutting-edge research to original features you don't want to miss.  Take a look.
+Get this newsletter
+
+    Data Science
+    Writing
+    Scientific Writing
+    Editors Pick
+    Hands On Tutorials 
+
+77
+
+1
+More from Towards Data Science
+Follow
+
+Your home for data science. A Medium publication sharing concepts, ideas and codes.
+Read more from Towards Data Science
+More From Medium
+ZS_F (Soybean Futures) Selling Rallies In The Blue Boxes
+Elliott Wave Forecast
+IDX Big Caps Optimization Using Python
+Smurpratomo
+Handwritten Digits Recognition using scikit-learn
+Rakesh Kumar Nayak
+Decision Trees Algorithm — Made Easy
+Hamza Issa in Artificial Intelligence in Plain English
+Confusion Matrix’s implementation in monitoring Cyber Attacks
+Vishal
+Data Classification at Mega Scale
+Gilad David Maayan in Towards Data Science
+Anime Dataset Insight, Recommendations and Voters Predictions AI
+Habiebie
+Linear Regression
+Harshit Ahuja in Analytics Vidhya
+
+About
+
+Write
+
+Help
+
+Legal

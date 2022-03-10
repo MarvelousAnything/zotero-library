@@ -1,0 +1,14 @@
+/* title highlight color */
+.branding__title--custom-text > b {
+    color: #193864;
+}
+
+@media screen and (min-width: 768px) {
+    .thing-type-topic .breadcrumb {
+        display: none;
+    }
+
+    .subnav-tools-wrap .subscribe {
+        right: -31px;
+    }
+}

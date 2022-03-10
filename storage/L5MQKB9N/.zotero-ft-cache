@@ -1,0 +1,489 @@
+We are IntechOpen,
+the world’s leading publisher of Open Access books
+Built by scientists, for scientists
+
+5,600
+Open access books available
+
+138,000
+International authors and editors
+
+170M
+Downloads
+
+154
+Countries delivered to
+
+Our authors are among the
+TOP 1%
+most cited scientists
+
+12.2%
+Contributors from top 500 universities
+
+Selection of our books indexed in the Book Citation Index in Web of Science™ Core Collection (BKCI)
+Interested in publishing with us? Contact book.department@intechopen.com
+Numbers displayed above are based on latest data collected. For more information visit www.intechopen.com
+
+ProvisionaClhcahpatpetre2r
+MMeetthhooddss ooff EEssttiimmaattiinngg FFoorreesstt BBiioommaassss:: AA RReevviieeww
+LLeeii SShhii aanndd SShhiirroonngg LLiiuu
+Additional information is available at the end of the chapter Additional information is available at the end of the chapter
+http://dx.doi.org/10.5772/65733
+Abstract
+Forest plays a special role in carbon sequestration and thus mitigating climate change. However, the large uncertainty in biomass estimation is unable to meet the requirement of the accurate carbon accounting. The use of a suitable and rigor method to accurately estimate forest biomass is significant. Moreover, the world is increasingly facing the conflicting pressures of economic growth and environmental protection. Improving energy structure and vigorously developing biomass energy has become the develop‐ ment trend of energy utilization in the future. As energy plant is characterized by a large net accumulation of biomass. Therefore, the scientific evaluation of the size and potential of energy from plant also requires a suitable method for estimating biomass. Here, we reviewed the estimate methods, including allometric equation, mean biomass density, biomass expansion factor, geostatistics, etc. For each method, we will present back‐ ground, rational, applicability, as well as estimation procedure by exemplifying a case. In this chapter, we argued that the new developed technique such as geo‐statistics and remote sensing technique (e.g. LIDAR) would be the key tools to improve forest biomass estimation accuracy. However, prior to this, spatial variation of forest biomass at various levels should be explored using multi‐source data and multi‐approaches. Keywords: carbon accounting, climate change, field survey, geostatistics, remote sens‐ ing technique, scale, uncertainty
+1. Introduction
+Currently, CO2 and other greenhouse gas are inducing global warming, and vegetation is the only natural ecosystems to fix atmospheric CO2. Forest is the main component of vegetation.
+©Ad©Aanittstt2d2trrr00iiirbbb11euuu7p7tttriiTTioooohhdnnneeuL,LAAciaicctnuueieodttnnhhnssrooeeeinrrp((((hhssra))ottn..ttdpLLypuii::mcc//cee//tenncicodrssreneeeiuaaeeimtntiIIivnnv,aeeTTpnceceroyooccmhhmmv.i.mdemTTedhhoodiiinusnstsmcsch..hohoe,ararpgopgpr/rt/otileelgivicrcriiendeiisnsaendslddseweiisstssth/to/rrbeirbibbkyyou/u/ir3stt3ieeg.p.0d0dir)no),u,uawpwnnlehdwdhrielecioycrhrrhctktpihhtpieeeseerdptmrte.merirortmimstpsuessunroolnryffertcetshihtstreteeircdCiCtc.retreeedadauttiusivvesee,edC,Cioosmtmrimbmuootninossn,
+
+24 Biomass Volume Estimation and Valorization for Energy
+
+Accordingly, forest ecosystem is destined to be paid more attention by governments, academics, and the general public [1]. According to the Global Forest Resources Assessment 2010 [2], the global forest biomass (including above‐ and belowground) is 600 Pg, with a mean biomass density of 148.8 t/ha (Table 1). It is estimated that carbon sequestered in forest can account for about 77% of terrestrial ecosystem [3].
+
+Region Eastern and Southern Africa Northern Africa Western and Central Africa Total Africa East Asia South and Southeast Asia Western and Central Asia Total Asia Europe excl. Russian Federation Total Europe Caribbean Central America North America Total North and Central America Total Oceania Total South America World
+
+Biomass (×106 t) 33,385 3711 816.3 118,700 18,429 51,933 3502 73,864 25,602 90,602 1092 3715 76,929 81,736 21,302 213,863 600,066
+
+Biomass density (t/ha) 124.8 47.1 248.7 176.0 72.4 176.4 80.5 124.7 130.7 90.2 157.5 190.5 113.3 115.9 111.3 247.4 148.8
+
+Table 1. Forest biomass and its density by region, 2010 [2].
+
+Global deforestation is undergoing seriously [2], which contributes to a quarter of carbon released into the atmosphere each year [4]. Land use/land use change (mainly deforestation) is considered to be an important approach to the release of CO2, which affects the carbon cycle on various spatial and temporal scales, and then global climate change [5, 6]. Therefore, the scientific and real‐time monitoring of forest cover change and more accurate estimates of forest biomass and its magnitude is of significance to clarify the contribution of forests in global climate change.
+In addition, the current world is facing the dual pressures of economic growth and environ‐ mental protection. Adjusting and optimizing energy structure, vigorously developing biomass energy has become the main developing trend of energy in the future. As energy plant, the most important characteristic is to possess a large net accumulation of biomass. Therefore, the scientific evaluation of the size and potential of biomass needs a suitable method used to estimate its biomass potential.
+
+Methods of Estimating Forest Biomass: A Review 25 http://dx.doi.org/10.5772/65733
+However, a large uncertainty exists in biomass estimation, which is unable to meet the requirement of the accurate carbon accounting required by Kyoto Protocol. The use of a suitable and rigor method to accurately estimate the size and distribution of forest biomass is of significance and also urgently needed. And also, the method used to estimate forest biomass is more likely to vary frequently with scale.
+Given this, we reviewed the commonly used methods to estimate forest biomass across the scale in this chapter, for the purpose of operation and guidance, which includes allometric equation, mean biomass density, biomass expansion factor, forest identity, remote sensing‐ and geostatistics‐based estimation methods, etc. For each method, we will present background, rational, applicability, as well as estimation procedure by exemplifying a case. At the end of this chapter, we argued that the new developed techniques such as geostatistics and remote sensing technique (e.g., LIDAR) would be the key tools to improve forest biomass estimation with a high accuracy. However, prior to this, spatial variation in forest biomass at various levels should be first explored using multi‐source data and multi‐approaches.
+
+2. Allometry and allometric equation
+
+If one organ is correlated to another of a plant, or a certain attribute is to plant size, we can call it allometry [7, 8], which is frequently expressed with a power relationship below [9, 10]:
+
+y = axb
+
+(1)
+
+                  or
+
+lgy = lga + blgx
+
+(2)
+
+where y often represents an attribute of plant (such as metabolic rate, biomass, etc.), x shows the size of the plant body (such as diameter at breast height and/or height), and a and b are coefficients.
+In botany, the allometric relationship is able to be used to calculate biomass and other ecological factors by measuring the easily measured diameter at breast height (and/or height). Theoret‐ ically, tree D (diameter at breast height) and H (height) can both affect tree biomass. Thus, tree biomass can be estimated by allometric equation (Eqs. (3) and (4)), which includes both D and H [11–13]:
+
+w = aDbH c or lg w = a¢ + b lg D + c lg H
+
+(3)
+
+w = a(D2H )b or lg w = a¢ + b lg(D2H )
+
+(4)
+
+26 Biomass Volume Estimation and Valorization for Energy
+where D and H represent tree diameter at breast height (cm) and height (m) and a, b, a′, and c are regression coefficients.
+Tree H is not easy to measure in field survey, so many researchers have used H‐D model to estimate the H through easily measured D and then to estimate vegetation biomass [14–16]. In contrast to H, it is easier to measure D, and the measurement error is relatively small while measuring D [17, 18]. Furthermore, it is very common and effi‐ cient to use allometric relationship in scientific literatures, which includes D only, while estimating biomass [19, 20]. The allometric equation including D only can be reused by others and also make comparable among regions. The study performed by Wang [12] has also indicated that the including of H variable (i.e., including both D and H) in allometric relationship was unable to improve biomass estimate significantly (increased determination coefficient less than 4%). Therefore, many scholars contain D only as in‐ dependent variable while fitting biomass allometric relationship (i.e., allometric equa‐ tions (1) and (2) above) [12, 21, 22].
+Such allometric relationship is based on the measured sample tree and aims to estimate vegetation biomass as the mathematical model (hereafter also referred to as a biomass allometric equation). Apparently, plant allometry is the theoretical basis of vegetation biomass estimation, which makes biomass estimate possible. Recently, remote sensing technique has been increasingly applied to estimate the biomass [23, 24]. However, data derived from allometric equation must be verified with field data in the method [25]. Generally, the use of allometric equation is indispensable to estimate biomass for both tree and forest.
+3. Procedure of estimating multi-scale forest biomass
+Multi‐scale aboveground biomass estimation is demonstrated as an example to show the procedure (Figure 1). First, a number of plots are set, where field survey is performed (step 1); then several sample trees are cut to fit individual‐level allometric equation (step 2); the use of developed allometric equation, together with filed survey data (mainly D), estimates biomass for each tree in plot and sums as stand‐level biomass (step 3); finally, such upscaling methods as the mean biomass density, geostatistical technique, and others are used to upscale the regional forest biomass (step 4).
+While estimating forest carbon stock, most scholars assumed that carbon content in plant bi‐ omass is constant (approximately 50%) [27–29]. Therefore, we estimate forest biomass first, multiplied by 50%, and can calculate the corresponding forest biomass carbon stock. It is not difficult to conclude that the method used to estimate forest carbon stock is almost entirely consistent with one used for biomass estimation; thus, the method of estimating forest bio‐ mass was addressed below, which can also be used to estimate forest carbon stock.
+
+Methods of Estimating Forest Biomass: A Review 27 http://dx.doi.org/10.5772/65733
+Figure 1. Procedure for biomass estimate and its error propagation [26].
+4. Current methods of estimating forest biomass
+4.1. Biomass estimate at individual level Destructive sampling method (or harvesting method) and developed allometric equation can both be used to estimate individual‐level biomass. For tree biomass estimate, destructive
+Figure 2. The relationship between the total biomass (y, kg) and D (x, cm) for the moso bamboo (Phyllostachys edulis) in South Anhui Province, China. The two variables exhibited a strong power function [30].
+
+28 Biomass Volume Estimation and Valorization for Energy
+sampling method is more accurate than the use of developed allometric equation, because all the developed allometric equations are fitted (derived) from the biomass data based on the destructive sampling method. However, destructive method needs to cut down several sample trees and is thus expensive and time‐consuming; moreover, it is not practical to weigh all the biomass for each tree in a stand or forest.
+The general procedure for estimating biomass using destructive sampling method is to cut down several sample trees and weigh its different components (e.g., foliage, branch, stem, and root), respectively. After field survey, the components of the sample trees are collected and immediately taken to the laboratory to determine the water content. Subsequently, the (total) biomass can be determined by multiplying the fresh weight by the dry/fresh weight ratio. Then allometric equation can be fitted between the sampling biomass and D (and/or H) (e.g., Figure 2), and the developed equation can be employed to estimate individual‐level biomass for each standing tree.
+4.2. Biomass estimate at stand level
+4.2.1. Mixed stand: simple allometric equation
+The choice of stand‐level biomass estimation is varied with the proportion of stand species composition (i.e., mixed or pure forests). Mixed stand‐level biomass estimates may be estimated using allometric equation and then obtained by the addition of entire stands.
+4.2.2. Pure stand: diameter-distribution model
+This stand‐level method is similar to the large‐scale mean biomass density method described above, which does not take variations in biomass within a stand into account. In addition, the aforementioned simple allometric equation method is unable to fully reflect the developments and changes in stand structures. The corporation of the commonly used simple allometric equation and diameter‐distribution functions (e.g., normal, lognormal, gamma, logistic, exponential, Richards, or Weibull functions) into a model (hereafter referred to as a diameter‐ distribution model) would likely improve the biomass estimation accuracy and strengthen the power of forest dynamics analyses.
+The paper reported by Qi et al. [30] has exemplified the diameter‐distribution model (Eq. (5)), which combined a three‐parameter diameter‐distribution function with an allometric equation to estimate the biomass of pure moso bamboo forests in China. The study found that a three‐ parameter Weibull distribution best characterized the diameter distribution of the moso bamboo stands. The biomass derived using the allometric equation was estimated 52.39 t/ha, smaller than 53.25 t/ha estimated using the Weibull distribution model (Table 2); this implied that the use of the common allometric equation alone to estimate forest biomass and carbon stocks may lead to an underestimate. It is concluded that using the diameter‐distribution model to estimate forest biomass and carbon stock is expected to improve the accuracy.
+
+Methods of Estimating Forest Biomass: A Review 29 http://dx.doi.org/10.5772/65733
+
+Plot PG1 PG2 PG3 PG4 PH5 PH6 PH7 PH8 PH9 PH10 PH11 PH12 PH13 PH14
+
+BDWD (t/ha) 45.54 35.88 43.00 41.46 18.96 51.25 40.39 53.54 64.17 44.38 52.57 43.42 62.56 60.40
+
+BDAE (t/ha) 46.29 34.79 42.19 38.87 18.02 50.72 39.02 52.05 62.37 43.79 50.57 41.94 60.81 59.69
+
+RE (%) −1.64 3.04 1.87 6.25 4.94 1.03 3.38 2.78 2.81 1.32 3.80 3.40 2.79 1.18
+
+Plot PH15 PH16 PH17 PH18 PH19 PH20 PHS21 PHS22 PHS23 PHS24 PHS25 PHS26 PHS27 All
+
+BDWD (t/ha) 47.48 31.43 34.99 24.87 61.27 13.07 87.39 63.389 49.339 61.22 100.93 102.58 102.44 53.25
+
+BDAE (t/ha) 46.16 32.17 34.59 23.78 59.91 12.68 87.36 63.28 48.96 60.13 100.79 102.10 101.54 52.39
+
+RE (%) 2.79 −2.34 1.14 4.37 2.23 3.00 0.03 0.16 0.76 1.78 0.14 0.47 0.87 1.91
+
+Note: The abbreviations PG and PH correspond to the plots at the Guangde Forest Station and the Huangshan Forest Station, respectively. BDWD, BDAE, and RE are estimated biomass density from Weibull‐distribution model and allometric equation alone and relative error calculated using the equation RE (%) = (BDWD − BDAE)/BDWD × 100%.
+
+Table 2. Comparison of biomass density (BD, t/ha) based on both the Weibull‐distribution model and allometric equation alone for the 27 moso bamboo stands.
+
+ò y = N Dmax g(x)f(x)dx Dmin
+
+(5)
+
+where x and y denote D and stand total biomass; g(x) is the allometric relationship of stand biomass versus D; f(x) is the probability density function of D for the given stand; Dmin and Dmax represent the minimum and maximum D for the stand, respectively; and N is the total culm number within the bamboo stand.
+4.3. Large-scale biomass estimate
+4.3.1. Mean biomass density method
+Early in the International Biosphere Plan (IBP) period, Whittaker et al. [31, 32] have assessed forest biomass and carbon stock on the regional and global scales, via mean biomass density method, where one can estimate biomass for a stand or forest by the mean biomass density multiplied by the area.
+Shi [33] selected 36 plots of moso bamboo forests to first calculate the mean D and biomass at the stand level using filed survey data and the developed allometric equation (Figure 2) and then estimate forest biomass and carbon stock via mean biomass density method (Table 3).
+
+30 Biomass Volume Estimation and Valorization for Energy
+
+According to the sixth National Forest Inventory (NFI) data, bamboo forest area in Anhui Province is about 152,700 ha [34], so bamboo forest biomass of 1999–2003 period in the southern Anhui Province was estimated about 5.70 Tg (=37.33 t ha × 15.27 × 104 ha) (1 Tg = 1012 g), approximately 0.05% of the national forest biomass of the same period [35].
+
+Plot Dmean (cm)
+P1 9.56 P2 7.82 P3 9.31 P4 6.4 P5 6.7 P6 8.79 P7 7.73 P8 8.54 P9 8.89 P10 7.82 P11 8.09 P12 7.18 P13 7.81 P14 9.81 P15 7.73 P16 8.02 P17 8.72 P18 6.33 P19 9.07
+
+Biomass density (t/ha) 45.94 33.03 37.99 34.26 23.33 47.79 60.46 64.65 72.69 38.89 46.84 43.36 30.61 52.73 45.80 27.09 29.62 22.09 54.91
+
+Carbon density (t/ha) 22.97 16.52 18.99 17.13 11.66 23.89 30.23 32.33 36.35 19.45 23.42 21.68 15.31 26.37 22.9 13.54 14.81 11.05 27.46
+
+Plot Dmean (cm) Biomass density (t/ha)
+
+P20 4.76
+
+16.56
+
+P21 4.62
+
+8.81
+
+P22 6.68
+
+14.66
+
+P23 6.71
+
+16.64
+
+P24 8.12
+
+34.5
+
+P25 10.57
+
+52.75
+
+P26 8.11
+
+21.46
+
+P27 6.12
+
+37.49
+
+P28 5.56
+
+22.51
+
+P29 5.98
+
+25.26
+
+P30 7.14
+
+24.35
+
+P31 5.91
+
+18.44
+
+P32 7.86
+
+31.12
+
+P33 9.00
+
+60.95
+
+P34 10.51
+
+49.96
+
+P35 10.77
+
+57.13
+
+P36 8.17
+
+39.05
+
+Mean
+
+37.33
+
+Carbon density (t/ha) 8.28 4.4 7.33 8.32 17.25 26.37 10.73 18.75 11.26 12.63 12.18 9.22 15.56 30.48 24.98 28.57 19.53
+18.66
+
+Note: The biomass of Cunninghamia lanceolata in each bamboo stand was estimated with the one‐parameter power equation developed by Li et al. [36] (y = 0.1606D2.1203, R2 = 0.99, P < 0.001).
+
+Table 3. Mean biomass method‐derived biomass and carbon stock at the stand level in South Anhui Province, China.
+However, the measured biomass density (i.e., data or plot) is more limited in this method, and plot location is frequently in the well‐growing stand, easily leading to an overestima‐ tion [37, 38].
+4.3.2. Geostatistics in biomass estimation
+As a spatial statistics, geostatistics has become an indispensable method used to study the nature with the dual characteristics of randomness and regularity over the past 50 years [39]. Forest is affected by physical, climate, and other natural disturbances with a high degree of heterogeneity and relevance; therefore geostatistics is also gradually used in forest ecology, including forest biomass estimate [40, 41].
+Zhang et al. [42] confirmed the feasibility of geostatistical methods used in estimating bamboo forest biomass. They chose Huangkeng Town, southern Wuyishan Mountain, as the study area and cut 103 sample bamboo culms to develop an allometric equation for moso bamboo of the
+
+Methods of Estimating Forest Biomass: A Review 31 http://dx.doi.org/10.5772/65733
+region, combined with data of field survey and leaf area index data to estimate the biomass of a total of 209 plots at stand level. By means of ARCGIS software, statistical technique was used to estimate bamboo forest biomass of the whole town, and spatial distribution of biomass was also visualized.
+4.3.3. National forest inventory and biomass expansion factor
+Many countries have implemented national forest inventory (NFI) regularly or irregularly in order to grasp the forest resources and their dynamics, as well as more scientific development of forest policies [43]. Subsequently, many scholars estimated forest biomass using NFI data at the region level, and then a biomass expansion factor (BEF) method came into being [28, 44]. This method assumes that there is a certain relationship between the forest growing stock and biomass; thus, biomass can be estimated based on the growing stock (derived from NFI) multiplied by the BEF conversion factor. Some researchers hold that BEF is a constant; we can call it mean BEF method. Actually, BEF varied frequently with forest age, site class, and stand density [45–47]. Hence, an improved method (called continuous BEF) [38, 45, 48, 49] is gradually being accepted by many scientists.
+Current researches regarding forest biomass change are mainly based on NFI data [46, 47, 50– 54]. But for the nation with a larger land area, the NFI points are limited, and remote areas are also difficult to reach, thereby often creating a bias in estimates. Moreover, forest resource assessment is incomparable; for example, the error of tropical deforestation rate estimated by FAO may be up to 50%, which is mainly due to the differences in national inventory methods and the definition of forest in tropical region [3]. Additionally, since NFI data have no infor‐ mation recording the spatial distribution of plots; therefore, spatial variation cannot be analyzed while using NFI data.
+4.3.4. Remote sensing technique and its application in biomass estimation
+Remote sensing technique developed rapidly in the late twentieth century, and remote sensing data with high spatiotemporal resolution, wide coverage, and timely updates has been widely used in the assessment of forest biomass and carbon stock on various scales [55–57]. Currently, remote sensing‐derived biomass estimation has become the leading method of large‐scale forest biomass and carbon stock estimation. The use of remote sensing technique to assess forest biomass is mainly based on the normalized difference vegetation index (NDVI) datasets. While using NDVI datasets, most researches frequently overlay the vegetation maps of a region and NDVI datasets to explore the spatiotemporal changes. But this method only pays attention to changes in productivity, without considering the change in area caused by land‐use change [58, 59].
+The method can be exemplified with the study conducted by Shi [24]. In this paper, National Forest Inventory and normalized difference vegetation index (NDVI, comes from Global Inventory Monitoring and Modeling Studies) datasets were integrated via matching forest type for Heilongjiang, Liaoning, and Jilin Provinces while fitting the inverse model (Figure 3). The developed inverse models were used to estimate forest growing stock and carbon stock,
+
+32 Biomass Volume Estimation and Valorization for Energy
+respectively. Consequently, changes in growing stock and biomass between 1982 and 2006 were analyzed.
+
+Figure 3. Relationship between forest timber volume density (m3/ha) (a), biomass density (t/ha) (b), and annual mean NDVI (NDVIave) of northeast China (including Heilongjiang, Liaoning, and Jilin provinces), respectively; four forest types for each inventory period (four inventory periods of and a total of 48 data points) are used in the regression.
+
+4.3.5. Forest identity
+For any forest, area, growing stock, biomass, and carbon can be linked using Eqs. (6)–(8). The forest identity method defines these four valued attributes by using measurable variables, and it quantitatively and logically integrates their changes into a causal relationship (i.e., Eqs. (9)– (11)) [60, 61].
+
+V (m3 ) = A(ha) ´ ( ) D m3 / ha
+
+(6)
+
+M (Mg) = A(ha) ( ) ´ D m3 / ha ( ) ´ B Mg / m3 = V (m3 ) ( ) ´ B Mg / m3
+
+(7)
+
+( ) ( ) Q(Mg C) = A(ha) ´ D m3 / ha ´ B Mg / m3 ´ C (Mg C / Mg)
+
+(8)
+
+Then, dln(Q)/dt = dln(A)/dt + dln(D)/dt + dln(B)/dt + dln(C)/dt. Let q ≈ dln(Q)/dt, a ≈ dln(A)/dt, d b ≈ dln(B)/dt, d ≈ dln(B)/dt, and c ≈ dln(C)/dt. Then,
+
+q = a+d+b+c
+
+(9)
+
+Similarly, And also,
+
+Methods of Estimating Forest Biomass: A Review 33 http://dx.doi.org/10.5772/65733
+
+v = a+d
+
+(10)
+
+m = a+d+b
+
+(11)
+
+where V, M, Q, A, D, B, and C represent growing stock (m3), biomass (Mg), forest carbon stock (Mg C), area (ha), growing stock density (m3/ha), the conversion ratio of biomass to growing stock (Mg/m3), and carbon concentration in biomass (Mg C/Mg) at the provincial or national level, respectively, and v, m, q, a, d, b, and c represent the corresponding derivatives of these attributes with respect to time.
+Shi et al. [35] applied both forest identity and regression approaches to explore the temporal changes in China’s forest. This paper showed that China’s forest area and growing stock density increased by 0.51 and 0.44% annually over the past three decades, while the conversion ratio of forest biomass to growing stock declined by 0.10% annually. These developments resulted in a net annual increase in 0.85% in forest carbon sequestration, which is equivalent to a net biomass carbon uptake of 43.8 Tg per year (1 Tg = 1012 g).
+In the paper, two regression equations below (i.e., Eqs. (12) and (13)) were used to obtain the derivatives of the forest attributes with respect to time:
+
+y = slope ´ x + intercept
+
+(12)
+
+RR(yr / %) = {slope [( y1 + y2 + y3 + y4 + y5) 5]} ´100
+
+(13)
+
+where y represents the forest attributes (i.e., area, growing stock density, the conversion ratio, or carbon content) at the provincial or national level; y1, y2, y3, y4, and y5 denote the corre‐ sponding forest attributes for the inventories of 1977–1981, 1984–1988, 1989–1993, 1994–1998, and 1999–2003, respectively; RR (%/yr) is the relative annual change rate of the forest attributes; slope denotes the amplitude and direction of annual absolute change for each forest attribute; and x represents the corresponding periods of NFI. In other words, the relative annual change rate (RR, %) defined here is equivalent to q, a, d, or b mentioned above.
+
+5. Method comparison
+Each estimation method has its advantages and disadvantages. None of these methods mentioned in this chapter is the best from individual to large scale (Table 4). Fitting allometric
+
+34 Biomass Volume Estimation and Valorization for Energy
+
+equation requires some down sampling trees, but the number is small relative to all the standing trees. The equation (coefficients) varies frequently with species, terrain, temperature, and rainfall. To improve its prediction power, combining the field survey with LIDAR and incorporating the variation into allometric coefficients are the two key elements. It is fully convinced that allometric equation, together with LIDAR, is increasing widely used in estimate forest biomass at individual and stand levels in the future.
+
+Method Allometric equation
+Mean biomass density Biomass expansion factor
+Forest identity Remote sensing
+
+Scale
+
+Major limitation
+
+Individual or stand Varying frequently with species, terrain, temperature, and rainfall; less sampling trees
+
+Stand or region
+
+Easily leading to an overestimation
+
+Stand
+
+Varying frequently with species, terrain, temperature, and rainfall
+
+Region
+
+Comprehensive analysis
+
+Stand or region
+
+Saturation and bidirectional reflectance of surface features
+
+Geostatistics
+
+Region
+
+More field data
+
+Improvement practices Incorporating these factors into allometric coefficients; combine with LIDAR
+Randomly set more plots
+Incorporating these into conversion factor
+–
+Higher spatiotemporal resolution, advanced algorithm and technology
+Constructing the biomass database
+
+Table 4. Comparison of the forest biomass estimation methods.
+
+Mean biomass density easily leads to an overestimation. However, the uncertainty will be reduced if we randomly select some plots across the study region as more as possible.
+Like allometric equation, biomass expansion factor also varies frequently with species, terrain, temperature, and rainfall. It is of significance to explore the variation of conversion factor with species and environment; then the conversion factor can be estimated as possible as we can.
+Forest identity is a tool used to comprehensively analyze the forest change, which is more likely be employed only by a small number of scientists.
+Remote sensing technique has been booming since the 1980s, but saturation of vegetation index (e.g., widely used NDVI) and bidirectional reflectance of surface features still occur. Exploring the higher spatiotemporal resolution, advanced algorithm and technology are needed in the future.
+Geostatistics is an important technique to upscale forest biomass but needs more field data. More field data implies more cost and time‐consuming. It is, therefore, important to construct the biomass database.
+
+6. Uncertainty
+Many scholars have conducted researches to estimate forest biomass and carbon stock on various scales, but estimates have a large uncertainty [62–65]. Dixon et al. [37] used mean
+
+Methods of Estimating Forest Biomass: A Review 35 http://dx.doi.org/10.5772/65733
+biomass density method to estimate China’s forest, whose carbon storage and carbon density were 7.0 Pg C and 114 t/ha, while biomass was estimated 6.2 Pg C and 57.07 t/ha based on the 720 plots conducted by Zhou et al. [66]. Estimation error of tropical deforestation rates may be as high as 50% due to the difference by national forest inventory method in tropical regions and different definitions of forest [3]. With regard to carbon stock for the Amazon rain forest, the estimation results varied from 58 [67] to 134 Pg C [68], as well as 89 Pg C estimated by FAO [2]. Given the large uncertainty, Houghton et al. [69] conducted a study regarding the com‐ parison of different methods by different scholars and concluded that carbon storage estimates are rarely considerable, even using similar data and the same estimation method.
+As addressed above, the procedure of estimating forest biomass includes four steps (Figure 1). Each step can produce uncertainty: step 1 induces measure error, step 2 causes model error, step 3 involves sampling error, and step 4 often ignores biomass spatial variability and increases uncertainty. Uncertainty resulting from the previous steps will affect (propagate) the following biomass estimation process (result). Compared to measure and sampling errors, model and spatial variability errors are much larger but easier to solve. Taking the inverse model (see Figure 3), for example, the densities of growing stock and biomass both have significant relationships with NDVI, but determination coefficients (R2) are very low, implying that the current remote sensing data is unable to fully retrieve forest biomass. This is mainly caused by the complicated soil background, bidirectional reflectance of surface features, and saturation of NDVI. Higher spatiotemporal remote sensing data in the future can improve the prediction accuracy while using inverse model.
+In ecological researches, a number of parameters (such as biomass) are not easy to be measured directly; thus, the indirect measurement is available, namely, measuring certain indirect variables first and calculating direct one based on the relationship between indirect and direct variables. Direct measurement error will be transformed and propagated to indirect measure‐ ment error by a certain function, namely, error propagation [70]. Overall, the uncertainty is mainly due to the spatial variability of forest carbon stock and error propagated from the estimation process [26, 71, 72]. In general, the total uncertainty can be obtained by summing the error produced during the procedure [73].
+Currently, little research has been conducted on the uncertainty of biomass estimation [73], and only a few studies have focused on one or several errors. For example, Ketterings et al. [74] have focused on the error induced by step 2 and presented a simple method to reduce error based on the tree H and stand density. Phillips et al. [73] analyzed the uncertainty using NFI data of five states of the USA and found that the uncertainty of large‐scale forest volume estimation was mainly from the sampling error. Chave et al. [26] pointed out that sampling, identifying allometric equation, measuring tree D, and other stand variables can propagate error to the aboveground biomass estimates and the developed allometric model accounts for the largest source of uncertainty; thus, fitting allometric model should be given adequate attention. Holdaway et al. [75] used Monte Carlo method to analyze the uncertainty while estimating carbon stock in temperate rain forest, New Zealand. Su et al. [76] pointed out that non‐geo‐referenced plot location would bring biomass estimation error and also estimated the aboveground biomass of China’s forest via incorporating sampling error model.
+
+36 Biomass Volume Estimation and Valorization for Energy
+With the increasing value of climate change by world dignitaries and growing global carbon market, the accuracy problems in estimating forest carbon stock on various scales have become increasingly prominent. The uncertainty in forest carbon reserve estimation can involve the climate negotiations and the development of carbon trading market to some extent, thereby affecting the development of government policies and international negotiations regarding the forest response to climate change. Therefore, the scientific community has become increasingly concerned about the uncertainty in the estimation of forest carbon stock. Changes in publica‐ tion papers from 1990 to date regarding biomass estimation uncertainty can be evident (Figure 4); prior to 1997, the number of papers is relatively stable, but article number increases exponentially since 1997 (when Kyoto Protocol effects).
+Figure 4. Articles regarding the uncertainty analysis of forest carbon stock versus time. The number is obtained via searching forest, biomass, and uncertainty in core journal of ISI Web of Knowledge.
+7. Challenges and prospects
+7.1. Global field biomass dataset Although remote sensing, NFI, geographic information system, and other advanced techni‐ ques have been applied to estimate forest biomass, but the accuracy of estimate of forest biomass needs to be improved. In recent years, with the advent of LIDAR, multispectral data, and geostatistical technique, most scholars paid more attention to the application of such advanced technology in biomass estimates but ignored the acquisition and compiling field
+
+Methods of Estimating Forest Biomass: A Review 37 http://dx.doi.org/10.5772/65733
+biomass data. Although acquisition of field biomass data using harvesting method is time‐ consuming and laborious, the fitted inverse model based on remote sensing data must be verified using the measured data on biomass. Matching remote sensing data and ground‐truth data is often a difficult problem during biomass estimation. In various biomass estimation methods, most researchers assume that the ground‐truth biomass data are the most accurate. It is thus important to carry out field biomass measurement globally using a unified investi‐ gation specification, as well as the establishment of a unified biomass database.
+7.2. Upscaling in biomass estimation
+Scale has been one of the core focuses of ecology. Scale and upscale affect the accuracy of forest biomass estimation and are also an important issue in biomass estimation. Biomass estimation method varied with scale. The mean biomass density method, BEF method, remote sensing, and geostatistic method are used to estimate large‐scale forest biomass and carbon stock, which involves scale biomass (upscaling); allometric equation is used for small‐scale biomass estimation. However, large‐scale biomass estimate must be based on the allometric equation. If forest biomass estimation method you use is different from another, estimate may be different even if the same data is used. The rapid development of remote sensing data, geostatistical technique, and others make scaling possible while estimating biomass. Therefore, upscaling forest biomass from stand scale to regional and even global scale should be one of the key elements for future biomass researches. Only by addressing the scaling issue and clarifying the spatial variation of forest biomass can a unified framework or system for estimating forest biomass be presented. Then national and international standards of estimat‐ ing forest biomass can be developed to improve biomass estimation with a high accuracy.
+7.3. High-accuracy biomass estimate needs remote sensing
+Remote sensing data with a high spatiotemporal resolution, wide coverage, and timely updates have been widely used in the assessment of forest biomass and carbon stock on various scales, which play an important role in improving estimation accuracy.
+In addition, scaling biomass cannot do without application of remote sensing data. However, remote sensing data have no continuity of the time series, the resolution is not high enough, and the fitted inverse model is often saturated. Moreover, the quality of the current multi‐ spectral data is not high, and LIDAR data and UAV technology applied in forest biomass estimate are not yet mature. Improving the quality of multispectral data, LIDAR and UAV technology are two of the most active frontiers in the future.
+7.4. Geographical variation of allometric equation
+As mentioned above, allometric equation is indispensable in biomass estimation. However, the coefficients of the equation varied frequently with species, terrain, temperature, and rainfall [77–79]. Small variation in the allometric coefficients is likely to result in a larger biomass estimation error [80]. Therefore, the clarification of the variation in the allometric
+
+38 Biomass Volume Estimation and Valorization for Energy
+coefficients along different gradients is also the element to improve the accuracy of biomass estimation.
+Biomass estimate may be different using different allometric equations while estimating vegetation biomass. Thus, it is likely to come to inconsistent results, even when different scholars estimate the same forest. In other words, the choice of the appropriate predictors and optimization of allometric equation and its parameters can contribute to reduce biomass estimation uncertainty and improve the ability to predict the biomass and carbon stock. It is worth noting that recently developed metabolic rate theory (fractal networks) is contrary to conventional wisdom. The theory inference indicated that the forest biomass (M) and its D on the species and biota scale both showed a constant relationship, which can be written as M∝ D8/3 [81–83]. Whether the coefficients of biomass allometric equation varied with the species, site, and climatic factors or not is a hot debate in recent years [84]. If the relationship between forest biomass and the corresponding D remains to be constantly exponential on various scales, a unified allometric biomass estimation model is more likely to be developed, which helps to save costs in in situ measurements of biomass, but also can contribute to promote the in‐depth study of biomass estimation methods.
+8. Conclusions
+Plant allometry is the theoretical basis of vegetation biomass estimation. Generally, the use of allometric equation is indispensable to estimate biomass for both tree and forest. By reviewing the methods used for estimating forest biomass, we can conclude that each estimation method has its advantages and disadvantages, and none of these methods mentioned is always the best from individual to large scales. A large uncertainty exists in biomass estimation, which is unable to meet the requirement of the accurate carbon accounting required by Kyoto Protocol. It is of significance and urgently needed to develop the more suitable and rigor method to accurately estimate the size and distribution of forest biomass. To achieve this goal, we argued that the new developed technique such as geostatistics and remote sensing technique (e.g., LIDAR) would be the key tools to improve forest biomass estimation with a high accuracy. However, prior to this, spatial variation in forest biomass at various levels should be explored using multi‐source data and multi‐approaches.
+Acknowledgements
+This study was supported by the Special Fund for Basic Scientific Research of International Center for Bamboo and Rattan (1632015005) and the National Natural Science Foundation of China (31300177).
+
+Methods of Estimating Forest Biomass: A Review 39 http://dx.doi.org/10.5772/65733
+Author details
+Lei Shi1* and Shirong Liu1,2
+*Address all correspondence to: leishi@icbr.ac.cn
+1 State Forestry Administration Key Laboratory for Science & Technology of Bamboo & Rattan, International Center for Bamboo and Rattan, Beijing, China
+2 Institute of Forest Ecology, Environment and Protection, Chinese Academy of Forestry, Beijing, China
+References
+[1] FAO (Food and Agriculture Organization, the United Nations). State of the world’s forests 2011. Rome: UN Food and Agriculture Organization; 2011.
+[2] FAO (Food and Agriculture Organization, the United Nations). Global Forests Resour‐ ces Assessment 2010: Main Report. Rome: UN Food and Agriculture Organization; 2010.
+[3] Watson RT, Noble A, Bolin B, Ravindranath NH, Verado D. Land use, land‐use change, and forestry. Intergovernmental Panel on Climate Change Special Report. Cambridge: Cambridge University Press; 2000.
+[4] IPCC (Intergovernmental Panel on Climate Change) Climate Change 2007: Synthesis Report. Core Writing Team P, Pachauri RK, Reisinger A, Editor. Geneva, Switzerland: Contribution of Working Groups I, II and III to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change; 2007.
+[5] Jackson RB, Jobbagy EG, Avissar R, Roy SB, Barrett DJ, Cook CW, Farley KA, le Maitre DC, McCarl BA, Murray BC. Trading water for carbon with biological sequestration. Science. 2005; 310: 1944–1947. DOI: 10.1126/science.1119282.
+[6] Piao SL, Friedlingstein P, Ciais P, de Noblet‐Ducoudre N, Labat D, Zaehle S. Changes in climate and land use have a larger direct impact than rising CO2 on global river runoff trends. Proceedings of the National Academy of Sciences of the United States of America. 2007; 104: 15242–15247. DOI: 10.1073/pnas.0707213104.
+[7] Niklas KJ, Owens T, Reich PB, Cobb ED. Nitrogen/phosphorus leaf stoichiometry and the scaling of plant growth. Ecology Letters. 2005; 8: 636–642. DOI: 10.1111/j. 1461‐0248.2005.0075 9.x.
+[8] Huxley JS. Problems of relative growth. London: Methuen. 1932. 276.
+
+40 Biomass Volume Estimation and Valorization for Energy
+[9] Enquist BJ, Niklas KJ. Invariant scaling relations across tree‐dominated communities. Nature. 2001; 410: 655–660. DOI: 10.1038/35070500.
+[10] Cheng DL. Study on the correlation between plant biomass allocation model and growth rate [Thesis]. Lanzhou: Lanzhou University; 2007.
+[11] Shanmughavel P and Francis K. Above ground biomass production and nutrient distribution in growing bamboo (Bambusa bambos (L) Voss). Biomass & Bioenergy. 1996; 10: 383–391.
+[12] Wang CK. Biomass allometric equations for 10 co‐occurring tree species in Chinese temperate forests. Forest Ecology and Management. 2006; 222: 9–16. DOI: 10.1016 / j.foreco.2005.10.074.
+[13] Gao X, Jiang ZH, Guo QR, Zhang Y, Yin H, He F, Qi LH, Shi L. Allometry and biomass production of Phyllostachys edulis across the whole lifespan. Polish Journal of Environ‐ mental Studies. 2015; 24: 511–517.
+[14] Feldpausch TR, Banin L, Phillips OL, Baker TR, Lewis SL, Quesada CA, Affum‐Baffoe K, Arets E, Berry NJ, Bird M, Brondizio ES, de Camargo P, Chave J, Djagbletey G, Domingues TF, Drescher M, Fearnside PM, Franca MB, Fyllas NM, Lopez‐Gonzalez G, Hladik A, Higuchi N, Hunter MO, Iida Y, Salim KA, Kassim AR, Keller M, Kemp J, King DA, Lovett JC, Marimon BS, Marimon BH, Lenza E, Marshall AR, Metcalfe DJ, Mitchard ETA, Moran EF, Nelson BW, Nilus R, Nogueira EM, Palace M, Patino S, Peh KSH, Raventos MT, Reitsma JM, Saiz G, Schrodt F, Sonke B, Taedoumg HE, Tan S, White L, Woll H, Lloyd J. Height‐diameter allometry of tropical forest trees. Biogeosciences. 2011; 8: 1081–1106. DOI: 10.5194/bg‐8‐1081‐2011.
+[15] Peng C, Zhang L, Liu J. Developing and validating nonlinear height‐diameter models for major tree species of Ontario’s boreal forests. Northern Journal of Applied Forestry. 2001; 18: 87–94.
+[16] Gao X, Li ZD, Yu HM, Jiang ZH, Wang C, Zhang Y, Qi LH, Shi L. Modeling of the height‐ diameter relationship using an allometric equation model: a case study of stands of Phyllostachys edulis. Journal of Forestry Research. 2016; 27: 339–347. DOI: 10.1007/ s11676‐015‐0145‐6.
+[17] Gower ST, Kucharik CJ, Norman JM. Direct and indirect estimation of leaf area index, f(APAR), and net primary production of terrestrial ecosystems. Remote Sensing of Environment. 1999; 70: 29–51. DOI: 10.1016/s0034‐4257(99)00056‐5.
+[18] Mowrer HT and Frayer WE. Variance propagation in growth and yield projections. Canadian Journal of Forest Research‐Revue Canadienne De Recherche Forestiere. 1986; 16: 1196–1200. DOI: 10.1139/x86‐213.
+[19] Pilli R, Anfodillo T, Carrer M. Towards a functional and simplified allometry for estimating forest biomass. Forest Ecology and Management. 2006; 237: 583–593. DOI: 10.1016/j.foreco.2006.10.004.
+
+Methods of Estimating Forest Biomass: A Review 41 http://dx.doi.org/10.5772/65733
+[20] Andrade HA, Campos RO. Allometry coefficient variations of the length‐weight relationship of skipjack tuna (Katsuwonus pelamis) caught in the southwest South Atlantic. Fisheries Research. 2002; 55: 307–312. DOI: 10.1016/s0165‐7836(01)00305‐8.
+[21] Singh AN, Singh JS. Biomass, net primary production and impact of bamboo plantation on soil redevelopment in a dry tropical region. Forest Ecology and Management. 1999; 119: 195–207.
+[22] Isagi Y, Kawahara T, Kamo K. Biomass and net production in a bamboo Phyllostachys‐ Bambusoides stand. Ecological Research. 1993; 8: 123–133.
+[23] Shi L. Changes in China’s forests over the past 25 years [Thesis]. Beijing: Peking University; 2011.
+[24] Shi L. Changes of forest in Northeast China over the past 25 years: an analysis based on remote sensing technique. Proceedings of SPIE. 2011; 8203: The Society of Photo‐ Optical Instrumentation Engineers (SPIE); International Society for Digital Earth; UNDESA GAID e‐SDDC; Asian Association on Remote Sensing; IEEE Beijing Section.
+[25] Mitchard ETA, Saatchi SS, Lewis SL, Feldpausch TR, Gerard FF, Woodhouse IH, Meir P. Comment on 'A first map of tropical Africa's above‐ground biomass derived from satellite imagery'. Environmental Research Letters. 2011; 6: 6. DOI: 10.1088/1748‐ 9326/6/4/04 9 001.
+[26] Chave J, Condit R, Aguilar S, Hernandez A, Lao S, Perez R. Error propagation and scaling for tropical forest biomass estimates. Philosophical Transactions of the Royal Society of London Series B‐Biological Sciences. 2004; 359: 409–420. DOI: 10.1098/rstb. 2003.1425.
+[27] Matthews G. The carbon content of trees. Edinburgh, Scotland: Forestry Commission; 1993.
+[28] Birdsey RA. Carbon storage and accumulation in United States forest ecosystems. Washington D.C.: U.S. Department of Agriculture, Forest Service, Washington Office; 1992.
+[29] Brown S. Estimating biomass and biomass change of tropical forests: a primer. Rome: Food and Agriculture Organization of the United Nations; 1997.
+[30] Qi LH, Liu XJ, Jiang ZH, Yue XH, Li ZD, Fu JH, Liu GL, Guo BH, Shi L. Combining diameter‐distribution function with allometric equation in biomass estimates: a case study of Phyllostachys edulis forests in South Anhui, China. Agroforestry Systems. 2015. DOI: 10.1007/s 10457‐015‐9887‐6.
+[31] Whittaker RH. Net production of heath balds and forest heaths in the Great Smoky Mountains. Ecology. 1963; 44: 176–182.
+[32] Woodwell GM and Whittaker RH. Primary production in terrestrial ecosystems. American Zoologist. 1968; 8: 19–30.
+
+42 Biomass Volume Estimation and Valorization for Energy
+[33] Shi L. Carbon stock estimation of Phyllostachys edulis forest: a case study in South Anhui Province, China. Beijing: International Center for Bamboo and Rattan (ICBR). 2014; p. 55.
+[34] SFA (State Forestry Administration). National Forest Resources Statistics (1999–2003). Beijing: China Forestry Publishing House; 2004.
+[35] Shi L, Zhao SQ, Tang ZY, Fang JY. The changes in China's forests: an analysis using the forest identity. PLoS One. 2011; 6: e20778. DOI: 10.1371/journal.pone.0020778.
+[36] Li Y, Zhang JG, Duan AJ, Xiang CW. Selection of biomass estimation models for Chinese fir plantation. Chinese Journal of Applied Ecology. 2010; 21: 3036–3046.
+[37] Dixon RK, Brown S, Houghton RA, Solomon AM, Trexler MC, Wisniewski J. Carbon pools and flux of global forest ecosystems. Science. 1994; 263: 185–190.
+[38] Fang JY, Oikawa T, Kato T, Mo WH, Wang ZH. Biomass carbon accumulation by Japan's forests from 1947 to 1995. Global Biogeochemical Cycles. 2005; 19: Gb2004. DOI: 10.1029/2004gb002253.
+[39] Feng YM, Tang SZ, Li ZY. Application of spatial statistic analysis in forestry. Scientia Silvae Sinicae. 2004; 40: 149–155.
+[40] Yadav BKV, Nandy S. Mapping aboveground woody biomass using forest inventory, remote sensing and geostatistical techniques. Environmental Monitoring and Assess‐ ment. 2015; 187: DOI: 10.1007/s10661‐015‐4551‐1.
+[41] Barra M, Petitgas P, Bonanno A, Somarakis S, Woillez M, Machias A, Mazzola S, Basilone G, Giannoulaki M. Interannual changes in biomass affect the spatial aggrega‐ tions of anchovy and sardine as evidenced by geostatistical and spatial indicators. Plos One. 2015; 10: e0135808. DOI: 10.1371/journal.pone.0135808.
+[42] Zhang Y, Yue XH, Qi LH, Jiang ZH, Shi L. Estimation of Phyllostachys edulis forest biomass in southern Wuyishan Mountain using allometric equation and geostatistical technique. Chinese Journal of Ecology. 2016; 35: 1957–1962.
+[43] Kangas A, Maltamo M. Forest inventory: methodology and applications. Dordrecht, the Netherlands: Springer Verlag. 2006.
+[44] Turner DP, Koerper GJ, Harmon ME, Lee JJ. A carbon budget for forests of the conter‐ minous United‐States. Ecological Applications. 1995; 5: 421–436.
+[45] Brown S, Lugo AE. Aboveground biomass estimates for tropical moist forests of the Brazilian Amazon. Interciencia. 1992; 17: 8–18.
+[46] Fang JY, Chen AP, Peng CH, Zhao SQ, Ci L. Changes in forest biomass carbon storage in China between 1949 and 1998. Science. 2001; 292: 2320–2322.
+[47] Fang JY, Wang GG, Liu GH, Xu SL. Forest biomass of China: an estimate based on the biomass‐volume relationship. Ecological Applications. 1998; 8: 1084–1091.
+
+Methods of Estimating Forest Biomass: A Review 43 http://dx.doi.org/10.5772/65733
+[48] Fang JY, Guo ZD, Piao SL, Chen AP. Terrestrial vegetation carbon sinks in China, 1981– 2000. Science in China Series D‐Earth Sciences. 2007; 50: 1341–1350. DOI: 10.1007/ s11430‐007‐0049‐1.
+[49] Schroeder P, Brown S, Mo JM, Birdsey R, Cieszewski C. Biomass estimation for temperate broadleaf forests of the United States using inventory data. Forest Science. 1997; 43: 424–434.
+[50] Corona P, Fattorini L, Franceschi S. Estimating the volume of forest growing stock using auxiliary information derived from relascope or ocular assessments. Forest Ecology and Management. 2009; 257: 2108–2114. DOI: 10.1016/j.foreco.2009.02.017.
+[51] Fazakas Z, Nilsson M, Olsson H. Regional forest biomass and wood volume estimation using satellite data and ancillary data. Agricultural and Forest Meteorology. 1999; 98‐9: 417–425.
+[52] Franco‐Lopez H, Ek AR, Bauer ME. Estimation and mapping of forest stand density, volume, and cover type using the k‐nearest neighbors method. Remote Sensing of Environment. 2001; 77: 251–274.
+[53] Al‐Bakri JT and Taylor JC. Application of NOAA AVHRR for monitoring vegetation conditions and biomass in Jordan. Journal of Arid Environments. 2003; 54: 579–593. DOI: 10.1006/jare.2002.1081.
+[54] Peng CH, Zhou XL, Zhao SQ, Wang XP, Zhu B, Piao SL, Fang JY. Quantifying the response of forest carbon balance to future climate change in Northeastern China: model validation and prediction. Global and Planetary Change. 2009; 66: 179–194. DOI: 10.1016/ j.gloplacha.2008.12.001.
+[55] Lu DS. The potential and challenge of remote sensing‐based biomass estimation. International Journal of Remote Sensing. 2006; 27: 1297–1328. DOI: 10.1080/01431 160500486732.
+[56] Nelson R, Krabill W, Tonelli J. Estimating forest biomass and volume using airborne laser data. Remote Sensing of Environment. 1988; 24: 247–267.
+[57] Timothy D, Onisimo M, Cletah S, Adelabu S, Tsitsi B. Remote sensing of aboveground forest biomass: a review. Tropical Ecology. 2016; 57: 125–132.
+[58] Piao SL, Fang JY, Zhou LM, Ciais P, Zhu B. Variations in satellite‐derived phenology in China's temperate vegetation. Global Change Biology. 2006; 12: 672–685. DOI: 10.1111/ j.1365‐2486.2006.01123.x.
+[59] Myneni RB, Dong J, Tucker CJ, Kaufmann RK, Kauppi PE, Liski J, Zhou L, Alexeyev V, Hughes MK. A large carbon sink in the woody biomass of northern forests. Proceedings of the National Academy of Sciences of the United States of America. 2001; 98: 14784– 14789.
+[60] Waggoner PE. Using the Forest Identity to grasp and comprehend the swelling mass of forest statistics. International Forestry Review. 2008; 10: 689–694.
+
+44 Biomass Volume Estimation and Valorization for Energy
+[61] Kauppi PE, Ausubel JH, Fang JY, Mather AS, Sedjo RA, Waggoner PE. Returning forests analyzed with the forest identity. Proceedings of the National Academy of Sciences of the United States of America. 2006; 103: 17574–17579. DOI: 10.1073/pnas.0608343103.
+[62] Mitchard ETA, Feldpausch TR, Brienen RJW, Lopez‐Gonzalez G, Monteagudo A, Baker TR, Lewis SL, Lloyd J, Quesada CA, Gloor M, ter Steege H, Meir P, Alvarez E, Araujo‐ Murakami A, Aragao L, Arroyo L, Aymard G, Banki O, Bonal D, Brown S, Brown FI, Ceron CE, Moscoso VC, Chave J, Comiskey JA, Cornejo F, Medina MC, Da Costa L, Costa FRC, Di Fiore A, Domingues TF, Erwin TL, Frederickson T, Higuchi N, Coronado ENH, Killeen TJ, Laurance WF, Levis C, Magnusson WE, Marimon BS, Marimon BH, Polo IM, Mishra P, Nascimento MT, Neill D, Vargas MPN, Palacios WA, Parada A, Molina GP, Pena‐Claros M, Pitman N, Peres CA, Poorter L, Prieto A, Ramirez‐Angulo H, Correa ZR, Roopsind A, Roucoux KH, Rudas A, Salomao RP, Schietti J, Silveira M, de Souza PF, Steininger MK, Stropp J, Terborgh J, Thomas R, Toledo M, Torres‐Lezama A, van Andel TR, van der Heijden GMF, Vieira ICG, Vieira S, Vilanova‐Torre E, Vos VA, Wang O, Zartman CE, Malhi Y, Phillips OL. Markedly divergent estimates of Amazon forest carbon density from ground plots and satellites. Global Ecology and Biogeogra‐ phy. 2014; 23: 935–946. DOI: 10.1111/ geb.12168.
+[63] Yuen JQ, Fung T, Ziegler AD. Review of allometric equations for major land covers in SE Asia: uncertainty and implications for above‐ and below‐ground carbon estimates. Forest Ecology and Management. 2016; 360: 323–340. DOI: 10.1016/j.foreco.2015.09.016.
+[64] Chen Q, Laurin GV, Valentini R. Uncertainty of remotely sensed aboveground biomass over an African tropical forest: propagating errors from trees to plots to pixels. Remote Sensing of Environment. 2015; 160: 134–143. DOI: 10.1016/j.rse.2015.01.009.
+[65] Ahmed R, Siqueira P, Hensley S, Bergen K. Uncertainty of forest biomass estimates in north temperate forests due to allometry: implications for remote sensing. Remote Sensing. 2013; 5: 3007–3036. DOI: 10.3390/rs5063007.
+[66] Zhou YR, Yv ZL, Zhao SD. Carbon storage and budget of major Chinese forest types. Chinese Journal of Plant Ecology. 2000; 24: 518–522.
+[67] Olson JS, Watts JA, Allison LJ. Carbon in live vegetation of major world ecosystems. Oak Ridge National Lab., Oak Ridge, TN (USA). 1983.
+[68] Fearnside PM. Greenhouse gases from deforestation in Brazilian Amazonia: net committed emissions. Climatic Change. 1997; 35: 321–360. DOI: 10.1023/a:1005336 724350.
+[69] Houghton RA, Lawrence KT, Hackler JL, Brown S. The spatial distribution of forest biomass in the Brazilian Amazon: a comparison of estimates. Global Change Biology. 2001; 7: 731–746. DOI: 10.1046/j.1365‐2486.2001.00426.x.
+[70] Yang ZC. Error Theory. Changsha: Central South University of Technology Press. 1987.
+[71] Rejou‐Mechain M, Muller‐Landau HC, Detto M, Thomas SC, Le Toan T, Saatchi SS, Barreto‐Silva JS, Bourg NA, Bunyavejchewin S, Butt N, Brockelman WY, Cao M,
+
+Methods of Estimating Forest Biomass: A Review 45 http://dx.doi.org/10.5772/65733
+Cardenas D, Chiang JM, Chuyong GB, Clay K, Condit R, Dattaraja HS, Davies SJ, Duque A, Esufali S, Ewango C, Fernando RHS, Fletcher CD, Gunatilleke I, Hao Z, Harms KE, Hart TB, Herault B, Howe RW, Hubbell SP, Johnson DJ, Kenfack D, Larson AJ, Lin L, Lin Y, Lutz JA, Makana JR, Malhi Y, Marthews TR, McEwan RW, McMahon SM, McShea WJ, Muscarella R, Nathalang A, Noor NSM, Nytch CJ, Oliveira AA, Phillips RP, Pongpattananurak N, Punchi‐Manage R, Salim R, Schurman J, Sukumar R, Suresh HS, Suwanvecho U, Thomas DW, Thompson J, Uriarte M, Valencia R, Vicentini A, Wolf AT, Yap S, Yuan Z, Zartman CE, Zimmerman JK, Chave J. Local spatial structure of forest biomass and its consequences for remote sensing of carbon stocks. Biogeosciences. 2014; 11: 6827–6840. DOI: 10.5194/bg‐11‐6827‐2014.
+[72] Gregoire TG, Naesset E, McRoberts RE, Stahl G, Andersen HE, Gobakken T, Ene L, Nelson R. Statistical rigor in LiDAR‐assisted estimation of aboveground forest biomass. Remote Sensing of Environment. 2016; 173: 98–108. DOI: 10.1016/j.rse.2015.11.012.
+[73] Phillips DL, Brown SL, Schroeder PE, Birdsey RA. Toward error analysis of large‐scale forest carbon budgets. Global Ecology and Biogeography. 2000; 9: 305–313. DOI: 10.1046/j.1365‐2699.2000.00197.x.
+[74] Ketterings QM, Coe R, van Noordwijk M, Ambagau Y, Palm CA. Reducing uncertainty in the use of allometric biomass equations for predicting above‐ground tree biomass in mixed secondary forests. Forest Ecology and Management. 2001; 146: 199–209. DOI: 10.1016/s0378‐1127(00)00460‐6.
+[75] Holdaway RJ, McNeill SJ, Mason NWH, Carswell FE. Propagating uncertainty in plot‐ based estimates of forest carbon stock and carbon stock change. Ecosystems. 2014; 17: 627–640. DOI: 10.1007/s10021‐014‐9749‐5.
+[76] Su YJ, Guo QH, Xue BL, Hu TY, Alvarez O, Tao SL, Fang JY. Spatial distribution of forest aboveground biomass in China: estimation through combination of spaceborne lidar, optical imagery, and forest inventory data. Remote Sensing of Environment. 2016; 173: 187–199. DOI: 10.1016/j.rse.2015.12.002.
+[77] Wang XP, Fang JY, Tang ZY, Zhu B. Climatic control of primary forest structure and DBH‐height allometry in Northeast China. Forest Ecology and Management. 2006; 234: 264–274. DOI: 10.1016/j.foreco.2006.07.007.
+[78] Lopez‐Serrano FR, Garcia‐Morote A, Andres‐Abellan M, Tendero A, del Cerro A. Site and weather effects in allometries: a simple approach to climate change effect on pines. Forest Ecology and Management. 2005; 215: 251–270. DOI: 10.1016/j.foreco.2005.05.014.
+[79] Berninger F and Nikinmaa E. Implications of varying pipe model relationships on Scots Pine growth in different climates. Functional Ecology. 1997; 11: 146–156. DOI: 10.1046/ j.1365‐2435.1997.00067.x.
+[80] Geron CD, Ruark GA. Comparison of constant and variable allometric ratios for predicting foliar biomass of various tree Genera. Canadian Journal of Forest Research‐ Revue Canadienne De Recherche Forestiere. 1988; 18: 1298–1304. DOI: 10.1139/x88‐200.
+
+46 Biomass Volume Estimation and Valorization for Energy
+[81] West GB, Brown JH, Enquist BJ. A general model for the structure and allometry of plant vascular systems. Nature. 1999; 400: 664–667.
+[82] Enquist BJ, Brown JH, West GB. Allometric scaling of plant energetics and population density. Nature. 1998; 395: 163–165. DOI: 10.1038/25977.
+[83] West GB, Brown JH, Enquist BJ. A general model for the origin of allometric scaling laws in biology. Science. 1997; 276: 122–126. DOI: 10.1126/science.276.5309.122.
+[84] Marshall AR, Willcock S, Platts PJ, Lovett JC, Balmford A, Burgess ND, Latham JE, Munishi PKT, Salter R, Shirima DD, Lewis SL. Measuring and modelling above‐ground carbon and tree allometry along a tropical elevation gradient. Biological Conservation. 2012; 154: 20–33. DOI: 10.1016/j.biocon.2012.03.017.
+

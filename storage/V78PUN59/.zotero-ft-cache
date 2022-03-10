@@ -1,0 +1,821 @@
+DE PA
+
+T URE
+
+United States Department of Agriculture Forest Service Pacific Northwest Research Station Research Paper PNW-RP-591 March 2013
+R TMENT OF AGRICU L
+
+Estimating Tree Biomass, Carbon, and Nitrogen in Two Vegetation Control Treatments in an 11-YearOld Douglas-Fir Plantation On a Highly Productive Site
+Warren D. Devine, Paul W. Footen, Robert B. Harrison, Thomas A. Terry, Constance A. Harrington, Scott M. Holub, and Peter J. Gould
+
+The U.S. Department of Agriculture (USDA) prohibits discrimination in all its programs and activities on the basis of race, color, national origin, sex, religion, age, disability, sexual orientation, marital status, family status, status as a parent (in education and training programs and activities), because all or part of an individual’s income is derived from any public assistance program, or retaliation. (Not all prohibited bases apply to all programs or activities.) If you require this information in alternative format (Braille, large print, audiotape, etc.), contact the USDA’s TARGET Center at (202) 720-2600 (Voice or TDD). If you require information about this program, activity, or facility in a language other than English, contact the agency office responsible for the program or activity, or any USDA office. To file a complaint alleging discrimination, write USDA, Director, Office of Civil Rights, 1400 Independence Avenue, S.W., Washington, D.C. 20250-9410, or call toll free, (866) 632-9992 (Voice). TDD users can contact USDA through local relay or the Federal relay at (800) 877-8339 (TDD) or (866) 377-8642 (relay voice users). You may use USDA Program Discrimination Complaint Forms AD-3027 or AD-3027s (Spanish) which can be found at: http://www.ascr.usda.gov/complaint_filing_cust.html or upon request from a local Forest Service office. USDA is an equal opportunity provider and employer
+This publication reports research involving pesticides. It does not contain recommendations for their use, nor does it imply that the uses discussed here have been registered. All uses of pesticides must be registered by appropriate state or federal agencies, or both, before they can be recommended. CAUTION: Pesticides can be injurious to humans, domestic animals, desirable plants, and fish or other wildlife—if they are not handled properly. Use all pesticides selectively and carefully. Follow recommended practices for the disposal of surplus pesticides and pesticide containers.
+Authors
+Warren D. Devine is a postdoctoral research associate, Paul W. Footen is a research assistant, and Robert B. Harrison is a professor, University of Washington, Box 352100, Seattle, WA 98195; Thomas A. Terry is a senior scientist (retired), Weyerhaeuser NR Co., 505 N Pearl St., Centralia, WA 985314660; Constance A. Harrington and Peter J. Gould are research foresters, U.S. Department of Agriculture, Forest Service, Pacific Northwest Research Station, 3625 93rd Ave. SW, Olympia, WA 98512-9193; Scott M. Holub is a silviculture research scientist, Weyerhaeuser NR Co., 785 N 42nd Street, Springfield, OR 97478-5764.
+Cover photograph: Rodney Meade.
+
+Abstract
+Devine, Warren D.; Footen, Paul W.; Harrison, Robert B.; Terry, Thomas A.; Harrington, Constance A.; Holub, Scott M.; Gould, Peter J. 2013. Estimating tree biomass, carbon, and nitrogen in two vegetation control treatments in an 11-year-old Douglas-fir plantation on a highly productive site. Res. Pap. PNW-RP-591. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Research Station. 29 p.
+We sampled trees grown with and without competing vegetation control in an 11-year-old Douglas-fir (Pseudotsuga menziesii var. menziesii (Mirb.) Franco) plantation on a highly productive site in southwestern Washington to create diameter-based allometric equations for estimating individual-tree bole, branch, foliar, and total aboveground biomass. We used these equations to estimate per-hectare aboveground biomass, nitrogen (N), and carbon (C) content, and compared these results to (1) estimates based on biomass equations published in other studies, and (2) estimates made using the mean-tree method rather than allometric equations. Component and total-tree biomass equations were not influenced by the presence of vegetation control, although per-hectare biomass, C, and N estimates were greater where vegetation control was applied. Our biomass estimates differed from estimates using previously published biomass equations by as much as 23 percent. When using the mean-tree biomass estimation approach, we found that incorporating a previously published biomass equation improved accuracy of the mean-tree diameter calculation.
+Keywords: Douglas-fir, plantation, biomass, allometry, carbon, nitrogen.
+
+Summary
+There are few published biomass equations for young Douglas-fir (Pseudotsuga menziesii var. menziesii (Mirb.) Franco) plantations. Equations developed from regional-scale data, which include older trees, may not produce accurate biomass estimates for young, fast-growing trees. We sampled trees grown with and without competing vegetation control in an 11-year-old Douglas-fir plantation on a highly productive site (Class II+) in southwestern Washington to create diameter-based allometric equations for estimating individual-tree bole, branch, foliar, and total aboveground biomass. We used these equations to estimate per-hectare aboveground biomass, nitrogen (N), and carbon (C) content, and compared these results to (1) estimates based on biomass equations published in other studies, and (2) estimates made using the mean-tree method rather than allometric equations. Our component and total-tree biomass equations did not differ between treatments with and without 5 years of intensive vegetation control. Estimated total aboveground tree biomass at year 11 was 89.7 and 73.2 Mg • ha-1 with and without vegetation control, respectively. Total-tree N content was 326 and 256 kg • ha-1, and C content was 43.7 and 35.5 Mg • ha-1, with and without vegetation control, respectively. Per-hectare aboveground tree biomass estimates using previously published Douglas-fir biomass equations differed from those made with our equations by -8 to +23 percent; the published equations producing biomass estimates most different (≥20 percent) from our estimates included those developed from large, diverse samples. When using the mean-tree biomass estimation approach for our site, we found that incorporating a previously published relationship between diameter and biomass for young Douglas-fir improved accuracy of the mean-tree diameter calculation.
+ii
+
+Contents
+1 Introduction 3 Methods 3 Study Site 4 Experimental Design and Treatments 4 Data Collection 6 Data Analysis 9 Results and Discussion 9 Objective 1: Estimate Biomass, C, and N By Using Stand-Specific
+Allometric Equations 15 Objective 2: Compare Biomass Estimates From Objective 1 to Estimates Made
+By Using Published Equations From Other Studies 17 Objective 3: Estimate Biomass By Using the Mean Tree Method 19 Conclusions 20 Acknowledgments 21 English Equivalents 21 Literature Cited 25 Appendix
+iii
+
+Estimating Tree Biomass, Carbon, and Nitrogen in Two Vegetation Control Treatments
+
+Introduction
+Assessments of forest stand carbon dynamics, nutrient fluxes, and tree growth often include estimates of tree biomass. Individual-tree biomass estimates are usually based on a known allometric relationship between an easily measurable dimension (e.g., diameter at breast height (DBH)) and biomass. These allometric relationships are species specific and may be influenced by numerous factors including site quality, associated overstory and understory vegetation, and tree genetics (Bartelink 1996, Espinosa Bancalari and Perry 1987, Feller 1992, Grier et al. 1984, Petersen et al. 2008, St. Clair 1993). The accuracy of a tree biomass estimate depends on how well the allometric equation represents the trees to which it is applied. A recent project compiled all known diameter-based allometric biomass equations (n = 2,640) for tree species in the United States and produced generalized equations for common tree species, including Douglas-fir (Pseudotsuga menziesii (Mirb.) Franco), and for species groups (Jenkins et al. 2003, 2004).
+A commonly applied approach for estimating aboveground tree biomass in an even-aged stand or on a sample plot is to measure all trees and then estimate the biomass of every tree using an allometric equation that describes the relationship between a measured variable and individual-tree biomass (the “allometric method”). Estimated biomass of every tree is summed to create an estimate of total biomass. This method can be applied by using a previously published biomass equation from other sites, but a site-specific biomass equation, developed from trees highly representative of those on the stand or plot, is presumably more accurate. Development of site-specific biomass equations can also provide information on component (i.e., bole, limbs, foliage) biomass distribution and stand structure. However, development of site-specific biomass equations is generally expensive because trees must be destructively sampled across the full range of tree sizes to develop the relationship between measured tree size and tree biomass. This expense is particularly great where larger trees are sampled. One alternative to the allometric method of biomass estimation is the “mean tree” method in which a tree of mean size is sampled (often, mean basal area or estimated bole volume) and measured for biomass, and the biomass value then multiplied by the number of trees in the stand (Attiwill and Ovington 1968, Jolly 1950, Schreuder et al. 1993). This method is most accurate in forest plantations where trees are relatively uniform; the method becomes less accurate if the relationship between the sampled variable (e.g., basal area) and tree biomass changes according to tree size. An advantage of the mean tree method is that it has the potential to significantly reduce the number of sampled trees, compared to the allometric method.
+
+Individual-tree biomass estimates are usually based on a known allometric relationship between an easily measurable dimension (e.g., diameter at breast height) and biomass.
+
+1
+
+RESEARCH PAPER PNW-RP-591
+Despite an abundance of Douglas-fir plantations, there are relatively few published equations describing the relationship between total aboveground or component biomass and DBH, particularly for young plantations (i.e., <30 years) on productive sites. The most widely applied DBH-based aboveground biomass equations are those of Gholz et al. (1979) who produced a single set of biomass relationships for Douglas-fir trees 2- to 162-cm DBH using data from five previous studies on sites ranging from low to high productivity. Helgerson et al. (1988) developed biomass equations for Douglas-fir trees at plantation age 10 by using trees from all crown classes (biomass estimates excluded a 15-cm-high stump). Feller (1992) developed biomass equations for young Douglas-fir trees on high- and low-productivity sites on Vancouver Island, British Columbia, as well as for Douglas-fir trees on a wide range of sites across British Columbia (using data from Standish et al. 1985). Feller (1992) found that site quality significantly affected biomass equations for some tree components, but two other studies found no effect of site quality on biomass equations for Douglas-fir in 5-year-old (Devine et al. 2011) and 22-year-old (Espinosa Bancalari and Perry 1987) plantations. Combining data from all known published studies to date, Jenkins et al. (2003) created a general equation predicting total-tree Douglas-fir biomass from DBH.
+We are aware of only two published sets of biomass equations for Douglas-fir trees that quantified the effects of competing vegetation control on allometry by sampling trees grown with and without vegetation control (Devine et al. 2011, Peterson et al. 2008). Both studies developed sets of equations using data that included the Fall River Long-Term Site Productivity study, which is also the subject of this publication. Peterson et al. (2008) sampled 59 trees from the Fall River site at plantation age 5 years, and found that the relationship between DBH and component and total aboveground biomass differed between trees with 5 years of intensive vegetation control and trees grown without vegetation control. Devine et al. (2011) developed equations estimating year-5 tree biomass based on diameter at 15 cm above ground level (D15) and total tree height; these equations used data from three sites, including the Fall River data used by Peterson et al. (2008). Devine et al. (2011) found that relationships between D15 and biomass, unlike those of DBH, were not influenced by vegetation control treatments. The authors observed that trees grown with vegetation control had greater bole taper compared to those grown without vegetation control, and the DBH measurements did not capture this difference in lower-bole biomass as well as the D15 measurements. For this reason, a single D15-based equation was effective in estimating tree biomass for both vegetation control treatments. In assessing tree component biomass, Devine et al. (2011)
+2
+
+Estimating Tree Biomass, Carbon, and Nitrogen in Two Vegetation Control Treatments
+also found that bole biomass of trees across three sites was best estimated using tree height in addition to D15. Although accurate tree biomass equations for a single site may use only diameter, additional information, such as tree height, is necessary to account for differences in tree allometry that occur across multiple sites and management regimes.
+This study was initiated to determine tree biomass accumulation and allocation in an 11-year-old Douglas-fir plantation on a highly productive site. We had three objectives:
+Objective 1: Estimate per-hectare component and total-tree aboveground biomass, carbon (C), and nitrogen (N) content of Douglas-fir trees, in treatments with or without competing vegetation control. We made biomass estimates using the allometric method with equations developed by destructively sampling trees from both treatments.
+Objective 2: Determine whether stand-specific biomass equations were warranted in this study: could we have made reasonably accurate per-hectare estimates using previously published biomass equations? We compared biomass estimates made with our stand-specific equations to those made using equations developed for other sites.
+Objective 3: Compare a biomass estimate made using the mean tree method to one made using the allometric method (in objective 1). We applied a speciesspecific adjustment to select the mean tree.
+Methods Study Site
+The study took place in a Douglas-fir plantation that was established as an ancillary study site in the North American Long-Term Soil Productivity (LTSP) study. The LTSP network was established to evaluate effects of soil compaction, biomass removal, and vegetation control on soil processes, nutrient budgets, and tree growth across a wide range of sites (Powers et al. 2005). The study site, known as the Fall River site, is located on Weyerhaeuser NR Company ownership in the Coast Range of Washington (46.72° N.; 123.42° W.) at a mean elevation of 334 m. The site is on a 9- to 16-percent slope toward a westerly aspect. The plant association (Henderson et al. 1989) is western hemlock (Tsuga heterophylla (Raf.) Sarg.)/swordfern (Polystichum munitum (Kaulf.) C. Presl.)-redwood-sorrel (Oxalis oregano Nutt.).
+The site is characterized by a mild, maritime climate; mean January and July temperatures, measured onsite, are 3.5 and 16.1 °C, respectively. Mean annual precipitation is 181 cm, although an average of only 30 cm precipitation occurs between 1 May and 30 September. The soil is formed in residuum of Miocene
+3
+
+RESEARCH PAPER PNW-RP-591
+basalt with volcanic ash present in the surface horizons. This silt loam of the Boistfort series is a well-drained Typic Fulvudand (USDA NRCS 1999). The 50-year site index for Douglas-fir (King 1966) ranges from 41 to 43 m (Class II+).
+The site was previously occupied by a second-growth stand of Douglas-fir and western hemlock that was clearcut with chain saws between May and July 1999. Merchantable bolewood to an 8- to 13-cm top was removed using a cable-yarding system, and logging debris was scattered uniformly across plots. Slash within the tree measurements plots was scattered uniformly using a shovel excavator with a piling-rake head. Because limited understory vegetation was present after the 1999 harvest, no general site preparation herbicide treatment was necessary. In March 2000, the site was planted with 1 + 1 Douglas-fir seedlings on a 2.5- by 2.5-m grid (1,600 trees•ha-1). The study area was fenced to eliminate confounding effects that could be caused by deer and elk browse.
+Experimental Design and Treatments
+The study followed a randomized, complete-block design with four experimental blocks. Blocking was based on slope position and composition of the previous stand (proportion of Douglas-fir and western hemlock). Experimental treatments were applied to 30- by 85-m plots, with 15- by 70-m internal measurement plots (168 planted trees per measurement plot), which were treated in the analysis as experimental units.
+The present study includes 2 of a total of 12 planned treatments in the overall design (i.e., 2 plots per block): bole-only harvest with and without 5 years of vegetation control (+VC and -VC, respectively). In the -VC treatment, no vegetation control was applied. In the +VC treatment, competing vegetation was controlled from the time of planting through year 5, with a combination of broadcast and spot-applied herbicides designed to eliminate all competing vegetation rather than to simulate an operational treatment. During the first 5 years after planting, total cover of competing vegetation (sum of the percentage cover of each of five life forms: forbs, grasses, vines, shrubs, and nonplanted trees), estimated ocularly within one 176.6m2 circular sample plot per study plot each year and averaged over the 5 years, was 4 and 74 percent in the +VC and -VC treatments, respectively (Devine et al. 2011). Additional background and details of the experiment appear in Ares et al. (2007b).
+Data Collection
+Following the 10th growing season postplanting, all living trees on the measurement plots were measured for total height (to nearest 0.1 m), height to live crown base (HLC; defined as lowest branch whorl with live branches in three quadrants;
+4
+
+Estimating Tree Biomass, Carbon, and Nitrogen in Two Vegetation Control Treatments
+
+measured to nearest 0.1 m), and DBH (measured at 1.30 m above ground to nearest 1 mm). Because we destructively sampled trees at year 11 to develop the biomass equations, estimates of biomass per hectare required that we know the year-11 size of all study trees. Thus, a subset of trees was remeasured after the 11th growing season to develop equations for estimating year-11 tree size using year-10 size. This subset of trees consisted of 12 trees per plot (n = 96) selected using a stratified random sampling design to sample across the full range of diameters present on each plot; these 96 trees were measured for total height, HLC, DBH, and D15 (measured to nearest 1 mm).
+In March following the year-11 growing season, 13 trees per treatment were destructively sampled to create equations for estimating tree biomass (table 1). Twelve of the sampled trees were randomly selected using a stratified sampling approach to achieve representation across the full range of diameters present within each treatment; the same number of trees was sampled from each block. One additional tree per treatment was sampled to meet criteria described for objective 3 below. The destructive sampling protocol followed the method used by Petersen et al. (2008) and is briefly described here. After tree height, HLC, DBH, D15, and maximum crown diameter in north-south and east-west directions (nearest 0.1 m) were measured, each tree was cut at ground level. In the field, the bole was cut into three sections; branches were removed, bundled separately for each bole section, and weighed. To estimate dry bole weight, each of the three bole sections was weighed in the field; two 5-cm-thick cross-sectional subsamples were cut from each section, weighed fresh, returned to the lab, dried to constant weight at 70 °C, and reweighed. To estimate branch dry weight, branches from each section were divided into three size classes (small, medium, and large), and a number of branches proportional to the number of branches in each size class was subsampled by random selection. The bagged subsamples were weighed fresh, returned to the lab, dried to constant weight at 70 °C, and then separated into woody and foliar components, which were weighed separately. Bole, branch, and foliar components were subsampled for C and N analysis following the procedure described by Petersen et al. (2008); subsamples were analyzed by the dry combustion method (Matejovic 1995) using a PerkinElmer Model 2400 CHN analyzer1 at the School of Forest Resources Soils Laboratory, University of Washington, Seattle.
+
+In the field, the bole was cut into three sections; branches were removed, bundled separately for each bole section, and weighed.
+
+1 The use of trade names in this publication is for reader information only and does not imply endorsement by the U.S. Department of Agriculture of any product or service.
+
+5
+
+RESEARCH PAPER PNW-RP-591
+
+Table 1—Summary statistics for destructively sampled Douglas-fir trees (13 per treatment) selected using stratified random sampling to represent the full range of diameters present at plantation age 11 years; treatments were 5 years of intensive vegetation control (+VC) and no control of competing vegetation (-VC)
+
+Treatment
+
+Variable
+
++VC
+
+-VC
+
+Height (m)
+DBH (cm)
+D15 (cm) Height to live crown (m)
+Crown width (m)
+
+- - - Mean (minimum, maximum) - - -
+
+9.5 (7.3, 10.8)
+
+9.8 (7.5, 11.9)
+
+13.3 (8.3, 16.8)
+
+13.3 (9.0, 17.6)
+
+18.6 (10.5, 26.5) 18.0 (10.9, 25.0)
+
+1.4 (0.6, 2.4)
+
+1.2 (0.5, 2.5)
+
+4.1 (2.8, 5.2)
+
+4.2 (3.5, 5.6)
+
+Note: These data are not intended as a statistical treatment comparison but instead show the values for the trees in each treatment resulting from the stratified selection.
+DBH = diameter at breast height.
+D15 = diameter at 15 cm above ground level.
+
+Data Analysis
+Objective 1: Estimate biomass, C, and N by using stand-specific allometric equations— Using the 26 destructively sampled trees, we developed individual-tree equations predicting component (bole, branch, foliage) and total aboveground tree dry weight from tree dimensions measured immediately prior to destructive sampling (data appear in the appendix in table 7). Preliminary regression analyses showed that the equation form (ln Y = a + b ln X) fit the data best; the fit of this log-log relationship was consistently better than the fit of log-linear or linear relationships. Potential predictor variables tested in these equations were DBH, D15, and DBH2*height. We used PROC REG (SAS 2005) to compare treatment-specific intercepts and slopes to determine whether these parameters differed significantly by treatment (Sokal and Rohlf 1995). We examined residuals graphically, plotted them against predicted values, and tested them using PROC REG and PROC UNIVARIATE to verify variance and normality assumptions were met (SAS 2005).
+We used PROC REG to determine the relationship between year-10 and year-11 DBH and height for the subset of 96 trees measured after the year-11 growing season; this analysis included tests for potential effects of vegetation control on these relationships. We then used the resulting relationships to estimate year-11 DBH and height of all study trees. We used these estimated year-11 values for all trees, combined with the biomass equations described above, to estimate component
+
+6
+
+Estimating Tree Biomass, Carbon, and Nitrogen in Two Vegetation Control Treatments
+and total-tree biomass of all live trees on the study plots. This approach for year-11 biomass estimation ignored any mortality that occurred during year 11; however, it is unlikely that mortality increased much between years 10 and 11, as mortality increased only 0.3 percentage points in these treatments between years 8 and 10. The N and C contents of the components (bole, branch, and foliage) of all study trees were estimated using the component concentrations measured for the 26 destructively sampled trees. Individual-tree estimates of biomass and N and C content were summed at the plot level.
+Estimates of component and total-tree biomass per hectare, N concentration, and estimated N and C contents per hectare were analyzed using a randomized, complete-block design analysis of variance (ANOVA) model (PROC MIXED; SAS 2005). We checked all ANOVA data for heteroscedasticity and normality assumptions; data transformation was not necessary. Significance was set at α = 0.05 throughout the analysis.
+Objective 2: Compare biomass estimates from objective 1 to estimates made by using published equations from other studies— Calculations followed the same procedure as that described for objective 1, except that instead of using the allometric equations developed from our destructively sampled trees, we used previously published equations from other sites that encompassed the range of diameters present at our site (we did not use the year-5 equations from the Fall River site because they were developed for much smaller trees).
+Objective 3: Compare a biomass estimate made by using the mean tree method to one made by using the allometric method— The first step of the mean tree method was to determine the size (i.e., DBH) of the mean tree: the tree representative of the average biomass of all trees in the stand. To accurately select the mean tree, we applied an allometric equation relating DBH to total-tree biomass (examples of the linearized form of this type of equation appear in table 2). Because we did not know this DBH-biomass relationship for our study site, we used a preexisting equation. After reviewing the literature, we selected the equation of Jenkins et al. (2003) because it included the DBH range of our trees and appeared to be relatively robust, as it was based on data derived from 11 previously published Douglas-fir biomass equations, including that of Gholz et al. (1979) (Jenkins et al. 2003, 2004).
+7
+
+RESEARCH PAPER PNW-RP-591
+
+Table 2—Equations for estimating dry biomass of individual Douglas-fir trees at plantation age 11a
+
+Tree component
+
+b0
+
+b1
+
+Adj. R2
+
+CFb
+
+Foliage Branches Bole (wood and bark) Total aboveground
+
+-4.2488 -4.4899 -2.6623 -2.5127
+
+2.4671 2.8001 2.2763 2.4807
+
+0.888 0.901 0.968 0.966
+
+1.015 1.017 1.003 1.005
+
+Note: the equation form was ln (biomass) = b0 + b1 ln (DBH); biomass was measured in kilograms and diameter at breast height (DBH) was measured in centimeters. a Trees are described in table 1. Equations were derived from measurements of 26 trees, 13
+with and 13 without 5 years of intensive vegetation control; equations did not differ between
+vegetation control treatments. Equations are plotted in figure 2. b Correction factor (CF) = exp((SEE2)/2).
+
+We began by estimating the DBH of the tree (or trees) representing mean totaltree biomass. Based on year-11 estimated DBH (for this comparison of methods, we use only the +VC treatment), we calculated the DBH of the tree of mean biomass using the following steps:
+1. We applied the slope of the relationship between ln(DBH) and ln(biomass) to each study tree to create a “weighted DBH” value:
+DBHw = DBHb1
+where DBHw = weighted DBH, and b1 = slope of the ln(DBH) – ln(biomass) relationship from the Jenkins et al. (2003) equation. 2. We calculated the mean DBHw of all trees. 3. We back-converted the mean DBHw to get mean DBH:
+DBH = DBHw(1/ b1)
+We then destructively sampled a tree of DBH equal to this value to determine biomass, using previously described methods. In practice, more than one tree of this DBH would be sampled, but given resource limitations during this sampling effort, we sampled only one tree. Finally, we multiplied the measured total-tree biomass of this mean tree by the number of live study trees and converted this estimate to a per-hectare basis.
+
+8
+
+Estimating Tree Biomass, Carbon, and Nitrogen in Two Vegetation Control Treatments
+Results and Discussion Objective 1: Estimate Biomass, C, and N By Using Stand-Specific Allometric Equations
+Estimating year-11 DBH and height— There was a strong, linear relationship between year-10 and year-11 DBH (fig. 1); adding tree height to this model did not improve its fit. The intercept of the year-11 DBH prediction equation differed between treatments, indicating that DBH of trees in the -VC treatment increased by an average of 0.36 cm more than those in the +VC treatment during the year-11 growing season. This was apparently a result of higher relative stand density in the +VC treatment (table 3). The slope of the prediction equation did not differ by treatment, indicating that tree size (i.e., DBH) did not affect the relationship between year-10 and year-11 DBH differently in the two treatments.
+Figure 1—Equation developed to estimate year-11 diameter at breast height (DBH) of 96 planted Douglas-fir trees using year-10 DBH. -VC = without vegetation control; +VC = with vegetation control.
+9
+
+RESEARCH PAPER PNW-RP-591
+
+Vegetation control had no significant effect on the relationship between DBH and biomass.
+10
+
+Table 3—Summary statistics, based on all study trees, for estimated year-11 values of diameter at breast height (DBH), height, basal area, and stand density index (SDI)a
+
+Variable
+
+Treatment
+
++VC
+
+-VC
+
+Pr > Fc
+
+DBH (cm) Height (m) Basal area (m2 ha-1) SDI (percentage of maximum)b
+
+- - - - - - - - - - Mean (± standard error) - - - - - - - - -
+
+14.0 ± 0.1
+
+12.7 ± 0.2
+
+<0.001
+
+9.7 ± 0.1
+
+9.0 ± 0.1
+
+<0.001
+
+23.7 ± 0.3
+
+20.2 ± 0.3
+
+<0.001
+
+40.0 ± 0.7
+
+35.3 ± 0.7
+
+<0.001
+
+a Year-11 DBH and height were estimated using equations developed from a subset of 96 trees that were
+measured for both variables in years 10 and 11. Treatments were 5 years of intensive vegetation control (+VC)
+and no control of competing vegetation (-VC). Significance of the treatment effect is shown for each variable. b Reineke (1933) SDI; value is percentage of maximum SDI for Douglas-fir of 595. Calculation was based on
+estimated year-11 DBH; density was calculated using year-10 survival rate. c Pr > F = P-value from analysis of variance; values <0.05 indicate a significant difference between treatments.
+
+Year-11 tree height was best predicted from year-10 height by using a quadratic equation:
+Ht11 = -0.1429 + 1.2504*Ht10 – 0.0153*Ht102 (Adj. R2=0.982)
+Vegetation control treatments had no influence on the year-11 height equation. Year-11 DBH and height estimates, as well as other estimated parameters, appear in table 3. Distributions of estimated year-11 DBH values for both vegetation control treatments appear in the appendix (figure 4).
+
+Biomass equations— Equations for estimating individual-tree foliar, branch, bole, and total aboveground biomass appear in table 2 and are shown in figure 2. In each equation, DBH was the best predictor of component or total-tree aboveground biomass, based on distribution of residuals and model fit. We detected no difference in slope or intercept between the two vegetation control treatments in any of the equations, indicating that vegetation control had no significant effect on the relationship between DBH and biomass. By contrast, a year-5 study of the same plantation found that DBHbased component and total-tree biomass equations differed between these vegetation control treatments (Peterson et al. 2008). Given two year-5 trees of the same DBH, the tree receiving vegetation control had greater bole, branch, foliar, and total aboveground biomass than the tree without vegetation control. This vegetation control effect on year-5 allometry was likely influenced by the fact that trees receiving vegetation control were significantly taller (Ares et al. 2007a) and had a significantly lower mean height: diameter ratio (85) than those without vegetation control (97).2 Additionally, taper of the lower bole, measured as the ratio of D15 to
+2 Data are on file at the Forestry Sciences Laboratory, 3625 93rd Ave. SW, Olympia, WA 98512-9193.
+
+Estimating Tree Biomass, Carbon, and Nitrogen in Two Vegetation Control Treatments
+DBH, was greater for trees with vegetation control at year 5 (Devine et al. 2011). At year 11, estimated tree height still differed between treatments (table 3), but there was no significant difference in estimated height: diameter ratio between treatments with vegetation control (71) and without (72), suggesting that differences in allometry had decreased since year 5.
+The relationship between DBH and total aboveground biomass, and that found in three other studies of similarly sized Douglas-fir, is shown in figure 2. Several published Douglas-fir biomass equations for ranges of DBH values that did not fully encompass the DBH values of our study trees are included in table 4 and shown in the appendix (figs. 5 and 6). Although allometric relationships between DBH and total-tree biomass in this study were generally comparable to previous studies,
+Figure 2—Relationship between diameter at breast height (DBH) and component or total aboveground biomass of Douglas-fir trees at plantation age 11 (equations in table 2). Relationships are also shown for previous studies of Douglas-fir on other Pacific Northwest sites (table 4). The total aboveground biomass equation of Jenkins et al. (2003) is not shown because its predicted biomass is nearly identical to that of the equation of Gholz et al. (1979) for this DBH range. -VC = without vegetation control; +VC = with vegetation control.
+11
+
+RESEARCH PAPER PNW-RP-591
+relationships between DBH and component biomass were less similar, indicating a difference in partitioning of biomass (fig. 2). The relationship between DBH and branch biomass as well as that between DBH and foliar biomass differed toward the high end of the DBH range; equations developed in other studies underestimated branch and foliar biomass of Fall River trees. Conversely, previously published relationships between DBH and bole biomass, particularly those of Gholz et al. (1979), overestimated bole biomass at Fall River. The trend of greater proportional allocation of biomass to the bole, rather than to foliage and branches (fig. 2) (Gholz et al. 1979, Standish et al. 1985), may be associated with the fact that equations developed in these other studies included older trees, likely from stands at later developmental stages with greater intraspecific competition. These differences in site and management influence tree allometry, including height: diameter ratio and crown depth. Using data from many of the same Douglas-fir biomass studies referenced here (table 4; appendix, figs. 5 and 6), St. Clair (1993) demonstrated that, as intraspecific competition for light increases over time in young stands, the receding of tree crowns results in a higher proportion of biomass allocated to the bole.
+The differences in allometry between trees in this study and those of previous studies (fig. 2) may also be associated with relatively high levels of belowground resource availability at the Fall River study site (i.e., high available N and soil water; Ares et al. 2007a, Roberts et al. 2005). As water becomes increasingly growth limiting, trees allocate less C to production of new foliage (Gholz 1982, Gower et al. 1992); similarly, availability of nutrients such as N is positively correlated with leaf area index (Gower et al. 1992, Myrold et al. 1989). In our study, the presence of vegetation control produced greater leaf area at year 5 (Peterson et al. 2008), attributable, at least in part, to greater belowground resource availability (Ares et al. 2007a, Roberts et al. 2005). Conversely, Feller (1992) found that Douglas-fir on low-productivity sites had significantly more bole biomass than trees of the same DBH on better quality sites. A direct site-quality comparison between our site and the sites from which the other equations in figure 2 were derived is not possible, as all of the other studies sampled trees from a variety of sites, including low-quality sites. Thus, the differences in allometric equations between our study and earlier studies are likely associated with, at least in part, differences in belowground resource availability, developmental stage, or relative stand density (e.g., Reineke Stand Density Index) (Reineke 1933). Additionally, these factors may interact, as faster tree growth potentially decreases the age at which intraspecific competition begins.
+12
+
+Estimating Tree Biomass, Carbon, and Nitrogen in Two Vegetation Control Treatments
+
+Table 4—Published equations for predicting component and total-tree dry biomass of individual Douglas-fir trees based only on diameter at breast height (DBH)
+
+Sampled trees
+
+Source
+
+DBH Number Site information
+
+Centimeters
+
+Gholz et al. (1979)
+
+2–162
+
+85
+
+Various sites in coastal Washington and Oregon; sites ranged from low to high quality
+
+Grier et al. (1984)
+
+9–30
+
+26
+
+A 23-year-old plantation; site class III; precommercially
+
+thinned at year 11
+
+Espinosa Bancalari and Perry (1987)
+
+10–20
+
+40
+
+Three 22-year-old stands; “low, medium, and fast growing;”
+
+stands were thinned
+
+Feller (1992) /
+
+5–64
+
+Standish et al. (1985)a
+
+43
+
+Sampled codominant trees on a wide range of sites
+
+throughout British Columbia
+
+Feller (1992)
+
+5–56
+
+10
+
+Near Port Alberni, Vancouver Island, British Columbia;
+
+“high site quality” and “high mineral nitrogen;” dominant
+
+and codominant trees
+
+St. Clair (1993) Jenkins et al. (2003)
+
+9–26 2–210
+
+240
+
+An 18-year-old plantation; class I site
+
+165b Used data from nearly all previously published equations, representing a wide range in geographic location and site quality
+
+Harrison et al. (2009) 15–80
+
+31
+
+Sampled stand was adjacent to the study reported here;
+
+stand age approximately 47 years; precommercially
+
+thinned and fertilized
+
+a Ung et al. (2008) published biomass equations apparently derived from the same data set. b Data points were pseudodata derived from published equations (Jenkins et al. 2003).
+
+Estimated aboveground tree biomass, C, and N content per hectare— Estimated year-11 tree biomass, measured N concentration, and estimated C and N content per hectare are shown in table 5. The presence of vegetation control was associated with significant increases in year-11 per-hectare biomass of 22, 26, 20, and 23 percent for foliar, branch, bole, and total-tree estimates, respectively. Because N and C concentrations (C not shown) did not differ between treatments, the treatment differences in estimated per-hectare N and C content were proportional to those for biomass. For total aboveground tree biomass, early vegetation control resulted in an additional 70 ± 6 kg•N•ha-1 and 8.2 ± 0.8 Mg• C•ha-1 at year 11.
+Year-11 estimated biomass with and without vegetation control was 89.7 and 73.2 Mg•ha-1, respectively; by contrast, year-5 biomass in these treatments was 7.5 and 3.1 Mg•ha-1 (Devine et al. 2011). Biomass of the previous stand on the same site, harvested at age 47, was 394.9 Mg•ha-1 (Harrison et al. 2009). Compared to
+
+The presence of vegetation control was associated with significant increases in year-11 per-hectare biomass.
+
+13
+
+RESEARCH PAPER PNW-RP-591
+
+Table 5—Estimated biomass, nitrogen (N), and carbon (C) per hectare, and N concentrations, for Douglas-fir trees at plantation age 11 years with (+VC) and without (-VC) 5 years of vegetation controla
+
+Tree component
+
+Treatment
+
++VC
+
+-VC
+
+Pr > Fb
+
+Foliage Branches Bole Total aboveground
+Foliage Branches Bole
+Foliage Branches Bole Total aboveground
+Foliage Branches Bole Total aboveground
+
+- - - - - Biomass (Mg • ha-1) - - - - -
+
+15.4 ± 0.4
+
+12.6 ± 0.4
+
+29.8 ± 0.7
+
+23.6 ± 0.8
+
+44.4 ± 1.0
+
+36.9 ± 1.0
+
+89.7 ± 2.1
+
+73.2 ± 2.1
+
+- - - - - - - - N (g • kg-1) - - - - - - - -
+
+11.5 ± 0.1
+
+11.6 ± 0.1
+
+4.0 ± 0.3
+
+3.7 ± 0.4
+
+0.7 ± 0
+
+0.7 ± 0.1
+
+- - - - - - - - - N (kg • ha-1) - - - - - -
+
+177 ± 4
+
+146 ± 4
+
+119 ± 3
+
+86 ± 3
+
+30 ± 1
+
+24 ± 1
+
+326 ± 8
+
+256 ± 8
+
+- - - - - - - C (Mg • ha-1) - - - - - - -
+
+7.7 ± 0.2
+
+6.3 ± 0.2
+
+14.6 ± 0.4
+
+11.6 ± 0.4
+
+21.4 ± 0.5
+
+17.7 ± 0.5
+
+43.7 ± 1.0
+
+35.5 ± 1.0
+
+<0.001 <0.001 <0.001 <0.001
+0.700 0.203 0.709
+<0.001 <0.001 <0.001 <0.001
+<0.001 <0.001 <0.001 <0.001
+
+Note: branch and bole values include both wood and bark. a Biomass was estimated by applying the equations shown in figure 2 and table 2 to estimates of year-11 diameter
+at breast height for all study trees; C and N concentrations and estimates were based on samples from each of
+the 26 trees on which the biomass equations were based. Significance of the treatment effect is shown for each
+component. Data have been corrected for log bias. b Pr > F = P-value from analysis of variance; values <0.05 indicate a significant difference between treatments.
+
+studies that have assessed aboveground biomass in mature Douglas-fir plantations (e.g., Acker et al. 2002, Harrison et al. 2009, Keyes and Grier 1981, Mitchell et al. 1996, Ranger et al. 1995), relatively few studies have estimated biomass of younger (≤30 years) plantations, although such information is necessary to validate models of stand-level biomass or C accumulation and within-tree allocation. Nine-year-old (unthinned) and 19-year-old (thinned) Douglas-fir plantations in the Netherlands had 33 and 89 Mg•ha-1, respectively (Bartelink 1996). Three thinned, 22-year-old Douglas-fir plantations, differing in site quality, ranged in aboveground biomass from 99 to 203 Mg•ha-1 (Espinosa Bancalari and Perry 1987). Trees in 23-yearold plantations represented 58 and 258 Mg•ha-1 on sites of low and high fertility, respectively (Binkley 1983), and tree biomass in a 30-year-old plantation (class IV) was 169 Mg•ha-1 (Turner and Long 1975). The variability in biomass accumulation among these studies, and the fact that biomass in our 11-year-old plantation
+
+14
+
+Estimating Tree Biomass, Carbon, and Nitrogen in Two Vegetation Control Treatments
+
+is relatively high by comparison, underscores the need for biomass data on highly productive sites to validate modeling efforts.
+Allocation of estimated year-11 tree biomass among tree components was similar between treatments. For foliar, branch, and bole components, allocation was 17, 32, and 51 percent in the -VC treatment, respectively, and 17, 33, and 50 percent in the +VC treatment. There was no relationship between tree size and allocation of biomass among the three measured components. The allocation of foliar and branch biomass by bole segment followed slightly different trends among treatments, although these trends were not statistically significant (fig. 3).
+
+Objective 2: Compare Biomass Estimates From Objective 1 to Estimates Made By Using Published Equations From Other Studies
+In table 6, we compare our biomass estimates from objective 1 to estimates made using previously published equations that were developed using trees spanning the range of DBH present at our site. Total-tree estimates based on these previously published equations varied from 8 percent less to 23 percent greater than the estimates based on our site-specific biomass equations. The total-tree equation of Feller (1992), using the data set of Standish et al. (1985), produced estimates closest to our site-specific equation. The other three previously published equations (Feller 1992, Gholz et al. 1979, Jenkins et al. 2003) each overestimated total-tree biomass by 20 percent or more. Estimated biomass, by DBH class, is shown for these equations in the appendix (fig. 7). For component biomass estimates, the differences between our equations and those published for other sites were more variable. The greatest difference was the overestimation of bole biomass when the Gholz et al. (1979) equation was applied to the Fall River trees. The differences in biomass estimates are a result of differences in tree allometry among studies that were discussed under objective 1. The need for site-specific equations depends on study or management objectives, and differences in estimates between our equation and the published equations may be acceptable in some situations. However, the biomass estimate differences of greater than 20 percent between our site-specific equations and those using the equations of Gholz et al. (1979) and Jenkins et al. (2003) indicate that these DBH-based equations constructed from regional data were not well suited to our study trees. It is possible that regional biomass equations including additional variables, such as total height, would better account for site-related differences in tree morphology.
+
+Total-tree estimates based on these previously published equations varied from 8 percent less to 23 percent greater than the estimates based on our site-specific biomass equations.
+
+15
+
+RESEARCH PAPER PNW-RP-591
+Figure 3—Distribution of branch (A), branch + foliar (B), and foliar biomass (C) among bole segments at various heights for 13 trees without vegetation control (-VC; dashed line) and with vegetation control (+VC; solid line) treatments. Points represent the midpoint of each segment. Note that length of bole segments was not predetermined; it was influenced by logistical constraints of the field sampling procedure and was typically between 1.5 and 3 m. 16
+
+Estimating Tree Biomass, Carbon, and Nitrogen in Two Vegetation Control Treatments
+
+Table 6—Estimated biomass per hectare for Douglas-fir trees at Fall River, plantation age 11 years, with (+VC) and without (-VC) 5 years of vegetation controla
+
+Treatment
+
+Tree component / equation
+
++VC
+
+-VC
+
+Foliage: Fall River, year 11 Gholz et al. 1979 Feller 1992 / Standish et al. 1985b Feller 1992
+
+- - - - - - - - Biomass (Mg•ha-1) - - - - - - - -
+
+15.4 ± 0.4 7.9 (-49%) 13.4 (-13%) 13.2 (-14%)
+
+12.6 ± 0.4 6.9 (-45%) 11.8 (-6%) 12.0 (-5%)
+
+Branches: Fall River, year 11 Gholz et al. 1979 Feller 1992 / Standish et al. 1985 Feller 1992
+
+29.8 ± 0.7 15.4 (-48%) 17.1 (-43%) 26.5 (-11%)
+
+23.6 ± 0.8 13.1 (-44%) 14.6 (-38%) 22.8 (-3%)
+
+Bole: Fall River, year 11 Gholz et al. 1979 Feller 1992 / Standish et al. 1985 Feller 1992
+
+44.4 ± 1.0 84.6 (+91%) 51.8 (+17%) 67.9 (+53%)
+
+36.9 ± 1.0 68.5 (+86%) 41.1 (+11%) 53.4 (+45%)
+
+Total-tree biomass: Fall River, year 11 Gholz et al. 1979 Feller 1992 / Standish et al. 1985c Feller 1992 Jenkins et al. 2003d
+
+89.7 ± 2.1 107.9 (+20%) 82.3 (-8%) 107.6 (+20%) 109.6 (+22%)
+
+73.2 ± 2.1 88.5 (+21%) 67.6 (-8%) 88.3 (+21%) 89.7 (+23%)
+
+a Estimates were based on equations developed from on-site trees (means with one standard error shown) and on
+previously published equations (means with percent divergence from the Fall River equation value). Estimates
+were calculated using correction for log bias. b Equation published in Feller (1992), derived from data published by Standish et al. (1985). c Ung et al. (2008) published biomass equations apparently derived from the same data set. Because estimates
+using the equations of Ung et al. (2008) were nearly identical to these, they are not presented here. d Equation for total-tree biomass only; no equations available for component biomass.
+
+Objective 3: Estimate Biomass By Using the Mean Tree Method
+Using the slope of the equation from Jenkins et al. (2003), we estimated that the tree of mean biomass (the “mean tree”) had a DBH of 14.328 cm. We sampled a randomly selected tree of 14.3 cm DBH, and measured its weight: 71.7 kg. Based on a year-10 stand density of 1,490 trees ha-1, our estimated biomass using the mean tree method was 106.9 Mg•ha-1. This is 19.2 percent greater than the biomass estimate using the allometric approach of objective 1 (89.7 Mg•ha-1). There are two primary sources of error that could have caused our estimate to be high: (1) an incorrect calculation of the mean-tree DBH, and (2) the tree sampled deviated from the calculated relationship between DBH and total-tree biomass (i.e., the data point was well off the curve).
+
+17
+
+RESEARCH PAPER PNW-RP-591
+Could there have been a substantial error in our calculation of mean-tree DBH? In this application of the method, we made the assumption that we did not know the allometric relationship between DBH and biomass, and therefore selected the most appropriate allometric equation from the literature (Jenkins et al. 2003) from which to derive a weighting factor. To evaluate how the calculated mean-tree DBH would have differed if we had instead used a site-specific weighting factor, we recalculated the mean-tree DBH using the weighting factor from our allometric equation developed under objective 1 (table 2). The result was a mean-tree DBH of 14.320 cm; for practical purposes, this is no different than the mean-tree DBH of 14.328 cm that we derived using the equation of Jenkins et al. (2003). Thus, it is unlikely that our calculation of mean-tree DBH was the source of the discrepancy between our meantree biomass estimate and the biomass estimate of objective 1.
+To explore the influence of selecting different weighting factors from published equations, we then recalculated mean-tree DBH using weighting factors of equations (for Douglas-fir of a DBH range similar to the trees at Fall River) that were most different from that of Jenkins et al. (2003) (shown in the appendix, figs. 5 and 6). The equation of St. Clair (1993) had the shallowest slope (i.e., smallest weighting factor, 2.2985) and produced a mean-tree DBH estimate of 14.291. That of Espinosa Bancalari and Perry (1987) had the steepest slope (i.e., largest weighting factor, 2.8427) and produced a mean-tree DBH estimate of 14.399. Assuming DBH is measured to the nearest 0.1 cm, only the latter equation would have resulted in a different mean-tree DBH (i.e., 14.4 cm rather than the 14.3 cm calculated using Jenkins et al. (2003)).
+We next compared our method of calculating mean-tree DBH with a commonly used method: selecting the tree of mean basal area. The mean-tree DBH calculated using mean basal area (14.228 cm) differed only slightly from that calculated using our site-specific weighting factor from objective 1 (14.328 cm). However, applying the allometric equation from objective 1 to these two DBH values shows that the estimated difference in biomass between these trees is 1.4 kg, or 1.7 percent of totaltree weight. Thus, a difference of 0.1 cm in the DBH of the mean tree could potentially add a similar amount of error (1.7 percent) to a stand-level biomass estimate.
+Based on the above calculations, we concluded that the mean-tree method’s 19.2 percent overestimation of per-hectare biomass, compared to the allometric method, was likely a result of sampling a mean tree that deviated from the site’s DBH-biomass regression line. To assess this possibility, we used the allometric equation from objective 1 to calculate the hypothetical biomass of a tree equal to our calculated mean-tree DBH (14.328 cm). This “perfect mean tree” would
+18
+
+Estimating Tree Biomass, Carbon, and Nitrogen in Two Vegetation Control Treatments
+have had a biomass of 59.5 kg. The tree that we actually sampled (71.7 kg) was 20.5 percent greater in biomass than the perfect mean tree. If we had sampled the perfect mean tree, our per-hectare biomass estimate using the mean tree method would have been 88.7 Mg, only 1.0 Mg less (1.1 percent) than our estimate using the allometric method of objective 1. Thus, we can conclude that the vast majority of the discrepancy between the biomass estimates of objective 1 and objective 3 was associated with our selecting a single mean tree that deviated significantly from the measured DBH-biomass regression line. Our selection of the mean tree was based only on DBH, and it is certainly possible that mean-tree selection using estimated stem volume (requiring height and diameter information) would have resulted in selection of a more representative mean tree.
+Our example of the mean-tree approach was based on a single-tree sample; in practice, estimates using this approach would likely sample multiple mean trees and average their biomass, likely resulting in a more representative mean-tree biomass value. Sampling of multiple mean trees could also be used to estimate the number of mean trees needed to estimate mean tree biomass with a given degree of accuracy and confidence. Our single-tree sample produced a stand biomass estimate that diverged from the allometric method estimate by approximately the same amount (19 percent) as the estimates based on regional equations (20 to 23 percent; Gholz et al. 1979, Jenkins et al. 2003). Therefore, biomass estimation for this stand using a regional equation would be similarly accurate and less labor-intensive than a singletree sample using the mean-tree approach.
+Conclusions
+In contrast to the year-5 DBH-based biomass equations (Petersen et al. 2008), year11 equations did not differ between the vegetation control treatments. Thus, treatment effects on allometry, specifically the relationship between DBH and biomass of bole, foliage, branches, and total tree, diminished significantly during the 6-year interval. Although tree morphology in these two treatments appears to have largely converged at year 11, tree size and plot-level biomass remain significantly higher in the treatment that received 5 years of vegetation control.
+Our biomass equations, particularly the component biomass equations, differed from previously published equations for Douglas-fir, which, for the larger diameter trees, would have overestimated bole biomass and underestimated branch and foliar biomass. These differences between the allometric relationships in our study and those described by the biomass equations of other studies were likely a result of differences in intraspecific competition associated with relative stand density, or availability of belowground resources.
+19
+
+RESEARCH PAPER PNW-RP-591
+
+Our application of the mean-tree method illustrates the danger of relying on a singletree sample to estimate stand-level biomass, even in a relatively uniform plantation.
+
+Plot-level aboveground tree biomass estimates using our biomass equations differed from estimates made with previously published equations by -8 to +23 percent. Component biomass estimates differed by as much as 91 percent. The published equations producing biomass estimates most different from ours included those of Gholz et al. (1979) and Jenkins et al. (2003), which were equations developed from large, regional data sets. These two sets of equations may not be well suited for estimating biomass of young plantations on highly productive sites, which are apparently atypical of sites from which these earlier equations were developed.
+Our application of the mean-tree method illustrates the danger of relying on a single-tree sample to estimate stand-level biomass, even in a relatively uniform plantation. Sampling multiple trees of the mean-tree diameter would likely have increased the accuracy of our biomass estimate. If the mean-tree approach is used to estimate biomass of young Douglas-fir, our results support the use of a weighting factor from a previously published biomass equation, rather than using individualtree basal area to calculate mean-tree DBH. Although we do not know the true stand biomass in our study, we found that using a weighting factor from a relevant published equation would likely produce a biomass estimate more similar to the results of the allometric method.
+
+Acknowledgments
+This study is a product of the Sustainable Forestry Component of Agenda 2020, a joint effort of the U.S. Department of Agriculture, Forest Service, Research and Development and the American Forest and Paper Association. The authors gratefully acknowledge the financial support provided by the National Council for Air and Stream Improvement, Inc., the Northwest Advanced Renewables Alliance, and the Pacific Northwest Stand Management Cooperative. The study site and support for experimental treatments were provided by Weyerhaeuser NR Company; the authors give particular thanks to Rodney Meade and Glenn Cattnach. We are grateful for support from the University of Washington School of Forest Resources and the USDA Forest Service Pacific Northwest Research Station. We are grateful for study installation and data collection assistance from many employees of these institutions.
+
+20
+
+Estimating Tree Biomass, Carbon, and Nitrogen in Two Vegetation Control Treatments
+
+English Equivalents
+When you know:
+Millimeters (mm) Centimeters (cm) Meters (m) Hectares (ha) Kilometers (km) Square meters (m2) Kilograms (kg) Megagrams (Mg) Square meters per hectare (m2/ha) Trees per hectare Degrees Celsius (°C)
+
+Multiply by:
+0.0394 0.394 3.28 2.47 0.621 10.76 2.205 1.102 4.37 .405 1.8 °C + 32
+
+To find:
+Inches Inches Feet Acres Miles Square feet Pounds Tons Square feet per acre Trees per acre Degrees Fahrenheit
+
+Literature Cited
+Acker, S.A.; Halpern, C.B.; Harmon, M.E.; Dyrness, C.T. 2002. Trends in bole biomass accumulation, net primary production and tree mortality in Pseudotsuga menziesii forests of contrasting age. Tree Physiology. 22: 213–217.
+Ares, A.; Terry, T.; Harrington, C.; Devine, W.; Peter, D.; Bailey, J. 2007a. Biomass removal, soil compaction, and vegetation control effects on five-year growth of Douglas-fir in coastal Washington. Forest Science. 53(5): 600–610.
+Ares, A.; Terry, T.A.; Piatek, K.B. [et al.]. 2007b. The Fall River Long-Term Site Productivity study in coastal Washington: site characteristics, experimental design, and biomass, carbon and nitrogen stores before and after harvest. Gen. Tech. Rep. PNW-GTR-691. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Research Station. 85 p.
+Attiwill, P.M.; Ovington, J.D. 1968. Determination of forest biomass. Forest Science. 14(1): 13–15.
+Bartelink, H. 1996. Allometric relationships on biomass and needle area of Douglas-fir. Forest Ecology and Management. 86(1–3): 193–203.
+Binkley, D. 1983. Ecosystem production in Douglas-fir plantations: interaction of red alder and site fertility. Forest Ecology and Management. 5: 215–227.
+Devine, W.D.; Harrington, T.B.; Terry, T.A.; Harrison, R.B.; Slesak, R.A.; Peter, D.H.; Harrington, C.A.; Shilling, C.J.; Schoenholtz, S.H. 2011. Fiveyear vegetation control effects on aboveground biomass and nitrogen content and allocation in Douglas-fir plantations on three contrasting sites. Forest Ecology and Management. 262: 2187–2198.
+
+21
+
+RESEARCH PAPER PNW-RP-591
+Espinosa Bancalari, M.A.; Perry, D.A. 1987. Distribution and increment of biomass in adjacent young Douglas-fir stands with different early growth rates. Canadian Journal of Forest Research. 17(7): 722–730.
+Feller, M.C. 1992. Generalized versus site-specific biomass regression equations for Pseudotsuga menziesii var. menziesii and Thuja plicata in coastal British Columbia. Bioresource Technology. 39(1): 9–16.
+Gholz, H.L. 1982. Environmental limits on aboveground net primary production, leaf area and biomass in vegetation zones of the Pacific Northwest. Ecology. 63: 469–481.
+Gholz, H.L.; Grier, C.C.; Campbell, A.G.; Brown, A.T. 1979. Equations for estimating biomass and leaf area of plants in the Pacific Northwest. Research Paper 41. Corvallis, OR: Oregon State University, Forest Research Laboratory. 39 p.
+Gower, S.T.; Vogt, K.A.; Grier, C.C. 1992. Carbon dynamics of Rocky Mountain Douglas-fir: influence of water and nutrient availability. Ecological Monographs. 62(1): 43–65.
+Grier, C.C.; Lee, K.M.; Archibald, R.M. 1984. Effect of urea fertilization on allometric relations in young Douglas-fir trees. Canadian Journal of Forest Research. 14: 900–904.
+Harrison, R.; Terry, T.; Licata, C.; Flaming, B.; Meade, R.; Guerrini, I.; Strahm, B.; Xue, D.; Lolley, M.; Sidell, A. 2009. Biomass and stand characteristics of a highly productive mixed Douglas-fir and western hemlock plantation in coastal Washington. Western Journal of Applied Forestry. 24(4): 180–186.
+Helgerson, O.T.; Cromack, K.; Stafford, S.; Miller, R.E.; Slagle, R. 1988. Equations for estimating aboveground components of young Douglas-fir and red alder in a coastal Oregon plantation. Canadian Journal of Forest Research. 18(8): 1082–1085.
+Henderson, J.A.; Peter, D.H.; Lesher, R.D.; Shaw, D.C. 1989. Forested plant associations of the Olympic National Forest. Ecol. Tech. Pap. R6-ECOLTP-001-88. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Region. 502 p.
+Jenkins, J.C.; Chojnacky, D.C.; Heath, L.S.; Birdsey, R.A. 2003. National-scale biomass estimators for Unites States tree species. Forest Science. 49(1): 12–35.
+22
+
+Estimating Tree Biomass, Carbon, and Nitrogen in Two Vegetation Control Treatments
+Jenkins, J.C.; Chojnacky, D.C.; Heath, L.S.; Birdsey, R.A. 2004. Comprehensive database of diameter-based biomass regressions for North American tree species. Gen. Tech. Rep. NE-319. Newtown Square, PA: U.S. Department of Agriculture, Forest Service, Northeastern Research Station. 45 p.
+Jolly, N.W. 1950. The volume line theory in relation to the measurement of the standing volume of a forest (with particular reference to Pinus radiata). Adelaide, Australia: Woods and Forests Department, University of Adelaide. 37 p.
+Keyes, M.R.; Grier, C.C. 1981. Above- and below-ground net production in 40-year-old Douglas-fir stands on low and high productivity sites. Canadian Journal of Forest Research. 11(3): 599–605.
+King, J.E. 1966. Site index curves for Douglas-fir in the Pacific Northwest. Weyerhaeuser Forestry Paper no. 8. Centralia, WA: Forestry Research Center, Weyerhaeuser Co.
+Matejovic, I. 1995. Total nitrogen in plant material determinated by means of dry combustion: a possible alternative to determination by Kjeldahl digestion. Communications in Soil Science and Plant Analysis. 26(13–14): 2217–2229.
+Mitchell, A.K.; Barclay, H.J.; Brix, H.; Pollard, D.F.W.; Benton, R.; deJong, R. 1996. Biomass and nutrient element dynamics in Douglas-fir: effects of thinning and nitrogen fertilization over 18 years. Canadian Journal of Forest Research. 26: 376–388.
+Myrold, D.D.; Matson, P.A.; Peterson, D.L. 1989. Relationships between soil microbial properties and aboveground stand characteristics of conifer forests in Oregon. Biogeochemistry. 8: 265–281.
+Petersen, K.S.; Ares, A.; Terry, T.A.; Harrison, R.B. 2008. Vegetation competition effects on aboveground biomass and macronutrients, leaf area, and crown structure in 5-year old Douglas-fir. New Forests. 35(3): 299–311.
+Powers, R.F.; Scott, D.A.; Sanchez, F.G.; Voldseth, R.A.; Page-Dumroese, D.; Elioff, J.D.; Stone, D.M. 2005. The North American long-term soil productivity experiment: findings from the first decade of research. Forest Ecology and Management. 220(1–3): 31–50.
+Ranger, J.; Marques, R.; Colin-Belgrand, M.; Flammang, N.; Gelhaye, D. 1995. The dynamics of biomass and nutrient accumulation in a Douglas-fir (Pseudotsuga menziesii Franco) stand studied using a chronosequence approach. Forest Ecology and Management. 72(2–3): 167–183.
+23
+
+RESEARCH PAPER PNW-RP-591
+Reineke, L.H. 1933. Perfecting a stand density index for even-aged stands. Journal of Agricultural Research. 46: 627–638.
+Roberts, S.D.; Harrington, C.A.; Terry, T.A. 2005. Harvest residue and competing vegetation affect soil moisture, soil temperature, N availability, and Douglas-fir growth. Forest Ecology and Management. 205(1–3): 333–350.
+St. Clair, J.B. 1993. Family differences in equations for predicting biomass and leaf area in Douglas-fir (Pseudotsuga menziesii var. menziesii). Forest Science. 39(4): 743–755.
+SAS Institute. 2005. The SAS system: SAS OnlineDoc®, Version 9.1, HTML format [CD-ROM]. Cary, NC.
+Schreuder, H.T.; Gregoire, T.G.; Wood, G.B. 1993. Sampling methods for multiresource forest inventory. New York: Wiley. 464 p.
+U.S. Department of Agriculture, Natural Resources Conservation Service [USDA NRCS]. 1999. Soil taxonomy, a basic system of soil classification for making and interpreting soil surveys. 2nd ed. Agric. Handb. No. 436. Washington, DC.
+Sokal, R.R.; Rohlf, F.J. 1995. Biometry. 3rd ed. New York: W.H. Freeman and Company. 880 p.
+Standish, J.T.; Manning, G.H.; Demaerschalk, J.P. 1985. Development of biomass equations for British Columbia tree species. Information Report BCX-264. Victoria, Canada: Pacific Forest Research Centre, Ministry of State for Forestry, Agriculture Canada. 48 p.
+Turner, J.; Long, J.N. 1975. Accumulation of organic matter in a series of Douglas-fir stands. Canadian Journal of Forest Research. 5: 681–690.
+Ung, C.-H.; Bernier, P.; Guo, X.-J. 2008. Canadian national biomass equations: new parameter estimates that include British Columbia data. Canadian Journal of Forest Research. 38: 1123–1132.
+24
+
+Estimating Tree Biomass, Carbon, and Nitrogen in Two Vegetation Control Treatments
+
+Appendix
+
+Table 7—Data from 26 Douglas-fir trees from the Fall River Long-Term Site Productivity study sampled at plantation age 11 yearsa
+
+Treatment/
+
+tree no.
+
+DBH
+
+Height
+
+Bole
+
+Biomass Branch Foliage
+
+Total
+
++VC 30843 22751 22466 27901 25513 30987 27851 27910 30841 22621 25343 25350 22627
+
+Centimeters
+8.3 9.0 10.6 12.5 13.2 13.6 14.3 14.6 14.6 14.7 15.4 15.6 16.8
+
+Meters
+7.32 8.42 9.05 8.60 9.96 9.37 9.89 9.72 9.55 10.20 10.14 10.15 10.77
+
+- - - - - - - - - - - - Kilograms - - - - - - - - - - - -
+
+8.36 11.10 15.04 24.48 24.24 28.41 32.77 32.11 30.24 34.18 32.11 32.87 39.65
+
+4.14 6.05 8.36 14.34 14.79 17.87 27.17 24.64 20.39 16.18 23.35 29.52 26.79
+
+3.17 3.13 4.15 6.60 8.37 8.37 11.80 12.46 10.08 9.61 11.78 11.37 12.49
+
+15.67 20.28 27.55 45.43 47.41 54.66 71.74 69.22 60.71 59.96 67.23 73.77 78.92
+
+-VC
+
+30596
+
+9.0
+
+7.47
+
+10.11
+
+6.03
+
+4.17
+
+27364
+
+11.1
+
+8.93
+
+15.39
+
+8.77
+
+5.11
+
+27370
+
+11.5
+
+9.03
+
+19.18
+
+8.84
+
+4.82
+
+27253
+
+11.7
+
+10.02
+
+18.27
+
+8.39
+
+4.69
+
+22387
+
+12.1
+
+8.92
+
+17.54
+
+13.70
+
+6.94
+
+22219
+
+12.6
+
+10.44
+
+22.65
+
+9.50
+
+6.39
+
+30601
+
+12.7
+
+9.86
+
+22.20
+
+13.77
+
+8.33
+
+30670
+
+12.9
+
+9.84
+
+24.97
+
+18.16
+
+9.73
+
+30682
+
+14.2
+
+9.85
+
+30.82
+
+15.48
+
+10.98
+
+22329
+
+15.6
+
+11.91
+
+41.63
+
+19.04
+
+11.90
+
+25207
+
+15.6
+
+8.73
+
+30.29
+
+24.95
+
+9.73
+
+25097
+
+16.8
+
+11.13
+
+45.70
+
+40.64
+
+19.39
+
+25107
+
+17.6
+
+11.20
+
+48.75
+
+34.13
+
+24.38
+
+a Treatments were 5 years of intensive vegetation control (+VC) or no vegetation control (-VC). DBH = diameter at breast height.
+
+20.30 29.27 32.84 31.35 38.18 38.54 44.30 52.86 57.28 72.56 64.98 105.74 107.26
+
+25
+
+RESEARCH PAPER PNW-RP-591
+Figure 4—Distribution of year-11 estimated diameter at breast height (DBH), by 1-cm DBH class, for all study trees. Treatments were: 5 years of intensive vegetation control (+VC) or no vegetation control (-VC).
+26
+
+Estimating Tree Biomass, Carbon, and Nitrogen in Two Vegetation Control Treatments
+Figure 5—Relationships between total aboveground tree biomass and diameter at breast height (DBH) for Douglas-fir; lines are truncated according to the DBH range of the trees from which they were developed. A subset of these equations, which were developed from a DBH range encompassing that of the year-11 Fall River plantation, are shown in figure 2.
+27
+
+RESEARCH PAPER PNW-RP-591
+Figure 6—Relationships between total aboveground tree biomass and diameter at breast height (DBH) for Douglas-fir, showing only the range of DBH for the trees sampled in this study. Lines are truncated according to the DBH range of the trees from which they were developed. A subset of these equations, which were developed from a DBH range encompassing that of the year-11 Fall River plantation, are shown in figure 2.
+28
+
+Estimating Tree Biomass, Carbon, and Nitrogen in Two Vegetation Control Treatments
+Figure 7—Estimated total-tree aboveground biomass (Mg•ha-1), using four different equations, by 1-cm diameter at breast height (DBH) class for all year-11 Douglas-fir study trees in two vegetation control treatments.
+29
+
+Pacific Northwest Research Station
+
+Web site Telephone Publication requests FAX E-mail Mailing address
+
+http://www.fs.fed.us/pnw/
+(503) 808–2592
+(503) 808–2138
+(503) 808–2130
+pnw_pnwpubs@fs.fed.us
+Publications Distribution Pacific Northwest Research Station P.O. Box 3890 Portland, OR 97208–3890
+
+U.S. Department of Agriculture Pacific Northwest Research Station 333 SW First Avenue P.O. Box 3890 Portland, OR 97208–3890
+Official Business Penalty for Private Use, $300
+

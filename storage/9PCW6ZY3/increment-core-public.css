@@ -1,0 +1,183 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+.ncrmnt .input-group {
+    display: table;
+    max-width:800px;
+}
+.ncrmnt .input-group input:first-child, .input-group-button:first-child .btn {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.ncrmnt .input-group input, .input-group-button {
+    display: table-cell;
+}
+.ncrmnt .input-group input {
+    position: relative;
+    margin-right:2%;
+    height:35px;
+    padding:4px 8px;
+    border:none;
+    color:#A60000;
+}
+.ncrmnt .input-group-button {
+    /*width: 1%;*/
+    vertical-align: middle;
+    display: inline-block;
+    border:none;
+}
+.ncrmnt .input-group input:last-child, .input-group-button:last-child .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.ncrmnt .btn {
+    position: relative;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #333;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #eee;
+    background-image: linear-gradient(#fcfcfc,#eee);
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+}
+.ncrmnt .input-group-button:last-child .btn {
+    margin-left: -1px;
+}
+.ncrmnt .clippy {
+    margin-top: -3px;
+    position: relative;
+    top: 3px;
+    width:23px;
+    height:20px;
+}
+
+.ncrmnt .body-text {
+    font-family: "Vollkorn", sans-serif;
+    font-size: 1.3em;
+}
+.ncrmnt .centered {
+    margin: 0 auto;
+    max-width: 1320px;
+    width: 100%;
+    padding: 0px 20px;
+}
+.ncrmnt .fullwidth {
+    width: 100%;
+}
+.ncrmnt .text.centered {
+    padding: 0 2%;
+}
+.ncrmnt .single-post-container {
+/*    max-width: 1100px;*/
+}
+.ncrmnt .single-content-section {
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+}
+.ncrmnt h1 {
+    font-size: 2em;
+    color: #000;
+    line-height: 1.2em;
+    margin-bottom: 17px;
+}
+.ncrmnt .body-text p {
+    margin: 0 0 20px 0;
+}
+.ncrmnt h2 {
+    font-size: 1.8em;
+    color: #000;
+    line-height: 1.2em;
+    margin-bottom: 17px;
+}
+.ncrmnt .group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.ncrmnt .podcast-screenshots { margin:20px 0; }
+.ncrmnt .podcast-screenshots img { float:left; display:inline; width:280px; margin-right:20px; }
+.ncrmnt .subscribe-feed-url { overflow-wrap:break-word; word-wrap:break-word; }
+@media (max-width:600px) {
+    .ncrmnt .podcast-screenshots img { float:none; display:block; width:100%; margin:10px 0; }
+    .ncrmnt .subscribe-feed-url { padding:40px 0; }
+}
+.ncrmnt h4, .ncrmnt h5 { line-height:1.4; }
+
+
+.ncrmnt .lede-bg-img { 
+  height:300px;
+  width:100%;
+  position: relative;
+}
+.ncrmnt .lede-text { 
+    position: absolute;
+    left:350px;
+    top:100px;
+    max-width:800px;
+}
+.ncrmnt .lede-text .page-title, 
+.ncrmnt .lede-text p { color:#fff; text-align:left; margin-bottom:8px;  }
+.ncrmnt .sub-hed { font-size:28px; line-height:1.2; font-family:"Unica One", sans-serif; text-transform: uppercase; }
+.ncrmnt .single-content-section {
+    max-width:800px;
+    width:100%;
+}
+.ncrmnt .padded { margin-top:48px; margin-bottom:48px; }
+.ncrmnt .centered { text-align:center; margin-left:auto; margin-right:auto; }
+.ncrmnt .feedurl-box { text-align: left; background-color:#000; color:#fff; padding:48px 0 24px 300px; }
+.ncrmnt .feedurl-box .button { background-color:#A60000; text-transform:uppercase; color:#fff; }
+.ncrmnt .left { float:left; display:inline; }
+.ncrmnt .listen1, .ncrmnt .listen2 { width:48%; }
+.ncrmnt .listen1 img, .ncrmnt .listen2 img { height:200px; }
+.ncrmnt .listen3 { width:100%; }
+.ncrmnt .listen3 img { height:150px; }
+.ncrmnt .icon-env { width:20px; margin-right:4px; }
+
+.ncrmnt .input-group input { width:100%; max-width:90%; }
+
+.ncrmnt .wotr_nav { margin-bottom:0; }
+
+
+.ncrmnt .wrapper-episodes .item.episode {
+    float:left;
+    display:inline;
+    width:25%;
+    margin:24px 0;
+}
+.ncrmnt .wrapper-episodes .item.episode img {
+    width:200px;
+    margin-bottom:14px;
+}
+
+@media (max-width:600px) {
+    .ncrmnt .input-group input { width:200px; }
+    .ncrmnt .lede-bg-img {
+        height:200px;
+    }
+    .ncrmnt .lede-text {
+        position: relative;
+        left:auto;
+        top:auto;
+        padding:24px;
+    }
+    .ncrmnt .feedurl-box {
+        padding:24px;
+    }
+    .ncrmnt .listen1, .ncrmnt .listen2 { width:100%; }
+    .ncrmnt .wrapper-episodes .item.episode { width:100%; }
+}

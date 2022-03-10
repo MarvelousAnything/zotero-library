@@ -1,0 +1,58 @@
+.posts-navigation { 
+    border:1px solid #d9d9d9; 
+    position:relative; 
+    display:block; 
+    /* padding:12px 24px; */
+    margin:16px auto;
+    width:fit-content;
+    border-radius:4px;
+    background:red;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06);
+    font-family: "Unica One", sans-serif;
+    font-size:18px;
+    text-transform:uppercase;
+
+}
+.posts-navigation .nav-links { display:block; margin:0; }
+.posts-navigation .nav-links::after { content:''; display:table; clear:both; }
+.posts-navigation .nav-next { 
+    float:left; display:inline; background:white; width:100px;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: left 12px center;
+    background-size: 28px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M4 5h3v10H4V5zm12 0v10l-9-5 9-5z'/%3E%3C/svg%3E");
+    
+}
+.posts-navigation .nav-previous {
+    float:right; display:inline; width:230px;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: right 12px center;
+    background-size: 28px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M13 5h3v10h-3V5zM4 5l9 5-9 5V5z'/%3E%3C/svg%3E");
+}
+
+.posts-navigation .nav-next a {
+    padding:12px 12px 12px 48px;
+    /* margin-left:12px; */
+    display: inline-block;
+    text-decoration:none;
+    font-weight:bold;
+}
+.posts-navigation .nav-next a:link { color:#000; }
+.posts-navigation .nav-next a:visited { color:#000; }
+.posts-navigation .nav-next a:hover { color:#aaa; }
+.posts-navigation .nav-next a:active { color:#000; }
+.posts-navigation .nav-previous a {
+    padding:12px 48px 12px 12px;
+    /* margin-right:12px; */
+    display: inline-block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:bold;
+}
+.posts-navigation .nav-previous a:link { color:#fff; }
+.posts-navigation .nav-previous a:visited { color:#fff; }
+.posts-navigation .nav-previous a:hover { color:#111; }
+.posts-navigation .nav-previous a:active { color:#fff; }

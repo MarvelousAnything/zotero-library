@@ -1,0 +1,2668 @@
+/* GLOBAL */
+.poppins-font { font-family: 'Poppins', arial, Sans-Serif;}
+.publico-font { font-family: 'Playfair Display', Didot, Bodoni MT, Times New Roman, serif;}
+.brad_crum h1 {color: #282828; font: 400 12px 'Fira Sans', sans-serif; text-transform: capitalize; display: inline;}
+.battel2022 { padding: 0px;}
+.heading_battlep { margin-top:4px; padding: 0px 0 0 10px; margin-right:5px; font:900 21px/21px 'Playfair Display', sans-serif;}
+.heading_battlep span { top:0px;  font:900 34px/22px 'Playfair Display', sans-serif; left:0px; padding:0px 0 0 55px;}
+.battle_leader { display: block; height:auto; width:auto; }
+.battle_leader:after { height: 6px; left: 0px; border-radius: 12px; bottom: 0px;}
+.heading_battlep span:before { width:40px; height:3px; left:10px; top:7px; }
+.battle_leader figure { width: auto;  padding: 0 20px;}
+.election_battleground_2022 {margin-top:20px;}
+.election_battleground_2022 .mcel-line-title-wrap:before { content: ""; width:90px; height:90px; position: absolute; left:50%; margin-left:-45px; background:url("https://images.moneycontrol.com/mcnews/images/election_2022/orange_dots_bg.png") 0px 0px no-repeat; background-size:100%; top:-10px;}
+.election_battleground_2022 .mcel-line-title { padding:15px 0 15px 0;}
+
+
+.ui-menu {  height: 280px;  overflow-y: auto;  overflow-x: hidden; }
+.ui-menu .ui-menu-item {margin:0; cursor: pointer; }
+
+.ui-menu .ui-menu-item-wrapper {        
+padding: 7px !important; position: relative; font-size: 14px; }
+
+
+#el_battelgHome .card_slider { overflow: hidden;}
+/*phase 1 addition start*/
+.home-mid-contener { margin: 0 auto; max-width: 1260px;}
+.brad_crum a{color:#000; padding:0 6px}
+.brad_crum a:first-child{padding-left:0}
+.show-moblie {display: none;}
+.tab-pane {display: none;}
+.tab-pane.active { display: block;}
+.constsl_cnt .bx-viewport{height: auto !important;}
+
+/*phase 1 addition end*/
+
+/*SLIDER*/
+.slick-arrow {
+    display: none !important;
+}
+
+.destop-ad {
+    display: none;
+}
+
+.slick-dots {
+    text-align: center;
+}
+
+.slick-dots li {
+    display: inline-block;
+    padding: 5px 3px 0;
+}
+
+.slick-dots li button {
+    background: lightgrey;
+    outline: none;
+    border: none;
+    color: lightgrey;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.slick-dots .slick-active {}
+
+.slick-dots .slick-active button {
+    background: #e58201;
+    color: #e58201;
+}
+
+.mcel-line-title-wrap {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding:0 10px;
+    justify-content: center !important;
+}
+
+.mcel-line-title-wrap.topnews_spon {
+    justify-content: space-between;
+}
+
+.mcel-line-title-wrap .mcel-more-btn {
+    bottom: 6px;
+    right: 0px;
+    display: block;
+}
+
+
+.latnews { border-top:2px solid #d6d4cc; padding-top:15px; margin:0px 10px; text-align: center;}
+.latnews a { color: #000000; font:500 14px 'Montserrat', sans-serif;}
+
+.mcel-line-title.mceltit2 { font-size: 15px; padding:5px;  line-height:20px; width:200px; }
+.poll-result-section .mcel-line-title-wrap { margin-bottom:10px;}
+.mcel-more-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    font-size: 15px;
+    line-height: 35px;
+    font-family: poppins;
+    font-weight: 900;
+    background: white;
+    z-index: 9;
+    padding: 0 28px 0 12px;
+}
+
+
+.mcel-more-btn::before {
+    content: "";
+    background: url("https://stat.moneycontrol.co.in/mcnews/images/election-2019/right-arrow.svg");
+    position: absolute;
+    width: 20px;
+    height: 13px;
+    background-repeat: no-repeat;
+    top: 51%;
+    left: 60px;
+    transform: translateY(-50%);
+}
+
+.mcel-more-btn:hover::before {
+    left: 75px;
+}
+
+.mcel-bgtext-wrap {
+    margin: -10% 0 0 0px;
+}
+
+.mcel-bg-text {
+    position: relative;
+    background:#4F806B;
+    color: white !important;
+    cursor: pointer;
+    display: inline;
+    margin-left: 0px;
+    text-decoration: none !important;
+}
+.mcel-bg-text span { padding:10px; -webkit-box-decoration-break:clone; box-decoration-break:clone;  }
+
+@-moz-document url-prefix() {
+    .mcel-bg-text > span {
+        outline: 10px solid black;
+    }
+}
+
+
+.mcel-cat-thumbnail {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.mcel-cat-thumbnail img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.mcel-cat-thumbnail .category-text {
+    color: #e58401;
+    line-height: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.mcel-cat-thumbnail .headline {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #2c2c2c;
+}
+
+.mcel-other-headlines {
+    padding: 10px 0;
+    font-weight: 600;
+    line-height: 18px;
+    font-size: 13px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    display: block;
+    color: #2c2c2c;
+}
+
+/*SEARCH*/
+.search-const {
+    width: calc(100% - 30px);
+    height: 30px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 4px;
+    font-size: 12px;
+    color: black;
+    border-radius: 3px;
+    border: 1px solid #ececec;
+    outline: none;
+}
+
+.search-const-icon {
+    border-top-right-radius: 3px;
+    display: inline-block;
+    width: 30px;
+    background: #53a946;
+    height: 30px;
+    padding: 4px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 3px;
+}
+
+.search-const-icon svg {
+    width: 21px;
+    height: 21px;
+    margin: 0px;
+}
+
+
+/*TOP HEADER*/
+
+
+
+.mcel-top-header {
+    background: url(https://images.moneycontrol.com/mcnews/images/election_2022/mcel-head.jpg) no-repeat;
+    background-size: contain;
+    height: 65px;
+    margin: 10px;
+    border-bottom: 3px solid rgb(112, 112, 112);
+    display: flex;
+    justify-content: flex-start;
+    background-position: left bottom;
+}
+.h1-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    padding-left: 5px;
+    margin-top: -8px;
+}
+.h1-logo-image{
+    width: 50px;
+}
+.h1-logo-image-wrap{
+  width: 50px;
+  position: relative;
+}
+.h1-logo-image-wrap::before{
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 1.5px;
+  left: -14px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: darkgrey;
+  z-index: 9;
+}
+.h1-logo-image-wrap::after{
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 1.5px;
+  right: -14px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: darkgrey;
+  z-index: 9;
+}
+.h1-logo{color: black;font-size: 15px;font-family: 'Playfair Display', Didot, Bodoni MT, Times New Roman, serif;font-style: italic;font-weight: 900;line-height: 8px;height: 59px;}
+.h1-election{display: block;color: #e38302;font-family: poppins;font-weight: 900;font-size: 16px;line-height: 22px;position: relative;font-style: normal;}
+.h1-year{display: block;font-size: 30px;font-family: poppins;font-weight: 900;font-style: italic;color: #d1d1d1;line-height: 8px;}
+
+.mcel-top-states-list {padding: 5px 15px;}
+
+.mcel-tsl-title { display: block; font:14px 'Poppins', sans-serif; margin-bottom:10px;}
+.mcel-tsl-title span { display: none; }
+.top-ad-unit { display: flex; align-items: center;}
+.india-now-then-ad-unit { display: flex; height: 50px; align-items: center;
+    position: absolute;
+    right: 0;
+    background: white;
+    padding: 0 16px;
+    margin-top: -40px;
+}
+
+.india-now-then-categories-list {
+    display: none;
+}
+
+.top-ad-unit .ad-present,
+.india-now-then-ad-unit .ad-present {
+    padding: 4px;
+    color: #6b6b6b;
+    font-style: italic;
+    white-space: nowrap;
+}
+
+.india-now-then-ad-unit .ad-present {
+    white-space: pre-wrap;
+    width: 90px;
+}
+
+.sla { padding:0 10px; margin-bottom:10px; border-right:1px solid #ddd; color: #4F806B;  font-weight:700; font-size:14px; text-transform: uppercase; display: inline-block;}
+.sla:last-child { border:none; padding-right: 0px; }
+.sla:first-child { padding-left: 0px;}
+
+
+.mcel-top-news {
+    display: flex;
+    padding:0px 0 0;
+    flex-direction: column;
+}
+
+.mcel-left-news {
+    flex-basis: 100%;
+    max-width: 100%;
+    padding:0px 10px 25px;
+    /* position: relative; */
+}
+
+.mcel-left-news img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.mcel-left-news .headline {
+    line-height:34px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.mcel-right-news {
+    display: flex;
+    max-width: 100%;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    /* padding: 0 15px; */
+}
+
+.mcel-right-news .top-news {
+    width: 100%;
+    padding:0 10px 25px;
+}
+
+.mcel-right-news .top-news img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.mcel-right-news .top-news .headline {
+    line-height: 29px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.mcel-right-news .top-other-news {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 0px 15px 10px;
+    /*border-bottom: 2px solid rgb(190, 190, 190);*/
+    width: 100%;
+    margin: 10px 0;
+}
+
+.mcel-right-news .top-other-news .other-news {
+    width: 65%;
+    flex-basis: 100%;
+    padding: 5px 25px 5px 0;
+    min-width: 65%;
+}
+
+.mcel-right-news .top-other-news .other-news img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.mcel-right-news .top-other-news .other-news .headline {
+    line-height: 20px;
+    font-size: 14px;
+    white-space: pre-line;
+    font-weight: 700;
+    margin-top: 10px;
+    display: block;
+    color: #2c2c2c;
+}
+
+
+.top-more-other-news {
+    width: 100%;
+    padding: 10px;
+}
+
+.more-other-news-list {
+    list-style: outside disc none;
+    width: 100%;
+    padding:10px 0px 0px;
+    /* list-style-type: disc; */
+    border-top: 2px solid #d6d4cc;
+}
+.more-other-news {
+    padding: 8px 0;
+    display: block;
+}
+.more-other-news-list li:last-child{padding-bottom: 0px;}
+
+.more-other-news .headline {
+    font-size: 14px;
+    line-height: 23px;
+    color: rgba(44, 44, 44, 1);
+    font-weight: 400;
+    padding-left: 15px;
+    position: relative;
+    font-weight: 600;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+}
+
+.more-other-news .headline::before {
+    content: "";
+    height: 4px;
+    width: 4px;
+    background:#4F806B;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    top: 12px;
+    transform: translateY(-50%);
+}
+
+/* OPINIONS SECTION */
+.mcel-opinion-section {
+    padding: 0px 0;
+}
+
+.mcel-opinions-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.mcel-other-opinions {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    margin: 8px 0 28px;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.mcel-other-opinions .opinion-thumb {
+    min-width: 65%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.mcel-other-opinions .opinion-thumb .headline {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 10px;
+    font-weight: 700;
+    display: block;
+    color: #282828;
+}
+
+.mcel-other-opinions .opinion-thumb img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.mcel-main-opinion {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.mcel-main-opinion .mcel-more-btn {
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 44px;
+}
+
+.mcel-main-opinion img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.mcel-main-opinion .headline {
+    font-size: 22px;
+    line-height: 30px;
+    background: rgba(79, 128, 107, 0.95);
+    color: #F5F0EE;
+    padding: 20px;
+    margin: -53px 0 0 0;
+    position: relative;
+    border: 4px solid #FFFFFF;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+
+.content-section {
+    padding: 45px 0 0;
+}
+
+.mcel-content-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.mcel-content-div {
+    margin: 0 0 20px;
+    width: 100%;
+    padding: 0 10px;
+    position: relative;
+    box-sizing: border-box;
+    counter-reset: content-thumb-counter;
+}
+
+.mcel-content-div .title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: -21px;
+    color: black;
+}
+
+.mcel-content-posts {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.mcel-content-thumb:nth-of-type(n+1) {
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.mcel-content-thumb:nth-of-type(n+1) .image-wrap {
+    width: 45%;
+    position: relative;
+}
+
+.mcel-content-thumb:nth-of-type(n+1) .image-wrap img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.mcel-content-thumb:nth-of-type(n+1) .headline-wrap {
+    width: 75%;
+    padding: 0 10px 0 0;
+}
+
+.mcel-content-thumb:nth-of-type(n+1) .headline {
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    color: #282828;
+}
+
+.mcel-content-thumb:nth-of-type(n+1) .headline::after {
+    counter-increment: content-thumb-counter;
+    content: "0"counter(content-thumb-counter);
+    color: #e5e5e5;
+    position: absolute;
+    bottom: 0;
+    font-size: 40px;
+    right: 0;
+    font-weight: 700;
+    font-family: poppins;
+    font-style: italic;
+    z-index: -1;
+}
+
+
+
+.mcel-content-thumb:nth-of-type(1) {
+    display: block;
+    padding: 10px 5px;
+    /* border-right: 7px solid #ddd; */
+}
+
+.mcel-content-thumb:nth-of-type(3) {
+    border-right: none;
+}
+
+.mcel-content-thumb:nth-of-type(1) .image-wrap {
+    width: 100%;
+    position: relative;
+}
+
+.mcel-content-thumb:nth-of-type(1) .image-wrap img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.mcel-content-thumb:nth-of-type(1) .headline-wrap {
+    width: 85%;
+    margin-top: -12%;
+}
+
+.mcel-content-thumb:nth-of-type(1) .headline {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #fff;
+    /* padding-right: 110%; */
+    display: inline;
+    outline: 7px solid black !important;
+}
+
+.mcel-content-thumb:nth-of-type(1) .headline::after {
+    counter-increment: content-thumb-counter;
+    content: "0"counter(content-thumb-counter);
+    color: #e5e5e5;
+    position: absolute;
+    bottom: 0;
+    font-size: 55px;
+    left: 220px;
+    font-weight: 700;
+    font-family: poppins;
+    font-style: italic;
+    z-index: -1;
+}
+
+.mcel-content-div .mcel-more-btn {
+    bottom: -20px;
+    left: 4px;
+    width: 8%;
+}
+
+.mcel-content-thumb:nth-of-type(n+1) .image-wrap::before {
+    content: "";
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    top: 7px;
+    left: 8px;
+    background-size: contain;
+}
+
+.mcel-content-thumb:nth-of-type(1) .image-wrap::before {
+    content: "";
+    position: absolute;
+    height: 27px;
+    width: 27px;
+    top: 14px;
+    left: 14px;
+    background-size: contain;
+}
+
+.video-content .image-wrap::before {
+    background: url(https://images.moneycontrol.com/mcnews/images/election_2022/play.svg);
+}
+
+.photo-content .image-wrap::before {
+    background: url(https://images.moneycontrol.com/mcnews/images/election_2022/photo.svg);
+}
+
+.podcast-content .image-wrap::before {
+    background: url(https://images.moneycontrol.com/mcnews/images/election_2022/podcast.svg);
+}
+
+
+/* MODINOMICS SECTION */
+.modinomics-wrapper {
+    display: flex;
+    overflow-x: auto;
+    padding: 0 5px;
+}
+
+.modinomics-div {
+    min-width: 62%;
+    padding: 10px;
+}
+
+/*CARDS SECTION*/
+.india-now-vs-then-section {
+    margin: 40px 0;
+}
+
+.india-now-then-header {
+    height: 170px;
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.india-now-then-header::before {
+    content: "";
+    width: 90%;
+    height: 10px;
+    background: #e2f0df;
+    position: absolute;
+    left: 40px;
+    top: 25px;
+}
+
+.india-now-then-header::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    bottom: -9px;
+    background: white;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    left: 50%;
+    transform: translateX(-50%) rotateZ(45deg);
+}
+
+.india-now-then-head-image {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+}
+
+.india-now-then-head-content {}
+
+.mcel-cards-slider {
+    /* display: flex;
+    overflow-x: auto;*/
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.mcel-card-item {
+    /*min-width: 75%;
+    white-space: nowrap;*/
+}
+
+.mcel-card-wrapper {
+    width: 100%;
+    margin-top: 25px;
+    position: relative;
+}
+
+.mcel-card-wrapper .action-icon {
+    position: absolute;
+    bottom: 23px;
+    right: 20px;
+    width: 32px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.zoom-action {}
+
+.share-action {
+    right: 60px !important;
+}
+
+.mcel-card-wrapper .title {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 900;
+    text-align: center;
+    line-height: 8px;
+}
+
+.mcel-card-wrapper .card-img {
+    width: 100%;
+}
+
+/*INTERACTIVE SECTION*/
+.mcel-interactive-section {
+    display: flex;
+    background: url(https://images.moneycontrol.com/mcnews/images/election_2022/interactive-bg.png);
+    padding: 20px 0;
+    background-size: cover;
+}
+
+.mcel-interactive-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.mcel-interavtice-div {
+    flex-basis: 100%;
+    width: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.mcel-interavtice-div .title {
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    color: #000;
+    margin-bottom: 12px;
+}
+
+.mcel-interactive-wrap {
+    background: white;
+    padding: 20px 30px 42px;
+    position: relative;
+}
+
+.opinion-interactive-wrap::before {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 3px;
+    background: #e58401;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+}
+
+.mcel-interactive-wrap .question-label {
+    display: inline-block;
+    font-size: 20px;
+    color: #e58401;
+    line-height: 25px;
+    background: rgba(229, 132, 1, 0.4);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -20px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.mcel-interactive-wrap .question-text {
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.mcel-interactive-wrap .options {
+    padding: 15px 0;
+}
+
+.option-item {
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+}
+
+.option-item svg {
+    width: 21px;
+    height: 21px;
+}
+
+.option-item svg polygon,
+.option-item svg path {
+    fill: #bfbfbf;
+}
+
+.active-option-item svg polygon,
+.active-option-item svg path {
+    fill: #e58401;
+}
+
+
+.option-text {
+    margin-left: 15px;
+    font-size: 13px;
+    line-height: 33px;
+    font-weight: 700;
+    color: black;
+    display: inline-block;
+}
+
+.submit-div {
+    display: flex;
+    align-items: center;
+}
+
+.submit-interactive-btn {
+    background: #1466a3;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 0 35px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 38px;
+}
+
+.mcel-votes-text {
+    font-size: 13px;
+    line-height: 17px;
+    font-style: italic;
+    font-weight: 600;
+    padding-left: 12px;
+}
+
+.mcel-votes-count {
+    font-size: 20px;
+    color: #e58403;
+    font-family: poppins;
+    line-height: 24px;
+}
+
+.mcel-interactive-share {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    position: absolute;
+    right: 12px;
+}
+
+.mcel-interactive-comments {
+    width: 100%;
+    margin: 0px 0 10px;
+    background: #f7f7f7;
+    padding: 5px;
+    font-size: 12px;
+    height: 44px;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+}
+
+.interactive-opinion-table {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.interactive-opinion-table thead {
+    background: #e5e5e5;
+    padding: 5px 11px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.interactive-opinion-table thead tr {
+    padding: 0 10px;
+}
+
+.interactive-opinion-table thead tr td {
+    padding: 0 4px;
+}
+
+.interactive-opinion-table tbody {}
+
+.interactive-opinion-table tbody tr {
+    font-size: 15px;
+    line-height: 34px;
+    text-align: right;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+}
+
+.interactive-opinion-table tbody tr td {}
+
+.channel-name {
+    font-style: italic;
+    text-align: left;
+    font-weight: 900;
+}
+
+.vote-item {
+    justify-content: space-between;
+}
+
+.percentage-number {
+    font-size: 15px;
+    line-height: 38px;
+    color: #e58201;
+    font-weight: 600;
+    display: inline;
+    margin-right: 5px;
+}
+
+.percentage-slider {
+    width: 60px;
+    height: 10px;
+    display: inline-block;
+}
+
+
+/*MILLENIAL SECTION*/
+.millenial-facesheet-section {
+    padding: 20px 15px;
+}
+
+.mcel-mf-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.mf-wrapper {
+    max-width: 100%;
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    flex-direction: column;
+    margin: 12px 0;
+    box-sizing: border-box;
+}
+
+.mf-wrapper .mcel-more-btn {
+    bottom: -15px;
+    display: none;
+}
+
+.millenial-header {
+    height: 140px;
+    background: url(https://images.moneycontrol.com/mcnews/images/election_2022/millenial-header.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.millenial-other-news-wrap {
+    display: flex;
+    overflow-x: auto;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.mcel-mf-news-thumb {
+    width: 33%;
+    padding: 10px 15px 18px;
+    box-sizing: border-box;
+}
+
+.mcel-mf-top-news {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.mcel-mf-top-news img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.mcel-mf-top-news .headline {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 30px;
+    margin: -40px 0 0;
+    width: 90%;
+    border: 3px solid white;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+.mcel-mf-other-news {
+    min-width: 65%;
+}
+
+.mcel-mf-other-news img {}
+
+.mcel-mf-other-news .headline {}
+
+.facesheet-header {
+    width: 100%;
+}
+
+.facesheet-header .mcel-line-title-wrap {
+    width: 100%;
+}
+
+.facesheet-header .mcel-line-title::after {
+    background: rgba(229, 130, 1, 0.4);
+}
+
+.facesheet-header .mcel-line-title span {
+    color: #e58201;
+}
+
+
+.facesheet-content {
+    /*display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;*/
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.faecsheet-div {
+    /* min-width: 100%;
+    max-width: 100%;*/
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #717070;
+    /*margin: 8px 0;*/
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+    min-height: 470px !important;
+}
+
+.faecsheet-div .title {
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.faecsheet-div .content {
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 17px;
+}
+
+.faecsheet-div .candidates-text {
+    background: #ffef9a;
+    display: inline-block;
+    margin: auto;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.faecsheet-div .select-const {
+    display: block;
+    width: 100%;
+    margin: 30px 0;
+    height: 30px;
+    font-family: poppins;
+    font-size: 12px;
+    border-radius: 4px;
+    outline: none;
+}
+
+
+.watch-div {
+    background: url(https://images.moneycontrol.com/mcnews/images/election_2022/eye.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.charges-div {
+    background: url(https://images.moneycontrol.com/mcnews/images/election_2022/blood.png);
+    background-position: 10px 10px;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+}
+
+.charges-div img {
+    width: 100%;
+}
+
+.charges-div .action-icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px !important;
+    transition: 0.3s all;
+    transform: rotateZ(0) scale(1);
+    cursor: pointer;
+}
+
+.charges-div .action-icon:hover {
+    transform: rotateZ(720deg) scale(1.2);
+}
+
+.number-candidates-icon {
+    width: 48px;
+    margin-bottom: 24px;
+}
+
+.number-candidates-text {
+    font-size: 41px;
+    color: red;
+    font-weight: 900;
+    line-height: 41px;
+    display: inline-block;
+}
+
+.charges-list {
+    width: calc(100% + 20px);
+    margin-left: -10px;
+}
+
+.charges-list .charges-item {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    border-bottom: 1px solid #dedede;
+    padding: 10px;
+    align-items: center;
+}
+
+.charges-list .charges-item .title {
+    line-height: 20px;
+    font-size: 14px;
+    text-align: left;
+    font-style: initial;
+}
+
+.charges-list .charges-item .count {
+    font-size: 20px;
+    color: red;
+    font-weight: 700;
+}
+
+/*SOCIAL*/
+.election-dates-header svg {
+    width: 40px;
+    height: 40px;
+}
+
+.election-dates-header svg path {
+    fill: #989898;
+}
+
+.mcel-twitter-div iframe {
+    border: none;
+    outline: none;
+}
+
+.mcel-social-section {}
+
+.mcel-social-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.mcel-social-div {
+    width: 100%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.election-dates-div {}
+
+.election-dates-header {
+    width: 100%;
+    display: flex;
+    background: black;
+    padding: 10px 14px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.election-dates-header .title {
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+    width: 70%;
+}
+
+.election-dates-table {
+    width: 100%;
+}
+
+.election-dates-table thead {
+    background: #e1ded4;
+    height: 30px;
+}
+
+.election-dates-table thead tr {
+    height: 40px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    /* border: 1px solid #ccc; */
+    /* font-family: pub; */
+}
+
+.election-dates-table thead tr td {
+    border: 1px solid #cac2ad;
+}
+
+.election-dates-table tbody {}
+
+.election-dates-table tbody tr {
+    height: 52px;
+    text-align: center;
+    background: #fffcf0;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.election-dates-table tbody tr:nth-last-of-type(2n+1) {
+    background: #fbf5e9;
+}
+
+.election-dates-table tbody tr td {
+    border: 1px solid #cac2ad;
+}
+
+.elecxa-div {
+    background: #f8fff7;
+}
+
+.elecxa-header {
+    height: 60px;
+    width: 100%;
+    background: url(https://images.moneycontrol.com/mcnews/images/election_2022/elecxa-header.jpg) #53a946;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.search-div {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    padding: 0 30px;
+}
+
+.elecxa-state-name {
+    text-align: center;
+    font-size: 15px;
+    line-height: 38px;
+    color: #53a946;
+    font-weight: 700;
+    border-bottom: 1px solid #ececec;
+}
+
+.elecxa-count {
+    text-align: center;
+    font-size: 41px;
+    padding: 9px 0;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.elecxa-slash {
+    color: #b1a8a8;
+    font-weight: 400;
+}
+
+.elecxa-states-list {}
+
+.elecxa-state {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    min-height: 35px;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: italic;
+    border-top: 1px solid #cccccc;
+}
+
+.elecxa-more {
+    line-height: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    width: 140px;
+    position: relative;
+    margin: auto;
+    left: 0;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.elecxa-more::before {
+    right: 10px;
+    left: initial !important;
+}
+
+.mcel-assembly-polls-section {
+    margin: 40px 0;
+}
+
+.mcel-assembly-polls-wrapepr {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 5px;
+}
+
+.mcel-assembly-polls-wrapepr .assembly-poll-div {
+    padding: 10px;
+    min-width: 60%;
+    border-bottom: none;
+}
+
+.mcel-all-election-news-section {
+    margin: 40px 0;
+}
+
+.all-elections-wrapper {
+    display: flex;
+    overflow-x: auto;
+    padding: 0 5px;
+}
+
+.all-elections-wrapper .all-election-news-div {
+    padding: 10px;
+    min-width: 60%;
+    border-bottom: none;
+}
+.all-elections-wrapper .headline {
+    margin-top: 12px;
+    display:block;
+}
+.mcel-cat-thumbnail .headline{margin-top:6px;}
+.top_ad_unit_logo {margin-left: 5px;}
+
+
+
+/*mc express start*/
+@media screen and (max-width: 1000px) {
+    .mcel-moneycontrol-express {
+        margin-top: 50px;
+        padding: 0px 0px 0px;
+        background: url(https://images.moneycontrol.com/mcnews/images/election_2022/mc-express-bg.jpg);
+        background-size: cover;
+    }
+    
+    .constitu_slide ul li div a {word-wrap: break-word; line-height: normal;     color: #4F806B !important;}
+
+    .mcel-me-rail-wrap {
+        width: 100%;
+        height: 15px;
+        background-image: url(https://images.moneycontrol.com/mcnews/images/election_2022/track.png);
+        background-size: contain;
+        margin-top: 130px;
+        position: relative;
+        display: none;
+    }
+
+    .mcel-me-icon {
+        display: inline-table;
+        position: absolute;
+        text-align: center;
+        bottom: 20px;
+        cursor: pointer;
+    }
+
+    .mcel-me-location-name {
+        margin: 0 0 1px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 14px;
+        text-transform: uppercase;
+        transition: 0.3s all;
+        opacity: 0;
+    }
+
+    .mcel-me-location-icon {
+        width: 20px;
+        height: 30px;
+        transform: scale(1);
+        margin-bottom: 0px;
+        transition: 0.2s all;
+    }
+
+    .mcel-me-icon-selected .mcel-me-location-name {
+        opacity: 1;
+        color: #53a946;
+    }
+
+    .mcel-me-icon-selected .mcel-me-location-icon {
+        transform: scale(1.2);
+        margin-bottom: 3px;
+    }
+
+    .mcel-me-icon-selected .mcel-me-location-icon path {
+        fill: #53a946;
+    }
+
+    .mcel-me-train {
+        background-image: url(https://images.moneycontrol.com/mcnews/images/election_2022/train.svg);
+        width: 64px;
+        height: 17px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 9px;
+        transform: translate3d(-50%, -50%, 0);
+        left: 0%;
+        transition: 4s left;
+    }
+
+    .mc-express-reporter {
+        position: absolute;
+        right: 50px;
+        top: 515px;
+        width: 100px;
+    }
+
+    .mcel-me-content-wrap {
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .mcel-me-content-left::before {
+        content: "";
+        background: transparent;
+    }
+
+    .mcel-me-content-left {
+        /* display: none; */
+        width: 100%;
+        flex-basis: 100%;
+        min-width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mcel-me-content-left .top-ad-unit {
+        justify-content: center;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    .mcel-me-content-left .ad-present {
+        width: 130px;
+        white-space: pre-wrap;
+        text-align: right;
+    }
+
+    .mcel-me-content-right {
+        width: 100%;
+        flex-basis: 100%;
+        display: flex;
+        align-items: flex-start;
+        max-width: 100%;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    .content-right-header {
+        flex-direction: column;
+        width: 100%;
+        flex-basis: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0px;
+        height: 155px;
+        border-bottom: 4px solid transparent;
+        align-items: center;
+        justify-content: space-evenly;
+        /* height: 30px; */
+        background-color: white;
+    }
+
+    .express-navigator {
+        width: 100%;
+        display: flex;
+        height: 50px;
+        align-items: center;
+        height: 65px;
+        justify-content: center;
+        border-bottom: 4px solid #1466a3;
+    }
+
+    .navigator-arrow {
+        min-width: 60px;
+        padding: 20px 16px;
+        box-sizing: border-box;
+        display: inline-block;
+        height: 65px;
+        cursor: pointer;
+        cursor: pointer;
+    }
+
+    .navigator-arrow path {
+        fill: #b7b9bd;
+    }
+
+    .navigator-arrow:hover path {
+        fill: #1466a3;
+    }
+
+    .navigator-left {
+        transform: rotateZ(180deg);
+        border-left: 1px solid #ccc;
+    }
+
+    .navigator-right {
+        border-left: 1px solid #ccc;
+    }
+
+    .navigator-city {
+        font-size: 32px;
+        font-weight: 700;
+        font-style: italic;
+        padding: 0 30px;
+        height: 48px;
+    }
+
+    .express-region-selector {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .express-region-selector select {
+        width: 90%;
+        height: 40px;
+        border-radius: 2px;
+        padding: 4px 6px;
+        font-weight: 600;
+        text-transform: capitalize;
+        outline: none;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .mcel-me-content-right img {
+        width: 140px;
+        border-radius: 50%;
+        height: 140px;
+        object-fit: cover;
+        position: relative;
+        z-index: 9;
+    }
+
+    .mcel-me-content-right .img-wrap {
+        position: relative;
+        width: 100%;
+        padding: 0 15px 0;
+    }
+
+    .mcel-me-content-right .img-wrap::before {
+        content: "";
+        height: 70px;
+        width: 2px;
+        background: #53a946;
+        position: absolute;
+        bottom: -70px;
+        left: 50%;
+        transform: translate3d(-50%, 0, 0);
+        z-index: 0;
+        display: none;
+    }
+
+    .after {
+        display: none;
+        position: absolute;
+        top: 317px;
+        width: 100%;
+        height: 30px;
+        background: #53a946;
+        transition: 3s all;
+        -webkit-clip-path: polygon(500px 0, 500px 2px, 2px 2px, 2px 30px, 0px 30px, 0px 0px);
+        clip-path: polygon(500px 0, 500px 2px, 2px 2px, 2px 30px, 0px 30px, 0px 0px);
+    }
+
+    .after-cover {
+        display: none;
+        height: 10px;
+        width: 100%;
+        background: #53a946;
+        position: absolute;
+        top: 317px;
+        transition: 3s all;
+    }
+
+    .mcel-me-content-right .mcel-me-content {
+        padding: 15px 15px;
+        max-width: 100%;
+        position: relative;
+        min-height: 165px;
+    }
+
+    .mcel-me-content .mcel-more-btn {
+        left: 4px;
+        bottom: -20px;
+        background: transparent;
+    }
+
+    .mcel-me-content-right .mcel-me-content .title {
+        font-weight: 900;
+        line-height: 28px;
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
+    .mcel-me-content-right .mcel-me-content .content {
+        line-height: 24px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .express-img {
+        max-width: 100%;
+        margin: auto;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .left-content-text {
+        font-size: 18px;
+        line-height: 21px;
+        max-width: 100%;
+        margin-left: 15px;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        margin-right: 15px;
+    }
+
+    .mobile-from-to::before {
+        content: "";
+        position: absolute;
+        height: 70px;
+        width: calc(100% - 90px);
+        border-right: 1px solid #53a946;
+        border-top: 1px solid #53a946;
+        top: -32px;
+        right: 15px;
+        z-index: 0;
+    }
+    .mobile-from-to {
+    /* text-transform: uppercase; */
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px 0 4px;
+    font-style: italic;
+}
+
+    .mobile-from-to .from-city {
+    color: #53a946;
+    text-transform: uppercase;
+    font-style: normal;
+    padding-right: 4px;
+}
+
+    .mobile-from-to .to-city {
+    color: #0f8cba;
+    text-transform: uppercase;
+    font-style: normal;
+    padding-left: 4px;
+}
+
+}
+
+/*mc express end*/
+
+
+/*campain tracker start*/
+ @media screen and (max-width: 1000px) {
+     .campaign-tracker-section {
+         margin: 30px 0;
+     }
+
+     .mcel-ct-main-wrap {
+         display: flex;
+         flex-direction: column;
+     }
+
+     .mcel-ct-header {
+         /* height: 100px; */
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+         flex-basis: 100%;
+         min-width: 100%;
+     }
+
+     .mcel-ct-header .title-div {
+         width: 100%;
+         background: black;
+         color: white;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         height: 85px;
+     }
+
+     .mcel-ct-header .title-div .title span {
+         font-size: 25px;
+     }
+
+     .mcel-ct-header .title-div .title {
+         text-transform: uppercase;
+         line-height: 27px;
+         font-size: 28px;
+         font-weight: 900;
+         text-align: center;
+         width: 44%;
+         /* display: flex; */
+         /* align-items: center; */
+         /* justify-content: center; */
+     }
+
+     .mcel-ct-districts {
+         /* overflow: hidden; */
+         height: 75px;
+         width: 100%;
+         /* flex-basis: 100%;*/
+         /* border-bottom: 1px solid #e1e1e1; */
+         border: 1px solid #e1e1e1;
+         /* margin-left: 3%; */
+         margin: auto;
+     }
+
+     .mcel-ct-districts .mcel-ct-district-wrap {}
+
+     .mcel-ct-districts .mcel-ct-district-wrap .mcel-ct-district {
+         opacity: 0.5;
+         outline: none;
+         display: inline-block;
+         text-align: center;
+         height: 75px;
+         display: inline-flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         padding: 0 30px;
+         /* border-left: 1px solid #e1e1e1; */
+         border-right: 1px solid #e1e1e1;
+         margin: 0;
+         box-sizing: border-box;
+         cursor:pointer;
+     }
+
+     .mcel-ct-districts .mcel-ct-district-wrap .mcel-ct-district .date-text {
+         line-height: 16px;
+         font-size: 12px;
+         font-weight: 600;
+     }
+
+     .mcel-ct-districts .mcel-ct-district-wrap .mcel-ct-district .district-text {
+         font-weight: bold;
+         font-size: 15px;
+         text-transform: uppercase;
+     }
+
+     .mcel-ct-districts .mcel-ct-district-wrap .mcel-ct-district .state-text {
+         font-size: 12px;
+         line-height: 14px;
+         text-transform: uppercase;
+     }
+
+     .mcel-ct-content-wrap {
+         display: flex;
+         width: 100%;
+         max-width: 100%;
+         flex-basis: 100%;
+         flex-direction: column;
+         justify-content: space-between;
+     }
+
+     .mcel-ct-candidates-list {
+         width: 100%;
+         padding: 0 20px;
+         box-sizing: border-box;
+         position: relative;
+         display: flex;
+         overflow-x: auto;
+     }
+
+     .mcel-ct-candidates-list .candidate-item {
+         padding: 10px 0;
+         position: relative;
+         margin-top: 20px;
+         cursor: pointer;
+         opacity: 0.4;
+         transition: 0.3s opacity;
+         min-width: 46%;
+         flex-basis: 40%;
+     }
+
+     .mcel-ct-candidates-list .active-candidate-item {
+         opacity: 1;
+     }
+
+     .mcel-ct-candidates-list .candidate-item .candidate-img {
+         width: 100px;
+         height: 100px;
+         /* border: 1px solid red; */
+     }
+
+     .mcel-ct-candidates-list .candidate-item .candidate-name {
+         font-size: 15px;
+         font-weight: 900;
+         position: absolute;
+         width: 47%;
+         white-space: pre-wrap;
+         top: 10px;
+         left: 82px;
+         font-style: italic;
+         line-height: 20px;
+     }
+
+     .mcel-ct-campaign-content-wrapper {
+         width: 100%;
+         display: flex;
+         border-bottom: 6px solid black;
+     }
+
+     .mcel-ct-campaign-content-wrapper .campaign-content {
+         display: flex;
+         flex-direction: column-reverse;
+     }
+
+     .mcel-ct-campaign-content-wrapper .campaign-content .campaign-points-wrap {}
+
+     .campaign-points-wrap .key-focus-wrap {
+         margin: 0 15px;
+     }
+
+     .campaign-points-wrap .key-focus-wrap .title {
+         font-size: 20px;
+         line-height: 35px;
+         font-weight: 900;
+         margin-bottom: 5px;
+     }
+
+     .campaign-points-wrap .key-focus-wrap .content {
+         line-height: 23px;
+         font-size: 14px;
+         font-weight: 600;
+     }
+
+     .campaign-points-wrap .issues-addressed-wrap {
+         margin: 10px 15px 0;
+         box-sizing: border-box;
+     }
+
+     .campaign-points-wrap .issues-addressed-wrap .title {
+         font-size: 20px;
+         line-height: 35px;
+         font-weight: 900;
+         margin-bottom: 4px;
+     }
+
+     .campaign-points-wrap .issues-addressed-wrap li {}
+
+     .campaign-points-wrap .quote-wrap {
+         position: relative;
+     }
+
+     .campaign-points-wrap .quote-wrap::before {
+         content: "";
+         height: 1px;
+         width: 36%;
+         background: #e1e1e1;
+         position: absolute;
+         top: 5%;
+         left: 0;
+     }
+
+     .campaign-points-wrap .quote-wrap::after {
+         content: "";
+         content: "";
+         height: 1px;
+         width: 36%;
+         background: #e1e1e1;
+         position: absolute;
+         top: 6%;
+         right: 0;
+     }
+
+     .campaign-points-wrap .quote-wrap .quote-text::before {
+         content: "";
+         background-image: url(https://images.moneycontrol.com/mcnews/images/election_2022/quotes.png);
+         height: 34px;
+         width: 50px;
+         position: absolute;
+         top: -3px;
+         left: 50%;
+         transform: translateX(-50%);
+         background-size: contain;
+         background-repeat: no-repeat;
+     }
+
+     .campaign-points-wrap .quote-wrap .quote-text {
+         font-size: 18px;
+         line-height: 29px;
+         font-weight: 900;
+         font-style: italic;
+         color: #333333;
+         padding: 45px 15px 30px;
+     }
+
+     .campaign-content-right-bar {
+         background: #fdc1a4;
+         color: white;
+         display: flex;
+         align-items: flex-end;
+         width: 50px;
+         padding: 70px 0;
+         display: none;
+     }
+
+     .campaign-state {
+         font-size: 16px;
+         transform: rotateZ(-90deg);
+         transform-origin: bottom;
+         line-height: 30px;
+         font-style: italic;
+     }
+
+     .mcel-ct-campaign-content-wrapper .rallies-count {
+         display: flex;
+         align-items: flex-start;
+         margin-top: 40px;
+         display: none;
+     }
+
+     .mcel-ct-campaign-content-wrapper .rallies-text {
+         line-height: 22px;
+         font-size: 18px;
+         font-style: italic;
+         width: 90px;
+         display: inline-block;
+         text-align: right;
+         padding-right: 6px;
+     }
+
+     .mcel-ct-campaign-content-wrapper .rallies-number {
+         display: inline-block;
+         font-size: 80px;
+         font-weight: 900;
+         font-style: italic;
+         line-height: 74px;
+     }
+
+     .campaign-tracker-section .top-ad-unit {
+         margin-top: 10px;
+         margin-right: 15px;
+         margin-left: 40%;
+         /* width: 56%; */
+     }
+
+     .campaign-tracker-section .top-ad-unit .ad-present {
+         width: 140px;
+         white-space: pre-wrap;
+         color: black;
+         font-weight: 100;
+         text-align: right;
+     }
+
+     .issues-addressed-list {}
+
+     .issues-addressed-list li {
+         line-height: 27px;
+         font-size: 15px;
+         font-weight: 600;
+         display: block;
+         width: 100%;
+         padding-left: 20px;
+         position: relative;
+     }
+
+     .issues-addressed-list li::before {
+         content: "";
+         width: 6px;
+         height: 6px;
+         background: #e58401;
+         position: absolute;
+         left: 0;
+         top: 50%;
+         transform: translateY(-50%);
+         border-radius: 50%;
+     }
+
+     .candidate-selected-line {
+         position: absolute;
+         height: 94%;
+         bottom: 0;
+         width: 80px;
+         right: 50px;
+         border-right: 1px solid #0e0e0e;
+         border-top: 1px solid #0e0e0e;
+         transition: 0.4s height;
+         display: none;
+     }
+
+     .candidate-selected-line::before {
+         content: "";
+         position: absolute;
+         height: 16px;
+         width: 16px;
+         background: #fdc1a4;
+         border-radius: 50%;
+         left: -8px;
+         top: -8px;
+     }
+
+     .district-arrow {
+         display: none !important;
+     }
+
+     .district-next {
+         transform: rotateZ(180deg);
+         right: -9%;
+         cursor:pointer;
+     }
+
+     .district-prev {
+         left: -9%;
+         cursor:pointer;
+     }
+
+     .mcel-ct-district-wrap .slick-current {
+         opacity: 1 !important;
+     }
+
+     .mcel-ct-district-wrap .slick-current::after {
+         content: "";
+         width: 15px;
+         height: 15px;
+         background: #e58401;
+         border-radius: 50%;
+         bottom: -7px;
+         position: absolute;
+         z-index: 9;
+     }
+
+     #ct-dynamic-image {
+         display: none;
+     }
+
+     .mcel-ct-header .campaign-head-icon {
+         width: 15%;
+     }
+
+ }
+/*campaign tracker end*/
+
+.mcel-line-title { text-transform: uppercase; text-align: center; font:700 24px 'Playfair Display', sans-serif;  color:#315A48;}
+.mcel-line-title span { display: block; color:#2c2c2c; font:14px 'Poppins', Sans-Serif; text-transform: capitalize;}
+
+
+.state_section { padding:20px 0; margin:0px;}
+.state_section.yellowbg { background:#FFFAE3;}
+.state_section .mcel-line-title, .constituencies_cnt .mcel-line-title { background: url("https://images.moneycontrol.com/mcnews/images/election_2022/orange_dots_bg.png") center center no-repeat; background-size:90px 90px; min-height:90px; display:flex; flex-flow: column;justify-content: center; align-items: center; position: relative; bottom:-10px; }
+
+.asse_head2 { color:#315A48; font:700 30px 'Playfair Display', sans-serif; text-align: center; margin-bottom:30px;}
+
+
+/*FOOTER*/
+.mcel-footer { background:none; width: 100%; padding: 20px 0; margin-top: 0px;}
+.mcel-footer p{padding: 0px 20px;}
+.mcel-footer-text { text-align: center; font-size: 14px; line-height: 21px;    color: rgba(51, 51, 51,0.5);}
+
+.red-color { color:#DD1515; }
+.green-color { color:#24A30D;}
+.banner_728x90{ display: none;} 
+/* constutacy css start here */
+.constituencies_cnt { padding: 0 10px; margin-bottom:60px;}
+.constituencies_cnt .mcel-container  { position: relative;}
+.conststate {    margin-bottom: 5px;  width: 100%; text-align: center; white-space: nowrap; overflow-x:auto;   }
+.conststate ul {  border-bottom:1px solid #BEBEBE; /*width: fit-content;*/ overflow-x: auto; overflow-y: hidden; }
+.conststate li { margin:0 0px -1px; display: inline-block;}
+.conststate li a { margin: 0 0 1px 0; text-decoration: none; text-transform: uppercase; display: block; font-size:16px; font-weight:600; color:#666666; padding:0 12px 15px; position: relative}
+.conststate li a:after {content: ""; height:6px; background:#4F806B; border-radius:5px; position: absolute; left:0px; bottom:-3px; width:100%; display:none;}
+.conststate li.active a:after, .conststate li:hover a:after { display: block}
+
+
+
+
+.search_cnttop { padding:10px 10px 0 10px;}
+.search_consitu {height: 40px; border:1px solid #DEDEDE; background:#fff;  border-radius:25px; overflow:hidden;}
+.search_consitu input { vertical-align: top; border:none; width:calc( 100% - 70px ); padding: 0 10px; font-size: 14px; color: #000000; line-height: 40px;}
+.search_consitu button { background:#4F806B; width:40px; height:40px; border-radius: 25px; border: none; float: right;}
+.consticity_cnt { border:1px solid #707070; margin: 15px 0 0 0; }
+.contucity_year { background:#84A396;font-size: 14px;  width:30%; float: left;}
+.contucity_year .head { padding: 0 5px; background:#4F806B;  font-weight: bold; color: #fff; height:50px; line-height:50px; border-bottom: 1px solid #d5d5d5;  }
+.contucity_year .data1 { padding: 0 5px;  color: #fff; height:50px; line-height:50px; border-bottom: 1px solid #d5d5d5;} 
+
+
+.nobrd { border: none !important;}
+.constitu_slide { width:70%; float: left; overflow: hidden; /*height:203px;*/}
+.constitu_slide ul li { float: left; font-size: 14px;  width: 215px;  border-right: 1px solid #808080;}
+.constitu_slide ul li > div { position: relative; text-transform: uppercase; text-align: center;height: 50px; border-bottom: 1px solid #d5d5d5; line-height: 50px; }
+.constitu_slide ul li > div:last-child { border-bottom:none;}
+.constitu_slide ul li > div:first-child { font-weight:700;  background: #F5F5F5;  display: flex; align-items: center; justify-content: center; }
+.constitu_slide ul li > div.bjp_brd:before { content:""; position: absolute; left: 0px; top: 0px; height: 100%; border-left: 9px solid #ED8900;}
+.constitu_slide ul li > div.inc_brd:before  {content:""; position: absolute; left: 0px; top: 0px; height: 100%; border-left: 9px solid #688DC3;}
+.constivall { border-bottom: 1px solid #C6C6C6; position: relative; padding: 10px 0;}
+.constivall .mcel-more-btn { position: static; background: none; padding: 0 30px 0 0;  }
+.constivall .mcel-more-btn:before { left: 80px;}
+.constivall .mcel-more-btn:hover:before { left:90px;}
+.keycandidate { margin-top: 30px;}
+.twitter-section { width:auto !important; margin-top: 30px !important;}
+
+.twitter-section img { width:100%; height: auto; }
+.candidates-section { margin-top:30px; padding: 0 10px;}
+.election_dates { margin-bottom:20px;}
+.election_dates th { border-right: 1px solid #D5D5D5; background:#000000; padding:17px 10px; font-size:16px; color: #fff; font-weight: 900; text-transform: capitalize;}
+.election_dates td { padding:15px 10px; font-size:13px; color:#000000; border-bottom: 1px solid #D5D5D5; border-right: 1px solid #D5D5D5;}
+.election_dates td:last-child, .election_dates th:last-child { border-right:none;} 
+.election_dates tr.heading td { background:#E5E5E5; border-bottom-color:#000; font-size:16px; font-weight: 900; text-transform: uppercase;}
+.election_dates tr.heading_last td { border-bottom-color:#000;}
+.cand-title {
+    text-align: center;
+    font:700 24px 'Playfair Display', sans-serif;
+    margin-bottom: -8px;
+    color: #315A48;
+    text-transform: uppercase;
+}
+
+.cand-div { margin-bottom: 20px;}
+.candidates-wrap {
+    border: 3px solid #000;
+}
+.candidates-wrap .search_consitu { float: none; margin:15px auto;}
+.candidates-wrap .constivall  { padding: 0 15px;}
+.cand-head { background: #000; white-space: nowrap; overflow-x: scroll;}
+.cand-party-list {font-size: 16px; padding: 0;    margin: 0;}
+.cand-party-list .active{border-bottom: 4px solid rgba(98, 189, 82, 1); color: #fff;}
+.list-item {display: inline-block; padding: 12px; font-weight: 600; color: rgba(153, 153, 153, 1); cursor: pointer;}
+.cand-body { height:427px; border-top:1px solid #ccc; border-bottom: 1px solid #ccc; overflow-y: auto; overflow-x: hidden;}
+.cand-item { display: flex; border-bottom: 1px solid #ccc;/*! padding: 0; */}
+.cand-div .small-ad { display:none;}
+.cand-img-wrap {flex-basis: 14%;
+    min-width: 14%; padding:6px; display: flex;    align-items: center;}
+
+.cand-img {
+    border-radius: 50%; width: 100%; height: auto;
+    border: 4px solid #cfdfdf;
+}
+
+.cand-details {
+    flex-basis:64%;
+    min-width: 64%;
+    padding:8px 4px 8px 7px;
+}
+
+.cand-details .cand-name {
+    font-size: 18px; line-height: 18px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 600;
+}
+
+.cand-details .cand-location {
+    font-size: 16px;
+    color: rgba(102, 102, 102, 1);
+    line-height: 25px;
+}
+
+.cand-details .cand-extra {
+    display: flex;
+    height: 47px;
+    align-items: center;
+}
+
+.cand-details .cand-party {
+    font-size: 16px;
+    padding: 8px 16px;
+    color: white;
+}
+
+.cand-details .cand-pos {
+    font-size: 16px;
+    padding: 3px 8px;
+    margin:0 8px;    height: 34px;    display: flex;    align-items: center;
+    border-radius: 2px;}
+.cand-pos svg path{    fill: currentColor !important;}
+
+.WON-cand{    color: rgba(98, 189, 82, 1);
+    border: 1px solid rgba(98, 189, 82, 1);}
+.WON-cand svg path{    fill: rgba(98, 189, 82, 1) !important;}
+.LOST-cand{    color: red;
+    border: 1px solid red;}
+.LOST-cand svg{    transform: rotateZ(90deg);}
+.LOST-cand svg path{    fill: red !important;}
+.cand-details .cand-pos .cand-seats {
+    font-size: 16px;    color: rgba(0, 0, 0, 1);
+    padding-left: 8px;
+    font-weight: 600;}
+.cand-up-arrow {    width: 16px;    height: 16px;    transform: rotateZ(-90deg);
+    margin-right: 4px;}
+.cand-arrow-wrap {    background: rgba(244, 244, 244, 1);
+    padding: 14px;    display: flex;    align-items: center;
+    width: 30px;
+    color: rgb(2, 108, 164) !important;
+    cursor: pointer;}
+
+.cand-arrow-wrap svg { width: 20px;    height: 20px;}
+.cand-arrow-wrap svg path{ fill: rgb(2, 108, 164) !important;}
+
+.bx-controls  { bottom:0px; z-index: 99; position: absolute; left:calc( 50% - 35px );}
+.bx-controls .bx-prev, .bx-controls .bx-next { text-indent: -999em; position: relative; text-align:center; line-height: 32px; width: 32px; display: inline-block; height: 32px; border:1px solid #4F806B; border-radius:50%; margin:0 2px; }
+
+.bx-controls .bx-prev { content:""; }
+.bx-controls .bx-prev:before, .bx-controls .bx-next:before  { content:""; position: absolute; left:8px; top:10px; background: url("https://stat.moneycontrol.co.in/mcnews/images/contarrow.svg") no-repeat; width: 16px; height: 13px;}
+.bx-controls .bx-next:before { transform:rotate(-180deg)}
+.elinfo_cnt { margin-bottom: 30px; }
+.infoincnt {  width: auto; padding: 0 10px;  }
+.elinfogrp { position: relative; margin-bottom: 20px;overflow: hidden; height:495px; border: 1px solid #999999; border-radius: 5px;}
+
+.elinfogrp:last-child { margin-left: auto;}
+.infographtext { position: absolute; background: linear-gradient(rgba(0,0,0,0.2),#000); width: 100%; height: 100%; top: 0px; left: 0px; }
+.infographtext span { color: #fff; position: absolute; width:100%; bottom:20px;padding: 20px; box-sizing: border-box; font-size:20px; line-height: 24px; font-weight: bold;}
+.infographtext span strong { color:#FF9D00; text-transform: uppercase; font-size: 13px; font-weight: bold; display: block; }
+.infographtext span em { font-style: normal; display:block; font-size: 13px; color:#FFFFFF; font-weight: normal;}
+.imfoimg_respons { width: 100%; height: 100%;}
+.infogr-item { position: relative; height: 495px !important;}
+.elinfogrp .slick-dots { width: 100%; box-sizing: border-box; position: absolute; left:0px; padding: 0 10px; top:0px; }
+.elinfogrp .slick-dots li { width: 31%;}
+.elinfogrp .slick-dots li {
+ width: 31%;
+height:5px !important;
+}
+
+
+.elinfogrp .slick-dots li button {
+height: 5px; width:100%; 
+background: linear-gradient(to right, #fff 50%, rgba(255, 255, 255, 0.3) 50%);
+background-size: 200% 100%;
+background-position: 100% 0px;
+font-size: 0;
+padding: 0;
+border-radius: 34px;
+transition: 0.2s all;
+transition-timing-function: linear;
+}
+
+.infoc2 .elinfogrp .slick-dots li button { width:100%;  height:5px; background: linear-gradient(to right, #7c7c7c 50%, rgba(225, 225, 225, 0.70) 50%); background-size: 200% 100%;    background-position: 100% 0px;    font-size: 0;  padding: 0;    border-radius: 34px;  transition: 0.2s all; transition-timing-function: linear;}
+
+.elinfogrp .slick-active button {background-position: 0% 0px !important; transition: 4s all !important;}
+
+.elinfogrp .slick-crossed button { background-position: 0% 0px !important; transition: 0.1s all !important;}
+.elinfogrp li:nth-of-type(1) button { transition: 0s all !important;}
+
+.elinfogrp li:nth-of-type(1).slick-active button {
+background-position: 100% 0px !important;
+transition: 0s all !important;
+-webkit-animation: filldash 4s;
+animation: filldash 4s;
+}
+@-webkit-keyframes filldash {
+    from {
+      background-position: 100% 0px;
+    }
+    to {
+      background-position: 0% 0px;
+    }
+  }
+
+  @keyframes filldash {
+    from {
+      background-position: 100% 0px;
+    }
+    to {
+      background-position: 0% 0px;
+    }
+  }
+
+
+.mcelct-headbar { padding: 0 10px;}
+.brad_crum {
+    border-bottom: 0 dotted #a9a9a9;
+    color: #282828;
+    margin: 0 auto;
+    padding: 6px 0;
+    font: 400 16px 'Fira Sans', sans-serif;
+    display: block; margin: 0 10px;
+    clear: both;
+    overflow: hidden;
+}
+.bread-title {
+    color: #000;
+    font: 600 12px 'Fira Sans', sans-serif;
+}
+.brad_crum a {
+    color: #282828;
+    font: 400 12px 'Fira Sans', sans-serif;
+    text-transform: capitalize;
+}
+.bread-arrow {
+    background: rgba(0, 0, 0, 0) url(https://images.moneycontrol.com/mcnews/images/mc_news-bread-arow.png) no-repeat scroll left top;
+    display: inline-block;
+    height: 11px;
+    padding-left: 5px;
+    width: 11px;
+    position: relative;
+    top: 2px;
+}
+
+.headbar-headline .search_consitu { float:none; width: 100%; margin-top:40px;}
+.headbar-headline .search_consitu input { width: 70%;}
+.headbar-headline {font-size:20px; margin-bottom: 20px;  font-weight: 800; padding: 5px 6px;    position: relative;}
+.headbar-headline  a{ font-weight: 800;}
+.headbar-headline .share-headline{     margin:2px 0 0 0px; background: #000; width:30px;height:30px;  padding:0px !important;}
+
+
+.headbar-headline.twohead { margin-bottom: 0px;}
+.headbar-headline.twohead h1, .headbar-headline.twohead h2 {  margin-bottom:30px; }
+.share-headline {
+    background: #000;
+    padding: 9px;
+}
+.mcel-cards-share-tooltip.dropdown-menu {
+    padding: 5px;
+    top: -45px;    min-width: max-content;
+}
+.partbrd {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width:5px;
+    height: 100%;
+}
+.mcel-cards-share-tooltip .auth_share_const{position:relative; top:auto; z-index: 9; padding-top:0px; margin:0px;}
+.mcel-cards-share-tooltip::after{ content: ""; position: absolute; right:  auto; bottom: -6px; width: 10px; height: 10px; transform: rotateZ(45deg);
+border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc; background: white; left:15px;}
+.cand-div .mcel-cards-share-tooltip::after { left: auto; right: 10px;}
+
+.auth_share_const *{box-sizing:border-box;}
+.auth_share_const { padding-top: 10px; position: absolute; right: 0px; top: 20px; }
+.auth_share_const > li { display: inline-block; margin-right: 2px; }
+.auth_share_const > li > a { display: block; border: 1px solid #dbdbdb; border-radius: 100%; font: 700 16px Arial, sans-serif; color: #777777; width: 33px; height: 33px; text-align: center; padding-top: 6px; transition: 0.2s all; }
+.auth_share_const > li > a:hover { color: #000; border-color: #000; }
+.auth_share_const > li > a.facebook:hover { color: #325aa0; border-color: #325aa0; }
+.auth_share_const > li > a.twitter:hover { color: #00acee; border-color: #00acee; }
+.auth_share_const > li > a.instagram:hover { color: #ae21bf; border-color: #ae21bf; }
+.auth_share_const > li > a.gplus:hover { color: #ed453c; border-color: #ed453c; }
+.auth_share_const > li > a.whatsapp:hover { color: rgba(37,211,102,1); border-color: rgba(37,211,102,1); }
+
+
+.mcelct-gr-wrap {
+    background: #f0f0f0;
+    margin: 0 0 6px 0;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gr-text-wrap p { display:inline-block; margin-right: 3px;} 
+.gr-text-wrap .gr-title {
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+}
+
+.gr-text-wrap .gr-number {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 25px;
+    font-family: Poppins;
+}
+
+.gr-text-wrap .gr-change {
+    font-size: 11px;
+    font-weight: 900;
+}
+.red-bdr {
+    border-left: 7px solid red;
+}
+
+.green-bdr {
+    border-left: 7px solid green;
+}
+
+.table-sec-content .table-head .state-name {
+    font-size: 12px;
+    color:#000;
+    display: inline-block;
+    font-weight: 900;
+}
+
+.poll-result-section { margin:20px 0;}
+.table-sec-content .table-head .state-seats {
+    font-size: 12px;
+    color: #000;
+    display: inline-block;
+    float: right;
+    font-weight: 500;
+}
+
+.state-seats .seat-details {
+    font-size: 10px;
+}
+
+.table-sec-content .table-div {}
+
+.table-sec-content .table-div .poll-table {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-bottom: 0px solid #ccc;
+    margin-top: 8px;
+    overflow: hidden;
+    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.table-sec-content .table-div .poll-table thead {
+    background: #000;
+    color: #fff;
+    font-size: 11px;
+}
+
+.table-sec-content .table-div .poll-table thead tr {}
+
+.table-sec-content .table-div .poll-table thead td {
+    line-height: 1.3em;
+    padding: 6px;
+    font-weight: 600;
+    text-align: center;
+    /* outline-offset: -30px; */
+}
+.table-sec-content .table-div .poll-table thead td:first-child{text-align: left;}
+
+.table-sec-content .table-div .poll-table tbody {
+    font-size: 13px;
+    color: rgba(51, 51, 51, 1);
+    box-sizing: border-box;
+    /* border-collapse: collapse; */
+    border-collapse: separate;
+}
+
+.table-sec-content .table-div .poll-table tbody tr {
+    padding: 5px;
+    /* border-bottom: 1px solid #ccc; */
+    /* border-collapse: separate; */
+}
+
+.table-sec-content .table-div .poll-table tbody td {
+    padding: 10px 5px;
+    font-weight: 600;
+    font-size: 14px;
+    box-sizing: border-box;
+    /* border-spacing: 0; */
+    border-bottom: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+.table-sec-content .table-div .table-foot {
+    height: 40px;
+    display: flex;
+    border-top: 0px solid #000;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    align-items: center;
+}
+
+.table-sec-content .table-div .footer-text {
+    font-size: 13px;
+    color: rgba(20, 102, 163, 1);
+    padding: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.table-sec-content .table-div .footer-text svg {
+    width: 10px;
+    height: 10px;
+    /*! fill: blue; */
+}
+.table-sec-content { padding: 0 10px;}
+.table-item { margin-right: 20px; width:250px; display: inline-block;}
+.table-item:last-child {margin: 0px;} 
+.tables-wrapper { white-space: nowrap; overflow-x: scroll;}
+#assemlby_result_refresh { display:none;}
+
+.refresh-btn svg {
+    height: 12px;
+    width: 12px;
+    fill: #999999;
+    margin-left: 4px;
+}
+.eleancent .mcel-opinions-wrapper { display: block}
+.eleancent .mcel-other-opinions .opinion-thumb { width: 100%; display: block; padding: 0 10px; margin-bottom: 10px;}
+.eleancent .mcel-other-opinions { display: block;}
+.election_battleground_2022 .battel2022 {
+    background:url("https://images.moneycontrol.com/mcnews/images/election_2022/top_bgmobile.png") 55px 0px no-repeat;
+}
+
+#el_battelgHome:before {height: 160px;}    
+@media all and (max-width:359px){
+ .contucity_year { font-size: 13px; }
+}
+
+.home-mid-contener { max-width: auto; width: 100%;}
+.show-mobile, .show-moblie {display: block;}
+.hide-mobile {display: none;}
+.removeads{padding: 10px 20px !important;}
+.elect_sponbx{color: rgba(0, 0, 0, 0.50); padding-top: 15px; font-size: 9px; text-align: left;}
+.elect_sponbx img{width: auto; max-width: 100%; height: auto;}
+.ad_right_elect{text-align: center; margin-top: 20px;}
+.ad_space_mob{padding: 15px 0px; text-align: center;}
+.twitter-section .elect_sponbx{float: right;}
+.twitter-section iframe{border: 2px solid #A1B8CA !important;}
+.elect_sponbx span{display: block; padding-bottom: 5px;}
+/* Hide scrollbar for Chrome, Safari and Opera */
+   .scroll_tabs::-webkit-scrollbar {display: none;}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+  .scroll_tabs {-ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */}
+ .twitter-section .elect_sponbx { margin-bottom:10px; }  
+.morenews_btm.part2 .mcel-other-opinions { margin-top:0px; } 
+.morenews_btm.part2 .mcel-other-opinions .opinion-thumb { padding:0px 10px 10px 10px;}
+ 
+/* constituencies slider css start*/
+.constituencies_cnt .constitu_slide ul{margin-bottom: 0px;}
+.constituencies_cnt .constitu_slide ul li > div{ border-right: 1px solid #808080;}
+.constituencies_cnt .bx-controls  { bottom:0px; z-index: 99; position: absolute; left:50%;}
+
+.constituencies_cnt .slick-prev, .constituencies_cnt .slick-next { text-indent: -999em; position: relative; text-align:center; line-height: 32px; width: 32px; display: inline-block; height: 32px; border:1px solid #4F806B; border-radius:50%; margin:0 2px; position: absolute; bottom: -50px; left: 40%; background-color: #fff;}
+.constituencies_cnt .slick-next{left: 43.5%;}
+.constituencies_cnt .slick-prev:before, .constituencies_cnt .slick-next:before  {     content: "";
+    position: absolute;
+    left: 9px;
+    top: 11px;
+    background: url(https://images.moneycontrol.com/mcnews/images/election_2022/contarrow.svg) no-repeat;
+    width: 13px;
+    height: 9px;
+}
+.constituencies_cnt .slick-prev:before { transform:rotate(-180deg)}
+.constituencies_cnt .slick-arrow{display: block !important;}
+.consticity_cnt{ overflow: inherit; }
+.constitu_slide ul li a{outline: none !important;}
+.constituencies_cnt .constsl_cnt{width: 100%;}
+
+.state_section.nospace{padding-top: 0px; }
+/*media*/
+@media all and (max-width:980px){
+.constituencies_cnt .constitu_slide .slick-list { height:203px; }
+.constitu_slide .slick-slide {min-width: 100px;}
+.constituencies_cnt .slick-prev{left: 20%;}
+.constituencies_cnt .slick-next{left: 37%;}
+}
+/* constituencies slider css end*/
+
+@media all and (max-width:980px){
+.election_dates{width: 100% !important;}
+}
+#opinion .mcel-line-title {
+    background: url(https://images.moneycontrol.com/mcnews/images/election_2022/orange_dots_bg.png) center center no-repeat;
+    background-size: 90px 90px;
+    min-height: 90px;
+    display: flex;
+    align-items: center; position: relative; bottom:-10px; 
+}
+
+.mcel-line-title a{color:#315A48 !important; text-decoration: none !important; font-family:'Playfair Display', sans-serif;}

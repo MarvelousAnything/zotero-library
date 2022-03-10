@@ -1,0 +1,704 @@
+NEUROEVOLUTION OF NEURAL NETWORK ARCHITECTURES USING CODEEPNEAT AND KERAS
+
+SBCB LAB - SBCB.INF.UFRGS.BR
+
+Jonas da Silveira Bohrer∗ Institute of Informatics
+Federal University of Rio Grande do Sul Porto Alegre, Brazil
+jsbohrer@inf.ufrgs.br
+
+Bruno Iochins Grisci† Institute of Informatics Federal University of Rio Grande do Sul
+Porto Alegre, Brazil
+bigrisci@inf.ufrgs.br
+
+Marcio Dorn‡ Institute of Informatics Federal University of Rio Grande do Sul
+Porto Alegre, Brazil
+mdorn@inf.ufrgs.br
+
+arXiv:2002.04634v1 [cs.NE] 11 Feb 2020
+
+February 13, 2020
+ABSTRACT
+Machine learning is a huge ﬁeld of study in computer science and statistics dedicated to the execution of computational tasks through algorithms that do not require explicit instructions but instead rely on learning patterns from data samples to automate inferences. A large portion of the work involved in a machine learning project is to deﬁne the best type of algorithm to solve a given problem. Neural networks - especially deep neural networks - are the predominant type of solution in the ﬁeld. However, the networks themselves can produce very different results according to the architectural choices made for them. Finding the optimal network topology and conﬁgurations for a given problem is a challenge that requires domain knowledge and testing efforts due to a large number of parameters that need to be considered. The purpose of this work is to propose an adapted implementation of a well-established evolutionary technique from the neuroevolution ﬁeld that manages to automate the tasks of topology and hyperparameter selection. It uses a popular and accessible machine learning framework - Keras - as the back-end, presenting results and proposed changes concerning the original algorithm. The implementation is available at GitHub (https://github.com/sbcblab/KerasCoDeepNEAT) with documentation and examples to reproduce the experiments performed for this work.
+Keywords Neural networks · Deep learning · Network topology · Evolutionary algorithm · Neuroevolution · CoDeepNeat · Keras
+1 Introduction
+Evolutionary computation can be shortly described as the use of evolutionary systems as computational processes for solving complex problems [1]. As discussed in [1], although one can trace its genealogical roots as far back as the 1930s, it was the emergence of relatively inexpensive digital computing technology in the 1960s that served as an essential catalyst for the ﬁeld. The availability of this technology made it possible to use computer simulation as a tool for analyzing systems much more complicated than those analyzable mathematically.
+∗https://orcid.org/0000-0003-2868-3838 †https://orcid.org/0000-0003-4083-5881 ‡https://orcid.org/0000-0001-8534-3480
+
+SBCB LAB - FEBRUARY 13, 2020
+Around the same time, machine learning emerged as a branch of AI proposing a more probabilistic approach to the search of artiﬁcial intelligence with systems that aimed to learn and improve without being explicitly programmed. Though it had an interesting premise, it only rose to its new level of popularity in the last few decades, justiﬁed by the increasing availability of large amounts of data and computing resources required for the extremely complex algorithms the ﬁeld proposed.
+These two ﬁelds, evolutionary computation and machine learning, come together in what is usually described as Evolutionary Machine Learning (EML), which presents hybrid approaches that use algorithms from one ﬁeld in the search for better solutions in the other. These resulting approaches have been widely applied to real-world problems in various situations, including agriculture, manufacturing, power and energy, internet/wiﬁ/networking, ﬁnance, and healthcare [2].
+Out of the many branches in EML, one of the most widely studied is Neuroevolution [3], which is characterized by the act of building different aspects of neural networks through evolutionary algorithms (EAs) [4]. EAs are exceptionally well suited for this task because of their remarkable ability to ﬁnd reasonable solutions in highly dimensional search spaces, such as exploring the multiple possibilities surrounding the deﬁnition of a neural network structure. Nonetheless, neuroevolution enables important capabilities that are typically unavailable to the more traditional gradient-based approaches like stochastic gradient descent (SGD) [5], raising the level of automation beyond the initial perspective of only setting weights to preconﬁgured network topologies. These new capabilities include the search of ideal hyperparameters, structural parts, and even the rules for learning themselves [6].
+Of course, despite the signiﬁcant beneﬁts described of using neuroevolution, gradient-based methods still dominate many areas in machine learning where classiﬁcation problems are easily differentiable with known topologies, as calculating weights through gradient descent methods is frequently more efﬁcient than most evolutionary techniques. Still, neuroevolution ﬁnds its niches in domains where ideal topologies are yet to be discovered, such as in the meta-learning ﬁeld [7] and the reinforcement learning ﬁeld [8], proving to be a scalable option in these domains [9].
+A great example of the early neuroevolution approach successfully applied to a wide range of problems is the NeuroEvolution of Augmenting Topologies (NEAT) algorithm [10], which is the starting point of this work. NEAT’s main idea was to generate neural networks by associating similar parts of different neural networks through mutations (adding or removing nodes and connections) and crossovers (swapping nodes and connections) with a historical markings mechanism that simpliﬁed the identiﬁcation of network similarities. Most importantly, it managed to implement a remarkable diversity preservation mechanism (named speciation), enabling the evolution of increasingly complex topologies by allowing organisms to compete primarily within their niches instead of with the population at large.
+But NEAT did not age well throughout the last decade, despite its remarkable success in multiple use cases [6] like the notorious discovery through NEAT of the most accurate measurement yet of the mass of the top quark, which was achieved at the Tevatron particle collider [11] - where the minimal structure was a lot more of a priority. Compared to state of the art in modern deep learning research, the networks generated by the original NEAT algorithm are easily surpassed in dimension and consequently effectiveness when compared to networks used in currently widespread problems like image recognition or text recognition. In these problems, thousands of nodes and hundreds of thousands to millions of connections are necessary to process information about complex data sources accordingly. The growth tendency in network dimensions comes directly from the availability of unprecedentedly cheap and powerful computing resources and large datasets, as seen in the latest years. This availability is not only reducing the need for minimal structures in standard neural networks but also resulting in the perfect conditions for the practical usage and consequent popularization of all sorts of creative solutions involving different approaches to the traditional neural network topology, such as deep networks, convolutional networks, LSTM networks, graph networks, relational networks and more, contributing to yet one more weakness in standard NEAT.
+This rapid popularization of different types of neural networks brought into the neuroevolution ﬁeld challenges to try new techniques by combining and expanding these varied components into appropriate topologies and conﬁgurations to solve problems even more effectively and is also referred to as the neural architecture search problem [12]. Adaptations in the traditional neuroevolution algorithms to face this evolving environment of possibilities and need for larger structures are popular at the moment [6].
+These adaptations can be seen in successful recent approaches like network generation and feature selection in highly dimensional datasets [13], applications to the identiﬁcation of gene expression patterns in cancer research [14], reinforcement learning tasks [9], learning policies for data augmentation [15]. There were also multiple successors of NEAT throughout the years, like the notorious HyperNEAT [16], DeepNEAT, and CoDeepNEAT variations [17], which are the focus of this work.
+2
+
+SBCB LAB - FEBRUARY 13, 2020
+1.1 Motivation
+Although there are implementations of algorithms like NEAT and its variations from their authors, they consist of self-contained code that can be expanded but presents barriers in terms of directly connecting to other popular Machine Learning frameworks that researchers, students, or scientists are more likely to be familiar with. Keras [18], TensorFlow [19], PyTorch [20] and other similar frameworks contain several functionalities that may come in handy when developing or analyzing machine learning models, which is a key element in validating the resulting models from neural architecture search algorithms in practical scenarios.
+As of the moment of this work, both NEAT and HyperNEAT have been explored in public implementations 45 using these frameworks but few or lacking implementations of CoDeepNEAT have been found, presenting a direct opportunity to bring this method to a more accessible context. On the other hand, it is unclear from the original work [17] whether the algorithm is suitable for practical applications and can be used in simple hardware environments or not. Verifying these aspects allows us to identify possible improvements to the base algorithm, such as different crossover operations, or mutation operations. Additionally, having an implementation based on a broad framework facilitates these experiments for the overall scientiﬁc community.
+With these aspects in mind, this work established the implementation of an algorithm based on CoDeepNEAT in an accessible and popular framework and adapted based on different approaches seen in the literature. The objective is to validate the complexity of the process of implementing such an algorithm and verifying in practice if this type of solution is useful without massive hardware requirements. The framework of choice for this implementation is Keras, a user-friendly and high-level Python package for machine learning development and management, as opposed to the low-level and complex usability found in other popular options like directly using TensorFlow or PyTorch, for instance. Still, the back-end used for Keras is TensorFlow.
+1.2 Proposed methodology
+The implementation requires the following fundamental working parts before initial testing:
+• Genetic algorithm structure (to support iterations). • Graph generation structure (to generate graphs for modules and blueprints). • Module population management structure (to generate modules, manage speciation, ﬁtness sharing). • Blueprint population management structure (to generate blueprints, manage speciation, assembling, training,
+ﬁtness evaluation, and ﬁtness sharing). • Similarity metric and clusterization technique used for speciation (to compare individuals). • Crossover technique used for reproduction (to evolve individuals through sexual reproduction). • Mutations (to evolve individuals through asexual reproduction). • Logging structure (to follow up the iteration process).
+Additional modiﬁcations can be explored, such as:
+• Alternative crossover operations. • Alternative mutation techniques. • Alternative similarity metrics.
+Once the implementation was deﬁned, initial experimentation used the MNIST [21] dataset. Final experiments were executed using the CIFAR-10 [22] dataset as done in the original paper to compare results and discuss the amount of time and computing power required for this approach considering academic use. Preliminary tests point that the required time for complete runs of the implementation using these datasets varies around 6 and 12 hours, considering limited hardware conﬁgurations and reduced parameters, which will be described in the process. Most of the computation necessary is dedicated to training the networks for ﬁtness evaluation during evolution.
+Section 2 explores the required algorithms and concepts to develop the proposed work. Section 3 details the implementation and deﬁnes the usage of the concepts described in Section 2, while Section 4 describes the experiments performed using the implementation and discuss the results, comparing them to the original CoDeepNEAT experiments and highlighting possible improvements.
+4https://github.com/crisbodnar/TensorFlow-NEAT 5https://pypi.org/project/neat-python/
+3
+
+SBCB LAB - FEBRUARY 13, 2020
+
+2 Computational methods and concepts
+This Section brieﬂy describes the most important algorithms and concepts related to the execution of this work and similar works in the EML ﬁeld. Most recurrent terms are explained here and referenced in the next sections.
+2.1 Genetic algorithms
+Genetic algorithms (GAs) are computational methods whose fundamental principle is the evolution of candidate solutions over iterations. Strongly based on behaviors of populations of biological organisms, they represent a predominant type of evolutionary algorithm (EA) in the evolutionary computation ﬁeld, having been applied for decades in the solution of optimization problems since their ﬁrst concrete description by J.H. Holland [23].
+As described in [24], in nature, individuals in a population compete with each other for resources such as food, water, and shelter. Also, members of the same species often compete to attract a mate. Those individuals who are most successful in surviving and attracting mates will have relatively larger numbers of offspring. Poorly performing individuals will produce few or even no offspring at all. This means that the genes from the highly adapted or "ﬁt" individuals will spread to an increasing number of individuals in each successive generation. The combination of good characteristics from different ancestors can sometimes produce "superﬁt" offspring whose ﬁtness is higher than that of either parent. In this way, species evolve to become more and more well suited to their environment.
+Adapting these concepts into a generalistic environment, standard GAs work with populations of "individuals" that represent solutions to a given problem. During multiple generations, these individuals are evaluated by a ﬁtness function and are assigned a score. The scores are then used to decide what are the most "ﬁt" individuals for reproduction or survival. Through reproduction, "offspring" is generated by combining the "genetic" features of their parents, occasionally generating better scoring solutions in the process. Individuals that are not ﬁt enough for reproduction usually represent "bad" solutions, being less favored during the reproduction process and commonly replaced by new individuals.
+With the iteration of generations, genetic features that produce good solutions are likely to spread across the population of individuals, being passed on to offspring generated through reproduction or only by preservation mechanisms such as elitism, which consists in preserving a portion of the best scoring solutions over generations. GAs tend to converge over generations to optimum solutions, but require attention to issues such as keeping diversity (or, in other words, avoiding solutions to become extremely similar genetic representations). To address these matters, additional techniques can be implemented, such as preserving groups of similar solutions as "species," or including "mutations" by altering genetic features in a deﬁned fashion and consequently introducing changes to the populations. Pseudocode representing a standard procedure for GAs based on [25] can be seen in Algorithm 1, employing ﬁtness evaluation, elitism, crossovers, and mutations to individuals over generations.
+
+Algorithm 1: Basic genetic algorithm structure
+
+Data: N : number of generations, S: population size, E: elitism rate, C: crossover rate, M : mutation rate
+
+Result: evolved candidate solutions
+
+1 begin
+
+2 initialize population with S individuals;
+
+3 for individual in population do
+
+4
+
+evaluate ﬁtness;
+
+5 end
+
+6 for generation in N do
+
+7
+
+apply elitism to E × S most ﬁt individuals;
+
+8
+
+apply crossover to C × S most ﬁt individuals;
+
+9
+
+apply mutations to M × S random individuals;
+
+10
+
+for individual in population do
+
+11
+
+evaluate ﬁtness;
+
+12
+
+end
+
+13 end
+
+14 end
+
+Being a trendy algorithm branch, GAs have evolved into different approaches. They have been successfully applied to a wide variety of optimization problems, such as protein folding [26], selection of subsets of features to represent classiﬁcation patterns [27], optimum container placement in container loading problems [28], optimization of
+
+4
+
+SBCB LAB - FEBRUARY 13, 2020
+
+bank lending decisions [29], increasing the longevity of wireless sensor networks [30] or approximating the mass of the top quark, which was achieved at the Tevatron particle collider through NEAT [11].
+
+2.2 Clustering algorithms
+Clustering algorithms are a class of methods that focus on grouping or classifying representations of data in a common environment to sets of members called "clusters." They are well suited for data domains with no pre-deﬁned classes, generating classiﬁcations based on custom metrics that evaluate the distance or similarity between the data samples.
+The speciﬁc clustering method used in this study is K-means [31], a popular partitioning algorithm based on specifying an initial quantity of groups, and iteratively reallocating objects among these groups until convergence. The algorithm assigns each data vector to the cluster whose center (also called "centroid") is nearest to the sample in the dimensional space that represents the data. The center is the average of all the points in the cluster, and its coordinates are the arithmetic mean for each dimension separately over all the points in the cluster [32]. Algorithm 2 adapted from [32] describes the standard procedure for K-means.
+
+Algorithm 2: K-means algorithm
+
+Data: K: number of clusters, samples: vectors representing the data, tolerance: minimum improvement rate to
+
+continue processing
+
+Result: Clusterization of the vectors
+
+1 begin
+
+2 Initialize the vectors of the K clusters (randomly, for instance);
+
+3 while not converged according to tolerance do
+
+4
+
+for every sample vector in samples do
+
+5
+
+Compute the distance between the sample vector and every cluster’s vector;
+
+6
+
+Re-compute the closest vector to the sample vector, using a learning rate that decreases in time;
+
+7
+
+end
+
+8 end 9 Return the clusterization; 10 end
+
+After clusters are deﬁned, new samples of data can be integrated without the need for recreating the clusters. This can be done simply by using the nearest centroid method, which is the execution of Algorithm 2 from the while step in line 3, without initializing the K clusters [33].
+In GAs, clustering algorithms can be applied to generate species or groups that share similar genetic information in the population. The species can be used in multiple strategies such as increasing population sizes without increasing the amount of ﬁtness evaluations [34], by evaluating one representative of the species at a time or ensuring diversity by preserving different groups of solutions, as in the case of NEAT [10].
+2.3 Artiﬁcial neural networks
+Artiﬁcial neural networks (or directly "neural networks") are machine learning models composed of multiple informationprocessing units called "neurons," which are connected in different fashions to represent and approximate mathematical functions. Based on human biology, these models aspired to mimic the capability of the human brain to organize its structural constituents, known as neurons, to perform certain computations (e.g., pattern recognition, perception, and motor control) many times faster than the fastest digital computer in existence today [35].
+In practice, the neurons (also called nodes) that constitute neural networks are simple representations of mathematical functions that process the inputs they receive and output a value. They are composed of three main parts:
+• A set of synaptic weights, each representing a value to be multiplied by the input signal of each connection they are assigned to.
+• Summing junction, usually a linear combiner that sums the weighted input signals from the connections.
+• Activation function, which models the output signal of the neuron to a deﬁned amplitude. One of the most common activation functions, the sigmoid function, is represented in Figure 2.
+
+5
+
+SBCB LAB - FEBRUARY 13, 2020
+
+Figure 1: A visualization of the components of a neural network. Source: [35].
+In addition to the described components, Figure 1 also displays the presence of a bias factor. The bias has the effect of increasing or lowering the net input of the activation function, depending on whether it is positive or negative, respectively [35].
+
+Figure 2: A sigmoid function for varying slope parameter a. Source: [35].
+
+In mathematical terms, the neuron k depicted in Figure 1 is described in [35] by the three equations:
+
+m
+
+uk = wkj xj
+
+(1)
+
+j=1
+
+where x1, x2, ..., xm are the input signals, wk1, wk2, ..., wkm are the respective synaptic weights of neuron k, uk is the linear combiner output due to the input signals;
+
+vk = (uk + bk)
+
+(2)
+
+where bk is the bias and vk is the resulting value from the summing junction after including the bias to uk; and
+
+yk = φ(vk)
+
+(3)
+
+where φ is the activation function, and yk is the output signal of the neuron. One example of an activation function is depicted in Figure 2, where a sigmoid function is applied to an output signal generating a new output signal contained inside a restricted amplitude.
+
+6
+
+SBCB LAB - FEBRUARY 13, 2020
+
+The interconnections of the signals inside neurons and between neurons can be easily represented as signal-ﬂow graphs [36], where the neurons are usually deﬁned as "nodes." The connections can take multiple forms and are ruled by the synaptic weights. The synaptic weights that regulate these connections are subject to adjustments through procedures called "learning algorithms" and represent the knowledge acquired during the learning process. The learning algorithms are constituted frequently by the act of exposing the model to data samples and modifying the synaptic weights as the model "learns" the patterns of the data. This procedure of exposing the model to data and evaluating its response is called supervised learning, the most common approach to "training" neural networks to date.
+Network architectures resulting from the interconnection of nodes can be classiﬁed in multiple deﬁnitions, but the most important initial taxonomies for this study are the feedforward networks and the multilayer feedforward networks. Feedforward networks are simply networks organized in a way that input nodes directly connect to output nodes to produce output signals, as in Figure 3a. Multilayered feedforward networks implement the same logic but include nodes in divisions called "layers," representing sets of nodes that connect to other layers. Intermediate layers are commonly addressed as "hidden layers." An example can be seen in Figure 3b, where the input nodes connect to an intermediate layer, which connects to the output layer.
+
+(a)
+
+(b)
+
+Figure 3: Feedforward network structures. A classic feedforward network structure (a) and a classic multilayer feedforward network structure (b). Source: [35].
+From this initial notion of stacking layers was created, for example, the currently prevalent deep learning branch [37] in the machine learning ﬁeld. Deep learning architectures are commonly characterized by the connection of multiple layers of neurons in neural networks that take proﬁt from extracting different levels of patterns in the input data with each layer. These architectures have been applied to ﬁelds including speech recognition [38], image classiﬁcation [39], natural language processing [40], medical image analysis [41] and more, in some cases reaching levels of conﬁdence superior to those of human experts [42].
+2.4 Neuroevolution algorithms
+Neuroevolution is a ﬁeld of study dedicated to the generation and improvement of neural networks using evolutionary algorithms (EAs). Traditionally associated with the generation of neuron weights through evolution, current approaches associated with the ﬁeld focus on multiple aspects of the construction of a network, such as learning their building blocks (activation functions), hyperparameters (learning rates), architectures (number of neurons per layer, number of layers, and which layers connect to which) and even the rules for learning themselves [6].
+7
+
+SBCB LAB - FEBRUARY 13, 2020
+One famous neuroevolution approach called Neuroevolution of Augmenting Topologies [10] and some of its variations will be explored in the next subsections and exemplify some use cases that beneﬁt from the capacity of EAs to ﬁnd adequate solutions for very complex problems, like the weight search, topology search, and hyperparameter search topics for neural networks. 2.4.1 NEAT Neuroevolution of Augmenting Topologies [10], also called NEAT, is an algorithm designed for neural network topology construction. NEAT uses a genetic algorithm structure to generate small initial networks that evolve and grow over generations by adding neurons and connections and adjusting their weights to generate structures capable of performing well while keeping them minimal in size. This minimalist aspect of NEAT is one of its core differences to other neuroevolution algorithms, as it focuses on only adding neurons or connections when they have an active impact in the network’s performance [10].
+Starting with an initial population of small networks based on a common topology, NEAT evaluates changes to these networks iteratively by adding and removing neurons and connections across generations. The algorithm deﬁnes the genome that describes the nodes and connections by a mechanism called genetic encoding, used in the operations that modify the network structures through classic genetic algorithm operators such as crossover and mutations.
+Mutation operators in NEAT work by adding nodes and connections or by disabling existing connections, avoiding changes that affect the functionality of the network. Crossover operators, on the other hand, are a much more complicated operation as it requires vast exchanges of genetic information that may cause resulting networks not to work correctly. To solve this, NEAT implements a historical markings mechanism, identifying nodes and connections with numerical identiﬁers. Parts of networks that share the same origin will share the same identiﬁers. Thus the algorithm can recognize common structures in a simple way and exchange genetic information without generating defective networks (Figure 4).
+Figure 4: NEAT crossover operation example. Although Parent 1 and Parent 2 look different, their historical markings (shown at the top of each gene) tell us which genes match up with which. Even without any topological analysis, a new structure that combines the overlapping parts of the two parents, as well as their different parts, can be created. Matching genes are inherited randomly, whereas disjoint genes (those that do not match in the middle) and excess genes (those that do not match in the end) are inherited from the more ﬁt parent. Source: [10].
+8
+
+SBCB LAB - FEBRUARY 13, 2020
+Before applying crossover operations between networks, NEAT must ensure that the chosen networks are compatible to a certain degree. The algorithm manages this situation by applying a speciation technique to the population of solutions, dividing it in different species generated by similarity, allowing organisms to compete primarily within their niches instead of with the population at large. With this factor, different network topologies have a chance to evolve at their own pace instead of being instantly replaced by fast-converging networks that achieve better results in early generations.
+After its conception, NEAT was used in a wide variety of use cases, especially in settings where small networks were required because of performance constraints, such as in robotics [43], physics [11], content generation for video games [44] and more, as well as inspiring multiple variations of its core ideas, as explored in the next subsections.
+2.4.2 HyperNEAT HyperNEAT or hypercube-based NEAT [16] is probably the major extension of NEAT to date and has become a complex topic on its own, inspiring multiple approaches based on its success. Using connective CPNNs (Compositional Pattern Producing Networks) to represent connectivity patterns as functions of the Cartesian space [16], HyperNEAT exploits regularities in the data domain to evolve larger neural networks. In other words, the use of CPNNs enables indirect encoding, a principle based on attributing the discovery of patterns and regularities to the algorithm itself, relying as little as possible on direct encoding from designers.
+Moreover, indirect encoding aims to access regularities not commonly addressed by conventional neural network learning algorithms, being capable of inferring constructions like, for instance, convolution. Examples of node conﬁgurations obtained using HyperNEAT are shown in Figure 5.
+Figure 5: Examples of conﬁgurations obtained using HyperNEAT. This ﬁgure shows (a) a traditional 2D substrate of connections, (b) a three-dimensional conﬁguration of nodes, (c) a “state-space sandwich” conﬁguration in which a source sheet of neurons connects directly to a target sheet, and (d) a circular conﬁguration. Different conﬁgurations are likely suited to problems with different geometric properties. Source: [16].
+HyperNEAT also means a breakthrough from NEAT by allowing the evolution of much larger neural networks than the previous algorithm. By abstracting the mapping of spatial patterns generated by small CPNNs into connectivity patterns, HyperNEAT allows the generated networks to be scaled in a customizable manner (up to millions of connections, for instance). It can better adapt to more complex applications such as evolving controller parts of legged robots [45], learning to play Atari games [46], combining SGD and indirect encoding for network evolution [47] and even directly evolving modularity of components [48].
+2.4.3 DeepNEAT and CoDeepNEAT Alternatively, a more recent path taken from NEAT was the DeepNEAT variation and, subsequently, the CoDeepNEAT variation [17]. Both cases, which are very tied, differ from HyperNEAT in that they do not aim to learn connectivity from geometric regularities in the data, but instead in assembling nodes based more directly in adaptations of the ﬁtness evaluation process of NEAT.
+DeepNEAT can be summarized as an extension of NEAT that considers entire layers as genes instead of considering single neurons when forming structures. The focus now is to deﬁne compositions of layers instead of picking neurons and their connections one by one, generating larger and deeper networks suited to solving larger-scale
+9
+
+SBCB LAB - FEBRUARY 13, 2020
+problems than the ones NEAT was meant to solve in the past, while not minding the indirect encoding factor of HyperNEAT and considering pre-established components like different types of layers.
+Similarly to the original NEAT algorithm, DeepNEAT follows a standard genetic algorithm structure to ﬁnd its solutions: it starts by creating an initial population of individuals, each represented by a graph, and evolves them over generations. During these generations, the individuals are recreated by adding or removing structural parts (nodes and edges) from their graphs through mutation, while keeping track of changes through a historical markings mechanism. Using the historical markings, chromosomes are compared in every generation using a similarity metric, being classiﬁed into subpopulations called species. Each species is evaluated by the shared ﬁtness of its individuals, calculated by a ﬁtness sharing function. This shared score is used to evaluate the quality of the species in each generation. Finally, the surviving species evolve separately from each other through crossovers (exchanging genetic information) among its constituent individuals, and the next generation takes place.
+The changes to the main algorithm of NEAT in how nodes now represent layers imply additional aspects that must be considered when deﬁning a layer in DeepNEAT: what is the type of layer (convolutional, dense, recurrent), the properties of the layer (number of neurons, kernel size, stride size, activation function) and how nodes connect. This is handled by considering a table of possible hyperparameters as the chromosome map for each node and an additional table of global parameters applicable to the entire network (such as learning rate, training algorithm, and data preprocessing) [17]. This makes the algorithm not only deﬁne topological information but diverse network conﬁgurations more broadly.
+Investing in the same perspective of focusing on layers instead of single neurons, CoDeepNEAT extends DeepNEAT by dividing the construction of topology into two different levels: module chromosomes and blueprint chromosomes (Figure 6). Modules are graphs representing a small structure of connected layers. Blueprints are graphs representing a composition of connected nodes that point to module species, which can be assembled into complete networks by joining a sample of the module species pointed by each node. In other words, instead of evolving network species, CoDeepNEAT evolves module species and blueprint species, which are assembled into networks. The algorithm is inspired mainly by Hierarchical SANE [49] but is also inﬂuenced by the component-evolution approaches called Enforced Sub-populations (ESP) [50] and Cooperative Synapse Neuroevolution (CoSyNE) [51].
+Figure 6: CoDeepNEAT network assembling for ﬁtness evaluation. A visualization of how CoDeepNEAT assembles networks for ﬁtness evaluation. Modules and blueprints are assembled together into a network through replacement of blueprint nodes with corresponding modules. This approach allows evolving repetitive and deep structures seen in many successful recent DNNs. Source: [17].
+Considering these two different chromosome types, CoDeepNEAT requires evolving separate populations for each one of them and scoring them individually. The genetic algorithm behind this is very similar to the one described for DeepNEAT, with the only effective changes being the population management and the assignment of scores by the ﬁtness function. Instead of having one score for each individual and a shared score for the species, the score needs to be assigned to the blueprint and to the modules used in its composition and later shared between their respective species. At the same time, when modules are used in multiple blueprints, all the respective blueprint scores must be considered when assigning a score to a module (averaging them, for instance). Apart from these changes, CoDeepNEAT works very similarly to DeepNEAT while also bringing module evolution as an addition to the standard evaluation process.
+10
+
+SBCB LAB - FEBRUARY 13, 2020
+
+The original paper presents results showing that CoDeepNEAT can indeed be implemented and generate high scoring networks for simple datasets such as CIFAR-10 and much more complex problems like image captioning using MSCOCO [52]. Of course, large datasets require longer training times and more computing resources, which lead CoDeepNEAT to be recently expanded to a platform called Learning Evolutionary AI Framework, or LEAF [53], taking advantage of cloud computing services to parallelize the algorithm for demanding use cases like pulmonary disease detection on high-resolution chest x-ray images [54].
+2.5 Keras framework
+Keras [18] is a popular 6 and high-level neural networks API, written in Python and capable of running on top of TensorFlow [19] and other lower-level frameworks. It was developed with a focus on enabling fast experimentation and allowed for easy and fast prototyping (through user-friendliness, modularity, and extensibility). Keras supports multiple types of neural network components 7, such as dense layers, convolutional layers, recurrent layers, dropout layers, and supports combinations of them.
+The framework automatically manages resources such as CPU and GPU, making efﬁcient use of them. It also has implementations of activation functions 8, optimizers 9, metric calculations 10 and procedures needed to manage training sessions with ease.
+
+3 Implementation
+The general structure of Algorithm 3 is derived directly from the descriptions presented in the original NEAT paper [10], the CoDeepNEAT paper [17] and its latest implementation, the LEAF platform [53].
+
+Algorithm 3: Genetic algorithm structure for implementation
+
+Data: hyperparameter tables, global parameter tables
+
+Result: evolved candidate solutions
+
+1 begin
+
+2 initialize module and blueprint populations considering parameter tables;
+
+3 initialize module and blueprint species;
+
+4 for generation in generations do
+
+5
+
+for individual in individual population do
+
+6
+
+assemble respective blueprint;
+
+7
+
+generate Keras model;
+
+8
+
+score model;
+
+9
+
+assign score to blueprint and modules;
+
+10
+
+end
+
+11
+
+for species in module species do
+
+12
+
+calculate shared ﬁtness;
+
+13
+
+apply elitism;
+
+14
+
+reproduce through crossover and mutation considering parameter tables;
+
+15
+
+end
+
+16
+
+for species in blueprint species do
+
+17
+
+calculate shared ﬁtness;
+
+18
+
+apply elitism;
+
+19
+
+reproduce through crossover and mutation considering parameter tables;
+
+20
+
+end
+
+21
+
+speciate modules;
+
+22
+
+speciate blueprints;
+
+23 end
+
+24 end
+
+6https://towardsdatascience.com/deep-learning-framework-power-scores-2018-23607ddf297a 7https://keras.io/layers/about-keras-layers/ 8https://keras.io/activations/ 9https://keras.io/optimizers/ 10https://keras.io/metrics/
+
+11
+
+SBCB LAB - FEBRUARY 13, 2020
+Even though the algorithms are described in detail in the original work, a formal pseudo-algorithm is not speciﬁed. Thus the procedure described in Algorithm 3 is an abstraction of that description. Speciﬁc genetic algorithm parameters such as elitism rate, crossover rate, mutation rate, number of allowed species, the minimum and maximum number of individuals per species are not described in depth in the original work. They are implemented as adjustable parameters, as are the tables of possible components of modules (layer types, layer sizes, kernel sizes, strides, activation functions) and hyperparameters (learning rates, optimizers, loss functions).
+The general procedures referenced in the algorithm are described in the following subsections, making references to algorithms described in Section 2.
+3.1 Initializing populations
+Populations in genetic algorithms are groups of a particular type of individual that will be evolved over generations (Subsection 2.1). Initializing populations requires a clear description of the involved entities that represent their respective individuals. In the case of the proposed algorithm, these individuals are module entities and blueprint entities, each one being initialized in their respective population (Subsection 2.4.3).
+A typical graph design represents module and blueprint entities, only differing in the semantics of their nodes. Even though they represent different levels of abstraction of a single neural network, a standard graph generation procedure generates the graph structures of these entities. As both, they need to follow a shared set of rules designed to project a NN structure correctly. At the same time, they need to respect Keras’s limitations when it comes to connecting layers properly.
+The graph structures are generated according to the set of rules:
+• The base structure of graphs are directed acyclic graphs that map the ﬂow of signals from the input layer to the output layer.
+• Graphs must follow the limitations established in parameter tables (as showed in Table 1), such as the allowed range of nodes.
+• Graphs must have exactly one input node and one output node. Both nodes are used to connect graphs to other graphs, despite the internal structure of the graph. This connection takes place in Module to Module connections (in the case of Blueprint graphs) or Layer to Layer connections (in the case of Module graphs). This, in other words, implies the graph can only be connected through its input or its output, not through intermediate nodes.
+• Nodes in graphs must receive at most two input edges. One input edge directed to an input node means the origin output node can be directly connected to the input node, but more than one input edges connecting to an input node require the inclusion of a merge procedure between them, merging the edges into a single connection, as Layers in Keras can only receive one input signal. For this purpose, Merge layers are implemented in Keras supporting the merging of two input signals each time, meaning that multiple input signals would require constructions of multiple Merge layers. For simpliﬁcation purposes, this rule guarantees we only have one or two input edges at a node.
+• Nodes can have multiple output edges. Multiple output signals do not require special treatment.
+The graphs are managed in the implementation with the support of NetworkX [55], an open-source framework for graph operations in Python, but the rules and graph structure deﬁnitions are implemented apart.
+Along with structural deﬁnitions, graph creation must also handle deﬁnitions for the content represented by their nodes and edges. Nodes in these graphs are generated by a routine designed for the creation of node content using custom content creation functions passed as parameters. In the case of modules, which represent assembles of layers, the standard node content creation functions are functions designed to generate new Layers. In the case of blueprints, which represent assembles of modules, the node content creation functions are functions designed to return existing modules from the module population.
+For the last part of initializations, individuals are created to represent an instance of a blueprint to be evaluated. Instead of directly evaluating the blueprints, the individuals are instantiated to represent them, because a single blueprint can be trained with different combinations of hyperparameters not associated with the NN structure itself, such as the learning rate, optimizers, loss function or other parameters chosen from a hyperparameter table, explored in Subsection 3.2.
+12
+
+SBCB LAB - FEBRUARY 13, 2020
+
+3.2 Parameter tables
+Before assembling and training take place, a handful of parameters require management. Mostly addressed as hyperparameters, they relate to decisions made before training starts, like the loss algorithm used, the optimizer for the learning rate, the evaluation metrics to be considered during the training and so on. In this algorithm, additional parameters such as module or blueprint sizes, choices of layer types, conﬁgurations of layers, and activation functions can be included in this group.
+Table 1 exempliﬁes some of these decisions. The table speciﬁes parameters, the types of decisions required for them, and their range of options, being yet another possible point of optimization in the algorithm. In this speciﬁc example, "Module size" is chosen as a "Random integer," ranging from 1 to 3.
+
+Table 1: Example hyperparameter table.
+
+Parameter
+
+Type
+
+Options
+
+Module size Blueprint size Component types Loss functions
+Optimizers Evaluation metrics
+
+Random integer Random integer Random choice
+Fixed Random choice
+Fixed
+
+[1, 3] [1, 3] ["Convolutional", "Dense"] ["categorical_crossentropy"] ["Adam", "RMSprop"] ["Accuracy"]
+
+Similarly, speciﬁc component tables can be established to deﬁne the conﬁguration of layers during the module constructions. Table 2 exempliﬁes the parameters considered during the instantiation of a convolutional layer. For instance, the table speciﬁes that any convolutional layer will need to range their "Filters" as a "Random integer" between 32 and 64 while choosing "Kernel sizes" among 3, 5, and 7.
+Another possible point of optimization in the algorithm, these tables could be evolved in their populations during generations, similarly to modules and blueprints. This would allow the improvement of the usage of different hyperparameters in the training of different individuals, evaluating the table setups, and evolving them over time. Though the current implementation only uses ﬁxed tables as the ones represented in 1 and 2, a similar hyperparameter optimization procedure is implemented in LEAF [53], adding an additional dimension to the evolution process.
+
+Table 2: Example component parameter table for convolutional layers.
+
+Parameter
+
+Type
+
+Options
+
+Filters Kernel size
+Stride Activation function
+Dropout
+
+Random integer Random choice Random choice Random choice Random ﬂoat
+
+[32, 64] [3, 5, 7] [2, 3] ["relu", "tanh"] [0, 0.7]
+
+3.3 Initializing and managing species
+Speciation plays an essential role in NEAT and its variants, ensuring the diversity inside populations over generations, as described in Subsection 2.4. The species must be initialized along with the populations for relevant procedures like elitism, crossover, and mutation take place.
+The method used to approximate module and blueprint similarity to generate species is K-means. The original paper for CoDeepNEAT comments their usage of the same speciation schemes used for NEAT but does not specify in detail how these schemes translate when dealing with the different representations of individuals used in CoDeepNEAT. This speciﬁc part was abstracted and implemented in this work using K-Means, whose functionality is described in Subsection 2.2.
+K-Means is used to cluster module and blueprint graphs based on three main structural pieces of information:
+• the size of the network, such as the sum of the number of ﬁlters in convolutional layers of neurons in fully-connected layers, or simply the number of neuron connections;
+• count of nodes, representing the number of layers or modules in the graph;
+13
+
+SBCB LAB - FEBRUARY 13, 2020
+• count of edges, representing the number of connections between nodes in the graph.
+This choice of clustering features can be easily changed in the implementation, as it is merely a parameter for Kmeans. This speciﬁc set of features evaluates only quantitative information, but qualitative information such as training scores (which would require training before an evaluation) or other types of scores could be used. The clusterization generates an automatic (or custom) amount of clusters, which are used as species. The k-means implementation used is from the open-source framework Scikit-Learn [56].
+After species initialization, the nearest centroid method explained in Subsection 2.2 is used to assign new members to an existing species, allowing species to grow and change over generations. Centroids are calculated based on the features of the current species members every time new members need to be assigned to a species. New members are then assigned to the closest centroid. This way, members that already have an assigned species (e.g., members kept by elitism or new members that were assigned a species by any other method) still belong to their original species, but entirely new members are assigned to the adequate species according to the species’ current demographic. An accuracy threshold can be speciﬁed, so new species are generated in case new members do not ﬁt the existing centroid with satisfactory proximity. The nearest centroids implementation used is from the open-source framework Scikit-Learn [56].
+3.4 Neural network assembling
+Transitioning the graphs to Keras model representations is required to take proﬁt from the training procedures available in the Keras framework. After modules and blueprints are created, they need to be assembled into a unique graph, which is subsequently processed, node by node, creating the respective Keras layers and connecting them one by one following a topological sorting 11.
+The transition scheme implemented handles the necessary interactions between layers, such as including Merge layers between two inputs directed to one layer, or adding Flatten layers to adjust the connections between Convolutional and Dense layers 12. After the model is completely connected and a set of hyperparameters is set, it is trained using the standard Keras training functions and a speciﬁed dataset. An assembled graph containing joined blueprint and module information can be seen in Figure 7c and its respective network can be seen in Figure 7d.
+Figure 7d shows an example assembled Keras network generated by the algorithm. This network is based on the assembled graph shown in Figure 7c, which is structured by the network’s blueprint shown in Figure 7b. Figure 7a shows the graph structure for the common module used by the three intermediate nodes in the blueprint graph in Figure 7b.
+The resulting scores from the Keras scoring procedures are then extracted from the trained model and assigned to the individual and its respective blueprint, which propagates them to the underlying modules involved. This score is used in the evaluation procedures to decide which entities survive elitism and which entities are candidates for reproduction in crossover or mutation schemes.
+3.5 Elitism, crossover, and mutations
+The algorithm handles population management procedures such as elitism, crossover, and mutations after the current populations are evaluated by training and scores. Currently, the proportional amount of subjects to these procedures needs to be deﬁned by the user but could, alternatively, be explored and evolved in the hyperparameter tables.
+The implemented elitism mechanism follows the standard deﬁnition of the concept, preserving a certain percentage of individuals in populations through generations, ensuring the survival of the best solutions.
+Crossover is implemented following a uniform crossover technique [57], switching node contents of two graphs with a ﬁxed chance. The effects are different in blueprints and modules, representing whole layer connection switches in the ﬁrst case, and simply layer deﬁnition switches in the latter. A visual representation of the crossover operation effects can be seen in Figure 8, where a complete network is generated from two-parent networks. The crossover handles cases where layers or modules are not compatible to be switched by only exchanging regions with common origins, as in NEAT.
+Mutations are implemented similarly to the original proposal of NEAT, representing edge and node alterations such as a node or edge removal, creation, or reconnection. The main differences when comparing to what is proposed by CoDeepNEAT are that while NEAT represents the node content as activation functions and edge contents as weights,
+11https://networkx.github.io/documentation/stable/reference/algorithms/dag.html 12https://keras.io/layers/core/
+14
+
+SBCB LAB - FEBRUARY 13, 2020
+
+(a) Module graph structuring the connections of 3 different layers.
+(b) Blueprint graph structuring the connections of 3 instances of module (a), plus additional input and output layers.
+
+(c) Graph assembling the module (a) and blueprint (b) infor-(d) Final Keras model representation generated from the assembled
+
+mation into one structural representation.
+
+graph (c).
+
+Figure 7: Different views on the assembling of a Network.
+
+CoDeepNEAT’s representations of node content are much more complicated (NN structures!), implying that more complex interactions need to be considered. For this reason, the mutations must also follow the same set of rules as speciﬁed for graphs in the population’s initializations subsubsection (3.1).
+Mutations take place in the graph representations of modules and blueprints as structural changes, as represented in Figures 9 and 10. Mutation operators are implemented as:
+15
+
+SBCB LAB - FEBRUARY 13, 2020
+
+(a) Parent 1 network.
+
+(b) Parent 2 network.
+
+(c) Child network. Figure 8: A crossover example. Genetic information from Parent 1 (a) and Parent 2 (b), highlighted in red, are combined to generate a new network (c). The ﬁgures depict the network representation of the three blueprints involved in the crossover process.
+16
+
+SBCB LAB - FEBRUARY 13, 2020
+• Node additions, creating nodes and connecting them to other nodes either by inserting them between two nodes that already have an existing mutual connection (Figure 9b), or by connecting them to any pair of nodes that support new connections (Figure 9c).
+• Node removals, creating a new connection between the direct neighbors of the former node (Figure 9d). • Edge removals or additions. • Node replacement, changing current node content, such as replacing modules in blueprint graphs (as in Figure
+10) or layers in module graphs.
+
+(a) Original graph.
+
+(c) Mutation by node addition.
+
+(b) Mutation by node addition.
+
+(d) Mutation by node removal.
+
+Figure 9: Mutation examples. Figure (a) shows the original graph before any mutations take place. Figure (b) shows the mutation of the original graph by inserting a node between an existing connection. Figure (c) shows the Mutation of the original graph adding a node and preserving existing edges. Figure (d) shows the mutation of the original graph by removing an existing node.
+
+The results from these changes can be seen mostly in the ﬁnal representations of the models when the assembling process is ﬁnished. In Figure 10, a node content change in the original blueprint of the network results in signiﬁcant changes to its structure after the assembling process.
+
+4 Experiments and Results
+Experimentation on the algorithm followed consecutive executions in two different image datasets. This Section describes datasets, experiments, and results, as well as discusses the results and practical usability of the algorithm.
+4.1 Datasets The chosen datasets for experiments using this implementation were MNIST [21] and CIFAR-10 [22]. Both datasets are simple image datasets containing ten different classes of images. They are frequently used in benchmarks or experiments
+
+17
+
+SBCB LAB - FEBRUARY 13, 2020
+
+(b) Original blueprint.
+
+(c) Original assembled graph.
+
+(d) Assembled graph after mutating the blueprint node.
+
+(a) Original network.
+
+(e) Mutated network.
+
+Figure 10: Node content mutation effects on a network. (a) Original assembled network. (b) The original blueprint used in the network and the indicated node (a module) to be replaced, highlighted in red. (c) The assembled graph of the used blueprint before mutation switches the indicated module. (d) Assembled graph of the blueprint after mutation switches the indicated module. (d) Resulting network from mutation, with the affected part highlighted in red.
+
+using convolutional or fully-connected networks and have been used before in the task of topology selection in other approaches [58].
+The parameter tables used in both experiments can be seen in Table 3. The number of modules and layers used for blueprint and module constructions, respectively, are speciﬁed to be in the range between 1 and 3. The intention is to build minimal structures at ﬁrst and progressively grow these structures as mutations and crossovers take place as generations pass. Convolutional layers are speciﬁed to be used in the intermediate layers, while dense layers are used in the output layers. Including dense layers in the last layer before outputs is a common practice in successful convolutional networks [59]. Tables 4 and 5 specify the possible conﬁgurations of these two layer types.
+
+Table 3: Experiment hyperparameter table.
+
+Parameter
+
+Type
+
+Options
+
+Module size Blueprint size Intermediate component types Output layer component types Loss functions
+Optimizers Evaluation metrics
+
+Random integer Random integer
+Fixed Fixed Fixed Fixed Fixed
+
+[1, 3] [1, 3] ["Convolutional"] ["Dense"] ["categorical_crossentropy"] ["Adam"] ["Accuracy"]
+
+18
+
+SBCB LAB - FEBRUARY 13, 2020
+
+Table 4: Experiment parameter table for Convolutional layers.
+
+Parameter
+
+Type
+
+Options
+
+Filters Kernel size
+Stride Activation function
+Dropout
+
+Random integer Random choice
+Fixed Fixed Random ﬂoat
+
+[16, 48] [1, 3, 5] [1] ["relu"] [0, 0.5]
+
+Table 5: Experiment parameter table for Dense layers.
+
+Parameter
+
+Type
+
+Options
+
+Units
+
+Random integer [32, 256]
+
+Activation function Random choice ["relu"]
+
+4.2 MNIST experiment
+Initial experimentation took place using MNIST, a fast-converging and widely used dataset in handwritten digit recognition tasks and overall convolutional network experiments [60]. MNIST is composed of 60000 28x28 pixel grayscale images of handwritten numerical digits divided into ten classes [21]. The images are simple and placed in neutral backgrounds that simplify predictions.
+
+Figure 11: Samples from the MNIST dataset, a handwritten numerical digit dataset. Source: [21].
+Experimentation with MNIST was done using 40 generations, populations of 10 individuals, 10 blueprints, and 30 modules, as well as a starting number of species set to 3. For each population, a global set of conﬁgurations was used to deﬁne elitism, crossover, and mutation rates. The elitism rate is set to 20%, preserving the best-scoring solutions every generation. The crossover rate is set to 30%, replacing the same proportion of populations’ individuals with offspring from good scoring parents. The remaining 50% of the population is subject to mutation operations, generating random changes to existing solutions.
+19
+
+SBCB LAB - FEBRUARY 13, 2020
+Training using MNIST usually divides the dataset into three parts: a training dataset, composed of 42500 images; a validation dataset, composed of 7500 images; and a test dataset, composed of 10000 images. For this type of experiment, training the network to its full length is a hardware and time-consuming task. Topology selection methods commonly reduce the sizes of these datasets to smaller proportions to achieve faster results and discard bad solutions in early generations, avoiding the waste of resources in lengthy training procedures, as in [58]. For this reason, the training sessions over generations used random samples of 10000 images from the original 60000 divided into 8000 training samples and 2000 validation samples.
+As mutation and crossover operations take place along generations, the features of the networks are expected to change and adapt to reach better accuracy and loss scores during early training. At the same time, elitism ensures these operations do not change actual good results. Figure 12 depicts the changes in the counts of nodes, connections, and the overall network size of the blueprint population as the generations pass.
+Figure 12: Progress of the features of the three species of networks generated for MNIST over generations. The representation shows the average of each feature for each species. The different line colors represent different species.
+In the experiment history shown in Figure 12, the networks tend to decrease in size even when increasing the number of nodes or connections (as in Species 1). This means that the networks are using fewer ﬁlters or neurons in their layers, which is expected behavior due to MNIST being a straightforward dataset that does not require complex structures to achieve high loss and accuracy metrics [21]. The reduced dataset sizes and training epochs used in topology selection also tends to favor fast-converging networks, as seen in the experiments of [17]. Also, Figure 12 shows how the evolution of features results in the populations taking certain paths, leading some species (in this case, Species 2) to eventually cease to have representatives, even when not directly interacting with other species through crossovers.
+Changes and adaptations to the network’s features result in changes to the species scores (Figure 13), reducing the loss metrics and increasing the accuracy metrics.
+After the 40 generations, a network was selected by the highest accuracy and loss scores. The chosen network was then trained using the complete MNIST training dataset for 30 epochs to validate whether it would generate acceptable results or not. The training metrics are shown in Figure 14 and demonstrate that even in the early epochs, the resulting model achieves more than 90% validation accuracy. The accuracy using the test dataset achieved a peak of 92% accuracy at epoch 30. Of course, the MNIST dataset is supposed to be easy to predict and achieve very high accuracy metrics (98.5% 13, for instance). This result shows that the algorithm was able to achieve an acceptable result with a few generations, even though the initial network size could be smaller.
+13https://towardsdatascience.com/image-classiﬁcation-in-10-minutes-with-mnist-dataset-54c35b77a38d
+20
+
+SBCB LAB - FEBRUARY 13, 2020
+
+Figure 13: Progress of the average accuracy and loss scores of the species over generations for MNIST dataset. The different colors represent different species.
+
+(a) Loss.
+
+(b) Accuracy.
+
+Figure 14: Training and validation metrics for the best network generated for MNIST after 40 generations.
+
+4.3 CIFAR-10 experiment
+Experimentation continued using CIFAR-10, a slightly more complex dataset than MNIST. CIFAR-10 is composed of 60000 32x32 colored images of different objects divided in 10 classes (Figure 15). Even though CIFAR-10 is similar to MNIST in sample quantity and size, its images represent much more complex and diverse object structures for each class when comparing to MNIST. Training is more exhausting, as well as the required model structure for better results is usually bigger [22].
+For CoDeepNEAT’s original CIFAR-10 experiment, the authors describe the execution of 72 generations using populations of 25 blueprints and 45 modules to generate 100 individuals (CNNs) per generation. The evaluation of these individuals is done through the test scores of their respective CNNs after eight training epochs using 50000 images divided into a training set of 42500 samples and a validation set of 7500 samples. Since training convolutional neural networks takes a long time, the reduced training epochs are necessary to achieve approximations of adequate topologies in a viable time. Still, the processing required to train all the individuals in every generation for multiple generations is considerable.
+21
+
+SBCB LAB - FEBRUARY 13, 2020
+Figure 15: Samples from the CIFAR-10 dataset [22], a collection of different classes of images in small scale.
+After the evolution process of CoDeepNEAT’s original CIFAR-10 experiment [17] was complete, the resulting best network was trained on all the 50000 training images for 300 epochs. The classiﬁcation error obtained was 7.3%, taking 12 epochs to reach 20% test error and around 120 epochs to converge.
+Reproducing such an experiment requires a considerable amount of hardware. Training 100 CNNs for 72 generations and eight training epochs each generation, supposing 30 seconds for each training epoch, would require 1728000 seconds or 480 hours to complete evolution, not considering parallelization efforts. As one of the purposes of this work is to evaluate the usage of CoDeepNEAT in practical use cases for users that might not have access to incredibly potent hardware, the experiments for this work were executed on a smaller scale, similar to the MNIST experiment.
+The runs iterated over 40 generations for 6 hours, with populations of 30 modules, 10 blueprints, 10 individuals, and starting with 3 species, running in a setup of 4 cores, 30.5GB memory, no GPU included. Following the same steps as in the MNIST experiment, the elitism rate is set to 20%, crossover rate is set to 30%, and the mutation rate is set to 50%. Training epochs are limited to 4, and the original datasets are down-sampled to 20000 training images and 2000 validation images for early evaluations.
+As expected through the conﬁguration of Table 3, initial network structures are small and simple, as the network shown in Figure 16, created at the ﬁrst generation of the experiment. As generations pass, the number of nodes and connections increases or decreases as scores are evaluated. In this speciﬁc case, most initial graphs are small structures. Thus they naturally increase over generations. This can be visualized in Figure 17, where the average count of connections, nodes, and the sizes of blueprints increase over generations.
+The increase in network sizes is expected due to CIFAR-10 being slightly more complex then the use case explored with MNIST, requiring larger structures to differentiate the dataset’s classes correctly. Figure 18 shows the small increase in the accuracy and loss metrics over time as features increase in Figure 17. The improvements in the metrics are small due to the few training epochs used, but this early result has the tendency to impact in greater changes in full training sessions using the complete CIFAR-10 dataset.
+22
+
+SBCB LAB - FEBRUARY 13, 2020
+Figure 16: Best scoring network for CIFAR-10 at generation 1. Smaller network topologies are expected to predominate in early generations.
+Figure 17: Progress of the features of the three species of networks generated for CIFAR-10 over generations. The representation shows the average of each feature for each species. The different line colors represent different species.
+The best-resulting network from the experiment after 40 generations was obtained in about 10 hours and can be seen in Figure 20. This network was then trained for 130 epochs but reached a plateau in the validation accuracy metric around the 90th epoch. The achieved training accuracy was of 86.5% and 79.5% validation accuracy. Training history for this network can be seen in Figure 19, depicting loss and accuracy metrics for training and validation datasets.
+In comparison to the original CIFAR-10 experiment, the network performed slightly worse, presenting a test accuracy of 77% (or test error rate of 23%) as opposed to the 7.3% error presented by [17]. The convergence of the
+23
+
+SBCB LAB - FEBRUARY 13, 2020
+
+Figure 18: Progress of the average accuracy and loss scores of the species over generations for CIFAR-10 dataset. The different colors represent different species.
+validation accuracy happened around training epoch 90, converging faster in comparison to the original CIFAR-10, where the convergence occurred around epoch 120. The faster convergence (and subsequent smaller accuracy) are probably associated with the fact that while [17] executed training sessions during evolution using the full CIFAR-10 dataset, this experiment used downsampled versions to reduce the execution time of each generation. At the same time, this experiment considered only four training epochs, while the original used eight training epochs. Evaluating networks with few training epochs usually favors smaller networks that converge faster but do not necessarily achieve optimum accuracy.
+
+(a) Loss.
+
+(b) Accuracy.
+
+Figure 19: Training and validation metrics for the best network generated for CIFAR-10 after 40 generations. The network achieved 86.5% training accuracy and 79.5% validation accuracy.
+
+4.4 Discussion
+The results obtained from the experiment show once again that GAs - and speciﬁcally CoDeepNEAT - pose as viable solutions to the problems of topology and hyperparameter selection to generate good scoring networks in practical scenarios. Two widely used datasets for machine learning benchmarking and testing, MNIST and CIFAR-10, were used to validate the results and visualize the evolution of solutions over generations.
+24
+
+SBCB LAB - FEBRUARY 13, 2020
+Figure 20: Best scoring network for CIFAR-10 at generation 40. The proposed implementation returned adequate solutions even with few generations and small population sizes. Still, as research indicates [61], larger populations would probably beneﬁt more from the heuristics used in the genetic algorithm, such as the crossover operator or speciation mechanisms. The original results from [17] also back this, which evolve much larger populations of solutions throughout almost double the generations and ﬁnally generate better scoring networks, with the downside of the more considerable execution time required. Another point is that studies [62] indicate that traditional GA operators thrive especially in simple problems where generations can be iterated many times, which is not the case of CoDeepNEAT. The time and hardware requirements for experimentation with large populations and many generations are relatively demanding even for simple use cases like MNIST or CIFAR-10, and are not explored in detail by [17], making the usage of this type of algorithm very limited to the type of network to be trained and the size of the target dataset. Deep and complex networks that target signiﬁcant problems, like high-resolution image recognition [63] or video recognition [64], for example, may pose as challenging use cases due to the time required for them to execute training sessions even for few epochs. Traditional efforts to improve the efﬁciency of GAs [65] may generate minor improvements to execution times. However, the current algorithm would beneﬁt most from approaches that evaluate generated networks using alternative methods rather than exclusively running training sessions for all of them. An example would be methods that generate huge populations but evaluate only certain representatives of each species to elaborate a shared score [34], reducing the number of evaluations performed each generation.
+25
+
+SBCB LAB - FEBRUARY 13, 2020
+Other ideas that could generate beneﬁts to the algorithm are approaches that narrow the search space to more speciﬁc topologies, reducing the need to train so many different networks. One recent example would be [66], where good results are achieved in reduced GPU time for an object detection use case using the MSCOCO dataset [67] by reducing the search space of the exploration algorithm using specialized topological knowledge on the object detection domain.
+In scenarios where computing power is not a problem, CoDeepNEAT is proven to achieve good solutions, as demonstrated by [53]. Then again, the computing power to train thousands of networks by "brute force" is extremely high and is not commonly accessible for standard users.
+5 Conclusion
+In this work was proposed an open implementation of the CoDeepNEAT algorithm using the popular and highly supported Keras framework. CoDeepNEAT is a powerful neural network topology generation approach based on the neuroevolution of augmenting topologies (NEAT) and the co-evolution of modules. It proﬁts from evolutionary techniques and heuristics to explore the immense search space of possible topological conﬁgurations for neural networks, employing specialized genetic algorithm aspects to generate and evaluate solutions to the problems of topology and hyperparameter selection. Even though the algorithm is a known approach, no other accessible and public implementations were available to the general academic community as of the conception of this work.
+The implementation was detailed on how every aspect was designed to ﬁt together in the ﬁnal version, based on the original algorithm. It was then tested on accessible image datasets and compared to results from the original version considering the differences in environments and experimentation parameters. The results obtained show that acceptable network topologies can be achieved with small population sizes and few generations running in limited hardware environments, even though large runs and large populations generate the best results.
+With this implementation complete, possible changes can be proposed to improve the base algorithm, such as different crossover operations, domain-specialized generation rules for topologies, methods for speciation and classiﬁcation of individuals, and overall population management strategies. The results especially highlight the need to provide better evaluation techniques for the generated neural networks, as it is the most time-consuming activity in the algorithm. Another possibility is improving the network generation procedures to explore specialized topologies with previous domain knowledge, so the necessary network evaluations are narrowed to smaller search spaces.
+Data availability statement
+The implementation is available at GitHub (https://github.com/sbcblab/Keras-CoDeepNEAT) with documentation and examples to reproduce the experiments performed for this work.
+Acknowledgment
+This work was supported by grants from FAPERGS [16/2551-0000520-6, 19/2551-0001906-8], MCT/CNPq [311611/2018-4, Alexander von Humboldt-Stiftung (AvH) [BRA 1190826 HFST CAPES-P] - Germany, and was ﬁnanced in part by the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brazil (CAPES) - Finance Code 001 and CAPES PROBRAL [88881.198766/2018- 01] - Brazil. We gratefully acknowledge the support of the NVIDIA Corporation (hardware grant program).
+The original work was presented by Jonas da Silveira Bohrer in partial fulﬁllment of the requirements for the degree of Bachelor in Computer Engineering at the Institute of Informatics of the Federal University of Rio Grande do Sul (UFRGS), Brazil, with Marcio Dorn as advisor and Bruno Iochins Grisci as co-advisor. This original text is available at Lume: https://lume.ufrgs.br/.
+References
+[1] Kenneth A. De Jong. Evolutionary Computation: A Uniﬁed Approach. MIT Press, Cambridge, MA, USA, 2016. [2] Harith Al-Sahaf, Ying Bi, Qi Chen, Andrew Lensen, Yi Mei, Yanan Sun, Binh Tran, Bing Xue, and Mengjie
+Zhang. A survey on evolutionary machine learning. Journal of the Royal Society of New Zealand, 49(2):205–228, 2019.
+26
+
+SBCB LAB - FEBRUARY 13, 2020
+[3] Dario Floreano, Peter Dürr, and Claudio Mattiussi. Neuroevolution: from architectures to learning. Evolutionary Intelligence, 1(1):47–62, Mar 2008.
+[4] Thomas Bäck. Evolutionary Algorithms in Theory and Practice: Evolution Strategies, Evolutionary Programming, Genetic Algorithms. Oxford University Press, Inc., New York, NY, USA, 1996.
+[5] David E. Rumelhart, Geoffrey E. Hinton, and Ronald J. Williams. Learning representations by back-propagating errors. Nature, 323(6088):533–536, 1986.
+[6] Kenneth O. Stanley, Jeff Clune, Joel Lehman, and Risto Miikkulainen. Designing neural networks through neuroevolution. Nature Machine Intelligence, 1(1):24–35, 2019.
+[7] Gisele L. Pappa, Gabriela Ochoa, Matthew R. Hyde, Alex A. Freitas, John Woodward, and Jerry Swan. Contrasting meta-learning and hyper-heuristic research: the role of evolutionary algorithms. Genetic Programming and Evolvable Machines, 15(1):3–35, Mar 2014.
+[8] Felipe Petroski Such, Vashisht Madhavan, Edoardo Conti, Joel Lehman, Kenneth O Stanley, and Jeff Clune. Deep neuroevolution: Genetic algorithms are a competitive alternative for training deep neural networks for reinforcement learning. arXiv preprint arXiv:1712.06567, 2017.
+[9] Tim Salimans, Jonathan Ho, Xi Chen, Szymon Sidor, and Ilya Sutskever. Evolution strategies as a scalable alternative to reinforcement learning, 2017.
+[10] Kenneth O. Stanley and Risto Miikkulainen. Evolving neural networks through augmenting topologies. Evolutionary Computation, 10:99–127, 2001.
+[11] T. et al. Aaltonen. Measurement of the top-quark mass with dilepton events selected using neuroevolution at cdf. Phys. Rev. Lett., 102:152001, Apr 2009.
+[12] Barret Zoph and Quoc V. Le. Neural architecture search with reinforcement learning. CoRR, abs/1611.01578, 2016.
+[13] T. Watts, B. Xue, and M. Zhang. Blocky net: A new neuroevolution method. In 2019 IEEE Congress on Evolutionary Computation (CEC), pages 586–593, June 2019.
+[14] Bruno Iochins Grisci, Bruno César Feltes, and Marcio Dorn. Neuroevolution as a tool for microarray gene expression pattern identiﬁcation in cancer research. Journal of biomedical informatics, 89:122–133, 2019.
+[15] Ekin D. Cubuk, Barret Zoph, Dandelion Mane, Vijay Vasudevan, and Quoc V. Le. Autoaugment: Learning augmentation policies from data, 2018.
+[16] Kenneth Stanley, David D’Ambrosio, and Jason Gauci. A hypercube-based encoding for evolving large-scale neural networks. Artiﬁcial life, 15:185–212, 02 2009.
+[17] Risto Miikkulainen, Jason Zhi Liang, Elliot Meyerson, Aditya Rawal, Daniel Fink, Olivier Francon, Bala Raju, Hormoz Shahrzad, Arshak Navruzyan, Nigel Duffy, and Babak Hodjat. Evolving deep neural networks. CoRR, abs/1703.00548, 2017.
+[18] François Chollet et al. Keras. https://keras.io, 2015.
+[19] Martín Abadi, Ashish Agarwal, et al. TensorFlow: Large-scale machine learning on heterogeneous systems, 2015. Software available from tensorﬂow.org.
+[20] Adam Paszke, Sam Gross, Soumith Chintala, Gregory Chanan, Edward Yang, Zachary DeVito, Zeming Lin, Alban Desmaison, Luca Antiga, and Adam Lerer. Automatic differentiation in PyTorch. In NeurIPS Autodiff Workshop, 2017.
+[21] Y. Lecun, L. Bottou, Y. Bengio, and P. Haffner. Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86(11):2278–2324, Nov 1998.
+[22] Alex Krizhevsky. Learning multiple layers of features from tiny images. Technical report, University of Toronto, 2009.
+[23] John H. Holland. Adaptation in Natural and Artiﬁcial Systems: An Introductory Analysis with Applications to Biology, Control and Artiﬁcial Intelligence. MIT Press, Cambridge, MA, USA, 1992.
+[24] David Beasley, David R. Bull, and Ralph R. Martin. An overview of genetic algorithms : Part 1, fundamentals, 1993.
+[25] L Davis, editor. Handbook of Genetic Algorithms. Van Nostrand Reinhold, 1991.
+[26] Ron Unger and John Moult. Genetic algorithm for 3d protein folding simulations. In Proceedings of the 5th International Conference on Genetic Algorithms, pages 581–588, San Francisco, CA, USA, 1993. Morgan Kaufmann Publishers Inc.
+27
+
+SBCB LAB - FEBRUARY 13, 2020
+[27] Jihoon Yang and Vasant Honavar. Feature Subset Selection Using a Genetic Algorithm, pages 117–136. Springer US, Boston, MA, 1998.
+[28] Andreas Bortfeldt and Hermann Gehring. A hybrid genetic algorithm for the container loading problem. European Journal of Operational Research, 131(1):143 – 161, 2001.
+[29] Noura Metawa, M. Kabir Hassan, and Mohamed Elhoseny. Genetic algorithm based model for optimizing bank lending decisions. Expert Systems with Applications, 80:75 – 82, 2017.
+[30] Xiaohui Yuan, Mohamed Elhoseny, Hamdy K. El-Minir, and Alaa M. Riad. A genetic algorithm-based, dynamic clustering method towards improved wsn longevity. Journal of Network and Systems Management, 25(1):21–46, Jan 2017.
+[31] S. Lloyd. Least squares quantization in pcm. IEEE Trans. Inf. Theor., 28(2):129–137, September 2006.
+[32] T. Soni Madhulatha. An overview on clustering methods. CoRR, abs/1205.1117, 2012.
+[33] Trevor Hastie, Robert Tibshirani, and Jerome Friedman. The elements of statistical learning: data mining, inference and prediction. Springer, 2 edition, 2009.
+[34] Hee-Su Kim and Sung-Bae Cho. An efﬁcient genetic algorithm with less ﬁtness evaluation by clustering. In Proceedings of the 2001 Congress on Evolutionary Computation (IEEE Cat. No.01TH8546), volume 2, pages 887–894 vol. 2, May 2001.
+[35] Simon S. Haykin. Neural networks and learning machines. Pearson Education, Upper Saddle River, NJ, third edition, 2009.
+[36] S. J. Mason. Feedback theory-some properties of signal ﬂow graphs. Proceedings of the IRE, 41(9):1144–1156, Sep. 1953.
+[37] Li Deng and Dong Yu. Deep learning: Methods and applications. Technical Report MSR-TR-2014-21, Microsoft Research One Microsoft Way, May 2014.
+[38] Dario Amodei, Sundaram Ananthanarayanan, Zhenyao Zhu, et al. Deep speech 2 : End-to-end speech recognition in english and mandarin. In Maria Florina Balcan and Kilian Q. Weinberger, editors, Proceedings of The 33rd International Conference on Machine Learning, volume 48 of Proceedings of Machine Learning Research, pages 173–182, New York, New York, USA, 20–22 Jun 2016. PMLR.
+[39] Waseem Rawat and Zenghui Wang. Deep convolutional neural networks for image classiﬁcation: A comprehensive review. Neural Comput., 29(9):2352–2449, September 2017.
+[40] Yoav Goldberg and Graeme Hirst. Neural Network Methods in Natural Language Processing. Morgan & Claypool Publishers, 2017.
+[41] Geert J. S. Litjens, Thijs Kooi, Babak Ehteshami Bejnordi, Arnaud Arindra Adiyoso Setio, Francesco Ciompi, Mohsen Ghafoorian, Jeroen A. W. M. van der Laak, Bram van Ginneken, and Clara I. Sánchez. A survey on deep learning in medical image analysis. Medical Image Analysis, 42:60–88, 2017.
+[42] D. Ciregan, U. Meier, and J. Schmidhuber. Multi-column deep neural networks for image classiﬁcation. In 2012 IEEE Conference on Computer Vision and Pattern Recognition, pages 3642–3649, June 2012.
+[43] Thomas W. D’Silva. Evolving robot arm controllers using the neat neuroevolution method. Master’s thesis, Department of Electrical and Computer Engineering, The University of Texas at Austin, Austin, TX, 2006.
+[44] Erin J. Hastings and Kenneth O. Stanley. Galactic arms race: An experiment in evolving video game content. SIGEVOlution, 4(4):2–10, March 2010.
+[45] J. Clune, B. E. Beckmann, C. Ofria, and R. T. Pennock. Evolving coordinated quadruped gaits with the hyperneat generative encoding. In 2009 IEEE Congress on Evolutionary Computation, pages 2764–2771, May 2009.
+[46] Matthew Hausknecht, Joel Lehman, Risto Miikkulainen, and Peter Stone. A neuroevolution approach to general atari game playing. IEEE Transactions on Computational Intelligence and AI in Games, 2013.
+[47] Chrisantha Fernando, Dylan Banarse, Malcolm Reynolds, Frederic Besse, David Pfau, Max Jaderberg, Marc Lanctot, and Daan Wierstra. Convolution by evolution: Differentiable pattern producing networks. In Proceedings of the Genetic and Evolutionary Computation Conference 2016, GECCO ’16, pages 109–116, New York, NY, USA, 2016. ACM.
+[48] Phillip Verbancsics and Kenneth O. Stanley. Constraining connectivity to encourage modularity in hyperneat. In Proceedings of the 13th Annual Conference on Genetic and Evolutionary Computation, GECCO ’11, pages 1483–1490, New York, NY, USA, 2011. ACM.
+[49] David E. Moriarty and Risto Miikkulainen. Forming neural networks through efﬁcient and adaptive coevolution. Evolutionary Computation, 5:373–399, 1997.
+28
+
+SBCB LAB - FEBRUARY 13, 2020
+[50] Faustino J. Gomez and Risto Miikkulainen. Solving non-markovian control tasks with neuroevolution. In Proceedings of the 16th International Joint Conference on Artiﬁcial Intelligence - Volume 2, IJCAI’99, pages 1356–1361, San Francisco, CA, USA, 1999. Morgan Kaufmann Publishers Inc.
+[51] Faustino Gomez, Juergen Schmidhuber, and Risto Miikkulainen. Accelerated neural evolution through cooperatively coevolved synapses. Journal of Machine Learning Research, pages 937–965, 2008.
+[52] Xinlei Chen, Hao Fang, Tsung-Yi Lin, Ramakrishna Vedantam, Saurabh Gupta, Piotr Dollár, and C. Lawrence Zitnick. Microsoft COCO captions: Data collection and evaluation server. CoRR, abs/1504.00325, 2015.
+[53] Jason Liang, Elliot Meyerson, Babak Hodjat, Dan Fink, Karl Mutch, and Risto Miikkulainen. Evolutionary Neural AutoML for Deep Learning. arXiv e-prints, page arXiv:1902.06827, Feb 2019.
+[54] Pranav Rajpurkar, Jeremy Irvin, Kaylie Zhu, Brandon Yang, Hershel Mehta, Tony Duan, Daisy Ding, Aarti Bagul, Curtis Langlotz, Katie Shpanskaya, Matthew P. Lungren, and Andrew Y. Ng. Chexnet: Radiologist-level pneumonia detection on chest x-rays with deep learning, 2017.
+[55] Aric A. Hagberg, Daniel A. Schult, and Pieter J. Swart. Exploring network structure, dynamics, and function using networkx. In Gaël Varoquaux, Travis Vaught, and Jarrod Millman, editors, Proceedings of the 7th Python in Science Conference, pages 11 – 15, Pasadena, CA USA, 2008.
+[56] F. Pedregosa, G. Varoquaux, A. Gramfort, V. Michel, B. Thirion, O. Grisel, M. Blondel, P. Prettenhofer, R. Weiss, V. Dubourg, J. Vanderplas, A. Passos, D. Cournapeau, M. Brucher, M. Perrot, and E. Duchesnay. Scikit-learn: Machine learning in Python. Journal of Machine Learning Research, 12:2825–2830, 2011.
+[57] John H. Holland. Adaptation in Natural and Artiﬁcial Systems. University of Michigan Press, Ann Arbor, MI, 1975. second edition, 1992.
+[58] Fernando Mattioli, Daniel Caetano, Alexandre Cardoso, Eduardo L. M. Naves, and Edgard Lamounier. An experiment on the use of genetic algorithms for topology selection in deep learning. J. Electrical and Computer Engineering, 2019:3217542:1–3217542:12, 2019.
+[59] Karen Simonyan and Andrew Zisserman. Very deep convolutional networks for large-scale image recognition. CoRR, abs/1409.1556, 2014.
+[60] Ian H. Witten, Eibe Frank, and Mark A. Hall. Data Mining: Practical Machine Learning Tools and Techniques. Morgan Kaufmann Series in Data Management Systems. Morgan Kaufmann, Amsterdam, 3 edition, 2011.
+[61] Dana Vrajitoru. Large population or many generations for genetic algorithms? implications in information retrieval. In Soft Computing in Information Retrieval, pages 199–222. Springer, 2000.
+[62] Noraini Mohd Razali, John Geraghty, et al. Genetic algorithm performance with different selection strategies in solving tsp. In Proceedings of the world congress on engineering, volume 2, pages 1–6. International Association of Engineers Hong Kong, 2011.
+[63] J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei. ImageNet: A Large-Scale Hierarchical Image Database. In CVPR09, 2009.
+[64] Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, Alexander C. Berg, and Li Fei-Fei. ImageNet Large Scale Visual Recognition Challenge. International Journal of Computer Vision (IJCV), 115(3):211–252, 2015.
+[65] Erick Cantú-Paz and David E. Goldberg. Efﬁcient parallel genetic algorithms: theory and practice. Computer Methods in Applied Mechanics and Engineering, 186(2):221 – 238, 2000.
+[66] Hang Xu, Lewei Yao, Wei Zhang, Xiaodan Liang, and Zhenguo Li. Auto-fpn: Automatic network architecture adaptation for object detection beyond classiﬁcation. In The IEEE International Conference on Computer Vision (ICCV), October 2019.
+[67] Tsung-Yi Lin, Michael Maire, Serge J. Belongie, Lubomir D. Bourdev, Ross B. Girshick, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C. Lawrence Zitnick. Microsoft COCO: common objects in context. CoRR, abs/1405.0312, 2014.
+29
+

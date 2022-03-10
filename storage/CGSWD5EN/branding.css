@@ -1,0 +1,10 @@
+/* title highlight color */
+.branding__title--custom-text > b {
+    color: #005581;
+}
+
+@media screen and (min-width: 768px) {
+    #contentfooter .subscribe li:last-child {
+        margin-bottom: 25px;
+    }
+}

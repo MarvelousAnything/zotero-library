@@ -1,0 +1,10581 @@
+United States Department of Agriculture
+Forest Service
+Northeastern Research Station
+General Technical Report NE-319
+
+Comprehensive Database of Diameter-based Biomass Regressions for North American Tree Species
+Jennifer C. Jenkins David C. Chojnacky Linda S. Heath Richard A. Birdsey
+
+Aboveground Biomass (kg)
+
+1400
+
+1200 1000
+800 600 400 200
+0
+
+z
+z
+loblolly J
+
+zz
+
+z
+
+z
+
+z
+
+z
+
+
+zzz
+
+z
+
+z
+
+M z z zzz
+
+z
+
+z all
+
+other pines 
+
+
+
+zz zzz
+
+z
+
+zzzz
+z
+
+lodgepole J M z zz
+
+pinyon zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz zzzzzzzzzzzzzz zzzzzzzzz
+
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz zzzzzzzz
+
+
+
+z z zzz
+
+z z z
+
+z z
+
+zz
+
+zzzzzzzzzzzzzzz zz
+
+z zzzz
+z
+
+zz
+
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+dbh (cm)
+
+Abstract
+A database consisting of 2,640 equations compiled from the literature for predicting the biomass of trees and tree components from diameter measurements of species found in North America. Bibliographic information, geographic locations, diameter limits, diameter and biomass units, equation forms, statistical errors, and coefficients are provided for each equation, along with examples of how to use the database. The CD-ROM included with this publication contains the complete database (Table 3) in spreadsheet format (Microsoft Excel 2002® with Windows XP®).
+The Authors
+JENNIFER C. JENKINS (jennifer.c.jenkins@uvm.edu) is a research forester with the USDA Forest Service’s Northeastern Research Station at Burlington, Vermont. DAVID C. CHOJNACKY (dchojnacky@fs.fed.us) is a research forester with the USDA Forest Service’s Forestry Inventory Research Enterprise at Washington, DC. LINDA S. HEATH (Lheath@fs.fed.us) is a research forester/project leader with the Northeastern Research Station at Durham, New Hampshire. RICHARD A. BIRDSEY (rbirdsey@fs.fed.us) is a program manager with the Northeastern Research Station at Newtown Square, Pennsylvania.
+For paper copies of the complete database (including Table 3 in its entirety), contact:
+Jennifer C. Jenkins The Rubenstein School of Environment and Natural Resources Gund Institute for Ecological Economics University of Vermont 590 Main St. Burlington, VT 05405 (802) 656-2953 fax (802) 656-2995 jennifer.c.jenkins@uvm.edu
+Manuscript received for publication 23 June 2003
+
+Published by: USDA FOREST SERVICE 11 CAMPUS BLVD SUITE 200 NEWTOWN SQUARE PA 19073-3294
+July 2004
+
+For additional copies:
+USDA Forest Service Publications Distribution 359 Main Road Delaware, OH 43015-8640 Fax: (740)368-0152
+
+Visit our homepage at: http://www.fs.fed.us/ne
+
+Introduction
+Estimates of dry-weight biomass for individual trees and tree components are of interest to managers, researchers, and policymakers. Such estimates can be used by land managers to estimate carbon (C) pools and fluxes on individual parcels, by policymakers to estimate forest C dynamics at large scales, or by scientists to enhance our understanding of C dynamics in conjunction with research studies.
+
+Top Height (4-inch diameter)
+Merchantable Stem and Bark Biomass
+
+Aboveground Tree Biomass (Includes Foliage)
+
+“Dimensional analysis” as described by
+
+Whittaker and Woodwell (1968) is the
+
+method used most often by foresters and
+
+ecologists to predict individual tree biomass.
+
+This method relies on the consistency of an
+
+Stump Height
+
+allometric relationship between plant
+
+(12 inches)
+
+Belowground:
+
+dimensions—usually diameter at breast
+
+Coarse Root Biomass
+
+height (d.b.h.) and/or height—and biomass for a given species, group of species, or
+
+Figure 1.—Tree component biomass definitions.
+
+growth form. Using the dimensional analysis
+
+approach, a researcher samples many stems spanning the
+
+diameter and/or height range of interest, and then uses a regression model to estimate the relationship between one or more tree dimensions (as independent variables) and tree-component weights (as dependent variables).
+
+foliage, and roots (Table 2). Branch biomass was not calculated because this component can be obtained by difference. See Jenkins et al. (2003) for details on the generalized regressions and the methods used to develop
+
+In previous work we developed a set of generalized
+
+them.
+
+allometric regression equations for application to forest mensuration data at the national scale for U.S. forests
+
+This Compilation
+
+(Jenkins et al. 2003) (Table 1). Developed from species-
+
+The first step in developing the generalized regressions
+
+specific allometric equations published in the literature,
+
+was to search the available literature for all published
+
+these equations predict oven-dry biomass for individual
+
+allometric regression equations that predict oven-dry
+
+stems based on tree d.b.h. alone. Our generalized
+
+biomass for tree components based on d.b.h. This report
+
+regressions for aboveground biomass prediction are
+
+includes the results of this compilation, which serves as
+
+applicable to 10 species groups (5 softwood groups, 4
+
+supporting documentation for the generalized equations.
+
+hardwood groups, and 1 woodland group).
+
+We hope that this report will be a reference document
+
+for those interested in estimating oven-dry biomass
+
+We also developed equations for predicting the biomass
+
+based on d.b.h. for individual trees.
+
+of tree components (Table 2, Fig. 1). Due to the
+
+substantial variability among sampling and analysis
+
+We used literature search engines such as the National
+
+techniques, the relative scarcity of component biomass
+
+Agricultural Library’s AGRICOLA database, and
+
+equations, and the complexity of diameter-biomass
+
+included regressions published in previous compilations
+
+relationships for tree components, these equations are
+
+such as Tritton and Hornbeck (1982), Ter-Mikaelian and
+
+applicable to two broad hardwood and softwood species
+
+Korzukhin (1997), and Means et al. (1994). We also
+
+groups rather than the 10 species groups used for the
+
+searched the bibliographies of other published papers for
+
+aboveground regressions. They are used to predict ratios
+
+additional pertinent references. Regressions developed in
+
+between component biomass and total aboveground
+
+the United States and Canada were our first priority,
+
+biomass, and must be used in conjunction with the
+
+though regressions developed for nonnative species that
+
+aboveground equations to predict the biomass of four
+
+are established in the United States are included. Because
+
+tree components: merchantable stem biomass (defined
+
+of the scarcity of regressions for some softwood and
+
+from a 12-inch stump height to 4-inch top diameter
+
+woodland species, we include equations developed
+
+outside bark (d.o.b.)), merchantable bark biomass, total
+
+outside North America for these species groups.
+
+1
+
+Table 1.—Parameters and equationsa for estimating total aboveground biomass for all hardwood and softwood species in the United States (from Jenkins et al. 2003)
+
+Hardwood
+
+Species groupb
+
+Parameter
+
+β0
+
+β1
+
+Aspen/alder/
+
+-2.2094
+
+cottonwood/ willow
+
+Soft maple/birch -1.9123
+
+Mixed hardwood -2.4800
+
+Hard maple/oak/ -2.0127
+
+hickory/ beech
+
+2.3867
+2.3651 2.4835 2.4342
+
+Data pointsc
+230
+316 289 485
+
+Max d.b.h.d
+cm 70
+66 56 73
+
+Softwood Cedar/larch
+
+-2.0336 2.2592 196 250
+
+Douglas-fir
+
+-2.2304 2.4435 165 210
+
+True fir/hemlock -2.5384 2.4814 395 230
+
+Pine
+
+-2.5356 2.4349 331 180
+
+Spruce
+
+-2.0773 2.3323 212 250
+
+Woodlandf Juniper/oak/ mesquite
+
+-0.7152 1.7029 61
+
+78
+
+aBiomass equation:
+bm = Exp(β0 + β1 ln dbh) where
+bm = total aboveground biomass (kg) for trees 2.5 cm and larger in d.b.h. dbh = diameter at breast height (cm) Exp = exponential function
+ln = natural log base "e" (2.718282)
+
+RMSEe
+log units 0.507441
+
+R2 0.953
+
+0.491685 0.958 0.360458 0.980 0.236483 0.988
+
+0.294574 0.218712 0.182329 0.253781 0.250424
+
+0.981 0.992 0.992 0.987 0.988
+
+0.384331 0.938
+
+bSee Table 4 for guidelines on assigning species to each species group. cNumber of data points generated from published equations (generally at intervals of 5 cm d.b.h.) for parameter estimation. dMaximum d.b.h. of trees measured in published equations. eRoot mean squared error or estimate of the standard deviation of the regression error term in natural log units. fIncludes both hardwood and softwood species from dryland forests.
+
+We made a concerted effort to locate the original sources of all regression equations. However, some reviews reported “unpublished” results and it was not always possible to find the full text of the original sources, particularly for those published other than in peerreviewed journals. In these cases, we report the equations here but we describe them as “cited in” the published review. In contrast to our previous work developing the generalized equations, here we make no attempt to exclude equations that do not meet prespecified criteria. Instead, we report all equations found in the literature.
+
+To guide the reader in using these equations, we provide information on component definitions, author-reported regression statistics such as R2 values, diameter ranges over which the equations were developed, number of trees harvested to develop the regression, locations of harvested trees, and other pertinent notes and variables. We have attempted to be as comprehensive as possible; however, we cannot anticipate every question that might be asked by a user, and the authors of the original regressions often did not provide the information we sought. As a result, some gaps are likely. We provide
+
+2
+
+Table 2.—Parameters and equationsa for estimating component ratios of total aboveground biomass for all hardwood and softwood species in the United States (from Jenkins et al. 2003)
+
+Biomass component
+Foliage Coarse roots Stem bark Stem wood
+
+Parameter
+
+α
+
+α
+
+Hardwood
+
+-4.0813 5.8816
+
+-1.6911 0.8160
+
+-2.0129 -1.6805
+
+-0.3065 -5.4240
+
+Data
+
+pointsb
+
+R2
+
+632 0.256 121 0.029 63 0.017 264 0.247
+
+Foliage Coarse roots Stem bark Stem wood
+
+Softwood -2.9584 4.4766 -1.5619 0.6614 -2.0980 -1.1432 -0.3737 -1.8055
+
+777 0.133 137 0.018 799 0.006 781 0.155
+
+aBiomass ratio equation:
+
+ratio
+
+=
+
+Exp(α0
+
++
+
+α1 ) dbh
+
+where
+
+ratio = ratio of component to total aboveground biomass for trees
+
+2.5 cm and larger in d.b.h.
+
+dbh = diameter at breast height (cm)
+
+Exp = exponential function
+
+ln = log base e (2.718282)
+
+bNumber of data points generated from published equations (generally at intervals of 5 cm d.b.h.) for parameter estimation.
+
+detailed bibliographic information for readers who wish to learn more about a specific equation.
+Most of the equations presented here were developed specifically for application to particular species at specific study sites, so they may be more accurate when used to estimate biomass at sites that closely resemble those for which they were developed. When biomass for a particular study site is the target variable, we recommend using a specific regression that is matched closely to the site rather than generalized regressions developed for large-scale application. If such an equation is not available, we recommend applying a range of sitespecific equations. This approach will provide a range of biomass estimates likely to include the actual (though
+
+still unknown) biomass value for the target study site, and it will provide a simplistic estimate of the uncertainty inherent in these biomass calculations.
+Database Description
+This section includes definitions for the variables in the seven tables (Tables 3-9) that make up the database (Appendix B). The complete database also is available online at http://www.fs.fed.us/ne/global/. Table 3 lists more than 2,600 equations and their coefficients; each row in the table represents a separate biomass regression. (Only the first 10 pages of Table 3 are included in this report. Table 3 in its entirety is on the CD-ROM included with this publication and is available online.) Tables 4 through 9 contain supporting information.
+
+3
+
+Table 3: Equations and Parameters for Diameter-Based Biomass Equations
+The printed version of the database contains only the first 10 pages of Table 3. The companion CD-ROM and electronic distributions of the database include Table 3 in its entirety along with Tables 4-9.
+1. Species – Numeric code for the species to which the equation applies. This number corresponds to the species code listed in the online Forest Inventory and Analysis (FIA) database (FIADB) as of October 2002 and to the “FIA Species code” variable (item 1) in Table 4. FIADB is available at http://fia.fs.fed.us/ dbrs_setup.html.
+2. Common name – Common name for the species of interest (Table 4).
+3. Component ID – Numeric code corresponding to the tree component of interest. These codes and their definitions are listed in Table 5.
+4. Equation Form ID – Numeric code corresponding to the algebraic form of the equation used by the original author to fit the regression. These codes and their associated equation forms are listed in Table 6.
+5. Coefficients and constants (a - e) – These columns include parameters for the regression equations as given by the authors of the original regressions. The parameter definitions refer to letter codes in Table 6.
+6. Diameter – Independent variable used to develop the regression. Definitions: BA: Basal area, the cross-sectional area of the stem at breast height. BArc: Basal area, the cross-sectional area of the stem at the root collar. c.b.h.: Circumference at breast height. c.r.c.: Circumference at root collar. d.b.h.: Diameter at breast height at 4.5 feet (1.37 m) above ground level. d.b.h.2: Square of diameter at breast height. d.r.c.: Diameter at root collar. d150: Diameter at 150 cm above ground level.
+7. Corrected for bias – A “yes” value in this column means that the original authors developed and reported a correction factor to compensate for the potential underestimation resulting from backtransforming logarithmic predictions to arithmetic units, as suggested by Baskerville (1972), Beauchamp and Olson (1973), and Sprugel (1983). In many
+
+cases where (7) is “yes,” item (8) will list CF, the bias correction factor to be used. In other cases, the authors embedded the correction factor into the equation parameters, or did not publish the value of CF since it can be obtained from the regression statistics. In such cases, the value of CF in the database will be zero even though the authors used the correction factor.
+A “no” value in this column means that: a) the equation form used is not logarithmic and does not require the correction; b) for logarithmic equation forms, the authors chose not to correct the equation; c) there is no mention of bias correction in the original publication.
+8. Bias correction (CF) – Published value of CF, to correct for potential underestimation resulting from back-transformation of logarithmic predictions to arithmetic units. As a remedy for bias, it has been proposed that the back-transformed biomass results be multiplied by CF, defined as exp(MSE/2), where MSE refers to the mean squared error of a line fit by least-squares regression. The use of CF has been criticized; because many authors include wellreasoned discussions of their choice whether to use the correction, we follow the example of the original authors. If the author reports the CF, we also report it here; if the author uses it but does not report it explicitly, we do likewise; or if the original author chooses not to address the issue, we reflect that decision as well.
+9. r and R2 – Standard goodness-of-fit statistics, if these were reported by the authors of the original regressions.
+10. MinDiameter and MaxDiameter – Minimum and maximum diameter values (in centimeters) for which the regression is valid. These are the minimum and maximum measurements for the trees harvested to develop the regression.
+11. Sample size – Number of trees harvested or measured to develop the regression.
+12. Stump height – For equations that predict the biomass of any component that includes the tree stem or the stump, this variable lists (in inches) the estimated or measured stump height. Many authors, particularly those reporting in the ecology literature, did not report this value, so we developed a series of rules to estimate it if missing. If the original authors reported stump height, it is listed here. If no stump height was given or if the authors did not mention the existence of a stump in their publication, we
+
+4
+
+assumed that the stump was 6 inches (15.24 cm) tall. Stump height was assumed to be zero if any of the following were true: 1) the methods of Whittaker and Marks (1975) or Whittaker and Woodwell (1968) were used for sampling (these authors were explicit about felling trees at groundline); 2) the authors stated that trees were “felled at groundline” as opposed to simply being “felled;” 3) the stump is described as “as short as possible;” 4) the same authors also report an equation for root biomass only (versus stump plus root biomass); 5) the authors estimated (using their own method) that portion of the stump excluded when the trees were felled; 6) the trees used to develop the regressions were small enough that it is reasonable to expect that nearly the entire stump would have been included with the aboveground biomass using standard destructive harvesting techniques adapted for research purposes.
+13. Top d.o.b. – For equations that include a portion of the merchantable stem, describes the minimum diameter outside bark (d.o.b.) of the top of the merchantable stem. If a value was listed, it is included here. If no value was listed, or if the equation was listed as predicting the biomass of the “stem” or the “bole” with no discussion of the limiting top diameter, we assumed that the value of this parameter was zero. Some authors provided ratio equations allowing for prediction of certain bole components based on a user-defined top diameter; in these cases the value of “Ratio Equation,” (item 17) is “y” and the corresponding equation is listed in Table 7.
+14. Units diameter and units biomass – The units used by the original authors to measure the independent and dependent variables. The equation coefficients in Table 3 are reported as originally published: this means that the diameter units must correspond to the units in the Units diameter column, and that the result always is in the units listed in the Units biomass column. Abbreviations:
+mm: millimeters (= 10-3 meters)
+cm: centimeters (= 10-2 meters)
+m: meters (= 39.37 inches)
+in: inches (= 2.54 cm)
+lb: pounds (= 0.4545 kg)
+g: grams
+kg: kilograms (= 106 grams)
+Mg: Megagrams (= 109 grams)
+15. Component – This column can be used to determine whether an equation was incorporated into the generalized equations published by Jenkins
+
+et al. (2003). If an equation was used in the generalized equations, the codes in this column further describe modifications to incorporate equations into the generalized equations. Values are defined as (see also Figure 1):
+na: Not used in the generalized equations, usually because component definitions were inconsistent with what was required. Exclusion for other reasons is stated in the Notes column.
+ag: Predicts total aboveground biomass; used directly in the analysis with no alteration.
+sb: Merchantable stem bark biomass with the correct definition (12-inch stump to 4-inch top); used directly with no alteration.
+sw: Merchantable stem wood biomass with the correct definition (12-inch stump to 4-inch top); used directly with no alteration.
+fl: Total foliage biomass; used directly with no alteration.
+rt: Root biomass; used directly with no alteration. Due to the scarcity of root biomass equations, root diameter limits were ignored in the summary paper (Jenkins et al. 2003).
+agm: Predicts above-stump biomass; stump biomass was added before the equation was used to predict aboveground biomass in the summary paper.
+sbm: Merchantable stem bark biomass with a portion of the stump included; stump biomass was subtracted before the equation was used to predict merchantable stem bark biomass in the summary paper.
+swm: Merchantable stem wood biomass with a portion of the stump included; stump biomass was subtracted before the equation was used to predict merchantable stem wood in the summary paper.
+flm: Predicts a portion of total foliage biomass (usually new or old foliage biomass); two or more equations (including this one) were added to predict total foliage biomass in the summary paper.
+rtm: Predicts root plus stump biomass; stump biomass was subtracted before the equation was used in the summary paper.
+rts: Complete tree biomass; aboveground biomass (as predicted by the same authors) was subtracted before the equation was used to predict root biomass in the summary paper.
+16. Component sum – Describes the additive status for equations where the original authors published separate component equations. Definitions are:
+a: This equation predicts total aboveground or abovestump biomass, and was used directly or with
+
+5
+
+modifications to account for stump biomass in the summary paper.
+b: This equation predicts total belowground biomass, and was used with no alteration in the summary paper.
+t: Along with other equations published for the same species by the same author, this component adds to total aboveground or total above-stump biomass. No separate aboveground or above-stump equation is presented based on the same data. For these equations, the additive result is included in the summary paper.
+c: Together with other equations published for the same species by the same author, this component adds to total aboveground, above-stump, or complete-tree biomass. A separate aboveground or above-stump equation (with an “a” in this column) also is presented based on the same data. For these equations, only the aboveground or above-stump equation is included in the summary paper.
+s: Together with other equations published for the same species by the same author, this component adds to total belowground biomass. No separate total belowground biomass equation is presented based on the same data. For these equations, only the additive result is included in the analysis of Jenkins et al. (2003).
+r: Together with other components, this component adds to total belowground biomass. A separate total belowground biomass equation (with a “b” in this column) is also presented based on the same data. For these equations, only the additive result is used in Jenkins et al. (2003).
+A blank in this column means that the equation was not used in the summary paper because the components do not add to a total or this equation does not contribute to a total, or the equation was deemed unsuitable for another reason (which would be described in the Notes column).
+17. Ratio equation – Some authors presented methods for predicting the biomass of the merchantable stem to a user-defined top diameter. A “y” value in this column means that a separate ratio equation was presented by this author and is included in Table 7. Where available, these equations were used to estimate the biomass of the corresponding merchantable stem to a 4-inch top d.o.b.
+18. Segmented equation – Some authors presented paired equations for the same species such that one equation was applicable at the lower end of the diameter range and a second equation was applicable
+
+at the upper end of the range. A “y” value in this column means that the equation is one-half of a segmented equation; its companion equation for the same species will have the same author and regression statistics but will be applicable over a different diameter range. In Jenkins et al. (2003), each half of a segmented equation was used for half of the total number of pseudodata predictions for a given author and species combination.
+19. Equation number – Some authors presented several equations for the same component and species based on treatment type or study site. In such cases, each separate equation is given a number, starting sequentially with 1. When an author presented equations based on independent tree samples from different sites, all of the published equations were included in Jenkins et al. (2003). However, if the same author also presented one equation based on “pooled” data from all sites sampled, the pooled equation was used.
+20. Source – Numbers correspond to references listed in Table 9.
+21. Notes – Information potentially of interest to users of the equations.
+Table 4: Species Key, Suggested Assignments for Species Groups to Apply Generalized Equations, and Specific Gravity Information
+Table 4 includes the species-specific information relevant to users of the database, as well as species-specific information used to develop the generalized equations described in Jenkins et al. (2003).
+1. FIA species code – Numeric code assigned to each tree species; used by FIA’s FIADB database. Note that some equations were added to the database for species that are either not native or uncommon in the United States. For these species with no dedicated FIA codes, we assigned a code for use in this biomass database. As a result, the new ID’s probably will not match the assigned FIA code should these species ever be added to the FIADB database. The codes for these new species are listed in bold italic. Family, genus, and species information in this database should allow users to assign the correct FIA code if necessary.
+2. Common name – Common name used by FIA (or in common usage for species not listed by FIA) for the species.
+3. Family
+
+6
+
+4. Genus
+5. Species
+6. Species group – The group to which the species was assigned to develop the generalized equations of Jenkins et al. (2003). If no biomass regressions are found for a particular species, this column can be used to assign species to groups when applying the generalized equations. Abbreviations are: aa = aspen / alder / cottonwood / willow; cl = cedar / larch; df = Douglas-fir; mb = soft maple / birch; mh = mixed hardwood; mo = hard maple / oak / hickory / beech; pi = pine; sp = spruce; tf = true fir / hemlock; wo = woodland species (juniper / oak / mesquite).
+7. Wood specific gravity – Specific gravity (based on oven-dry weight and green volume) value used to convert stump volume inside bark to stump wood biomass for standardizing component definitions in Jenkins et al. (2003). Values were obtained primarily from the Forest Products Laboratory (U.S. Dep. Agric. 1974) and Markwardt (1930). Where this column is blank, data for the species (or species group) were unavailable. For groups of species (e.g., pine spp. or spruce spp.) the value is the average of specific gravity values from the literature for species that make up the group.
+8. Bark specific gravity – Specific gravity (based on oven-dry weight and green volume) value used to convert stump bark volume to stump bark biomass for standardizing component definitions in Jenkins et al. (2003). The bibliographic source of the information is listed in the next column (and in Appendix A). Where this column is blank, data for the species (or species group) were unavailable.
+9. Bark specific gravity source – Reference number corresponding to the bibliographic source that lists the bark specific gravity for the species. Note that information on bark specific gravity is limited. Where a value for specific gravity is included in the previous column but is not accompanied by a code referring to the source of the information, bark specific gravity was estimated based on data from the literature. Unless there was information on bark specific gravity from a closely related species or group of species, we assumed that bark and wood specific gravity were similar.
+10. Stump volume equation – FIA species code corresponding to the equation used for predicting stump volume inside and outside bark for this species to standardize component definitions in the
+
+summary paper. Species with no value in this column were not used to develop the generalized equations in Jenkins et al. (2003). See Table 8 and Raile (1982) for stump volume equations.
+Table 5: Tree Component Key Table 5 describes the tree components included in the equation database, and serves as the key for the “Component ID” column in Table 3.
+1. Component description – Describes the tree component predicted by the equation.
+2. Component abbreviation – Used by the developers of the BIOPAK database (Means et al. 1994) for referring to plant component biomass. Where this column is blank, the BIOPAK database did not include equations for the component.
+3. Component ID – Numeric code corresponding to the component; the number in this column refers to the Component ID column in Table 3.
+Table 6: Equation Form Key Table 6 includes the general equation forms in the equation database, and serves as the key for the “Equation form ID” column in Table 3.
+1. Equation form description – This column shows the algebraic form of the equation. To use an equation plug the coefficients and constants listed in Table 3 into the equation form. Note that “dia” refers to the diameter measurement listed in Table 3, whether it is basal area, d.b.h., or circumference at the root collar.
+2. Equation form ID – Numeric code corresponding to the equation form; the number in this column refers to the Equation form ID column in Table 3.
+Table 7: Parameters for Stem Ratio Equations for Selected Stem Biomass Equations Table 7 includes parameters for equations used to develop merchantable-stem biomass to a user-specific top diameter. These ratio equations were developed and presented by the authors of a subset of the original equations included in the database. A stem ratio equation is included here for any equation in Table 3 with a value of “y” in the “Ratio equation” column.
+1. Source – Numeric code corresponding to the bibliographic reference where the equation was published (these numbers correspond to those in Table 9).
+
+7
+
+2. Species – Numeric code corresponding to the species for which the equation was developed (species codes are listed in Table 4).
+3. Component – Numeric code corresponding to the tree component for which the ratio equation was developed. The original authors developed these ratio equations for Component ID’s 6 (st, merchantablestem wood plus bark) and 4 (sw, merchantable-stem wood) (see Table 5 for Component descriptions). The biomass of merchantable-stem bark (Component ID 5) can be found by difference.
+4. a, b, c – Parameters for ratio equations. The equation form is:
+ln(ratio) = a * (db) * (Dc)
+where ratio = proportion of above-stump stem biomass to specific top d.o.b.
+d = specified top d.o.b. (inches)
+D = tree d.b.h. (inches)
+a, b, c = equation parameters from Table 7
+When back-transformed, the result of this equation is a number between 0 and 1. When the original total stem (or stem wood) biomass developed using the equation presented in Table 3 is multiplied by the ratio determined with this equation, the result is the stem biomass to the top d.o.b. (d) specified by the user.
+Table 8: Stump Diameter Regression Coefficients, Outside and Inside Bark, for Tree Species in the Lake States
+Table 8 includes parameters for equations used to estimate stump volume based on d.b.h., for tree species in the Lake States (Raile 1982). When developing the generalized equations of Jenkins et al. (2003), stump volume (and biomass) was computed in two cases. In the first, a given equation might report biomass of the above-stump portion of the tree (Component ID 3 in Tables 3 and 5); here, the biomass of the stump between ground level and stump height was computed and added to the above-stump equation to determine total aboveground biomass. In the second case, an equation reporting merchantable stem (or merchantable stem wood or bark) biomass might give a stump height of 6 inches or 3 inches. The definition of merchantable stem in Jenkins et al. (2003) specifies a 12-inch stump height. Here, the biomass of the portion of the stump between reported stump height and 1 foot was computed and subtracted from the merchantable stem biomass from the reported equation in order to standardize merchantable stem definitions for the generalized equations.
+
+To compute stump wood biomass, we first predicted stump volume, assuming that the portion of the stump to be added or subtracted from the biomass equation result was a perfect cylinder. Due to the tapered shape of most trees, this approach likely underestimated slightly the biomass of the bottom stump portion. However, this overestimation probably was balanced nearly equally by an overestimation of the biomass of the top half of the stump portion.
+To determine stump wood volume, we chose a point that bisected the length of the stump portion of interest, and used the parameters given in Table 8 to predict stump inside bark diameter (d.i.b.) at that point. We then used a standard geometric formula for predicting the volume of a cylinder to predict the wood volume of the stump portion of interest: Volume = pi * r2 * h, where r = (stump d.i.b.)/2 and h = the length of the stump portion.
+This wood volume was multiplied by the wood specific gravity for the species of interest (Table 4) to determine oven-dry stump wood biomass.
+Stump bark volume was found by difference. We began by using the parameters in Table 8 to predict stump outside bark diameter (d.o.b.) at a point in the middle of the stump portion of interest. We used the standard geometric formula described previously to predict the volume of the entire stump (bark plus wood). We then subtracted the volume of the stump wood only (found using the geometric method described above) from total stump volume to determine the volume of the stump bark only. This volume was multiplied by the specific gravity of bark for the species of interest to determine oven-dry stump bark biomass.
+Stump Diameter Outside Bark
+1. Species group – Species group name corresponding to the equation (see Raile (1982) for a full list of the species included in each group).
+2. Stump volume equation code – The FIA numeric code corresponding to the most common species used to develop the d.o.b. regression equation. See Table 4 for a list of codes and their corresponding species.
+3. Number of trees – The number of trees used to develop the regression.
+4. Min D.B.H. – D.b.h. (in inches) of the smallest tree used to develop the regression.
+
+8
+
+5. Max D.B.H. – D.b.h. (in inches) of the largest tree used to develop the regression.
+6. B – The “species group regression parameter” for the regression equation. The equation form is: Stump d.o.b. = d.b.h. + B*(d.b.h.)*[(4.5 – h)/( h + 1)]
+where stump d.o.b. = diameter outside bark (inches) at height h; B = species group regression parameter from Table 8; h = stump height (feet).
+7. R2 – R2 value for the regression equation fit by Raile (1982) to the data.
+8. SE – Standard error (inches) of the regression.
+Stump Diameter Inside Bark 1. Species group – Species group name corresponding
+to the equation.
+2. A and B – Species group regression parameters for the regression equation. The equation form for the d.i.b. regressions is: Stump d.i.b. = A*d.b.h. + B*d.b.h.*[(4.5 – h)/( h + 1)]
+where stump d.i.b. = diameter inside bark (inches) at height h; A and B are species group regression parameters from Table 9; h = stump height (feet).
+3. R2 – R2 value for the regression equation fit by Raile (1982) to the data.
+4. SE – Standard error (inches) of the regression.
+Table 9. Sources and General Geographic Locations for All Equations 1. Reference number – This number is cross referenced
+to the Source column in Table 3.
+2. Reference – The literature reference (author and date) for the full citation listed in Appendix A.
+3. Origin – Geographic location from which the trees were harvested to develop the original regressions. Where this variable is missing, the original source was unavailable or there was insufficient information in the original literature citation with which to determine the specific location of the harvested trees.
+
+Using the Database
+For clarity, we provide two examples of how one might apply the equations in the database: estimating total foliage biomass for a study plot in Maine, and estimating the potential error associated with using a particular equation for aboveground biomass for Douglas-fir.
+Maine Example
+Choosing appropriate equations
+In this example, we have species and d.b.h. data for diverse tree species on a Maine study plot. We want to quantify the foliage biomass (dry weight, green foliage) for this plot using an allometric approach. In Table 5 we see that Component ID 18 refers to total foliage, while Component ID’s 19 and 20 refer to “new” and “old” foliage, respectively. (For a tree that retains its leaves or needles for more than 1 year, note that new foliage is the current year’s growth while old foliage is growth from the previous year and earlier.) Because we are most interested in the total foliage biomass, we look in the Component ID column in Table 3 for equations that correspond to Component ID 18. There are 295 “total foliage” equations for a variety of species and study sites. Our study plot is in Maine, so we want to use equations from studies conducted in that region. We check Table 9 for the geographic origins of the equations, and we find that several of the total foliage equations were developed from trees harvested in Maine: the equations from Ribe (1973) (ref 130) and Young (1980) (ref 177) probably are the most widely applicable for that state. We note that the Ribe (1973) equations have a fairly limited diameter range (for most of these equations, the minimum diameter is 2.5 cm and the maximum diameter is 15.24 cm) and that the Young (1980) equations were developed from trees harvested over a larger range of diameters. If our trees are small, we might use the Ribe (1973) equations; if our trees are intermediate in size, the Young (1980) equations might be more appropriate. If tree species in our study plot are not represented by either set of references or if our Maine plot is near the New Hampshire border, we may want to use some of the equations developed in New Hampshire, e.g., the Hocker and Earley (1983) (ref 74) or Kinerson and Bartholomew (1977) (ref 86) equations.
+Applying the equations
+Once we have examined the species and size distributions in our study plot to determine consistency with the equations in Table 3 and chosen a set of equations, we must estimate foliage biomass from the d.b.h. data in our study plot. For example, we are using the Ribe
+
+9
+
+Aboveground Biomass (g)
+
+8000000 7000000 6000000 5000000 4000000 3000000 2000000 1000000
+0 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 Diameter at Breast Height (d.b.h.) (cm)
+Figure 2.—Total aboveground biomass as predicted from five allometric regression equations for Douglas-fir.
+
+(1973) equation to calculate biomass for a red maple (Acer rubrum) (FIA species code 316) that is 5 cm d.b.h.
+This equation has Equation Form ID 1. In Table 6, we see that Equation Form ID 1 corresponds to equations with the following form: log10 biomass = a + b * log10(dia)c. We also note that “dia” in the Ribe equation refers to d.b.h. (as listed in the Diameter column in Table 3), and that Units Diameter and Units Biomass for the equation we have chosen (Table 3) are in inches and grams, respectively. Therefore, we must convert our d.b.h. measurement to inches and we recognize that the result will be in grams.
+First, we convert the d.b.h. measurement to inches: 5 cm * (1 inch/ 2.54 cm) = 1.97 inches. To calculate foliage biomass, we apply the equation: log10 biomass = 2.1237 + (1.8015)*(log10(1.97)) = 2.65. Since log10(biomass) = 2.65, to find total foliage biomass for this stem we must back-transform the logarithm to arithmetic units: biomass = 10 , 2.65 or 451 g.
+We would repeat this process for each stem and species for which we want to estimate foliage biomass. To calculate the total foliage biomass on the study plot, we sum the foliage estimates for all the trees present on the plot.
+
+Douglas-Fir Example
+In this example, we want to understand the implications of using a particular equation for predicting Douglas-fir biomass. How would our results be different if we used one equation instead of another? We suggest applying several equations to the same tree or set of trees, and quantifying the differences among the results. For example, sorting Table 3 by Species and Component ID, we see that there are six equations for total aboveground biomass (Component ID 2) for Douglas-fir (species code 202). Also, one of these equations requires estimates of diameter at the root collar (d.r.c.) rather than d.b.h. If we have only d.b.h. data, we would omit this equation from our analysis unless we had a method for predicting d.b.h. from d.r.c. In this example, we would choose the equations from Table 3 that correspond to the diameter range of interest and use all of them to quantify aboveground biomass. The differences can be expressed in terms of percentages (e.g., results from one equation are X% higher than the average of all of the appropriate equations). We also might graph the equations as in Figure 2, with the d.b.h. values on the x axis and the biomass values on the y axis. This allows us to see the differences between the estimates provided by the different equations.
+
+10
+
+Literature Cited
+Baskerville, G. L. 1972. Use of logarithmic regression in the estimation of plant biomass. Canadian Journal of Forestry. 2: 49-53.
+Beauchamp, J. J.; Olson, J. S. 1973. Corrections for bias in regression estimates after logarithmic transformation. Ecology. 54(6): 1403-1407.
+Jenkins, J.; Chojnacky, D.; Heath, L.; Birdsey, R. 2003. National-scale biomass estimators for United States tree species. Forest Science. 49(1): 12-35.
+Markwardt, L. J. 1930. Comparative strength properties of woods grown in the United States. Publ. 158. Washington, DC: U.S. Department of Agriculture.
+Means, J.; Hansen, H.; Koerper, G.; Alaback, P.; Klopsch, M. 1994. Software for computing plant biomass — BIOPAK users guide. Gen. Tech. Rep. PNW-GTR-340. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Research Station.
+Raile, G. 1982. Estimating stump volume. Res. Pap. NC-224. St. Paul, MN: U.S. Department of Agriculture, Forest Service, North Central Forest Experiment Station.
+
+Sprugel, D. G. 1983. Correcting for bias in longtransformed allometric equations. Ecology. 64(1): 209-210.
+Ter-Mikaelian, M.; Korzukhin, M. 1997. Biomass equations for sixty-five North American tree species. Forest Ecology and Management. 97: 1-24.
+Tritton, L. M.; Hornbeck, J. W. 1982. Biomass equations for major tree species of the northeast. Gen. Tech. Rep. NE-69. Broomall, PA: U.S. Department of Agriculture, Forest Service, Northeast Forest Experiment Station.
+U.S. Department of Agriculture. 1974. Wood handbook: wood as an engineering material. Agric. Handb. 72. Washington, DC: U.S. Department of Agriculture.
+Whittaker, R. H.; Marks, P. L. 1975. Methods of assessing terrestrial productivity. In: Primary productivity of the biosphere. New York: SpringerVerlag: 55-118.
+Whittaker, R. H.; Woodwell, G. M. 1968. Dimension and production relations of trees and shrubs in the Brookhaven Forest, New York. Journal of Ecology. 56(1): 1-25.
+
+11
+
+Appendix A. Citation information for equations and data referenced in Tables 3-9, Appendix B.
+Citation numbers in Appendix A are cross referenced with numbers in Source column in Table 3, Appendix B. Note that this bibliography contains both published and unpublished references.
+
+1. Acker, S.; Easter, M. 1994. Unpublished data. Corvallis, OR: Oregon State University Forest Science Department.
+2. Adhikari, B.; Rawat, Y.; Singh, S. 1995. Structure and function of high altitude forests of Central Himalaya. I. Dry matter dynamics. Annals of Botany. 75: 237-248.
+3. Anurag, R.; Srivastava, M.; Raizada, A. 1989. Biomass yield and biomass equations for Populus deltoides Marsh. Indian Journal of Forestry. 12: 5661.
+4. Bajrang, S.; Misra, P.; Singh, B. 1996. Biomass, energy content and fuel-wood properties of Populus deltoides clones raised in North Indian plains. Indian Journal of Forestry. 18: 278-284.
+5. Baldwin, V. J. 1989. Is sapwood area a better predictor of loblolly pine crown biomass than bole diameter? Biomass. 20: 177-185.
+6. Barclay, H.; Pang, P.; Pollard, D. 1986. Aboveground biomass distribution within trees and stands in thinned and fertilized Douglas-fir. Canadian Journal of Forest Research. 16: 438-442.
+7. Barney, R. J.; Van Cleve, K; Schlentner, R. 1978. Biomass distribution and crown characteristics in two Alaskan Picea mariana ecosystems. Canadian Journal of Forest Research. 8: 36-41.
+8. Bartelink, H. 1996. Allometric relationships on biomass and needle area of Douglas-fir. Forest Ecology and Management. 86: 193-203.
+9. Baskerville, G. 1965. Dry-matter production in immature balsam fir stands. Forest Science Monographs 9.
+10. Baskerville, G. 1966. Dry matter production in immature balsam fir stands: roots, lesser vegetation and total stand. Forest Science. 12: 4953.
+11. Bergez, J.; Auclair, D.; Roman-Amat, R. 1988. Biomass production of Sitka spruce early thinnings. Biomass. 16: 107-117.
+12
+
+12. Bickelhaupt, D.; Leaf, A.; Richards, N. 1973. Effect of branching habit on above-ground dry weight estimates of Acer saccharum stands. In: Young, H., ed. IUFRO biomass studies; Nancy, France and Vancouver, BC. Orono, ME: University of Maine, College of Life Sciences and Agriculture: 219-230.
+13. Binkley, D. 1983. Ecosystem production in Douglas-fir plantations: interaction of red alder and site fertility. Forest Ecology and Management. 5: 215-227.
+14. Binkley, D.; Lousier, J.; Cromack, K.J. 1984. Ecosystem effects of Sitka alder in a Douglas-fir plantation. Forest Science 30: 26-35.
+15. Bockheim, J.; Lee, S. 1984. Biomass and net primary production equations for thinned red pine plantations in central Wisconsin. For. Res. Notes 256. Madison, WI: University of Wisconsin, College of Agriculture.
+16. Boerner, R.; Kost, J. 1986. Biomass equations for flowering dogwood, Cornus florida L. Castanea. 51: 153-155.
+17. Bormann, B. 1990. Diameter-based biomass regression models ignore large sapwood-related variation in Sitka spruce. Canadian Journal of Forest Research. 20: 1098-1104.
+18. Brenneman, D. F.; Gardner, W.; Schoenhofen, L.; Marsh, P. 1978. Biomass of species and stands of West Virginia hardwoods. In: Pope, P. ed. Proceedings, central hardwood forest conference II; 1978 November 14-16; West LaFayette, IN. Purdue University: 159-178.
+19. Bridge, J. 1979. Fuelwood production of mixed hardwoods on mesic sites in Rhode Island. Kingston, RI: University of Rhode Island. M.S. thesis.
+20. Briggs, R.; Porter, J.; White, E. 1989. Component biomass equations for Acer rubrum and Fagus grandifolia. Fac. For. Tech. Publ. 4. Syracuse, NY: State University of New York, College of Environmental Science and Forestry.
+
+21. Brown, J. 1978. Weight and density of crowns of Rocky Mountain conifers. Res. Pap. INT-197. Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station.
+22. Bunyavejchewin, S.; Kiratiprayoon, S. 1989. Primary production of plots of five young closespaced fast-growing tree species I. Biomass equations. Natural History Bulletin of the Siam Society. 37: 47-56.
+23. Busing, R.; Clebsch, E.; White, P. 1993. Biomass and production of southern Appalachian cove forests reexamined. Canadian Journal of Forest Research. 23: 760-765.
+24. Campbell, J. S.; Lieffers, V. J.; Pielou, E. C. 1985. Regression equations for estimating single tree biomass of trembling aspen: assessing their applicability to more than one population. Forest Ecology and Management. 11: 283-295.
+25. Carlyle, J.; Malcolm, D. 1986. Biomass and element capital of a 7-year-old lodgepole pine (Pinus contorta Dougl.) stand growing on deep peat. Forest Ecology and Management. 14: 285-291.
+26. Carpenter, E. 1983. Above-ground weights for tamarack in northeastern Minnesota. Res. Pap. NC-245. St. Paul, MN: U.S. Department of Agriculture, Forest Service, North Central Forest Experiment Station.
+27. Carter, M.; White, E. 1971. Dry weight and nutrient accumulation in young stands of cottonwood (Populus deltoides Bartr.). Circ. 190. Auburn, AL: Auburn University Agricultural Experiment Station.
+28. Cassens, D. 1976. Physical characteristics of bark of several delta hardwoods. Wood Util. Note 28. Baton Rouge, LA: Louisiana State University.
+29. Chapman, J.; Gower, S. 1991. Aboveground production and canopy dynamics in sugar maple and red oak trees in southwestern Wisconsin. Canadian Journal of Forest Research. 21: 1533-1543.
+30. Chaturvedi, O.; Singh, J. 1982. Total biomass and biomass production of Pinus roxburghii trees growing in all-aged natural forests. Canadian Journal of Forest Research. 12: 632-640.
+
+31. Chojnacky, D. 1984. Volume and biomass for curlleaf cercocarpus in Nevada. Res. Pap. INT-332. Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station.
+32. Chojnacky, D.; Moisen, G. 1993. Converting wood volume to biomass for pinyon and juniper. Res. Note INT-411. Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Research Station.
+33. Clark, A. I.; Phillips, D.; Frederick, D. 1985. Weight, volume, and physical properties of major hardwood species in the Gulf and Atlantic Coastal Plains. Res. Pap. SE-250. Asheville, NC: U.S. Department of Agriculture, Forest Service, Southeastern Forest Experiment Station.
+34. Clark, A. I.; Phillips, D.; Frederick, D. 1986a. Weight, volume, and physical properties of major hardwood species in the Piedmont. Res. Pap. SE255. Asheville, NC: U.S. Department of Agriculture, Forest Service, Southeastern Forest Experiment Station.
+35. Clark, A. I.; Phillips, D.; Frederick, D. 1986b. Weight, volume, and physical properties of major hardwood species in the Upland South. Res. Pap. SE-257. Asheville, NC: U.S. Department of Agriculture, Forest Service, Southeastern Forest Experiment Station.
+36. Clark, A. I.; Schroeder, J. 1986. Weight, volume, and physical properties of major hardwood species in the southern Appalachian mountains. Res. Pap. SE-153. Asheville, NC: U.S. Department of Agriculture, Forest Service, Southeastern Forest Experiment Station.
+37. Clary, W.; Tiedemann, A. 1987. Fuelwood potential in large-tree Quercus gambelii stands. Western Journal of Applied Forestry. 2: 87-90.
+38. Clebsch, E. 1971. Dry weight of trees and saplings from the Great Smoky Mountains National Park and eastern Tennessee. In: Sollins, P.; Anderson, R., eds. Dry weight and other data for trees and woody shrubs of southeastern United States. Ecol. Sci. Div. Publ. 407. Oak Ridge, TN: Oak Ridge National Laboratory: 15-21.
+39. Cochran, P.; Jennings, J.; Youngberg, C. 1984. Biomass estimators for thinned second-growth Ponderosa pine trees. Res. Note PNW-415.
+
+13
+
+Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station.
+40. Crow, T. 1971. Estimation of biomass in an evenaged stand — regression and “mean tree” techniques. Misc. Rep. 132. Orono, ME: Maine Agricultural Experiment Station: 35-48.
+41. Crow, T. 1976. Biomass and production regressions for trees and woody shrubs common to the Enterprise Forest. In: Zavitkovski, J. ed. The Enterprise radiation forest: Radioecological studies. Rep. TID-26113-P2. Washington, DC: U.S. Energy Research and Development Administration: 63-67.
+42. Crow, T. 1983. Comparing biomass regressions by site and stand age for red maple. Canadian Journal of Forest Research. 13: 283-288.
+43. Darling, M. L. 1967. Structure and productivity of pinyon-juniper woodland in northern Arizona. Durham, NC: Duke University. Ph.D. dissertation.
+44. Dudley, N.; Fownes, J. 1992. Preliminary biomass equations for eight species of fast-growing tropical trees. Journal of Tropical Forest Science. 5: 68-73.
+45. Dunlap, W.; Shipman, R. 1967. Density and weight production of standing white oak, red maple, and red pine. Research Briefs. University Park, PA: Pennsylvania State University, School of Forest Resources.
+46. Erickson, J. 1972. The moisture content and specific gravity of the bark and wood of northern pulpwood species. Res. Note NC-141. St. Paul, MN: U.S. Department of Agriculture, Forest Service, North Central Forest Experiment Station.
+47. Espinosa-Bancalari, M.; Perry, D. 1987. Distribution and increment of biomass in adjacent young Douglas-fir stands with different early growth rates. Canadian Journal of Forest Research. 17: 722-730.
+48. Fassnacht, K. 1996. Characterization of the structure and function of upland forest ecosystems in north central Wisconsin. Madison, WI: University of Wisconsin. Ph.D. dissertation.
+49. Felker, P.; Clark, P.; Osborn, J.; Cannell, G. 1982. Biomass estimation in a young stand of mesquite (Prosopis spp.), ironwood (Olneya tesota), palo
+
+verde (Cercidium floridium and Parkinsonia aculeata), and leucaena (Leucaena leucocephala). Journal of Range Management. 35: 87-89.
+50. Feller, M. 1992. Generalized versus site-specific biomass regression equations for Pseudotsuga menziesii var. menziesii and Thuja plicata in coastal British Columbia. Bioresource Technology. 39: 9-16.
+51. Freedman, B. 1984. The relationship between the aboveground dry weight and diameter for a wide size range of erect land plants. Canadian Journal of Botany. 62: 2370-2374.
+52. Freedman, B.; Duinker, P.; Barclay, H.; Morash, R.; Prager, U. 1982. Forest biomass and nutrient studies in central Nova Scotia. Inf. Rep. M-X-134. Fredericton, Nova Scotia: Canadian Forestry Service, Maritimes Forest Research Centre.
+53. Gary, H. L. 1976. Crown structure and distribution of biomass in a lodgepole pine stand. Res. Pap. RM-165. Fort Collins, CO: U.S. Department of Agriculture, Forest Service, Rocky Mountain Forest and Range Experiment Station.
+54. Gholz, H. 1980. Structure and productivity of Juniperus occidentalis in central Oregon. American Midland Naturalist. 103: 251-261.
+55. Gholz, H.; Vogel, S.; Cropper, W. J.; McKelvey, K.; Ewel, C. 1991. Dynamics of canopy structure and light interception in Pinus elliotii stands, north Florida. Ecological Monographs. 6: 33-51.
+56. Gholz, H. L.; Grier, C. C.; Campbell, A. G.; Brown, A. T. 1979. Equations for estimating biomass and leaf area of plants in the Pacific Northwest. Res. Pap. 41. Corvallis, OR: Oregon State University, School of Forestry.
+57. Goldsmith, L.; Hocker, H. 1978. Preliminary small-tree aboveground biomass tables for five northern hardwoods Res. Rep. 68. Durham, NH: University of New Hampshire Agricultural Experiment Station.
+58. Gower, S.; Grier, C.; Vogt, D.; Vogt, K. 1987. Allometric relations of deciduous (Larix occidentalis) and evergreen conifers (Pinus contorta and Pseudotsuga menziesii) of the Cascade Mountains in central Washington. Canadian Journal of Forest Research. 17: 630-634.
+
+14
+
+59. Gower, S.; Haynes, B.; Fassnacht, K.; Running, S.; Hunt, E. J. 1993a. Influence of fertilization on the allometric relations for two pines in contrasting environments. Canadian Journal of Forest Research. 23: 1704-1711.
+60. Gower, S. T.; Reich, P. B.; Son, Y. 1993b. Canopy dynamics and aboveground production of five tree species with different leaf longevities. Tree Physiology. 12: 327-345.
+61. Gower, S. T.; Vogt, K. A.; Grier, C. C. 1992. Carbon dynamics of Rocky Mountain Douglasfir: influence of water and nutrient availability. Ecological Monographs. 62: 43-65.
+62. Green, D.; Grigal, D. 1978. Generalized biomass estimation equations for jack pine. Res. Note 268. St. Paul, MN: University of Minnesota, College of Forestry.
+63. Grier, C.; Elliott, K.; McCullough, D. 1992. Biomass distribution and productivity of Pinus edulis-Juniperus monosperma woodlands of north-central Arizona. Forest Ecology and Management. 50: 331-350.
+64. Grier, C.; Lee, K.; Archibald, R. 1984. Effect of urea fertilization on allometric relations in young Douglas-fir trees. Canadian Journal of Forest Research. 14: 900-904.
+65. Grier, C. C.; Logan, R. S. 1977. Old-growth Pseudotsuga menziesii communities of a western Oregon watershed: biomass distribution and production budgets. Ecological Monographs. 47: 373-400.
+66. Grigal, D.; Kernik, L. 1978. Biomass estimation equations for black spruce (Picea mariana (Mill. (B.S.P.))) trees. Res. Note 290. St. Paul, MN: University of Minnesota, College of Forestry.
+67. Harding, R. B.; Grigal, D. F. 1985. Individual tree biomass estimation equations for plantationgrown white spruce in northern Minnesota. Canadian Journal of Forest Research. 15: 738-739.
+68. Harmon, M. 1994. Unpublished equations. Corvallis, OR: Oregon State University, Forest Science Department.
+69. Harrington, T.; Tappeiner, J. I.; Walstad, J. 1984. Predicting leaf area and biomass of 1- to 6-yearold tanoak (Lithocarpus densiflorus) and Pacific
+
+madrone (Arbutus menziesii) sprout clumps in southwestern Oregon. Canadian Journal of Forest Research. 14: 209-213.
+70. Harris, W.; Goldstein, R.; Henderson, G. 1973. Analysis of forest biomass pools, annual primary production and turnover of biomass for a mixed deciduous forest watershed. In: Young, H., ed. IUFRO biomass studies, Nancy, France and Vancouver, BC. Orono, ME: University of Maine, College of Life Sciences and Agriculture: 41-64.
+71. Hegyi, F. 1972. Dry matter distribution in jack pine stands in northern Ontario. Forestry Chronicle. 48: 193-197.
+72. Helgerson, O.; Cromack, K.; Stafford, S.; Miller, R.; Slagle, R. 1988. Equations for estimating aboveground components of young Douglas-fir and red alder in a coastal Oregon plantation. Canadian Journal of Forest Research. 18: 1082-1085.
+73. Heth, D.; Donald, D. 1978. Root biomass of Pinus radiata D. Don. South African Forestry Journal. 107: 60-70.
+74. Hocker, H. W.; Early, D. J. 1983. Biomass and leaf area equations for northern forest species. Res. Pap. 102. Durham, NH: University of New Hampshire Agricultural Experiment Station.
+75. Honer, T. 1971. Weight relationships in open- and forest-grown balsam fir trees. In: Young, H., ed. IUFRO biomass studies, Nancy, France and Vancouver, BC. Orono, ME: University of Maine, College of Life Sciences and Agriculture: 65-78.
+76. Ivask, M.; Lohmus, K.; Rasta, E. 1988. Belowground tree productivity of a Norway spruce forest: a preliminary report. In: Plant roots and their environment. Proceedings of an ISRR symposium; 1988 August 21-26; Uppsala, Sweden.
+77. Jackson, D.; Chittenden, J. 1981. Estimation of dry matter in Pinus radiata root systems. I. Individual trees. New Zealand Journal of Forestry Science. 11: 164-182.
+78. Johnston, R.; Bartos, D. 1977. Summary of nutrient and biomass data from two aspen sites in western United States. Res. Pap. INT-227. Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Research Station.
+
+15
+
+79. Jokela, E.; Shannon, C.; White, E. 1981. Biomass and nutrient equations for mature Betula papyrifera Marsh. Canadian Journal of Forest Research. 11: 298-304.
+80. Jokela, E. J.; Van Gurp, K. P.; Briggs, R. D.; White, E. H. 1986. Biomass estimation equations for Norway spruce in New York. Canadian Journal of Forest Research. 16: 413-415.
+81. Ker, M. 1980a. Tree biomass equations for seven species in southwestern New Brunswick. Inf. Rep. No. M-X-114. Fredericton, NS: Canadian Forestry Service, Maritime Forest Research Center.
+82. Ker, M. 1980b. Tree biomass equations for ten major species in Cumberland County, Nova Scotia. Inf. Rep. M-X-108. Fredericton, NS: Canadian Forestry Service, Maritime Forest Research Center.
+83. Ker, M. 1984. Biomass equations for seven major maritimes tree species. Inf. Rep. M-X-148. Fredericton, NS: Canadian Forestry Service, Maritime Forest Research Center.
+84. Ker, M.; van Raalte, G. 1981. Tree biomass equations for Abies balsamea and Picea glauca in northwestern New Brunswick. Canadian Journal of Forest Research. 11: 13-17.
+85. Kimmins, J. 1973. Nutrient removal associated with whole-tree logging on two different sites in the Prince George Forest District. Unpublished report submitted to BCFS Productivity Committee. Prince George: British Columbia Forest Service.
+86. Kinerson, A.; Bartholomew, I. 1977. Biomass estimation equations and nutrient composition of white pine, white birch, red maple, and red oak in New Hampshire. Res. Rep. 62. Durham, NH: University of New Hampshire Agricultural Experiment Station.
+87. King; Schnell, R. 1972. Biomass estimates of black oak tree components. Tech. Note B1. Norris, TN: Tennessee Valley Authority, Division of Forestry, Fisheries, and Wildlife Development.
+88. Klopsch, M. 1994. Unpublished data. Corvallis, OR: Oregon State University, Forest Science Department.
+89. Koerper, G. 1994. Unpublished data. Corvallis, OR: Oregon State University, Forest Science Department.
+
+90. Koerper, G.; Richardson, C. 1980. Biomass and net annual primary production regressions for Populus grandidentata on three sites in northern lower Michigan. Canadian Journal of Forest Research. 10: 92-101.
+91. Krumlik, G. J.; Kimmins, J. P. 1973. Studies of biomass distribution and tree form in old virgin forests in the mountains of south coastal British Columbia, Canada. In: Young, H., ed. IUFRO biomass studies, Nancy, France and Vancouver, BC. Orono, ME: University of Maine, College of Life Sciences and Agriculture: 363-374.
+92. Krumlik, J. G. 1974. Biomass and nutrient distribution in two old growth forest ecosystems in south coastal British Columbia. Vancouver, BC: University of British Columbia. M.S. thesis.
+93. Lai, Z.; Sajdak, R. L.; Mroz, G. D.; Jurgensen, M. F.; Schwandt, D. L. 1980. Wood and bark specific gravity determination as affected by water soluble extractives loss. Wood Science. 31: 47-49.
+94. Lamb, F.; Marden, R. 1968. Bark specific gravities of selected Minnesota tree species. Forest Products Journal. 18: 76-82.
+95. Landis, T.; Mogren, E. 1975. Tree strata biomass of subalpine spruce-fir stands in southwestern Colorado. Forest Science. 21: 9-12.
+96. Lieffers, V.; Campbell, J. 1984. Biomass and growth of Populus tremuloides in northeastern Alberta: estimates using hierarchy in tree size. Canadian Journal of Forest Research. 14: 610-616.
+97. Lodhiyal, L.; Singh, R.; Singh, S. 1995. Structure and function of an age series of poplar plantations in central Himalaya: I. Dry matter dynamics. Annals of Botany. 76: 191-199.
+98. Loomis, R.; Phares, R.; Crosby, J. 1966. Estimating foliage and branchwood quantities in shortleaf pine. Forest Science. 12: 30-39.
+99. Lovenstein, H.; Berliner, P. 1993. Biometric relationships for non-destructive above ground biomass estimations in young plantations of Acacia salicina Lindl. and Eucalyptus occidentalis Endl. New Forests. 7: 255-273.
+100. MacLean, D. A.; Wein, R. W. 1976. Biomass of jack pine and mixed hardwood stands in
+
+16
+
+northeastern New Brunswick. Canadian Journal of Forest Research. 6: 441-447.
+101. Marshall, P. L.; Wang, Y. 1995. Above ground tree biomass of interior uneven-aged Douglas-fir stands. Work. Pap. WP-1.5-003. Vancouver, BC: University of British Columbia.
+102. Martin, J.; Kloeppel, B.; Schaefer, T.; Kimbler, D.; McNulty, S. 1998. Aboveground biomass and nitrogen allocation of ten deciduous southern Appalachian tree species. Canadian Journal of Forest Research. 28: 1648-1659.
+103. McCain, C. 1994. Unpublished equations. Corvallis, OR: Oregon State University Forest Science Department.
+104. Means, J.; Hansen, H.; Koerper, G.; Alaback, P.; Klopsch, M. 1994. Software for computing plant biomass — BIOPAK users guide. Gen. Tech. Rep. PNW-GTR-340. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Research Station.
+105. Miller, E.; Meeuwig, R.; Budy, J. 1981. Biomass of singleleaf pinyon and Utah juniper. Res. Pap. INT273. Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station.
+106. Monk, C.; Child, G.; Nicholson, S. 1970. Biomass, litter and leaf surface area estimates of an oak-hickory forest. Oikos. 21: 138-141.
+107. Monteith, D. 1979. Whole tree weight tables for New York. AFRI Res. Rep. 40. Syracuse, NY: State University of New York, College of Environmental Science and Forestry, Applied Forestry Research Institute.
+108. Moore, T. R.; Verspoor, E. 1973. Aboveground biomass of black spruce stands in subarctic Quebec. Canadian Journal of Forest Research. 3: 596-598.
+109. Morrison, I. 1990. Organic matter and mineral distribution in an old-growth Acer saccharum forest near the northern limit of its range. Canadian Journal of Forest Research. 20: 1332-1342.
+110. Naidu, S.; DeLucia, E.; Thomas, R. 1998. Contrasting patterns of biomass allocation in dominant and suppressed loblolly pine. Canadian Journal of Forest Research. 28: 1116-1124.
+
+111. Nelson, L.; Switzer, G. 1975. Estimating weights of loblolly pine trees and their components in natural stands and plantations in central Mississippi. Technical Bulletin 73. Mississippi State, MS: Mississippi Agricultural and Forestry Experiment Station.
+112. Ouellet, D. 1983. Biomass equations for black spruce in Quebec. Inf. Rep. LAU-X-60E. Canadian Forestry Service, Laurentian Forest Research Centre.
+113. Parker, G.; Schneider, G. 1975. Biomass and productivity of an alder swamp in northern Michigan. Canadian Journal of Forest Research. 5: 403-409.
+114. Pastor, J.; Aber, J. D.; Melillo, J. M. 1984. Biomass prediction using generalized allometric regressions for some northeast tree species. Forest Ecology and Management. 7: 265-274.
+115. Pastor, J.; Bockheim, J. 1981. Biomass and production of an aspen-mixed hardwood-spodosol ecosystem in northern Wisconsin. Canadian Journal of Forest Research. 11: 132-138.
+116. Pearson, J.; Fahey, T.; Knight, D. 1984. Biomass and leaf area in contrasting lodgepole pine forests. Canadian Journal of Forest Research. 14: 259-265.
+117. Perala, D. A.; Alban, D. H. 1994. Allometric biomass estimators for aspen-dominated ecosystems in the upper Great Lakes. Res. Pap. NC-314. St. Paul, MN: U.S. Department of Agriculture, Forest Service, North Central Forest Experiment Station.
+118. Peterson, E. B.; Chan, Y. H.; Cragg, J. B. 1970. Aboveground standing crop, leaf area, and caloric value in an aspen clone near Calgary, Alberta. Canadian Journal of Botany. 48: 1459-1469.
+119. Phillips, D. 1981. Predicted total-tree biomass of understory hardwoods. Res. Pap. SE-223. Asheville, NC: U.S. Department of Agriculture, Forest Service, Southeastern Forest Experiment Station.
+120. Pollard, D. 1972. Above-ground dry matter production in three stands of trembling aspen. Canadian Journal of Forest Research. 2: 27-33.
+121. Rajeev, M.; Bankhwal, D.; Pacholi, R.; Singh, V.; Mishra, R. 1998. Biomass status of mixed dry
+
+17
+
+deciduous forest of Shiwalik Hills in Haryana. Indian Forester. 124: 287-291.
+122. Ralston, C. 1973. Annual primary productivity in a loblolly pine plantation. In: IUFRO biomass studies, proceedings of the working party of the mensuration of the forest biomass. 1973 August 2024. IUFRO: Vancouver, BC, Canada: 105-117.
+123. Ralston, C.; Prince, A. 1965. Accumulation of dry matter and nutrients by pine and hardwood forests in the lower Piedmont of North Carolina. In: Forest-soil relationships in North America. Corvallis, OR: Oregon State University Press: 77-94.
+124. Ramseur, G. S.; Kelly, J. M. 1981. Forest characterization and biomass estimates for two sites on the Cumberland Plateau. Journal of the Tennessee Academy of Science. 56: 99-104.
+125. Rawat, Y.; Singh, R. 1993. Biomass, net primary production and nutrient cycling in Quercus leucotrichophora forest in the central Himalayas. Advances in Forestry Research in India. 8: 192-233.
+126. Reid, C.; Odegard, J.; Hokenstrom, C.; McConel, W.; Frayer, W. 1974. Effects of clearcutting on nutrient cycling in lodgepole pine forests. Res. Pap. Fort Collins, CO: Colorado State University, College of Forest and Natural Resources.
+127. Reiners, W. A. 1972. Structure and energetics of three Minnesota forests. Ecological Monographs. 42: 71-94.
+128. Rencz, A. N.; Auclair, A. N. 1980. Dimension analysis of various components of black spruce in subarctic lichen woodland. Canadian Journal of Forest Research. 10: 491-497.
+129. Reynolds, P.; Carlson, K.; Fromm, T.; Gigliello, K.; Kaminski, R. 1978. Phytosociology, biomass, productivity and nutrient budget for the tree stratum of a southern New Jersey hardwood swamp. In: Pope, P., ed. Proceedings, central hardwood forest conference II; 1978 November 1416. West LaFayette, IN: Purdue University: 123-139.
+130. Ribe, J. 1973. Puckerbrush weight tables. Misc. Rep. 152. Orono, ME: University of Maine, Life Sciences and Agriculture Experiment Station.
+131. Rogerson, T. 1964. Estimating foliage on loblolly pine. Res. Note SO-16. New Orleans, LA: U.S.
+
+Department of Agriculture, Forest Service, Southern Forest Experiment Station.
+132. Rolfe, G.; Akhtar, M.; Arnold, L. 1978. Nutrient distribution and flux in a mature oak-hickory forest. Forest Science. 41: 122-130.
+133. Ruark, G. A.; Bockheim, J. G. 1988. Biomass, net primary production, and nutrient distribution for an age sequence of Populus tremuloides ecosystems. Canadian Journal of Forest Research. 18: 435-443.
+134. Ruark, G. A.; Martin, G. L.; Bockheim, J. G. 1987. Comparison of constant and variable allometric ratios for estimating Populus tremuloides biomass. Forest Science. 33: 294-300.
+135. Sachs, D. 1984. Management effects on nitrogen nutrition and long-term productivity of western hemlock stands. Corvallis, OR: Oregon State University. M.S. thesis.
+136. Santantonio, D.; Hermann, R.; Overton, W. S. 1977. Root biomass studies in forest ecosystems. Ped.o.b.iologia. 17: 1-31.
+137. Schmitt, M. D. C.; Grigal, D. F. 1981. Generalized biomass estimation equations for Betula papyrifera Marsh. Canadian Journal of Forest Research. 11: 837-840.
+138. Schnell, R. 1976. Biomass estimates of eastern redcedar tree components. Tech. Note B15. Norris, TN: Tennessee Valley Authority, Division of Forestry, Fisheries and Wildlife Development.
+139. Schnell, R. 1978. Biomass estimates of hickory tree components. Tech. Note B30. Norris, TN: Tennessee Valley Authority, Division of Forestry, Fisheries and Wildlife Development.
+140. Schroeder, P.; Brown, S.; Mo, J.; Birdsey, R.; Cieszewski, C. 1997. Biomass estimation for temperate broadleaf forests of the United States using inventory data. Forest Science. 43: 424-434.
+141. Schubert, T.; Strand, R.; Cole, T.; McDuffie, K. 1988. Equations for predicting biomass of six introduced subtropical tree species, Island of Hawaii. Res. Note PSW-401. Albany, CA: U.S. Department of Agriculture, Forest Service, Pacific Southwest Forest and Range Experiment Station.
+
+18
+
+142. Siccama, T. G.; Hamburg, S. P.; Arthur, M. A.; Yanai, R. D.; Bormann, F. H.; Likens, G. E. 1994. Corrections to allometric equations and plant tissue chemistry for Hubbard Brook Experimental Forest. Ecology. 75: 246-248.
+143. Singh, T. 1984. Biomass equations for six major tree species of the Northwest Territories. Inf. Rep. NOR-X-257. Edmonton, AB: Canadian Forestry Service, Northern Forest Research Centre.
+144. Singh, K. P.; Misra, R. 1979. Structure and function of natural, modified, and silvicultural ecosystems in Uttar Pradesh. Varanasi: Final Tech Report (1975-1978) Man and the Biosphere (MAB) Research Project.
+145. Smith, J.; Kozak, A. 1971. Thickness, moisture content, and specific gravity of inner and outer bark of some Pacific Northwest trees. Forest Products Journal. 21: 38-40.
+146. Snell, J.; Little, S. 1983. Predicting crown weight and bole volume of five western hardwoods. Gen. Tech. Rep. PNW-151. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station.
+147. Snell, J.; Max, T. 1985. Estimating the weight of crown segments for old-growth Douglas-fir and western hemlock. Res. Pap. PNW-329. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station.
+148. Sollins, P.; Anderson, R. 1971. Dry-weight and other data for trees and woody shrubs of the southeastern United States. Ecol. Sci. Publ. 407. Oak Ridge, TN: Oak Ridge National Laboratory.
+149. Sollins, P.; Reichle, D. E.; Olson, J. S. 1973. Organic matter budget and model for a southern Appalachian Liriodendron forest. Publ. EDFBIBP-73-2. Oak Ridge, TN: Oak Ridge National Laboratory.
+150. St. Clair, J. B. 1993. Family differences in equations for predicting biomass and leaf area in Douglas-fir (Pseudotsuga menziesii var. menziesii). Forest Science. 39: 743-755.
+151. Standish, J.; Manning, G.; Demaerschalk, J. 1985. Development of biomass equations for British Columbia tree species. Inf. Rep. BC-X-264.
+
+Victoria, BC: Canadian Forestry Service, Pacific Forest Research Centre.
+152. Stanek, W.; State, D. 1978. Equations predicting primary productivity (biomass) of trees, shrubs and lesser vegetation based on current literature. Inf. Rep. BC-X 183. Victoria, BC: Canadian Forestry Service, Pacific Forest Research Centre.
+153. Swank, W. T.; Schreuder, H. T. 1974. Comparison of three methods of estimating surface area and biomass for a forest of young eastern white pine. Forest Science. 20: 91-100.
+154. Tandon, V.; Pande, M.; Rai, L.; Rawat, H. 1988. Biomass production and its distribution by Acacia nilotica plantations at five different ages in Haryana. Indian Forester. 114: 770-775.
+155. Telfer, E. S. 1969. Weight-diameter relationships for 22 woody plant species. Canadian Journal of Botany. 47: 1851-1855.
+156. Teller, A. 1988. Biomass productivity and wood waste evaluation in a spruce (Picea abies) forest (Strainchamps 1983). Commonwealth Forestry Review. 67: 129-139.
+157. Ter-Mikaelian, M.; Korzukhin, M. 1997. Biomass equations for sixty-five North American tree species. Forest Ecology and Management. 97: 1-24.
+158. Thies, W. G.; Cunningham, P. G. 1996. Estimating large-root biomass from stump and breast-height diameters for Douglas fir in western Oregon. Canadian Journal of Forest Research. 26: 237-243.
+159. Tritton, L. M.; Hornbeck, J. W. 1982. Biomass equations for major tree species of the northeast. Gen. Tech. Rep. NE-69. Broomall, PA: U.S. Department of Agriculture, Forest Service, Northeastern Forest Experiment Station.
+160. Tuskan, G.; Rensema, T. 1992. Clonal differences in biomass characteristics, coppice ability, and biomass prediction equations among four Populus clones grown in eastern North Dakota. Canadian Journal of Forest Research. 22: 348-354.
+161. van Laar, A. 1982. Sampling for above-ground biomass for Pinus radiata in the Bosboukloof catchment at Jonkershoek. South African Forestry Journal. 123: 8-13.
+
+19
+
+162. Van Lear, D.; Waide, J.; Teuke, M. 1984. Biomass and nutrient content of a 41-year-old loblolly pine (Pinus taeda L.) plantation on a poor site in South Carolina. Forest Science. 30: 395-404.
+163. Vertanen, A.; Johansson, S.; Kaarakka, V.; Sarajarvi, I.; Sarkeala, J.; Kaarakka, V. 1994. Biomass equations for Acacia reficiens, Acacia zanzibarica and Prosopis juliflora, and volume equations for Eucalyptus camaldulensis and Terminalia brownii. East African Agricultural and Forestry Journal. 58: 13-21.
+164. Wade, D. 1969. Estimating slash quantity from standing loblolly pine. Res. Note SE-125. Asheville, NC: U.S. Department of Agriculture, Forest Service, Southeastern Forest Experiment Station.
+165. Wang, J.; Zhong, A.; Comeau, P.; Tsze, M.; Kimmins, J. 1995. Aboveground biomass and nutrient accumulation in an age sequence of aspen (Populus tremuloides) stands in the boreal white and black spruce zone, British Columbia. Forest Ecology and Management. 78(1-3): 127-138.
+166. Wang, J. R.; Zhong, A. L.; Simard, S. W.; Kimmins, J. P. 1996. Aboveground biomass and nutrient accumulation in an age sequence of paper birch (Betula papyrifera) in the Interior Cedar Hemlock Zone, British Columbia. Forest Ecology and Management. 83: 27-38.
+167. Waring, R.; Emmingham, W.; Gholz, H.; Grier, C. 1978. Variation in maximum leaf area of coniferous forests in Oregon and its ecological significance. Forest Science. 24: 131-140.
+168. Wartluft, J. L. 1977. Weights of small Appalachian hardwood trees and components. Res. Pap. NE-366. Upper Darby, PA: U.S. Department of Agriculture, Forest Service, Northeastern Forest Experiment Station.
+169. Watson, A.; O’Loughlin, C. 1990. Structural root morphology and biomass of three age-classes of
+
+Pinus radiata. New Zealand Journal of Forestry Science. 20: 97-110.
+170. Weetman, G. F.; Harland, R. 1964. Foliage and wood production in unthinned black spruce in northern Quebec. Forest Science. 10: 80-88.
+171. Westman, W. 1987. Aboveground biomass, surface area, and production relations of red fir (Abies magnifica) and white fir (A. concolor). Canadian Journal of Forest Research. 17: 311-319.
+172. Whittaker, R. H.; Bormann, F. H.; Likens, G. E.; Siccama, T. G. 1974. The Hubbard Brook Ecosystem Study: forest biomass and production. Ecological Monographs. 44: 233-254.
+173. Whittaker, R. H.; Niering, W. A. 1975. Vegetation of the Santa Catalina Mountains, Arizona. V. Biomass, production, and diversity along the elevation gradient. Ecology. 56: 771-790.
+174. Whittaker, R. H.; Woodwell, G. M. 1968. Dimension and production relations of trees and shrubs in the Brookhaven Forest, New York. Journal of Ecology. 56: 1-25.
+175. Wiant, H. V., Jr.; Sheetz, C.; Colaninno, A.; DeMoss, J.; Castaneda, F. 1977. Tables and procedures for estimating weights of some Appalachian hardwoods. Bull. 659T. Morgantown, WV: West Virginia University Agricultural and Forestry Experiment Station.
+176. Williams, R. A.; McClenahen, J. R. 1984. Biomass prediction equations for seedlings, sprouts, and saplings of ten central hardwood species. Forest Science. 30: 523-527.
+177. Young, H. E.; Ribe, J. H.; Wainwright, K. 1980. Weight tables for tree and shrub species in Maine. Misc. Rep. 230. Orono, ME: University of Maine, Life Sciences and Agriculture Experiment Station.
+
+20
+
+22
+
+Table 3.—Equations and parameters for diameter-based biomass equations (first 10 pages only; complete version is available online)
+
+Species 0
+
+Common name eastern conifers
+
+Component ID Equation form ID
+
+a
+
+2
+
+7
+
+0.5
+
+b 15000
+
+c
+
+d
+
+e Diameter Corrected for bias Bias correction (CF) r
+
+R2
+
+2.7
+
+364946
+
+d.b.h.
+
+no
+
+0
+
+0
+
+0.98
+
+0
+
+softwoods (general)
+
+3
+
+0
+
+softwoods (general)
+
+3
+
+0
+
+softwoods (general)
+
+6
+
+0
+
+softwoods (general)
+
+6
+
+0
+
+softwoods (general)
+
+6
+
+1
+
+-1.01
+
+2.41
+
+1
+
+d.b.h.
+
+no
+
+4
+
+4.5966
+
+-0.2364
+
+0.00411
+
+2
+
+d.b.h.
+
+no
+
+4
+
+4.142
+
+-0.227
+
+0.003
+
+2
+
+d.b.h.
+
+no
+
+4
+
+-6.221
+
+-0.227
+
+0.003
+
+2
+
+d.b.h.
+
+no
+
+2
+
+-3.787
+
+0
+
+2.767
+
+1
+
+d.b.h.
+
+yes
+
+0
+
+0
+
+0.99
+
+0
+
+0
+
+0.96
+
+0
+
+0
+
+0.97
+
+0
+
+0
+
+0.97
+
+1.08
+
+0
+
+0.96
+
+0
+
+softwoods (general)
+
+13
+
+0
+
+softwoods (general)
+
+18
+
+0
+
+softwoods (general)
+
+18
+
+10
+
+fir sp.
+
+4
+
+10
+
+fir sp.
+
+5
+
+10
+
+fir sp.
+
+8
+
+10
+
+fir sp.
+
+18
+
+11
+
+Pacific silver fir
+
+3
+
+11
+
+Pacific silver fir
+
+3
+
+11
+
+Pacific silver fir
+
+4
+
+11
+
+Pacific silver fir
+
+4
+
+11
+
+Pacific silver fir
+
+4
+
+11
+
+Pacific silver fir
+
+4
+
+11
+
+Pacific silver fir
+
+4
+
+11
+
+Pacific silver fir
+
+4
+
+2
+
+-3.461
+
+0
+
+2.292
+
+1
+
+d.b.h.
+
+yes
+
+4
+
+4.597
+
+-0.236
+
+0.004
+
+2
+
+-2.907
+
+0
+
+1.674
+
+2
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+yes
+
+2
+
+-3.7389
+
+0
+
+2.6825
+
+1
+
+d.b.h.
+
+yes
+
+2
+
+-6.1918
+
+0
+
+2.8796
+
+1
+
+d.b.h.
+
+yes
+
+2
+
+-4.8287
+
+0
+
+2.5585
+
+1
+
+d.b.h.
+
+yes
+
+2
+
+-3.4662
+
+0
+
+1.9287
+
+1
+
+d.b.h.
+
+yes
+
+4
+
+-2029.05
+
+6775.64
+
+0
+
+0
+
+d.b.h.
+
+no
+
+1
+
+3.779
+
+2.473
+
+0
+
+d.b.h.
+
+no
+
+2
+
+-3.5057
+
+0
+
+2.5744
+
+1
+
+d.b.h.
+
+yes
+
+4
+
+-1467.72
+
+4769.21
+
+0
+
+0
+
+d.b.h.
+
+no
+
+1
+
+3.636
+
+2.618
+
+0
+
+d.b.h.
+
+no
+
+2
+
+-10.0897
+
+0
+
+2
+
+-9.69116
+
+0
+
+2
+
+-10.7366
+
+0
+
+2.5942
+
+1
+
+d.b.h.
+
+no
+
+2.497
+
+1
+
+d.b.h.
+
+no
+
+2.7623
+
+1
+
+d.b.h.
+
+no
+
+1.26
+
+0
+
+0.95
+
+0
+
+0
+
+0.96
+
+1.34
+
+0
+
+0.91
+
+0
+
+0
+
+0.97
+
+0
+
+0
+
+0.98
+
+0
+
+0
+
+0.95
+
+0
+
+0
+
+0.94
+
+0
+
+0
+
+0.98
+
+0
+
+0
+
+0.99
+
+0
+
+0
+
+0.99
+
+0
+
+0
+
+0.97
+
+0
+
+0
+
+0.99
+
+0
+
+0
+
+0.946
+
+0
+
+0
+
+0.932
+
+0
+
+0
+
+0.973
+
+23
+
+MinDiameter 1.00 0.80 2.50
+12.50 12.50
+1.00
+1.00
+12.50 1.00
+8.7 8.7 8.7 8.7 31.00
+31.00 11.7 31.00
+31.00 8.1 8.1
+13.3
+
+Sample Stump MaxDiameter size height
+
+72.00
+
+83
+
+0
+
+34.10 25.00 55.00 55.00 60.00
+
+108
+
+6
+
+131
+
+12
+
+131
+
+12
+
+131
+
+12
+
+51
+
+6
+
+60.00
+55.00 60.00
+111.0 111.0 111.0 111.0 90.40
+90.40 90.4 90.40
+90.40 109.3 109.3
+80.0
+
+51
+
+131
+
+12
+
+65
+
+20
+
+6
+
+20
+
+6
+
+26
+
+25
+
+7
+
+12
+
+7
+
+12
+
+14
+
+6
+
+7
+
+12
+
+7
+
+12
+
+143
+
+6
+
+75
+
+6
+
+68
+
+6
+
+Top d.o.b.
+0 4 0
+0
+0 0
+0 1 1 0 0 0
+
+Units
+
+Units
+
+diameter biomass Component
+
+cm
+
+kg
+
+na
+
+cm
+
+kg
+
+na
+
+mm
+
+kg
+
+na
+
+mm
+
+kg
+
+na
+
+mm
+
+kg
+
+na
+
+cm
+
+kg
+
+na
+
+cm
+
+kg
+
+na
+
+mm
+
+kg
+
+na
+
+cm
+
+kg
+
+na
+
+cm
+
+kg
+
+na
+
+cm
+
+kg
+
+na
+
+cm
+
+kg
+
+na
+
+cm
+
+kg
+
+fl
+
+cm
+
+kg
+
+agm
+
+cm
+
+kg
+
+agm
+
+cm
+
+kg
+
+na
+
+cm
+
+kg
+
+na
+
+cm
+
+kg
+
+na
+
+cm
+
+Mg
+
+na
+
+cm
+
+Mg
+
+na
+
+cm
+
+Mg
+
+na
+
+Component Ratio Segmented
+
+sum
+
+equation equation
+
+a
+
+t t t
+
+a
+
+Equation number Source Notes
+
+1
+
+140 assume 0-inch stump height, but data from
+
+other studies so stump heights are probably
+
+mixed; 43 pine, 30 spruce, 10 fir
+
+1
+
+51 no stump height; tree data also used for ref 52
+
+1
+
+107 12-inch stump
+
+1
+
+107 12-inch stump including entire bole (no branches)
+
+1
+
+107 12-inch stump to 10 cm (4-inch) top
+
+1
+
+149 some tree data points may overlap with ref 23
+
+because data sources were from same
+
+compilation; assume 6-inch stump; bias
+
+correction described as “K”; d.b.h. range
+
+estimates from text
+
+1
+
+149 some tree data points may overlap with ref 23
+
+because data sources were from same
+
+compilation; bias correction described as “K”;
+
+d.b.h. range estimates from text
+
+1
+
+107 12-inch stump aboveground (whole tree including
+
+branches and foliage)
+
+1
+
+149 some tree data points may overlap with ref 23
+
+because data sources were from same
+
+compilation; bias correction described as “K”;
+
+d.b.h. range estimates from text
+
+1
+
+55 includes data from published and unpublished
+
+sources, as well as original work; coefficients
+
+corrected for bias; assume 6-inch stump
+
+1
+
+55 includes data from published and unpublished
+
+sources, as well as original work; coefficients
+
+corrected for bias; assume 6-inch stump
+
+1
+
+55 includes data from published and unpublished
+
+sources, as well as original work; coefficients
+
+corrected for bias
+
+1
+
+55 equation originally from ref 166; coefficients
+
+corrected for bias in ref 55
+
+1
+
+91 logarithmic equation also presented based on the
+
+same data; equations presented here do not
+
+require additional variables (additional equations
+
+in original reference)
+
+1
+
+91 equations presented here do not require
+
+additional variables (additional equations in
+
+original reference)
+
+1
+
+55 includes data from published and unpublished
+
+sources, as well as original work; coefficients
+
+corrected for bias; assume 6-inch stump
+
+1
+
+91 logarithmic equation also presented based on the
+
+same data; equations presented here do not
+
+require additional variables (additional equations
+
+in original reference)
+
+1
+
+91 equations presented here do not require
+
+additional variables (additional equations in
+
+original reference)
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+Continued
+
+24
+
+Table 3.—Continued.
+
+Species Common name
+
+11
+
+Pacific silver fir
+
+11
+
+Pacific silver fir
+
+11
+
+Pacific silver fir
+
+11
+
+Pacific silver fir
+
+11
+
+Pacific silver fir
+
+11
+
+Pacific silver fir
+
+11
+
+Pacific silver fir
+
+11
+
+Pacific silver fir
+
+11
+
+Pacific silver fir
+
+11
+
+Pacific silver fir
+
+11
+
+Pacific silver fir
+
+11
+
+Pacific silver fir
+
+Component ID Equation form ID
+
+a
+
+b
+
+5
+
+2
+
+-6.1166
+
+0
+
+5
+
+1
+
+3.096
+
+1.327
+
+5
+
+1
+
+2.957
+
+2.654
+
+5
+
+4
+
+-42.324
+
+1052.28
+
+5
+
+2
+
+-11.8442
+
+0
+
+5
+
+2
+
+-10.8498
+
+0
+
+5
+
+2
+
+-13.5169
+
+0
+
+6
+
+2
+
+-9.46281
+
+0
+
+6
+
+2
+
+-10.6483
+
+0
+
+6
+
+2
+
+-9.9176
+
+0
+
+8
+
+2
+
+-5.237
+
+0
+
+9
+
+4
+
+-7.558
+
+103.675
+
+11
+
+Pacific silver fir
+
+9
+
+11
+
+Pacific silver fir
+
+10
+
+1
+
+2.019
+
+1.317
+
+4
+
+-39.77
+
+663.778
+
+11
+
+Pacific silver fir
+
+10
+
+4
+
+-202.413
+
+620.411
+
+11
+
+Pacific silver fir
+
+10
+
+11
+
+Pacific silver fir
+
+18
+
+11
+
+Pacific silver fir
+
+23
+
+1
+
+2.665
+
+2.493
+
+2
+
+-4.5487
+
+0
+
+4
+
+-64.849
+
+316.41
+
+11
+
+Pacific silver fir
+
+11
+
+Pacific silver fir
+
+11
+
+Pacific silver fir
+
+12
+
+balsam fir
+
+23
+23
+10,11 1
+
+4
+
+21.947
+
+325.859
+
+1
+
+2.457
+
+1.789
+
+1
+
+2.665
+
+2.493
+
+2
+
+0.6538
+
+0
+
+c 2.8421
+0 0 0 2.5677 2.3179 3.0009 2.4762 2.7763 2.5867 2.6261
+0
+0 0
+0
+0
+2.1926 0
+0 0 1 2.4872
+
+d
+
+e Diameter Corrected for bias Bias correction (CF) r
+
+R2
+
+1
+
+d.b.h.
+
+yes
+
+0
+
+0
+
+0.99
+
+BA
+
+no
+
+d.b.h.
+
+no
+
+BA
+
+no
+
+1
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+yes
+
+0
+
+0
+
+0.95
+
+0
+
+0
+
+0.95
+
+0
+
+0
+
+0.95
+
+0
+
+0
+
+0.857
+
+0
+
+0
+
+0.833
+
+0
+
+0
+
+0.918
+
+0
+
+0
+
+0.933
+
+0
+
+0
+
+0.977
+
+0
+
+0
+
+0.947
+
+0
+
+0
+
+0.96
+
+0
+
+d.b.h.
+
+no
+
+0
+
+0
+
+0.86
+
+d.b.h.
+
+no
+
+0
+
+BA
+
+no
+
+0
+
+0
+
+0.91
+
+0
+
+0
+
+0.82
+
+0
+
+d.b.h.
+
+no
+
+0
+
+0
+
+0.80
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+yes
+
+0
+
+d.b.h.
+
+no
+
+0
+
+0
+
+0.92
+
+0
+
+0
+
+0.97
+
+0
+
+0
+
+0.91
+
+0
+
+BA
+
+no
+
+d.b.h.
+
+no
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+no
+
+0
+
+0
+
+0.87
+
+0
+
+0
+
+0.92
+
+0
+
+0
+
+0.92
+
+0
+
+0
+
+0.97
+
+Sample Stump Top
+
+Units
+
+Units
+
+Component Ratio Segmented Equation
+
+MinDiameter MaxDiameter size height d.o.b. diameter biomass Component
+
+sum
+
+equation equation
+
+number Source Notes
+
+11.7
+
+90.4
+
+14
+
+6
+
+0
+
+cm
+
+kg
+
+na
+
+31.00
+
+90.40
+
+7
+
+12
+
+1
+
+cm
+
+kg
+
+na
+
+31.00
+
+90.40
+
+7
+
+12
+
+1
+
+cm
+
+kg
+
+na
+
+31.00
+
+90.40
+
+7
+
+12
+
+0
+
+cm
+
+kg
+
+na
+
+8.1
+
+109.3
+
+143
+
+6
+
+0
+
+cm
+
+Mg
+
+na
+
+8.1
+
+109.3
+
+75
+
+6
+
+0
+
+cm
+
+Mg
+
+na
+
+13.3
+
+80.0
+
+68
+
+6
+
+0
+
+cm
+
+Mg
+
+na
+
+8.1
+
+109.3
+
+75
+
+6
+
+0
+
+cm
+
+Mg
+
+na
+
+13.3
+
+80.0
+
+68
+
+6
+
+0
+
+cm
+
+Mg
+
+na
+
+8.1
+
+109.3
+
+143
+
+6
+
+0
+
+cm
+
+Mg
+
+na
+
+11.7
+
+90.4
+
+9
+
+cm
+
+kg
+
+na
+
+31.00
+
+90.40
+
+7
+
+cm
+
+kg
+
+na
+
+31.00
+
+90.40
+
+7
+
+31.00
+
+70.40
+
+7
+
+cm
+
+kg
+
+na
+
+cm
+
+kg
+
+na
+
+31.00
+
+90.40
+
+7
+
+cm
+
+kg
+
+na
+
+31.00
+
+90.40
+
+7
+
+11.7
+
+90.4
+
+9
+
+31.00
+
+90.40
+
+7
+
+cm
+
+kg
+
+na
+
+cm
+
+kg
+
+fl
+
+cm
+
+kg
+
+na
+
+31.00
+
+90.40
+
+7
+
+31.00
+
+90.40
+
+7
+
+31.00
+
+90.40
+
+7
+
+10.16
+
+33.02
+
+40
+
+cm
+
+kg
+
+na
+
+cm
+
+kg
+
+na
+
+cm
+
+kg
+
+na
+
+in
+
+lb
+
+na
+
+1
+
+55 includes data from published and unpublished
+
+sources, as well as original work; coefficients
+
+corrected for bias; assume 6-inch stump
+
+1
+
+91 equations presented here do not require additional
+
+variables (additional equations in original reference)
+
+1
+
+91 equations presented here do not require additional
+
+variables (additional equations in original reference)
+
+1
+
+92
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+55 includes data from published and unpublished
+
+sources, as well as original work; coefficients
+
+corrected for bias
+
+1
+
+91 logarithmic equation also presented based on the
+
+same data; equations presented here do not require
+
+additional variables (additional equations in original
+
+reference)
+
+1
+
+91 equations presented here do not require additional
+
+variables (additional equations in original reference)
+
+1
+
+91 includes all branches larger than 2.54 cm; logarithmic
+
+equation also included based on the same data;
+
+equations presented here do not require additional
+
+variables (additional equations in original reference)
+
+1
+
+91 includes all branches larger than 2.54 cm; logarithmic
+
+equation also included based on the same data;
+
+equations presented here do not require additional
+
+variables (additional equations in original reference)
+
+1
+
+91 includes all branches larger than 2.54 cm; equations
+
+presented here do not require additional variables
+
+(additional equations in original reference)
+
+1
+
+55 equation originally from ref 166; coefficients
+
+corrected for bias in ref 55
+
+1
+
+91 logarithmic equation also presented based on the
+
+same data; equations presented here do not require
+
+additional variables (additional equations in original
+
+reference)
+
+1
+
+91 equations presented here do not require additional
+
+variables (additional equations in original reference)
+
+1
+
+91 equations presented here do not require additional
+
+variables (additional equations in original reference)
+
+1
+
+92 branches >=1-inch diameter
+
+1
+
+75 includes roots >= 1-inch diameter
+
+Continued
+
+25
+
+26
+
+Table 3.—Continued.
+
+Species Common name
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+Component ID Equation form ID
+
+1
+
+2
+
+1
+
+2
+
+2
+
+1
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+3
+
+2
+
+3
+
+4
+
+3
+
+1
+
+3
+
+4
+
+a
+0.8162 7.5915 0.086 -2.2304 -1.8337 7.3736 0.4441 0
+-0.4081
+0
+
+3
+
+2
+
+0.5958
+
+4
+
+1
+
+0.062
+
+4
+
+2
+
+-4.0345
+
+4
+
+2
+
+-3.1144
+
+4
+
+2
+
+-3.2027
+
+4
+
+4
+
+0
+
+5
+
+1
+
+-0.916
+
+5
+
+2
+
+-5.2684
+
+5
+
+2
+
+-4.0499
+
+5
+
+2
+
+-4.4204
+
+6
+
+2
+
+-3.7775
+
+6
+
+2
+
+-2.801
+
+6
+
+2
+
+-2.9476
+
+6
+
+4
+
+0
+
+6
+
+1
+
+-0.8858
+
+6
+
+2
+
+0.3487
+
+8
+
+2
+
+-4.3537
+
+12
+
+1
+
+0.226
+
+12
+
+2
+
+-4.3612
+
+13
+
+1
+
+-1.294
+
+13
+
+2
+
+-2.6293
+
+13
+
+4
+
+0
+
+13
+
+2
+
+-2.206
+
+18
+
+1
+
+-1.258
+
+18
+
+2
+
+-4.1778
+
+18
+
+2
+
+-2.7854
+
+18
+
+4
+
+0
+
+18
+
+2
+
+-1.6452
+
+24
+
+2
+
+-3.1432
+
+b
+0 0 2.53 0 0 0 0 0
+1.6217
+0
+0 2.28 0 0
+0
+0
+2.47 0 0
+0
+0 0
+0
+0
+1.8728
+0 0 2.11 0 3.22 0 0
+0 3.21 0 0 0
+0 0
+
+c
+2.414 0.6 1 2.3263 2.1283 0.6003 2.4975 0.1746
+1
+0.0752
+2.4017 1 2.6909 2.3977
+2.4228
+0.0645
+1 2.5467 2.1601
+2.2391
+2.6635 2.3524
+2.3932
+0.0671
+1
+2.4117 2.4263 1 2.0505 1 1.7793 0.0909
+2.4605 1 2.3367 1.6737 0.09982
+2.4506 2.3013
+
+d
+
+e
+
+1 1
+
+1 1 1 1 2.1555
+
+2.497
+
+Diameter Corrected for bias Bias correction (CF)
+
+r
+
+R2
+
+d.b.h.
+
+no
+
+d.b.h.
+
+no
+
+d.b.h.
+
+no
+
+d.b.h.
+
+yes
+
+d.b.h.
+
+yes
+
+d.b.h.
+
+no
+
+d.b.h.
+
+no
+
+d.b.h.
+
+no
+
+0
+
+0.996 0
+
+0
+
+0.886 0
+
+0
+
+0.96
+
+0
+
+1.02
+
+0
+
+0.99
+
+1.03
+
+0
+
+0.97
+
+0
+
+0.886 0
+
+0
+
+0
+
+0.97
+
+0
+
+0
+
+0.98
+
+d.b.h.
+
+yes
+
+0
+
+0
+
+0.81
+
+d.b.h.
+
+no
+
+0
+
+0
+
+0.99
+
+1
+
+d.b.h.
+
+no
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+yes
+
+1
+
+d.b.h.
+
+yes
+
+1
+
+d.b.h.
+
+yes
+
+2.2962
+
+d.b.h.
+
+no
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+yes
+
+1
+
+d.b.h.
+
+yes
+
+1
+
+d.b.h.
+
+yes
+
+1
+
+d.b.h.
+
+yes
+
+1
+
+d.b.h.
+
+yes
+
+1
+
+d.b.h.
+
+yes
+
+2.3381
+
+d.b.h.
+
+no
+
+d.b.h.
+
+yes
+
+0
+
+0.996 0
+
+0
+
+0.96
+
+0
+
+1.02
+
+0
+
+0.96
+
+1.01
+
+0
+
+0.99
+
+1.02
+
+0
+
+0.98
+
+0
+
+0
+
+0.98
+
+0
+
+0.95
+
+0
+
+1.04
+
+0
+
+0.93
+
+1.02
+
+0
+
+0.98
+
+1.06
+
+0
+
+0.95
+
+1.02
+
+0
+
+0.96
+
+1.01
+
+0
+
+0.99
+
+1.02
+
+0
+
+0.98
+
+0
+
+0
+
+0.98
+
+0
+
+0
+
+0.80
+
+1
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+yes
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+yes
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+yes
+
+1.8405
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+no
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+yes
+
+1
+
+d.b.h.
+
+yes
+
+1.6421
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+yes
+
+0
+
+0.995 0
+
+1.14
+
+0
+
+0.92
+
+0
+
+0.8
+
+0
+
+1.17
+
+0
+
+0.88
+
+0
+
+0.95
+
+0
+
+1.05
+
+0
+
+0.89
+
+0
+
+0
+
+0.86
+
+0
+
+0.949 0
+
+0
+
+0.98
+
+0
+
+1.15
+
+0
+
+0.92
+
+1.05
+
+0
+
+0.90
+
+0
+
+0
+
+0.85
+
+0
+
+0.944 0
+
+1.09
+
+0
+
+0.94
+
+Sample Stump Top
+
+Units
+
+Units
+
+Component Ratio Segmented Equation
+
+MinDiameter MaxDiameter size height d.o.b. diameter biomass Component
+
+sum
+
+equation equation number Source Notes
+
+2.54 0.10 2.54 2.50 1.50 0.10 10.16 0.10
+1.00
+2.50
+
+50.80 2.54
+25.40 28.30 32.10
+2.54 33.02 40.00
+20.00
+40.00
+
+95
+
+9
+
+101
+
+0
+
+30
+
+0
+
+50
+
+0
+
+13
+
+0
+
+40
+
+6
+
+200
+
+6
+
+20
+
+6
+
+60
+
+6
+
+in
+
+lb
+
+na
+
+in
+
+g
+
+rts
+
+in
+
+lb
+
+ag
+
+cm
+
+kg
+
+ag
+
+cm
+
+kg
+
+ag
+
+in
+
+g
+
+ag
+
+in
+
+lb
+
+agm
+
+cm
+
+kg
+
+na
+
+cm
+
+kg
+
+agm
+
+cm
+
+kg
+
+na
+
+a
+
+2.54
+
+50.80
+
+95
+
+6
+
+in
+
+lb
+
+agm
+
+2.54
+
+25.40
+
+101
+
+0
+
+0
+
+in
+
+lb
+
+na
+
+c
+
+2.50
+
+28.30
+
+22
+
+0
+
+3.15
+
+cm
+
+kg
+
+swm
+
+c
+
+2.50
+
+28.30
+
+30
+
+0
+
+0
+
+cm
+
+kg
+
+na
+
+c
+
+1.50
+
+32.10
+
+50
+
+0
+
+0
+
+cm
+
+kg
+
+na
+
+c
+
+0.10
+
+40.00
+
+200
+
+6
+
+0
+
+cm
+
+kg
+
+na
+
+2.54
+
+25.40
+
+101
+
+0
+
+0
+
+in
+
+lb
+
+na
+
+c
+
+2.50
+
+28.30
+
+22
+
+0
+
+3.15
+
+cm
+
+kg
+
+sbm
+
+c
+
+2.50
+
+28.30
+
+30
+
+0
+
+0
+
+cm
+
+kg
+
+na
+
+c
+
+1.50
+
+32.10
+
+50
+
+0
+
+0
+
+cm
+
+kg
+
+na
+
+c
+
+2.50
+
+28.30
+
+22
+
+0
+
+3.15
+
+cm
+
+kg
+
+na
+
+c
+
+2.50
+
+28.30
+
+30
+
+0
+
+0
+
+cm
+
+kg
+
+na
+
+c
+
+1.50
+
+32.10
+
+50
+
+0
+
+0
+
+cm
+
+kg
+
+na
+
+c
+
+0.10
+
+40.00
+
+200
+
+6
+
+0
+
+cm
+
+kg
+
+na
+
+1.00
+
+20.00
+
+20
+
+6
+
+0
+
+cm
+
+kg
+
+na
+
+c
+
+2.54
+
+50.80
+
+95
+
+6
+
+4
+
+in
+
+lb
+
+na
+
+c
+
+2.50
+
+28.30
+
+30
+
+cm
+
+kg
+
+na
+
+c
+
+2.54
+
+25.40
+
+101
+
+in
+
+lb
+
+na
+
+c
+
+2.50
+
+28.30
+
+30
+
+cm
+
+kg
+
+na
+
+c
+
+2.54
+
+25.40
+
+101
+
+in
+
+lb
+
+na
+
+1.50
+
+32.10
+
+50
+
+cm
+
+kg
+
+na
+
+0.10
+
+40.00
+
+200
+
+cm
+
+kg
+
+na
+
+2.54
+
+50.80
+
+95
+
+2.54
+
+25.40
+
+101
+
+2.50
+
+28.30
+
+30
+
+1.50
+
+32.10
+
+50
+
+0.10
+
+40.00
+
+200
+
+in
+
+lb
+
+na
+
+in
+
+lb
+
+fl
+
+cm
+
+kg
+
+fl
+
+t
+
+cm
+
+kg
+
+fl
+
+cm
+
+kg
+
+na
+
+2.54
+
+50.80
+
+95
+
+2.50
+
+28.30
+
+30
+
+in
+
+lb
+
+fl
+
+cm
+
+kg
+
+na
+
+c
+
+1
+
+177 no c reported; includes roots <= 1-inch
+
+1
+
+177 no c reported; includes roots <= 1-inch
+
+1
+
+9 no bias correction; stems cut at groundline
+
+1
+
+52 stump “as close to ground as possible”; to 9 cm d.o.b.
+
+1
+
+82 stump as short as possible
+
+1
+
+177 no c reported; small trees cut at ground surface
+
+1
+
+75 6-inch stump
+
+1
+
+83 Nova Scotia and New Brunswick; assume 6-inch
+
+stump (“trees were felled”)
+
+1
+
+100 bias correction used by authors but not reported;
+
+assume 6-inch stump (“trees were felled”)
+
+1
+
+117 equations selected for presentation here do not
+
+require additional variables for biomass estimation
+
+(additional equations presented)
+
+1
+
+177 6-inch stump; no c reported
+
+1
+
+9 no bias correction; stems cut at groundline
+
+1
+
+52 stump “as close to ground as possible”; to 8 cm d.o.b.
+
+1
+
+52 stump “as close to ground as possible”; wood on
+
+total stem including top
+
+1
+
+82 stump as short as possible;stem top diameter not
+
+given so assume stem goes to terminal bud
+
+1
+
+83 Nova Scotia and New Brunswick; assume 6-inch
+
+stump (“trees were felled”)
+
+1
+
+9 no bias correction; stems cut at groundline
+
+1
+
+52 stump “as close to ground as possible”; to 8 cm d.o.b.
+
+1
+
+52 stump “as close to ground as possible”; bark on total
+
+stem including top
+
+1
+
+82 stump as short as possible;stem top diameter not
+
+given so assume stem goes to terminal bud
+
+1
+
+52 stump “as close to ground as possible”; to 8 cm d.o.b.
+
+1
+
+52 stump “as close to ground as possible”; wood plus
+
+bark on total stem (incl. top)
+
+1
+
+82 stump as short as possible; stem top diameter not
+
+given so assume stem goes to terminal bud
+
+1
+
+83 Nova Scotia and New Brunswick; assume 6-inch
+
+stump (“trees were felled”)
+
+1
+
+100 bias correction used by authors but not reported;
+
+assume 6-inch stump (“trees were felled”); assume
+
+to stem tip
+
+1
+
+177 6-inch stump to 4-inch top; no c reported
+
+1
+
+52
+
+1
+
+9 no bias correction
+
+1
+
+52
+
+1
+
+9 no bias correction
+
+1
+
+82 branch diameter not given
+
+1
+
+83 Nova Scotia and New Brunswick; assume 6-inch
+
+stump (“trees were felled”)
+
+1
+
+177 no c reported
+
+1
+
+9 no bias correction
+
+1
+
+52
+
+1
+
+82
+
+1
+
+83 Nova Scotia and New Brunswick; assume 6-inch
+
+stump (“trees were felled”)
+
+1
+
+177 no c reported
+
+1
+
+52 does not include unmerchantable top of stem
+
+(assume 4-inch d.o.b.)
+
+Continued
+
+27
+
+28
+
+Table 3.—Continued.
+
+Species Common name
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+12
+
+balsam fir
+
+13
+
+silver fir (Himalaya)
+
+13
+
+silver fir (Himalaya)
+
+Component ID Equation form ID
+
+24
+
+2
+
+24
+
+2
+
+24
+
+1
+
+29
+
+1
+
+29
+
+4
+
+33
+
+2
+
+33
+
+2
+
+2
+
+2
+
+4
+
+2
+
+a
+-1.5924
+-2.0259 -0.5856 0.618
+-0.6653
+-1.0678 -0.7977 2.0656
+1.538
+
+13
+
+silver fir (Himalaya)
+
+5
+
+2
+
+-0.1066
+
+13
+
+silver fir (Himalaya)
+
+13
+
+13
+
+silver fir (Himalaya)
+
+18
+
+13
+
+silver fir (Himalaya)
+
+21
+
+13
+
+silver fir (Himalaya)
+
+26
+
+2
+
+0.0356
+
+2
+
+0.2464
+
+2
+
+-0.0146
+
+2
+
+-0.4874
+
+b 0 0 1.3447 2.45 0 0 0 0 0
+0
+0 0 0 0
+
+13
+
+silver fir (Himalaya)
+
+27
+
+2
+
+-0.651
+
+0
+
+13
+
+silver fir (Himalaya)
+
+28
+
+2
+
+1.0137
+
+0
+
+13
+
+silver fir (Himalaya)
+
+29
+
+15
+
+White fir
+
+2
+
+15
+
+White fir
+
+4
+
+15
+
+White fir
+
+4
+
+15
+
+White fir
+
+5
+
+15
+
+White fir
+
+5
+
+15
+
+White fir
+
+6
+
+15
+
+White fir
+
+8
+
+15
+
+White fir
+
+18
+
+15
+
+White fir
+
+23
+
+17
+
+Grand fir
+
+6
+
+2
+
+0.5244
+
+0
+
+2
+
+4.36982
+
+0
+
+2
+
+-11.2634
+
+0
+
+2
+
+3.11845
+
+0
+
+2
+
+-11.7086
+
+0
+
+2
+
+2.36182
+
+0
+
+2
+
+-10.8036
+
+0
+
+2
+
+2.82853
+
+0
+
+2
+
+3.81947
+
+0
+
+2
+
+4.47181
+
+0
+
+5
+
+0.62
+
+0
+
+c 1.8144 1.7433 1 1 0.066 2.4613 2.4515 0.9781 1.0088
+0.8876
+0.9977 0.6429 0.8374 1.0909
+0.9947
+0.4604
+0.998
+2.5043 2.7856 2.7011 2.7271 2.6201 2.7727 2.3418 1.8855 1.314 0.8024
+
+d
+
+e Diameter Corrected for bias Bias correction (CF) r
+
+R2
+
+1
+
+d.b.h.
+
+yes
+
+1.06
+
+0
+
+0.94
+
+1
+
+d.b.h.
+
+yes
+
+d.b.h.
+
+yes
+
+d.b.h.
+
+no
+
+1.05
+
+0
+
+0.90
+
+0
+
+0
+
+0.76
+
+0
+
+0.96
+
+0.00
+
+2
+
+d.b.h.
+
+no
+
+0
+
+0
+
+0.86
+
+1
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+no
+
+1
+
+cbh
+
+no
+
+0
+
+0
+
+0.90
+
+0
+
+0.994 0
+
+0
+
+0
+
+0.98
+
+1
+
+cbh
+
+no
+
+0
+
+0
+
+0.97
+
+1
+
+cbh
+
+no
+
+0
+
+0
+
+0.92
+
+1
+
+cbh
+
+no
+
+1
+
+cbh
+
+no
+
+1
+
+cbh
+
+no
+
+1
+
+cbh
+
+no
+
+0
+
+0
+
+0.87
+
+0
+
+0
+
+0.74
+
+0
+
+0
+
+0.84
+
+0
+
+0
+
+0.95
+
+1
+
+cbh
+
+no
+
+0
+
+0
+
+0.86
+
+1
+
+cbh
+
+no
+
+0
+
+0
+
+0.72
+
+1
+
+cbh
+
+no
+
+1
+
+d.b.h.
+
+yes
+
+1
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+yes
+
+1
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+yes
+
+1
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+yes
+
+1
+
+d.b.h.
+
+yes
+
+1
+
+d.b.h.
+
+yes
+
+0.1724
+
+d.b.h.
+
+no
+
+0
+1.014 0 1.032 0 1.03 0 1.158 1.123 1.087 0
+
+0
+
+0.96
+
+0.981 0 0.994 0 0.994 0 0.926 0.954 0.935 0
+
+0.00 0.973 0.00 0.944 0.00 0.977 0.00 0.00 0.00 0.99
+
+29
+
+MinDiameter 2.50 1.50 1.00 2.54 5.50
+10.16 2.54
+30.00 30.00
+30.00
+30.00 30.00 30.00 30.00
+30.00
+30.00
+30.00
+7.00 14.4
+7.00 14.4
+7.00 14.4
+7.00 7.00 7.00 0.00
+
+Sample Stump MaxDiameter size height
+
+28.30
+
+30
+
+32.10
+
+50
+
+20.00
+
+20
+
+25.40
+
+89
+
+20.50
+
+173
+
+33.02 50.80 370.00
+
+40
+
+6
+
+95
+
+6
+
+12
+
+0
+
+370.00
+
+12
+
+0
+
+370.00
+
+12
+
+0
+
+370.00 370.00 370.00 370.00
+
+12
+
+12
+
+12
+
+12
+
+0
+
+370.00
+
+12
+
+0
+
+370.00
+
+12
+
+0
+
+370.00
+98.00 158.4
+98.00 158.4
+98.00 158.4
+98.00 98.00 98.00 10.16
+
+12
+
+0
+
+12
+
+40
+
+56
+
+6
+
+12
+
+40
+
+56
+
+6
+
+12
+
+40
+
+56
+
+6
+
+12
+
+12
+
+12
+
+12
+
+6
+
+Top d.o.b.
+0 0
+0 0 0 0 0 0
+
+Units
+
+Units
+
+diameter biomass Component
+
+cm
+
+kg
+
+na
+
+cm
+
+kg
+
+na
+
+cm
+
+kg
+
+na
+
+in
+
+lb
+
+rto
+
+cm
+
+kg
+
+rto
+
+in
+
+lb
+
+rtm
+
+in
+
+lb
+
+rtm
+
+cm
+
+kg
+
+ag
+
+cm
+
+kg
+
+na
+
+cm
+
+kg
+
+na
+
+cm
+
+kg
+
+na
+
+cm
+
+kg
+
+fl
+
+cm
+
+kg
+
+na
+
+cm
+
+kg
+
+na
+
+cm
+
+kg
+
+na
+
+cm
+
+kg
+
+na
+
+cm
+
+kg
+
+rt
+
+cm
+
+g
+
+agm
+
+cm
+
+Mg
+
+na
+
+cm
+
+g
+
+na
+
+cm
+
+Mg
+
+na
+
+cm
+
+g
+
+na
+
+cm
+
+Mg
+
+na
+
+cm
+
+g
+
+na
+
+cm
+
+g
+
+fl
+
+cm
+
+g
+
+na
+
+in
+
+lb
+
+na
+
+Component Ratio Segmented
+
+sum
+
+equation equation
+
+c
+
+c c
+
+c a c c c c c r
+r
+r
+b a
+c
+c
+c c
+
+Equation number Source Notes
+
+1
+
+52 does include unmerchantable top of stem
+
+(assume 4-inch d.o.b.)
+
+1
+
+82
+
+1
+
+100 bias correction used by authors but not reported
+
+1
+
+10 assume all roots; eqn form log10W=consta +
+
+coeffX*log(dia) (assume both logs are base 10)
+
+1
+
+84 roots > 1.5 mm; c not reported or used; d.b.h.
+
+range includes trees within +/- 2 se of mean d.b.h.
+
+1
+
+75 to 6-inch stump; roots >= 1-inch diameter
+
+1
+
+177 no c reported
+
+1
+
+2 uprooted trees used so assume stump is 0-inch
+
+height
+
+1
+
+2 diameter range spans all species in study; actual
+
+range not given but could be smaller; no info on
+
+top diameter; assume “bole” means wood only
+
+1
+
+2 diameter range spans all species in study; actual
+
+range not given but could be smaller; no info on
+
+top diameter
+
+1
+
+2 diameter range spans all species in study; actual
+
+range not given but could be smaller
+
+1
+
+2 diameter range spans all species in study; actual
+
+range not given but could be smaller
+
+1
+
+2 diameter range spans all species in study; actual
+
+range not given but could be smaller
+
+1
+
+2 diameter range spans all species in study; actual
+
+range not given but could be smaller; no definition
+
+for “stump roots” given; excavated to 1 m depth
+
+to 1 m radius around tree
+
+1
+
+2 diameter range spans all species in study; actual
+
+range not given but could be smaller; no definition
+
+for “lateral roots” given; excavated to 1 m depth to
+
+1 m radius around tree
+
+1
+
+2 diameter range spans all species in study; actual
+
+range not given but could be smaller; fine roots
+
+defined as < 10 mm; excavated to 1 m depth to
+
+1 m radius around tree
+
+1
+
+2 diameter range spans all species in study; actual
+
+range not given but could be smaller; excavated to
+
+1 m depth to 1 m radius around tree
+
+1
+
+171 felled at 1 meter height; coefficients as presented
+
+are corrected for bias
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+171 felled at 1 meter height; coefficients as presented
+
+are corrected for bias
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+171 felled at 1 meter height; coefficients as presented
+
+are corrected for bias
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+171 felled at 1 meter height; coefficients as presented
+
+are corrected for bias
+
+1
+
+171 felled at 1 meter height; coefficients as presented
+
+are corrected for bias; “current and older leaves”
+
+1
+
+171 felled at 1 meter height; coefficients as presented
+
+are corrected for bias; “current twigs and leaves”
+
+1
+
+21 assume 6-inch stump (“trees were felled”); for
+
+trees < 4-inch d.b.h.; dominant trees
+
+Continued
+
+30
+
+Table 3.—Continued.
+
+Species Common name
+
+Component ID Equation form ID
+
+a
+
+b
+
+17
+
+Grand fir
+
+6
+
+4
+
+-1.63
+
+0
+
+17
+
+Grand fir
+
+24
+
+19
+
+Subalpine fir
+
+4
+
+2
+
+1.0152
+
+0
+
+2
+
+-9.84218
+
+0
+
+19
+
+Subalpine fir
+
+4
+
+2
+
+-9.79725
+
+0
+
+19
+
+Subalpine fir
+
+4
+
+2
+
+-9.92848
+
+0
+
+19
+
+Subalpine fir
+
+5
+
+2
+
+-12.3983
+
+0
+
+19
+
+Subalpine fir
+
+5
+
+2
+
+-11.5622
+
+0
+
+19
+
+Subalpine fir
+
+5
+
+2
+
+-13.5028
+
+0
+
+19
+
+Subalpine fir
+
+6
+
+5
+
+1.55
+
+0
+
+19
+
+Subalpine fir
+
+6
+
+2
+
+-9.74475
+
+0
+
+19
+
+Subalpine fir
+
+6
+
+2
+
+-9.64298
+
+0
+
+19
+
+Subalpine fir
+
+6
+
+2
+
+-9.96814
+
+0
+
+19
+
+Subalpine fir
+
+35
+
+4
+
+7.345
+
+0
+
+19
+
+Subalpine fir
+
+36
+
+2
+
+-6.5431
+
+0
+
+20
+
+California red fir
+
+2
+
+20
+
+California red fir
+
+4
+
+20
+
+California red fir
+
+4
+
+20
+
+California red fir
+
+5
+
+20
+
+California red fir
+
+5
+
+20
+
+California red fir
+
+6
+
+20
+
+California red fir
+
+8
+
+20
+
+California red fir
+
+18
+
+20
+
+California red fir
+
+23
+
+22
+
+Noble fir
+
+4
+
+2
+
+2.61856
+
+0
+
+2
+
+-11.1691
+
+0
+
+2
+
+2.55249
+
+0
+
+2
+
+-12.3441
+
+0
+
+2
+
+1.4053
+
+0
+
+2
+
+-10.7955
+
+0
+
+2
+
+-1.82353
+
+0
+
+2
+
+-0.12667
+
+0
+
+2
+
+2.65541
+
+0
+
+2
+
+-3.7158
+
+0
+
+22
+
+Noble fir
+
+22
+
+Noble fir
+
+4
+
+2
+
+-10.2145
+
+0
+
+5
+
+2
+
+-6.1
+
+0
+
+22
+
+Noble fir
+
+22
+
+Noble fir
+
+22
+
+Noble fir
+
+5
+
+2
+
+-11.0236
+
+0
+
+6
+
+2
+
+-9.9228
+
+0
+
+8
+
+2
+
+-4.1817
+
+0
+
+c 2.172 1.6839 2.3971 2.3891 2.4428 2.5006 2.3149 3.1413 0 2.4028 2.3809 2.5265 1.255 4.0365
+2.9121 2.7621 2.7821 2.8421 2.8468 2.759 3.521 2.9308 1.611 2.7592
+2.6043 2.8943
+2.4313 2.5812 2.3324
+
+d
+
+e
+
+2
+
+1 1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+0.414 1
+
+1
+
+1
+
+2
+
+1
+
+Diameter d.b.h.
+
+Corrected for bias Bias correction (CF) r
+
+no
+
+0
+
+0
+
+d.b.h.
+
+no
+
+d.b.h.
+
+no
+
+0
+
+0
+
+0
+
+0
+
+d.b.h.
+
+no
+
+0
+
+0
+
+d.b.h.
+
+no
+
+0
+
+0
+
+d.b.h.
+
+no
+
+0
+
+0
+
+d.b.h.
+
+no
+
+0
+
+0
+
+d.b.h.
+
+no
+
+0
+
+0
+
+d.b.h.
+
+no
+
+d.b.h.
+
+no
+
+0
+
+0
+
+0
+
+0
+
+d.b.h.
+
+no
+
+0
+
+0
+
+d.b.h.
+
+no
+
+0
+
+0
+
+d.b.h.
+
+no
+
+0
+
+0
+
+d.b.h.
+
+no
+
+0
+
+0
+
+R2 0.87 0.94 0.982 0.972 0.956 0.969 0.883 0.646 0.99 0.982 0.970 0.988 0.84 0.91
+
+1
+
+d.b.h.
+
+yes
+
+1
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+yes
+
+1
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+yes
+
+1
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+yes
+
+1
+
+d.b.h.
+
+yes
+
+1
+
+d.b.h.
+
+yes
+
+1
+
+d.b.h.
+
+yes
+
+1.025 0 1.038 0 1.073 0 1.132 1.095 1.082 0
+
+0.981 0.00
+
+0
+
+0.984
+
+0.968 0.00
+
+0
+
+0.957
+
+0.945 0.00
+
+0
+
+0.987
+
+0.937 0.00
+
+0.934 0.00
+
+0.839 0.00
+
+0
+
+0.99
+
+1
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+yes
+
+0
+
+0
+
+0.984
+
+0
+
+0
+
+0.99
+
+1
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+no
+
+1
+
+d.b.h.
+
+yes
+
+0
+
+0
+
+0.922
+
+0
+
+0
+
+0.984
+
+0
+
+0
+
+0.94
+
+31
+
+MinDiameter 0.00 2.54
+15.6 15.6 15.7 15.6 15.6 15.7
+0.00 15.6 15.6 15.7
+2.54 2.54
+30.00 18.8 30.00 18.8 30.00 18.8 30.00 30.00 30.00 18.8
+15.9 18.8
+15.9 15.9 18.8
+
+Sample Stump MaxDiameter size height
+
+10.16
+
+8
+
+6
+
+30.48 68.7
+
+15
+
+17
+
+6
+
+68.7
+
+21
+
+6
+
+46.9
+
+11
+
+6
+
+68.7
+
+17
+
+6
+
+68.7
+
+21
+
+6
+
+46.9
+
+11
+
+6
+
+10.16 68.7
+
+12
+
+6
+
+17
+
+6
+
+68.7
+
+21
+
+6
+
+46.9
+
+11
+
+6
+
+33.02
+
+16
+
+33.02
+
+16
+
+100.00 143.2 100.00 143.2 100.00 143.2 100.00 100.00 100.00 111.0
+
+11
+
+40
+
+31
+
+6
+
+11
+
+40
+
+31
+
+6
+
+11
+
+40
+
+31
+
+6
+
+11
+
+11
+
+11
+
+6
+
+6
+
+235.5 111.0
+
+310
+
+6
+
+6
+
+6
+
+235.5 235.5 111.0
+
+310
+
+6
+
+310
+
+6
+
+6
+
+Top d.o.b.
+0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Units
+
+Units
+
+Component Ratio Segmented Equation
+
+diameter biomass Component
+
+sum
+
+equation equation number Source Notes
+
+in
+
+lb
+
+na
+
+in
+
+lb
+
+na
+
+cm
+
+Mg
+
+na
+
+cm
+
+Mg
+
+na
+
+cm
+
+Mg
+
+na
+
+cm
+
+Mg
+
+na
+
+cm
+
+Mg
+
+na
+
+cm
+
+Mg
+
+na
+
+in
+
+lb
+
+na
+
+cm
+
+Mg
+
+na
+
+cm
+
+Mg
+
+na
+
+cm
+
+Mg
+
+na
+
+in
+
+lb
+
+na
+
+in
+
+lb
+
+na
+
+cm
+
+g
+
+agm
+
+a
+
+cm
+
+Mg
+
+na
+
+cm
+
+g
+
+na
+
+c
+
+cm
+
+Mg
+
+na
+
+cm
+
+g
+
+na
+
+c
+
+cm
+
+Mg
+
+na
+
+cm
+
+g
+
+na
+
+c
+
+cm
+
+g
+
+fl
+
+c
+
+cm
+
+g
+
+na
+
+cm
+
+kg
+
+na
+
+cm
+
+Mg
+
+na
+
+cm
+
+kg
+
+na
+
+cm
+
+Mg
+
+na
+
+cm
+
+Mg
+
+na
+
+cm
+
+kg
+
+na
+
+2
+
+21 assume 6-inch stump (“trees were felled”); for
+
+trees < 4-inch d.b.h.; intermediate trees
+
+1
+
+21 dominant and codominant trees
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+21 assume 6-inch stump; dominant trees
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+21 assume 6-inch stump (“trees were felled”);
+
+dominant and codominant trees
+
+1
+
+21 dominant and codominant trees; bias correction
+
+omitted because they contributed more bias than
+
+they eliminated
+
+1
+
+171 felled at 1 meter height; coefficients as presented
+
+are corrected for bias
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+171 felled at 1 meter height; coefficients as presented
+
+are corrected for bias
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+171 felled at 1 meter height; coefficients as presented
+
+are corrected for bias
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+171
+
+felled at 1 meter height; coefficients as presented
+
+are corrected for bias
+
+1
+
+171
+
+felled at 1 meter height; coefficients as presented
+
+are corrected for bias; “current and older leaves”
+
+1
+
+171
+
+felled at 1 meter height; coefficients as presented
+
+are corrected for bias; “current twigs and leaves”
+
+1
+
+55 includes data from published and unpublished
+
+sources, as well as original work; coefficients
+
+corrected for bias; assume 6-inch stump
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+55 includes data from published and unpublished
+
+sources, as well as original work; coefficients
+
+corrected for bias; assume 6-inch stump
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+104 see ref 68 for original bibliographic source; no
+
+mention of bias correction; assume 6-inch stump
+
+1
+
+55 includes data from published and unpublished
+
+sources, as well as original work; coefficients
+
+corrected for bias
+
+32
+
+Table 4.—Species key, suggested assignments for species groups to apply generalized equations, and specific gravity information (see Appendix A)
+
+FIA ID Common name
+
+Family
+
+Genus
+
+Species
+
+Wood specific
+
+Species group
+
+gravity
+
+Bark specific gravity
+
+Bark specific Stump volume gravity source equation
+
+0 conifers (general) 10 fir spp. 11 Pacific silver fir 12 balsam fir 13 silver fir (Himalaya) 14 Bristlecone fir 15 White fir 16 Fraser fir 17 Grand fir 18 Corkbark fir 19 Subalpine fir 20 California red fir 21 Shasta red fir 22 Noble fir 41 Port-Orford-cedar 42 Alaska-cedar 43 Atlantic white-cedar 50 Cypress 51 Arizona cypress 58 Pinchot juniper 59 Redberry juniper 60 Common juniper 60 redcedar 62 California juniper 63 Alligator juniper 64 Western juniper 65 Utah juniper 66 Rocky Mountain juniper 67 southern redcedar 68 eastern redcedar 69 Oneseed juniper 70 larch (introduced) 71 tamarack (native) 72 Subalpine larch 73 Western larch 81 Incense-cedar 90 spruce 91 Norway spruce 92 Brewer spruce 93 Engelmann spruce 94 white spruce 95 black spruce 96 blue spruce 97 red spruce 98 Sitka spruce 100 pine spp. 101 Whitebark pine 102 Bristlecone pine 103 Knobcone pine
+
+Pinaceae
+
+Abies
+
+spp.
+
+tf
+
+0.357
+
+0.375
+
+94
+
+Pinaceae
+
+Abies
+
+amabilis
+
+tf
+
+0.4
+
+Pinaceae
+
+Abies
+
+balsamea
+
+tf
+
+0.34
+
+0.375
+
+94
+
+12
+
+Pinaceae
+
+Abies
+
+pindrow
+
+tf
+
+Pinaceae
+
+Abies
+
+bracteata
+
+tf
+
+Pinaceae
+
+Abies
+
+concolor
+
+tf
+
+0.37
+
+Pinaceae
+
+Abies
+
+fraseri
+
+tf
+
+0.34
+
+0.4
+
+12
+
+Pinaceae
+
+Abies
+
+grandis
+
+tf
+
+0.35
+
+Pinaceae
+
+Abies
+
+lasiocarpa var. arizonica
+
+tf
+
+0.28
+
+Pinaceae
+
+Abies
+
+lasiocarpa
+
+tf
+
+0.31
+
+Pinaceae
+
+Abies
+
+magnifica
+
+tf
+
+0.37
+
+Pinaceae
+
+Abies
+
+magnifica var. shastensis
+
+tf
+
+0.37
+
+Pinaceae
+
+Abies
+
+procera
+
+tf
+
+0.37
+
+Pinaceae
+
+Chamaecyparis
+
+lawsoniana
+
+cl
+
+0.39
+
+Pinaceae
+
+Chamaecyparis
+
+nootkatensis
+
+cl
+
+0.42
+
+Pinaceae
+
+Chamaecyparis
+
+thyoides
+
+cl
+
+0.31
+
+0.4
+
+241
+
+Cupressaceae
+
+Cupressus
+
+spp.
+
+wo
+
+Cupressaceae
+
+Cupressus
+
+arizonica
+
+wo
+
+Cupressaceae
+
+Juniperus
+
+pinchotti
+
+wo
+
+Cupressaceae
+
+Juniperus
+
+erythrocarpa
+
+wo
+
+Cupressaceae
+
+Juniperus
+
+communis
+
+wo
+
+0.44
+
+0.4
+
+94
+
+Cupressaceae
+
+Juniperus
+
+spp.
+
+cl
+
+0.44
+
+0.4
+
+241
+
+Cupressaceae
+
+Juniperus
+
+californica
+
+wo
+
+Cupressaceae
+
+Juniperus
+
+deppeana
+
+wo
+
+0.48
+
+Cupressaceae
+
+Juniperus
+
+occidentalis
+
+wo
+
+Cupressaceae
+
+Juniperus
+
+osteosperma
+
+wo
+
+Cupressaceae
+
+Juniperus
+
+scopulorum
+
+wo
+
+0.44
+
+0.4
+
+94
+
+Cupressaceae
+
+Juniperus
+
+silicicola
+
+cl
+
+0.44
+
+0.4
+
+241
+
+Cupressaceae
+
+Juniperus
+
+virginiana
+
+cl
+
+0.44
+
+0.4
+
+241
+
+Cupressaceae
+
+Juniperus
+
+monosperma
+
+wo
+
+Pinaceae
+
+Larix
+
+spp.
+
+cl
+
+0.48
+
+0.4
+
+125
+
+Pinaceae
+
+Larix
+
+laricina
+
+cl
+
+0.49
+
+0.4
+
+125
+
+Pinaceae
+
+Larix
+
+lyallii
+
+cl
+
+0.48
+
+Pinaceae
+
+Larix
+
+occidentalis
+
+cl
+
+0.48
+
+Cupressaceae
+
+Calocedrus
+
+decurrens
+
+cl
+
+0.35
+
+Pinaceae
+
+Picea
+
+spp.
+
+sp
+
+0.366
+
+0.3
+
+94
+
+Pinaceae
+
+Picea
+
+abies
+
+sp
+
+0.38
+
+0.4
+
+94
+
+Pinaceae
+
+Picea
+
+breweriana
+
+sp
+
+Pinaceae
+
+Picea
+
+engelmannii
+
+sp
+
+0.33
+
+0.4
+
+94
+
+Pinaceae
+
+Picea
+
+glauca
+
+sp
+
+0.37
+
+0.29
+
+46
+
+94
+
+Pinaceae
+
+Picea
+
+mariana
+
+sp
+
+0.38
+
+0.351
+
+94
+
+95
+
+Pinaceae
+
+Picea
+
+pungens
+
+sp
+
+0.38
+
+0.4
+
+94
+
+Pinaceae
+
+Picea
+
+rubens
+
+sp
+
+0.38
+
+0.32
+
+94
+
+Pinaceae
+
+Picea
+
+sitchensis
+
+sp
+
+0.37
+
+Pinaceae
+
+Pinus
+
+spp.
+
+pi
+
+Pinaceae
+
+Pinus
+
+albicaulis
+
+pi
+
+Pinaceae
+
+Pinus
+
+aristata
+
+pi
+
+Pinaceae
+
+Pinus
+
+attenuata
+
+pi
+
+33
+
+FIA ID
+104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 133 134 135 136 145 201 202 211 212 221 222 231 241 242 251 260 261 262 263 264
+
+Common name
+Foxtail pine jack pine Twoneedle pinyon sand pine Lodgepole pine Coulter pine shortleaf pine slash pine Apache pine Limber pine Southwestern white pine spruce pine Jeffrey pine Sugar pine Chihuahuan pine Western white pine Bishop pine longleaf pine ponderosa pine Table Mountain pine Monterey pine red pine pitch pine California foothill pine pond pine eastern white pine Scotch pine loblolly pine Virginia pine Singleleaf pinyon Austrian pine Border pinyon Arizona pine Border pinyon Roxburg pine Bigcone Douglas-fir Douglas-fir Redwood Giant sequoia baldcypress pondcypress Pacific yew northern white-cedar Western redcedar California nutmeg hemlock eastern hemlock Carolina hemlock Western hemlock Mountain hemlock
+
+Family
+Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae Taxodiaceae Taxodiaceae Cupressaceae Cupressaceae Taxaceae Cupressaceae Cupressaceae Taxaceae Pinaceae Pinaceae Pinaceae Pinaceae Pinaceae
+
+Genus
+Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pinus Pseudotsuga Pseudotsuga Sequoia Sequoiadendron Taxodium Taxodium Taxus Thuja Thuja Torreya Tsuga Tsuga Tsuga Tsuga Tsuga
+
+Species
+balfouriana banksiana edulis clausa contorta coulteri echinata elliottii engelmannii flexilis strobiformis glabra jeffreyi lambertiana leiophylla monticola muricata palustris ponderosa pungens radiata resinosa rigida sabiniana serotina strobus sylvestris taeda virginiana monophylla nigra discolor arizonica cembroides roxburghii (Himalayas) macrocarpa menziesii sempervirens giganteum distichum distichum var. nutans brevifolia occidentalis plicata californica spp. canadensis caroliniana heterophylla mertensiana
+
+Species group
+pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi df df cl cl cl cl tf cl cl tf tf tf tf tf tf
+
+Wood specific gravity
+0.4
+0.46 0.38
+0.47 0.54
+0.37
+0.41 0.37 0.34
+0.35
+0.54 0.38 0.49
+0.41 0.47
+0.51 0.34 0.41 0.47 0.45 0.41 0.41
+0.45 0.36
+0.42
+0.6 0.29 0.31
+0.38 0.38 0.38 0.42 0.42
+
+Bark specific gravity
+0.34 0.45
+0.45 0.45
+0.45
+0.45 0.4 0.45 0.243 0.45 0.45 0.34 0.45 0.45 0.45 0.4 0.4
+0.4
+0.42
+0.29
+0.34 0.34 0.34
+
+Bark specific Stump volume gravity source equation
+
+94
+
+105
+
+125
+
+125 125
+
+125
+
+125 125 125
+125 125
+125 129 125 125 125
+94 125
+
+94
+241
+241
+261 261 261
+Continued
+
+34
+
+Table 4.—Continued.
+
+FIA ID Common name
+290 timber tree 300 acacia 302 yellow paloverde 303 Australian blackwood 304 prickly acacia 305 earleaf acacia 306 mangium 307 black wattle 308 willow acacia 309 black cutch 310 Australian pine 311 Florida maple 312 Bigleaf maple 313 boxelder 314 black maple 315 striped maple 316 red maple 317 silver maple 318 sugar maple 319 mountain maple 321 Rocky Mountain maple 322 Bigtooth maple 330 buckeye, horsechestnut 331 Ohio buckeye 332 yellow buckeye 333 California buckeye 334 Texas buckeye 335 horsechestnut 341 ailanthus 351 red alder 352 White alder 353 sitka alder 355 serviceberry 361 Pacific madrone 367 pawpaw 370 birch spp. 371 yellow birch 372 sweet birch 373 river birch 374 water birch 375 paper birch 376 Western paper birch 379 gray birch 381 chittamwood, gum bumelia 391 American hornbeam, musclewood 395 lead tree 400 hickory spp. 401 water hickory 402 bitternut hickory 403 pignut hickory
+
+Family
+Mimosaceae various Caesalpinaceae Fabaceae Fabaceae Leguminosae Fabaceae Fabaceae Fabaceae Fabaceae Casuarinaceae Aceraceae Aceraceae Aceraceae Aceraceae Aceraceae Aceraceae Aceraceae Aceraceae Aceraceae Aceraceae Aceraceae Hippocastanaceae Hippocastanaceae Hippocastanaceae Hippocastanaceae Hippocastanaceae Hippocastanaceae Simaroubaceae Betulaceae Betulaceae Betulaceae Rosaceae Ericaceae Annonaceae Betulaceae Betulaceae Betulaceae Betulaceae Betulaceae Betulaceae Betulaceae Betulaceae Sapotaceae Betulaceae Fabaceae Juglandaceae Juglandaceae Juglandaceae Juglandaceae
+
+Genus
+Albizia Acacia Cercidium Acacia Acacia Acacia Acacia Acacia Acacia Acacia Casuarina Acer Acer Acer Acer Acer Acer Acer Acer Acer Acer Acer Aesculus Aesculus Aesculus Aesculus Aesculus Aesculus Ailanthus Alnus Alnus Alnus Amelanchier Arbutus Asimina Betula Betula Betula Betula Betula Betula Betula Betula Bumelia Carpinus Leucaena Carya Carya Carya Carya
+
+Species
+
+Species group
+
+falcataria (Hawaii)
+
+wo
+
+spp.
+
+wo
+
+microphyllum
+
+wo
+
+melanoxylon (Hawaii)
+
+wo
+
+nilotica (India)
+
+wo
+
+auriculiformis (Thailand)
+
+wo
+
+mangium (Hawaii)
+
+wo
+
+mearnsii (Hawaii)
+
+wo
+
+salicina
+
+wo
+
+catechu (India)
+
+wo
+
+equisetifolia (Hawaii)
+
+wo
+
+barbatum
+
+mb
+
+macrophyllum
+
+mb
+
+negundo
+
+mb
+
+nigrum
+
+mo
+
+pensylvanicum
+
+mb
+
+rubrum
+
+mb
+
+saccharinum
+
+mb
+
+saccharum
+
+mo
+
+spicatum
+
+mb
+
+glabrum
+
+wo
+
+grandidentatum
+
+wo
+
+spp.
+
+mh
+
+glabra
+
+mh
+
+octandra
+
+mh
+
+californica
+
+mh
+
+glabra var. arguta
+
+mh
+
+indica (Himalayas)
+
+mh
+
+altissima
+
+mh
+
+spp.
+
+aa
+
+rhombifolia
+
+aa
+
+sinuata
+
+aa
+
+spp.
+
+mh
+
+menziesii
+
+mh
+
+triloba
+
+mh
+
+spp.
+
+mb
+
+alleghaniensis
+
+mb
+
+lenta
+
+mb
+
+nigra
+
+mb
+
+occidentalis
+
+mb
+
+papyrifera
+
+mb
+
+papyrifera var. commutata
+
+mb
+
+populifolia
+
+mb
+
+lanuginosa
+
+mh
+
+caroliniana
+
+mh
+
+leucocephala (Thailand)
+
+mh
+
+spp.
+
+mo
+
+aquatica
+
+mo
+
+cordiformis
+
+mo
+
+glabra
+
+mo
+
+Wood specific gravity
+0.6
+0.54 0.44 0.44 0.52 0.44 0.49 0.44 0.56 0.44 0.44
+0.33 0.33 0.33 0.33
+0.33 0.37
+0.66
+0.47 0.54 0.55 0.6 0.56 0.53 0.48
+0.45 0.47 0.58
+0.62 0.61 0.6 0.66
+
+Bark specific gravity
+0.5
+0.64
+0.5 0.64 0.45 0.5805 0.58 0.635 0.45 0.45
+0.5 0.5 0.5 0.5
+0.45 0.4
+0.45
+0.45 0.5 0.56 0.67 0.5 0.5 0.5
+0.5 0.45 0.45
+0.5355 0.54 0.54 0.54
+
+Bark specific Stump volume gravity source equation
+316
+
+318
+
+970
+
+316
+
+316
+
+36
+
+316
+
+316
+
+93
+
+318
+
+316
+
+318
+
+541 541 541 541
+
+316 316
+
+316
+
+316
+
+371
+
+371
+
+36
+
+371
+
+371
+
+371
+
+375
+
+375 316 316
+
+36
+
+951
+
+951
+
+951
+
+951
+
+35
+
+FIA ID Common name
+404 pecan 405 shellbark hickory 407 shagbark hickory 408 black hickory 409 mockernut hickory 421 American chestnut 422 Allegheny chinkapin 423 Ozark chinkapin 430 chinkapin 431 Golden chinkapin 450 catalpa 451 southern catalpa 452 northern catalpa 460 hackberry spp. 461 sugarberry 462 hackberry 471 eastern redbud 475 Curlleaf mountain-mahogany 476 True mountain-mahogany 477 Hairy mountain-mahogany 478 Birchleaf mountain-mahogany 479 Littleleaf mountain-mahogany 491 flowering dogwood 492 Pacific dogwood 500 hawthorn 510 Eucalyptus 511 rose gum 512 swamp mahogany 513 sydney blue eucalyptus 514 flat-topped yate 515 Tasmanian blue gum 516 Timor mountain gum 521 common persimmon 531 American beech 540 ash 541 white ash 542 Oregon ash 543 black ash 544 green ash 545 pumpkin ash 546 blue ash 551 waterlocust 552 honeylocust 555 loblolly-bay 571 Kentucky coffeetree 580 silverbell 591 American holly 600 Walnut 601 butternut 602 black walnut
+
+Family
+Juglandaceae Juglandaceae Juglandaceae Juglandaceae Juglandaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Bignoniaceae Bignoniaceae Bignoniaceae Ulmaceae Ulmaceae Ulmaceae Leguminosae Rosaceae Rosaceae Rosaceae Rosaceae Rosaceae Cornaceae Cornaceae Rosaceae Myrtaceae Myrtaceae Myrtaceae Myrtaceae Myrtaceae Myrtaceae Myrtaceae Ebenaceae Fagaceae Oleaceae Oleaceae Oleaceae Oleaceae Oleaceae Oleaceae Oleaceae Leguminosae Leguminosae Theaceae Leguminosae Styracaceae Aquifoliaceae Juglandaceae Juglandaceae Juglandaceae
+
+Genus
+Carya Carya Carya Carya Carya Castanea Castanea Castanea Castanopsis Castanopsis Catalpa Catalpa Catalpa Celtis Celtis Celtis Ceriss Cercocarpus Cercocarpus Cercocarpus Cercocarpus Cercocarpus Cornus Cornus Crataegus Eucalyptus Eucalyptus Eucalyptus Eucalyptus Eucalyptus Eucalyptus Eucalyptus Diospyros Fagus Fraxinus Fraxinus Fraxinus Fraxinus Fraxinus Fraxinus Fraxinus Gleditsia Gleditsia Gordonia Gymnocladus Halesia Ilex Juglans Juglans Juglans
+
+Species
+
+Species group
+
+illinoensis
+
+mo
+
+laciniosa
+
+mo
+
+ovata
+
+mo
+
+texana
+
+mo
+
+tomentosa
+
+mo
+
+dentata
+
+mh
+
+pumila
+
+mh
+
+ozarkensis
+
+mh
+
+spp.
+
+mh
+
+chrysophylla
+
+mh
+
+spp.
+
+mh
+
+bignonioides
+
+mh
+
+speciosa
+
+mh
+
+spp.
+
+mh
+
+laevigata
+
+mh
+
+occidentalis
+
+mh
+
+canadensis
+
+mh
+
+ledifolius
+
+wo
+
+montanus
+
+wo
+
+montanus var. pauciden
+
+wo
+
+montanus var. glaber
+
+wo
+
+intricatus
+
+wo
+
+florida
+
+mh
+
+nuttallii
+
+mh
+
+spp.
+
+mh
+
+spp.
+
+mh
+
+grandis (Hawaii)
+
+mh
+
+robusta (Hawaii)
+
+mh
+
+saligna (Hawaii)
+
+mh
+
+occidentalis
+
+mh
+
+globulus (Hawaii)
+
+mh
+
+urophylla (Hawaii)
+
+mh
+
+virginiana
+
+mh
+
+grandifolia
+
+mo
+
+spp.
+
+mh
+
+americana
+
+mh
+
+latifolia
+
+mh
+
+nigra
+
+mh
+
+pennsylvanica
+
+mh
+
+profunda
+
+mh
+
+quadrangulata
+
+mh
+
+aquatica
+
+mh
+
+triacanthos
+
+mh
+
+lasianthus
+
+mh
+
+dioicus
+
+mh
+
+spp.
+
+mh
+
+opaca
+
+mh
+
+spp.
+
+mh
+
+cinerea
+
+mh
+
+nigra
+
+mh
+
+Wood specific gravity
+0.6 0.62 0.64 0.54 0.64 0.4 0.4 0.4 0.42
+0.38 0.38 0.38 0.49 0.47 0.49 0.58
+0.64 0.58 0.62
+0.64 0.56 0.51 0.55 0.5 0.45 0.53 0.48 0.53 0.6 0.6 0.37 0.5 0.42 0.5 0.51 0.36 0.51
+
+Bark specific gravity 0.54 0.54 0.54 0.54 0.54 0.5 0.5 0.5 0.45
+0.5 0.45 0.5 0.5 0.5 0.5 0.5
+0.5
+0.45
+0.5 0.5 0.65 0.3855
+0.39 0.407 0.39 0.39 0.5 0.5 0.5 0.5 0.5 0.5
+0.5 0.5
+
+Bark specific Stump volume gravity source equation
+951 951 951 951 951 316 316 970 316
+740 316 740 371 371 371 316
+316
+316
+
+316
+
+531
+
+28
+
+541
+
+36
+
+541
+
+543
+
+33
+
+541
+
+541
+
+541
+
+316
+
+316
+
+951
+
+316
+
+316
+
+531 951
+Continued
+
+36
+
+Table 4.—Continued.
+
+FIA ID Common name
+606 walnut 611 sweetgum 621 yellow-poplar 631 Tanoak 641 Osage-orange 650 magnolia spp. 651 cucumbertree 652 southern magnolia 653 sweetbay 654 bigleaf magnolia 660 Apple 680 mulberry spp. 681 white mulberry 682 red mulberry 691 water tupelo 692 ogeechee tupelo 693 blackgum 694 swamp tupelo 701 eastern hophornbeam, ironwood 711 sourwood 712 Paulownia, Empress tree 721 redbay 730 California sycamore 731 sycamore 740 cottonwood 741 balsam poplar 742 eastern cottonwood 743 bigtooth aspen 744 swamp cottonwood 745 plains cottonwood 746 quaking aspen 747 Black cottonwood 748 Fremont cottonwood 752 silver poplar 753 Narrowleaf cottonwood 760 cherry, plum spp. 761 pin cherry 762 black cherry 763 chokecherry 764 Bitter cherry 764 plums, cherries, except 762 765 Canada plum 766 wild plum 800 Oak-deciduous (woodland species) 801 California live oak 802 white oak 803 Arizona white oak, Gray oak 804 swamp white oak 805 Canyon live oak 806 scarlet oak
+
+Family
+Juglandaceae Hamamelidaceae Magnoliaceae Fagaceae Moraceae Magnoliaceae Magnoliaceae Magnoliaceae Magnoliaceae Magnoliaceae Rosaceae Moraceae Moraceae Moraceae Nyssaceae Nyssaceae Nyssaceae Nyssaceae Betulaceae Ericaceae Bignoniaceae Lauraceae Platanaceae Platanaceae Salicaceae Salicaceae Salicaceae Salicaceae Salicaceae Salicaceae Salicaceae Salicaceae Salicaceae Salicaceae Salicaceae Rosaceae Rosaceae Rosaceae Rosaceae Rosaceae Rosaceae Rosaceae Rosaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae
+
+Genus
+Juglans Liquidambar Liriodendron Lithocarpus Maclura Magnolia Magnolia Magnolia Magnolia Magnolia Malus Morus Morus Morus Nyssa Nyssa Nyssa Nyssa Ostrya Oxydendrum Paulownia Persea Platanus Platanus Populus Populus Populus Populus Populus Populus Populus Populus Populus Populus Populus Prunus Prunus Prunus Prunus Prunus Prunus Prunus Prunus Quercus Quercus Quercus Quercus Quercus Quercus Quercus
+
+Species
+
+Species group
+
+regia (Himalayas)
+
+mh
+
+styraciflua
+
+mh
+
+tulipifera
+
+mh
+
+densiflorus
+
+mh
+
+pomifera
+
+mh
+
+spp.
+
+mh
+
+acuminata
+
+mh
+
+grandiflora
+
+mh
+
+virginiana
+
+mh
+
+macrophylla
+
+mh
+
+spp.
+
+mh
+
+spp.
+
+mh
+
+alba
+
+mh
+
+rubra
+
+mh
+
+aquatica
+
+mh
+
+ogeche
+
+mh
+
+sylvatica
+
+mh
+
+sylvatica var. biflora
+
+mh
+
+virginiana
+
+mh
+
+arboreum
+
+mh
+
+tomentosa
+
+mh
+
+borbonia
+
+mh
+
+racemosa
+
+mh
+
+occidentalis
+
+mh
+
+spp.
+
+aa
+
+balsamifera
+
+aa
+
+deltoides
+
+aa
+
+grandidentata
+
+aa
+
+heterophylla
+
+aa
+
+sargentii
+
+aa
+
+tremuloides
+
+aa
+
+balsamifera sspp. Trichocar
+
+aa
+
+fremontii
+
+aa
+
+alba
+
+aa
+
+angustifolia
+
+aa
+
+spp.
+
+mh
+
+pensylvanica
+
+mh
+
+serotina
+
+mh
+
+virginiana
+
+mh
+
+emarginata
+
+wo
+
+spp.
+
+mh
+
+nigra
+
+mh
+
+americana
+
+mh
+
+spp.
+
+wo
+
+agrifolia
+
+mo
+
+alba
+
+mo
+
+arizonica, grisea
+
+wo
+
+bicolor
+
+mo
+
+chrysolepis
+
+mo
+
+coccinea
+
+mo
+
+Wood specific gravity
+0.46 0.4
+0.76 0.43 0.44 0.46 0.45 0.45 0.61 0.59 0.59 0.59 0.46 0.46 0.46 0.46 0.63 0.5 0.38 0.51 0.36 0.46 0.37 0.31 0.37 0.36 0.37 0.37 0.35 0.31
+0.37 0.37 0.47 0.36 0.47 0.36 0.47 0.47 0.47 0.47
+0.6
+0.64 0.7 0.6
+
+Bark specific gravity
+0.3903 0.364
+0.45 0.5 0.5 0.46 0.5 0.45 0.45 0.5 0.5 0.5 0.3483 0.45 0.4465 0.35 0.45 0.45 0.5 0.5
+0.5177 0.452 0.452 0.452 0.452 0.452 0.452 0.452
+0.452 0.452 0.45 0.45 0.5925 0.45 0.45 0.45 0.45 0.45
+0.513
+0.513
+0.6357
+
+Bark specific Stump volume gravity source equation
+
+35
+
+951
+
+36
+
+746
+
+316
+
+951
+
+951
+
+951
+
+951
+
+951
+
+316
+
+371
+
+371
+
+316
+
+33
+
+951
+
+316
+
+36
+
+951
+
+951
+
+316
+
+316
+
+316
+
+371
+
+34
+
+531
+
+740
+
+740
+
+740
+
+743
+
+740
+
+740
+
+94
+
+746
+
+746
+
+740
+
+316
+
+316
+
+145
+
+375
+
+316
+
+316
+
+316
+
+316
+
+740
+
+36
+
+802
+
+802
+
+36
+
+833
+
+37
+
+FIA ID Common name
+807 Blue oak 808 Durand oak 809 northern pin oak 810 Emory oak 811 Engelmann oak 812 southern red oak 813 cherrybark oak, swamp red oak 814 Gambel oak 815 Oregon white oak 816 bear oak, scrub oak 817 shingle oak 818 California black oak 819 turkey oak 820 laurel oak 821 California white oak 822 overcup oak 823 bur oak 824 blackjack oak 825 swamp chestnut oak 826 chinkapin oak 827 water oak 828 Nuttall oak 829 Mexican blue oak 830 pin oak 831 willow oak 832 chestnut oak 833 northern red oak 834 Shumard oak 835 post oak 836 Delta post oak 837 black oak 838 live oak 839 Interior live oak 840 bluejack oak 843 Silverleaf oak 850 Oakevergreen (woodland species) 855 banj oak 856 kharsu oak 899 scrub oak 901 black locust 902 New Mexico locust 920 willow 921 peachleaf willow 922 black willow 923 diamond willow 925 Chinese tallowtree 931 sassafras 935 American mountain-ash 936 European mountain-ash
+
+Family
+Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Fagaceae Leguminosae Leguminosae Salicaceae Salicaceae Salicaceae Salicaceae Euphorbiaceae Lauraceae Rosaceae Rosaceae
+
+Genus
+Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Quercus Robinia Robinia Salix Salix Salix Salix Sapium Sassafras Sorbus Sorbus
+
+Species
+
+Species group
+
+douglasii
+
+mo
+
+durandii
+
+mo
+
+ellipsoidalis
+
+mo
+
+emoryi
+
+wo
+
+engelmannii
+
+mo
+
+falcata var. falcata
+
+mo
+
+falcata var. pagodaefolia
+
+mo
+
+gambelii
+
+wo
+
+garryana
+
+mo
+
+ilicifolia
+
+mo
+
+imbricaria
+
+mo
+
+kelloggii
+
+mo
+
+laevis
+
+mo
+
+laurifolia
+
+mo
+
+lobata
+
+mo
+
+lyrata
+
+mo
+
+macrocarpa
+
+mo
+
+marilandica
+
+mo
+
+michauxii
+
+mo
+
+muehlenbergii
+
+mo
+
+nigra
+
+mo
+
+nuttalii
+
+mo
+
+oblongifolia
+
+wo
+
+palustris
+
+mo
+
+phellos
+
+mo
+
+prinus
+
+mo
+
+rubra
+
+mo
+
+shumardii
+
+mo
+
+stellata
+
+mo
+
+stellata var. mississippiensis mo
+
+velutina
+
+mo
+
+virginiana
+
+mo
+
+wislizeni
+
+mo
+
+incana
+
+mo
+
+hypoleucoides
+
+wo
+
+spp.
+
+wo
+
+leucotricophora
+
+mo
+
+semecarpifolia
+
+mo
+
+spp.
+
+mo
+
+psuedoacacia
+
+mh
+
+neomexicana
+
+wo
+
+spp.
+
+aa
+
+amygdaloides
+
+aa
+
+nigra
+
+aa
+
+eriocephala
+
+aa
+
+sebiferum
+
+mh
+
+albidum
+
+mh
+
+americana
+
+mh
+
+aucuparia
+
+mh
+
+Wood specific gravity
+0.6 0.58
+0.52 0.61
+0.64 0.56 0.56 0.51 0.52 0.56
+0.57 0.58 0.56 0.6 0.6 0.56 0.56
+0.58 0.56 0.57 0.56 0.56 0.6 0.6 0.56 0.8
+0.56
+0.56 0.66
+0.36 0.36 0.36 0.36 0.47 0.42 0.42 0.42
+
+Bark specific gravity
+0.513 0.6
+0.6465 0.629
+0.45 0.6
+0.45 0.635
+0.51 0.513 0.6 0.513 0.513 0.622 0.6
+0.6 0.6 0.509 0.629 0.629 0.5155 0.51 0.568 0.51
+0.45
+0.45 0.286
+0.415 0.45 0.5 0.45 0.45 0.5 0.45 0.45
+
+Bark specific Stump volume gravity source equation
+802 802
+
+35
+
+833
+
+833
+
+833 802
+
+316
+
+33
+
+833
+
+833
+
+802
+
+833
+
+802
+
+802
+
+33
+
+833
+
+802
+
+833
+
+802
+
+36
+
+802
+
+833
+
+802
+
+35
+
+833
+
+833
+
+36
+
+833
+
+833
+
+802
+
+802
+
+36
+
+316
+
+28
+
+316
+
+316
+
+316
+
+316
+
+316
+
+316
+
+316
+
+316
+
+Continued
+
+38
+
+Table 4.—Continued.
+
+FIA ID Common name
+
+950 951 952 970 971 972 973 974 975 976 977 980 981 981 983 984 985 986 990 1000
+
+basswood American basswood white basswood elm winged elm American elm cedar elm Siberian elm slippery elm September elm rock elm tung-oil tree California-laurel sparkleberry chinaberry water-elm smoketree mesquite Tesota (Arizona ironwood) hardwoods (general)
+
+Family
+Tiliaceae Tiliaceae Tiliaceae Ulmaceae Ulmaceae Ulmaceae Ulmaceae Ulmaceae Ulmaceae Ulmaceae Ulmaceae Euphorbiaceae Ericaceae Ericaceae Meliaceae Ulmaceae Anacardiaceae Leguminosae Leguminosae General
+
+Genus
+Tilia Tilia Tilia Ulmus Ulmus Ulmus Ulmus Ulmus Ulmus Ulmus Ulmus Aleurites Umbellularia Vaccinium Melia Planera Cotinus Prosopis Olneya Hardwood
+
+Species
+spp. americana heterophylla spp. alata americana crassifolia pumila rubra serotina thomasii fordii californica arboreum azedarach aquatica obovatus spp. tesota spp.
+
+Species group
+mh mh mh mh mh mh mh mh mh mh mh mh mh mh mh mh mh wo wo mh
+
+Wood specific gravity
+0.32 0.32 0.32 0.5 0.57 0.46 0.57 0.46 0.48 0.57 0.57 0.47 0.47 0.47 0.47 0.53 0.47 0.58
+0.5
+
+Bark specific gravity
+0.4205 0.4205 0.4205 0.3775 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.45 0.45 0.45 0.45 0.45 0.45 0.45
+0.5
+
+Bark specific Stump volume gravity source equation
+
+951
+
+36
+
+951
+
+951
+
+34
+
+970
+
+970
+
+970
+
+970
+
+970
+
+970
+
+970
+
+970
+
+316
+
+316
+
+316
+
+316
+
+970
+
+316
+
+316
+
+951
+
+Table 5.—Tree component key
+
+Component description
+
+Component abbreviationa
+
+Complete tree (above + belowground) Whole tree (aboveground) Whole tree (above stump) Stem (wood only) Stem (bark only) Stem (wood + bark) Stem top Branches live Branches live < 2.5 cm Branches live 2.5-7.6 cm Branches live > 7.6 cm Branches dead Branches total (live + dead) Stem + branches (bark only) Stem + branches (wood only) Stem + branches (live) Wood, bark, branches (live + dead; no twigs or foliage) Foliage total Foliage new Foliage old Twigs total Twigs old Foliage + twigs Crown (branches + foliage + twigs) Roots, coarse > 3 mm dia Coarse stump roots Coarse lateral roots Fine roots Roots total Stump wood Stump bark Stump total Stump + roots Cones Live crown (branches + foliage + twigs) Dead crown (branches + foliage + twigs) Small branches
+
+BTT BAT
+BSW BSB BST
+BBL BBL_1 BBL_2 BBL_3 BBD BBT
+BAP BAE BFT BFN BFO BBG BBG_O BFG BCT BKL BSR BLR BFR BRT
+BCL BCD BBS
+
+aSee BIOPAK compilation in Means et al. (1994).
+
+Component ID
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37
+
+Table 6.—Equation form key
+
+Equation form description
+
+Equation form ID
+
+log10 biomass = a + b * (log10(dia^c))
+
+1
+
+ln biomass = a + b * dia + c * (ln(dia^d))
+
+2
+
+ln biomass = a + b * ln(dia) + c * (d + (e * ln(dia)))
+
+3
+
+biomass = a + b * dia + c * (dia ^ d)
+
+4
+
+biomass = a + (b * dia) + c * (dia ^ 2) + d * (dia ^ 3)
+
+5
+
+biomass = a * (exp(b + (c * ln(dia)) + (d * dia)))
+
+6
+
+biomass = a + ((b * (dia ^ c))/((dia ^ c) + d))
+
+7
+
+log100 biomass = a + (b * log10(dia))
+
+8
+
+ln biomass = ln(a) + (b * ln(dia))
+
+9
+
+39
+
+Table 7.—Parameters for stem ratio equations for selected stem biomass equations (See text for explanation of equation use)
+
+Source Species Component
+
+a
+
+b
+
+c
+
+33
+
+316
+
+33
+
+400
+
+33
+
+544
+
+33
+
+611
+
+33
+
+621
+
+33
+
+691
+
+33
+
+693
+
+33
+
+802
+
+33
+
+820
+
+33
+
+827
+
+33
+
+316
+
+33
+
+400
+
+33
+
+544
+
+33
+
+611
+
+33
+
+621
+
+33
+
+691
+
+33
+
+693
+
+33
+
+802
+
+33
+
+820
+
+33
+
+827
+
+34
+
+316
+
+34
+
+400
+
+34
+
+611
+
+34
+
+621
+
+34
+
+731
+
+34
+
+802
+
+34
+
+806
+
+34
+
+812
+
+34
+
+832
+
+34
+
+970
+
+34
+
+316
+
+34
+
+400
+
+34
+
+611
+
+34
+
+621
+
+34
+
+731
+
+34
+
+802
+
+34
+
+806
+
+34
+
+812
+
+34
+
+832
+
+34
+
+970
+
+35
+
+400
+
+35
+
+611
+
+35
+
+621
+
+35
+
+802
+
+35
+
+806
+
+35
+
+812
+
+35
+
+835
+
+35
+
+400
+
+35
+
+611
+
+35
+
+621
+
+35
+
+802
+
+st
+
+-2.27985
+
+4.42188
+
+-4.59723
+
+st
+
+-2.70268
+
+4.40866
+
+-4.59728
+
+st
+
+-0.79675
+
+3.05645
+
+-2.96884
+
+st
+
+-2.17912
+
+4.37749
+
+-4.55793
+
+st
+
+-0.86509
+
+4.22701
+
+-4.11086
+
+st
+
+-1.66379
+
+3.46696
+
+-3.51675
+
+st
+
+-1.27291
+
+4.23402
+
+-4.2434
+
+st
+
+-1.43138
+
+3.68884
+
+-3.84353
+
+st
+
+-2.12286
+
+4.59564
+
+-4.83455
+
+st
+
+-1.28716
+
+4.6938
+
+-4.65009
+
+sw
+
+-2.20332
+
+4.56197
+
+-4.71937
+
+sw
+
+-2.7134
+
+4.53012
+
+-4.71976
+
+sw
+
+-0.81859
+
+3.16181
+
+-3.08978
+
+sw
+
+-2.13084
+
+4.56383
+
+-4.73251
+
+sw
+
+-0.86026
+
+4.31966
+
+-4.19801
+
+sw
+
+-1.65907
+
+3.54754
+
+-3.60457
+
+sw
+
+-1.37905
+
+4.35347
+
+-4.40059
+
+sw
+
+-1.47803
+
+3.87194
+
+-4.02826
+
+sw
+
+-2.51431
+
+4.93186
+
+-5.22179
+
+sw
+
+-1.26866
+
+4.79701
+
+-4.7429
+
+st
+
+-0.7675
+
+4.32891
+
+-4.04315
+
+st
+
+-8.75055
+
+4.05001
+
+-4.97494
+
+st
+
+-1.70312
+
+4.00522
+
+-4.07778
+
+st
+
+-1.7621
+
+4.04115
+
+-4.21537
+
+st
+
+-2.30869
+
+4.75038
+
+-4.8381
+
+st
+
+-1.91277
+
+3.93041
+
+-4.19809
+
+st
+
+-4.0717
+
+3.5959
+
+-4.3308
+
+st
+
+-1.9982
+
+3.47308
+
+-3.75484
+
+st
+
+-1.21241
+
+4.73014
+
+-4.70501
+
+st
+
+-1.85693
+
+4.17785
+
+-4.19195
+
+sw
+
+-0.73261
+
+4.3608
+
+-4.05919
+
+sw
+
+-8.62935
+
+4.08077
+
+-5.00432
+
+sw
+
+-1.65108
+
+4.08554
+
+-4.15193
+
+sw
+
+-1.71038
+
+4.11441
+
+-4.28158
+
+sw
+
+-2.28046
+
+4.80799
+
+-4.88602
+
+sw
+
+-1.85655
+
+4.04282
+
+-4.2976
+
+sw
+
+-4.08401
+
+3.68907
+
+-4.42364
+
+sw
+
+-2.07378
+
+3.53706
+
+-3.83789
+
+sw
+
+-1.19487
+
+4.87213
+
+-4.83716
+
+sw
+
+-0.56432
+
+3.52387
+
+-3.07702
+
+st
+
+-3.10193
+
+4.32745
+
+-4.7071
+
+st
+
+-2.07716
+
+4.77234
+
+-4.80657
+
+st
+
+-1.97288
+
+4.84199
+
+-4.95434
+
+st
+
+-2.03925
+
+4.97981
+
+-5.10296
+
+st
+
+-2.00681
+
+4.4127
+
+-4.66309
+
+st
+
+-3.83036
+
+3.96024
+
+-4.39942
+
+st
+
+-1.91071
+
+4.10398
+
+-4.35362
+
+sw
+
+-3.13482
+
+4.40292
+
+-4.78594
+
+sw
+
+-1.93715
+
+4.91375
+
+-4.91348
+
+sw
+
+-1.99918
+
+4.96877
+
+-5.08179
+
+sw
+
+-1.95384
+
+5.13262
+
+-5.2319
+
+Continued
+
+40
+
+Table 7.—Continued.
+
+Source Species Component
+
+a
+
+35
+
+806
+
+35
+
+812
+
+35
+
+835
+
+36
+
+316
+
+36
+
+372
+
+36
+
+400
+
+36
+
+541
+
+36
+
+621
+
+36
+
+693
+
+36
+
+802
+
+36
+
+806
+
+36
+
+832
+
+36
+
+833
+
+36
+
+837
+
+36
+
+901
+
+36
+
+951
+
+36
+
+316
+
+36
+
+372
+
+36
+
+400
+
+36
+
+541
+
+36
+
+621
+
+36
+
+693
+
+36
+
+802
+
+36
+
+806
+
+36
+
+832
+
+36
+
+833
+
+36
+
+837
+
+36
+
+901
+
+36
+
+951
+
+sw
+
+-1.97765
+
+sw
+
+-3.85832
+
+sw
+
+-1.83838
+
+st
+
+-1.43083
+
+st
+
+-0.81251
+
+st
+
+-4.48018
+
+st
+
+-0.84279
+
+st
+
+-3.54839
+
+st
+
+-1.6209
+
+st
+
+-12.00001
+
+st
+
+-2.65117
+
+st
+
+-2.25664
+
+st
+
+-1.90345
+
+st
+
+-4.35164
+
+st
+
+-1.279
+
+st
+
+-1.28273
+
+sw
+
+-1.33864
+
+sw
+
+-0.72051
+
+sw
+
+-4.36489
+
+sw
+
+-0.80589
+
+sw
+
+-3.51229
+
+sw
+
+-1.34282
+
+sw
+
+-12.83857
+
+sw
+
+-2.49944
+
+sw
+
+-2.22131
+
+sw
+
+-1.76424
+
+sw
+
+-3.94567
+
+sw
+
+-1.27952
+
+sw
+
+-1.05926
+
+b
+4.48821 4.02836 4.18398 4.05497 4.21844 3.83474 3.28603 3.17747 4.27337 2.64614 3.58558 4.00092 3.95236 3.85984 3.33578 3.87891 4.16262 4.31785 3.93623 3.3815 3.24724 4.39292 2.72014 3.64618 4.1482 4.05667 3.93141 3.42285 4.01311
+
+c
+-4.73111 -4.47336 -4.41261 -4.12303 -4.08482 -4.43554 -3.33279 -3.76535 -4.51105 -3.9633 -4.09877 -4.35574 -4.27185 -4.49173 -3.49181 -3.97929 -4.20601 -4.13646 -4.52542 -3.41391 -3.83278 -4.56007 -4.08425 -4.13742 -4.50149 -4.34109 -4.53034 -3.58019 -4.0416
+
+41
+
+42
+
+Table 8.—Stump diameter regression coefficients, outside and inside bark, for tree species of the Lake States (from Raile 1982) (See text for explanation of equation use)
+
+Species group
+
+Stump volume Number D.b.h. (inches)
+
+equation code of trees Min.
+
+Max.
+
+Outside bark
+
+B
+
+R2
+
+SEa
+
+Inside bark
+
+A
+
+B
+
+R2
+
+SEa
+
+Eastern white pine
+
+125
+
+Red pine
+
+129
+
+Jack pine
+
+105
+
+White spruce
+
+94
+
+Black spruce
+
+95
+
+Balsam fir
+
+12
+
+Hemlock
+
+261
+
+Northern white-cedar
+
+241
+
+White oaks
+
+802
+
+Red oaks
+
+833
+
+Beech
+
+531
+
+Yellow birch
+
+371
+
+Hard maples
+
+318
+
+Soft maples
+
+316
+
+White/ green ash
+
+541
+
+Black ash
+
+543
+
+Paper birch
+
+375
+
+Bigtooth aspen
+
+743
+
+Quaking aspen
+
+746
+
+Basswood
+
+950
+
+Cottonwood
+
+740
+
+Elms
+
+970
+
+aInches.
+
+53 6.2 228 3.4 579 3.4
+34 5.1 103 3.6 119 4.3
+57 5.8 14 4.8 61 4.2 214 2.5 29 4.5 41 7.5 132 2.3 74 2.5 37 7.3 15 7.9 178 3.2 204 4.0 678 2.9 38 6.4
+7 12.8 80 7.0
+
+33.0 23.0 19.4 18.0 17.9 15.4 29.0 13.3 26.0 28.7 24.3 28.1 31.3 20.8 24.7 17.5 22.4 15.6 20.5 26.7 27.8 30.5
+
+0.11694 0.89
+
+1.2
+
+0.08091 0.91
+
+0.5
+
+0.08076 0.87
+
+0.5
+
+0.16903 0.86
+
+1.2
+
+0.12147 0.73
+
+0.9
+
+0.15359 0.89
+
+0.8
+
+0.12667 0.85
+
+1.3
+
+0.18850 0.89
+
+0.9
+
+0.14872 0.84
+
+1.3
+
+0.12798 0.83
+
+1.2
+
+0.15113 0.79
+
+1.8
+
+0.15350 0.78
+
+2.0
+
+0.12111 0.76
+
+1.6
+
+0.11585 0.77
+
+1.2
+
+0.12766 0.75
+
+1.5
+
+0.17376 0.93
+
+0.9
+
+0.11655 0.77
+
+1.0
+
+0.06834 0.82
+
+0.5
+
+0.09658 0.83
+
+0.8
+
+0.14413 0.86
+
+1.4
+
+0.17123 0.85
+
+2.1
+
+0.16638 0.84
+
+1.6
+
+0.91385 0.11182 0.86 1.2 0.90698 0.08469 0.87 0.7 0.90973 0.07926 0.84 0.6 0.95487 0.15664 0.83 1.2 0.94122 0.11781 0.69 1.0 0.93793 0.14553 0.87 0.9 0.91400 0.11975 0.79 1.4 0.94698 0.18702 0.86 1.0 0.91130 0.14907 0.83 1.4 0.92267 0.12506 0.81 1.3 0.96731 0.14082 0.79 1.6 0.94423 0.14335 0.80 1.7 0.93818 0.11424 0.75 1.5 0.94181 0.10740 0.73 1.2 0.91979 0.12152 0.72 1.6 0.93502 0.17071 0.94 0.8 0.93763 0.10640 0.75 0.9 0.91625 0.06478 0.71 0.7 0.91882 0.08593 0.78 0.8 0.92442 0.14240 0.87 1.3 0.92736 0.17626 0.85 2.2 0.93257 0.15803 0.82 1.6
+
+Table 9.—Sources and general locations for all equations (see Appendix A)
+
+Reference no.
+
+Reference
+
+Origin
+
+1
+
+Acker and Easter 1994
+
+Pacific Northwest
+
+2
+
+Adhikari et al. 1995
+
+Himalayas
+
+3
+
+Anurag et al. 1989
+
+India
+
+4
+
+Bajrang et al. 1996
+
+North Indian plains
+
+5
+
+Baldwin 1989
+
+Louisiana
+
+6
+
+Barclay et al. 1986
+
+Vancouver, BC
+
+7
+
+Barney et al. 1978
+
+Alaska
+
+8
+
+Bartelink 1996
+
+Nertherlands
+
+9
+
+Baskerville 1965
+
+New Brunswick
+
+10
+
+Baskerville 1966
+
+New Brunswick
+
+11
+
+Bergez et al. 1988
+
+central France
+
+12
+
+Bickelhaupt et al. 1973
+
+New York
+
+13
+
+Binkley 1983
+
+British Columbia, Washington State
+
+14
+
+Binkley et al. 1984
+
+Pacific Northwest
+
+15
+
+Bockheim and Lee 1984
+
+Wisconsin
+
+16
+
+Boerner and Kost 1986
+
+Ohio
+
+17
+
+Bormann 1990
+
+Southeastern Alaska
+
+18
+
+Brenneman et al. 1978
+
+West Virginia
+
+19
+
+Bridge 1979
+
+Rhode Island
+
+20
+
+Briggs et al. 1989
+
+New York
+
+21
+
+Brown 1978
+
+Rocky Mountains
+
+22
+
+Bunyavejchewin and Kiratiprayoon 1989
+
+Ratchaburi Province, Thailand
+
+23
+
+Busing et al. 1993
+
+Tennessee
+
+24
+
+Campbell et al. 1985
+
+Alberta
+
+25
+
+Carlyle and Malcolm 1986
+
+Great Britain
+
+26
+
+Carpenter 1983
+
+Minnesota
+
+27
+
+Carter and White 1971
+
+Alabama
+
+29
+
+Chapman and Gower 1991
+
+Wisconsin
+
+30
+
+Chaturvedi and Singh 1982
+
+Lesser Himalayas
+
+31
+
+Chojnacky 1984
+
+Nevada
+
+32
+
+Chojnacky and Moisen 1993
+
+Nevada
+
+33
+
+Clark et al. 1985
+
+Gulf and Atlantic Coastal Plains
+
+34
+
+Clark et al. 1986a
+
+Piedmont (Southeastern U.S.)
+
+35
+
+Clark et al. 1986b
+
+Upland South
+
+36
+
+Clark and Schroeder 1986
+
+North Carolina, Georgia
+
+37
+
+Clary and Tiedemann 1987
+
+Utah
+
+38
+
+Clebsch 1971
+
+Tennessee
+
+39
+
+Cochran et al. 1984
+
+Pacific Northwest
+
+40
+
+Crow 1971
+
+Maine
+
+41
+
+Crow 1976
+
+North-central U.S.
+
+42
+
+Crow 1983
+
+Wisconsin, Michigan
+
+43
+
+Darling 1967
+
+Arizona
+
+44
+
+Dudley and Fownes 1992
+
+Hawaii
+
+45
+
+Dunlap and Shipman 1967
+
+Pennsylvania
+
+47
+
+Espinosa-Bancalari and Perry 1987
+
+Oregon
+
+48
+
+Fassnacht 1996
+
+Wisconsin
+
+49
+
+Felker et al. 1982
+
+California
+
+50
+
+Feller 1992
+
+British Columbia
+
+51
+
+Freedman 1984
+
+Nova Scotia
+
+52
+
+Freedman et al. 1982
+
+Nova Scotia
+
+53
+
+Gary 1976
+
+Wyoming, Colorado
+
+54
+
+Gholz 1980
+
+Oregon
+
+55
+
+Gholz et al. 1979
+
+Pacific Northwest
+
+56
+
+Gholz et al. 1991
+
+Florida
+
+57
+
+Goldsmith and Hocker 1978
+
+New Hampshire
+
+58
+
+Gower et al. 1987
+
+Washington
+
+59
+
+Gower et al. 1993a
+
+Wisconsin, Montana
+
+60
+
+Gower et al. 1993b
+
+Southwestern Wisconsin
+
+Continued
+
+43
+
+Table 9.—Continued.
+
+Reference no.
+
+Reference
+
+61
+
+Gower et al. 1992
+
+62
+
+Green and Grigal 1978
+
+63
+
+Grier et al. 1992
+
+64
+
+Grier et al. 1984
+
+65
+
+Grier and Logan 1977
+
+66
+
+Grigal and Kernik 1978
+
+67
+
+Harding and Grigal 1985
+
+68
+
+Harmon 1994
+
+69
+
+Harrington et al. 1984
+
+70
+
+Harris et al. 1973
+
+71
+
+Hegyi 1972
+
+72
+
+Helgerson et al. 1988
+
+73
+
+Heth and Donald 1978
+
+74
+
+Hocker and Early 1983
+
+75
+
+Honer 1971
+
+76
+
+Ivask et al. 1988
+
+77
+
+Jackson and Chittenden 1981
+
+78
+
+Johnston and Bartos 1977
+
+79
+
+Jokela et al. 1981
+
+80
+
+Jokela et al. 1986
+
+81
+
+Ker 1980a
+
+82
+
+Ker 1980b
+
+83
+
+Ker 1984
+
+84
+
+Ker and van Raalte 1981
+
+85
+
+Kimmins 1973
+
+86
+
+Kinerson and Bartholomew 1977
+
+87
+
+King and Schnell 1972
+
+88
+
+Klopsch 1994
+
+89
+
+Koerper 1994
+
+90
+
+Koerper and Richardson 1980
+
+91
+
+Krumlik 1974
+
+92
+
+Krumlik and Kimmins 1973
+
+95
+
+Landis and Mogren 1975
+
+96
+
+Lieffers and Campbell 1984
+
+97
+
+Lodhiyal et al. 1995
+
+98
+
+Loomis et al. 1966
+
+99
+
+Lovenstein and Berliner 1993
+
+100
+
+Maclean and Wein 1976
+
+101
+
+Marshall and Wang 1995
+
+102
+
+Martin et al. 1998
+
+103
+
+McCain 1994
+
+104
+
+Means et al. 1994
+
+105
+
+Miller et al. 1981
+
+106
+
+Monk et al. 1970
+
+107
+
+Monteith 1979
+
+108
+
+Moore and Verspoor 1973
+
+109
+
+Morrison 1990
+
+110
+
+Naidu et al. 1998
+
+111
+
+Nelson and Switzer 1975
+
+112
+
+Ouellet 1983
+
+113
+
+Parker and Schneider 1975
+
+114
+
+Pastor et al. 1984
+
+115
+
+Pastor and Bockheim 1981
+
+116
+
+Pearson et al. 1984
+
+117
+
+Perala and Alban 1994
+
+118
+
+Peterson et al. 1970
+
+119
+
+Phillips 1981
+
+120
+
+Pollard 1972
+
+44
+
+Origin
+New Mexico Minnesota Arizona Washington Oregon Minnesota Minnesota Pacific Northwest Oregon Tennessee Ontario Oregon Cape Province, South Africa New Hampshire Ontario
+New Zealand Utah, Wyoming Minnesota New York New Brunswick Nova Scotia
+New Brunswick British Columbia New Hampshire North Carolina, Kentucky, Tennessee Pacific Northwest Pacific Northwest Michigan British Columbia British Columbia Colorado Alberta Central Himalayas Missouri Ozarks Israel New Brunswick British Columbia North Carolina Pacific Northwest Pacific Northwest Nevada, eastern California Georgia New York Quebec Northern Ontario North Carolina Mississippi Quebec Michigan Eastern U.S. Wisconsin Wyoming North Central States Alberta Southeast U.S. Ontario
+Continued
+
+Table 9.—Continued.
+
+Reference no.
+
+Reference
+
+121
+
+Rajeev et al. 1998
+
+122
+
+Ralston 1973
+
+123
+
+Ralston and Prince 1965
+
+124
+
+Ramseur and Kelly 1981
+
+125
+
+Rawat and Singh 1993
+
+126
+
+Reid et al. 1974
+
+127
+
+Reiners 1972
+
+128
+
+Rencz and Auclair 1980
+
+129
+
+Reynolds et al. 1978
+
+130
+
+Ribe 1973
+
+131
+
+Rogerson 1964
+
+132
+
+Rolfe et al. 1978
+
+133
+
+Ruark and Bockheim 1988
+
+134
+
+Ruark et al. 1987
+
+135
+
+Sachs 1984
+
+136
+
+Santantonio et al. 1977
+
+137
+
+Schmitt and Grigal 1981
+
+138
+
+Schnell 1976
+
+139
+
+Schnell 1978
+
+140
+
+Schroeder et al. 1997
+
+141
+
+Schubert et al. 1988
+
+142
+
+Siccama et al. 1994
+
+143
+
+Singh 1984
+
+144
+
+Singh and Misra 1979
+
+146
+
+Snell and Little 1983
+
+147
+
+Snell and Max 1985
+
+148
+
+Sollins and Anderson 1971
+
+149
+
+Sollins et al. 1973
+
+150
+
+St. Clair 1993
+
+151
+
+Standish et al. 1985
+
+152
+
+Stanek and State 1978
+
+153
+
+Swank and Schreuder 1974
+
+154
+
+Tandon et al. 1988
+
+155
+
+Telfer 1969
+
+156
+
+Teller 1988
+
+157
+
+Ter-Mikaelian and Korzukhin 1997
+
+158
+
+Thies and Cunningham 1996
+
+159
+
+Tritton and Hornbeck 1982
+
+160
+
+Tuskan and Rensema 1992
+
+161
+
+van Laar 1982
+
+162
+
+Van Lear et al. 1984
+
+163
+
+Vertanen et al. 1994
+
+164
+
+Wade 1969
+
+165
+
+Wang et al. 1995
+
+166
+
+Wang et al. 1996
+
+167
+
+Waring et al. 1978
+
+168
+
+Wartluft 1977
+
+169
+
+Watson and O’Loughlin 1990
+
+170
+
+Weetman and Harland 1964
+
+171
+
+Westman 1987
+
+172
+
+Whittaker et al. 1974
+
+173
+
+Whittaker and Niering 1975
+
+174
+
+Whittaker and Woodwell 1968
+
+175
+
+Wiant et al. 1977
+
+176
+
+Williams and McClenahan 1984
+
+177
+
+Young et al. 1980
+
+Origin
+Haryana, India North Carolina North Carolina Tennessee Central Himalayas
+Minnesota Quebec New Jersey Maine Mississippi Southern Illinois Northern Wisconsin Wisconsin Pacific Northwest
+Tennessee Tennessee
+Hawaii New Hampshire Northwest Territories Uttar Pradesh, India Pacific Northwest Washington Southeastern U.S. Tennessee Oregon British Columbia British Columbia North Carolina Haryana, India
+Belgium North America Oregon Northeastern U.S. North Dakota South Africa South Carolina Kenya Georgia British Columbia British Columbia Oregon West Virginia New Zealand Quebec Sierra Nevada, California New Hampshire Arizona New York West Virginia Ohio Maine
+
+45
+
+This CD-ROM includes an electronic version of the publication in Adobe pdf format. Also included are folders containing the data spreadsheets in Microsoft Excel® and Adobe® pdf formats. Windows98® or newer is required to use the Excel® spreadsheet files.
+Jenkins, Jennifer C.; Chojnacky, David C.; Heath, Linda S.; Birdsey, Richard A. 2004. Comprehensive database of diameter-based biomass regressions for North American tree species. Gen. Tech. Rep. NE-319. Newtown Square, PA: U.S. Department of Agriculture, Forest Service, Northeastern Research Station. 45 p. [1 CD-ROM].
+A database consisting of 2,640 equations compiled from the literature for predicting the biomass of trees and tree components from diameter measurements of species found in North America. Bibliographic information, geographic locations, diameter limits, diameter and biomass units, equation forms, statistical errors, and coefficients are provided for each equation, along with examples of how to use the database. The CD-ROM included with this publication contains the complete database (Table 3) in spreadsheet format (Microsoft Excel 2002® with Windows XP®). Keywords: allometric equations; biomass; forest; tree components; tree species
+Printed on Recycled Paper
+
+Headquarters of the Northeastern Research Station is in Newtown Square, Pennsylvania. Field laboratories are maintained at:
+Amherst, Massachusetts, in cooperation with the University of Massachusetts
+Burlington, Vermont, in cooperation with the University of Vermont
+Delaware, Ohio
+Durham, New Hampshire, in cooperation with the University of New Hampshire
+Hamden, Connecticut, in cooperation with Yale University
+Morgantown, West Virginia, in cooperation with West Virginia University
+Parsons, West Virginia
+Princeton, West Virginia
+Syracuse, New York, in cooperation with the State University of New York, College of Environmental Sciences and Forestry at Syracuse University
+Warren, Pennsylvania
+The U.S. Department of Agriculture (USDA) prohibits discrimination in all its programs and activities on the basis of race, color, national origin, gender, religion, age, disability, political beliefs, sexual orientation, and marital or family status. (Not all prohibited bases apply to all programs.) Persons with disabilities who require alternative means for communication of program information (Braille, large print, audiotape, etc.) should contact the USDA's TARGET Center at (202)720-2600 (voice and TDD). To file a complaint of discrimination, write USDA, Director, Office of Civil Rights, Room 326-W, Whitten Building, 14th and Independence Avenue SW, Washington, DC 20250-9410, or call (202)720-5964 (voice and TDD). USDA is an equal opportunity provider and employer.
+“Caring for the Land and Serving People Through Research”
+

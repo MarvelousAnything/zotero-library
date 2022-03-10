@@ -1,0 +1,5 @@
+[Unit]
+Description="Execute Zotero backup script which uses git to version control research. Booya!"
+
+[Service]
+ExecStart=%h/Zotero/backup.sh

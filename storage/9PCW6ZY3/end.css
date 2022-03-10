@@ -1,0 +1,24 @@
+.latest-posts .post3 { vertical-align:top; }
+
+.podcasts h4,
+.podcasts p,
+.podcasts span,
+.latest-posts h2,
+.latest-posts h3,
+.latest-posts h4,
+.all-posts h3,
+.all-posts h4,
+.tnsr-posts p { text-transform:uppercase; }
+
+.podcasts p a,
+.all-posts h4 a,
+.latest-posts a.author { color: #8D8C8C; text-decoration:none; }
+
+/* .single-podcast .podcast-img,
+.single-tnsr .tnsr-img {
+  object-fit: cover;
+  width:105px;
+  height:105px;
+} */
+
+.main .all-posts { margin-top:1rem; }

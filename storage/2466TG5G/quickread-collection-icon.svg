@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28.045" height="25.858" viewBox="0 0 28.045 25.858">
+    <g data-name="Group 9231">
+        <g data-name="Rectangle 4243" transform="translate(6.496)" style="stroke:#fff;stroke-width:1.5px;fill:#001e28">
+            <rect width="21.549" height="25.858" rx="4" style="stroke:none"/>
+            <rect x=".75" y=".75" width="20.049" height="24.358" rx="3.25" style="fill:none"/>
+        </g>
+        <g data-name="Rectangle 4244" transform="translate(11.166 3.59)" style="stroke:#fff;stroke-width:1.5px;fill:#001e28">
+            <rect width="12.211" height="10.774" rx="3" style="stroke:none"/>
+            <rect x=".75" y=".75" width="10.711" height="9.274" rx="2.25" style="fill:none"/>
+        </g>
+        <path data-name="Path 28741" d="M0 0h9.837" transform="translate(12.352 17.25)" style="stroke-linecap:round;stroke:#fff;stroke-width:1.5px;fill:#001e28"/>
+        <path data-name="Path 28745" d="M0 0h9.837" transform="translate(12.352 21.561)" style="stroke-linecap:round;stroke:#fff;stroke-width:1.5px;fill:#001e28"/>
+        <path data-name="Rectangle 4245" transform="translate(5.777 3.883)" style="fill:#001e28" d="M0 0h4.31v10.929H0z"/>
+        <path data-name="Line 852" transform="translate(.75 7.184)" style="fill:none;stroke-linecap:round;stroke:#fff;stroke-width:1.5px" d="M0 0h7.183"/>
+        <path data-name="Line 853" transform="translate(5.059 11.492)" style="fill:none;stroke-linecap:round;stroke:#fff;stroke-width:1.5px" d="M0 0h2.873"/>
+    </g>
+</svg>

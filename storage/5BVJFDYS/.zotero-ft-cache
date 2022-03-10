@@ -1,0 +1,1727 @@
+United States Department of Agriculture
+Forest Service
+Northern Research Station
+General Technical Report NRS-88
+
+Methods and Equations for Estimating Aboveground Volume, Biomass, and Carbon for Trees in the U.S. Forest Inventory, 2010
+Christopher W. Woodall Linda S. Heath Grant M. Domke Michael C. Nichols
+
+VOLUME
+
+BIOMASS
+
+&$5%21
+
+Abstract
+The U.S. Forest Service, Forest Inventory and Analysis (FIA) program uses numerous models and associated coefficients to estimate aboveground volume, biomass, and carbon for live and standing dead trees for most tree species in forests of the United States. The tree attribute models are coupled with FIA’s national inventory of sampled trees to produce estimates of tree growing-stock volume, biomass, and carbon, which are available in the Forest Inventory and Analysis database (FIADB; http://fiatools.fs.fed.us). To address an increasing need for accurate and easy-to-use documentation of relevant tree attribute models, needed individual tree gross volume, sound volume, biomass (including components), and carbon models for species in the United States are compiled and described in this publication with accompanying electronic files on a CD-ROM included with the publication. This report describes models currently in use as of 2010. These models are subject to change as the FIADB and associated tree attribute models are improved.
+Cover and disk artwork courtesy of Suzy Stephens, U.S. Forest Service.
+
+Printed on Recycled Paper
+
+Manuscript received for publication 4 April 2011
+
+Published by: U.S. FOREST SERVICE 11 CAMPUS BLVD SUITE 200 NEWTOWN SQUARE PA 19073
+October 2011
+
+For additional copies:
+U.S. Forest Service Publications Distribution 359 Main Road Delaware, OH 43015-8640 Fax: (740)368-0152 Email: nrspubs@fs.fed.us
+
+Visit our homepage at: http://www.nrs.fs.fed.us/
+
+INTRODUCTION
+The official annual U.S. greenhouse gas (GHG) inventories contain forest carbon and other greenhouse gas estimates (e.g., see U.S. Environmental Protection Agency 2010) based on U.S. Forest Service’s, Forest Inventory and Analysis (FIA) program survey data, coupled with other basic models (Heath et al. 2010). The FIA program, through its regional units (Northern, Southern, Rocky Mountain, and Pacific Northwest; see USDA For Serv. 2011), is the primary provider of state-, regional-, and national-scale forest population estimates such as forest land area, and tree volume, growth, mortality, and removals. U.S. forest carbon inventories have used biomass estimates based on equations from Jenkins et al. (2003 and 2004), due to previous inconsistencies in tree biomass estimates between FIA regions (pre-2009). Estimates for a tree species in one region may have differed notably from estimates of the same species in another region. In 2009, FIA adopted a process for estimating tree biomass (Heath et al. 2009). This methodology is now consistently applied across the United States, with estimates reported in the publicly available Forest Inventory and Analysis database (FIADB; USDA For. Serv. 2010a).
+With emerging carbon markets and growing interest in bioenergy at various scales across the United States, many individuals are interested not only in the models FIA uses for individual tree species, but also in adjusting models and associated coefficients for their own population estimates. The purpose of this report is to present in an accessible format the methodology and requisite equations for estimating attributes for most of the tree species in the United States. Until publication of this report, similar information had been only available for the southern (Oswalt and Conner 2011) and northern (Miles and Hill 2010) regions of the eastern United States. The volume and biomass attributes described in this paper and the conditions under which they are computed are described in the following tabulation. Carbon estimates follow directly from biomass estimates based on the assumption that biomass is 50 percent carbon (Birdsey 1992).
+The process of tree attribute estimation for all sample trees 5 inches in diameter and larger begins with the estimation of tree gross volume (VOLCFGRS) and tree sound volume (VOLCFSND). For the majority of tree species (nonwoodland trees where diameter is measured at 4.5 feet above ground; refer to REF_SPECIES.xlsx for woodland species designation) biomass and carbon by component (stump, bole and tops) are also estimated (Table 1). For all woodland trees (trees where diameter is measured at the root collar) biomass and carbon are estimated but are not broken down by component. For all sample trees between 1 to 4.9 inches in diameter only total biomass and carbon are estimated. Estimates of volume (VOLCFGRS and VOLCFSND) and breakdowns of total biomass and carbon into components are not made for trees < 5.0 inches in diameter. No estimates of volume, biomass, or carbon are made for sample trees where diameter is < 1.0 inch.
+
+The Authors CHRISTOPHER W. WOODALL is a research forester with the Forest Inventory and Analysis program of the U.S. Forest Service, St. Paul, MN. LINDA S. HEATH is a research forester, U.S. Forest Service, Forest Inventory and Analysis, Durham, NH; currently on detail as Senior Forest Climate Change Specialist at the Global Environment Facility, Washington, DC. GRANT M. DOMKE is a postdoctoral research forester with the Forest Inventory and Analysis program of the U.S. Forest Service, St. Paul, MN. MICHAEL C. NICHOLS is a scientific programmer with the Forest Inventory and Analysis program of the U.S. Forest Service, Durham, NH.
+1
+
+Table 1.—Volume and biomass components estimated by FIA for live and standing dead trees
+
+Non-woodland species: Diameter is measured at 4.5 feet above ground
+
+Woodland species: Diameter is measured at root collar
+
+Less than 1.0 inches in diameter
+
+No estimates of volume or biomass
+
+1.0 to 4.9 inches in diameter
+
+No estimate of volume
+
+Sapling biomass =
+
+Biomass of woodland species =
+
+Total aboveground biomass Total aboveground biomass
+
+5.0 inches in diameter and larger
+
+Gross volume Sound volume (Stump wood biomass + Stump bark biomass + Bole wood biomass + Bole bark biomass + Top and branch biomass) = Total aboveground biomass
+
+Gross volume Sound volume Biomass of woodland species = Total aboveground biomass
+
+Biomass for woodland species < 5.0 inches in diameter and saplings (non-woodland species between 1.0 to 4.9 inches in diameter) are estimated directly from the biomass equation in Jenkins et al. (2003 and 2004) using the observed diameter and a sapling adjustment factor. Biomass for woodland species ≥ 5.0 inches diameter is based on volume estimates for the entire aboveground portion of the sample tree with no component breakdown.
+Volume, biomass, and carbon models for tropical trees (e.g., species in Puerto Rico or Hawaii) are not included in this report. This compilation does not necessarily reflect the ideal system for estimating an array of tree attributes (e.g., volume and carbon) that are additive among individual tree components (i.e., scalable tree attributes from components to whole tree) and consistent across diverse forest conditions at a national scale (i.e., do not arbitrarily change at political boundaries). Rather, this system reflects an effort to meld localized tree volume/ biomass information into a consistent, national approach. We suggest that future research focus on consistent national-scale individual tree volume/biomass/carbon equations that accommodate the diversity of tree habitats (e.g., woodlands or tropics) and conditions (e.g., sound or rotten).
+
+2
+
+METHODS FOR BIOMASS ESTIMATION
+The approach used for nationally consistent biomass estimation of non-sapling and nonwoodland trees in the FIADB is called the component ratio method (CRM; Heath et al. 2009). CRM entails 1) measuring attributes of the tree in the field; 2) applying those tree measurements to the applicable volume model to compute both gross cubic-foot volume (VOLCFGRS) and sound cubic-foot volume (VOLCFSND) of wood in the bole; 3) converting the sound cubic-foot volume (VOLCFSND) of wood in the bole to mass and estimating bark biomass using compiled sets of specific gravity (Miles and Smith 2009); 4) calculating the biomass of tops and limbs as a proportion of the bole based on component proportions from Jenkins et al. (2003); 5) calculating stump volume based on equations in Raile (1982) and converting to biomass, and 6) summing all aboveground components for a total aboveground biomass estimate.
+The use of CRM requires the calculation of VOLCFSND. Because VOLCFSND is based on gross cubic-foot volume (VOLCFGRS) for many areas of the country, VOLCFGRS must also be calculated. It should be noted that FIA calculates many types of volumes of interest to a range of user groups including: total stem volumes (calculated for all trees ≥1.0-inch d.b.h.), cubic-foot volumes up to various top diameters (e.g., 4-, 6-, or 8-inch tops), and board-foot volumes using Scribner or International ¼ inch volume rules (for definitions see Helms 1998). The CRM is based on VOLCFGRS and VOLCFSND; only those volume equations are compiled in this study (Appendix A).
+The five general steps for calculation of tree (d.b.h. ≥ 5.0 inches) oven-dry mass (lb) are: 1) Obtain needed tree and plot or condition measurements using FIA protocols (e.g., tree diameter, rotten and missing cull, site index, height, basal area) 2) Calculate VOLCFGRS 3) Calculate VOLCFSND (i.e., subtract rotten or missing from VOLCFGRS) 4) Convert VOLCFSND to bole biomass 5) Calculate additional biomass components (e.g., tops and limbs, stump) that are summed for total biomass
+Note that estimation procedures are different for saplings (d.b.h. ≥ 1.0 inch and < 5.0 inches). Sapling biomass is based on biomass computed from Jenkins et al. (2004) using the observed diameter and an adjustment factor—computed as a national average ratio of the CRM total biomass divided by the Jenkins et al. (2003 and 2004) total biomass for all 5.0-inch trees, which is the size at which biomass based on volume begins (Heath et al. 2009). At this time estimation procedures are not different for standing dead trees. Users of this documentation should consider adopting decay and structural reduction factors for standing dead trees such as those currently under development by FIA (Domke et al. in press). Such information could reduce any potential upward bias of estimating standing dead wood volume/biomass using live tree procedures.
+The steps for biomass calculation are described for each component separately in the Biomass Calculations section of this report. We also provide example calculations for a live growing-
+3
+
+stock tree, a live rough cull tree, a standing dead tree, and a small diameter tree for comparison and reference. The text refers to appendices where volume equations are presented; coefficients for the equations and species-specific information can be found in the companion spreadsheets (volcfgrs_eqn_coefs.xlsx, volcfsnd_eqn_coefs.xlsx, and REF_SPECIES.xlsx) on the CD included in this report.
+Tree Measurements
+Field protocols for FIA are found in USDA For. Serv. (2010b). The diameter of most tree species is measured at d.b.h., except in the case of woodland tree species where it is measured at d.r.c. Species information, including species names, codes, diameter type, wood and bark specific gravity, bark percentage, sapling adjustment factors, Jenkins et al. (2004) biomass coefficients, and Raile (1982) stump volume coefficients can be found in the REF_SPECIES table in FIADB, the original publications cited in this document, or on the CD included with this report. Models may differ by state or ecoregion within a state, thus location of the tree is important. See Figure 1 for definition of areas for model determination. Other information that may be needed includes site index, height, bole height, percent of cubic-foot volume rotten or missing, percent of sound dead cull as a percentage of merchantable bole, and number of stems (for trees measured at d.r.c.). For standing dead trees, a decay class is determined for each tree, but is not currently used in estimation procedures (USDA For. Serv. 2010b).
+Gross Volume Estimation
+Gross cubic-foot volume is defined as “the total volume inside bark of the central stem of a tree ≥5.0 inches d.b.h. from a 1-foot stump to a minimum 4-inch top diameter outside bark (d.o.b.), or to where the central stem breaks into limbs all of which are less than 4.0 inches d.o.b.” (Woudenberg et al. 2010). Gross volume includes rotten and missing parts and form cull. Rotten and missing cubic-foot cull volume is estimated to the nearest 1 percent in the field. This estimate does not include any cull deduction above actual length so volume lost from a broken top is not included. Form cull is the percent of the cubic-foot volume that is cull due to form defect, and is only collected at some locations. Gross volume is set to null (not available) if d.b.h. is not available. Usually, if d.b.h. is < 5.0 inches, gross volume is set to null, with the possible exception of woodland tree species (i.e., d.r.c.) in Rocky Mountain and Southern States.
+The form of the models to calculate VOLCFGRS are listed by FIA unit (i.e., Northern or Southern) and sub-unit model region (i.e., eastern MT or western MT; Fig. 1) in Appendices A and B (see CD for model coefficients), along with the reference for each model. Unless otherwise noted, the b values in these tables are regression parameter estimates and the x values are the observed attributes. The bold text indicates conditions that should be met regarding the observed attributes. The values for the coefficients are given in the VOLCFGRS spreadsheet provided on a CD in this report. To find the appropriate model and coefficients for the tree species and location, use the following steps:
+1) To calculate VOLCFGRS, locate the species-specific equation for the region of interest found in Tables 1-4 of Appendix A and Table 6 of Appendix B.
+2) Find species-specific coefficients (denoted by the letter b, as in b1, b2, etc.) in the spreadsheet volcfgrs_eqn_coefs.xlsx.
+4
+
+Figure 1.—Delineated areas for identification of gross cubic-foot growing stock volume models and coefficients from the spreadsheet file. Further description is given in U.S. Forest Service (2010b; Appendix c).
+3) In the volcfgrs_eqn_coefs spreadsheet, locate the regional config worksheet for the area of interest. They are designated as follows: NCCS – North Central Central States; NCLS – North Central Lake States; NCPS – North Central Plains States; NE – Northeastern States; AZ_N_NM_N – northern Arizona and northern New Mexico; AZ_S_NM_S – southern Arizona and southern New Mexico; CO_E_WY_E – eastern Colorado and eastern Wyoming; CO_W_WY_W – western Colorado and western Wyoming; ID_MTW – Idaho and western Montana; MT_E – eastern Montana; NV – Nevada; UT_NE – northern and eastern Utah; UT_SW – southern and western Utah; S – Southern States; CA – California (except mixed conifer forest type); CA_MC – California mixed conifer forest type; OR_E – eastern Oregon; OR_WA – western Oregon; OR_JJ – Oregon (Jackson and Josephine Counties); WA_E – eastern Washington; WA_W – western Washington; and WA_CF – Washington (highelevation silver fir region).
+4) Find the row corresponding to the particular species; the sheet is ordered by species number (Column C). For a list of all species with common and scientific names, refer to the worksheet ref_species_reduced. The column COEF_TABLE contains the name
+5
+
+of the table which has the coefficients for this species. The column COEF_TBL_SP contains the species number you should look for in the table. 5) Insert the appropriate coefficients and the tree-specific variables into the equation from step 1 to estimate VOLCFGRS.
+Sound Volume Estimation
+Sound cubic-foot volume is the volume of sound wood in the central stem of a tree ≥ 5.0 inches diameter from a 1-foot stump to a minimum 4-inch top d.o.b., or to where the central stem breaks into limbs, all of which are less than 4.0 inches d.o.b. Note that in some instances VOLCFSND may be 0 or null and the VOLCFGRS is > 0 in FIADB. In those cases, biomass is calculated using VOLCFGRS adjusted for the percentage sound. When both VOLCFSND and VOLCFGRS are 0 or null, biomass is calculated using net cubic-foot volume (VOLCFNET) adjusted for the percentage sound (Woudenberg et al. 2010).
+The form of the models to calculate VOLCFSND from VOLCFGRS are listed by FIA region in Table 5 of Appendix A (see CD for model coefficients; see Appendix C for Alaska VOLCFSND algorithm), along with the reference for the model. Unless noted, the b values in these tables are regression parameter estimates and the x values are the observed attributes. The bold text indicates conditions that should be met regarding the observed attributes. To find the appropriate model and coefficients for the tree species and location, use the following steps:
+1) To calculate VOLCFSND, locate the appropriate equation in Appendix A, Table 5 (see Appendix C for Alaska VOLCFSND algorithm). Only a few of the equations use species-specific coefficients (denoted by the letter b, as in b1, b2, etc.). If the applicable volume equation you want to use contains these coefficients, they may be found in the Excel spreadsheet volcfsnd_eqn_coefs.xlsx
+2) In the volcfsnd_eqn_coefs spreadsheet, locate the regional config worksheet for the area of interest. They are designated as follows: NCCS – North Central Central States; NCLS – North Central Lake States; and NCPS – North Central Plains States. The column COEF_TABLE contains the name of the table containing the coefficients for this species. The column COEF_TBL_SP contains the species number you should look for in the table
+3) Insert the appropriate coefficients (if present), the tree-specific variables and the VOLCFGRS (calculated in step 5 under Gross Volume Estimation) into the equation from step 1 in this section to estimate VOLCFSND.
+Biomass Calculations
+Biomass of bole Biomass in the bole of a species is calculated by multiplying the VOLCFSND by weight of 1 cubic foot of water (62.4 lb) to convert volume to mass, and then multiplying by the specific gravity of wood and bark, separately for the species listed in Miles and Smith (2009). For a complete list of specific gravities for all tre species in FIADB, please refer to REF_SPECIES.xlsx included in this publications’s CD-ROM. The specific gravities of bark and wood are different.
+6
+
+The bark component includes an additional term, bark as a proportion of wood volume, so the two components must be calculated separately and then summed.
+
+Bole wood biomass:
+Bodw = Vgw * SGgw * W where
+Bodw = oven-dry biomass (lb) of wood Vgw = VOLCFSND of green wood in the central stem SGgw = basic specific gravity of wood (oven-dry mass of green volume) W = weight of ft3 of water (62.4 lb)
+
+(eq. 1)
+
+Bark biomass:
+Bodb = Vgw * BV% * SGgb * W where
+Bodb = oven-dry biomass (lb) of bark Vgw = VOLCFSND of green wood in the central stem BV% = bark as a percentage of wood volume
+SGgb = basic specific gravity of bark (oven-dry mass of green volume) W = weight of ft3 of water (62.4 lb)
+
+(eq. 2)
+
+Total bole (bole and bark) biomass (DRYBIO_BOLE):
+Bodt = Bodw + Bodb where
+Bodw = oven-dry biomass (lb) of wood Bodb = oven-dry biomass (lb) of bark Bodt = total oven-dry bole biomass (lb) in wood and bark
+
+(eq. 3)
+
+Biomass of tree components Biomass in the stumps and tops and limbs of trees ≥ 5.0 inches d.b.h. is estimated as a proportion of CRM bole biomass (eq. 3) using component ratios from Jenkins et al. (2004) and Raile (1982). All tree components derived from Jenkins et al. (2004) and Raile (1982) must be multiplied by an adjustment factor to estimate CRM biomass.
+
+CRM adjustment factor:
+
+CRMAdjFac = Bodt /MST where
+
+(eq. 4)
+
+CRMAdjFac = component ratio method adjustment factor for tree components derived from Jenkins et al. (2003) and Raile (1982)
+
+Bodt = total oven-dry biomass (lb) (eq. 3) MST = merchantable oven-dry bole biomass (lb) (Jenkins et al. 2004)
+
+Biomass in the stump of a species is estimated using volume equations developed by Raile (1982), converting volume to mass by multiplying by the specific gravity of wood and bark (Miles and Smith 2009) and by 1 cubic foot of water (62.4 lb), and finally multiplying by the CRM adjustment factor (eq. 4).
+
+7
+
+Stump volume:
+
+where
+
+Svosb
+
+or
+
+visb
+
+=
+
+ߨሺܾ݄݀ሻଶ ͶሺͳͶͶሻ ൤൬ሺ‫ܣ‬
+
+െ
+
+‫ܤ‬ሻଶ݄
+
+൅
+
+ͳͳ‫ܤ‬ሺ‫ܣ‬
+
+െ
+
+‫ܤ‬ሻሺ݄
+
+൅
+
+ͳሻ
+
+െ
+
+
+
+͵ͲǤʹͷ ݄൅ͳ
+
+
+
+‫ܤ‬ଶ
+
+൰൨
+
+ܾ ܽ
+
+Svosb or visb = stump volume inside bark (visb) or outside bark (vosb) (ft3) A = Coefficient (species parameter) from Table 2 in Raile (1982)
+
+B = Coefficient (species parameter) from Tables 1 and 2 in Raile (1982)
+
+h = height above ground (ft)
+
+ln = natural logarithm
+
+a = lower stump height (ft) – 0 ft in FIADB
+
+b = upper stump height (ft) – 1 ft in FIADB
+
+(eq. 5)
+
+For stump volume estimates outside (vosb) the bark, A should be set to 1 and the species parameter (B) in Table 1 should be used. For stump volume estimates inside the bark (visb), Table 2 in Raile (1982) should be used for both coefficients.
+
+Stump wood biomass:
+Sodsw = Svisb * SGgw * W where
+Sodsw = oven-dry biomass (lb) of stump wood Svisb = stump volume inside the bark (eq. 5) SGgb = basic specific gravity of wood (oven-dry mass of green volume) W = weight of ft3of water (62.4 lb)
+
+(eq. 6)
+
+Stump bark biomass:
+Sodsb = (Svosb – Svisb)SGgb * W where
+Sodsb = oven-dry biomass (lb) of stump bark Svosb = volume (ft3) of stump outside the bark (eq. 5) Svisb = volume (ft3) of stump inside the bark (eq. 5) SGgb =basic specific gravity of bark (oven-dry mass of green volume) W = weight of ft3 of water (62.4 lb)
+
+(eq. 7)
+
+Total stump (wood and bark) biomass (DRYBIO_STUMP):
+Sodt = (Sodsw + Sodsb)CRMAdjFac Where
+Sodt = oven-dry stump biomass (lb) Bodw = oven-dry biomass (lb) of wood (eq. 6) Bodb = oven-dry biomass (lb) of bark (eq. 7) CRMAdjFac = component ratio method adjustment factor (eq. 4)
+
+(eq. 8)
+
+The tops and limbs component ratio is calculated by subtracting the total aboveground biomass estimate from Jenkins et al. (2004) from the aboveground biomass components for that species in Jenkins et al. (2004)—foliage, stem bark and wood, and stump (from Raile 1982)—and multiplying by the CRM adjustment factor (eq. 4).
+
+8
+
+Top and branch biomass: Todt = (TAB – MST – STP – FOL)CRMAdjFac
+where Todt = oven-dry biomass (lb) of top and branches TAB = total aboveground oven-dry biomass (lb) (Jenkins et al. 2004) MST = merchantable stem oven-dry biomass (lb) (Jenkins et al. 2004) STP = stump oven-dry biomass (lb) (Raile 1982) FOL = foliage oven-dry biomass (lb) (Jenkins et al. 2004) CRMAdjFac = component ratio method adjustment factor (eq. 4)
+
+(eq. 9)
+
+Biomass of saplings Biomass of saplings (trees < 5.0 inches d.b.h.) is based on estimates from Jenkins et al. (2004) on the observed diameter multiplied by a sapling adjustment factor. The adjustment factors currently used are computed as a national average ratio of the CRM total biomass divided by the total biomass from Jenkins et al. (2004) for all 5.0-inch trees, which is the size at which biomass-based volume begins. Each species group has an adjustment factor listed in Heath et al. (2009), and which can be found in the REF_SPECIES file on the CD.
+
+Sapling biomass (DRYBIO_SAPLING): Sapodt = (TAB – FOL)Sapadj
+where Sapodt = oven-dry sapling biomass (lb) TAB = total aboveground oven-dry biomass (lb) (Jenkins et al. 2004) FOL = foliage oven-dry biomass (lb) (Jenkins et al. 2004) Sapadj = sapling adjustment factor (Heath et al. 2009)
+
+(eq. 10)
+
+Biomass of woodland species (DRYBIO_WDLD_SPP) Woodland species are defined as those sample trees where diameter is measured at root collar (Woudenberg et al. 2010). Woodland species biomass for stems < 5.0 inches d.r.c. is estimated in the same way as sapling biomass is estimated. Woodland species ≥ 5.0 inches in diameter have a volume estimate from ground to tip, which is used to estimate total aboveground biomass in the same way bole biomass is calculated.
+
+Biomass of standing dead trees Standing dead biomass is computed in the same manner as live tree biomass. Standing dead trees, like live trees, can have rotten and missing cull which is deducted when converting VOLCFGRS to VOLCFSND. Future research into decay and structural reductions based on a tree’s decay class is suggested as a way to reduce potential overestimates of volume/biomass (Domke et al. in press).
+
+9
+
+EXAMPLES
+We present example calculations for using the CRM to estimate aboveground biomass and carbon for 10.5-inch growing stock, rough cull, and standing dead quaking aspen trees and a 4.5-inch quaking aspen sapling in the North Central - Lake States (NCLS) region. Each example reflects actual sample trees in the FIADB. Species information including specific gravity values for wood and bark, bark percentage estimates, sapling adjustment factors and biomass model coefficients are found in the publications cited in this report, FIADB in the REF_SPECIES table, or in the REF_SPECIES.xlsx workbook on CD. Each biomass equation used in the examples is referenced back to the original text description in this document where coefficients are described and the original citation is provided. Note that values in these examples may vary slightly from FIADB values due to rounding.
+
+Example 1: Volume, biomass, and carbon calculations for a live growing-stock tree Example tree information: live (STATUSCD = 1) growing stock (TREECLCD = 2) quaking aspen (SPCD = 746) that is 10.5 inches d.b.h.
+
+1. Gross volume (VOLCFGRS)
+
+V1 = top diameter outside bark = 4 inches
+
+V2
+
+=
+
+predicted
+
+bole
+
+length
+
+=
+
+b12
+
++
+
+b13
+
+ሺͳ
+
+െ
+
+
+
+݁ ି௕భర௫భ ሻ௕భఱ ‫ݔ‬ଶ
+
+௕భల ሺܾଵ଻
+
+െ
+
+௏భ ௫భ
+
+ሻ௕భఴ
+
+‫ݔ‬ଷ௕భవ
+
+=
+
+4.5
+
++ 6.4301(1 – e-0.23545*10.5)1.338 * 660.4737(1.00001 – 4.5/10.5)0.73385 * 72.530.08228 =
+
+46.11 ft
+
+x1 = d.b.h. = 10.5 inches
+x2 = site index = 66 ft x3 = basal area of live trees on plot/condition = 72.53 ft2 VOLCFGRS = (b0 + b1x1 + b2V1 + b3x12 + b4x12V2 + b5V22 + b6V2V12 + b7x12V23 + b8x12V22V1)b9(b10 + b11x1) / 100 = (0.0030086 + 0.0020355*10.5 + -0.0030018*4
++ 0.000062381*10.52 + 0.000025705*10.52*46.11 + -0.000007009*46.112 +
+0.000036708*46.11*42 + 0.000000000814*10.52*46.113 + -0.0000000019*10.52*4 6.112*4)79(91.51 + 0.37*10.5) / 100 = 12.74 ft3
+
+2. Sound volume (VOLCFSND)
+
+VOLCFSND
+
+=
+
+VOLCFGRS(1
+
+-
+
+௕భ௕మ ଵ଴଴
+
+)
+
+=
+
+12.74(1-
+
+ହǤଵଶ଴‫כ‬଴଴Ǥଵ )
+
+=12.68
+
+ft3
+
+3. Bole biomass (DRYBIO_BOLE)
+
+Bolewood biomass (eq. 1): Bodw = Vgw * SGgw * W = 12.68 * 0.35 * 62.40 = 276.89 lb Bole bark biomass (eq. 2): Bodb = Vgw * BV% * SGgb * W = 12.68 * 0.144 * 0.5 * 62.4 = 56.96 lb
+Total bole biomass (eq. 3): Bodt = Bodw + Bodb = 276.89 + 56.96 = 333.85 lb
+
+4. Component ratio method adjustment factor (CRMAdjFac)
+
+CRM
+
+adjustment
+
+factor
+
+(eq.4):
+
+CRMAdjFac
+
+=
+
+஻೚೏೟ ெௌ்
+
+=
+
+ଷଷଷǤ଼ହ ସସସǤ଼଻
+
+=
+
+0.75
+
+5. Stump volume and biomass (DRYBIO_STUMP)
+
+Stump
+
+volume
+
+(eq.
+
+5):
+
+Svosb
+
+=
+
+గ(ௗ௕௛)మ ସ(ଵସସ)
+
+ቂቀ(‫ ܣ‬െ ‫)ܤ‬ଶ݄ + 11‫ ܣ(ܤ‬െ ‫)ܤ‬ln(݄ + 1) െ
+
+ଷ଴.ଶହ ௛ାଵ
+
+‫ܤ‬ଶቁቃ
+
+ܾ ܽ
+
+=
+
+గ(ଵ଴.ହ)మ ସ(ଵସସ)
+
+ቂቀ(1 െ 0.09658)ଶ1 + 11 ‫ כ‬0.09658(1 െ 0.09658)ln(1 + 1) െ
+
+ଷ଴.ଶହ ଵାଵ
+
+0.09658ଶቁ െ
+
+ቀ(1 െ 0.09658)ଶ0 + 11 ‫כ‬
+
+0.09658(1 െ 0.09658)ln(0 + 1) െ
+
+ଷ଴.ଶହ ଴ାଵ
+
+0.09658ଶቁቃ =
+
+0.97565
+
+ft3
+
+10
+
+Svisb =
+
+గ(ଵ଴.ହ)మ ସ(ଵସସ)
+
+ቂቀ(0.91882 െ 0.08593)ଶ1
+
++
+
+11 ‫כ‬
+
+0.08593(0.91882
+
+െ
+
+0.08593)ln(1
+
++
+
+1) െ
+
+ଷ଴.ଶହ 0.08593ଶቁ െ ቀ(0.91882 െ 0.08593)ଶ0 + 11 ‫ כ‬0.08593(0.91882 െ 0.08593)ln(0 + 1) െ
+ଵାଵ
+
+ଷ଴.ଶହ ଴ାଵ
+
+0.08593ଶቁቃ
+
+=
+
+0.81243
+
+ft3
+
+Stump wood biomass (eq. 6): Sodsw = Svisb * SGgw * W = 0.81243 * 0.35 * 62.4 = 17.74 lb Stump bark biomass (eq. 7): Sodsb = (Svosb – Svisb)SGgb * W = (0.97565 - 0.81243)0.5 * 62.4 = 5.09 lb
+Total stump biomass (eq. 8): Sodt = (Sodsw + Sodsb)CRMAdjFac = (17.74 + 5.09)0.75 = 17.14 lb
+
+6. Top and branch biomass (DRYBIO_TOP)
+Top and branch biomass (eq. 9): Todt = (TAB – MST – STP – FOL) CRMAdjFac = (612.75 – 444.87 – 22.84 – 12.90)0.75 = 99.17 lb
+
+7. Total aboveground biomass (CRM) Total aboveground biomass = Bodt + Sodt + Todt = 333.85 + 17.14 + 99.17 = 450.16 lb
+8. Total aboveground carbon (CARBON_AB) Total aboveground carbon = (Bodt + Sodt + Todt) * 0.5 = (333.85 + 17.14 + 99.17)0.5 = 225.08 lb
+
+Example 2: Volume, biomass, and carbon calculations for a live rough cull tree Example tree information: live (STATUSCD = 1) rough cull (TREECLCD = 3) quaking aspen (SPCD = 746) sample tree that is 10.5 inches d.b.h.
+
+1. Gross volume (VOLCFGRS)
+
+V1 = top diameter outside bark = 4 inches
+
+V2
+
+=
+
+predicted
+
+bole
+
+length
+
+=
+
+b12
+
++
+
+b13 (1 െ
+
+݁ି௕భర௫భ)௕భఱ‫ݔ‬ଶ௕భల (ܾଵ଻
+
+െ
+
+௏భ )௕భఴ
+௫భ
+
+‫ݔ‬ଷ ௕భవ
+
+=
+
+4.5
+
++ 6.4301(1 – e-0.23545*10.5)1.338 * 730.4737(1.00001 – 4.5/10.5)0.73385 * 82.27.08228 =
+
+48.59 ft
+
+x1 = d.b.h. = 10.5 inches
+x2 = site index = 73 ft x3 = basal area of live trees on plot/condition = 82.27 ft2 VOLCFGRS = (b0 + b1x1 + b2V1 + b3x12 + b4x12V2 + b5V22 + b6V2V12 + b7x12V23 + b8x12V22V1)b9(b10 + b11x1) / 100 = (0.0030086 + 0.0020355*10.5 + -0.0030018*4 + 0.000062381*10.52 + 0.000025705*10.52*48.59 + -0.000007009*48.592 + 0.000036708*48.59*42 + 0.000000000814*10.52*48.593 + -0.0000000019*10.52*48. 592*4)79(91.51 + 0.37*10.5) / 100 = 13.36 ft3
+
+2. Sound volume (VOLCFSND)
+
+VOLCFSND
+
+=
+
+VOLCFGRS(1
+
+-
+
+ܾଵܾଶ 100
+
+)
+
+=
+
+13.36(1-
+
+ଶଵ.଼‫כ‬଴.ଵହ ) ଵ଴଴
+
+=
+
+12.92
+
+ft3
+
+3. Bole biomass (DRYBIO_BOLE)
+
+Bolewood biomass (eq. 1): Bodw = Vgw * SGgw * W = 12.92 * 0.35 * 62.40 = 282.17 lb Bole bark biomass (eq. 2): Bodb = Vgw * BV% * SGgb * W = 12.92 * 0.144 * 0.5 * 62.4 = 58.05 lb
+
+11
+
+Total bole biomass (eq. 3): Bodt = Bodw + Bodb = 282.17 + 58.05 = 340.30 lb
+
+4. Component ratio method adjustment factor (CRMAdjFac)
+
+CRM adjustment factor (eq.4): CRMAdjFac =
+
+஻೚೏೟ ெௌ்
+
+= ଷସ଴.ଷ଴ ସସସ.଼଻
+
+= 0.76
+
+5. Stump volume and biomass (DRYBIO_STUMP)
+
+Stump volume (eq. 5): Svosb =
+
+గ(ௗ௕௛)మ ସ(ଵସସ)
+
+ቂቀ(‫ ܣ‬െ ‫)ܤ‬ଶ݄
+
++ 11‫ ܣ(ܤ‬െ ‫)ܤ‬ln(݄ + 1) െ
+
+= ଷ଴.ଶହ
+௛ାଵ
+
+‫ܤ‬ଶቁቃ
+
+ܾ ܽ
+
+గ(ଵ଴.ହ)మ ସ(ଵସସ)
+
+ቂቀ(1 െ 0.09658)ଶ1 + 11 ‫ כ‬0.09658(1 െ 0.09658)ln(1 + 1) െ
+
+ଷ଴.ଶହ ଵାଵ
+
+0.09658ଶቁ െ
+
+ቀ(1 െ
+
+0.09658)ଶ0 + 11 ‫ כ‬0.09658(1 െ 0.09658)ln(0 + 1) െ ଷ଴.ଶହ 0.09658ଶቁቃ = 0.97565 ft3 ଴ାଵ
+
+Svisb
+
+=
+
+గ(ଵ଴.ହ)మ ସ(ଵସସ)
+
+ቂቀ(0.91882
+
+െ
+
+0.08593)ଶ1
+
++
+
+11
+
+‫כ‬
+
+0.08593(0.91882
+
+െ
+
+0.08593)ln(1
+
++
+
+1)
+
+െ
+
+ଷ଴.ଶହ ଵାଵ
+
+0.08593ଶቁ െ
+
+ቀ(0.91882 െ 0.08593)ଶ0 + 11 ‫ כ‬0.08593(0.91882 െ 0.08593)ln(0 + 1) െ
+
+ଷ଴.ଶହ ଴ାଵ
+
+0.08593ଶቁቃ
+
+=
+
+0.81243
+
+ft3
+
+Stump wood biomass (eq. 6): Sodsw = Svisb * SGgw * W = 0.81243 * 0.35 * 62.4 = 17.74 lb Stump bark biomass (eq. 7): Sodsb = (Svosb – Svisb)SGgb * W = (0.97565 - 0.81243)0.5 * 62.4 = 5.09 lb
+Total stump biomass (eq. 8): Sodt = (Sodsw + Sodsb)CRMAdjFac = (17.74 + 5.09)0.76 = 17.47 lb
+
+6. Top and branch biomass (DRYBIO_TOP)
+Top and branch biomass (eq. 9): Todt = (TAB – MST – STP – FOL) CRMAdjFac = (612.75 – 444.87 – 22.84 – 12.90)0.76 = 101.09 lb
+
+7. Total aboveground biomass (CRM)
+Total aboveground biomass = Bodt + Sodt + Todt = 340.30 + 17.47 + 101.09 = 458.86 lbs
+
+8. Total aboveground carbon (CARBON_AB)
+Total aboveground carbon = (Bodt + Sodt + Todt) * 0.5 = (340.30 + 17.47 + 101.09)0.5 = 229.43 lb
+
+Example 3: Volume, biomass, and carbon calculations for a standing dead tree Example tree information: live (STATUSCD = 2) rough cull (TREECLCD = 4) quaking aspen (SPCD = 746) sample tree that is 10.5 inches d.b.h.
+
+1. Gross volume (VOLCFGRS)
+
+V1 V2
+
+= =
+
+top diameter outside bark = 4 inches predicted bole length = b12 + b13 (1 െ
+
+݁ି௕భర௫భ)௕భఱ‫ݔ‬ଶ௕భల (ܾଵ଻
+
+െ
+
+ܸଵ ‫ݔ‬ଵ
+
+)௕భఴ
+
+‫ݔ‬ଷ
+
+௕భవ
+
+=
+
+4.5
+
++
+
+6.4301(1 – e-0.23545*10.5)1.338 * 730.4737(1.00001 – 4.5/10.5)0.73385 * 78.33.08228 =
+
+48.42 ft
+
+x1 = d.b.h. = 10.5 inches
+x2 = site index = 73 ft x3 = basal area of live trees on plot/condition = 78.33 ft2 VOLCFGRS = (b0 + b1x1 + b2V1 + b3x12 + b4x12V2 + b5V22 + b6V2V12 + b7x12V23 + b8x12V22V1)b9(b10 + b11x1) / 100 = (0.0030086 + 0.0020355*10.5 + -0.0030018*4
+
+12
+
++ 0.000062381*10.52 + 0.000025705*10.52*48.42 + -0.000007009*48.422 + 0.000036708*48.42*42 + 0.000000000814*10.52*48.423 + -0.0000000019*10.52*48. 422*4)79(91.51 + 0.37*10.5) / 100 = 13.32 ft3
+
+2. Sound volume (VOLCFSND)
+
+VOLCFSND = VOLCFGRS(1 - ) ௕భ௕మ = 13.32(1- ଺ଵ.଼‫כ‬଴.଻ହ) = 7.14 ft3
+
+ଵ଴଴
+
+ଵ଴଴
+
+3. Bole biomass (DRYBIO_BOLE)
+
+Bolewood biomass (eq. 1): Bodw = Vgw * SGgw * W = 7.14 * 0.35 * 62.40 = 155.94 lbs Bole bark biomass (eq. 2): Bodb = Vgw * BV% * SGgb * W = 7.14 * 0.144 * 0.5 * 62.4 = 32.10 lb
+Total bole biomass (eq. 3): Bodt = Bodw + Bodb = 155.92 + 32.10 = 188.12 lb
+
+4. Component ratio method adjustment factor (CRMAdjFac)
+
+CRM
+
+adjustment
+
+factor
+
+(eq.4):
+
+CRMAdjFac
+
+=
+
+஻೚೏೟ ெௌ்
+
+= ଵ଼଼.ଵଶ ସସସ.଼଻
+
+= 0.42
+
+5. Stump volume and biomass (DRYBIO_STUMP)
+
+Stump volume (eq. 5): Svosb =
+
+గ(ௗ௕௛)మ ସ(ଵସସ)
+
+ቂቀ(‫ ܣ‬െ ‫)ܤ‬ଶ݄ + 11‫ ܣ(ܤ‬െ ‫)ܤ‬ln(݄ + 1) െ
+
+= ଷ଴.ଶହ
+௛ାଵ
+
+‫ܤ‬ଶ
+
+ቁቃ
+
+ܾ ܽ
+
+గ(ଵ଴.ହ)మ ସ(ଵସସ)
+
+ቂቀ(1 െ 0.09658)ଶ1 + 11 ‫ כ‬0.09658(1 െ 0.09658)ln(1 + 1) െ
+
+ଷ଴.ଶହ ଵାଵ
+
+0.09658ଶቁ െ
+
+ቀ(1 െ
+
+0.09658)ଶ0 + 11 ‫ כ‬0.09658(1 െ 0.09658)ln(0 + 1) െ
+
+ଷ଴.ଶହ ଴ାଵ
+
+0.09658ଶቁቃ =
+
+0.97565
+
+ft3
+
+Svisb =
+
+గ(ଵ଴.ହ)మ ସ(ଵସସ)
+
+ቂቀ(0.91882 െ 0.08593)ଶ1 + 11
+
+‫כ‬
+
+0.08593(0.91882 െ
+
+0.08593)ln(1
+
++ 1)
+
+െ
+
+ଷ଴.ଶହ ଵାଵ
+
+0.08593ଶቁ െ
+
+ቀ(0.91882 െ 0.08593)ଶ0 + 11 ‫ כ‬0.08593(0.91882 െ 0.08593)ln(0 + 1) െ
+
+ଷ଴.ଶହ 0.08593ଶቁቃ = 0.81243 ft3
+଴ାଵ
+
+Stump wood biomass (eq. 6): Sodsw = Svisb * SGgw * W = 0.81243 * 0.35 * 62.4 = 17.74 lb Stump bark biomass (eq. 7): Sodsb = (Svosb – Svisb)SGgb * W = (0.97565 - 0.81243)0.5 * 62.4 = 5.09 lb
+Total stump biomass (eq. 8): Sodt = (Sodsw + Sodsb)CRMAdjFac = (17.74 + 5.09)0.42 = 9.66 lb
+
+6. Top and branch biomass (DRYBIO_TOP)
+Top and branch biomass (eq. 9): Todt = (TAB – MST – STP – FOL) CRMAdjFac = (612.75 – 444.87 – 22.84 – 12.90)0.42 = 55.88 lb 7. Total aboveground biomass (CRM)
+Total aboveground biomass = Bodt + Sodt + Todt = 188.12 + 9.66 + 55.88 = 253.66 lbs 8. Total aboveground carbon (CARBON_AB)
+Total aboveground carbon = (Bodt + Sodt + Todt) * 0.5 = (188.12 + 9.66 + 55.88)0.5 = 126.83 lb
+
+Example 4: Biomass and carbon calculations for a sapling or woodland species (< 5 inches in diameter) Example tree information: a live (STATUSCD = 2) quaking aspen (SPCD = 746) sapling that is 4.5 inches d.b.h.
+
+1. Biomass (eq. 10): Sapodt = (TAB – FOL)Sapadj = (81.10 – 1.71)0.69089 = 54.85 lb
+
+13
+
+CONCLUSION
+This publication and accompanying electronic files on a CD-ROM present for the first time in one report FIA’s volume models and methods to estimate volume, biomass, and carbon for trees in forests across the United States. Where applicable, emerging areas of research have been noted with continued refinement of FIA’s modeling/estimation procedures expected in the future.
+ACKNOWLEDGMENTS
+Many individuals contributed directly and indirectly to the creation of this report. There has been no intentional omission of authorship in this document; rather, authorship has been accorded to those directly contributing to and accepting responsibility for this publication. Special thanks are extended to those who have spent countless hours with database development, documentation, and sleuthing the origins of volume equations across the Nation: Kurt Campbell, Glenn Christensen, Mark Hansen, Mark Hatfield, Elizabeth LaPoint, Patrick Miles, Christopher Oswalt, and Karen Waddell.
+LITERATURE CITED
+Birdsey, R.A. 1992. Carbon storage and accumulation in United States forest ecosystems. Gen. Tech. Rep. WO-59. Washington, DC: U.S. Department of Agriculture, Forest Service. 51 p.
+Domke, G.M.; Woodall, C.W.; Smith, J.E. In press. Accounting for density reduction and structural loss in standing dead trees: Implications for forest biomass and carbon stock estimates in the United States. Carbon Balance and Management.
+Heath, L.S.; Hansen, M.H.; Smith, J.E.; Smith, W.B.; Miles, P.D. 2009. Investigation into calculating tree biomass and carbon in the FIADB using a biomass expansion factor approach. In: McWilliams, W.; Moisen, G.; Czaplewski, R., comps. 2008 Forest Inventory and Analysis (FIA) Symposium; 2008 October 21-23; Park City, UT. Proc. RMRS-P56CD. Fort Collins, CO: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station. 1 CD.
+Heath, L.S.; Nichols, M.C.; Smith, J.E.; Mills, J.R. 2010. FORCARB2: An updated version of the U.S. forest carbon budget model. Gen. Tech. Rep. NRS-67. Newtown Square, PA: U.S. Department of Agriculture, Forest Service, Northern Research Station. 52 p.
+Helms, J.A. 1998. The dictionary of forestry. Bethesda, MD: The Society of American Foresters. 210 p.
+Jenkins, J.C.; Chojnacky, D.C.; Heath, L.S.; Birdsey, R.A. 2003. National scale biomass estimators for United States tree species. Forest Science. 49(1): 12-35.
+Jenkins, J.C.; Chojnacky, D.C.; Heath, L.S.; Birdsey, R.A. 2004. Comprehensive database of diameter-based biomass regressions for North American tree species. Gen. Tech.
+14
+
+Rep. NE-319. Newtown Square, PA: U.S. Department of Agriculture, Forest Service, Northeastern Research Station. 45 p. [1 CD-ROM].
+Miles, P.D.; Smith, W.B. 2009. Specific gravity and other properties of wood and bark for 156 tree species found in North America. Res. Note NRS-38. Newtown Square, PA: U.S. Department of Agriculture, Forest Service, Northern Research Station. 35 p.
+Miles, P.D.; Hill, A.D. 2010. Volume equations for the Northern Research Station’s Forest Inventory and Analysis program as of 2010. Gen. Tech. Rep. NRS-74. Newtown Square, PA: U.S. Department of Agriculture, Forest Service, Northern Research Station. 50 p.
+Oswalt, C.M.; Conner, R.C. 2011. Southern forest inventory and analysis volume equation user’s guide. Gen. Tech. Rep. SRS-138. Asheville, NC: U.S. Department of Agriculture, Forest Service, Southern Research Station. 22 p.
+Raile, G.K. 1982. Estimating stump volume. Res. Pap. NC-224. St. Paul, MN: U.S. Department of Agriculture, Forest Service, North Central Forest Experiment Station. 7 p.
+U.S. Department of Agriculture, Forest Service. 2010a. Forest inventory and analysis national program - data and tools - FIA data mart, FIADB Version 4.0. Washington, DC: U.S. Department of Agriculture, Forest Service. Available at http://199.128.173.17/ fiadb4-downloads/datamart.html. (Accessed 15 December 2010).
+U.S. Department of Agriculture, Forest Service. 2010b. National core field guide, Volume 1: Field data collection procedures for phase 2 plots, version 4.0 and Addendum. Washington, DC: U.S. Department of Agriculture, Forest Service. Available at http://fia. fs.fed.us/library/field-guides-methods-proc/docs/core_ver_4-0_10_2007_p2.pdf. (Accessed 15 December 2010).
+U.S. Department of Agriculture, Forest Service. 2011. Forest Inventory and Analysis: Fiscal year 2010 Business Report. FS-976. Washington, DC: U.S. Department of Agriculture, Forest Service. 73 p.
+U.S. Environmental Protection Agency. 2011. Inventory of US greenhouse gas emissions and sinks: 1990-2009. EPA 430-R-11-005 Washington, DC: U.S. Environmental Protection Agency. 459 p.
+Woudenberg, S.W.; Conkling, B.L.; O’Connell, B.M.; LaPoint, E.B.; Turner, J.A.; Waddell, K.L. 2010. The Forest Inventory and Analysis Database: Database description and users manual version 4.0 for Phase 2. Gen. Tech. Rep. RMRS-GTR- 245. Fort Collins, CO: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station. 339 p.
+15
+
+16
+
+Appendices Printed in this Report
+Appendix A.—Gross and sound cubic-foot volume equation forms for the Northern, Southern, Rocky Mountain, and Pacific Northwest (excluding AK) regions.
+Appendices and Accompanying Excel Files Included on CD-ROM
+Appendix B.—Alaska gross cubic-foot volume equation forms Appendix C.—Alaska sound cubic-foot volume algorithm volcfsnd_eqn_coefs.xlsx volcfgrs_eqn_coefs.xlsx REF_SPECIES.xlsx
+Selection of Previously Published Studies Cited in this Report and Included on CD-ROM
+Publications cited in body of GTR: Birdsey 1992: gtr_wo059 Heath et al. 2009: rmrs_p056_heath.pdf Jenkins et al. 2004: ne_gtr319.pdf Miles and Smith 2009: rn_nrs38.pdf Raile 1982: rp_nc224.pdf Volume equation publications: Chittester and MacLean 1984: pnw_rn420.pdf Curtis et al. 1968: pnw_rp056.pdf Hahn 1984: rp_nc250.pdf Hahn and Hansen 1991: Hahn_and_Hansen_1991.pdf Larson and Winterberger 1988: pnw_rn478.pdf Pillsbury and Kirkley 1984: pnw_rn414.pdf Scott 1981: ne_rn304.pdf
+17
+
+APPENDIX A
+Gross cubic-foot volume equation forms for the Northern, Southern, Rocky Mountain, and Pacific Northwest (excluding AK) regions. (dbh = diameter at breast height, drc = diameter at root collar, ht = total height)
+
+Table 1.—Gross cubic-foot volume (VOLCFGRS) equation forms for the Northern region
+
+Region/States (species codea)
+North Central - IA, IL, IN, MO (all species except 66) KS, ND, NE, SD (all species except 66 and 122)
+
+Form of the model: VOLCFGRS = f(x1,x2,….,xn)
+IF x2 = NULL VOLCFGRS = NULL OTHERWISE VOLCFGRS = b1‫ݔ‬ଶ௕మ(1 - ݁௕య௫భ್ర )
+(IF VOLCFGRS < 0, SET TO 0)
+
+Observed items: (x1,x2,….,xn)
+x1 = dbh x2 = site index
+
+Referenceb
+Hahn and Hansen 1991
+
+North Central - MI, MN, WI (all species except 66)
+
+IF x2 = NULL OR x3 = NULL VOLCFGRS = NULL
+
+OTHERWISE
+
+VOLCFGRS = (b0 + b1x1 + b2V1 + b3x12
+
++ b4x12V2 + b5V22 + b6V2V12 + b7x12V23 +
+
+b8x12V22V1)b9(b10 + b11x1) / 100,
+
+Where V1 = top diameter outside bark = 4
+
+And V2 = predicted bole length = b12 + b13
+
+(1 െ
+
+݁ି௕భర௫భ )௕భఱ ‫ݔ‬ଶ௕భల
+
+(ܾଵ଻
+
+െ
+
+ܸଵ )௕భఴ ‫ݔ‬ଵ
+
+‫ݔ‬ଷ௕భవ
+
+(IF VOLCFGRS < 0, SET TO 0)
+
+x1 = dbh x2 = site index; if x2 < 20, set to 20; if x2 > 120, set to 120
+x3 = basal area of live trees on plot/condition;
+if x3 < 50, set to 50; if x3 > 350, set to 350
+
+Hahn 1984
+
+North Central, All States (66)
+North Central - KS, ND, NE, SD (122)
+
+IF V1 <= b3 VOLCFGRS = b0 + b1V1 + b2V12 OTHERWISE VOLCFGRS = b0 + b1V1 + b2(3b32 – (2b33/V1)), Where V1 = x12x210-3
+(IF VOLCFGRS <= 0, SET TO 0.1)
+IF x12x2 <= b1 VOLCFGRS = b2 + b3x12x2 IF x12x2 > b1 VOLCFGRS = b4 + b5x12x2
+(IF VOLCFGRS <= 0, SET TO 0.1)
+
+x1 = drc x2 = ht
+x1 = dbh x2 = ht
+
+Chojnacky 1994
+Myers 1964b
+
+Northeast – All States (all IF x2 = NULL
+
+x1 = dbh
+
+Scott 1981
+
+species)
+
+VOLCFGRS = NULL OTHERWISE
+
+x2 = bole height
+
+VOLCFGRS = b0 + b1‫ݔ‬ଵ௕మ + b3 ‫ݔ‬ଵ௕ర‫ݔ‬ଶ௕ఱ
+
+a Species numbers refer to the codes used by FIA (Woudenberg et al. 2010) b References in Tables 1-4 of Appendix A are listed in a separate Literature Cited section at the end of the Appendix.
+
+18
+
+Table 2.—Gross cubic-foot volume (VOLCFGRS) equation forms for the Southern region
+
+Region/States (species codea)
+
+Form of the model: VOLCFGRS = f(x1,x2,….,xn)
+
+Observed items: (x1,x2,….,xn)
+
+South, All States (All Species other than those listed below)
+
+IF x1 >= 5 AND x2 ≠ NULL) VOLCFGRS = b0 + b1x12x2 OTHERWISE
+VOLCFGRS = NULL
+
+x1 = dbh x2 = ht
+
+Referenceb Unknown
+
+South, All States (58, 59, 69, 106, 140, 141)
+
+IF V1 <= b3 VOLCFGRS = b0 + b1V1 + b2V12 OTHERWISE VOLCFGRS = b0 + b1V1 + b2(3b32 – (2b33/V1)), Where V1 = x12x210-3
+(IF VOLCFGRS <= 0, SET TO 0.1)
+
+x1 = drc x2 = ht
+
+Chojnacky 1994
+
+South, All States (61, 63, 66, 303, 321, 755, 756, 758, 810, 843, 846, 867, 8513)
+
+IF V1 <= b6 VOLCFGRS = b1 + b2V1 + b3V12 OTHERWISE
+VOLCFGRS = b4 + b2V1 – (b5/V1), Where V1 = x12x210-3
+(IF VOLCFGRS <= 0, SET TO 0.1)
+
+x1 = drc x2 = ht
+
+Chojnacky 1988
+
+South, All States (122)
+
+IF x1 < 21 VOLCFGRS
+
+=
+
+(b1
+
++
+
+b2x12x2)
+
+–
+
+(b3
+
++
+
+b4
+
+௏భయ௫మ ௫భ್ఱ
+
++
+
+b6x12)
+
+Where V1 = top diameter outside bark = 4
+
+OTHERWISE
+
+VOLCFGRS
+
+=
+
+(b7
+
++
+
+b8x12x2)
+
+–
+
+(b9
+
++
+
+b10
+
+௏భయ௫మ ௫భ್భభ
+
++
+
+b12x12)
+
+Where V1 = top diameter outside bark = 4
+
+x1 = dbh x2 = ht
+
+(If VOLCFGRS <= 0 AND x1 >= 1, SET VOLCFGRS TO 0.1)
+
+Hann and Bare 1978
+
+South, All States (202)
+
+VOLCFGRS
+
+=
+
+(b1
+
++
+
+b2x12x2)
+
+–
+
+(b3
+
++
+
+b4
+
+௏భయ௫మ ௫భ್ఱ
+
++
+
+b6x12),
+
+Where V1 = top diameter outside bark = 4
+
+x1 = dbh x2 = ht
+
+(IF VOLCFGRS <= 0 AND x1 >= 1, SET VOLCFGRS TO 0.1)
+
+a Species numbers refer to the codes used by FIA (Woudenberg et al. 2010) b References in Tables 1-4 of Appendix A are listed in a separate Literature Cited section at the end of the Appendix.
+
+Hann and Bare 1978
+
+19
+
+Table 3.—Gross cubic-foot volume (VOLCFGRS) equation forms for the Rocky Mountain region
+
+Region/States (species codea)
+
+Form of the model:
+
+Observed Referenceb
+
+VOLCFGRS = f(x1,x2,….,xn)
+
+items: (x1,x2,….,xn)
+
+AZ (All), NM (All), UT (SouthWest) (15, 17, 18, 19, 20, 21, 22, 93, 94, 96, 101, 102, 104, 108, 113, 114, 142, 202, 351, 352, 353, 374, 375, 746) RMRS, All States (103)
+
+VOLCFGRS
+
+=
+
+(b1
+
++
+
+b2x12x2)
+
+–
+
+(b3
+
++
+
+b4
+
+ࢂ૚૜࢞૛ ࢞૚࢈૞
+
++
+
+b6x12),
+
+Where V1 = top diameter outside bark = 4
+
+(IF VOLCFGRS <= 0 AND x1 >= 1, SET VOLCFGRS TO 0.1)
+
+x1 = dbh x2 = ht
+
+Hann and Bare 1978
+
+CO (All), NV, UT (North-East), WY (All) (15, 17, 18, 19, 20, 21, 22, 93, 94, 96, 101, 102, 108, 113, 114, 142, 202, 351, 352, 353, 374, 375, 746) CO (East), MT (East), WY (East) (51, 112, 116, 118, 122, 135, 137, 231) CO (All), NV, WY (All) (104)
+
+IF x12x2 <= b5 VOLCFGRS = b1 + b2x12x2 IF x12x2 > b5 VOLCFGRS = b3 + b4x12x2
+(IF VOLCFGRS <= 0 AND x1 >= 1, SET VOLCFGRS TO 0.1)
+
+x1 = dbh x2 = ht
+
+Myers 1964a, Myers and Edminster 1972, Myers 1964b, Edminster et al. 1982
+
+ID, MT (All) (Species 15, 17, 20, 21, 22, 72, 73, 101, 102, 104, 108, 113, 114, 142, 202) ID, MT (West) (51, 112, 116, 118, 122, 135, 137, 231) AZ (South), CO (West), ID, MT (All), NM (South), NV, WY (West) (117, 119)
+
+VOLCFGRS
+
+=
+
+V1
+
+–
+
+(V1(b1((
+
+௏మ)௕య
+௕మ
+
+ൗ‫ݔ‬ଵ
+
+௕ర))),
+
+Where V1 = b5 ‫ݔ‬ଵ௕ల‫ݔ‬ଶ௕ళ
+
+And V2 = top diameter outside bark = 4
+
+(IF VOLCFGRS <= 0, SET TO 0.1)
+
+x1 = dbh x2 = ht
+
+Moisen unpublished (1989)
+
+ID, MT (All) (18, 19, 81, 93, 94, 96, 351, 352, 353, 374, 375, 746) AZ (South), CO (All), ID, MT (All), NM (South), UT (All), WY (All) (242,263,264) RMRS, All States (741, 742, 745, 747, 748, 749)
+
+IF x12x2 <= b5 OR (x1 < 21 AND b5 = 0) VOLCFGRS = b1 + b2x12x2 OTHERWISE VOLCFGRS = b3 + b4x12x2
+(IF VOLCFGRS <= 0, SET TO 0.1)
+
+x1 = dbh x2 = ht
+
+Kemp (1956)
+
+continued
+
+20
+
+Table 3.—continued Region/States (species codea)
+AZ (All), NM (All), UT (SouthWest) (51, 112, 116, 118, 122, 135, 137, 231)
+
+Form of the model: VOLCFGRS = f(x1,x2,….,xn)
+
+Observed items: (x1,x2,….,xn)
+
+Referenceb
+
+IF x1 < 21 VOLCFGRS
+
+=
+
+(b1
+
++
+
+b2x12x2)
+
+–
+
+(b3
+
++
+
+b4
+
+௏భయ௫మ ௫భ್ఱ
+
++
+
+b6x12)
+
+Where V1 = top diameter outside bark = 4
+
+OTHERWISE
+
+VOLCFGRS
+
+=
+
+(b7
+
++
+
+b8x12x2)
+
+–
+
+(b9
+
++
+
+b ௏భయ௫మ
+10 ௫భ್భభ
+
++
+
+b12x12)
+
+Where V1 = top diameter outside bark = 4
+
+x1 = dbh x2 = ht
+
+(IF VOLCFGRS <= 0 AND x1 >= 1, SET VOLCFGRS TO 0.1)
+
+Hann and Bare 1978
+
+CO (West), NV, UT (NorthEast), WY (West) (51, 112, 116, 118, 122, 135, 137, 231)
+
+IF x1 ≥ 5 VOLCFGRS = b0 + b1x12x2 OTHERWISE VOLCFGRS = NULL
+(IF VOLCFGRS <= 0 AND VOLCFGRS IS NOT NULL, SET TO 0.1)
+
+x1 = dbh x2 = ht
+
+Edminster et al. 1980
+
+RMRS, All States (Species 58, 59, 62, 63, 65, 66, 69, 106, 134, 140, 143)
+
+IF V1 <= b3 VOLCFGRS = b0 + b1V1 + b2V12 OTHERWISE VOLCFGRS = b0 + b1V1 + b2(3b32 – (2b33/V1)), Where V1 = x12x210-3
+(IF VOLCFGRS <= 0, SET TO 0.1)
+
+x1 = drc x2 = ht
+
+Chojnacky 1994
+
+ID, MT (All), NV (64)
+
+VOLCFGRS = ((V1 + b1) / (b2 + b3݁௕ర௫భ)) + b5, Where V1 = b6x12(b7 + b8x2 – (b9x1x2 / (x2 + b10))x2(x2/ (x2 + b10))2 -- if V1 <= 0, set V1 to 2
+(IF VOLCFGRS <= 0, SET TO 1)
+
+x1 =
+
+Chittester
+
+MIN(dbh,60) and MacLean
+
+x2 = ht
+
+1984
+
+RMRS, All States (68, 130, 136, 313, 361, 362, 404, 461, 462, 492, 544, 547, 552, 602, 606, 732, 823, 826, 901, 972, 974)
+
+IF (SPECIES < 300 AND x1 < 9) OR (SPECIES >= 300 AND x1 < 11) VOLCFGRS = b1 + b2x12x2 OTHERWISE VOLCFGRS = b3 + b4x12x2
+(IF VOLCFGRS <= 0 OR x2 = NULL OR x1 < 5, SET VOLCFGRS TO 0.1)
+
+x1 = dbh x2 = ht
+
+Unknown continued
+
+21
+
+Table 3.—continued Region/States (species codea)
+RMRS, All States (133, 475)
+
+Form of the model: VOLCFGRS = f(x1,x2,….,xn)
+IF (x1 >= 3 AND x2 > 0 AND x3 = 1) VOLCFGRS = (b0 + b1(‫ݔ‬ଵଶ‫ݔ‬ଶ)௕మ + b3)3 IF (x1 >= 3 AND x2 > 0 AND x3 ≠ 1) VOLCFGRS = (b0 + b1(‫ݔ‬ଵଶ‫ݔ‬ଶ)௕మ)3 OTHERWISE VOLCFGRS = 0.1
+(IF VOLCFGRS <= 0, SET TO 0.1)
+
+Observed items: (x1,x2,….,xn)
+
+Referenceb
+
+x1 = drc x2 = ht x3 = # of stems
+
+Chojnacky 1985
+
+AZ (All), NM (All) (322, 814) RMRS, All States (756, 757, 758, 803, 810, 829, 843, 846, 847)
+
+IF (V1 <= b6) VOLCFGRS = b1 + b2V1 + b3V12 OTHERWISE
+VOLCFGRS = b4 + b2V1 – (b5/V1), Where V1 = x12x210-3
+(IF VOLCFGRS <= 0, SET TO 0.1)
+
+x1 = drc x2 = ht
+
+Chojnacky 1988
+
+CO (All), ID, MT (All), NV, UT (All), WY (All) (322, 814)
+
+IF (x1 >= 3 AND x2 > 0 AND x3 = 1) VOLCFGRS = (b0 + b1(‫ݔ‬ଵଶ‫ݔ‬ଶ)௕మ + b3)3 IF (x1 >= 3 AND x2 > 0 AND x3 ≠ 1) VOLCFGRS = (b0 + b1(‫ݔ‬ଵଶ‫ݔ‬ଶ)௕మ)3 OTHERWISE
+VOLCFGRS = 0
+
+x1 = drc x2 = ht x3 = # of stems
+
+(IF VOLCFGRS < 0, SET TO 0.1)
+
+a Species numbers refer to the codes used by FIA (Woudenberg et al. 2010) b References in Tables 1-4 of Appendix A are listed in a separate Literature Cited section at the end of the Appendix.
+
+Chojnacky 1985
+
+22
+
+Table 4.—Gross cubic-foot volume (VOLCFGRS) equation forms for the Pacific Northwest region
+
+Region/States (species codea)
+
+Form of the model: VOLCFGRS = f(x1,x2,….,xn)
+
+Observed items: (x1,x2,….,xn)
+
+CA (All), OR (All), WA (All) (11, 42, 93, 98, 231, 242, 352) OR (East), WA (All) (15) OR (All), WA (All) (17, 19, 22, 73, 101, 108, 119) OR (East) (20) CA (All) (41, 251, 746, 747, 748, 760, 766, 768) WA (All) (72) CA (All), OR (All), WA (East) (92) OR (All), WA (West) (103) OR (West & JJ) (113, 130) OR (East & West) (341) CA (All), OR (East & JJ), WA (All) (351) CA (except Mixed-Conifer) (611)
+
+VOLCFGRS = ((10௕భ‫ݔ‬ଵ௕మ‫ݔ‬ଶ௕యܾସ) / ((b5(1 + b6݁௕ళೣభబభ ))(b8x12 + b9) + b10))((b11x12 – b9) / b4)
+
+x1 = dbh x2 = ht
+
+Referenceb
+Brackett 1973, Browne 1962
+
+CA (All) (Species 14, 19, 22) CA (All), OR (West & JJ) (20) CA (All), OR (All) (21)
+
+VOLCFGRS = b1x12x2V1,
+
+Where
+
+V1
+
+=
+
+b2
+
++
+
+b3
+
+௫మ ௫భ
+
+--
+
+if
+
+V1
+
+>
+
+0.4,
+
+set
+
+to
+
+0.4;
+
+if
+
+V1
+
+<
+
+0.3, set to 0.3
+
+x1 = MAX(dbh,6) x2 = ht
+
+MacLean and Berger 1976
+
+CA (All), OR (West & JJ) (15) CA (All) (17)
+OR (All), WA (All) (41) CA (All) (50, 51, 54, 55) CA (except Mixed-Conifer) (52, 53) CA (All), OR (All), WA (All) (81)
+
+VOLCFGRS = b1x12x2V1,
+
+Where
+
+V1
+
+=
+
+b2
+
++
+
+b3x2-1
+
++
+
+b4
+
+௫మమ ௫భ
+
+--
+
+if
+
+V1
+
+>
+
+0.4,
+
+set
+
+to
+
+0.4; if V1 < 0.3, set to 0.3
+
+VOLCFGRS = b1x12x2V1, Where V1 = b2 + b3x2-1 -- if V1 < 0.27, set to 0.27
+
+x1 = MAX(dbh,6) x2 = ht
+
+MacLean and Berger 1976
+
+x1 = MAX(dbh,6) x2 = ht
+
+MacLean and Berger 1976
+
+CA (All), OR (All) (62, 65, 66) CA (All), OR (All), WA (All) (133, 321, 475)
+
+IF (x1 >= 3 AND x2 > 0 AND x3 = 1) VOLCFGRS = (b0 + b1(‫ݔ‬ଵଶ‫ݔ‬ଶ)௕మ + b3)3 IF (x1 >= 3 AND x2 > 0 AND x3 ≠ 1) VOLCFGRS = (b0 + b1(‫ݔ‬ଵଶ‫ݔ‬ଶ)௕మ)3 OTHERWISE
+VOLCFGRS = 0.1
+
+(IF VOLCFGRS <= 0, SET TO 0.1)
+
+x1 = drc x2 = ht x3 = # of stems
+
+Chojnacky 1985
+
+continued
+
+23
+
+Table 4.—continued Region/States (species codea)
+
+Form of the model: VOLCFGRS = f(x1,x2,….,xn)
+
+CA (All), OR (All), WA (All) (64)
+
+VOLCFGRS = ((V1 + b1) / (b2 + b3݁௕ర௫భ)) + b5, Where V1 = b6x12(b7 + b8x2 – (b9x1x2 / (x2 + b10))) x2(x2/(x2 + b10))2 -- if V1 <= 0, set to 2
+(IF VOLCFGRS <= 0, SET TO 1)
+
+Observed items: (x1,x2,….,xn)
+
+Referenceb
+
+x1 = MIN(dbh,60) x2 = ht
+
+Brackett 1973, Chittester and MacLean 1984
+
+CA (All) (102, 103, 104, 108, 113, 124, 142) CA (All), OR (All) (120)
+
+VOLCFGRS = b1x12x2V1,
+
+Where
+
+V1
+
+=
+
+b2
+
++
+
+b3
+
+௫మమ ௫భ
+
+--
+
+if
+
+V1
+
+>
+
+0.4,
+
+set
+
+V1
+
+to
+
+0.4;
+
+if
+
+V1 < 0.3, set to 0.3
+
+x1 = MAX(dbh,6) x2 = ht
+
+CA (All) (101, 109, 119, 127, 137) CA (All), OR (West & JJ) (116, 122) CA (All), OR (All), WA (All) (117)
+
+VOLCFGRS = b1x12x2V1, Where V1 = b2 + b3x1-1 -- if V1 > 0.4, set to 0.4; if V1
+< 0.3, set to 0.3
+
+x1 = MAX(dbh,6) x2 = ht
+
+MacLean and Berger 1976
+Brackett 1973, MacLean and Berger 1976
+
+OR (East) (116) OR (East), WA (All) (122) OR (East), WA (East) (202)
+
+VOLCFGRS = ((݁(௕భ ା ௕మ ୪୬ ௫భା௕య(୪୬ ௫మ)మା ೣ್మరమା ௕ఱ ୪୬ ௫మ) b6) / ((b7(1 + b8݁(௕వೣభబభ)))(b10x12 + b11) + b12))((b13x12
+
+x1 = dbh x2 = ht
+
+– b11) / b6)
+
+Brackett 1973, Summerfield unpublished 1980, Browne 1962
+
+CA (All) (201, 202)
+
+VOLCFGRS = b1x12x2V1, Where V1 = b2 + (b3௫௫మభ - b4௫௫మభమ) -- if V1 > 0.4, set to 0.4; if V1 < 0.3, set to 0.3
+
+x1 = MAX(dbh,6) x2 = ht
+
+MacLean and Berger 1976
+
+OR (West & JJ), WA (West & CF) (202)
+
+VOLCFGRS = ((10௏భb7) / ((b8(1 + b9݁(௕భబೣభబభ))) (b11x12 + b12) + b13))((b14x12 – b12) / b7), where V1 = ܾଵ + ܾଶ logଵ଴ ‫ݔ‬ଵ logଵ଴ ‫ݔ‬ଶ + ܾଷ(logଵ଴ ‫ݔ‬ଵ)ଶ + ܾସ logଵ଴ ‫ݔ‬ଵ + ܾହ logଵ଴ ‫ݔ‬ଶ + ܾ଺ (logଵ଴ ‫ݔ‬ଶ)ଶ
+
+CA (All), OR (All) (211, 212)
+
+VOLCFGRS = ((݁(௕భା௕మ ୪୬ ௫భା௕య ୪୬ ௫మ)ܾସ) / ((b5(1 + b6݁௕ళೣభబభ ))(b8x12 + b9) + b10))((b11x12 – b9) / b4)
+
+x1 = dbh x2 = ht
+x1 = dbh x2 = ht
+
+Brackett 1973, Browne 1962
+Brackett 1973, Krumland and Wensel 1975, Browne 1962
+
+continued
+
+24
+
+Table 4.—continued Region/States (species codea)
+
+Form of the model: VOLCFGRS = f(x1,x2,….,xn)
+
+Observed items: (x1,x2,….,xn)
+
+CA (All), OR (All), WA (All) (263)
+
+VOLCFGRS = ((10(௕భା ௕మ ୪୭୥భబ ௫భା ௕య ୪୭୥భబ ௫మା ௕ర௫భ) b5) / ((b6(1 + b7݁(௕ఴೣభబభ)))(b9x12 + b10) + b11))((b12x12 – b10) / b5)
+
+x1 = dbh x2 = ht
+
+Referenceb
+Brackett 1973, Chambers and Foltz 1979, Browne 1962
+
+CA (All), OR (All), WA (All) (264, 299)
+
+VOLCFGRS = (b1‫ݔ‬ଵ௕మ‫ݔ‬ଶ௕యb4) / ((b5(1 + b6݁(௕ళೣభబభ))) (b8x12 + b9) + b10))((b11x12 – b9) / b4)
+
+x1 = dbh x2 = ht
+
+Brackett 1973, Browne 1962, Bell et al. 1981
+
+CA (All), OR (All) (312, 313, 361, 431, 540, 542, 815, 818, 901, 997) OR (West) (320) CA (All) (330, 333, 421, 492, 500, 600, 602, 660, 661, 730, 763, 801, 807, 811, 826, 839, 920, 998, 999) CA (All), OR (West & JJ) (631, 805, 981) CA (except Mixed-Conifer) (547, 604, 731, 922) CA (except Mixed-Conifer), OR (West), WA (East) (603) CA (All), OR (JJ) (821)
+
+VOLCFGRS = b1‫ݔ‬ଵ௕మ‫ݔ‬ଶ௕య
+
+x1 = dbh x2 = ht; if species 361
+or 631, x2 = MIN(ht,120)
+
+Pillsbury and Kirkley 1984
+
+WA (All) (312, 313, 370, 431, 540, 542, 815, 901, 997) OR (West) (351, 926) WA (West & CF) (361) CA (All), OR (All), WA (All) (374, 375, 591) OR (All), WA (All) (492, 500, 602, 660, 661, 730, 746, 747, 760, 763, 766, 768, 920, 998, 999) OR (West & JJ) (510) OR (All), WA (West & CF) (600) OR (East), WA (West & CF) (631) WA (East) (818)
+
+VOLCFGRS = V1((b1x12 – b2) / b3),
+
+Where V1 = (b4x12(x2 + b5)(b6V2 + b7V2x110-3
+
++ b8V2x210-3 + b9V2x2x110-5 + b10V2x2210-6 +
+
+b11V2ξ‫ݔ‬ଶ 10-3 + b12V34x110-3 + b13V34x210-3 +
+
+b14V333x2x110-6 + b15V333ξ‫ݔ‬ଶ10-4 + b16V341x2210-7) b3) / ((b17 + b18ܾଵଽ(௫భା௕మబ))((b21(1 + b22݁(௕మయೣభబభ)))
+
+(b1x12 + b2) + b24)),
+
+Where V2 = V32.5,
+
+And
+
+V3
+
+=
+
+(x2
+
++
+
+b25
+
+-
+
+௫భ )
+௕మల
+
+/
+
+(x2
+
++
+
+b5)
+
+--
+
+if
+
+V1
+
+<=
+
+0,
+
+set
+
+to .01
+
+x1 = dbh x2 = MAX(ht,18)
+
+Brackett 1973, Curtis et al.1968, Browne 1962
+
+continued 25
+
+Table 4.—continued Region/States (species codea)
+
+Form of the model: VOLCFGRS = f(x1,x2,….,xn)
+
+CA (All) (510) CA (except Mixed-Conifer) (511)
+
+VOLCFGRS = ((b1x12x2b2) / ((b3(1 + b4݁(௕ఱೣభబభ))) (b6x12 + b7) + b8))((b9x12 – b7) / b2)
+
+CA (All) (756) CA (except Mixed-Conifer) (758) CA (All), OR (East), WA (East) (990)
+
+IF (V1 <= b6) VOLCFGRS = b1 + b2V1 + b3V12 Where V1 = x12x210-3 OTHERWISE
+VOLCFGRS = b4 + b2V1 – (b5/V1), Where V1 = x12x210-3
+(IF VOLCFGRS <= 0, SET TO 0.1)
+
+AK (All) (All Species)
+
+See Appendix B for algorithms.
+
+Observed items: (x1,x2,….,xn)
+x1 = dbh x2 = ht
+
+Referenceb
+Brackett 1973, MacLean unpublished 1983, Browne 1962
+
+x1 = drc x2 = ht
+
+Chojnacky 1988
+
+a Species numbers refer to the codes used by FIA (Woudenberg et al. 2010) b References in Tables 1-4 of Appendix A are listed in a separate Literature Cited section at the end of the Appendix.
+JJ: Refers to Jackson and Josephine Counties, OR
+CF: Refers to silver-fir region of WA
+
+26
+
+Table 5.—Sound cubic-foot volume (VOLCFSND) equation forms for all regions
+
+Region/States (species codea)
+
+Form of the model:
+
+Observed items:
+
+VOLCFSND = f(x1,x2,….,xn)
+
+(x1,x2,….,xn)
+
+North Central - KS, MI, MN, ND, NE, SD, WI (All Species)
+
+VOLCFSND = VOLCFGRS(1 - ௕భ௕మ)
+ଵ଴଴
+
+North Central - IA, IL, IN, MO (All Species)
+
+IF x1 < b2 VOLCFSND = VOLCFGRS(1 - ௏భ௕య),
+ଵ଴଴
+where V1 = b0 + b1x1 -- if V1 > 100, set
+to 100; if V1 < 0, set to 0
+(if V1b3 > 98, set to 100)
+IF x1 >= b2 VOLCFSND = VOLCFGRS(1 - ௏భ௕య),
+ଵ଴଴
+where V1 = b0 + b1b2 -- if V1 > 100, set
+to 100; if V1 < 0, set to 0
+(if V1b3 > 98, set to 100)
+OTHERWISE
+
+x1 = dbh
+
+VOLCFSND = 0
+
+Northeast – All States, Rocky Mountain – All States, Pacific Northwest – CA, OR, WA (All Species) South – All States (All Species)
+
+VOLCFSND = VOLCFGRS(1 - ௫భ )
+ଵ଴଴
+
+x1 = percent of cubic-foot volume
+that is rotten or
+missing;
+if x1 = NULL, set to 0; if x1 > 98, set to 100
+
+Pacific Northwest – AK (All Species)
+
+See Appendix C for algorithm.
+
+27
+
+LITERATURE CITED APPENDIX A
+Bell, J.F.; Marshall, D.D.; Johnson, G.P. 1981. Tarif access tables for mountain hemlock from an equation of total stem cubic-foot volume. Res. Bull. 35. Corvallis, OR: Oregon State University, Forest Research Laboratory. 46 p.
+Brackett, M. 1973. Notes on tarif tree volume computation. Resour. Management Rep. 24. Seattle, WA: State of Washington, Department of Natural Resources. 26 p.
+Browne, J.E. 1962. Standard cubic-foot volume tables for the commercial tree species of British Columbia, 1962. Vancouver, BC, Canada: British Columbia Ministry of Forests, Lands and Natural Resources, Forest Surveys and Inventory. Available at http://www.for. gov.bc.ca/hfd/library/documents/bib37482.pdf. (Accessed 15 December 2010).
+Bruce, D.; DeMars, D.J. 1974. Volume equations for second-growth Douglas-fir. Res. Note PNW-239. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station. 5 p.
+Bruce, D. 1984. Volume estimators for Sitka spruce and western hemlock in coastal Alaska. In: Inventorying forest and other vegetation of the high latitude and high altitude regions, Proceedings of the International Symposium, SAF Regional Technical Conference; 1984 July 23-26; Fairbanks, AK. Bethesda, MD: Society of American Foresters: 96-102.
+Bruce, D. and DeMars, D. Unpublished (date unknown). FORTRAN code (DBVOL3. FOR) created for the Anchorage Forest Sciences Laboratory, Forest Inventory and Analysis, Anchorage, Alaska. On file at USDA, Forest Service, Pacific Northwest Research Station, Portland, Oregon.
+Campbell, K.R. Unpublished (2009). PL/SQL code dated April 18, 2009. On file at USDA, Forest Service, Pacific Northwest Research Station.
+Chambers, C.J.; Foltz, B.W. 1979. The tariff system – revisions and additions. DNR Note 27. Seattle, WA: State of Washington, Department of Natural Resources. 8 p.
+Chittester, J.M.; MacLean, C.D. 1984. Cubic-foot tree volume equations and tables for western juniper. Res. Note PNW-420. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station. 8 p.
+Chojnacky, D.C. 1985. Pinyon-juniper volume equations for the central Rocky Mountain states. Res. Pap. INT-339. Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station. 27 p.
+Chojnacky, D.C. 1988. Juniper, pinyon, oak and mesquite volume equations for Arizona. Res. Bull. INT-391. Ogden UT: U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station. 11 p.
+28
+
+Chojnacky, D.C. 1994. Volume equations for New Mexico’s pinyon-juniper dryland forests. Res. Pap. INT-471. Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station. 10 p.
+Curtis, R.O.; Bruce, D.; VanCoevering, C. 1968. Volume and taper tables for red alder. Res. Pap. PNW-RP-056. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station. 36 p.
+Edminster, C.B.; Beeson, R.T.; Metcalf, G.B. 1980. Volume tables and point-sampling factors for ponderosa pine in the front range of Colorado. Res. Pap. RM-218. Ft. Collins, CO: U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station. 14 p.
+Edminster, C.B.; Mowrer, H.T.; Hinds, T.E. 1982. Volume tables and point-sampling factors for aspen in Colorado. Res. Pap. RM-232. Ft. Collins, CO: U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station. 16 p.
+Embry, R.S.; Haack, P.M. 1965. Volume tables and equations for young growth western hemlock and Sitka spruce in southeast Alaska. Res. Note NOR-12. Juneau, AK: U.S. Department of Agriculture, Forest Service, Northern Forest Experiment Station. 21 p.
+Flewelling, J.W.; Raynes, L.M. 1993. Variable-shape stem-profile predictions for western hemlock. Part I. Predictions from DBH and total height. Canadian Journal of Forest Research. 23: 520-536.
+Hahn, J.T. 1984. Tree volume and biomass equations for the Lake States. Res. Pap. NC250. St. Paul, MN: U.S. Department of Agriculture, Forest Service, North Central Forest Experiment Station. 10 p.
+Hahn, J.T.; Hansen, M.H. 1991. Cubic and board foot volume models for the Central States. Northern Journal of Applied Forestry. 8:47-57.
+Hann, D.W.; Bare, B.B. 1978. Comprehensive tree volume equations for major species of New Mexico and Arizona: II. Tables for unforked trees. Res. Pap. INT-210. Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station. 43 p.
+Kemp, P.D. 1956. Region 1 volume tables for ADP cruise computations. Timber cruising handbook. R1-2430-31. Missoula, MT: U.S. Department of Agriculture, Forest Service, Region I.
+Krumland, B.E.; Wensel, L.C. 1975. Preliminary young growth volume tables for coastal California counties. Res. Note No. 1. Berkeley, CA: University of California, Berkeley, Cooperative Redwood Yield Research Project. 18 p.
+29
+
+Larson, F.R.; Winterberger, K.C. 1988. Tables and equations for estimating volumes of trees in the Susitna River Basin, Alaska. Res. Note PNW-478. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Research Station. 20 p.
+MacLean, C.D. Unpublished. Letter dated January 27, 1983. On file at USDA, Forest Service, Pacific Northwest Research Station.
+MacLean, C.D.; Berger, J.M. 1976. Softwood tree volume equations for major California species. Res. Note PNW-266. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station. 33 p.
+Moisen, G.G. Unpublished (1989). Memo dated October 4, 1989. On file at USDA, Forest Service, Rocky Mountain Research Station, Interior West Resource Inventory, Monitoring, and Evaluation Program, Ogden, UT.
+Myers, C.A. 1964a. Volume tables and point-sampling factors for lodgepole pine in Colorado and Wyoming. Res. Pap. RM-6. Ft. Collins, CO: U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station. 16 p.
+Myers, C.A. 1964b. Volume tables and point-sampling factors for ponderosa pine in the Black Hills. Res. Pap. RM-8. Ft. Collins, CO: U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station. 16 p.
+Myers, C.A.; Edminster, C.B. 1972. Volume tables and point-sampling factors for Engelmann spruce in Colorado and Wyoming, 1972. Res. Pap. RM-95. Ft. Collins, CO: U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station. 23 p.
+Pillsbury, N.H.; Kirkley, M.L. 1984. Equations for total, wood, and saw-log volumes for thirteen California hardwoods. Res. Note PNW-414. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station. 52 p.
+Scott, C. T. 1981. Northeastern forest survey revised cubic-foot volume equations. Res. Note NE-304.Radnor, PA: U.S. Department of Agriculture, Forest Service, Northeastern Research Station. 4 p.
+Summerfield, E. R. Unpublished (1980). Letter dated November 7, 1980. On file at USDA, Forest Service, Pacific Northwest Research Station.
+30
+
+Woodall, Christopher W.; Heath, Linda S.; Domke, Grant M.; Nichols, Michael C. 2011. Methods and equations for estimating aboveground volume, biomass, and carbon for trees in the U.S. forest inventory, 2010. Gen. Tech. Rep. NRS-88. Newtown Square, PA: U.S. Department of Agriculture, Forest Service, Northern Research Station. 30 p.
+The U.S. Forest Service, Forest Inventory and Analysis (FIA) program uses numerous models and associated coefficients to estimate aboveground volume, biomass, and carbon for live and standing dead trees for most tree species in forests of the United States. The tree attribute models are coupled with FIA’s national inventory of sampled trees to produce estimates of tree growingstock volume, biomass, and carbon, which are available in the Forest Inventory and Analysis database (FIADB; http://fiatools.fs.fed.us). To address an increasing need for accurate and easy-touse documentation of relevant tree attribute models, needed individual tree gross volume, sound volume, biomass (including components), and carbon models for species in the United States are compiled and described in this publication with accompanying electronic files on a CD-ROM included with the publication. This report describes models currently in use as of 2010. These models are subject to change as the FIADB and associated tree attribute models are improved.
+KEY WORDS: biomass equations, forest carbon, dead tree biomass, Forest Inventory and Analysis, volume equations, sound cubic foot, gross cubic foot
+The U.S. Department of Agriculture (USDA) prohibits discrimination in all its programs and activities on the basis of race, color, national origin, age, disability, and where applicable, sex, marital status, familial status, parental status, religion, sexual orientation, genetic information, political beliefs, reprisal, or because all or part of an individual’s income is derived from any public assistance program. (Not all prohibited bases apply to all programs.) Persons with disabilities who require alternate means for communication of program information (Braille, large print, audiotape, etc.) should contact USDA’s TARGET Center at (202)720-2600 (voice and TDD).To file a complaint of discrimination, write to USDA, Director, Office of Civil Rights, 1400 Independence Avenue, S.W., Washington, DC 20250-9410, or call (800)795-3272 (voice) or (202)720-6382 (TDD). USDA is an equal opportunity provider and employer.
+
+www.nrs.fs.fed.us
+

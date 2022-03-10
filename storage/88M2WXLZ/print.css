@@ -1,0 +1,122 @@
+@page  {
+  size: A4 portrait !important;
+}
+
+.sidebars, .hp-anywhere, .logo, header.masthead, footer.bottom>.inner>nav.main,footer.bottom>.inner>div.Search__footer
+,footer.bottom>.inner>nav.sub, div[class^='$-container'], div[class*='-container']
+,.article-content img, div.full-width-image, iframe, div.big-top, div.social, .partners, nav#network, .more-on-this
+,section.commenting, div.poll {
+  display: none !important;
+}
+
+.main-content {
+  float: none !important;
+  width: 100% !important;
+  min-height: 768px !important;
+  padding-top: 40px !important;
+  margin-bottom: 0 !important;
+}
+
+img.logo-printable {
+  display: block !important;
+  margin-bottom: 24px !important;
+}
+
+div.inner {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+footer.bottom {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+footer.bottom>.inner {
+  padding: 0 !important;
+}
+
+footer.bottom>.inner>div.legal {
+  text-align: justify !important;
+  clear: both !important;
+  padding: 50px 0 80px !important;
+}
+
+footer.bottom>.inner>div.legal>p {
+  margin: 0 auto !important;
+  width: 765px !important;
+}
+
+header.article-header {
+  margin: 0 auto 30px !important;
+  width: 765px !important;
+}
+
+header.article-header h1 {
+  margin-bottom: 12px !important;
+}
+
+header.article-header .meta {
+  color: #000 !important;
+  font-size: 14px !important;
+  line-height: 12px !important;
+  font-weight: 300 !important;
+  overflow: hidden !important;
+}
+
+header.article-header .meta p {
+  margin-bottom: 0 !important;
+}
+
+.article-content {
+  margin: 0 auto !important;
+  width: 765px !important;
+}
+
+.article-content p {
+  font-weight: 300 !important;
+  font-size: 20px !important;
+  line-height: 32px !important;
+  margin-bottom: 40px !important;
+}
+
+.url-printable {
+  display: block !important;
+  border-bottom: 1px solid #eee !important;
+  padding: 50px 0 46px !important;
+  page-break-inside: avoid !important;
+}
+
+.url-printable .wrap {
+  margin: 0 auto !important;
+  width: 765px !important;
+}
+
+.url-printable .description {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 14px !important;
+  margin-bottom: 16px !important;
+}
+
+.url-printable .address {
+  font-size: 14px !important;
+  line-height: 18px !important;
+  color: #000 !important;
+  margin-bottom: 0 !important;
+}
+
+.url-printable .address a {
+  color: inherit !important;
+}
+
+blockquote.quote {
+  page-break-inside: avoid !important;
+}
+
+.stock-snapshot header {
+  display: block !important;
+}
+table.stock-fundamentals {
+  page-break-inside: avoid !important;
+}

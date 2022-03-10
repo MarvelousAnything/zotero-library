@@ -1,0 +1,283 @@
+forest ecology
+
+Managed Forest Carbon Estimates for the US Greenhouse Gas Inventory, 1990 –2008
+
+Linda S. Heath, James E. Smith, Kenneth E. Skog, David J. Nowak, and Christopher W. Woodall
+
+ABSTRACT
+
+Land-use change and forestry is the major category featuring carbon sequestration in the annual US Greenhouse Gas Inventory, required by the United Nations Framework Convention on Climate Change. We describe the National Greenhouse Gas Inventory and present the sources of our data and methods and the most recent results. Forests and forest products in the United States sequestered more than Ϫ790 million metric tn of CO2 equivalent in 2008, on 253 million ha of forestland. This estimate represents a net increase in carbon, including effects of growth, harvests, or other disturbances of forest ecosystems, as well as carbon stored in harvested wood products. Both area and carbon density of these forestlands have increased since 1990, the ﬁrst year estimates are required. Currently, 89% of net annual sequestration is in the forest ecosystem, and the balance is net carbon addition to harvested wood products.
+Keywords: carbon sequestration, forest biomass, forest carbon accounting
+
+T he US government annually prepares an inventory of greenhouse gas (GHG) emissions and sinks (e.g., US Environmental Protection Agency [EPA] 2010) to meet its commitments under the United Nations Framework Convention on Climate Change. This inventory, which begins with year 1990 by deﬁnition, includes all signiﬁcant sources and sinks of GHGs, including energy, industrial processes, waste, solvent use, agriculture (livestock), and land-use change and forestry. Ofﬁcial guidance for conducting these national inventories has been evolving under the Intergovernmental Panel on Climate Change (IPCC), National Greenhouse Gas Inventory Program (IPCC 1997, 2000, 2006, Penman et al. 2003). IPCC (2006)
+
+guidance states that all managed lands should be considered in the inventory, in broad categories such as forestland, cropland, grassland, wetland, settlements, and others. These categories are sometimes collectively referred to as AFOLU (agriculture, forest, and other land use).
+This study focuses on the forest sector (forest ecosystems and products), including urban trees. We present an overview of the GHG inventory approach, discuss our data and methods, and present the estimates included in the most recent US EPA inventory (US EPA 2010). There are additional reasons to identify land as afforestation or reforestation for reporting (Lund 2006), as well as other land-use change; however, for this inventory and study we report on forest-
+
+land as one category without regard to prior land use. We expect forests on average in the near term to continue to exhibit the largest net sink of all land uses in the United States (US EPA 2010).
+Methods
+Data and methodologies for national GHG inventories follow reporting recommendations of the IPCC Good Practice Guidance for Land Use, Land-Use Change, and Forestry (Penman et al. 2003) and 2006 IPCC Guidelines for National Greenhouse Gas Inventories (IPCC 2006). In this study, we focus on carbon emitted as CO2; however, some non-CO2 GHGs are included, reported in terms of CO2 equivalents (CO2eq). The various GHGs have different global warming potentials, but CO2eq provides a standard of measurement against which the impacts of the different gases can be evaluated. We include the non-CO2 emissions of methane from landﬁlls and methane and nitrous oxide from ﬁres. Although non-CO2 GHGs may be emitted from forest soils, these are not included in our estimates.
+Background The national GHG inventories are
+built on the principles of transparency, consistency, comparability, completeness, and accuracy (Penman et al. 2003). Good prac-
+
+Received March 19, 2010; accepted August 19, 2010.
+Linda S. Heath (lheath@fs.fed.us) is group leader, and James E. Smith (jsmith11@fs.fed.us) is research plant physiologist, US Forest Service, Northern Research Station, 271 Mast Road, Durham, NH 03824. Kenneth E. Skog (kskog@fs.fed.us) is project leader, US Forest Service, Forest Products Laboratory, 1 Gifford Pinchot Drive, Madison, WI 53726. David J. Nowak is project leader, US Forest Service, Northern Research Station, 5 Moon Library, SUNY ESF, Syracuse, NY 13210. Christopher W. Woodall (cwoodall@fs.fed.us) is research forester, US Forest Service, Northern Research Station, 1992 Folwell Avenue, St. Paul, MN 55108. Linda is currently on detail with the Global Environment Facility, Washington, DC. The authors thank Elizabeth LaPoint, Northern Research Station FIA, for producing the ﬁgures.
+
+Journal of Forestry • April/May 2011
+
+167
+
+tice guidance is intended to help a country to produce inventories that are accurate in terms of neither overestimating nor underestimating as far as can be judged, and such that uncertainties are reduced as far as practicable and continue to be reduced as new information becomes available. Transparency means that the methodology is clearly explained such that users can replicate and assess the reported information. Consistency refers to the fact that the inventory follows the same methodology, assumptions, and similar data sets across time so that changes are real, not just change due to changes in methodology. Comparability allows inventories from different countries to be compared with interpretation of the comparisons focused on true differences and not methodological differences. The principle of completeness is met if all sources and sinks are included and the entire land area is considered.
+The general approach for estimating sinks and emissions for many sectors is to obtain activity data and emission (removal) factors for a speciﬁc activity and multiply them together. Activity data, such as landuse change statistics or volume harvested, are a measure of a human activity that results in emissions or sequestration for a known time period. Emissions (or removal) factors are coefﬁcients that indicate the change in a GHG per unit of activity data. Factors are positive values for emissions to the atmosphere and negative for removals of GHGs from the atmosphere. Concisely,
+total change in a GHG for an activity
+ϭ activity data
+ϫ emissions (or removal) factor.
+An example is area of afforestation ϫ CO2 sequestered per area (because of the growing forest). Multiplying the activity data and factors gives the total change for the speciﬁed activity. The process includes reporting estimates and uncertainties, documenting quality assurance and quality control, and participating in proscribed rigorous reviews, which helps build credibility in a nation’s inventory. It allows for improvements as inventory analysts become more experienced, and better techniques or data can be sought or developed.
+Key category analysis is used in the GHG inventories to focus on the major carbon categories and pools that exhibit notable change. The analysis includes a preliminary
+
+consideration of deﬁning land-use categories and subcategories, focusing on those that are the most inﬂuential sources or sinks. “Sink” refers to the annual change in a carbon stock, not the carbon residing in the stock. Ecosystem pools such as biomass and soil are also deﬁned and considered for key changes. Using a key category approach guides the analysis to focus limited resources on the factors that affect emissions and sinks the most.
+Lands may, however, emit or sequester notable amounts of GHGs without being included in the inventory. The GHG inventory focuses on anthropogenic inﬂuences (i.e., human-caused inﬂuences) on GHGs. Because of the difﬁculty assessing humancaused changes from changes that would have occurred without human inﬂuence, IPCC guidance suggests that only lands directly under human inﬂuence be included in the inventory, and deﬁne these as “managed lands.” The speciﬁc deﬁnition used for this study is given in the Methods section. Note that the lands designated as managed for the purposes of the GHG inventories may differ from the typical use of the phrase “managed lands” because managed lands here are used as a proxy so that countries count only anthropogenic inﬂuences on GHG changes.
+Estimating Forestland Carbon Using Forest Inventory and Analysis Surveys
+Carbon stocks are estimated based on forest survey data, and the change is calculated by subtracting consecutive surveys. The US Forest Service Forest Inventory and Analysis (FIA) conducts forest surveys that produce the ofﬁcial forest statistics of the United States (US Forest Service 2009a). The FIA survey is an efﬁcient framework for estimating forest carbon at large spatial scales, and the FIA data provide consistency with existing forest statistics, which contributes to the comparability and consistency of the GHG inventory. We adopt FIA’s deﬁnition of forestland, which generically is land with at least 10% cover (or equivalent stocking) by live trees of any size, at least 36.6 m wide and 0.4 ha in size, and includes land that formerly had such tree cover and will be naturally or artiﬁcially regenerated. Treecovered lands in urban areas and in agricultural production settings such as fruit orchards are not considered forestland (Smith et al. 2009), which is why we include trees in urban areas under the category of urban forest. FIA surveys all US forestlands, including
+
+US territories, although annualized measurements in interior Alaska have not begun.
+For the purposes of GHG inventories, land is considered managed if its condition has been inﬂuenced by direct human intervention.
+Direct intervention includes altering or maintaining the condition of the land to produce commercial or noncommercial products or services; to serve as transportation corridors or locations for buildings, landﬁlls, or other developed areas for commercial or noncommercial purposes; to extract resources or facilitate acquisition of resources; or to provide social functions for personal, community, or societal objectives. Managed land also includes legal protection of lands (e.g., wilderness, preserves, parks, etc.) for conservation purposes (i.e., meets societal objectives). (US EPA 2010, p. 7– 6)
+Unmanaged lands are largely considered inaccessible due to remoteness or are considered to have limited commercial value or both. In the United States, all forestland in the 48 conterminous states are considered to be managed because much of the area is accessible or because of the consideration of social beneﬁts and ﬁre protection. Coastal Alaskan forest carbon stock estimates are also included in this inventory. The deﬁnition of managed and unmanaged land is currently being revisited, for use in the US EPA GHG inventory to be published in the year 2011.
+The majority of the carbon data used here is available in the FIADB, which is freely available for download from the Internet (US Forest Service 2009b). Carbon estimation models incorporate coefﬁcients based on forest inventory data to estimate separate, nonoverlapping, carbon pools: live trees (Heath et al. 2003, Jenkins et al. 2003, Smith et al. 2003), understory vegetation (Birdsey 1996), standing dead trees, down deadwood, forest ﬂoor (Smith and Heath 2002), and soil organic carbon (Amichev and Galbraith 2004). See US EPA (2010) for a compilation of speciﬁc information on the deﬁnitions of individual pools and the carbon conversion factors. Further reﬁnements in data and carbon conversion factors are expected as the FIA annual inventories and sampling of down deadwood, forest ﬂoor, and soil are implemented in all states (US Forest Service 2009a).
+We use an approach similar to Woodbury et al. (2007a), interpolating between successive inventory-based estimates of carbon stocks (Smith et al. 2010). The estimates are developed in two basic steps. First, carbon density (metric tons per hectare) is
+
+168
+
+Journal of Forestry • April/May 2011
+
+determined at the level of the FIA inventory plots for each of the pools. Next, these plots are summed to series of carbon stocks for individual states, with net annual change in CO2eq/year as the difference between successive stocks divided by the interval of years, multiplying carbon by 3.67 to convert from carbon to CO2eq. Net annual carbon change as determined from this stockchange approach includes effects of growth, mortality, harvesting, and other disturbances, as well as any changes in total forestland. Area estimates of forestland are based on FIA data following the same method used to produce the annualized carbon stock and stock change estimates.
+Estimating Change in Carbon in Harvested Wood Products
+Estimates of the annual change in carbon in harvested wood products (HWP) and the net cumulative change over time are provided by the WOODCARBII model (Skog 2008), which uses methods suggested by IPCC guidance (IPCC 2006). Annual estimates of change beginning in the year 1900 are calculated by tracking the additions to and removals from two general pools: products held in end uses (such as housing or furniture) or in landﬁlls. Emissions of methane from landﬁlls are produced by the model and are included in the estimates. The movement of carbon in or out of these pools is modeled according to allocation to various primary and end-use products, disposal of those products, and expected half-lives of products in use and in landﬁlls (Skog 2008, US EPA 2010). Input data include production data and import and export data. Because trade (imports and exports) affects carbon in HWP, an accounting approach must be chosen for reporting: production, stock change, or atmospheric ﬂow (IPCC 2006). The United States uses production accounting in which carbon in exported wood is counted as if it remains in the country of origin, but imports are not included. Uncertainties are calculated following Skog et al. (2004) and IPCC guidance.
+WOODCARBII does not estimate wood used for energy. US EPA (2010) calculated these estimates using a different approach, based on other survey data. This is because biomass burned for energy is reported in the energy sector instead of the land-use and forestry sectors. We conducted a preliminary analysis of wood burned for energy based on methods in Smith et al. (2006) and harvest estimates and found
+
+them to be similar to the estimates reported by US EPA (2010). Similar to ﬁre emissions, emissions from wood burned for energy would be double-counted if they were subtracted from the net forest sequestration estimates. We report them here for discussion.
+Urban Forests In the national GHG inventory, urban
+tree carbon estimates are reported in the settlements category (US EPA 2010). Urban forests are trees on areas deﬁned by the US Census as urban lands (US Census Bureau 2003). Nowak and Crane (2002) published methodology and estimates for urban trees, and their approach was applied in 14 cities. The urban area estimates were taken from Nowak and Walton (2005), based on tree cover as determined from the 1992 National Land Cover Dataset (Homer et al. 2004, Multi-Resolution Land Characteristics Consortium 2010). Average annual sequestration rates per unit of tree area were calculated for each city if data were available (US EPA 2010), and multiplied for the national total. Currently, we estimate that between forestland and urban areas considered here, we double-count a small percentage of the forest/tree carbon changes in these areas. Some trees harvested from urban areas may be included in the carbon in HWP, but HWP from urban areas are not explicitly counted.
+Fire Emissions GHG emissions from ﬁre are estimated
+for each year using area burned by wildland ﬁre (National Interagency Fire Center [NIFC] 2010), multiplied by the fraction of wildﬁre area burned estimated to be forestland. Our methodology is similar to that used in US EPA (2010) inventory; however, we do not extrapolate area burned and we use more recent area burned estimates, so our emissions differ. Forest area burned is multiplied by an average carbon stock estimate based on FIA data, assuming a default of 45% of the stock in aboveground carbon pools are burned (US EPA 2010). To determine the emissions of non-CO2 GHGs, we apply IPCC default factors that relate GHG emissions to carbon mass burned. Prescribed ﬁre areas (NIFC 2010) are multiplied by average carbon stocks in forest ﬂoor and down deadwood, assuming 45% of these pools are burned (US EPA 2010). Emerging data sets and approaches (e.g., Wiedinmyer and Neff 2007) will improve these estimates in the future, but this approach is targeted at for-
+
+ests and is consistent across the required time frame.
+Results and Discussion
+We present stocks in terms of carbon, reported as positive values. Emissions to the atmosphere are given as a positive value; sequestration, a reduction of CO2 from the atmosphere and into the forest, is expressed as a negative value, indicating CO2 is taken out of the atmosphere. For consistency with the annual inventory and international reporting (IPCC 2006), changes are expressed in units of CO2eq/year.
+Approximately 33% (304 million ha) of the US land area is forested (Smith et al. 2009). The current GHG inventory includes 253 million ha of forestland in the conterminous 48 states that are considered managed for the purposes of the inventory. Our areas do not match the forestland areas in the study by Smith et al. (2009) because we analyze the data by measurement year and interpolate between years. Carbon stocks on an additional 6.2 million ha of forestland in southeast and south central Alaska, and 19.5 million ha in west Texas were included in this study; however, carbon change for these areas is not included because only one survey is available. Estimates for total forest carbon stock by pool are summarized in Table 1. Forest stocks in all pools have increased over the time period to 47.9 million metric tons (also known as megatonnes [Mt]) of carbon, but this is partly caused by increasing forestland area and partly caused by increasing carbon density (Smith and Heath 2010). Soil organic carbon is the largest pool, followed closely by aboveground biomass carbon.
+Table 2 displays the net annual changes in forest carbon stocks, calculated for GHG inventory use. Changes in carbon stocks in US forests and harvested wood are estimated to account for net sequestration of Ϫ791.9 Mt of CO2eq in 2008. Carbon stocks in both forest ecosystems and in the pool of carbon in harvested wood increased every year over the entire time period of 1990 – 2008. The net average changes of carbon into forests over this period (including estimates for years not shown) were Ϫ577 and Ϫ111 Mt of CO2eq/year for ecosystems and harvested wood, respectively. The proportion of total net change that is associated with HWP is about 11% in 2008; this is about 40% lower than the proportion associated with HWP in 1990, partly because of recent decreases in harvesting and increases in
+
+Journal of Forestry • April/May 2011
+
+169
+
+Table 1. Forest carbon stock (million metric tons of carbon) by pool, including harvested wood products, at beginning of listed year, and forestland area.
+
+Stock component
+Forest Aboveground biomass Belowground biomass Deadwood Forest ﬂoor Soil organic carbon
+Harvested wood Products in use Landﬁlled wood
+Total stock Forest area (million ha)
+
+1990
+42,540 15,027 2,986 2,949 4,755 16,823 1,859 1,231
+628 44,399
+268.0
+
+1994
+43,177 15,443 3,068 2,982 4,803 16,882 1,996 1,295
+701 45,172
+270.6
+
+Million metric tons of carbon
+
+1998
+
+2002
+
+43,763 15,856 3,150 3,015 4,831 16,911 2,124 1,355
+769 45,887
+272.9
+
+44,207 16,209 3,221 3,035 4,837 16,905 2,244 1,404
+840 46,450
+274.7
+
+Table 2. Net forest change by component (million metric tons of CO2eq/yr), including urban trees.
+
+Component
+
+1990
+
+1994
+
+Stock change (Million metric tons of CO2eq/yr)
+
+1998
+
+2002
+
+Forest Aboveground Biomass Belowground Biomass Deadwood Forest ﬂoor Soil organic carbon
+Harvested wood Wood products Landﬁlled wood
+Total net annual change Forest area (million ha) Urban tree change
+
+Ϫ598.1 Ϫ377.7
+Ϫ74.5
+Ϫ29.4 Ϫ46.5 Ϫ70.0 Ϫ131.8 Ϫ64.8 Ϫ67.0 Ϫ729.8 242.3 Ϫ57.1
+
+Ϫ568.9 Ϫ392.9
+Ϫ78.0
+Ϫ30.6 Ϫ34.7 Ϫ32.7 Ϫ122.5 Ϫ58.4 Ϫ64.1 Ϫ691.4 245.0 Ϫ65.2
+
+Ϫ408.6 Ϫ327.5
+Ϫ65.2
+Ϫ22.3 Ϫ2.2 Ϫ8.6 Ϫ114.1 Ϫ49.0 Ϫ65.0 Ϫ522.7 247.2 Ϫ73.4
+
+Ϫ639.2 Ϫ379.3
+Ϫ75.3
+Ϫ20.5 Ϫ46.9 Ϫ117.2 Ϫ98.2 Ϫ35.1 Ϫ63.1 Ϫ737.4 249.0 Ϫ81.6
+
+A negative value indicates sequestration, or removal, of CO2 from the atmosphere into the forest; a positive value indicates emissions.
+
+2005
+44,762 16,529 3,284 3,053 4,880 17,016 2,325 1,436
+890 47,087
+276.8
+2005
+Ϫ701.2 Ϫ397.2
+Ϫ78.8
+Ϫ23.4 Ϫ55.9 Ϫ145.9 Ϫ105.4 Ϫ45.4
+59.9 806.6 250.4 Ϫ87.8
+
+2008
+45,337 16,854 3,348 3,073 4,925 17,136 2,412 1,471
+941 47,748
+279.0
+2008
+Ϫ703.9 Ϫ397.2
+Ϫ78.8
+Ϫ26.2 Ϫ55.9 Ϫ145.9 Ϫ88.0 Ϫ24.4 Ϫ63.6 Ϫ791.9 253.4 Ϫ93.9
+
+imported wood, and because of the increase in forest ecosystem carbon sequestration.
+An uncertainty analysis that considered sampling, measurement, and modeling error of the 2008 ﬂux estimate for forest carbon stocks places the reported mean value of Ϫ791.1 with a 95% conﬁdence interval of Ϫ651.2 and Ϫ934.7 Mt of CO2eq (Ϯ18%). This includes a 95% conﬁdence interval of Ϫ566.8 to Ϫ845.5 (reported mean value of Ϫ703.9) Mt of CO2eq in forest ecosystems and Ϫ67.2 to Ϫ109.8 (reported mean value of Ϫ88.0) Mt of CO2eq for HWP. Quantities assigned as uncertainties for forest ecosystems were primarily focused on the plot-level inventory to carbon conversions. The relatively smaller range of uncertainty, in terms of percentage, for the total relative to the two separate parts is because the total is based on summing the two independent uncertain parts. Uncertainty analysis of the 2008 change estimate for urban forests (any carbon in HWP from urban forests would be included in the HWP pool)
+
+places the 95% conﬁdence interval at Ϫ22 to ϩ19% of the mean.
+Although soil carbon stocks are greater than live vegetation carbon stocks, live biomass, especially aboveground, has the greatest effect on total carbon change (Table 2). Figure 1 shows the mean carbon in aboveground forest biomass per area by county (metric ton per hectare). The forests of Paciﬁc Coast states and of the Appalachian Mountains into southern New England feature the greatest aboveground biomass carbon density. Lower amounts are found in southern Rocky Mountain states; northern Minnesota; northern Florida; and southern Mississippi, Alabama, and Georgia. The general magnitude and spatial location of change in total forest carbon pools for GHG inventory use by county is shown in Figure 2. These values are inﬂuenced by both changes in forestland area and changes in carbon per area, i.e., land-use change, growth, harvesting, and other disturbances affect the results. A majority of counties have
+
+modest sequestration with the remaining counties having minor emissions. The counties with the greatest sequestration are the Paciﬁc Coast states, with areas of greater emissions scattered throughout the United States. Some areas of emissions appear because of development and decreasing forest area such as in central North Carolina. In northern Idaho and northern Arizona the cause of emissions is unclear and may be related more to a changing survey design. These net forest changes are probably not statistically signiﬁcant at the county level but are shown to convey the spatial pattern in the data.
+Disturbances from forest ﬁres and pest outbreaks are implicitly included in the net changes. For instance, an inventory conducted after ﬁre samples only remaining trees. The change between inventories thus accounts for the carbon changes due to ﬁres; however, it may not be possible to attribute the changes to individual disturbances. Therefore, estimates of net annual changes
+
+170
+
+Journal of Forestry • April/May 2011
+
+Figure 1. Mean aboveground biomass carbon stock (metric tons of carbon per hectare) on forestland within each county.
+
+ically, if ﬁres did not occur, forests would sequester about 920 Mt of CO2eq/year.
+Trees in urban forests sequester about 14% of the amount of sequestration by forests. The importance of tree biomass carbon in urban areas is expected to increase over the coming decades, because urban area is expected to increase notably (Nowak and Walton 2005). Currently, urban tree carbon estimates are derived using separate data and methods from the forest estimates. As previously noted, we believe there is some doublecounting of areas between these two categories. When we become able to report forest areas explicitly becoming urban, we will also be able to attribute emissions from forestland becoming urban (settlements). So although urban tree carbon biomass may increase as total urban area increases, urban tree emissions may also increase on a per area basis, which collectively could reduce the total amount of urban tree sequestration.
+As reported in the energy sector of the US EPA (2010) inventory, wood burned for energy emits on average 205 Mt of CO2eq/ year across the last 5 years of the period. Theoretically, if this wood were left in the forest to grow, and the additional density did not slow growth, and we assume no additional ﬁres, then annually over the past 5 years forests would have sequestered at least an additional 205 Mt of CO2eq/year. However, if additional fossil fuel is used in place of the wood burned for energy, fossil fuel emissions would rise by about 205 Mt of CO2eq/year (depending on the conversion factors assumed resulting in no net change to overall US emissions). This shows the importance of examining tradeoffs between sectors when considering effects inside sectors.
+
+Figure 2. Net change (million metric tons of CO2eq per year) for all carbon pools on forestland by county. Negative values are sequestration into the forest; positive values are
+transfers out of the forest.
+
+in carbon stocks for US forestland already
+account for CO2 emissions from forest ﬁres occurring in the lower 48 states. However,
+non-CO2 GHG emissions from methane and nitrous oxide must be separately ac-
+counted for. Table 3 explicitly presents esti-
+mates of CO2 and non-CO2 emissions from forest wildﬁres and prescribed ﬁres. Area
+burned and corresponding emissions are
+
+highly variable, and we have not extrapo-
+lated the area burned data so our estimates
+differ from the US EPA (2010) inventory.
+Non-CO2 emissions are less than 10% of CO2 emissions. Average emissions over the last 5 years are given in Figure 3. Fires and
+prescribed ﬁres emitted about 240 Mt of
+CO2eq/year over that period, of which about 10% were non-CO2 gases. Hypothet-
+
+Future Improvements
+The focus of ongoing work to improve the estimates is on (1) inclusion of data from FIA measurements on standing dead trees, down deadwood (Woodall et al. 2008), forest ﬂoor, and soil organic carbon (US Forest Service 2009a) and integrating those data into the GHG inventory process; (2) effect of past land-use change and explicit recognition of the effects of current land-use change; (3) ensuring all forestland was accounted for over the period; (4) adoption and use of new and improving national remote sensing data sets into the methodology to explicitly account for disturbances; and (5) ﬁnalizing designs and formally adopting
+
+Journal of Forestry • April/May 2011
+
+171
+
+Table 3. Emissions (million metric tons of CO2eq per year) from forest wildﬁre and prescribed ﬁre by GHG, and area burned (1000 ha).
+
+Component
+Forest wildﬁre—CO2 Forest wildﬁre—CH4 and N2O Areab (1,000 ha) Prescribed ﬁre—CO2 Prescribed ﬁre—CH4 and N2O Areab (1,000 ha)
+a No data. b Source: NIFC (2010).
+
+1990
+39 4 277 —a — —
+
+1994
+104 12 746 — — —
+
+Million metric tons of CO2eq/yr
+
+1998
+
+2002
+
+37
+
+156
+
+4
+
+18
+
+268
+
+1,119
+
+9
+
+28
+
+2
+
+6
+
+355
+
+1,087
+
+2005
+121 14 868 23
+5 935
+
+2008
+143 16 931 20
+2 783
+
+Figure 3. Average change (million metric tons of CO2eq per year) over years 2004 –2008 net sequestration, or sequestered and then emitted (i.e., ﬁre, prescribed ﬁre, and wood burned for energy) by category. A negative value indicates sequestration, which is a removal of carbon from the atmosphere, whereas a positive value indicates an emission into the atmosphere. CO2 emissions have already been accounted for in the forest estimate.
+
+a system within the FIA program to provide forest carbon estimates across scales. Multiple years worth of nontree carbon pool data have been collected with full incorporation into national databases still to be completed and documented. Research to improve tree cover estimates of the United States is reaching completion (Nowak and Greenﬁeld 2010), and these will be used to improve estimates of urban tree carbon. The state of Hawaii, the US territories, and a large portion of Alaska are not currently included in the GHG inventory. The inclusion of forest inventory data from the Paciﬁc Islands and boreal limits of forest ecosystems will introduce new challenges to forest carbon estimation techniques.
+In addition, other forested areas such as
+
+agroforestry systems are also not currently accounted for, because those systems are not inventoried in a form compatible with the present inventory-to-carbon process (Perry et al. 2009). Progress is being made toward incorporating effects of land-use change (Woodbury et al. 2006, Woodbury et al. 2007b), but integrating new remote sensing-based national data sets on land change explicitly into this process will be a major improvement in terms of providing needed information by land change categories, although the overall improvement in accuracy and precision will need further work. Annual, spatially explicit data sets for areas burned by ﬁres are becoming available nationally; this information will further reﬁne estimates of ﬁre-related emissions. The FIA
+
+program was established by law to provide information on the extent of forestland; volume, growth, and removals of the forest resource; and the health and condition of the forest. A well-documented and peer-reviewed system designed and implemented to explicitly provide carbon-related information from the FIA program consistent with their existing data system would be a major step forward to meet user needs for landmanagement information across the range of ecological and political spatial scales.
+Literature Cited
+AMICHEV, B.Y., AND J.M. GALBRAITH. 2004. A revised methodology for estimation of forest soil carbon from spatial soils and forest inventory data sets. Environ. Manag. 33(Suppl 1): S74 –S86.
+BIRDSEY, R.A. 1996. Carbon storage for major forest types and regions in the coterminous United States. P. 1–25 and App. 2– 4 in Forests and global change. Forest management opportunities for mitigating carbon emissions, Vol. 2, Sampson, N., and D. Hair (eds.). American Forests, Washington, DC.
+HEATH, L.S., J.E. SMITH, AND R.A. BIRDSEY. 2003. Carbon trends in U.S. forest lands: A context for the role of soils in forest carbon sequestration. P. 35– 45 in The potential of US forest soils to sequester carbon and mitigate the greenhouse effect, Kimble, J.M., L.S. Heath, R.A. Birdsey, and R. Lal (eds.). CRC Press, New York.
+HOMER, C., C. HUANG, L. YANG, B. WYLIE, AND M. COAN. 2004. Development of a 2001 National Landcover Database for the United States. Photogramm. Eng. Rem. Sens. 70(7): 829 – 840, 2004.
+INTERGOVERNMENTAL PANEL ON CLIMATE CHANGE (IPCC). 1997. Revised 1996 IPCC guidelines for national greenhouse gas inventories, Vols. 1–3. Houghton, J.T, L.G. Meira Filho, B. Lim, et al. (eds.). IPCC, OECD, and EIA. Available online at www.ipcc-nggip. iges.or.jp/public/gl/invs1.html; last accessed Jan. 24, 2010.
+INTERGOVERNMENTAL PANEL ON CLIMATE CHANGE (IPCC). 2000. Good practice guidance and uncertainty management in national green-
+
+172
+
+Journal of Forestry • April/May 2011
+
+house gas inventories. Institute for Global Environmental Strategies for the IPCC, Hayama, Japan. Available online at www.ipcc-nggip. iges.or.jp/public/gp/english/; last accessed Oct. 15, 2010. INTERGOVERNMENTAL PANEL ON CLIMATE CHANGE (IPCC). 2006. 2006 IPCC guidelines for National Greenhouse Gas Inventories. Agriculture, forestry and other land use (AFOLU), Vol. 4, Eggleston, S., L. Buendia, K. Miwa, T. Ngara, and K. Tanabe (eds.). Prepared by the National Greenhouse Gas Inventories Programme, Institute for Global Environmental Strategies, Hayama, Japan. Available online at www.ipcc-nggip.iges.or.jp/public/2006gl/vol4. html; last accessed Jan. 10, 2010. JENKINS, J.C., D.C. CHOJNACKY, L.S. HEATH, AND R.A. BIRDSEY. 2003. National-scale biomass estimators for United States tree species. For. Sci. 49(1):12–35. LUND, H.G. 2006. Guide for classifying lands for greenhouse gas inventories. J. For. 104(4): 211–216. MULTI-RESOLUTION LAND CHARACTERISTICS CONSORTIUM (MLRC). 2010. National Land Cover Database. Available online at www.mrlc. gov/; last accessed Feb. 15, 2010. NATIONAL INTERAGENCY FIRE CENTER (NIFC). 2010. Fire information—Wildland ﬁre statistics web page. Available online at www.nifc.gov/ ﬁre_info/ﬁre_stats.htm; last accessed Feb. 15, 2010. NOWAK, D.J., AND D.E. CRANE. 2002. Carbon storage and sequestration by urban trees in the United States. Environ. Pollut. 116(3):381–389. NOWAK, D.J., AND J.T. WALTON. 2005. Projected urban growth (2000 –2050) and its estimated impact on the US forest resource. J. For. 103:383–389. NOWAK, D.J., AND E.J. GREENFIELD. 2010. Evaluating the National Land Cover Database tree canopy and impervious cover estimates across the conterminous United States: A comparison with photo-interpreted estimates. Environ. Manag. 46:378 –390. PENMAN, J., M. GYTARSKY, T. HIRAISHI, T. KRUG, D. KRUGER, R. PIPATTI, L. BUENDIA, K. MIWA,
+
+T. NGARA, K. TANABA, AND F. WAGNER. (EDS.). 2003. Good practice guidance for land use, land use change, and forestry. Institute for Global Environmental Strategies for the Intergovernmental Panel on Climate Change, Hayama, Japan. 502 p. PERRY, C.H., C.W. WOODALL, G.C. LIKNES, AND M.M. SCHOENEBERGER. 2009. Filling the gap: Improving estimates of working tree resources in agricultural landscapes. Agroforest. Syst. 75: 91–101. SKOG, K.E. 2008. Sequestration of carbon in harvested wood products for the United States. For. Prod. J. 58:56 –72. SKOG, K.E., K. PINGOUD, AND J.E. SMITH. 2004. A method countries can use to estimate changes in carbon stored in harvested wood products and the uncertainty of such estimates. Environ. Manag. 33(Suppl 1):S65–S73. SMITH, J.E., AND L.S. HEATH. 2002. A model of forest ﬂoor carbon mass for United States forest types. US For. Serv. NE-RP-722, Newtown Square, PA. 37 p. SMITH, J.E., L.S. HEATH, AND J.C. JENKINS. 2003. Forest volume-to-biomass models and estimates of mass for live and standing dead trees of U.S. forests. US For. Serv. NE-GTR-298, Newtown Square, PA. 57 p. SMITH, J.E., L.S. HEATH, K.E. SKOG, AND R.A. BIRDSEY. 2006. Methods for calculating forest ecosystem and harvested carbon, with standard estimates for forest types of the United States. US For. Serv. NE-GTR-343, Newtown Square, PA. 216 p. SMITH, W.B. (TECH. COORD.), P.D. MILES (DATA COORD.), C.H. PERRY (MAP COORD.), AND S.A. PUGH (RPA DATA WIZ COORD.). 2009. Forest resources of the United States, 2007. US For. Serv. WO-GTR-78, Washington, DC. 336 p. SMITH, J.E., AND L.S. HEATH. 2010. Exploring the assumed invariance of implied emission factors for forest biomass: A case study. Environ. Sci. Policy 13:55– 62. SMITH, J.E., L.S. HEATH, AND M.C. NICHOLS. 2010. US forest carbon calculation tool: Forestland carbon stocks and net annual stock change (revised for FIADB4.0). US For. Serv. NRS-
+
+GTR-13, Newtown Square, PA. 34 p. (DVD-ROM) US CENSUS BUREAU. 2003. Census 2000 urban and rural classiﬁcation. Available online at www.Census.gov/geo/www/ua/ua_2k.html; last accessed Nov. 12, 2005. US ENVIRONMENTAL PROTECTION AGENCY (EPA). 2010. Inventory of U.S. greenhouse gas emissions and sinks: 1990 –2008. EPA 430-R10-006. US EPA, Ofﬁce of Atmospheric Programs, Washington, DC. Available online at epa.gov/climatechange/emissions/usinventory report.html; last accessed Jul. 7, 2010. US FOREST SERVICE. 2009a. Forest Inventory and Analysis national program: User information. Washington, DC. Available online at www. ﬁa.fs.fed.us/tools-data/docs/default.asp; last accessed Jan. 10, 2010. US FOREST SERVICE. 2009b. Forest Inventory and Analysis national program: Data and tools. Washington, DC. Available online at www. ﬁa.fs.fed.us/tools-data/default.asp; last accessed Jan. 10, 2010. WIEDINMYER, C., AND J.C. NEFF. 2007. Estimates of CO2 from ﬁres in the United States: Implications for carbon management. Carbon Balance Manag. 2:10. doi: 10.1186/17500680-2-10. WOODALL, C.W., L.S. HEATH, AND J.E. SMITH. 2008. National inventories of down dead woody material forest carbon stocks in the United States: Challenges and opportunities. For. Ecol. Manag. 256:221–228. WOODBURY, P.B., L.S. HEATH, AND J.E. SMITH. 2006. Land use change effects on forest carbon cycling throughout the southern United States. J. Environ. Qual. 35:1348 –1363. WOODBURY, P.B., J.E. SMITH, AND L.S. HEATH. 2007a. Carbon sequestration in the U.S. forest sector from 1990 to 2010. For. Ecol. Manag. 241:14 –27. WOODBURY, P.B., L.S. HEATH, AND J.E. SMITH. 2007b. Effects of land use change on soil carbon cycling in the conterminous USA from 1900 to 2050. Global Biogeochem. Cycles 21: GB3006, doi: 10.1029/2007GB002950.
+
+Journal of Forestry • April/May 2011
+
+173
+

@@ -1,0 +1,822 @@
+Nonlinear Analysic. Theory, Methods & Applrcariom. Vol. 6. No. 5, pp. 467-501. 1982. Printed in Great Britain.
+
+0362-546XQ3U050487-15 SO3.00/0 @ 1982 Pergamon Press Ltd.
+
+LOTKA-VOLTERRA EQUATIONS: DECOMPOSITION, STABILITY, AND STRUCTURE* PART II: NONEQUILIBRIUM ANALYSIS
+
+M. IKEDA
+Kobe University, Kobe 657, Japan
+and
+D. D. SILJAK?
+University of Santa Clara, Santa Clara, CA 95053, U.S.A.
+(Receiued 21 October 1981)
+Key words and phrases: Nonlinear time-varying models, uncertain interactions, ultimate boundedness. persistent sets, vector Liapunov functions.
+
+SUMMARY
+IN THIS companion paper, we continue the consideration of Lotka-Volterra equations in the decomposition-aggregation framework of vector Liapunov functions, which was developed in [l]. The framework is presently extended to include equations with nonlinear time-varying coefficients, which can be used to consider ecosystem models where no equilibrium exists, or models which exhibit no such states due to permanent bounded variations of system parameters. The behavior of such models is analyzed via the concept of ultimate boundedness which produces a compact set of values in the species space. These values are reached by the populations in finite time, and once at those values, the populations remain in the set for all future times. Conditions are determined under which the set persists despite a wide range of uncertain nonlinear and structural perturbations of the community.
+
+1. INTRODUCTION
+As we enlarge the scope of model ecosystems to include a wider spectrum of phenomena characterizing the behavior of a large community of interacting species, we begin to realize the limiting aspects of equilibrium concepts in studying the community dynamics. It is quite common that the community is exposed to a myriad of disturbances of both external and internal origins, which have such magnitudes that an equilibrium, even if it exists, is never established. In such cases, it is more appropriate to attempt a nonequilibrium analysis which is aimed at estimating the ranges of variations of variables around certain nominal values, which are either determined empirically or are the results of a modeling process. In the context of interacting species, this means that we want to contain the effects of disturbances within a compact region in the species space and show that the population vector enters this region in finite time and once in the region, it stays there for all future times. In this way, a region of population values takes the role of the equilibrium and stability is replaced by a boundedness property with a special provision that the populations remain ultimately restricted to certain limiting values.
+
+l
+
+by the
+
+Correspond with this author.
+
+of Energy
+
+487
+
+488
+
+M. IKEDA AND D. D. &_JAK
+
+In contrast to stochastic stability analysis of interacting populations [2-4], the deterministic study via the ultimate boundedness concept as introduced in [5], aims at guaranteeing certain behavior of multispecies communities in the presence of modeling uncertainties. Furthermore, no detailed stochastic or deterministic descriptions of uncertain elements are necessary save that they are bounded. Of special significance in this analysis has been the fact that the regions of ultimate boundedness can be shown to remain invariant under a wide range of nonlinearities and structural perturbations in the interactions among species as well as bounded environmental fluctuations. In this way, the analysis produces the regions of ultimate boundedness, which persist under uncertain changes in the parameters and conditions of the community. The existence of such persistent sets can be used for a qualitative characterization of the community resilience as introduced in [6] and discussed in [7-91, while the size of the sets can serve as a quantitative measure of that property in the context of ecosystem dynamics [4].
+The major objective of this work is to analyze the ultimate boundedness property of the interacting species described by the Lotka-Volterra equations with nonlinear time-varying coefficients. The essential ingredient in the model under consideration, is the uncertainty of the interactions among the individual species or subcommunities. By applying the concept of vector Liapunov functions, we will derive conditions for existence of the regions of ultimate boundedness which are invariant to unpredictable changes in the interconnection structure.
+The plan of this paper is as follows: In section 2, we introduce a type of ultimate boundednesss which is appropriate in the context of Lotka-Volterra models with nonlinear time-varying coefficients. Treating the multispecies community as a whole, standard liapunov theory is used to estimate regions of ultimate boundedness. In section 3, the Lotka-Volterra equations are decomposed into subsets of equations describing various interconnected subcommunities. The concept of vector Liapunov functions is extended to establish ultimate boundedness of the entire system via the same property of the individual subsystems and the bounds on their interactions. Section 4 is devoted to the overlapping decompositions which can be applied to interconnected subsystems which share parts of the overall system. Such decompositions are useful when we want either to capture special structural properties of a given ecosystem (e.g. inclusion of a predator in two subsystems corresponding to two distinct preys), or to reduce the conservativeness inherent in the Liapunov-type analysis. Finally, in section 5, we address the problem of persistant sets of population values, which remain invariant under a wide range of structural perturbations. Conditions are derived under which a region of ultimate boundedness persists despite changing structure of the interactions among individual species or subcommunities of the overall system.
+
+2. ULTIMATE
+
+BOUNDEDNESS
+
+Let us consider a nonlinear time-varying version of the classical Lotka-Volterra equations,
+
+X;= Xif,(f, Xi, X2,. . , XJ, i = 1,2, . . . , PI
+
+(2.1)
+
+where xi(t) E R is the ith state of the system, which represents the population size of the ith species in the community (2.1). Equation (2.1) can be rewritten in the vector form
+
+x = A-f@,x),
+
+(2.2)
+
+where x(t) E R” is the population state vector and X = diag {xi, x2, . . . , x,}. We assume that the function f: R x R”+ R” is sufficiently smooth so that the equation (2.2) has a unique solution x(t; to, x0) for all initial conditions (to, x0) E R x R”. Due to the special structure of
+
+Lotka-Volterra equations: decomposition, stability, and structure
+
+489
+
+equation (2.2), the solutions that start in the positive orthant R: of the state space R” either stay there for all future time or diverge to infinity in finite time.
+For our subsequent analysis we need to further rewrite (2.2) as
+
+X!= X[a(t, x) + A(& x)x],
+
+(2.3)
+
+wherea:R x R”-,R”andA:R
+
+X R”-+R”““’ IS an n x n functional matrix A(t, x) = [aij(t,
+
+x)]. If the function f(t, X) of (2.2) is continuously differentiable with respect to x, then a(t,
+
+x) and A(& x) can always be chosen as
+
+a(&~) =f(& O), A(t,x) = &, P)&
+
+(2.4)
+
+where 1(t, x) =[afi(t, x)laxj] is the Jacobian matrix of f(t, x), but this choice is by no means
+unique. We adopt the following definition of ultimate boundedness, which is a modification
+of a definition proposed by &ljak and Weissenberger [lo]:
+
+Definition (2.5). The solutions x(t: to, x0) of the system (2.3) are said to be ultimately bounded
+
+with respect to the region R$ if there exist a compact region Q(Q CR=) and a finite time tl = tl(to, x0) such that for any (to, x0) ER x R: we have ~(t: to, XO>E 52 for all t 2 tl.
+
+To provide a condition for ultimate boundedness, we introduce an n x n symmetric matrix
+
+as
+
+B(t, X) = -f[A’(t, x) D + DA@, x)]
+
+(2.6)
+
+where D = diag {dl, d2, . . . , d,,} is a constant positive diagonal matrix, and prove the following:
+
+THEOREM (2.7). The solutions x(t; to, xg) of the system (2.3) are ultimately bounded with respect to the region R : if there exist a constant positive diagonal matrix D and a positive number E such that the matrix B(t, x) satisfies the inequality
+
+,l,[B(t, x)] 3 lf for all (t, x) E R X R1
+
+(2.8)
+
+and the vector a(t, x) is bounded from above. Proof, Let us consider a scalar function u: ii: --, 8, defined by
+
+(2.9)
+
+where d;‘s are positive numbers. Using u(x), we define the compact region Q(E) as
+
+Q(cu) = {x E ii:: u(x) G &}
+
+(2.10)
+
+and demonstrate that under the conditions of theorem (2.7) there exists a positive number asuch that Q(a) is the region of ultimate boundedness required by definition (2.5). Calculating c(x) with respect to (2.3) and employing the relation u(x) QZ’ dM/jxllr we get
+
+C(x) = -x’B(t, x)x + xTDa(t, x) =G- ~llxjl*+ xTDii (I, x) G -n-*d&‘~IJxI( [u(x) - .* dMlj-‘O]
+
+(2.11)
+
+490
+
+M. IKEDAAND D.D. SILJAK
+
+where & = maxid; and the function ci: R xR’~ --$ ii”+ is obtained from the elements a,(t, x) of the function a(t, x) as cSi(t,x) = max{O, ai(t, x)} at each (t, x) E R X RF, and
+
+0 = ($Z& R”IPa(t, x)ll.
+
+(2.12)
+
+Therefore, with Ly= n’d&%. &
+where E is an arbitrary positive number, and the relation u(x) G n4 d~l/xII, we get
+
+(2.13)
+
+G(x) G -n-l d$&xc for allx E Rl - Q(a).
+
+(2.14)
+
+This implies that Q(E) is a region of ultimate boundedness. The time tl can be computed as
+
+tl = to + n&E-‘cy-‘a-‘(n* dwjlxo)(- CY).
+
+(2.15)
+
+This proves theorem (2.7).
+For testing purposes, it is convenient to simplify the conditions of theorem (2.7). We assume that each diagonal element aii(t, x) of the matrix A(t, x) is negative for all(t, x) ER x R? , and define an n x n constant matrix A = (hii) as
+
+(2.16)
+
+Then, we recall [4] that the matrix A is said to be quasidominant diagonal if there exist positive numbers dl such that
+(2.17)
+
+and prove the following:
+
+COROLLARY(2.18). The solutions x(t; to, x0) of the system (2.3) are ultimately bounded with respect to the region R: if the matrix A is quasidominant diagonal and the vector a(t. x) is
+bounded from above. Proof. For any constant vector y E R”, we have
+
+where
+
+yTB(t, x)y 2 j& 3 h,(B) I(yIj’ for all (t, x) E R x R: B = -$(A% + DA),
+
+(2.19) (2.20)
+
+andP =(IYIL 1~~1,. . , ly, l)T. This implies that if B is positive definite, then B(t, x) satisfies inequality (2.8) of theorem (2.7) with e = A,(B). Since the negative quasidominant diagonal property of a assures the existence of D such that I? is positive definite, the conditions of corollary (2.18) imply those of theorem (2.7). This proves the corollary.
+
+Lotka-Volterra equations: decomposition, stability, and structure
+
+491
+
+Remark (2.21). From the proof of theorem (2.7), we conclude that if the vector a(t,x) is nonpositive for all (t, x) ER X R!i,then the origin x = 0 is asymptotically stable in the large with respect to the region R"+ , which is considered in [ 11. For such a(t, x), we have ri(t, x) E 0 and 6 = 0, which implies that the region &2(e) can be chosen arbitrarily small. Furthermore, we note from (2.13) and (2.15) that the size of the region Q( cu)and the time cl at which the solutions are inside the region, are dependent on the choice of the number E. The smaller E, the smaller Q(a), but the larger the time tl.
+The region C!(e) demonstrated in the proof of theorem (2.7), is always the corner of P+ which contains the origin x = 0. When equation (2.3) is used to describe model ecosystems, this property of Q(u) is overly restrictive. It is desirable to have the region situated away from the origin as in [4]. For this purpose, we introduce a constant ‘shifting’ vector R =(j,,&, . . . , R,JT E R”, , which is assumed without loss of generality to be represented as
+
+xq R=
+
+XP [ _1’
+
+(2.22)
+
+where 5 E R: ,0 =src n, and _i?q= 0. In the following analysis, the vector R takes the role of nonnegative equilibrium in standard, time-invariant Lotka-Volterra models, but only in the sense that the solutions of (2.3) come as close to A?as specified by the region So. In fact, if the system (2.3) has an equilibrium R situated in the nonnegative orthant excluding the origin, that is, f E ii: and _$# 0, then the choice L = P is effective for stability analysis of R in the context of equation (2.3).
+When a shifting vector R is chosen, we can rewrite (2.3) as
+
+.I! = X[A(r, x)(x - 2) + b(t, x)] where b(t, x) = a(?, x) + A(t, x).f, and consider a Volterra-like function [ll]
+
+(2.23)
+
+(2.24)
+
+where each di is a positive number. The region Q(e) is defined as
+
+&(cY)= {xE #I:: v(x) s cu)
+
+(2.25)
+
+where again CYis a positive number. To obtain cufor which Q(cu>is a region of ultimate boundedness, we assume inequality (2.8)
+and compute C(x) with respect to (2.23) to get
+
+where
+
+1;(x) = - (x-qTB(t,x)(x -a) +(x -.qrm(t,x)
+s -Elb - 4l(llx- XII- PO
+
+(2.26) (2.27)
+
+492
+
+M. IKEDAAND D. D. &.IAK
+
+and the function b: R xR: -+ 8”+ is obtained from elements b;(t, x) of the function b(t, X) as
+
+bi(t, X), i = 1,2, . . . , r
+
+b;(t,x) = [
+max(0,
+
+b;(t, x)}, i = r +
+
+1, r + 2,.
+
+. . ,n
+
+(2.28)
+
+where operation ‘max’ is taken at each (t, x) E R xR: . Inequality (2.26) implies that if 1(x- 111> E’t + E outside Q(o() for E > 0, then Q(u) is a region of ultimate boundedness. By inspection, we obtain the positive number
+
+Ly= (/x-IsI/u=P;-‘<+Edx)
+
+(2.29)
+
+and the time
+
+fl = to + I;-‘&+(X0) - o(]
+
+(2.30)
+
+where E is an arbitrary positive number. Here, we should note that the choice of the shifting vector f affects both the location and the size of the computed region Q(a).
+When the system (2.3) has nonzero equilibria I? Eii= , we are interested in stability of R rather than ultimate boundedness. To get a stability condition, we choose f as the shifting vector X and use the system description (2.23) and the Liapunov function V(X)of (2.24). Since ;(x) of (2.26) is negative for any x + X(=.X?)when 5‘= 0, we can conclude that the equilibrium 2 is asymptotically stable in the large with respect to RY if there exists a positive diagonal matrix D such that inequality (2.8) holds, and the first r elements of the vector b(t, x) are zero while its last (n - r) elements are nonpositive for all (t, x) ER X R’J .
+Using the same approach, but applying a different majorization scheme in (2.11) and taking the advantage of the positivity of solutions, we can derive another condition for ultimate boundedness. For this purpose, we define two n x n matrices A(t, x) =[riij(t, x)] and @t, x) as
+
+G(C x) 3
+
+i=j
+
+&j(t,x),
+
+=
+
+1max{O, aii(t, x)}, i #j
+
+B(t, x) = -l[AT(t, x)D + DA(t, x)]
+
+(2.31)
+
+where D is a positive diagonal matrix. We prove the following:
+THEOREM (2.32). The solutions x(t; tCl,xg) of the system (2.3) are ultimately bounded with respect to the region Ry if there exists a constant positive diagonal matrix D and a positive number E such that the matrix B(t, x) satisfies the inequality
+
+A,[B(t, x)] Z=E for all (t, x) E R x R1
+
+(2.33)
+
+and the vector a(t, x) is bounded from above. Proof We can trace the proof of theorem (2.7). Since the solutions of (2.3) stay in R1, we
+can use the inequality
+
+-xQ(t, x)x c -xQ(t, x)x
+
+(2.34)
+
+Lotka-Volterra equations: decomposition, stability, and structure
+
+493
+
+in majorizing ;(x) in (2.11) with finstead of 5. and conclude ultimate boundedness under the conditions stated above. This proves theorem (2.32).
+As in the case of theorem (2.7), if theorem (2.32) holds and a(t, x) is nonpositive, then the equilibrium f = 0 is asymptotically stable in the large with respect to the region R:.
+The condition (2.33) of theorem (2.32) does not imply and is not implied by the condition (2.8) of theorem (2.7). To see this, let us consider
+
+(2.35)
+
+The choice D = diag (1, l} implies B = diag (1, l}, and hence (2.33) holds with E = 1. However, (2.8) does not hold for any positive diagonal matrix D since B of (2.6) has a negative eigenvalue for any D. By contrast, for
+
+-1 -2 2
+
+A= 2 -1 -2,
+
+(2.36)
+
+[ -2
+
+2 -1 1
+
+the choice D = diag{l, 1, 1) implies (2.8) with E = 1, but there is no D such that (2.33) holds. A simple condition for the existence of a positive diagonal matrix D such that the matrix
+
+&t,x) satisfies (2.33) can be derived in a similar way as in the case of corollary (2.18). We
+
+assume that each diagonal element rIii(t,X) of matrix A(t, X) is negative, and define as n x n
+
+constant matrix A = (iij) as
+
+- ttx)$fxR1 lirii(f9x)l &” j =
+(f,xs)EuBxR'4G/0, x).
+
+(2.37)
+
+We state tne rouowmg:
+
+COROLLARY (2.38). The solutions x(t; to, x0) of the system (2.3) are ultimately bounded with respect to the region R”+if the matrix A is quasidominant diagonal and the vector a(t, x) is bounded from above.
+Corollary (2.38) is less restrictive than corollary (2.18). To see this we note that the offdiagonal elements of A are not greater than the corresponding elements of a. From this fact and the nonnegativity of the off-diagonal elements of a and A, we conclude that when A is quasidominant diagonal then so is A. Thus, the conditions of corollary (2.18) imply, but are not implied by those of corollary (2.38).
+3. DECOMPOSITION
+In this section, we consider the problem of establishing ultimate boundedness of nonlinear time-varying Lotka-Volterra-type systems via the decomposition principle and at the same time, we initiate the application of the idea of vector Liapunov function [4] in this context. After a Lotka-Volterra-type system is decomposed into a number of interconnected subsystems, the results of the preceding section are used to determine ultimate boundedness of each decoupled subsystem. A vector function is used to aggregate the properties of ultimate boundedness of the subsystems and establish ultimate boundedness of the overall system from those of the decoupled subsystems and the interconnection constraints.
+
+494
+
+M. IKEDAAND D. D. &LJAK
+
+Let us consider an interconnected system described by the equations
+
+ii = Xi[a;(t, x) + AXt, X)X,+ ,zrAi,(t, x)x,], i = 1,2, . . . , s
+
+(3.1)
+
+where Xi(t) E R”’ is the state vector Xi = (sir, Xi2,. . . ,xi,,)’ of the ith subsystem, and Xi =
+dia&r ,.GZ,. . . ,Xin,).In (3.1),
+a;: R x R” -_, R”‘, Ai: R x R” + R”‘X”l, and
+A+ R x R”+ R”‘““)
+
+are sufficiently smooth functions, and Ai(t, x) = [&(t, x)]. Equations (3.1) can be rewritten
+
+as
+
+i = X{u(t, x) + [A &, x) + A & x)1x}
+
+(3.2)
+
+where x = (XT,XT,. . . , xgT, X = diag{Xr, X2, . . . , Xs}, a = (uf, a$, . . . , u,T)‘, AD = diag{Ar, AZ, . . . , A,}, and AC = (Aij).
+With each subsystem in (3.1), we associate a scalar function Uidefined as
+
+n,
+
+ui(xi) = kzr dig,
+
+(3.3)
+
+where each dik is a positive number. Taking the time-derivative of Vi(Xi)with respect to the subsystem (3.1) and using the relation
+
+we get
+
+&llxijI c ui(xi) c n! diMICXil1,
+
+5
+
+Lji(Xi) = -XfBl{f,
+
+X)Xi + ,~lx~D,A,(t, X)Xj + X,ToiUi(f,
+
+X)
+
+1
+
+(3.4)
+
++ d;,'Oi(xC),ui(xi),
+
+i=l,2,...,s
+
+J
+
+where Di =diag{dir, dtT, . . . , din,}, dim = min dik, di,+,= max dik,
+
+k
+
+k
+
+Bi(t, X) = -1/2[AF(t, X)Di + DiAXt, x)]
+
+Edf, x) = Ln[Bi(t7 x)]
+rlij(f3 x) = llDiAi,(t,X>Il ei(t,X>= IlDiai(t, x) 1)
+
+(3.5)
+
+and di(t, x) is a nonnegative vector which is obtained by replacing the negative elements of
+
+Lotka-Volterra equations: decomposition. stability, and structure
+
+495
+
+ai(t,X) by zeros. We assume that a constant positive diagonal matrix Di is available such that Bi(t, x) is positive definite for all (t, X) ER X R? .
+The function Vi= ui(xi) aggregates the properties of behavior of the ith subsystem like a component of a vector Liapunov function in stability analysis [l]. We define the vector
+
+u(x) = [Ui(Xi), uz(x2),
+
+. . > UXXJI
+
+T
+
+and rewrite (3.4) as
+
+ti =Gv[r(t, X) + W(r, x)u]
+
+where e= diag{ui,. . , us},
+
+(3.6) (3.7)
+
+Z(f, x) = [d;~e,(t, x), d2f(f, x), . . . , ds-,‘eXt, x)] T
+
+(3.8)
+
+and lV(t, X) = [w&t, x)] as an s x s matrix defined by
+
+I-TZ,“Cf~$i(t, X) dl2?jii(fy
+Wij(f,X) = di;nl&h?ij(4t, 2
+
+i =j
+i +j.
+
+(3.9)
+
+It is obvious from the definition of u and Vithat if for the solutions x(t: to, x0) of the system (3.2), u[x(r; to, x0)] are ultimately bounded, then x(t; to, xg) are also ultimately bounded.
+To establish ultimate boundedness of u, we introduce the system
+
+j, = Y[z(t, x) + Vr, X)Yl
+
+(3.10)
+
+where y(r) E!R”,y = (yi, ~2,. . . , yJr and Y = diag{yi, ~2, . . . , y,}. Since the right side of (3.10) is a Kamke function, by using the comparison principle [4] we conclude that for
+
+XOER”,,
+
+implies
+
+u[x(ro; to,x0)16 Y(to)
+u[x(r; to, x0)] S y(r) for all r 2 f0.
+
+(3.11) (3.12)
+
+By this fact, we see that ultimate boundedness of the solutions y(r; to, x0) of the system (3.10) implies ultimate boundedness of u[x(r; to, x0)], and eventually ultimate boundedness of the solutions x(t; to, x0) of the system (3.2). A sufficient condition for y(r; to, x0) to be
+ultimately bounded is obtained by recognizing the similarity of the system (3.10) and the
+system (2.3), and using either theorem (2.7) or theorem (2.32). Thus, we introduce an s x s
+matrix
+
+C(r, x) = -1/2[IV(r, x)D + DW(r, x)]
+
+(3.13)
+
+where D is a positive diagonal matrix, and arrive at:
+
+THEOREM (3.14). The solutions x(t; ~O,XOo) f the system (3.2) are ultimately bounded with respect to the region R”+ if there exist a constant positive diagonal matrix D and a positive number 5 such that the matrix C(t, x) satisfies the inequality
+
+A,[C(t, x)] 2 8 for all (t, x) E R x R1
+
+(3.15)
+
+and if the vector r(t, x) is bounded. The conditions of theorem (3.14) imply, but are not implied by those of theorem (2.7),
+which means that the decomposition-aggregation approach promoted by theorem (3.14) is
+
+496
+
+M. IKEDAAND D. D. &LJAK
+
+more restrictive than the direct approach of theorem (2.7). Therefore, when using theorem (3.14) the added conservativeness should be outweighed by the simplicity of testing the conditions of theorem (3.14) for systems of large dimensions.
+We note here that theorem (3.14) is valid also when M’(t,X) is defined by using &t, x) instead of &(t, x), where
+
+Ei(t7 x) = &n[~~t,
+
+x)]
+
+Bi(ty X) = -1/2[A~(t, X)Di + DiAi(t,
+
+X)]
+
+Ai(t, X) = [ti&(t, X)]
+
+g&X) = g&f x)>
+
+P'4
+
+{ max{O&, <f, x)1, p +q.
+
+(3.16)
+
+We can also use qij(t, x) in W(r, X) instead of nij(tq) where
+
+flij(t, x) = ll~Jil(t,
+
+x) II
+
+(3.17)
+
+and &(t, x) is a matrix which is obtained by replacing the negative elements of A,([, x) by zeros. With such a modification of W(t, x), the conditions of theorem (3.14) imply the conditions of theorem (2.32).
+A simple sufficient condition for the existence of a matrix D and a number E required by theorem (3.14), can be obtained by majorizing element-by-element the matrix W(t, x) of (3.9) by a constant matrix and requiring that the resulting matrix has negative diagonal elements and is a quasidominant diagonal matrix.
+Our immediate interest is to obtain a region of ultimate boundedness in the context of interconnected systems. For this purpose, we consider a constant shifting vector f which we denote as
+
+a=@,nJ )... ,$)‘,Z;=
+
+1 3
+_4 ,i =1,2 )... ,S [ X1
+
+(3.18)
+
+where af ERA, 0 =S rl c ni , and R$’=O. We introduce the vector
+bi(t, x) = a*{xf), + Ai(t,X)xi + ,TIAij(tX,)-fj,
+
+(3.19)
+
+to rewrite the system description (3.1) as J
+ii=Xi[Ai(t,X)(X,-ni)+,~~A;j(t,X)(Xj+-bmij()t,X)] i =1,2 )... ,S.
+
+(3.20)
+
+With each subsystem in (3.20), we associate a Volterra-type function n,
+
+Vi(xi) = k$, dik[xik - zik - xik h (xidrik)]
+
++ k =F+, diflik
+
+vi defined as
+
+(3.21)
+
+where each dik is a positive number. The function vi(Xi)has the same property as the function 4x) used in section 2. We take the time derivative of vi(xi) with respect to (3.20), and majorize
+
+Lotka-Volterra equations: decomposition, stability, and structure
+
+497
+
+the obtained result to get Gi(Xi)= -(Xi - Tj)TBi(t, X)(Xi - ai)
+
++,~t(~i-fH,)rDiA,,(f,~)(~,-~j)
+
++(~i-xJ~Dibi(t,~)
+
+S -Ei(t, X)llXi- Ifill* + ,$ r)ij(t,X)llxI - fill IlXj- aijII
+
++ 5;i(t, X)/Xi- Fi II
+
+(3.22)
+
+where & = llDi6;(l, x)/l and 6i(t, x ) is a vector which is obtained by replacing the negative elements of the last (n - ri;.)elements of bi(t, X) by zeros.
+We use vi to construct a scalar function
+
+4x1= (Z4w
+
+(3.23)
+
+where each di is a positive number. Calculating the time derivative of V(X)with respect to (3.20) and utilizing (3.22), we get
+
+C(x) S - U’(X -IQC(t,x)ll(x --a> + U’(X -f)D&,x)
+
+S - El/_?- n/l((lx - %I/- g-1 t)
+
+(3.24)
+
+where C(t, x) is defined by (3.13), D is a constant positive diagonal matrix, g is a positive number satisfying (3.15), and
+
+C(‘(t,x) = [C&,x),
+
+C*(tr x), * . . 3 C;(t,x)lT
+
+f= (LXsE)uRpx RI IlN(r, x)11
+
+u(x - R) = (11x1 - -f,ll, Icu2 - &II,. *. 7IGC- %S ll)7:
+
+(3.25)
+
+By recognizing the similarity of (3.24) and (2.26), we can obtain a region of ultimate boundedness as defined by (2.25) and (2.29).
+Of more interest here is, however, a region which is represented as a direct product of regions of subsystem state spaces, that is,
+
+Q(a) = Q,(ar) x Q*((uz) x . . . x Q,(aJ
+
+(3.26)
+
+where a = (~1, ai, . . . , CY~)~,
+sZi(Wj) = {Xi E Pi : V;(Xj) SS &i}
+
+(3.27)
+
+and each a;:is a positive number. To calculate ai such that Q(cy) of (3.26) is a region of ultimate boundedness, we use the fact that if for at least one i = 1,2,. . . , S, we have
+
+then
+
+/lXi - Xill L &‘f
+
++ &y
+
+o(x) s - EC,
+
+(3.28) (3.29)
+
+498
+
+M. IKEDAAND D.D. SILJAK
+
+where ZZis an arbitrary positive number. This is implied by (3.24) and the property of the norm. From this fact, we see that
+
+A = {x E R”+: v(x) s 2 d;l,}
+
+(3.30)
+
+is a region of ultimate boundedness, where 1, is defined by
+
+1,= sup v,(x,). I[*,-*,;\$=-‘i;+E’
+
+(3.31)
+
+Furthermore, from the definition of 4x) in (3.23), we see that A of (3.30) is contained in &(a) of (3.26) for
+
+a;=d;‘Li,f,,i=1,2
+]=l
+
+,... ,s.
+
+(3.32)
+
+Therefore, Q(ct) with cu,defined by (3.32), is a region of ultimate boundedness. From (3.29) and (3.30), and the relation A C Q(or), the time tl after which the solutions x(t; to, x0) of the system (3.20) remain in Q(a) can be calculated as
+
+z fl = to + [-liZ-l
+
+di[Vi(XiO)
+
+- Ii].
+
+(3.33)
+
+4. OVERLAPPING
+
+DECOMPOSITIONS
+
+The decomposition-aggregation approach proposed in the preceding section can be broadened by using overlapping decompositions whereby the resulting subsystems have parts in common. Such unorthodox decompositions have been applied in stability analysis of linear systems and Lotka-Volterra equations with constant coefficients [l], where the overlapping decompositions provided additional flexibility in constructing vector Liapunov functions. In this section, we outline the overlapping aspect of the decomposition approach in the analysis of ultimate boundedness of Lotka-Volterra equations. For this purpose, we first generalize the concept of inclusion, expansion, and contraction of Lotka-Volterra equations with nonlinear time-varying coefficients.
+Let us consider a pair (!9,5?) of Lotka-Volterra equations
+
+Y: k = J+r(t, x) + A(t, x)x]
+
+9: k = Rqt, 2) + A(& i-)x]
+
+(4.1)
+
+where x(t) E R” and f(t) E R” are the states of 9’ and 9 such that n 5 ri, and other notations are defined similarly as in (2.3). By x(r; to, x0) and f(t; lo,.&) we denote the solutions of Y and 9, respectively. The equilibria of Y and 5?’are denoted by i and 2. We introduce a linear transformation
+
+,I!= TX
+
+(4.2)
+
+where T is an fi x n constant matrix with full column rank and each row of T has exactly one unit element. We generalize the definition of inclusion proposed for constant Lotka-Volterra equations in [l] to the case of nonlinear time-varying coefficients:
+
+L&a-VOlterra equations:decomposition, stability, and structure
+
+499
+
+Definition (4.3). For the pair (9, 9) of Lotka-Volterra equations (4.1), we say that 9 includes 9 if there exists a constant matrix T of the liqear transformation (4.2) such that for any equilibrium f of Y, 8 = T2 is an equilibrium of 9, and for any initial condition (to, x,,) of Y,
+
+implies
+
+X0= Txo
+
+x(t; to, x0) = T!f(t;to, .fo) for all t 2 to,
+
+(4.5)
+
+where T’ is a generalized inverse of T. For 9 to include Y, definition (4.3) requires the existence of an equilibrium 2 = Ti in 9 for
+
+each equilibrium f of 9. This is appropriate even when our principal interest is ultimate
+
+boundedness, because under the requirement, asymptotic stability of an equilibrium can be
+
+a special property of ultimate boundedness both in Y and 9.
+
+As usual,if a pair (9, 9) satisfies the inclusion conditions of definition (4.3), 9 is called an
+
+expansion of Y, and Y is called a contraction of 9.
+
+We are now interested in the condition under which 9 includes Y for a specified transfor-
+
+mation matrix T and its generalized inverse T’. To derive that, we express the matrix A(?, 2)
+
+and vector ti(t, i) as
+
+&t, R) = TA(r, T’j)T’ + M(t, n)
+
+= Ta(t,
+
+where
+
+2) and m(t, are a
+
+dimensions.
+
+Z?to include Y, M(t, f)
+
++ m(t,f)
+
+(4.6)
+
+a complementary vector of proper R) have to be chosen according
+
+a given transformation matrix the system 9 includes
+
+Y if
+
+M(t, = 0, m(t, 2)
+
+for
+
+a) R x R:.
+
+(4.8)
+
+Theorem (4.7) can be proved in a similar way to theorem (4.10) of [l], which can be regarded as a special version of theorem (4.7) for the case of constant coefficients.
+It has been shown for linear systems [12] and constant Lotka-Volterra equations [l] that by expanding a given system such that the resulting system includes the original system, we can obtain disjoint subsystems which are originally overlapping in the given system. This fact carries over to the case of nonlinear time-varying coefficients in a straightforward manner.
+To use the expansion 9 in the analysis of ultimate boundedness of the original system Y, we need the following theorem.
+
+THEOREM(4.9). The solutions x(t; to, x0) of the system Y are uitimately bounded with respect to the region RY if the solutions R(t; to, fo) of the expansion Y are ultimately bounded with respect to the region R:.
+This theorem is a direct implication of the definitions of inclusion and expansion. Since the
+solution x(t; to, x0) can be represented as
+
+x(t; to, x0) = T%(t; to, Txo), I 2 to,
+
+(4.10)
+
+a region & of ultimate boundedness in Y is given by
+
+Q={xER:;x=
+
+T’i,~8}
+
+where a is a region of ultimate boundedness in 9’.
+
+(4.11)
+
+500
+
+M. IKEDA AND D. D. SILIAK
+
+As in the case of constant Lotka-Volterra equations [l], it is possible to show using simple examples that the overlapping decompositions provide more flexibility in establishing ultimate boundedness when the coefficients depend on the state and time.
+
+5. STRUCTURAL
+
+PERTURBATIONS
+
+In this section, we consider the problem of ultimate boundedness in the presence of structural perturbations in Lotka-Volterra equations, and provide conditions under which a region of ultimate boundedness exists that is invariant despite changes in the strength of interactions among subsystems. We refer to such a robust property of solutions as connective ultimate boundedness. A proper mathematical framework for the analysis is the decomposition-aggregation scheme of section 3.
+In order to take into account structural perturbations in Lotka-Volterra equations, we rewrite equations (3.1) as
+
+s
+
+X,= Xi[ai(t, X>+ AAt, X)X,+ ,s e$,j(t, x)xj]v i = 1,2, . . . , S,
+
+(5.1)
+
+where eg = eij(t) are functions specified as eO:R + [0,11. The functions e;, are introduced to reflect changes in the strength of interconnections among the subsystems, and are assumed continuous. They are considered as elements of the s X s interconnection matrix E = (eij). Following reference [4], we define the fundamental interconnection matrix E = (t;,j) as
+
+el’= 1 0 1, elj(t> f
+
+0, e;j(t)
+
+z 0.
+
+-
+
+We also define the class % of interconnection matrices as
+
+(5.2)
+
+~={E:(e,(~~ijiiri,j-1,2
+
+,..., S}.
+
+(5.3)
+
+Now, we state the following:
+Definition (5.4). We say that the solutions x(t; to, xg) of the system (5.1) are connectively ultimately bounded with respect to the region R:,if there exists a region of ultimate boundedness S2’ which is invariant for all E E %.
+In other words, connective ultimate boundedness means that there is a compact region &* CR: such that regardless of the structural perturbations, the solutions which start outside the region reach it in finite time and once inside, they stay there forever.
+To provide the conditions for connective ultimate boundedness, we need to define the matrix W(t, X, E) = [wij(t, X, eij]as
+
+wij(t,x, elj) =
+
+- n;‘d,G&(t, X) + ei,d;mZqii(tx,), eijd;,‘d,-,‘qij(t, X),
+
+i = j i #j,
+
+where di,, diM, &(t, x) and q,,(t, x) are defined in section 3. We also need the matrix
+
+C(t, x, E) = - 1/2[Wr(t, x, E)D + DW(t, x, E)]
+
+to state the following:
+
+(5.5) (5.6)
+
+Lotka-Volterra equations: decomposition, stability, and structure
+
+501
+
+THEOREM (5.7). The solutions x(t; to, XO)of the system (5.1) are connectively ultimately bounded with respe:t _to the region R1 if there exist a constant positive diagonal matrix D and a positive number E(E) such that the matrix C(t, X, E) satisfies the inequality
+
+A,[C(t, X, ,!?)I 5 $(s) for all (t, X) E R x R?
+
+(5.8)
+
+and if the vector z(t, X) of (3.8) is bounded.
+
+Proof, To prove this theorem, we apply the decomposition-aggregation approach of section 3. Since wij(t, X, Ed) d WQ(t, X, c;j) for all E E 8 and (t, X) E R X R?, the condition (5.8)
+implies that the inequality
+
+A,JC(f, X, E)] z &.!?) for all (t, X) E R x R:
+
+(5.9)
+
+holds for all E E 8. Therefore, by theorem (3.14), the solutions of the system (5.1) are ultimately bounded in the sense of definition (2.5) for all E E 72. The existence of a region Q* of ultimate boundedness which is invariant ,fo_rall E E 8 can be shown by employing the discussion of section 3 and noting the fact that g(E) in (5.9) is independent of E. This implies
+connective ultimate boundedness, and the proof of theorem (5.7) is completed. To calculate a region of ultimate boundedness which is invariant to the change of E, we can
+use the idea of shifting vectors introduced in section 3. The discussion there holds under the
+structural perturbations if the functions &(t, X) are redefined as
+
+&(tX, )= IIo$P(fx,>I+I ,z IIDiAv(xt,)ajlI.
+
+(5.10)
+
+In (5.10), &‘(t, x) is a vector which is obtained by replacing the negative elements of the last (ni - pi) elements of ai(t, X) + A,(t, x)fi by zeros.
+
+REFERENCES
+1. IKEDA M. & ~.IAK D. D., Lotka-Volterra equations: decomposition, stability, and structure. Part I: Equilibrium analysis, J. math. Biol. 9, 6543 (1980).
+2. MAY R. M., Stability and complexity in model ecosystems, Princeton University Press. Princetown NJ (1973). 3. LADDEG. S. & SILJAKD. D., Stability of multispecies communities in randomly varying environment 2, 165-178
+1976). 4. !&ILJAKD. D., Large-scale dynamic systems: stability and structure, North-Holland. New York (1978). 5. SILJAKD. D., Connective stability of competitive equilibrium, Auromoricu 11. 389-400 (1975). 6. HOLLINGC. S., Resilience and stabilitv of ecoloeical systems. A. Reu. Ecolo~v Svsrematics 4. l-23 (1973). 7. INNIS G., Stability, sensitivity, resilience, per&ence.-What is of interest? &o&em anufysis und’pre&rion,
+(Edited bv S. Levitt) 131-139 SIAM. Philadelnhia (1974). 8. &OH B. S:, Robust stability concepts for ecos$tem‘moddls. Theoretical systems ecology, (Edited by E. Halfon),
+467-487 Academic Press, New York (1979). 9. HARRISONG. W., Persistent sets via Liapunov functions, Nonlinear Anulvsis 3. 73-80 (1979). 10. SILJAKD. D. & WEISSENBERGERS., Regions of absolute ultimate boundkdness for discrete’systems, Regefung-
+stechnik Process-Dutaoemrbeitung 21, 329-332 (1973). 11. ROUCHEN., HABETSP. & LALOYM., Stability rheory by Liupunov’s direct method, Springer, New York (1977). 12. IKEDAM & SILIAKD. D., Overlapping decompositions, expansions, and contractions of dynamic systems, Large
+Scale Systems 1, 29-38 (1980).
+

@@ -1,0 +1,44 @@
+
+NFI Logo
+
+    HOME
+    Contact
+    Français
+    COLLABORATOR Login
+
+NFI
+
+    ABOUT
+    DATA & TOOLS
+    DOCUMENTATION
+    RESOURCES
+    QUICK FACTS
+
+Biomass Calculator
+Biomass Calculator Help Page
+
+The biomass calculators are based on a series of models that are described in the Canadian Forest Service report Model-based, volume-to-biomass conversion for forested and vegetated land in Canada's (BC-X-411) . Ideally, biomass estimates at various spatial scales would be derived from a probability design sample of ground plots that fully represents the area under consideration. Data of this kind are usually lacking, especially for larger geographic units (e.g. provinces/territories, ecozones), so a model-based approach to estimating biomass has been developed and is available here. If an adequate sample of ground plots is available, however, it is recommended to use them to estimate biomass rather than the biomass calculators.
+
+    Use the Individual-tree Biomass Calculator if single trees are being considered.
+
+    Calculate Individual Tree Biomass
+
+    Use the Merchantable Stand Biomass Calculator if the forest stand under consideration contains any amount of gross merchantable volume greater than 0 m 3 /ha (gmv > 0 m 3 /ha). Gross merchantable volume is uniquely defined for a forest stand by the merchantability limits for a province or territory. If the forest stand has a gross merchantable volume equal to 0 m 3 /ha (gmv = 0 m 3 /ha), then the Non-Merchantable Stand Calculator should be used instead (generally a stand of small or young trees where all dbh's are less than merchantability limits).
+
+        After selecting a province and ecozone, select each tree species present in each layer, and provide their percent compositions.
+        Enter the gross merchantable volume of the stand and select the merchantable volume button. If gross merchantable volume is unavailable, enter total volume and select the total volume button.
+        Estimate the above-ground biomass by pressing 'Calculate Above-ground Biomass' The estimated biomass is the oven-dry weight in tonnes per ha contained in all trees in the stand at least 1.3 m in height (dbh > 0 cm). It is also subdivided into its components of stem wood, stem bark, branches and foliage. Trees less than 1.3 m in height and shrubs are not included in the estimated biomass.
+
+    Calculate Merchantable Forest Stand Biomass
+
+    Use the Nonmerchantable Stand Biomass Calculator if the forest stand under consideration has no gross merchantable volume (gmv = 0 m 3 /ha). This would generally consist of forest stands containing young or small trees with dbh less than the merchantability limits of a province or territory.
+
+        Fill in all dropdown menus, then press 'Calculate Biomass' to estimate the above-ground biomass. The estimated biomass is the oven-dry weight in tonnes per ha contained in all trees in the stand at least 1.3 m in height (dbh > 0 cm). Trees less than 1.3 m in height and shrubs are not included in the estimated biomass.
+
+    Calculate Non-Merchantable Forest Stand Biomass 
+
+Quick Contact
+
+You can contact us via the contact form or if you would just like to send us your feedback, you may do so using this form:
+provide your feedback
+© Copyright 2016 - NFI.

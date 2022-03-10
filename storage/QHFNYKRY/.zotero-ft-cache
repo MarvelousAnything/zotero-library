@@ -1,0 +1,5413 @@
+We use cookies to enhance your experience on our website.By continuing to use our website, you are agreeing to our use of cookies. You can change your cookie settings at any time. Find out more 
+Skip to Main Content 
+Oxford Academic 
+ 
+    Account 
+ 
+Forestry: An International Journal of Forest Research 
+Institute of Chartered Foresters 
+ 
+    Issues 
+    More Content 
+    Submit 
+    Purchase 
+    Alerts 
+    About 
+ 
+Close 
+search filter This issue All Forestry: An International Journal of Forest Research All Journals search input Search 
+Advanced Search 
+Article Navigation 
+Issue Cover 
+Volume 87 
+Issue 1 
+January 2014 
+Article Contents 
+ 
+    Abstract 
+    Introduction 
+    Methods 
+    Results 
+    Discussion 
+    Conclusions and recommendations 
+    Conflict of interest statement 
+    Funding 
+    Acknowledgments 
+    References 
+    Appendix 
+ 
+    < Previous 
+    Next > 
+ 
+Updated generalized biomass equations for North American tree species 
+David C. Chojnacky , Linda S. Heath , Jennifer C. Jenkins 
+Forestry: An International Journal of Forest Research , Volume 87, Issue 1, January 2014, Pages 129–151, https://doi.org/10.1093/forestry/cpt053 
+Published: 
+29 December 2013 
+Article history 
+ 
+    pdf PDF 
+    Split View 
+    Cite 
+    Permissions Icon Permissions 
+    Share 
+ 
+Abstract 
+ 
+Historically, tree biomass at large scales has been estimated by applying dimensional analysis techniques and field measurements such as diameter at breast height (dbh) in allometric regression equations. Equations often have been developed using differing methods and applied only to certain species or isolated areas. We previously had compiled and combined (in meta-analysis) available diameter-based allometric regression equations for estimating total aboveground and component dry-weight biomass for US trees. This had resulted in a set of 10 consistent, national-scale aboveground biomass regression equations for US species, as well as equations for predicting biomass of tree components as proportions of total aboveground biomass. In this update of our published equation database and refinement of our model, we developed equations based on allometric scaling theory, using taxonomic groupings and wood specific gravity as surrogates for scaling parameters that we could not estimate. The new approach resulted in 35 theoretically based generalized equations (13 conifer, 18 hardwood, 4 woodland), compared with the previous empirically grouped 10. For trees from USDA Forest Inventory and Analysis Program (FIA) plots, with forest types grouped into conifers and hardwoods, previous and updated equations produced nearly identical estimates that predicted ∼20 per cent higher biomass than FIA estimates. Differences were observed between previous and updated equation estimates when comparisons were made using individual FIA forest types. 
+Issue Section: 
+Original Article 
+Introduction 
+ 
+Tree biomass estimation has become critically important in recent years as the climate warms and estimates of fuel loads, biomass of forest products (including bioenergy products) and stored forest carbon (∼50 per cent of forest biomass) are needed. However, biomass estimation procedures historically have been species- and site-specific, with a variety of different methods used. Our previous work ( Jenkins et al ., 2003 ) was the result of an attempt to produce standardized, consistent and well-documented tree biomass estimation equations on a national scale, through compilation and synthesis of equations published in the literature, for use in the forest sector ( Heath et al ., 2011 ) of the Inventory of US Greenhouse Gas Emissions and Sinks (e.g. EPA, 2012 ). We had used a meta-analysis to develop 10 generalized species-group-specific equations for estimating aboveground biomass from only diameter measurements using regression and log-transformation; two accompanying hardwood and conifer component ratio equations were also developed. Basing equations on diameter and not on height allowed for the most flexible usage. A companion publication ( Jenkins et al ., 2004 ) supplied users with the full database of equations. This work could best have been improved by a thoughtfully designed collection of new data for study and/or use in replacing the generalized prediction equations. Such a dataset, however, is an extensive undertaking and has not been generated in the 10 years since the previous study, so another more exhaustive meta-analysis was conducted with an updated set of literature equations. 
+ 
+In this study, we updated the Jenkins et al. (2004) database and refined our database and model. Instead of letting the statistical summary drive the final number of equations as it had in the previous study, we employed a more theoretically based approach, with generalized equation development based on factors whose importance was suggested by allometric scaling theory: taxonomic groupings (genus or family) and wood specific gravity. These factors were used as surrogates for scaling parameters that could not be estimated without collecting new data. We anticipated that the updated database and refined methodology would enable us to meet our objective of creating estimation equations for more species groupings and with enhanced predictive value. 
+Methods 
+Overview 
+ 
+Detailed descriptions of aspects of methods that were used and described in Jenkins et al . (2003) , as well as citations for equation references in that work, will not be repeated here. Only changes made for the current work will be described in detail. In brief, we compiled biomass estimation equations (based on measured data) from the literature, and using a meta-analysis, generated data for diameter-based published equations at intervals within the diameter ranges of the original equations – resulting in what we called ‘pseudodata’ following work of Pastor et al . (1984) . This simply generated predicted values from equations (without any random component) to put all literature equations on a common basis, and is somewhat analogous to having original data from which to develop new generalized equations. We then fit the pseudodata to produce generalized national-scale equations by using regression and log transformation. 
+ 
+The study presented here included the following steps, detailed below: 
+ 
+    The biomass equation literature was updated with equations published on May 2011. 
+ 
+    Definitions were established and author measurement differences resolved prior to incorporation of published equations into the database. 
+ 
+    Preliminary analyses and modifications were conducted, enabling some equations excluded from Jenkins et al . (2003) to be incorporated. 
+ 
+    Pseudodata were generated for each equation within the diameter range of that equation. 
+ 
+    Total aboveground and belowground dry biomass and root component biomass models were constructed from pseudodata. 
+ 
+Updated literature search 
+ 
+Our initial database included 2626 equations but this study brought the total to 3464 aboveground biomass and component equations for North American tree species from 206 source studies. Our literature search encompassed bibliographies of relevant papers and the literature was identified using the search engines Academic Search Premier, AGRICOLA, CAB Direct, Environmental Science Complete, Geobase, Web of Science and Google Scholar. We included published equations up to May 2011 developed for the US or Canada that estimated total dry biomass for individual trees and/or components thereof, based on diameter alone or on diameter and height. We omitted equations for palms, citrus, dry tropical and nonnative tree species. 
+Definitions 
+Biomass 
+ 
+Total aboveground biomass was defined as all material aboveground, which was fairly consistent among all studies except for some stump exclusion. Biomass components in the database were driven by author definitions; these included 58 unique categories that we collapsed into total above- and belowground biomass, and/or into the 6 categories of stem wood, stem bark, branches, foliage, coarse roots and fine roots. Component equations were used to calculate total aboveground biomass by summation when no total aboveground biomass equation was available. Breakpoints between coarse and fine roots varied among authors, but equations were so limited that we used all available studies and author breakpoints. 
+General tree groups 
+ 
+Tree groups that we refer to as hardwood, conifer and woodland correspond to trees that are angiosperms, gymnosperms and a mixed group of frequently multistemmed hardwood and conifer species generally measured near groundline, respectively. Species which comprise each of these groups are listed in the tables. 
+Diameter measurements 
+ 
+Generally, diameter measurements at root collar (drc; generally near groundline but above root collar swell) are used only for woodland species, but some of the smaller trees of species for which a diameter at breast height (dbh; 1.37 m above groundline) measurement typically is used were also measured at drc. We measured 205 single-stem conifer and hardwood trees that had few to no branches between drc and dbh to obtain a diameter conversion for these small trees that was also useful for comparing biomass of all species at a common measurement point (Figure  1 ). Although this should be studied in more detail, our equation seemed to be reasonable for converting the few hardwood and small conifer drc measurements to dbh. 
+Figure 1 
+Diameter conversion based on 205 trees measured in VA, NM, OR and WA, including (a) conifer species: 34 pine, 26 spruce, 20 Douglas-fir, 17 hemlock, 15 cedar, and 12 fir; (b) hardwood species: 17 aspen, 11 alder, 10 oak, 7 tulip poplar, 6 maple, 3 sycamore, 3 hickory, 3 locust, 2 ash, 2 birch and 9 other hardwoods; (c) woodland species: 6 pinyon and 2 juniper. Regression R2-statistic was 0.987 for logarithmic regression. (Contact corresponding author (D.C.C.) for further information). 
+Open in new tab Download slide 
+ 
+Diameter conversion based on 205 trees measured in VA, NM, OR and WA, including (a) conifer species: 34 pine, 26 spruce, 20 Douglas-fir, 17 hemlock, 15 cedar, and 12 fir; (b) hardwood species: 17 aspen, 11 alder, 10 oak, 7 tulip poplar, 6 maple, 3 sycamore, 3 hickory, 3 locust, 2 ash, 2 birch and 9 other hardwoods; (c) woodland species: 6 pinyon and 2 juniper. Regression R 2 -statistic was 0.987 for logarithmic regression. (Contact corresponding author (D.C.C.) for further information). 
+Figure 1 
+Diameter conversion based on 205 trees measured in VA, NM, OR and WA, including (a) conifer species: 34 pine, 26 spruce, 20 Douglas-fir, 17 hemlock, 15 cedar, and 12 fir; (b) hardwood species: 17 aspen, 11 alder, 10 oak, 7 tulip poplar, 6 maple, 3 sycamore, 3 hickory, 3 locust, 2 ash, 2 birch and 9 other hardwoods; (c) woodland species: 6 pinyon and 2 juniper. Regression R2-statistic was 0.987 for logarithmic regression. (Contact corresponding author (D.C.C.) for further information). 
+Open in new tab Download slide 
+ 
+Diameter conversion based on 205 trees measured in VA, NM, OR and WA, including (a) conifer species: 34 pine, 26 spruce, 20 Douglas-fir, 17 hemlock, 15 cedar, and 12 fir; (b) hardwood species: 17 aspen, 11 alder, 10 oak, 7 tulip poplar, 6 maple, 3 sycamore, 3 hickory, 3 locust, 2 ash, 2 birch and 9 other hardwoods; (c) woodland species: 6 pinyon and 2 juniper. Regression R 2 -statistic was 0.987 for logarithmic regression. (Contact corresponding author (D.C.C.) for further information). 
+Specific gravity 
+ 
+Unless otherwise stated, ‘specific gravity’ refers to basic specific gravity of wood (on green volume to dry-weight basis) ( Williamson and Wiemann, 2010 ). Specific gravity of wood was included in the database for each species for use in classifying species and grouping as described below. Specific gravity values are unitless and did not include any measure of variability. We used values from the US Department of Agriculture Forest Service, Forest Inventory and Analysis Program (FIA) ( FIA, 2010 ), which for almost all US tree species were based on Miles and Smith (2009) . We used our values from previous work for some woodland species ( Cercocarpus = 0.81 ( Chojnacky, 1984 ); Utah juniper ( Juniperus osteosperma ) = 0.54, oneseed juniper ( J. monosperma ) = 0.58, pinyon pine = 0.51 ( Pinus edulis ) ( Chojnacky and Moisen, 1993 )). Balsam fir ( Abies balsamea) specific gravity (0.33) was used for Fraser fir ( A. fraseri ) instead of the genus average as suggested by Miles and Smith (2009) , specific gravity for paloverde ( Cercidium microphyllum ) was set at 0.60 ( National Academy of Sciences, 1980 ), and hybrid poplar ( Populus spp.) was set at 0.34 ( Hamilton and Wendel, 1967 ; Goyal et al ., 1999 ). 
+Stumps 
+ 
+Unless the author specified otherwise, we assumed stumps (5–30 cm, generally 15 cm above ground level) were included in aboveground biomass. Stump pseudodata were calculated for those equations where a stump height was specified by the author and where stump biomass was explicitly excluded from aboveground biomass and/or included with coarse root biomass. We used the dbh-to-drc equation in Figure  1 (or drc directly if provided) and the author-reported stump height to approximate stump volume as a cylinder with drc as the diameter, then converted volume-to-biomass using specific gravity. Where the author excluded stump biomass from aboveground biomass, it was added to the total, and where stump biomass was included with coarse root biomass, it was subtracted from root. Stump correction affected only 25 per cent of final summarized biomass data and the median correction was <2.5 per cent increase in aboveground biomass. Large corrections >25 per cent occurred for <1 per cent of data and these were generally for trees <6-cm dbh. 
+Tree diameter ranges 
+ 
+Tree diameter ranges for which the original equations were developed were critical for our analyses so pseudodata were not generated outside ranges of original study trees. This information was generally available but in some cases was inferred from data graphs, text descriptions of sample sites or even auxiliary data as described below. 
+Preliminary analyses and equation modifications 
+ 
+The equations from the literature were generally recorded in our database in the exact mathematical form given by the author. However, when using this approach in our previous work ( Jenkins et al ., 2003 ) with 2626 literature equations for total or component biomass (not all usable), we were able to assemble only 318 aboveground biomass estimation equations for meta-analyses, which represented ∼100 species or species groups. We wanted to fill gaps in the previous study's pseudodata, maximize the number of usable equations, and broaden the resultant applicability of the generalized estimation equations produced from the meta-analysis. Therefore, we combined studies or conducted preliminary analyses to modify some equations to fit our format for generating pseudodata. Of the 206 biomass studies (Table  1 ) compiled in this update that were not included in our previous study, equations from 55 were modified to fit criteria for estimating aboveground biomass. Details of these modifications are supplied in the Appendix. Pseudodata generated from these modified equations were later compared with those generated from unmodified equations to check for possible bias, as described below. 
+Table 1 
+ 
+Key to author reference numbers in Tables 2–4 and 6, and to study modifications (see Appendix for details), for all biomass studies included in meta-analysis 
+Ref. no. .  	Author reference .  	Ref. no. .  	Author reference .  	Ref. no. .  	Author reference .  
+1 	Acker and Easter (1994) 1  	70 	Grier et al . (1984) 1  	139 	Petersen et al . (2008)   
+2 	Adegbidi et al . (2002)  	71 	Grier et al . (1992) 1  	140 	Peterson et al . (1970) 1   
+3 	Alban and Laidly (1982) 2  	72 	Grigal and Kernik (1984) 1  	141 	Phillips (1981) 1, 3   
+4 	Arevalo et al . (2007)  	73 	Harding and Grigal (1985) 1  	142 	Pike et al . (1977)   
+5 	Aspinwall et al. (2011)  	74 	Harrington et al . (1984) 4  	143 	Pitt and Bell (2004)   
+6 	Baldwin (1989) 1, 5  	75 	Harris et al . (1973) 4  	144 	Pollard (1972) 1   
+7 	Barclay et al . (1986) 1  	76 	Harris et al . (1977) 6  	145 	Ralston (1973) 1   
+8 	Barney et al . (1978) 1  	77 	Harrison et al . (2009)  	146 	Ralston and Prince (1965) 2   
+9 	Baskerville (1965) 1  	78 	Haynes and Gower (1995) 6  	147 	Reid et al . (1974)   
+10 	Bella and De Franceschi (1980) 2  	79 	Hegyi (1972) 1  	148 	Reiners (1972) 4   
+11 	Bickelhaupt et al . (1973)  	80 	Helgerson et al . (1988) 1  	149 	Rencz and Auclair (1980) 1   
+12 	Binkley (1983) 1  	81 	Hocker and Early (1983) 1 ,3  	150 	Reynolds et al . (1978) 4   
+13 	Binkley et al . (1984)  	82 	Honer (1971) 1  	151 	Ribe (1973) 1   
+14 	Bockheim and Lee (1984) 1  	83 	Ishii and Kadotani (2006) 4,5  	152 	Riemenschneider et al . (2001) 3   
+15 	Boerner and Kost (1986) 1  	84 	Jacobs et al . (2009)  	153 	Rogerson (1964) 5   
+16 	Bormann (1990) 1  	85 	Johnson (2009)  	154 	Rolfe et al . (1978)   
+17 	Brenneman et al . (1978) 3  	86 	Johnston and Bartos (1977) 7  	155 	Ruark and Bockheim (1988) 1   
+18 	Bridge (1979)  	87 	Jokela and Martin (2000) 2  	156 	Ruark et al . (1987)   
+19 	Briggs et al . (1989) 1  	88 	Jokela et al . (1981) 1  	157 	Rubilar et al . (2005) 2   
+20 	Brown (1978) 4  	89 	Jokela et al . (1986) 1  	158 	Sabatia (2007) 7   
+21 	Busing et al . (1993) 1, 3  	90 	Kapeluck and Van Lear (1995) 6  	159 	Sachs (1984) 4   
+22 	Callaway et al . (1994)  	91 	Karlik and McKay (2002) 7  	160 	Samuelson et al . (2004)   
+23 	Callaway et al . (2000)  	92 	Kaye et al . (2005)  	161 	Schmitt and Grigal (1981) 1   
+24 	Campbell et al . (1985) 1  	93 	Ker (1980a) 1  	162 	Schnell (1976) 7   
+25 	Carpenter (1983)  	94 	Ker (1980b) 1  	163 	Schnell (1978) 4   
+26 	Carter and White (1971) 1  	95 	Ker (1984)  	164 	Schroeder et al . (1997) 1   
+27 	Chapman and Gower (1991) 1  	96 	Ker and van Raalte (1981) 4  	165 	Seiler et al . (2009) 4   
+28 	Chen et al . (2004) 6  	97 	Kimmins (1973) 5  	166 	Shenoy et al . (2011)   
+29 	Chojnacky (1984) 1, 4  	98 	Kinerson and Bartholomew (1977) 1  	167 	Siccama et al . (1994) 1   
+30 	Chojnacky and Moisen (1993) 4  	99 	King and Schnell (1972)  	168 	Singh (1984) 1   
+31 	Clark and Schroeder (1986) 3  	100 	King et al . (2007) 7  	169 	Smith and Wood (2006)   
+32 	Clark and Taras (1976) 2  	101 	Koerper and Richardson (1980) 1  	170 	Snell and Little (1983)   
+33 	Clark et al . (1985) 1  	102 	Krumlik (1974) 1  	171 	Snell and Max (1985) 5   
+34 	Clark et al . (1986a)  	103 	Lambert et al . (2005)  	172 	Sollins and Anderson (1971) 7   
+35 	Clark et al . (1986b) 1  	104 	Landis and Mogren (1975) 1  	173 	Sollins et al . (1973)   
+36 	Clary and Tiedemann (1986)  	105 	Lavigne and Krasowski (2007) 6  	174 	St. Clair (1993) 1   
+37 	Clary and Tiedemann (1987) 1  	106 	Laxson et al . (1997) 4  	175 	Standish et al . (1985) 2   
+38 	Cochran et al . (1984) 5  	107 	Levia (2008) 5  	176 	Storey et al . (1955) 5, 7   
+39 	Coltrin (2010)  	108 	Lieffers and Campbell (1984) 1  	177 	Strong and Roi (1983) 7   
+40 	Crow (1971)  	109 	Litton et al . (2003) 6  	178 	Swank and Schreuder (1974) 1   
+41 	Crow (1976) 1  	110 	Lojewski et al . (2009)  	179 	Telfer (1969)   
+42 	Crow (1983) 1  	111 	Loomis et al . (1966) 5  	180 	Ter-Mikaelian and Lautenschlager (2001) 5   
+43 	Czapowskyj et al . (1985)  	112 	MacLean and Wein (1976) 1  	181 	Thies and Cunningham (1996) 1, 6   
+44 	Darling (1967) 1  	113 	Mack et al . (2008)  	182 	Turner et al . (2004)   
+45 	Davis and Trettin (2006) 3  	114 	Marshall and Wang (1995) 1  	183 	Tuskan and Rensema (1992) 4   
+46 	Dunlap and Shipman (1967) 5  	115 	Martin et al . (1998) 1  	184 	Vadeboncoeur et al . (2007) 6   
+47 	Duursma et al . (2007) 4  	116 	Martin et al . (2005)  	185 	Van Lear et al . (1984) 1   
+48 	El Fadl et al. (1989) 4  	117 	McCain (1994) 5  	186 	Van Lear et al . (1986) 2   
+49 	Elliott et al . (2002) 3  	118 	McGinnis et al . (2010)  	187 	Wade (1969) 5   
+50 	Espinosa-Bancalari and Perry (1987)  	119 	Means et al . (1994) 4  	188 	Wang et al . (1995) 1   
+51 	Fassnacht (1996) 3  	120 	Miller et al . (1981) 7  	189 	Wang et al . (1996)   
+52 	Fatemi et al . (2011)  	121 	Monk et al . (1970)  	190 	Wang et al . (2000)   
+53 	Felker et al . (1982) 1  	122 	Monteith (1979) 1  	191 	Wartluft (1977) 3   
+54 	Feller (1992) 1  	123 	Moore and Verspoor (1973) 1  	192 	Weaver and Forcella (1977)   
+55 	Fortier et al . (2010)  	124 	Morrison (1990) 1  	193 	Weetman and Harland (1964) 4   
+56 	Freedman (1984) 1  	125 	Naidu et al . (1998) 4  	194 	Westman (1987) 1   
+57 	Freedman et al . (1982) 1  	126 	Navar (2009)  	195 	Westman and Whittaker (1975)   
+58 	Gary (1976) 5  	127 	Nelson and Switzer (1975) 1  	196 	Whisenant and Burzlaff (1978) 4   
+59 	Gholz et al . (1979) 1  	128 	Nicholas (1992)  	197 	Whittaker and Niering (1975)   
+60 	Gholz et al . (1991)  	129 	Norris et al . (2001)  	198 	Whittaker and Woodwell (1968) 1   
+61 	Gilmore and Zenner (2005) 5  	130 	Omdal et al . (2001) 6  	199 	Whittaker et al . (1974) 4   
+62 	Goldsmith and Hocker (1978) 3  	131 	Ouellet (1983) 1  	200 	Wiant et al . (1977) 3   
+63 	Gower et al . (1987) 1  	132 	Ouimet et al . (2008) 6  	201 	Williams and McClenahen (1984) 1, 3   
+64 	Gower et al . (1992) 1  	133 	Parker and Schneider (1975) 1  	202 	Xing et al . (2005)   
+65 	Gower et al . (1993a)  	134 	Pastor and Bockheim (1981) 1  	203 	Yarie et al . (2007)   
+66 	Gower et al . (1993b)  	135 	Pastor et al . (1984) 1  	204 	Young et al . (1980) 1   
+67 	Gower et al . (1997)  	136 	Pearson et al . (1984) 4  	205 	Zabek and Prescott (2006) 2, 3   
+68 	Green and Grigal (1978) 1  	137 	Peichl and Arain (2007)  	206 	Zhou et al . (2011) 3   
+69 	Grier and Logan (1977)  	138 	Perala and Alban (1994) 4  	 	  
+ 
+1 Complete reference in Jenkins et al . (2003) . 
+ 
+2 Equations refit to eliminate height variable. 
+ 
+3 Foliage biomass taken from other similar studies. 
+ 
+4 Multiple studies combined or other equation modifications. 
+ 
+5 Study included component equations only, no total biomass. 
+ 
+6 Total biomass for root study taken from other similar studies. 
+ 
+7 Equations refit from author’s data. 
+Open in new tab 
+Table 1 
+ 
+Key to author reference numbers in Tables 2–4 and 6, and to study modifications (see Appendix for details), for all biomass studies included in meta-analysis 
+Ref. no. .  	Author reference .  	Ref. no. .  	Author reference .  	Ref. no. .  	Author reference .  
+1 	Acker and Easter (1994) 1  	70 	Grier et al . (1984) 1  	139 	Petersen et al . (2008)   
+2 	Adegbidi et al . (2002)  	71 	Grier et al . (1992) 1  	140 	Peterson et al . (1970) 1   
+3 	Alban and Laidly (1982) 2  	72 	Grigal and Kernik (1984) 1  	141 	Phillips (1981) 1, 3   
+4 	Arevalo et al . (2007)  	73 	Harding and Grigal (1985) 1  	142 	Pike et al . (1977)   
+5 	Aspinwall et al. (2011)  	74 	Harrington et al . (1984) 4  	143 	Pitt and Bell (2004)   
+6 	Baldwin (1989) 1, 5  	75 	Harris et al . (1973) 4  	144 	Pollard (1972) 1   
+7 	Barclay et al . (1986) 1  	76 	Harris et al . (1977) 6  	145 	Ralston (1973) 1   
+8 	Barney et al . (1978) 1  	77 	Harrison et al . (2009)  	146 	Ralston and Prince (1965) 2   
+9 	Baskerville (1965) 1  	78 	Haynes and Gower (1995) 6  	147 	Reid et al . (1974)   
+10 	Bella and De Franceschi (1980) 2  	79 	Hegyi (1972) 1  	148 	Reiners (1972) 4   
+11 	Bickelhaupt et al . (1973)  	80 	Helgerson et al . (1988) 1  	149 	Rencz and Auclair (1980) 1   
+12 	Binkley (1983) 1  	81 	Hocker and Early (1983) 1 ,3  	150 	Reynolds et al . (1978) 4   
+13 	Binkley et al . (1984)  	82 	Honer (1971) 1  	151 	Ribe (1973) 1   
+14 	Bockheim and Lee (1984) 1  	83 	Ishii and Kadotani (2006) 4,5  	152 	Riemenschneider et al . (2001) 3   
+15 	Boerner and Kost (1986) 1  	84 	Jacobs et al . (2009)  	153 	Rogerson (1964) 5   
+16 	Bormann (1990) 1  	85 	Johnson (2009)  	154 	Rolfe et al . (1978)   
+17 	Brenneman et al . (1978) 3  	86 	Johnston and Bartos (1977) 7  	155 	Ruark and Bockheim (1988) 1   
+18 	Bridge (1979)  	87 	Jokela and Martin (2000) 2  	156 	Ruark et al . (1987)   
+19 	Briggs et al . (1989) 1  	88 	Jokela et al . (1981) 1  	157 	Rubilar et al . (2005) 2   
+20 	Brown (1978) 4  	89 	Jokela et al . (1986) 1  	158 	Sabatia (2007) 7   
+21 	Busing et al . (1993) 1, 3  	90 	Kapeluck and Van Lear (1995) 6  	159 	Sachs (1984) 4   
+22 	Callaway et al . (1994)  	91 	Karlik and McKay (2002) 7  	160 	Samuelson et al . (2004)   
+23 	Callaway et al . (2000)  	92 	Kaye et al . (2005)  	161 	Schmitt and Grigal (1981) 1   
+24 	Campbell et al . (1985) 1  	93 	Ker (1980a) 1  	162 	Schnell (1976) 7   
+25 	Carpenter (1983)  	94 	Ker (1980b) 1  	163 	Schnell (1978) 4   
+26 	Carter and White (1971) 1  	95 	Ker (1984)  	164 	Schroeder et al . (1997) 1   
+27 	Chapman and Gower (1991) 1  	96 	Ker and van Raalte (1981) 4  	165 	Seiler et al . (2009) 4   
+28 	Chen et al . (2004) 6  	97 	Kimmins (1973) 5  	166 	Shenoy et al . (2011)   
+29 	Chojnacky (1984) 1, 4  	98 	Kinerson and Bartholomew (1977) 1  	167 	Siccama et al . (1994) 1   
+30 	Chojnacky and Moisen (1993) 4  	99 	King and Schnell (1972)  	168 	Singh (1984) 1   
+31 	Clark and Schroeder (1986) 3  	100 	King et al . (2007) 7  	169 	Smith and Wood (2006)   
+32 	Clark and Taras (1976) 2  	101 	Koerper and Richardson (1980) 1  	170 	Snell and Little (1983)   
+33 	Clark et al . (1985) 1  	102 	Krumlik (1974) 1  	171 	Snell and Max (1985) 5   
+34 	Clark et al . (1986a)  	103 	Lambert et al . (2005)  	172 	Sollins and Anderson (1971) 7   
+35 	Clark et al . (1986b) 1  	104 	Landis and Mogren (1975) 1  	173 	Sollins et al . (1973)   
+36 	Clary and Tiedemann (1986)  	105 	Lavigne and Krasowski (2007) 6  	174 	St. Clair (1993) 1   
+37 	Clary and Tiedemann (1987) 1  	106 	Laxson et al . (1997) 4  	175 	Standish et al . (1985) 2   
+38 	Cochran et al . (1984) 5  	107 	Levia (2008) 5  	176 	Storey et al . (1955) 5, 7   
+39 	Coltrin (2010)  	108 	Lieffers and Campbell (1984) 1  	177 	Strong and Roi (1983) 7   
+40 	Crow (1971)  	109 	Litton et al . (2003) 6  	178 	Swank and Schreuder (1974) 1   
+41 	Crow (1976) 1  	110 	Lojewski et al . (2009)  	179 	Telfer (1969)   
+42 	Crow (1983) 1  	111 	Loomis et al . (1966) 5  	180 	Ter-Mikaelian and Lautenschlager (2001) 5   
+43 	Czapowskyj et al . (1985)  	112 	MacLean and Wein (1976) 1  	181 	Thies and Cunningham (1996) 1, 6   
+44 	Darling (1967) 1  	113 	Mack et al . (2008)  	182 	Turner et al . (2004)   
+45 	Davis and Trettin (2006) 3  	114 	Marshall and Wang (1995) 1  	183 	Tuskan and Rensema (1992) 4   
+46 	Dunlap and Shipman (1967) 5  	115 	Martin et al . (1998) 1  	184 	Vadeboncoeur et al . (2007) 6   
+47 	Duursma et al . (2007) 4  	116 	Martin et al . (2005)  	185 	Van Lear et al . (1984) 1   
+48 	El Fadl et al. (1989) 4  	117 	McCain (1994) 5  	186 	Van Lear et al . (1986) 2   
+49 	Elliott et al . (2002) 3  	118 	McGinnis et al . (2010)  	187 	Wade (1969) 5   
+50 	Espinosa-Bancalari and Perry (1987)  	119 	Means et al . (1994) 4  	188 	Wang et al . (1995) 1   
+51 	Fassnacht (1996) 3  	120 	Miller et al . (1981) 7  	189 	Wang et al . (1996)   
+52 	Fatemi et al . (2011)  	121 	Monk et al . (1970)  	190 	Wang et al . (2000)   
+53 	Felker et al . (1982) 1  	122 	Monteith (1979) 1  	191 	Wartluft (1977) 3   
+54 	Feller (1992) 1  	123 	Moore and Verspoor (1973) 1  	192 	Weaver and Forcella (1977)   
+55 	Fortier et al . (2010)  	124 	Morrison (1990) 1  	193 	Weetman and Harland (1964) 4   
+56 	Freedman (1984) 1  	125 	Naidu et al . (1998) 4  	194 	Westman (1987) 1   
+57 	Freedman et al . (1982) 1  	126 	Navar (2009)  	195 	Westman and Whittaker (1975)   
+58 	Gary (1976) 5  	127 	Nelson and Switzer (1975) 1  	196 	Whisenant and Burzlaff (1978) 4   
+59 	Gholz et al . (1979) 1  	128 	Nicholas (1992)  	197 	Whittaker and Niering (1975)   
+60 	Gholz et al . (1991)  	129 	Norris et al . (2001)  	198 	Whittaker and Woodwell (1968) 1   
+61 	Gilmore and Zenner (2005) 5  	130 	Omdal et al . (2001) 6  	199 	Whittaker et al . (1974) 4   
+62 	Goldsmith and Hocker (1978) 3  	131 	Ouellet (1983) 1  	200 	Wiant et al . (1977) 3   
+63 	Gower et al . (1987) 1  	132 	Ouimet et al . (2008) 6  	201 	Williams and McClenahen (1984) 1, 3   
+64 	Gower et al . (1992) 1  	133 	Parker and Schneider (1975) 1  	202 	Xing et al . (2005)   
+65 	Gower et al . (1993a)  	134 	Pastor and Bockheim (1981) 1  	203 	Yarie et al . (2007)   
+66 	Gower et al . (1993b)  	135 	Pastor et al . (1984) 1  	204 	Young et al . (1980) 1   
+67 	Gower et al . (1997)  	136 	Pearson et al . (1984) 4  	205 	Zabek and Prescott (2006) 2, 3   
+68 	Green and Grigal (1978) 1  	137 	Peichl and Arain (2007)  	206 	Zhou et al . (2011) 3   
+69 	Grier and Logan (1977)  	138 	Perala and Alban (1994) 4  	 	  
+ 
+1 Complete reference in Jenkins et al . (2003) . 
+ 
+2 Equations refit to eliminate height variable. 
+ 
+3 Foliage biomass taken from other similar studies. 
+ 
+4 Multiple studies combined or other equation modifications. 
+ 
+5 Study included component equations only, no total biomass. 
+ 
+6 Total biomass for root study taken from other similar studies. 
+ 
+7 Equations refit from author’s data. 
+Open in new tab 
+Pseudodata generation 
+ 
+We needed an estimate of aboveground biomass predicted from diameter that could be obtained from either a single equation or from the sum of component equations. After inclusion of modified equations, the final database for biomass meta-analyses included 2928 total or component equations for 129 species, from which we could assemble equations for 675 estimates of aboveground biomass and 82 estimates of belowground biomass. For each of the 2928 biomass equations, biomass values (pseudodata) were generated for diameters at equally spaced, ∼5-cm intervals within the diameter (dbh or drc) range of the trees used to develop the original equation. However, several modifications were made to this data generation rule. Minimum diameter (dbh or drc) was set at 3 cm because only a few studies included trees with a minimum diameter of <3 cm, whereas in about half the studies this parameter was ≥3 cm. For small diameter ranges, the ‘5-cm interval rule’ was modified to include a minimum number of pseudodata values. Four pseudodata values were generated for diameter ranges between 10 and 14 cm; 3 between 5 and 9 cm; and 2 between 3 and 5 cm. The number of pseudodata values for very large diameter ranges was restricted so as to not exceed the sample size of the original study; this increased diameter intervals in 8 studies generally to between 6 and 8 cm, with extremes of 11 and 15 cm. Of the total 21 521 pseudodata values generated in the study, the median number of pseudodata values generated per equation was 6. 
+ 
+After applying stump adjustments (as described above), pseudodata from each study's equations were used directly in regression meta-analyses, except for studies where biomass equations were reported for individual treatments within a designed experiment. For 8 such studies, pseudodata were averaged for each diameter across all treatments – essentially generating only one equation per species with these pseudodata. In addition to aboveground biomass equations, 34 per cent of the studies reported biomass component equations that also added to total aboveground biomass; for these studies we selected the estimate based on the aboveground biomass equation. 
+ 
+After summarizing all the pseudodata (combining components, averaging treatments, selecting best estimates and adjusting for stumps), we had 5031 pseudodata values for modeling aboveground biomass (as function of dbh) for 129 species or species groups – with 48 and 28 per cent of the pseudodata coming from equations developed for the eastern and western US, respectively, and 24 per cent from equations developed for Canada. 
+ 
+Although our database is structured to allow interested researchers to pursue modeling of biomass component equations, in this study we generated pseudodata only for root components, which were modeled as a ratio of aboveground biomass. A ratio model was used because it seemed to be the most consistent way to extrapolate our limited root data to many species. However, of the 82 root equations, 17 (from 10 studies) needed accompanying aboveground biomass pseudodata because only roots were measured (see Table  1 ). This was obtained by assembling aboveground biomass pseudodata from similar species in the other pseudodata, with stump corrections conducted as described above in definitions. A total of 700 pseudodata values for 39 species or species groups were generated for root component ratios. 
+Construction of above- and belowground biomass models 
+ 
+In our previous work ( Jenkins et al ., 2003 ), the pseudodata essentially drove classification of species into groups for regression modeling. But the ability to synthesize more than 300 equations into only 10 generalized equations suggested an underlying principle was at work, such as allometric scaling theory ( Chojnacky, 2002 ). This generalized theory (see, e.g. West et al ., 1997 , 1999a , 1999b , 2009 ; Enquist et al ., 1998 , 1999 , 2009 ) uses fractal dimensions of tree architecture and physics of fluid transport up a tree to produce a generalized aboveground biomass model; the biomass equation utilizes a diameter-to-mass scaling relationship, where primary predictor variables are diameter and mean specific gravity of the entire tree . Although we make no attempt to directly apply allometric scaling theory, we do include the importance of specific gravity in our formulation. Chave et al . (2005) also support the importance of specific gravity for aboveground biomass estimation. 
+ 
+Although specific gravity of wood is likely correlated with the mean specific gravity of entire tree (a parameter that is seldom measured), it did not make sense to directly use it in our modeling because differences in specific gravity as reported by various authors for stem sapwood, heartwood, bark, branches and/or tree sizes within an individual species often range from 0.05 to more than 0.10 units ( Wahlgren and Fassnacht, 1959 ; Carpenter, 1983 ; Clark and Schroeder, 1986 ; Clark et al ., 1986a ). Instead the relative similarity of the specific gravity of tree species within genera and/or families led us to use taxonomy as an initial proxy for mean specific gravity of entire tree – but we also allowed for further splits into specific gravity classes when specific gravity was highly dissimilar within these taxonomic groupings. In this way we were able to utilize the principles of allometric scaling theory without having to precisely measure the mean specific gravity of entire tree . For example, Salicaceae (aspen/willow/poplar) species tend to be low in specific gravity whereas Fagaceae (oak/beech) tend to be high. For the purposes of our modeling, we used the words ‘taxon’ or ‘taxa’ to refer to a classification based on family or genus, although these were sometimes further split into groups based on specific gravity. 
+Classifying pseudodata into taxa 
+ 
+Classification into taxa and modeling of pseudodata were conducted concurrently because final grouping was based largely on regression results and diagnostics for finding the best data fit. However, our classification strategy is outlined here, with detailed modeling results discussed below. We began with a genus-based classification for conifer species, but for hardwoods, because there were so many genera, family was the starting point. Family was also used for initial classification of woodland species. Further separation was conducted based on specific gravity, sample size (i.e. quantity of pseudodata, numbers of underlying equations and diameter range of equations), and coarse geography (eastern vs western North America). Specific gravity was included in our database as previously described; for conifer species it ranged from 0.29 to 0.54 (most 0.35–0.45), for hardwoods from 0.31 to 0.66 (most 0.40–0.60), and for woodland species from 0.41–0.81. Final classification into taxa was an iterative process based on observing biomass-to-dbh patterns (from graphs), testing regression coefficients (using robust logarithmic regression described in more detail below), and observing regression residual patterns. In the end, 35 taxa – 13 conifers, 18 hardwood, and 4 woodland – were identified for one or more unique parameters in predicting biomass. 
+ 
+Conifer species were initially separated into 6 genera and the Cupressaceae family (Table  2 ). Further separation was made for the Cupressaceae family and for the genera Abies , Picea , Pinus and Tsuga based on geography and specific gravity. (Only two US coniferous genera – Taxus and Torreya – were missing from our taxa classification scheme; we suggest using Douglas-fir or hemlock genera equations for these.) 
+Table 2 
+ 
+Thirteen taxa groupings for 265 biomass equations for 45 conifer species (or species groups), with diameter range given for all equations of each species or group 
+Taxa .  	Genus and species .  	Common name .  	FIA species code .  	Wood specific gravity .  	No. of equations .  	dbh range (cm) .  	Literature reference no. (see Table 1 ) .  
+Abies < 0.35 spg* 	Abies balsamea  	Fir, balsam 	12 	0.33 	12 	3–51 	9,57,82,94,95,96,103,112,138,202,204  
+A. fraseri  	Fir, Fraser 	16 	0.33 	1 	7–25 	128  
+A. lasiocarpa  	Fir, subalpine 	19 	0.31 	7 	3–69 	20,23,47,103,119,175,190  
+Abies ≥ 0.35 spg 	A. amabilis  	Fir, Pacific silver 	11 	0.40 	4 	4–109 	59,102,119,175  
+A. concolor  	Fir, white 	15 	0.37 	2 	7–158 	119,194  
+A. grandis  	Fir, grand 	17 	0.35 	3 	3–71 	20,47,175  
+A. magnifica  	Fir, California red 	20 	0.36 	2 	19–143 	119,194  
+A. procera  	Fir, noble 	22 	0.37 	2 	16–236 	59,119  
+Abies spp .  	Fir, Pacific silver-noble-other 	10 	0.39 	1 	9–111 	59  
+Cupressaceae < 0.30 spg 	Thuja occidentalis  	Cedar, northern white 	241 	0.29 	6 	3–66 	93,103,138,148,204  
+Cupressaceae 0.30–0.39 spg 	Calocedrus decurrens  	incense-cedar 	81 	0.35 	1 	25–144 	119  
+Sequoiadendron giganteum  	Sequoia, giant 	212 	0.34 	1 	97–614 	119  
+T. plicata  	Cedar, western red 	242 	0.31 	8 	3–169 	1,20,47,54,59,119,175  
+Cupressaceae ≥ 0.40 spg 	Chamaecyparis nootkatensis  	Cedar, Alaska 	42 	0.42 	2 	8–109 	119,175  
+Juniperus virginiana  	Juniper, eastern redcedar 	68 	0.44 	4 	3–43 	103,129,162,206  
+Larix 	Larix laricina  	Tamarack 	71 	0.49 	6 	3–51 	25,94,103,168,204  
+L. occidentalis  	Tamarack, western larch 	73 	0.48 	4 	3–98 	20,47,63,175  
+L. spp. 	Tamarack, larch (introduced) 	70 	0.49 	1 	6–35 	66  
+Picea < 0.35 spg 	Picea engelmannii  	Spruce, Engelmann 	93 	0.33 	5 	3–90 	20,47,104,119,175  
+P. sitchensis  	Spruce, Sitka 	98 	0.33 	3 	5–283 	16,119,175  
+Picea ≥ 0.35 spg 	P.abies  	Spruce, Norway 	91 	0.36 	2 	6–44 	66,89  
+P. glauca  	Spruce, white 	94 	0.37 	12 	3–58 	9,57,73,94,95,96,103,138,143,168,175,203  
+P. mariana  	Spruce, black 	95 	0.38 	21 	3–40 	8,43,57,67,72,94,103,113,116,123,131,138,149,168,175,193,203  
+P. rubens  	Spruce, red 	97 	0.37 	11 	3–72 	57,95,103,112,122,128,167,172,199,204  
+Pinus < 0.45 spg 	Pinus albicaulis  	Pine, whitebark 	101 	0.43 	2 	3–50 	20,23  
+P. arizonica  	Pine, Arizona 	135 	0.43 	1 	10–45 	126  
+P. banksiana  	Pine, jack 	105 	0.40 	15 	3–41 	3,40,67,68,79,94,95,103,112,116,138,168  
+P. contorta  	Pine, lodgepole 	108 	0.38 	11 	3–60 	20,47,63,103,119,136,147,175,182,195  
+P. jeffreyi  	Pine, Jeffrey 	116 	0.37 	2 	3–133 	118,119  
+P. lambertiana  	Pine, sugar 	117 	0.34 	3 	3–180 	69,118,119  
+P. leiophylla  	Pine, Chihuahua 	118 	0.43 	1 	10–35 	126  
+P. monticola  	Pine, western white 	119 	0.36 	2 	4–115 	47,175  
+P. ponderosa  	Pine, ponderosa 	122 	0.38 	9 	3–118 	20,22,47,59,65,92,119,175  
+P. resinosa  	Pine, red 	125 	0.41 	9 	3–55 	3,14,65,66,94,100,103,138,204  
+Pinus spp. 	Pine, ponderosa-lodgepole-sugar 	100 	0.37 	1 	16–80 	59  
+P. strobus  	Pine, eastern white 	129 	0.34 	14 	3–69 	66,81,93,98,103,112,122,135,137,138,172,178,204  
+Pinus ≥ 0.45 spg 	P. echinata  	Pine, shortleaf 	110 	0.47 	3 	4–50 	32,158,172  
+P. elliottii  	Pine, slash 	111 	0.54 	4 	3–53 	32,60,87  
+P. palustris  	Pine, longleaf 	121 	0.54 	1 	15–48 	32  
+P. rigida  	Pine, pitch 	126 	0.47 	1 	3–31 	198  
+P. taeda  	Pine, loblolly 	131 	0.47 	19 	3–56 	2,5,32,87,125,127,145,157,160,172,185,186  
+Pseudotsuga 	Pseudotsuga menziesii  	Douglas-fir 	202 	0.45 	23 	3–215 	7,20,47,50,54,59,63,64,69,70,77,80,114,119,139,142,174,175  
+Tsuga < 0.40 spg 	Tsuga canadensis  	Hemlock, eastern 	261 	0.38 	9 	3–85 	17,21,81,93,103,122,172,204  
+Tsuga ≥ 0.40 spg 	T. heterophylla  	Hemlock, western 	263 	0.42 	10 	3–172 	20,47,69,77,102,119,159,175  
+T. mertensiana  	Hemlock, mountain 	264 	0.42 	4 	9–126 	59,102,119,175  
+ 
+*Where spg is specific gravity of wood of on green volume to dry-weight basis. 
+Open in new tab 
+Table 2 
+ 
+Thirteen taxa groupings for 265 biomass equations for 45 conifer species (or species groups), with diameter range given for all equations of each species or group 
+Taxa .  	Genus and species .  	Common name .  	FIA species code .  	Wood specific gravity .  	No. of equations .  	dbh range (cm) .  	Literature reference no. (see Table 1 ) .  
+Abies < 0.35 spg* 	Abies balsamea  	Fir, balsam 	12 	0.33 	12 	3–51 	9,57,82,94,95,96,103,112,138,202,204  
+A. fraseri  	Fir, Fraser 	16 	0.33 	1 	7–25 	128  
+A. lasiocarpa  	Fir, subalpine 	19 	0.31 	7 	3–69 	20,23,47,103,119,175,190  
+Abies ≥ 0.35 spg 	A. amabilis  	Fir, Pacific silver 	11 	0.40 	4 	4–109 	59,102,119,175  
+A. concolor  	Fir, white 	15 	0.37 	2 	7–158 	119,194  
+A. grandis  	Fir, grand 	17 	0.35 	3 	3–71 	20,47,175  
+A. magnifica  	Fir, California red 	20 	0.36 	2 	19–143 	119,194  
+A. procera  	Fir, noble 	22 	0.37 	2 	16–236 	59,119  
+Abies spp .  	Fir, Pacific silver-noble-other 	10 	0.39 	1 	9–111 	59  
+Cupressaceae < 0.30 spg 	Thuja occidentalis  	Cedar, northern white 	241 	0.29 	6 	3–66 	93,103,138,148,204  
+Cupressaceae 0.30–0.39 spg 	Calocedrus decurrens  	incense-cedar 	81 	0.35 	1 	25–144 	119  
+Sequoiadendron giganteum  	Sequoia, giant 	212 	0.34 	1 	97–614 	119  
+T. plicata  	Cedar, western red 	242 	0.31 	8 	3–169 	1,20,47,54,59,119,175  
+Cupressaceae ≥ 0.40 spg 	Chamaecyparis nootkatensis  	Cedar, Alaska 	42 	0.42 	2 	8–109 	119,175  
+Juniperus virginiana  	Juniper, eastern redcedar 	68 	0.44 	4 	3–43 	103,129,162,206  
+Larix 	Larix laricina  	Tamarack 	71 	0.49 	6 	3–51 	25,94,103,168,204  
+L. occidentalis  	Tamarack, western larch 	73 	0.48 	4 	3–98 	20,47,63,175  
+L. spp. 	Tamarack, larch (introduced) 	70 	0.49 	1 	6–35 	66  
+Picea < 0.35 spg 	Picea engelmannii  	Spruce, Engelmann 	93 	0.33 	5 	3–90 	20,47,104,119,175  
+P. sitchensis  	Spruce, Sitka 	98 	0.33 	3 	5–283 	16,119,175  
+Picea ≥ 0.35 spg 	P.abies  	Spruce, Norway 	91 	0.36 	2 	6–44 	66,89  
+P. glauca  	Spruce, white 	94 	0.37 	12 	3–58 	9,57,73,94,95,96,103,138,143,168,175,203  
+P. mariana  	Spruce, black 	95 	0.38 	21 	3–40 	8,43,57,67,72,94,103,113,116,123,131,138,149,168,175,193,203  
+P. rubens  	Spruce, red 	97 	0.37 	11 	3–72 	57,95,103,112,122,128,167,172,199,204  
+Pinus < 0.45 spg 	Pinus albicaulis  	Pine, whitebark 	101 	0.43 	2 	3–50 	20,23  
+P. arizonica  	Pine, Arizona 	135 	0.43 	1 	10–45 	126  
+P. banksiana  	Pine, jack 	105 	0.40 	15 	3–41 	3,40,67,68,79,94,95,103,112,116,138,168  
+P. contorta  	Pine, lodgepole 	108 	0.38 	11 	3–60 	20,47,63,103,119,136,147,175,182,195  
+P. jeffreyi  	Pine, Jeffrey 	116 	0.37 	2 	3–133 	118,119  
+P. lambertiana  	Pine, sugar 	117 	0.34 	3 	3–180 	69,118,119  
+P. leiophylla  	Pine, Chihuahua 	118 	0.43 	1 	10–35 	126  
+P. monticola  	Pine, western white 	119 	0.36 	2 	4–115 	47,175  
+P. ponderosa  	Pine, ponderosa 	122 	0.38 	9 	3–118 	20,22,47,59,65,92,119,175  
+P. resinosa  	Pine, red 	125 	0.41 	9 	3–55 	3,14,65,66,94,100,103,138,204  
+Pinus spp. 	Pine, ponderosa-lodgepole-sugar 	100 	0.37 	1 	16–80 	59  
+P. strobus  	Pine, eastern white 	129 	0.34 	14 	3–69 	66,81,93,98,103,112,122,135,137,138,172,178,204  
+Pinus ≥ 0.45 spg 	P. echinata  	Pine, shortleaf 	110 	0.47 	3 	4–50 	32,158,172  
+P. elliottii  	Pine, slash 	111 	0.54 	4 	3–53 	32,60,87  
+P. palustris  	Pine, longleaf 	121 	0.54 	1 	15–48 	32  
+P. rigida  	Pine, pitch 	126 	0.47 	1 	3–31 	198  
+P. taeda  	Pine, loblolly 	131 	0.47 	19 	3–56 	2,5,32,87,125,127,145,157,160,172,185,186  
+Pseudotsuga 	Pseudotsuga menziesii  	Douglas-fir 	202 	0.45 	23 	3–215 	7,20,47,50,54,59,63,64,69,70,77,80,114,119,139,142,174,175  
+Tsuga < 0.40 spg 	Tsuga canadensis  	Hemlock, eastern 	261 	0.38 	9 	3–85 	17,21,81,93,103,122,172,204  
+Tsuga ≥ 0.40 spg 	T. heterophylla  	Hemlock, western 	263 	0.42 	10 	3–172 	20,47,69,77,102,119,159,175  
+T. mertensiana  	Hemlock, mountain 	264 	0.42 	4 	9–126 	59,102,119,175  
+ 
+*Where spg is specific gravity of wood of on green volume to dry-weight basis. 
+Open in new tab 
+ 
+Aceraceae, Betulaceae, Fagaceae and Salicaceae comprised nearly three-fourths of the hardwood species (Table  3 ), so these families were initially separated out and considered for further separation based on specific gravity. Fabaceae and Juglandaceae had specific gravities >0.60 and were combined, as were Hippocastanaceae and Tilaceae with specific gravities near 0.30. The remaining 9 families, which included mostly species with specific gravity 0.45–0.55, were initially grouped to construct a general hardwood taxon for those families having few published biomass equations; however, 3 warranted separation, leaving 6 families for the general taxon. 
+Table 3 
+ 
+Eighteen taxa groupings for 388 biomass equations for 70 hardwood species (or species groups), with diameter range given for all equations for each species or group 
+Taxa .  	Family .  	Genus and species .  	Common name .  	FIA species code .  	Wood specific gravity .  	No. of equations .  	dbh range (cm) .  	Literature reference no. (see Table 1 ) .  
+Aceraceae < 0.50 spg* 	Aceraceae 	Acer macrophyllum  	Maple, bigleaf 	312 	0.44 	2 	5–46 	69,170  
+Aceraceae 	A. pensylvanicum  	Maple, striped 	315 	0.44 	3 	3–13 	81,85,204  
+Aceraceae 	A. rubrum  	Maple, red 	316 	0.49 	34 	3–66 	17,18,19,21,31,33,34,41,42,49,52,57,62,81,85,94,95,98,103,112,115,122,135,138,141,148,150,151,172,179,200,201,204  
+Aceraceae 	A. saccharinum  	Maple, silver 	317 	0.44 	1 	4–45 	103  
+Aceraceae 	A. spicatum  	Maple, mountain 	319 	0.47 	3 	3–10 	81,199,204  
+Aceraceae ≥ 0.50 spg 	Aceraceae 	A. saccharum  	Maple, sugar 	318 	0.56 	24 	3–70 	11,17,21,27,41,52,57,62,81,93,103,122,124,134,135,138,151,167,172,199,201,204  
+Betulaceae < 0.40 spg 	Betulaceae 	Alnus rubra  	Alder, red 	351 	0.37 	9 	3–64 	12,80,119,133,151,170,175,204  
+ 	Betulaceae 	A. spp. 	Alder, sitka 	350 	0.37 	1 	3–7 	13  
+Betulaceae 0.40–0.49 spg 	Betulaceae 	Betula papyrifera  	Birch, paper 	375 	0.48 	23 	3–51 	9,41,52,57,62,81,88,94,95,98,103,112,138,148,151,161,175,189,190,203,204  
+Betulaceae 	B. populifolia  	Birch, gray 	379 	0.45 	6 	3–23 	81,94,103,151,204  
+Betulaceae 0.50–0.59 spg 	Betulaceae 	B. alleghaniensis  	Birch, yellow 	371 	0.55 	16 	3–70 	17,52,57,93,103,122,124,128,135,138,148,151,167,199,204  
+Betulaceae ≥ 0.60 spg 	Betulaceae 	B. lenta  	Birch, sweet 	372 	0.60 	7 	3–47 	17,21,31,81,85,115,172  
+Betulaceae 	Ostrya virginiana  	Hophornbeam 	701 	0.63 	4 	3–21 	81,103,138,148  
+Cornaceae/Ericaceae/ Lauraceae/Platanaceae/ Rosaceae/Ulmaceae 1  	Cornaceae 	Cornus florida  	Dogwood 	491 	0.64 	5 	3–12 	15,49,115,141,172  
+Cornaceae 	Nyssa aquatica  	Tupelo, water 	691 	0.46 	1 	3–25 	33  
+Cornaceae 	N. sylvatica  	Tupelo, blackgum 	693 	0.46 	5 	3–50 	31,33,141,150,201  
+Ericaceae 	Arbutus menziesii  	Madrone, Pacific 	361 	0.58 	2 	3–64 	74,170  
+Ericaceae 	Oxydendrum arboreum  	Sourwood 	711 	0.50 	3 	4–35 	85,115,141  
+Ericaceae 	Umbellularia californica  	California bay laurel 	981 	0.51 	1 	8–61 	39  
+Lauraceae 	Sassafras albidum  	Sassafras 	931 	0.42 	3 	3–15 	85,172,201  
+Platanaceae 	Platanus occidentalis  	Sycamore 	731 	0.46 	2 	3–50 	34,45  
+Rosaceae 	Amelanchier spp. 	Serviceberry 	356 	0.66 	2 	3–25 	148,172  
+Rosaceae 	Prunus pensylvanica  	Cherry, pin 	761 	0.47 	9 	3–42 	21,52,81,85,112,151,172,204  
+Rosaceae 	P. serotina  	Cherry, black 	762 	0.47 	5 	3–50 	17,85,103,200,201  
+Rosaceae 	P. virginiana  	Cherry, Chokecherry 	763 	0.47 	3 	3–15 	151,204  
+Rosaceae 	Sorbus americana  	Sorbus, mtn. ash 	935 	0.60 	1 	7–26 	172  
+Ulmaceae 	Ulmus americana  	Elm 	972 	0.46 	3 	3–55 	103,138,148  
+Ulmaceae 	U. spp. 	Elm 	970 	0.54 	1 	3–27 	34  
+Fabaceae/Juglandaceae, Carya 	Juglandaceae 	Carya illinoinensis  	Pecan 	404 	0.60 	1 	22–33 	169  
+Juglandaceae 	C. ovata  	Hickory, shagbark 	407 	0.64 	1 	5–43 	17  
+Juglandaceae 	Carya spp. 	Hickory 	400 	0.62 	11 	3–70 	31,33,34,35,103,115,141,146,163,172,200  
+Fabaceae/Juglandaceae, other 	Fabaceae 	Robinia pseudoacacia  	Locust, black 	901 	0.66 	2 	4–42 	31,49  
+Fagaceae, deciduous 	Fagaceae 	Castanea dentata  	Chestnut, American 	421 	0.40 	1 	3–32 	84  
+Fagaceae 	Fagus grandifolia  	Beech 	531 	0.56 	15 	3–66 	17,19,21,52,81,93,103,122,151,167,172,179,199,204  
+Fagaceae 	Quercus alba  	Oak, white 	802 	0.60 	14 	3–74 	17,18,31,33,34,35,103,115,141,146,148,172,198,200  
+Fagaceae 	Q. coccinea  	Oak, scarlet 	806 	0.60 	6 	3–56 	31,34,35,115,198,200  
+Fagaceae 	Q. ellipsoidalis  	Oak, pin 	809 	0.59 	1 	3–50 	148  
+Fagaceae 	Q. falcata  	Oak, red southern 	812 	0.52 	3 	3–56 	34,35,141  
+Fagaceae 	Q. macrocarpa  	Oak, bur 	823 	0.58 	1 	6–25 	138  
+Fagaceae 	Q. nigra  	Oak, water 	827 	0.56 	1 	3–51 	33  
+Fagaceae 	Q. prinus  	Oak, chestnut 	832 	0.57 	7 	3–58 	17,31,34,49,115,141,200  
+Fagaceae 	Q. rubra  	Oak, red northern 	833 	0.56 	18 	3–73 	17,21,27,31,49,62,66,81,98,103,115,122,135,138,146,179,200,204  
+Fagaceae 	Quercus spp. 	Oaks 	800 	0.59 	3 	3–73 	121,154,172  
+Fagaceae 	Q. stellata  	Oak, post 	835 	0.60 	2 	3–53 	35,141  
+Fagaceae 	Q. velutina  	Oak, black 	837 	0.56 	5 	3–89 	18,31,99,200,201  
+Fagaceae, evergreen 	Fagaceae 	Chrysolepis chrysophylla  	Chinkapin, golden 	431 	0.42 	2 	3–61 	69,170  
+Fagaceae 	Lithocarpus densiflorus  	Tanoak 	631 	0.58 	2 	3–66 	74,170  
+Fagaceae 	Q. douglasii  	Oak, blue 	807 	0.59 	1 	12–42 	91  
+Fagaceae 	Q. laurifolia  	Oak, laurel 	820 	0.56 	1 	3–44 	33  
+Fagaceae 	Q. minima  	Oak, dwarf live 	841 	0.59 	1 	3–3 	165  
+Hamamelidaceae 	Hamamelidaceae 	Liquidambar styraciflua  	Sweetgum 	611 	0.46 	6 	3–53 	33,34,35,45,141,172  
+Hippocastanaceae/ Tiliaceae 	Hippocastanaceae 	Aesculus flava  	Aesculus, yellow buckeye 	332 	0.33 	2 	8–56 	21,172  
+Tiliaceae 	Tilia americana  	Basswood 	951 	0.32 	7 	3–55 	17,31,51,81,103,138,204  
+Tiliaceae 	T. americana. var . heterophylla  	Basswood, white 	952 	0.32 	2 	8–33 	21,172  
+Magnoliaceae 	Magnoliaceae 	Liriodendron tulipifera  	Tulip poplar 	621 	0.40 	13 	3–65 	17,21,31,33,34,35,49,85,115,141,172,200,201  
+Magnoliaceae 	Magnolia fraseri  	Magnolia, Fraser 	655 	0.40 	1 	5–13 	85  
+Magnoliaceae 	M. virginiana  	Magnolia, sweetbay 	653 	0.42 	1 	3–19 	150  
+Oleaceae < 0.55 spg 	Oleaceae 	Fraxinus nigra  	Ash, black 	543 	0.45 	4 	3–43 	103,133,148,204  
+Oleaceae 	F. pennsylvanica  	Ash, green 	544 	0.53 	3 	3–42 	33,103,206  
+Oleaceae 	Fraxinus spp. 	Ash 	540 	0.51 	2 	4–32 	138,172  
+Oleaceae ≥ 0.55 spg 	Oleaceae 	F. americana  	Ash, white 	541 	0.55 	7 	3–55 	17,31,93,103,122,201,204  
+Salicaceae < 0.35 spg 	Salicaceae 	Populus balsamifera  	Populus, balasm poplar 	741 	0.31 	6 	3–53 	10,103,116,138,168,203  
+Salicaceae 	P.balsamifera. ssp. trichocarpa  	Populus, black Cottonwood 	747 	0.31 	1 	5–32 	175  
+Salicaceae 	Populus spp. 	Populus, cottonwood 	740 	0.34 	3 	3–40 	152,183,205  
+Salicaceae ≥ 0.35 spg 	Salicaceae 	P. deltoides  	Populus, cottonwood eastern 	742 	0.37 	1 	3–27 	26  
+Salicaceae 	P. grandidentata  	Populus, aspen bigtooth 	743 	0.36 	6 	3–55 	57,101,103,122,138,201  
+Salicaceae 	Populus spp. 	Populus, cottonwood 	740 	0.35 	2 	4–38 	55,110  
+Salicaceae 	P. tremuloides  	Populus, aspen quaking 	746 	0.35 	36 	3–70 	10,24,57,62,67,81,86,94,95,103,108,112,113,116,134,135,138,140,144,151,155,156,166,168,175,179,188,203,204  
+Salicaceae 	Salix alba  	Willow, white 	927 	0.36 	1 	3–4 	4  
+Salicaceae 	Salix spp. 	Willow 	920 	0.36 	6 	3–23 	4,151,204  
+ 
+*Where spg is specific gravity of wood of on green volume to dry-weight basis. 
+ 
+1 Might also use this equation for species not included in table, unless specific gravity more closely related to another taxon. 
+Open in new tab 
+Table 3 
+ 
+Eighteen taxa groupings for 388 biomass equations for 70 hardwood species (or species groups), with diameter range given for all equations for each species or group 
+Taxa .  	Family .  	Genus and species .  	Common name .  	FIA species code .  	Wood specific gravity .  	No. of equations .  	dbh range (cm) .  	Literature reference no. (see Table 1 ) .  
+Aceraceae < 0.50 spg* 	Aceraceae 	Acer macrophyllum  	Maple, bigleaf 	312 	0.44 	2 	5–46 	69,170  
+Aceraceae 	A. pensylvanicum  	Maple, striped 	315 	0.44 	3 	3–13 	81,85,204  
+Aceraceae 	A. rubrum  	Maple, red 	316 	0.49 	34 	3–66 	17,18,19,21,31,33,34,41,42,49,52,57,62,81,85,94,95,98,103,112,115,122,135,138,141,148,150,151,172,179,200,201,204  
+Aceraceae 	A. saccharinum  	Maple, silver 	317 	0.44 	1 	4–45 	103  
+Aceraceae 	A. spicatum  	Maple, mountain 	319 	0.47 	3 	3–10 	81,199,204  
+Aceraceae ≥ 0.50 spg 	Aceraceae 	A. saccharum  	Maple, sugar 	318 	0.56 	24 	3–70 	11,17,21,27,41,52,57,62,81,93,103,122,124,134,135,138,151,167,172,199,201,204  
+Betulaceae < 0.40 spg 	Betulaceae 	Alnus rubra  	Alder, red 	351 	0.37 	9 	3–64 	12,80,119,133,151,170,175,204  
+ 	Betulaceae 	A. spp. 	Alder, sitka 	350 	0.37 	1 	3–7 	13  
+Betulaceae 0.40–0.49 spg 	Betulaceae 	Betula papyrifera  	Birch, paper 	375 	0.48 	23 	3–51 	9,41,52,57,62,81,88,94,95,98,103,112,138,148,151,161,175,189,190,203,204  
+Betulaceae 	B. populifolia  	Birch, gray 	379 	0.45 	6 	3–23 	81,94,103,151,204  
+Betulaceae 0.50–0.59 spg 	Betulaceae 	B. alleghaniensis  	Birch, yellow 	371 	0.55 	16 	3–70 	17,52,57,93,103,122,124,128,135,138,148,151,167,199,204  
+Betulaceae ≥ 0.60 spg 	Betulaceae 	B. lenta  	Birch, sweet 	372 	0.60 	7 	3–47 	17,21,31,81,85,115,172  
+Betulaceae 	Ostrya virginiana  	Hophornbeam 	701 	0.63 	4 	3–21 	81,103,138,148  
+Cornaceae/Ericaceae/ Lauraceae/Platanaceae/ Rosaceae/Ulmaceae 1  	Cornaceae 	Cornus florida  	Dogwood 	491 	0.64 	5 	3–12 	15,49,115,141,172  
+Cornaceae 	Nyssa aquatica  	Tupelo, water 	691 	0.46 	1 	3–25 	33  
+Cornaceae 	N. sylvatica  	Tupelo, blackgum 	693 	0.46 	5 	3–50 	31,33,141,150,201  
+Ericaceae 	Arbutus menziesii  	Madrone, Pacific 	361 	0.58 	2 	3–64 	74,170  
+Ericaceae 	Oxydendrum arboreum  	Sourwood 	711 	0.50 	3 	4–35 	85,115,141  
+Ericaceae 	Umbellularia californica  	California bay laurel 	981 	0.51 	1 	8–61 	39  
+Lauraceae 	Sassafras albidum  	Sassafras 	931 	0.42 	3 	3–15 	85,172,201  
+Platanaceae 	Platanus occidentalis  	Sycamore 	731 	0.46 	2 	3–50 	34,45  
+Rosaceae 	Amelanchier spp. 	Serviceberry 	356 	0.66 	2 	3–25 	148,172  
+Rosaceae 	Prunus pensylvanica  	Cherry, pin 	761 	0.47 	9 	3–42 	21,52,81,85,112,151,172,204  
+Rosaceae 	P. serotina  	Cherry, black 	762 	0.47 	5 	3–50 	17,85,103,200,201  
+Rosaceae 	P. virginiana  	Cherry, Chokecherry 	763 	0.47 	3 	3–15 	151,204  
+Rosaceae 	Sorbus americana  	Sorbus, mtn. ash 	935 	0.60 	1 	7–26 	172  
+Ulmaceae 	Ulmus americana  	Elm 	972 	0.46 	3 	3–55 	103,138,148  
+Ulmaceae 	U. spp. 	Elm 	970 	0.54 	1 	3–27 	34  
+Fabaceae/Juglandaceae, Carya 	Juglandaceae 	Carya illinoinensis  	Pecan 	404 	0.60 	1 	22–33 	169  
+Juglandaceae 	C. ovata  	Hickory, shagbark 	407 	0.64 	1 	5–43 	17  
+Juglandaceae 	Carya spp. 	Hickory 	400 	0.62 	11 	3–70 	31,33,34,35,103,115,141,146,163,172,200  
+Fabaceae/Juglandaceae, other 	Fabaceae 	Robinia pseudoacacia  	Locust, black 	901 	0.66 	2 	4–42 	31,49  
+Fagaceae, deciduous 	Fagaceae 	Castanea dentata  	Chestnut, American 	421 	0.40 	1 	3–32 	84  
+Fagaceae 	Fagus grandifolia  	Beech 	531 	0.56 	15 	3–66 	17,19,21,52,81,93,103,122,151,167,172,179,199,204  
+Fagaceae 	Quercus alba  	Oak, white 	802 	0.60 	14 	3–74 	17,18,31,33,34,35,103,115,141,146,148,172,198,200  
+Fagaceae 	Q. coccinea  	Oak, scarlet 	806 	0.60 	6 	3–56 	31,34,35,115,198,200  
+Fagaceae 	Q. ellipsoidalis  	Oak, pin 	809 	0.59 	1 	3–50 	148  
+Fagaceae 	Q. falcata  	Oak, red southern 	812 	0.52 	3 	3–56 	34,35,141  
+Fagaceae 	Q. macrocarpa  	Oak, bur 	823 	0.58 	1 	6–25 	138  
+Fagaceae 	Q. nigra  	Oak, water 	827 	0.56 	1 	3–51 	33  
+Fagaceae 	Q. prinus  	Oak, chestnut 	832 	0.57 	7 	3–58 	17,31,34,49,115,141,200  
+Fagaceae 	Q. rubra  	Oak, red northern 	833 	0.56 	18 	3–73 	17,21,27,31,49,62,66,81,98,103,115,122,135,138,146,179,200,204  
+Fagaceae 	Quercus spp. 	Oaks 	800 	0.59 	3 	3–73 	121,154,172  
+Fagaceae 	Q. stellata  	Oak, post 	835 	0.60 	2 	3–53 	35,141  
+Fagaceae 	Q. velutina  	Oak, black 	837 	0.56 	5 	3–89 	18,31,99,200,201  
+Fagaceae, evergreen 	Fagaceae 	Chrysolepis chrysophylla  	Chinkapin, golden 	431 	0.42 	2 	3–61 	69,170  
+Fagaceae 	Lithocarpus densiflorus  	Tanoak 	631 	0.58 	2 	3–66 	74,170  
+Fagaceae 	Q. douglasii  	Oak, blue 	807 	0.59 	1 	12–42 	91  
+Fagaceae 	Q. laurifolia  	Oak, laurel 	820 	0.56 	1 	3–44 	33  
+Fagaceae 	Q. minima  	Oak, dwarf live 	841 	0.59 	1 	3–3 	165  
+Hamamelidaceae 	Hamamelidaceae 	Liquidambar styraciflua  	Sweetgum 	611 	0.46 	6 	3–53 	33,34,35,45,141,172  
+Hippocastanaceae/ Tiliaceae 	Hippocastanaceae 	Aesculus flava  	Aesculus, yellow buckeye 	332 	0.33 	2 	8–56 	21,172  
+Tiliaceae 	Tilia americana  	Basswood 	951 	0.32 	7 	3–55 	17,31,51,81,103,138,204  
+Tiliaceae 	T. americana. var . heterophylla  	Basswood, white 	952 	0.32 	2 	8–33 	21,172  
+Magnoliaceae 	Magnoliaceae 	Liriodendron tulipifera  	Tulip poplar 	621 	0.40 	13 	3–65 	17,21,31,33,34,35,49,85,115,141,172,200,201  
+Magnoliaceae 	Magnolia fraseri  	Magnolia, Fraser 	655 	0.40 	1 	5–13 	85  
+Magnoliaceae 	M. virginiana  	Magnolia, sweetbay 	653 	0.42 	1 	3–19 	150  
+Oleaceae < 0.55 spg 	Oleaceae 	Fraxinus nigra  	Ash, black 	543 	0.45 	4 	3–43 	103,133,148,204  
+Oleaceae 	F. pennsylvanica  	Ash, green 	544 	0.53 	3 	3–42 	33,103,206  
+Oleaceae 	Fraxinus spp. 	Ash 	540 	0.51 	2 	4–32 	138,172  
+Oleaceae ≥ 0.55 spg 	Oleaceae 	F. americana  	Ash, white 	541 	0.55 	7 	3–55 	17,31,93,103,122,201,204  
+Salicaceae < 0.35 spg 	Salicaceae 	Populus balsamifera  	Populus, balasm poplar 	741 	0.31 	6 	3–53 	10,103,116,138,168,203  
+Salicaceae 	P.balsamifera. ssp. trichocarpa  	Populus, black Cottonwood 	747 	0.31 	1 	5–32 	175  
+Salicaceae 	Populus spp. 	Populus, cottonwood 	740 	0.34 	3 	3–40 	152,183,205  
+Salicaceae ≥ 0.35 spg 	Salicaceae 	P. deltoides  	Populus, cottonwood eastern 	742 	0.37 	1 	3–27 	26  
+Salicaceae 	P. grandidentata  	Populus, aspen bigtooth 	743 	0.36 	6 	3–55 	57,101,103,122,138,201  
+Salicaceae 	Populus spp. 	Populus, cottonwood 	740 	0.35 	2 	4–38 	55,110  
+Salicaceae 	P. tremuloides  	Populus, aspen quaking 	746 	0.35 	36 	3–70 	10,24,57,62,67,81,86,94,95,103,108,112,113,116,134,135,138,140,144,151,155,156,166,168,175,179,188,203,204  
+Salicaceae 	Salix alba  	Willow, white 	927 	0.36 	1 	3–4 	4  
+Salicaceae 	Salix spp. 	Willow 	920 	0.36 	6 	3–23 	4,151,204  
+ 
+*Where spg is specific gravity of wood of on green volume to dry-weight basis. 
+ 
+1 Might also use this equation for species not included in table, unless specific gravity more closely related to another taxon. 
+Open in new tab 
+ 
+Pseudodata for woodland species separated naturally into family-based taxa including Cupressaceae (junipers), Pinaceae (pinyon), Fagaceae (evergreen oaks), Fabaceae (mesquite) and Rosaceae (mountain mahogany); but Fabaceae and Rosaceae were combined based on very high specific gravities and small numbers of pseudodata (studies) for each family (Table  4 ). (For woodland species not included in our pseudodata – hardwoods measured at drc (e.g. Acer glabrum , Arbutus xalapensis , Robinia neomexicana ) – we suggest drc be converted to dbh (Figure  1) to estimate biomass from the appropriate hardwood taxa equations). 
+Table 4 
+ 
+Four taxa groupings for 23 biomass equations for 15 woodland species (or species groups), with diameter range given for all equations of each species or group 
+Taxa .  	Family .  	Genus and species .  	Common name .  	FIA species code .  	Wood specific gravity .  	No. of equations .  	dbh range (cm) .  	Literature reference no. (see Table 1 ) .  
+Cupressaceae 	Cupressaceae 	Cupressus spp. 	Cypress, pygmy 	50 	0.41 	1 	4–12 	195  
+Cupressaceae 	J. monosperma  	Juniper, oneseed 	69 	0.58 	1 	5–45 	71  
+Cupressaceae 	J. occidentalis  	Juniper, western 	64 	0.45 	1 	5–87 	59  
+Cupressaceae 	J. osteosperma  	Juniper, Utah 	65 	0.54 	3 	8–85 	30,44,120  
+Fabaceae/Rosaceae 	Fabaceae 	Cercidium microphyllum  	Paloverde, yellow 	none 	0.60 	1 	10–25 	197  
+Fabaceae 	Prosopis spp. 	Mesquite 	755 	0.78 	4 	3–60 	48,53,106,196  
+Rosaceae 	Cercocarpus ledifolius  	Mountain mahogany 	475 	0.81 	1 	5–56 	29  
+Rosaceae 	C. montanus. var .pauciden  	Mountain Mahogany 	477 	0.81 	1 	3–5 	197  
+Fagaceae 	Fagaceae 	Q. douglasii  	Oak, blue 	807 	0.59 	1 	15–50 	91  
+Fagaceae 	Q. gambelii  	Oak, Gambel 	814 	0.61 	2 	3–32 	36,37  
+Fagaceae 	Q. hypoleucoides  	Oak, silverleaf 	843 	0.59 	1 	4–37 	197  
+Fagaceae 	Quercus (live) spp. 	Oak, evergreen spp. 	850 	0.58 	1 	9–74 	126  
+Pinaceae 	Pinaceae 	P. cembroides  	Pine, pinyon 	140 	0.51 	1 	4–19 	197  
+Pinaceae 	P. edulis  	Pine, pinyon 	106 	0.51 	2 	5–45 	44,71  
+Pinaceae 	P. monophylla  	Pine, pinyon singleleaf 	133 	0.51 	2 	3–75 	30,120  
+Open in new tab 
+Table 4 
+ 
+Four taxa groupings for 23 biomass equations for 15 woodland species (or species groups), with diameter range given for all equations of each species or group 
+Taxa .  	Family .  	Genus and species .  	Common name .  	FIA species code .  	Wood specific gravity .  	No. of equations .  	dbh range (cm) .  	Literature reference no. (see Table 1 ) .  
+Cupressaceae 	Cupressaceae 	Cupressus spp. 	Cypress, pygmy 	50 	0.41 	1 	4–12 	195  
+Cupressaceae 	J. monosperma  	Juniper, oneseed 	69 	0.58 	1 	5–45 	71  
+Cupressaceae 	J. occidentalis  	Juniper, western 	64 	0.45 	1 	5–87 	59  
+Cupressaceae 	J. osteosperma  	Juniper, Utah 	65 	0.54 	3 	8–85 	30,44,120  
+Fabaceae/Rosaceae 	Fabaceae 	Cercidium microphyllum  	Paloverde, yellow 	none 	0.60 	1 	10–25 	197  
+Fabaceae 	Prosopis spp. 	Mesquite 	755 	0.78 	4 	3–60 	48,53,106,196  
+Rosaceae 	Cercocarpus ledifolius  	Mountain mahogany 	475 	0.81 	1 	5–56 	29  
+Rosaceae 	C. montanus. var .pauciden  	Mountain Mahogany 	477 	0.81 	1 	3–5 	197  
+Fagaceae 	Fagaceae 	Q. douglasii  	Oak, blue 	807 	0.59 	1 	15–50 	91  
+Fagaceae 	Q. gambelii  	Oak, Gambel 	814 	0.61 	2 	3–32 	36,37  
+Fagaceae 	Q. hypoleucoides  	Oak, silverleaf 	843 	0.59 	1 	4–37 	197  
+Fagaceae 	Quercus (live) spp. 	Oak, evergreen spp. 	850 	0.58 	1 	9–74 	126  
+Pinaceae 	Pinaceae 	P. cembroides  	Pine, pinyon 	140 	0.51 	1 	4–19 	197  
+Pinaceae 	P. edulis  	Pine, pinyon 	106 	0.51 	2 	5–45 	44,71  
+Pinaceae 	P. monophylla  	Pine, pinyon singleleaf 	133 	0.51 	2 	3–75 	30,120  
+Open in new tab 
+Regression modeling of aboveground biomass 
+ 
+For regression modeling conducted simultaneously with the classification based on taxa as described above, we selected the two-parameter logarithmic regression model. It was selected because it rescales unequal variation in the biomass-to-diameter relationship into equal variation after logarithmic transformation [ln(biomass) = β 0 + β 1 ln(diameter), where diameter = dbh for conifer/hardwood species and drc for woodland species]. Also, this logarithmic model was the basis for most of the equations from which our pseudodata were generated. Regression modeling was conducted with Proc RobustReg (© SAS Institute Inc., 2011 ), which is a robust regression strategy that compromises between excluding outlying pseudodata entirely and treating them all equally as in Ordinary Least Squares regression. We used the M-estimation option (Maximum likelihood-like) which minimizes a weighted objective function – in this case, the bisquare weight, where all nonzero residuals were down-weighted (with weight between 1 and 0) in proportion to their distance from zero. This was particularly useful because our equation-generated observations (pseudodata) sometimes resulted in lines of points in divergent directions from the majority of other pseudodata: the weights captured the essence of these divergent equations (which we had no reason to exclude) and at the same time proportionately discounted outlying points. 
+ 
+Model fitting was conducted repeatedly, adjusting variable inclusions with each iteration to settle on taxa groupings (as described above), select specific gravity groups, and improve fit. Six factors were considered in final model selection: (1) statistical significance of model parameters, (2) favorable regression residual patterns, (3) avoidance of model extrapolation beyond data range, (4) Akaike Information Criterion (AIC) for robust regression, (5) sample size (numbers of equations as well as pseudodata number) and (6) geographic distribution of species (such as eastern or western North America). Nonsignificant parameters were not included in models but marginally significant parameters ( P -values between 0.02 and 0.05) that would have further split taxa were sometimes ignored if pseudodata seemed to be too limited based on sample size considerations. All significance testing was based on a χ 2 -statistic and significance level was set at 0.05 (for details on statistics see Proc RobustReg (© SAS Institute Inc., 2011 )). 
+ 
+We also tested, within the robust regression (using binary (0,1-indicator) variables), pseudodata from the 55 modified equations (described in the ‘Preliminary analyses and equation modifications’ section) against pseudodata generated directly from published equations. These tests were conducted within the range of dbh overlap for the two equation types; generally there were no significant differences except for Pseudotsuga which was highly significant (Prob χ 2 < 0.001). Even so, this did not seem sufficient cause to discard the pseudodata from ‘modified equations’ for Pseudotsuga because these data were only ∼10 per cent lower (from graph not shown) than pseudodata from ‘unmodified equations’ and there was no way of knowing which equations –'modified’ or ‘unmodified’ – were more accurate. Therefore, all pseudodata – whether from modified or unmodified equations – were used in final equation fitting. 
+ 
+Although our biomass modeling was based on logarithmic transformation of variables, we did not include a correction ( Baskerville, 1972 ) for underestimation. First, extending use of Baskerville's correction to pseudodata (generated from equations) seemed to be unwise without some justification. Second, correction procedures may in fact introduce their own bias (for further information, see Jenkins et al . (2003) and Flewelling and Pienaar (1981) ). The extensive research needed to determine if and how correction factors could be applied for this type of modeling was beyond the scope of our study. 
+Results 
+Aboveground biomass 
+Conifers 
+ 
+Regression analyses resulted in equations for 13 conifer taxa (Table  5 ). Modeling was done within the genus or family (e.g. the Cupressaceae). 
+Table 5 
+ 
+Aboveground biomass equation parameters for 13 conifer, 18 hardwood and 4 woodland taxa estimated from meta-analyses of 675 1 published equations, where (with biomass in kg and diameter in cm) the biomass equation is: ln (biomass) = β 0 + β 1 ln (diameter) 
+Group .  	Taxa .  	Median specific gravity .  	β 0 .  	β 1 .  	No. of pseudodata .  	No. of equations 1 .  	Diameter .  	Diameter range (cm) .  	R 2 - statistic .  
+Conifer 	Abies < 0.35 spg* 	0.33 	−2.3123 	2.3482 	131 	20 	dbh 	3–69 	0.75  
+Conifer 	Abies ≥ 0.35 spg 	0.37 	−3.1774 	2.6426 	221 	14 	dbh 	3–236 	0.75  
+Conifer 	Cupressaceae < 0.30 spg 	0.29 	−1.9615 	2.1063 	48 	6 	dbh 	3–66 	0.76  
+Conifer 	Cupressaceae 0.30–0.39 spg 	0.34 	−2.7765 	2.4195 	164 	10 	dbh 	3–614 	0.76  
+Conifer 	Cupressaceae ≥ 0.40 spg 	0.43 	−2.6327 	2.4757 	55 	6 	dbh 	3–109 	0.76  
+Conifer 	Larix 	0.49 	−2.3012 	2.3853 	84 	11 	dbh 	3–98 	0.85  
+Conifer 	Picea < 0.35 spg 	0.33 	−3.0300 	2.5567 	128 	8 	dbh 	3–283 	0.81  
+Conifer 	Picea ≥ 0.35 spg 	0.37 	−2.1364 	2.3233 	289 	46 	dbh 	3–72 	0.81  
+Conifer 	Pinus < 0.45 spg 	0.39 	−2.6177 	2.4638 	561 	70 	dbh 	3–180 	0.83  
+Conifer 	Pinus ≥ 0.45 spg 	0.47 	−3.0506 	2.6465 	162 	28 	dbh 	3–56 	0.83  
+Conifer 	Pseudotsuga 	0.45 	−2.4623 	2.4852 	253 	23 	dbh 	3–215 	0.86  
+Conifer 	Tsuga < 0.40 spg 	0.38 	−2.3480 	2.3876 	65 	9 	dbh 	3–85 	0.85  
+Conifer 	Tsuga ≥ 0.40 spg 	0.42 	−2.9208 	2.5697 	163 	14 	dbh 	3–172 	0.85  
+Hardwood 	Aceraceae < 0.50 spg 	0.44 	−2.0470 	2.3852 	243 	43 	dbh 	3–66 	0.84  
+Hardwood 	Aceraceae ≥ 0.50 spg 	0.56 	−1.8011 	2.3852 	200 	24 	dbh 	3–70 	0.84  
+Hardwood 	Betulaceae < 0.40 spg 	0.37 	−2.5932 	2.5349 	46 	10 	dbh 	3–64 	0.81  
+Hardwood 	Betulaceae 0.40–0.49 spg 	0.47 	−2.2271 	2.4513 	145 	29 	dbh 	3–51 	0.81  
+Hardwood 	Betulaceae 0.50–0.59 spg 	0.55 	−1.8096 	2.3480 	134 	16 	dbh 	3–70 	0.81  
+Hardwood 	Betulaceae ≥ 0.60 spg 	0.62 	−2.2652 	2.5349 	55 	11 	dbh 	3–47 	0.81  
+Hardwood 	Cornaceae/Ericaceae/ Lauraceae/Platanaceae/ Rosaceae/Ulmaceae 	0.47 	−2.2118 	2.4133 	231 	46 	dbh 	3–64 	0.79  
+Hardwood 	Fabaceae/Juglandaceae, Carya 	0.62 	−2.5095 	2.6175 	106 	13 	dbh 	3–70 	0.81  
+Hardwood 	Fabaceae/Juglandaceae, other 	0.66 	−2.5095 	2.5437 	14 	2 	dbh 	4–42 	0.81  
+Hardwood 	Fagaceae, deciduous 	0.57 	−2.0705 	2.4410 	606 	77 	dbh 	3–89 	0.84  
+Hardwood 	Fagaceae, evergreen 	0.58 	−2.2198 	2.4410 	54 	7 	dbh 	3–66 	0.84  
+Hardwood 	Hamamelidaceae 	0.46 	−2.6390 	2.5466 	44 	6 	dbh 	3–53 	0.79  
+Hardwood 	Hippocastanaceae/Tiliaceae 	0.32 	−2.4108 	2.4177 	77 	11 	dbh 	3–56 	0.83  
+Hardwood 	Magnoliaceae 	0.40 	−2.5497 	2.5011 	114 	15 	dbh 	3–65 	0.83  
+Hardwood 	Oleaceae < 0.55 spg 	0.51 	−2.0314 	2.3524 	54 	9 	dbh 	3–43 	0.84  
+Hardwood 	Oleaceae ≥ 0.55 spg 	0.55 	−1.8384 	2.3524 	49 	7 	dbh 	3–55 	0.84  
+Hardwood 	Salicaceae < 0.35 spg 	0.31 	−2.6863 	2.4561 	64 	10 	dbh 	3–53 	0.81  
+Hardwood 	Salicaceae ≥ 0.35 spg 	0.36 	−2.4441 	2.4561 	299 	52 	dbh 	3–70 	0.81  
+Woodland 	Cupressaceae 2  	0.50 	−2.7096 	2.1942 	57 	6 	drc 	4–87 	0.91  
+Woodland 	Fabaceae/Rosaceae 	0.80 	−2.9255 	2.4109 	41 	7 	drc 	3–60 	0.89  
+Woodland 	Fagaceae 	0.59 	−3.0304 	2.4982 	36 	5 	drc 	3–74 	0.84  
+Woodland 	Pinaceae 	0.51 	−3.2007 	2.5339 	45 	5 	drc 	3–75 	0.86  
+ 
+*Where spg is specific gravity of wood of on green volume to dry-weight basis. 
+ 
+1 Table totals 676 equations because blue oak equation was used for both woodland and hardwood. 
+ 
+2 As discussed in the text, woodland Cupressaceae (mostly juniper) equations seemed to predict low, possibly due to influence from early juniper diameter measurements. Another juniper equation fitted by adding pseudodata generated from unpublished studies (where drc was measured by current FIA definition) to those already utilized predicted 10–36% higher, depending on diameter [ln(biomass) = −2.7190 + 2.2598 ln(drc)]. The corresponding author (D.C.C.) welcomes inquiries for further information. 
+Open in new tab 
+Table 5 
+ 
+Aboveground biomass equation parameters for 13 conifer, 18 hardwood and 4 woodland taxa estimated from meta-analyses of 675 1 published equations, where (with biomass in kg and diameter in cm) the biomass equation is: ln (biomass) = β 0 + β 1 ln (diameter) 
+Group .  	Taxa .  	Median specific gravity .  	β 0 .  	β 1 .  	No. of pseudodata .  	No. of equations 1 .  	Diameter .  	Diameter range (cm) .  	R 2 - statistic .  
+Conifer 	Abies < 0.35 spg* 	0.33 	−2.3123 	2.3482 	131 	20 	dbh 	3–69 	0.75  
+Conifer 	Abies ≥ 0.35 spg 	0.37 	−3.1774 	2.6426 	221 	14 	dbh 	3–236 	0.75  
+Conifer 	Cupressaceae < 0.30 spg 	0.29 	−1.9615 	2.1063 	48 	6 	dbh 	3–66 	0.76  
+Conifer 	Cupressaceae 0.30–0.39 spg 	0.34 	−2.7765 	2.4195 	164 	10 	dbh 	3–614 	0.76  
+Conifer 	Cupressaceae ≥ 0.40 spg 	0.43 	−2.6327 	2.4757 	55 	6 	dbh 	3–109 	0.76  
+Conifer 	Larix 	0.49 	−2.3012 	2.3853 	84 	11 	dbh 	3–98 	0.85  
+Conifer 	Picea < 0.35 spg 	0.33 	−3.0300 	2.5567 	128 	8 	dbh 	3–283 	0.81  
+Conifer 	Picea ≥ 0.35 spg 	0.37 	−2.1364 	2.3233 	289 	46 	dbh 	3–72 	0.81  
+Conifer 	Pinus < 0.45 spg 	0.39 	−2.6177 	2.4638 	561 	70 	dbh 	3–180 	0.83  
+Conifer 	Pinus ≥ 0.45 spg 	0.47 	−3.0506 	2.6465 	162 	28 	dbh 	3–56 	0.83  
+Conifer 	Pseudotsuga 	0.45 	−2.4623 	2.4852 	253 	23 	dbh 	3–215 	0.86  
+Conifer 	Tsuga < 0.40 spg 	0.38 	−2.3480 	2.3876 	65 	9 	dbh 	3–85 	0.85  
+Conifer 	Tsuga ≥ 0.40 spg 	0.42 	−2.9208 	2.5697 	163 	14 	dbh 	3–172 	0.85  
+Hardwood 	Aceraceae < 0.50 spg 	0.44 	−2.0470 	2.3852 	243 	43 	dbh 	3–66 	0.84  
+Hardwood 	Aceraceae ≥ 0.50 spg 	0.56 	−1.8011 	2.3852 	200 	24 	dbh 	3–70 	0.84  
+Hardwood 	Betulaceae < 0.40 spg 	0.37 	−2.5932 	2.5349 	46 	10 	dbh 	3–64 	0.81  
+Hardwood 	Betulaceae 0.40–0.49 spg 	0.47 	−2.2271 	2.4513 	145 	29 	dbh 	3–51 	0.81  
+Hardwood 	Betulaceae 0.50–0.59 spg 	0.55 	−1.8096 	2.3480 	134 	16 	dbh 	3–70 	0.81  
+Hardwood 	Betulaceae ≥ 0.60 spg 	0.62 	−2.2652 	2.5349 	55 	11 	dbh 	3–47 	0.81  
+Hardwood 	Cornaceae/Ericaceae/ Lauraceae/Platanaceae/ Rosaceae/Ulmaceae 	0.47 	−2.2118 	2.4133 	231 	46 	dbh 	3–64 	0.79  
+Hardwood 	Fabaceae/Juglandaceae, Carya 	0.62 	−2.5095 	2.6175 	106 	13 	dbh 	3–70 	0.81  
+Hardwood 	Fabaceae/Juglandaceae, other 	0.66 	−2.5095 	2.5437 	14 	2 	dbh 	4–42 	0.81  
+Hardwood 	Fagaceae, deciduous 	0.57 	−2.0705 	2.4410 	606 	77 	dbh 	3–89 	0.84  
+Hardwood 	Fagaceae, evergreen 	0.58 	−2.2198 	2.4410 	54 	7 	dbh 	3–66 	0.84  
+Hardwood 	Hamamelidaceae 	0.46 	−2.6390 	2.5466 	44 	6 	dbh 	3–53 	0.79  
+Hardwood 	Hippocastanaceae/Tiliaceae 	0.32 	−2.4108 	2.4177 	77 	11 	dbh 	3–56 	0.83  
+Hardwood 	Magnoliaceae 	0.40 	−2.5497 	2.5011 	114 	15 	dbh 	3–65 	0.83  
+Hardwood 	Oleaceae < 0.55 spg 	0.51 	−2.0314 	2.3524 	54 	9 	dbh 	3–43 	0.84  
+Hardwood 	Oleaceae ≥ 0.55 spg 	0.55 	−1.8384 	2.3524 	49 	7 	dbh 	3–55 	0.84  
+Hardwood 	Salicaceae < 0.35 spg 	0.31 	−2.6863 	2.4561 	64 	10 	dbh 	3–53 	0.81  
+Hardwood 	Salicaceae ≥ 0.35 spg 	0.36 	−2.4441 	2.4561 	299 	52 	dbh 	3–70 	0.81  
+Woodland 	Cupressaceae 2  	0.50 	−2.7096 	2.1942 	57 	6 	drc 	4–87 	0.91  
+Woodland 	Fabaceae/Rosaceae 	0.80 	−2.9255 	2.4109 	41 	7 	drc 	3–60 	0.89  
+Woodland 	Fagaceae 	0.59 	−3.0304 	2.4982 	36 	5 	drc 	3–74 	0.84  
+Woodland 	Pinaceae 	0.51 	−3.2007 	2.5339 	45 	5 	drc 	3–75 	0.86  
+ 
+*Where spg is specific gravity of wood of on green volume to dry-weight basis. 
+ 
+1 Table totals 676 equations because blue oak equation was used for both woodland and hardwood. 
+ 
+2 As discussed in the text, woodland Cupressaceae (mostly juniper) equations seemed to predict low, possibly due to influence from early juniper diameter measurements. Another juniper equation fitted by adding pseudodata generated from unpublished studies (where drc was measured by current FIA definition) to those already utilized predicted 10–36% higher, depending on diameter [ln(biomass) = −2.7190 + 2.2598 ln(drc)]. The corresponding author (D.C.C.) welcomes inquiries for further information. 
+Open in new tab 
+ 
+The main advantage of splits within genera was better regression fit of pseudodata, often for small eastern-species trees. For Abies , Picea and Tsuga , specific gravity differences between eastern and western species nicely coincided with significant parameters, except for western Abies lasiocarpa which better fit with eastern Abies species. Larix included eastern and western species but similar specific gravities and few pseudodata patterns precluded separation. The large Pinus genus was difficult to model because it encompassed North America, included considerable pseudodata variation, and differed little in specific gravity from east to west (e.g. ponderosa pine pseudodata spanned the entire range of variation for all pines). Southern pine species ( Pinus subsection Australes ) with specific gravity ≥0.45 were an exception, and were separated from the rest. 
+ 
+Modeling the Cupressaceae family was more challenging. Our first inclination was to subset the well-represented Thuja genera and further separate eastern and western species based on specific gravity, as all showed significant test results, but this left too few pseudodata to model the rest–particularly for small trees. However, a three-tier specific-gravity-based compromise was found where the lowest specific gravity (<0.30) Thuja occidentalis was separated from the midrange specific gravity (0.30–0.39) Thuja placata and other western Cupressaceae, and those from the highest specific gravity (≥0.40) Cupressaceae. 
+ 
+Comparison of prediction equations for the 13 conifer taxa illustrates the importance of specific gravity in the biomass-to-diameter relationship (Figure  2 ). High-specific-gravity southern pines ( Pinus ≥ 0.45) and Douglas-fir ( Pseudotsuga ) show the most aboveground biomass for given diameter, low-specific-gravity Cupressaceae show the least, and although midrange trends are less clear, generally higher specific gravity is associated with more biomass for a given dbh. 
+Figure 2 
+Conifer aboveground biomass predicted from 13 taxa-scale equations that include all conifer genera in the US except those in the Taxaceae family (which can be approximated by Pseudotsuga). Some taxa are split according to specific gravity of wood (spg). Median specific gravity is also calculated for respective taxa. Legend lists taxa in order of curves at 50-cm dbh. Model is ln(biomass) = β0 + β1 ln(dbh). 
+Open in new tab Download slide 
+ 
+Conifer aboveground biomass predicted from 13 taxa-scale equations that include all conifer genera in the US except those in the Taxaceae family (which can be approximated by Pseudotsuga ). Some taxa are split according to specific gravity of wood (spg). Median specific gravity is also calculated for respective taxa. Legend lists taxa in order of curves at 50-cm dbh. Model is ln(biomass) = β 0 + β 1 ln(dbh). 
+Figure 2 
+Conifer aboveground biomass predicted from 13 taxa-scale equations that include all conifer genera in the US except those in the Taxaceae family (which can be approximated by Pseudotsuga). Some taxa are split according to specific gravity of wood (spg). Median specific gravity is also calculated for respective taxa. Legend lists taxa in order of curves at 50-cm dbh. Model is ln(biomass) = β0 + β1 ln(dbh). 
+Open in new tab Download slide 
+ 
+Conifer aboveground biomass predicted from 13 taxa-scale equations that include all conifer genera in the US except those in the Taxaceae family (which can be approximated by Pseudotsuga ). Some taxa are split according to specific gravity of wood (spg). Median specific gravity is also calculated for respective taxa. Legend lists taxa in order of curves at 50-cm dbh. Model is ln(biomass) = β 0 + β 1 ln(dbh). 
+Hardwoods 
+ 
+Eighteen taxa equations resulted from regression analyses of hardwood species (Table  5 ). Of the four families with the most pseudodata, Aceraceae split nicely at specific gravity thresholds corresponding to hard ( A. saccharum ) and soft maple (other Acer species) and higher specific gravity aspen (and a few other higher specific gravity species) split from lower specific gravity balsam poplar in the Salicaceae. Betulaceae and Fagaceae were more troublesome because they included so many species. Betulaceae was separated into Alnus spp. and three more classes based on specific gravity. Fagaceae pseudodata included many species of similar specific gravity that could only be statistically separated based on deciduous or evergreen species. 
+ 
+As previously mentioned, Fabaceae and Juglandaceae were combined, as were Hippocastanaceae and Tiliaceae, to represent the extreme high and lowspecific gravities for hardwood species. In order to better design for species in Fabaceae/Juglandaceae that were not included in our study (e.g. walnut ( Juglans ), butternut ( Juglans cinerea ), Kentucky coffeetree ( Gymnocladus dioicus ), yellowwood ( Cladrastis kentukea )), this group was further separated into Carya and other. Carya showed particularly high biomass (for a given dbh), which we did not wish to presume applied to species not represented in our data. A check against Wang's (2006) walnut ( Juglans mandshurica ) equation from China showed a better match with the ‘other’ equation than the Carya equation, supporting our concern. 
+ 
+The rest of the hardwood families were initially grouped together, but Hamamelidaceae, Magnoliaceae and Oleaceae families were separated based on sufficient pseudodata that tested different from the rest and from each other; and Oleaceae was further separated based on specific gravity. Although some of these separations did not result in large prediction differences among the resulting equations, they reduced lack-of-fit patterns apparent in residual graphs when modeled separately. This left the six remaining families – Cornaceae, Ericaceae, Lauraceae, Platanaceae, Rosaceae and Ulmaceae – as a mixed hardwood group covering specific gravity from ∼0.45 to 0.65. US hardwood families (excluding nonnative species) not included in our study (Aquifoliaceae, Ebenaceae, Lauraceae, Moraceae, Styracaceae and Theaceae) can probably be included in the mixed hardwood group or with a more appropriate family if the specific gravity of the species in question is very high or very low. 
+ 
+For a given dbh, the resulting hardwood prediction equations generally estimated greater biomass for those taxa with higher specific gravity and lower biomass for those with lower specific gravity, but again this trend was less apparent for taxa that have midrange specific gravity values (Figure  3 ). 
+Figure 3 
+Hardwood aboveground biomass predicted from 18 taxa-scale equations that encompass almost all US hardwood families. Some taxa are split according to specific gravity of wood (spg). The ‘6 hardwood families’ (mixed hardwoods) include Cornaceae, Ericaceae, Lauraceae, Platanaceae, Rosaceae, and Ulmacea with specific gravity from ∼0.45 to 0.65. (This equation could also be used for families not included in our study: Aquifoliaceae, Ebenaceae, Lauraceae, Moraceae, Styracaceae, and Theaceae.) Median specific gravity is also calculated for respective taxa. Legend lists taxa in order of curves at 50-cm dbh. Model is ln(biomass) = β0 + β1 ln(dbh). 
+Open in new tab Download slide 
+ 
+Hardwood aboveground biomass predicted from 18 taxa-scale equations that encompass almost all US hardwood families. Some taxa are split according to specific gravity of wood (spg). The ‘6 hardwood families’ (mixed hardwoods) include Cornaceae, Ericaceae, Lauraceae, Platanaceae, Rosaceae, and Ulmacea with specific gravity from ∼0.45 to 0.65. (This equation could also be used for families not included in our study: Aquifoliaceae, Ebenaceae, Lauraceae, Moraceae, Styracaceae, and Theaceae.) Median specific gravity is also calculated for respective taxa. Legend lists taxa in order of curves at 50-cm dbh. Model is ln(biomass) = β 0 + β 1 ln(dbh). 
+Figure 3 
+Hardwood aboveground biomass predicted from 18 taxa-scale equations that encompass almost all US hardwood families. Some taxa are split according to specific gravity of wood (spg). The ‘6 hardwood families’ (mixed hardwoods) include Cornaceae, Ericaceae, Lauraceae, Platanaceae, Rosaceae, and Ulmacea with specific gravity from ∼0.45 to 0.65. (This equation could also be used for families not included in our study: Aquifoliaceae, Ebenaceae, Lauraceae, Moraceae, Styracaceae, and Theaceae.) Median specific gravity is also calculated for respective taxa. Legend lists taxa in order of curves at 50-cm dbh. Model is ln(biomass) = β0 + β1 ln(dbh). 
+Open in new tab Download slide 
+ 
+Hardwood aboveground biomass predicted from 18 taxa-scale equations that encompass almost all US hardwood families. Some taxa are split according to specific gravity of wood (spg). The ‘6 hardwood families’ (mixed hardwoods) include Cornaceae, Ericaceae, Lauraceae, Platanaceae, Rosaceae, and Ulmacea with specific gravity from ∼0.45 to 0.65. (This equation could also be used for families not included in our study: Aquifoliaceae, Ebenaceae, Lauraceae, Moraceae, Styracaceae, and Theaceae.) Median specific gravity is also calculated for respective taxa. Legend lists taxa in order of curves at 50-cm dbh. Model is ln(biomass) = β 0 + β 1 ln(dbh). 
+Woodland species 
+ 
+Biomass studies for woodland species were so limited that we grouped them as families and modeled them without further separation, except that we grouped Fabaceae and Rosaceae together because of small sample sizes and similar specific gravity (Table  5 ). Although pseudodata for these two families did show wide variation, we chose to average the variation in a robust regression rather than use the otherwise minimal pseudodata to model the two extremes. The four woodland prediction equations (Figure  4 ) did not show a logical specific gravity trend and the equation for Cupressaceae (mostly juniper) seemed to predict low. Further examination of these old studies used to generate pseudodata raised concern that their juniper drc definitions may have led to larger drc measurements (and thus smaller biomass estimates) than those for other woodland species; FIA developed a drc definition beginning in the 1980s designed to address this issue. Overall the woodland biomass equations – particularly juniper – probably best show the need for new, carefully measured data. 
+Figure 4 
+Woodland aboveground biomass predicted from four taxa-scale equations that include all woodland families in the US except Aceraceae, Boraginaceae, Ericaceae and Rhamnaceae (for which we suggest using the appropriate hardwood equation and diameter conversion). Median specific gravity (spg) is also calculated for respective taxa. Legend lists taxa in order of curves at 50-cm drc. Model is ln(biomass) = β0 + β1 ln(drc). 
+Open in new tab Download slide 
+ 
+Woodland aboveground biomass predicted from four taxa-scale equations that include all woodland families in the US except Aceraceae, Boraginaceae, Ericaceae and Rhamnaceae (for which we suggest using the appropriate hardwood equation and diameter conversion). Median specific gravity (spg) is also calculated for respective taxa. Legend lists taxa in order of curves at 50-cm drc. Model is ln(biomass) = β 0 + β 1 ln(drc). 
+Figure 4 
+Woodland aboveground biomass predicted from four taxa-scale equations that include all woodland families in the US except Aceraceae, Boraginaceae, Ericaceae and Rhamnaceae (for which we suggest using the appropriate hardwood equation and diameter conversion). Median specific gravity (spg) is also calculated for respective taxa. Legend lists taxa in order of curves at 50-cm drc. Model is ln(biomass) = β0 + β1 ln(drc). 
+Open in new tab Download slide 
+ 
+Woodland aboveground biomass predicted from four taxa-scale equations that include all woodland families in the US except Aceraceae, Boraginaceae, Ericaceae and Rhamnaceae (for which we suggest using the appropriate hardwood equation and diameter conversion). Median specific gravity (spg) is also calculated for respective taxa. Legend lists taxa in order of curves at 50-cm drc. Model is ln(biomass) = β 0 + β 1 ln(drc). 
+Goodness of fit 
+ 
+Goodness-of-fit for the biomass equations showed R 2 -statistics (see SAS, 2011 on Proc Robust for calculation details) between 0.75 and 0.91 (Table  5 ). Another graphical goodness-of-fit assessment was conducted by examining regression residuals for each taxon that were computed using robust regression weights and averaged within 10-cm diameter classes. Results showed residuals to be within ±10 per cent of predicted value for many conifers; exceptions within ±20 per cent included Abies , Larix , Picea and Cupressaceae taxa. For large-diameter predictions for Pinus , Pseudotsuga and Tsuga larger variations up to ±25–40 per cent were observed; most of these were positive residuals – indicating underprediction. Mean residuals for hardwood taxa showed variation within ±10–20 per cent of predicted values – and for some taxa all within ±10 per cent. Except for Pinaceae (within ±10 per cent), woodland residuals had much larger ranges, with ±30, ±40 and even ±70 per cent for Cupressaceae, Fagaceae and Fabaceae/Rosaceae, respectively. The Fabaceae/Rosaceae extreme was probably due to combining diverse families, as well as the very limited pseudodata. 
+Belowground biomass 
+ 
+Belowground biomass was modeled as the ratio of root component biomass to total aboveground biomass; fine and coarse roots were treated separately. The breakpoint between coarse and fine roots in published equations ranged from 2 to 10 mm diameter, with 5 or 10 mm most common. There were not enough species represented in our pseudodata to consider taxa separation for roots, and even hardwood and conifer separation was statistically nonsignificant. Therefore, one equation each for fine and coarse roots was fit from pseudodata by using robust regression (Table  6 ). Even though equations are presented, predictions are basically root-to-aboveground biomass ratios of 22 and 1 per cent for respective coarse and fine roots. Root equations can be used for woodland species by first converting drc to dbh (Figure  1 ). 
+Table 6 
+ 
+Belowground biomass equation parameters for coarse and fine roots estimated from 82 published equations, where (with dbh in cm and the ratio defined as component biomass divided by total biomass), the biomass equation is: ln (ratio) = β 0 + β 1 ln (dbh) 
+Component .  	β 0 .  	β 1 .  	R 2 -statistic .  	Genus .  	No. of pseudodata .  	No. of equations .  	dbh range (cm) .  	Literature reference no. (see Table 1 ) .  
+Coarse roots 	−1.4485 	−0.03476 	0.0155 1  	Pinus  	135 	18 	3–68 	2,5,40,76,78,90,100,109,125,126,130,132,136,138,145,160,195,204  
+ 	 	 	 	Acer  	73 	5 	3–66 	124,132,184,199,204  
+ 	 	 	 	Betula  	73 	6 	3–66 	9,124,184,190,199,204  
+ 	 	 	 	Pseudotsuga  	68 	3 	3–163 	59,69,181  
+ 	 	 	 	Picea  	54 	9 	3–66 	9,43,72,96,132,138,149,199,204  
+ 	 	 	 	Abies  	43 	7 	3–51 	9,82,96,105,190,202,204  
+ 	 	 	 	Fagus  	37 	3 	3–66 	184,199,204  
+ 	 	 	 	Quercus  	35 	3 	4–89 	99,126,154  
+ 	 	 	 	Hardwood 	21 	2 	3–85 	75,177  
+ 	 	 	 	Populus  	21 	2 	3–51 	138,204  
+ 	 	 	 	Thuja  	19 	2 	3–51 	54,204  
+ 	 	 	 	Larix  	11 	1 	3–51 	204  
+ 	 	 	 	Tsuga  	11 	1 	3–51 	204  
+ 	 	 	 	Prunus  	9 	1 	3–23 	204  
+ 	 	 	 	Conifer 	5 	1 	3–22 	177  
+ 	 	 	 	Salix  	5 	1 	3–23 	204  
+ 	 	 	 	Carya  	4 	1 	22–33 	169  
+ 	 	 	 	Alnus  	3 	1 	3–8 	204  
+ 	 	 	 	Cupressus  	3 	1 	3–9 	195  
+Fine roots 	−1.8629 	−0.77534 	0.69 	Pseudotsuga  	37 	1 	3–161 	28  
+ 	 	 	 	Pinus  	10 	1 	3–41 	28  
+ 	 	 	 	Hardwood 	8 	1 	3–33 	28  
+ 	 	 	 	Abies  	6 	1 	3–28 	105  
+ 	 	 	 	Picea  	5 	1 	3–20 	28  
+ 	 	 	 	Carya  	4 	1 	22–33 	169  
+ 
+1 This low R 2 -statistic indicates that the coarse root estimation is little more than a mean because the dbh term has very little effect. It is listed this way instead of as a mean to be consistent with other equations in the table and because this format is clearer for users such as computer programmers. 
+Open in new tab 
+Table 6 
+ 
+Belowground biomass equation parameters for coarse and fine roots estimated from 82 published equations, where (with dbh in cm and the ratio defined as component biomass divided by total biomass), the biomass equation is: ln (ratio) = β 0 + β 1 ln (dbh) 
+Component .  	β 0 .  	β 1 .  	R 2 -statistic .  	Genus .  	No. of pseudodata .  	No. of equations .  	dbh range (cm) .  	Literature reference no. (see Table 1 ) .  
+Coarse roots 	−1.4485 	−0.03476 	0.0155 1  	Pinus  	135 	18 	3–68 	2,5,40,76,78,90,100,109,125,126,130,132,136,138,145,160,195,204  
+ 	 	 	 	Acer  	73 	5 	3–66 	124,132,184,199,204  
+ 	 	 	 	Betula  	73 	6 	3–66 	9,124,184,190,199,204  
+ 	 	 	 	Pseudotsuga  	68 	3 	3–163 	59,69,181  
+ 	 	 	 	Picea  	54 	9 	3–66 	9,43,72,96,132,138,149,199,204  
+ 	 	 	 	Abies  	43 	7 	3–51 	9,82,96,105,190,202,204  
+ 	 	 	 	Fagus  	37 	3 	3–66 	184,199,204  
+ 	 	 	 	Quercus  	35 	3 	4–89 	99,126,154  
+ 	 	 	 	Hardwood 	21 	2 	3–85 	75,177  
+ 	 	 	 	Populus  	21 	2 	3–51 	138,204  
+ 	 	 	 	Thuja  	19 	2 	3–51 	54,204  
+ 	 	 	 	Larix  	11 	1 	3–51 	204  
+ 	 	 	 	Tsuga  	11 	1 	3–51 	204  
+ 	 	 	 	Prunus  	9 	1 	3–23 	204  
+ 	 	 	 	Conifer 	5 	1 	3–22 	177  
+ 	 	 	 	Salix  	5 	1 	3–23 	204  
+ 	 	 	 	Carya  	4 	1 	22–33 	169  
+ 	 	 	 	Alnus  	3 	1 	3–8 	204  
+ 	 	 	 	Cupressus  	3 	1 	3–9 	195  
+Fine roots 	−1.8629 	−0.77534 	0.69 	Pseudotsuga  	37 	1 	3–161 	28  
+ 	 	 	 	Pinus  	10 	1 	3–41 	28  
+ 	 	 	 	Hardwood 	8 	1 	3–33 	28  
+ 	 	 	 	Abies  	6 	1 	3–28 	105  
+ 	 	 	 	Picea  	5 	1 	3–20 	28  
+ 	 	 	 	Carya  	4 	1 	22–33 	169  
+ 
+1 This low R 2 -statistic indicates that the coarse root estimation is little more than a mean because the dbh term has very little effect. It is listed this way instead of as a mean to be consistent with other equations in the table and because this format is clearer for users such as computer programmers. 
+Open in new tab 
+Discussion 
+ 
+Our results provide a framework for selecting an aboveground biomass equation for every conifer, hardwood and woodland tree species in the US (except palm, citrus, dry tropical and other nonnative species) according to a taxa classification. The taxa framework was based in part on allometric scaling theory, where tree species with the densest wood (greatest specific gravity) were predicted to have more biomass for a given diameter, and species with the least dense wood predicted to have less biomass. 
+ 
+The biomass estimates for all US trees species compiled by the FIA program are the only ones available for comparison with predictions from these equations. FIA generates biomass estimates with a biomass expansion factor approach called the component ratio method (CRM) ( Woodall et al ., 2011 ; Heath et al ., 2009 ); cubic volume estimates are converted to biomass through use of constant wood and bark specific gravity values and auxiliary information for branches, bark and stumps ( Miles and Smith, 2009 ), and any other biomass added to the biomass of the merchantable stem is based on Jenkins et al . (2003) methods. 
+ 
+We used FIA (2010) plot data with our taxa-scale equations, as well as the Jenkins et al . (2003) equations, and compared results with FIA biomass estimates for the same trees. This was done by selecting from the FIA database only live noncull trees >2.5 cm (by using FIA coding statuscd = 1, treeclcd = 2 for diahtcd = 1 and treeclcd = (2 or 3) for diahtcd = 2; as described in Woudenberg et al . (2010) ). About 2.3 million trees were selected from 119 000 plots. We summed biomass within the conditions established in FIA plots by using appropriate weights [see variables micrprop_unadj, subpprop_unadj, and macrprop_unadj in Woudenberg et al . (2010)]. Per-hectare plot estimates were then averaged by FIA forest type group ( Woudenberg et al ., 2010 , Appendix D). Several groups were combined due either to small sample size or similar per-hectare biomass values and nonstocked plots were excluded. 
+ 
+Comparison of all forest types (for trees measured at dbh) combined into conifer and hardwood groups (based on first species of type name) showed no difference between Jenkins et al . (2003) and our taxa-scale equations – both equations predicted 93 and 64 Mg ha −1 for conifers and hardwoods, respectively. This was not surprising because use of much of the same data and same modeling methodology should result in common results when summed over species. However, the species separation into groups that was the main difference between the Jenkins et al . (2003) equations and those from this study produced marked differences among individual forest type groups for the two sets of equations, as discussed below. The FIA biomass estimates were ∼20 per cent less than those from the Jenkins et al. (2003) and our new equations, at 78 and 53 Mg ha −1 for conifers and hardwoods, respectively (see Chojnacky (2012) for more details of comparison of new equations to FIA estimates). 
+ 
+Equations from this study and Jenkins et al. (2003) equations predicted 27 and 9 Mg ha −1 , respectively, for all woodland combined (trees measured at drc; FIA forest types pinyon/juniper and woodland hardwoods). This difference was attributed to addition of much more pseudodata for the new equations and a change in methodology – the Jenkins et al . (2003) equations were modeled at dbh based on a drc-to-dbh conversion that was probably not the best fit for the intended use. Because the FIA woodland estimates were based in part on the Jenkins et al . (2003) equations, they also estimated much lower biomass (15 Mg ha −1 ) than the new equations (27 Mg ha −1 ). In general, we suggest new woodland biomass data be collected to resolve estimation discrepancies but in the interim recommend our new equations based on the most thorough meta-analysis of published data to date. 
+ 
+For a more detailed examination of the conifer and hardwood equation comparisons to the FIA data, we looked at estimates at the forest type group scale. The pattern for conifer types showed equation differences from FIA ranging from −15 to ∼80 per cent (Figure  5 ); the maximum difference for hardwood types was 38 per cent (Figure  6 ), the smaller differences likely resulting from the higher species diversity within hardwood forest types being averaged among equations. We expected FIA estimates to be lower because FIA excluded foliage, but the magnitude of the differences we found suggested more than just a foliage discrepancy between the equation sets. FIA's volume-to-biomass conversion may underestimate: Zhou et al. (2011) demonstrated for green ash ( Fraxinus pennsylvanica ), ponderosa pine ( P. ponderosa ) and eastern redcedar ( J. virginiana ) that volume-to-biomass conversion (using specific gravity similar to FIA's CRM method) consistently and significantly underestimates biomass from 6.3 to 16.6 per cent. Alternatively, use of pseudodata as in this study may not produce accurate biomass estimates. New biomass data are needed to uncover the reason(s) for these differences (Figures 5 and 6 ). 
+Figure 5 
+Percent difference from FIA (on plot basis) of conifer aboveground biomass estimates predicted from Jenkins et al. (2003) and this study's new taxa-scale equations. Percent difference from FIA = 100 × ([equation estimate − FIA estimate]/FIA estimate), where FIA plot estimates were first averaged within FIA forest type group. 
+Open in new tab Download slide 
+ 
+Percent difference from FIA (on plot basis) of conifer aboveground biomass estimates predicted from Jenkins et al . (2003) and this study's new taxa-scale equations. Percent difference from FIA = 100 × ([equation estimate − FIA estimate]/FIA estimate), where FIA plot estimates were first averaged within FIA forest type group. 
+Figure 5 
+Percent difference from FIA (on plot basis) of conifer aboveground biomass estimates predicted from Jenkins et al. (2003) and this study's new taxa-scale equations. Percent difference from FIA = 100 × ([equation estimate − FIA estimate]/FIA estimate), where FIA plot estimates were first averaged within FIA forest type group. 
+Open in new tab Download slide 
+ 
+Percent difference from FIA (on plot basis) of conifer aboveground biomass estimates predicted from Jenkins et al . (2003) and this study's new taxa-scale equations. Percent difference from FIA = 100 × ([equation estimate − FIA estimate]/FIA estimate), where FIA plot estimates were first averaged within FIA forest type group. 
+Figure 6 
+Percent difference from FIA (on plot basis) of hardwood aboveground biomass estimates predicted from Jenkins et al. (2003) and this study's new taxa-scale equations. Percent difference from FIA = 100 × ([equation estimate − FIA estimate]/FIA estimate), where FIA plot estimates were first averaged within FIA forest type group. 
+Open in new tab Download slide 
+ 
+Percent difference from FIA (on plot basis) of hardwood aboveground biomass estimates predicted from Jenkins et al . (2003) and this study's new taxa-scale equations. Percent difference from FIA = 100 × ([equation estimate − FIA estimate]/FIA estimate), where FIA plot estimates were first averaged within FIA forest type group. 
+Figure 6 
+Percent difference from FIA (on plot basis) of hardwood aboveground biomass estimates predicted from Jenkins et al. (2003) and this study's new taxa-scale equations. Percent difference from FIA = 100 × ([equation estimate − FIA estimate]/FIA estimate), where FIA plot estimates were first averaged within FIA forest type group. 
+Open in new tab Download slide 
+ 
+Percent difference from FIA (on plot basis) of hardwood aboveground biomass estimates predicted from Jenkins et al . (2003) and this study's new taxa-scale equations. Percent difference from FIA = 100 × ([equation estimate − FIA estimate]/FIA estimate), where FIA plot estimates were first averaged within FIA forest type group. 
+Conclusions and recommendations 
+ 
+Updating the Jenkins et al . (2004) database with more recent equations from the literature, conducting preliminary analyses and modifications for previously excluded literature equations (some of which addressed data gaps), and use of a theoretically based approach did, as anticipated, result in generalized biomass estimation equations for more species groupings. The previous ( Jenkins et al ., 2003 ) approach produced 10 aboveground biomass equations. Our current work generated 35 biomass equations: 13 for conifers, 18 for hardwoods and 4 for woodland species. 
+ 
+There was little total difference between estimates from the equations in Jenkins et al . (2003) and those from the equations in this study for forest types combined into conifer and hardwood groups, which reflects different species groupings of much of the same data. However, there are some individual type differences, especially in the coniferous forest type groups of western pines (western pines/juniper/other spp.), spruce/fir (eastern spruce/fir and western spruce/fir/hemlock), Douglas-fir, loblolly/shortleaf pine and longleaf/slash pine (Figure  5 ); and in the hardwood types of aspen/birch, western oak and oak/pine (Figure  6 ). Although we consider the equations generated through the use of specific gravity and taxonomy in this study to be more soundly based than the empirical pseudodata groupings in Jenkins et al . (2003) , a user's purpose may affect their preference as to which to use. If the user is primarily interested in total forest carbon, for hardwoods and conifers either set of equations could be used. We recommend the new equations for more detailed studies looking at species differences, and for woodland species. 
+ 
+We used allometric scaling theory as a theoretical basis for deriving consistent aboveground and belowground biomass estimation models through a meta-analysis approach. This theory suggests a tantalizingly simple model that would require only dbh and some proxy for mean specific gravity of entire tree as input variables, a concept supported by the clear importance of specific gravity in the biomass-to-diameter relationships modeled in this study. However, even if future studies prove this simple model inadequate, more careful study of whole-tree and within-tree variation in specific gravity – for a variety of species, diverse growth forms and specific gravities – could be useful. Recent work in tropical forest biomass estimation supports the usefulness of specific gravity ( Chave et al ., 2005 ; Slik et al ., 2010 ; Vieilledent et al ., 2012 ). 
+ 
+Although this and our previous study make extensive use of existing data from independent studies, they are envisioned as an interim solution. The first study and this update, coming a decade later, together highlight the still-evident need in the US for generalized biomass estimation based on new data collection. We strongly recommend new data be collected across the US – particularly for woodland species – but using strategic, well-designed, theoretically based methods with agreed-upon protocols for data comparability. Such studies will better use scarce resources than more species-specific biomass studies based on data from small geographic areas, and could also provide data to definitively explain the differences between various approaches and determine which equations produce better estimates. 
+Conflict of interest statement 
+ 
+None declared. 
+Funding 
+ 
+This work was supported by the US Joint Fire Science Program (project no. 07-3-1-05); and the USDA Forest Service, Northern Research Station (Joint Venture #09-JV-1142305-128, project no. 07-3-1-05). 
+Acknowledgments 
+ 
+We thank Phil Radkte from Virginia Tech, Mark Ducey from the University of New Hampshire, Christopher Woodall from the US Forest Service and several anonymous reviewers for valuable comments and suggestions. Michele Redmond of Scientific Notations LLC helped with editing of the manuscript. 
+References 
+ 
+(excluding literature cited in Jenkins et al . (2003) as indicated in Table  1 ). 
+Adegbidi 
+H.G. 
+,  
+Jokela 
+E.J. 
+,  
+Comerford 
+N.B. 
+,  
+Barros 
+N.F. 
+.  
+Biomass development for intensively managed loblolly pine plantations growing on Spodosols in the southeastern USA 
+,  
+For. Ecol. Manage. 
+,  
+2002 
+, vol.  
+167 
+ (pg.  
+91 
+- 
+102 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Alban 
+D.H. 
+,  
+Laidly 
+P.R. 
+.  
+Generalized biomass equations for jack and red pine in the Lake States 
+,  
+Can. J. For. Res. 
+,  
+1982 
+, vol.  
+12 
+ (pg.  
+913 
+- 
+921 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Alemdag 
+I.S. 
+.  
+Aboveground-mass Equations for Six Hardwood Species from Natural Stands of the Research Forest at Petawawa 
+,  
+1981 
+Petawawa National Forestry Institute 
+pg.  
+9 pp 
+   
+Information Report No. PI-X-6 
+Alemdag 
+I.S. 
+.  
+Aboveground dry matter of jack pine, black spruce, white spruce and balsam fir trees at two localities in Ontario 
+,  
+For. Chron. 
+,  
+1982 
+, vol.  
+58 
+ (pg.  
+26 
+- 
+30 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Alemdag 
+I.S. 
+.  
+Mass Equations and Merchantability Factors for Ontario Softwoods 
+,  
+1983 
+Petawawa National Forestry Institute 
+pg.  
+24 pp 
+   
+Information Report No. PI-X-23 
+Alemdag 
+I.S. 
+,  
+Horton 
+K.W. 
+.  
+Single-tree equations for estimating biomass of trembling aspen, large tooth aspen and white birch in Ontario 
+,  
+For. Chron. 
+,  
+1981 
+, vol.  
+57 
+ (pg.  
+169 
+- 
+173 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Arevalo 
+C.B.M. 
+,  
+Volk 
+T.A. 
+,  
+Bevilacqua 
+E. 
+,  
+Abrahamson 
+L. 
+.  
+Development and validation of aboveground biomass estimations for four Salix clones in central New York 
+,  
+Biomass Bioenergy. 
+,  
+2007 
+, vol.  
+31 
+ (pg.  
+1 
+- 
+12 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Aspinwall 
+M.J. 
+,  
+King 
+J.S. 
+,  
+McKeand 
+S.E. 
+,  
+Bullock 
+B.P. 
+.  
+Genetic effects on stand-level uniformity, and above- and belowground biomass production in juvenile loblolly pine 
+,  
+For. Ecol. Manage. 
+,  
+2011 
+, vol.  
+262 
+ (pg.  
+609 
+- 
+619 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Baldwin 
+V.C. 
+.  
+A summary of equations for predicting biomass of planted southern pines 
+,  
+1987 
+Estimating Tree Biomass Regressions and Their Error: Proceedings of the Workshop on Tree Biomass Regression Functions and Their Contribution to the Error of Forest Inventory Estimates, 1986 May 26–30, Syracuse, NY. 
+US Department of Agriculture, Forest Service, Northeastern Forest Experiment Station 
+(pg.  
+157 
+- 
+171 
+)  
+E.H. Wharton and T. Cunia (compilers) General Technical Report NE-117 
+ 
+Google Scholar 
+Baskerville 
+G.L. 
+.  
+Dry-matter production in immature balsam fir stands: roots lesser vegetation, and total stand 
+,  
+For. Sci. 
+,  
+1966 
+, vol.  
+12 
+ (pg.  
+49 
+- 
+53 
+) 
+ 
+Google Scholar 
+ 
+  
+Baskerville 
+G.L. 
+.  
+Use of the logarithmic regression in the estimation of plant biomass 
+,  
+Can. J. For. Res. 
+,  
+1972 
+, vol.  
+2 
+ (pg.  
+49 
+- 
+53 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Bella 
+I.E. 
+,  
+De Franceschi 
+J.P. 
+.  
+Biomass Productivity of Young Aspen Stands in Western Canada 
+,  
+1980 
+Northern Forest Research Centre 
+pg.  
+30 pp 
+   
+Information Report No. NOR-X-219 
+Bickelhaupt 
+D.H. 
+,  
+Leaf 
+A.L. 
+,  
+Richards 
+N.R. 
+.  
+Young 
+H 
+.  
+Effect of branching habit on above-ground dry weight estimates of Acer saccharum stands 
+,  
+IUFRO Biomass Studies, Nancy, France and Vancouver, BC 
+,  
+1973 
+University of Maine, College of Life Sciences and Agriculture 
+(pg.  
+221 
+- 
+230 
+) 
+ 
+Google Scholar 
+ 
+  
+Binkley 
+D. 
+,  
+Lousier 
+J.D. 
+,  
+Cromack 
+K. 
+Jr. 
+.  
+Ecosystem effects of Sitka alder in a Douglas-fir plantation 
+,  
+For. Sci. 
+,  
+1984 
+, vol.  
+30 
+ (pg.  
+26 
+- 
+35 
+) 
+ 
+Google Scholar 
+ 
+  
+Bond-Lamberty 
+B. 
+,  
+Wang 
+C. 
+,  
+Gower 
+S.T. 
+.  
+Aboveground and belowground biomass and sapwood area allometric equations for six boreal tree species of northern Manitoba 
+,  
+Can. J. For. Res. 
+,  
+2002 
+, vol.  
+32 
+ (pg.  
+1441 
+- 
+1450 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Bragg 
+D.C. 
+.  
+A local basal area adjustment for crown width prediction 
+,  
+North. J. Appl. Forest. 
+,  
+2001 
+, vol.  
+18 
+ (pg.  
+22 
+- 
+28 
+) 
+ 
+Google Scholar 
+ 
+  
+Brenneman 
+B.B. 
+,  
+Frederick 
+D.J. 
+,  
+Gardner 
+W.E. 
+,  
+Schoenhofen 
+L.H. 
+,  
+Marsh 
+P.L. 
+.  
+Pope 
+P.E 
+.  
+Biomass of species and stands of West Virginia hardwoods 
+,  
+Proceedings of Central Hardwood Forest Conference II 
+,  
+1978 
+Purdue University 
+(pg.  
+159 
+- 
+178 
+) 
+ 
+Google Scholar 
+ 
+  
+Bridge 
+J.A. 
+.  
+Fuelwood Production of Mixed Hardwoods on Mesic Sites in Rhode Island 
+,  
+1979 
+University of Rhode Island 
+pg.  
+72 pp 
+   
+M.S. thesis 
+Brown 
+J.K. 
+.  
+Weight and Density of Crowns of Rocky Mountain Conifers 
+,  
+1978 
+US Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station 
+pg.  
+56 pp 
+   
+Research Paper INT-197 
+Callaway 
+R.M. 
+,  
+DeLucia 
+E.H. 
+,  
+Schlesinger 
+W.H. 
+.  
+Biomass allocation of montane and desert ponderosa pine: an analog for response to climate change 
+,  
+Ecology. 
+,  
+1994 
+, vol.  
+75 
+ (pg.  
+1474 
+- 
+1481 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Callaway 
+R.M. 
+,  
+Sala 
+A. 
+,  
+Keane 
+R.E. 
+.  
+Succession may maintain high leaf area: sapwood ratios and productivity in old subalpine forests 
+,  
+Ecosystems. 
+,  
+2000 
+, vol.  
+3 
+ (pg.  
+254 
+- 
+268 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Carpenter 
+E.M. 
+.  
+Above-Ground Weights for Tamarack in Northeastern Minnesota 
+,  
+1983 
+US Department of Agriculture, Forest Service, North Central Forest Experiment Station 
+pg.  
+9 pp 
+   
+Research Paper NC-245 
+Chave 
+J. 
+,  
+Andalo 
+C. 
+,  
+Brown 
+S. 
+,  
+Cairns 
+M.A. 
+,  
+Chambers 
+J.Q. 
+,  
+Eamus 
+D. 
+, et al.  
+Tree allometry and improved estimation of carbon stocks and balance in tropical forests 
+,  
+Oecologia. 
+,  
+2005 
+, vol.  
+145 
+ (pg.  
+87 
+- 
+99 
+) 
+ 
+Google Scholar 
+Crossref 
+PubMed 
+ 
+  
+Chen 
+W. 
+,  
+Zhang 
+Q. 
+,  
+Cihlar 
+J. 
+,  
+Bauhaus 
+J. 
+,  
+Price 
+D.T. 
+.  
+Estimating fine-root biomass and production of boreal and cool temperate forests using aboveground measurements: a new approach 
+,  
+Plant Soil. 
+,  
+2004 
+, vol.  
+265 
+ (pg.  
+31 
+- 
+46 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Chojnacky 
+D.C. 
+.  
+Volume and Biomass for Curlleaf Cercocarpus in Nevada 
+,  
+1984 
+US Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station 
+pg.  
+8 pp 
+   
+Research Paper INT-332 
+Chojnacky 
+D.C. 
+.  
+Pinyon-Juniper Volume Equations for the Central Rocky Mountain States 
+,  
+1985 
+US Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station 
+pg.  
+27 pp 
+   
+Research Paper INT-339 
+Chojnacky 
+D.C. 
+.  
+Estimating singleleaf pinyon and Utah juniper volumes for several utilization standards 
+,  
+West. J. Appl. For. 
+,  
+1987 
+, vol.  
+2 
+ (pg.  
+51 
+- 
+55 
+) 
+ 
+Google Scholar 
+ 
+  
+Chojnacky 
+D.C. 
+.  
+McRoberts 
+R.E. 
+,  
+Reams 
+G.A. 
+,  
+Van Deusen 
+P.C. 
+,  
+Moser 
+J.W. 
+.  
+Allometric scaling theory applied to FIA biomass estimation 
+,  
+2002 
+Proceedings of Third Annual Forest Inventory and Analysis Symposium, 2001 October 17–19, Traverse City, MI 
+US Department of Agriculture, Forest Service, North Central Forest Experiment Station 
+(pg.  
+96 
+- 
+102 
+)  
+General Technical Report NC-230 
+ 
+Google Scholar 
+Chojnacky 
+D.C. 
+.  
+FIA's volume-to-biomass conversion method (CRM) generally underestimates biomass in comparison to published equations 
+,  
+2012 
+Moving from Status to Trends: Forest Inventory and Analysis (FIA) Symposium 2012 
+US Department of Agriculture, Forest Service, Northern Research Station 
+(pg.  
+396 
+- 
+402 
+)  
+R.S. Morin and G. C. Liknes (eds.) GTR-NRS-P-105 
+ 
+Google Scholar 
+Chojnacky 
+D.C. 
+,  
+Moisen 
+G.G. 
+.  
+Converting Volume to Biomass for Pinyon and Juniper 
+,  
+1993 
+US Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station 
+pg.  
+5 pp 
+   
+Research Note INT-411 
+Clark 
+A. 
+III 
+.  
+Summary of biomass equations available for softwood and hardwood species in the southern United States 
+,  
+1987 
+Estimating Tree Biomass Regressions and Their Error: Proceedings of the Workshop on Tree Biomass Regression Functions and Their Contribution to the Error of Forest Inventory Estimates, 1986 May 26–30, Syracuse, NY. 
+US Department of Agriculture, Forest Service, Northeastern Forest Experiment Station 
+(pg.  
+173 
+- 
+188 
+)  
+E.H. Wharton and T. Cunia (compilers) General Technical Report NE-117 
+ 
+Google Scholar 
+Clark 
+A. 
+III. 
+,  
+Schroeder 
+J.G. 
+.  
+Weight, Volume, and Physical Properties of Major Hardwood Species in the Southern Appalachian Mountains 
+,  
+1986 
+US Department of Agriculture, Forest Service, Southeastern Forest Experiment Station 
+pg.  
+78 pp 
+   
+Research Paper SE-153 
+Clark 
+A. 
+III. 
+,  
+Taras 
+M.A. 
+.  
+Comparison of aboveground biomasses of the four major southern pines 
+,  
+For. Prod. J. 
+,  
+1976 
+, vol.  
+26 
+ (pg.  
+25 
+- 
+29 
+) 
+ 
+Google Scholar 
+ 
+  
+Clark 
+A. 
+III. 
+,  
+Phillips 
+D.R. 
+,  
+Frederick 
+D.J. 
+.  
+Weight, Volume, and Physical Properties of Major Hardwood Species in the Piedmont 
+,  
+1986a 
+US Department of Agriculture, Forest Service, Southeastern Forest Experiment Station 
+pg.  
+84 pp 
+   
+Research Paper SE-255 
+Clary 
+W.P. 
+,  
+Tiedemann 
+A.R. 
+.  
+Distribution of biomass within small tree and shrub form Quercus gambelii stands 
+,  
+For. Sci. 
+,  
+1986 
+, vol.  
+32 
+ (pg.  
+234 
+- 
+242 
+) 
+ 
+Google Scholar 
+ 
+  
+Clebsch 
+E. 
+.  
+Sollins 
+P. 
+,  
+Anderson 
+R. 
+.  
+Dry weight of trees and saplings from the Great Smoky Mountains National Park and eastern Tennessee 
+,  
+Dry Weight and Other Data for Trees and Woody Shrubs of Southeastern United States 
+,  
+1971 
+Oak Ridge National Laboratory 
+(pg.  
+15 
+- 
+21 
+)  
+Ecol. Sci. Div. Publ. 407 
+ 
+Google Scholar 
+ 
+  
+Cochran 
+P. 
+,  
+Jennings 
+J. 
+,  
+Youngberg 
+C. 
+.  
+Biomass Estimators for Thinned Second-Growth Ponderosa Pine Trees 
+,  
+1984 
+US Department of Agriculture, Forest Service, Pacific Northwest Research Station 
+pg.  
+6 pp 
+   
+Research Note PNW-RN-415 
+Coltrin 
+W.R. 
+.  
+Biomass Quantification of Live Trees in a Mixed Evergreen Forest Using Diameter-Based Allometric Equations 
+,  
+2010 
+Humboldt State University 
+pg.  
+52 pp 
+   
+M.S. thesis 
+Crow 
+T. 
+.  
+Estimation of Biomass in an Even Aged Stand – Regression and ‘Mean tree’ Techniques 
+,  
+1971 
+Maine Agricultural Experiment Station 
+(pg.  
+35 
+- 
+48 
+)  
+Forest Biomass Studies Misc. Report 132 
+Czapowskyj 
+M.M. 
+,  
+Robison 
+D.J. 
+,  
+Briggs 
+R.D. 
+,  
+White 
+E.H. 
+.  
+Component Biomass Equations for Black Spruce in Maine 
+,  
+1985 
+US Department of Agriculture, Forest Service, Northeastern Research Station 
+pg.  
+7 pp 
+   
+Research Paper NE-564 
+Davis 
+A.A. 
+,  
+Trettin 
+C.C. 
+.  
+Sycamore and sweetgum plantation productivity on former agricultural land in South Carolina 
+,  
+Biomass Bioenergy. 
+,  
+2006 
+, vol.  
+30 
+ (pg.  
+769 
+- 
+777 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Dunlap 
+W.H. 
+,  
+Shipman 
+R.D. 
+.  
+Density and Weight Production of Standing White Oak, Red Maple, and Red Pine 
+,  
+1967 
+Pennsylvania State University, School of Forest Resources 
+(pg.  
+66 
+- 
+69 
+)  
+Report on Research Project No. 1524 
+Duursma 
+R.A. 
+,  
+Marshall 
+J.D. 
+,  
+Robinson 
+A.P. 
+,  
+Pangle 
+R.E. 
+.  
+Description and test of a simple process-based model of forest growth for mixed-species stands 
+,  
+Ecol. Model. 
+,  
+2007 
+, vol.  
+203 
+ (pg.  
+297 
+- 
+311 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+El Fadl 
+M.A. 
+,  
+Gronski 
+S. 
+,  
+Asah 
+H. 
+,  
+Tipton 
+A. 
+,  
+Fulbright 
+T.E. 
+,  
+Felker 
+P. 
+.  
+Regression equations to predict fresh weight and three grades of lumber from large mesquite ( Prosopis glandulosa var. glandulosa ) in Texas 
+,  
+For. Ecol. Manage. 
+,  
+1989 
+, vol.  
+26 
+ (pg.  
+275 
+- 
+284 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Elliott 
+K.J. 
+,  
+Boring 
+L.R. 
+,  
+Swank 
+W.T. 
+.  
+Aboveground biomass and nutrient accumulation 20 years after clear-cutting a southern Appalachian watershed 
+,  
+Can. J. For. Res. 
+,  
+2002 
+, vol.  
+32 
+ (pg.  
+667 
+- 
+683 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Enquist 
+B.J. 
+,  
+Brown 
+J.H. 
+,  
+West 
+G.B. 
+.  
+Allometric scaling of plant energetics and population density 
+,  
+Nature. 
+,  
+1998 
+, vol.  
+395 
+ (pg.  
+163 
+- 
+166 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Enquist 
+B.J. 
+,  
+West 
+G.B. 
+,  
+Charnov 
+E.L. 
+,  
+Brown 
+J.H. 
+.  
+Allometric scaling of production and life history variation in vascular plants 
+,  
+Nature. 
+,  
+1999 
+, vol.  
+401 
+ (pg.  
+907 
+- 
+911 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Enquist 
+B.J. 
+,  
+West 
+G.B. 
+,  
+Brown 
+J.H. 
+.  
+Extensions and evaluations of a general quantitative theory of forest structure and dynamics 
+,  
+Proc. Natl. Acad. Sci. USA. 
+,  
+2009 
+, vol.  
+106 
+ (pg.  
+7046 
+- 
+7051 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Hockstad 
+L. 
+,  
+Cook 
+B. 
+.  
+[EPA] Environmental Protection Agency 
+,  
+Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2010 
+,  
+2012 
+US Environmental Protection Agency 
+pg.  
+481 pp 
+   
+EPA 430-R-12-001 
+ 
+Google Scholar 
+ 
+  
+Espinosa-Bancalari 
+M.A. 
+,  
+Perry 
+D.A. 
+.  
+Distribution and increment of biomass in adjacent young Douglas-fir stands with different early growth rates 
+,  
+Can. J. For. Res. 
+,  
+1987 
+, vol.  
+17 
+ (pg.  
+722 
+- 
+730 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Evert 
+F. 
+.  
+A National System of Equations for Estimating Ovendry Mass of Trembling Aspen Populus tremuloides Michx 
+,  
+1983 
+Petawawa National Forestry Institute 
+pg.  
+23 pp 
+   
+Information Report No. PI-X-24 
+Fassnacht 
+K. 
+.  ,  
+Characterization of the Structure and Function of Upland Forest Ecosystems in North Central Wisconsin 
+,  
+1996 
+University of Wisconsin 
+pg.  
+370 pp 
+   
+Ph.D. dissertation 
+Fatemi 
+F.R. 
+,  
+Yanai 
+R.D. 
+,  
+Hamburg 
+S.P. 
+,  
+Vadeboncoeur 
+M.A. 
+,  
+Arthur 
+M.A. 
+,  
+Briggs 
+R.D. 
+, et al.  
+Allometric equations for young northern hardwoods: the importance of age-specific equations for estimating aboveground biomass 
+,  
+Can. J. For. Res. 
+,  
+2011 
+, vol.  
+41 
+ (pg.  
+881 
+- 
+891 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Felker 
+P. 
+,  
+Meyer 
+J.M. 
+,  
+Gronski 
+S.J. 
+.  
+Application of self-thinning in mesquite ( Prosopis glandulosa var. glandulosa ) to range management and lumber production 
+,  
+For. Ecol. Manage. 
+,  
+1990 
+, vol.  
+31 
+ (pg.  
+225 
+- 
+232 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Flewelling 
+J.W. 
+,  
+Pienaar 
+L.V. 
+.  
+Multiplicative regression with lognormal errors 
+,  
+For. Sci. 
+,  
+1981 
+, vol.  
+27 
+ (pg.  
+281 
+- 
+289 
+) 
+ 
+Google Scholar 
+ 
+  
+[FIA] Forest Inventory and Analysis 
+,  
+FIA Data Mart: Download Files, FIADB4.0 
+,  
+2010 
+US Department of Agriculture, Forest Service, FIA Program 
+  
+Accessed online at http://199.128.173.17/fiadb4-downloads/datamart.html/ last accessed November 2010. [No longer available; current version FIADB5.1 is available online at http://apps.fs.fed.us/fiadb-downloads/datamart.html/ last accessed April 6, 2012] 
+ 
+Google Scholar 
+ 
+Fortier 
+J. 
+,  
+Gagnon 
+D. 
+,  
+Truax 
+B. 
+,  
+Lambert 
+F. 
+.  
+Biomass and volume yield after 6 years in multiclonal hybrid poplar riparian buffer strips 
+,  
+Biomass Bioenergy. 
+,  
+2010 
+, vol.  
+34 
+ (pg.  
+1028 
+- 
+1040 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Fujimori 
+T. 
+,  
+Kawanabe 
+S. 
+,  
+Saito 
+H. 
+,  
+Grier 
+C.C. 
+,  
+Shidei 
+T. 
+.  
+Biomass and primary production in forests of three major vegetation zones in northwestern United States 
+,  
+J. Jpn. For. Soc. 
+,  
+1976 
+, vol.  
+58 
+ (pg.  
+360 
+- 
+373 
+) 
+ 
+Google Scholar 
+ 
+  
+Gary 
+H.L. 
+.  
+Crown Structure and Distribution of Biomass in a Lodgepole Pine Stand 
+,  
+1976 
+US Department of Agriculture, Forest Service, Rocky Mountain Forest and Range Experiment Station 
+pg.  
+20 pp 
+   
+Research Paper RM-165 
+Gholz 
+H.L. 
+,  
+Vogel 
+S.A. 
+,  
+Cropper 
+W.P. 
+,  
+McKelvey 
+K. 
+,  
+Ewel 
+K.C. 
+.  
+Dynamics of canopy structure and light interception in Pinus elliotii stands, north Florida 
+,  
+Ecol. Monogr. 
+,  
+1991 
+, vol.  
+6 
+ (pg.  
+33 
+- 
+51 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Gilmore 
+D.W. 
+,  
+Zenner 
+E.K. 
+.  
+Foliage–sapwood area relationships for balsam fir in north-central Minnesota 
+,  
+North. J. Appl. Forest. 
+,  
+2005 
+, vol.  
+22 
+ (pg.  
+203 
+- 
+210 
+) 
+ 
+Google Scholar 
+ 
+  
+Goldsmith 
+L.J. 
+,  
+Hocker 
+H.W. 
+.  
+Preliminary Small-Tree Aboveground Biomass Tables for Five Northern Hardwoods 
+,  
+1978 
+University of New Hampshire, Agricultural Experiment Station 
+  
+Res. Report No. 68 
+Gower 
+S.T. 
+,  
+Haynes 
+B.E. 
+,  
+Fassnacht 
+K.S. 
+,  
+Running 
+S.W. 
+,  
+Hunt 
+E.R. 
+.  
+Influence of fertilization on the allometric relations for two pines in contrasting environments 
+,  
+Can. J. For. Res. 
+,  
+1993a 
+, vol.  
+23 
+ (pg.  
+1704 
+- 
+1711 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Gower 
+S.T. 
+,  
+Reich 
+P.B. 
+,  
+Son 
+Y. 
+.  
+Canopy dynamics and aboveground production of five tree species with different leaf longevities 
+,  
+Tree Physiol. 
+,  
+1993b 
+, vol.  
+12 
+ (pg.  
+327 
+- 
+345 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Gower 
+S.T. 
+,  
+Vogel 
+J.G. 
+,  
+Norman 
+J.M. 
+,  
+Kucharik 
+C.J. 
+,  
+Steele 
+S.J. 
+,  
+Stow 
+T.K. 
+.  
+Carbon distribution and aboveground net primary production in aspen, jack pine, and black spruce stands in Saskatchewan and Manitoba, Canada 
+,  
+J. Geophys. Res. 
+,  
+1997 
+, vol.  
+102 
+ (pg.  
+29029 
+- 
+29041 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Goyal 
+G.C. 
+,  
+Fisher 
+J.J. 
+,  
+Krohn 
+M.J. 
+,  
+Packood 
+R.E. 
+,  
+Olson 
+J.R. 
+.  
+Variability in pulping and fiber characteristics of hybrid poplar trees due to their genetic makeup, environmental factors, and tree age 
+,  
+TAPPI J. 
+,  
+1999 
+, vol.  
+82 
+ (pg.  
+141 
+- 
+147 
+) 
+ 
+Google Scholar 
+ 
+  
+Grier 
+C.C. 
+,  
+Logan 
+R.S. 
+.  
+Old-growth Pseudotsuga menziesii communities of a western Oregon watershed: biomass distribution and production budgets 
+,  
+Ecol. Monogr. 
+,  
+1977 
+, vol.  
+47 
+ (pg.  
+373 
+- 
+400 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Hamilton 
+J.R. 
+,  
+Wendel 
+G.W. 
+.  
+Specific Gravity and Fiber Length of Some Hybrid Poplars Growing in West Virginia 
+,  
+1967 
+West Virginia University, Agricultural Experiment Station 
+pg.  
+6 pp 
+   
+Bulletin 556T 
+ 
+Google Scholar 
+Harrington 
+T.B. 
+,  
+Tappeiner 
+J.C. 
+,  
+Walstad 
+J.D. 
+.  
+Predicting leaf area and biomass of 1- to 6-year-old tanoak ( Lithocarpus densiflorus ) and Pacific madrone ( Arbutus menziesii ) sprout clumps in southwestern Oregon 
+,  
+Can. J. For. Res. 
+,  
+1984 
+, vol.  
+14 
+ (pg.  
+209 
+- 
+213 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Harris 
+W.F. 
+,  
+Goldstein 
+R.A. 
+,  
+Henderson 
+G.S. 
+.  
+Young 
+H. 
+.  
+Analysis of forest biomass pools, annual primary production and turnover of biomass for a mixed deciduous forest watershed 
+,  
+IUFRO Biomass Studies, Nancy, France and Vancouver, BC 
+,  
+1973 
+University of Maine, College of Life Sciences and Agriculture 
+(pg.  
+41 
+- 
+64 
+) 
+ 
+Google Scholar 
+ 
+  
+Harris 
+W.F. 
+,  
+Kinerson 
+R.S. 
+,  
+Edwards 
+N.T. 
+.  
+Comparison of belowground biomass of natural deciduous forest and loblolly pine plantations 
+,  
+Pedobiologia. 
+,  
+1977 
+, vol.  
+17 
+ (pg.  
+369 
+- 
+381 
+) 
+ 
+Google Scholar 
+ 
+  
+Harrison 
+R.B. 
+,  
+Terry 
+T.A. 
+,  
+Licata 
+C.W. 
+,  
+Flaming 
+B.L. 
+,  
+Meade 
+R. 
+,  
+Guerrini 
+I.A. 
+, et al.  
+Biomass and stand characteristics of a highly productive mixed Douglas-fir and western hemlock plantation in coastal Washington 
+,  
+West. J. Appl. Forest. 
+,  
+2009 
+, vol.  
+24 
+ (pg.  
+180 
+- 
+186 
+) 
+ 
+Google Scholar 
+ 
+  
+Haynes 
+B.E. 
+,  
+Gower 
+S.T. 
+.  
+Belowground carbon allocation in unfertilized and fertilized red pine plantations in northern Wisconsin 
+,  
+Tree Physiol. 
+,  
+1995 
+, vol.  
+15 
+ (pg.  
+317 
+- 
+325 
+) 
+ 
+Google Scholar 
+Crossref 
+PubMed 
+ 
+  
+Heath 
+L.S. 
+,  
+Hansen 
+M.H. 
+,  
+Smith 
+J.E. 
+,  
+Miles 
+P.D. 
+,  
+Smith 
+B.W. 
+.  
+Investigation into calculating tree biomass and carbon in the FIADB using a biomass expansion factor approach 
+,  
+2009 
+Forest Inventory and Analysis (FIA) Symposium 2008 
+US Department of Agriculture, Forest Service, Rocky Mountain Research Station 
+pg.  
+26 pp 
+   
+W. McWilliams, G. Moisen and R. Czaplewski (compilers). Proceedings RMRS-P-56CD [1 CD] 
+ 
+Google Scholar 
+Heath 
+L.S. 
+,  
+Smith 
+J.E. 
+,  
+Skog 
+K.E. 
+,  
+Nowak 
+D.J. 
+,  
+Woodall 
+C.W. 
+.  
+Managed forest carbon estimates for the US greenhouse gas inventory, 1990–2008 
+,  
+J. For. 
+,  
+2011 
+, vol.  
+109 
+ (pg.  
+167 
+- 
+173 
+) 
+ 
+Google Scholar 
+ 
+  
+Hu 
+H. 
+,  
+Wang 
+G.G. 
+.  
+Changes in forest biomass carbon storage in the South Carolina Piedmont between 1936 and 2005 
+,  
+For. Ecol. Manage. 
+,  
+2008 
+, vol.  
+255 
+ (pg.  
+1400 
+- 
+1408 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Ishii 
+H. 
+,  
+Kadotani 
+T. 
+.  
+Biomass and dynamics of attached dead branches in the canopy of 450-year-old Douglas-fir trees 
+,  
+Can. J. For. Res. 
+,  
+2006 
+, vol.  
+36 
+ (pg.  
+378 
+- 
+389 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Jacobs 
+D.F. 
+,  
+Selig 
+M.F. 
+,  
+Severeid 
+L.R. 
+.  
+Aboveground carbon biomass of plantation-grown American chestnut ( Castanea dentata ) in absence of blight 
+,  
+For. Ecol. Manage. 
+,  
+2009 
+, vol.  
+258 
+ (pg.  
+288 
+- 
+294 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Jenkins 
+J.C. 
+,  
+Chojnacky 
+D.C. 
+,  
+Heath 
+L.S. 
+,  
+Birdsey 
+R.A. 
+.  
+National-scale biomass estimation for United States tree species 
+,  
+For. Sci. 
+,  
+2003 
+, vol.  
+49 
+ (pg.  
+12 
+- 
+35 
+) 
+ 
+Google Scholar 
+ 
+  
+Jenkins 
+J.C. 
+,  
+Chojnacky 
+D.C. 
+,  
+Heath 
+L.S. 
+,  
+Birdsey 
+R.A. 
+.  
+A Comprehensive Database of Diameter-Based Biomass Regressions for North American Tree Species 
+,  
+2004 
+US Department of Agriculture, Forest Service, Northeastern Research Station 
+pg.  
+45 pp 
+   
+General Technical Report NE-319 [1 CD-ROM] 
+Johnson 
+B.A. 
+.  ,  
+Acidic Deposition Effects on Above- and Belowground Wood Biomass and Nutrient Status in a Young Hardwood Forest 
+,  
+2009 
+West Virginia University 
+pg.  
+126 
+   
+M.S. thesis 
+Johnston 
+R.S. 
+,  
+Bartos 
+D.L. 
+.  
+Summary of Nutrient and Biomass Data from Two Aspen Sites in Western United States 
+,  
+1977 
+US Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station 
+pg.  
+15 pp 
+   
+Research Paper INT-227 
+Johnstone 
+W.D. 
+,  
+Peterson 
+E.B. 
+.  
+Above-ground Component Weights in Alberta Populus Stands 
+,  
+1980 
+Northern Forest Research Centre 
+pg.  
+18 pp 
+   
+Information Report No. NOR-X-226 
+Jokela 
+E.J. 
+,  
+Martin 
+T.A. 
+.  
+Effects of ontogeny and soil nutrient supply on production, allocation, and leaf area efficiency in loblolly and slash pine stands 
+,  
+Can. J. For. Res. 
+,  
+2000 
+, vol.  
+30 
+ (pg.  
+1511 
+- 
+1524 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Kapeluck 
+P.R. 
+,  
+Van Lear 
+D.H. 
+.  
+A technique for estimating below-stump biomass of mature loblolly pine plantations 
+,  
+Can. J. For. Res. 
+,  
+1995 
+, vol.  
+25 
+ (pg.  
+355 
+- 
+360 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Karlik 
+J.F. 
+,  
+Chojnacky 
+D.C. 
+.    
+unpublished Biomass and carbon data from blue oaks in a California oak savanna Draft document available from D.C. Chojnacky, Virginia Tech, 144 Rees Place, Falls Church, VA 22046, USA, dchojnac@vt.edu. Accepted 2013 to Biomass and Bioenergy 
+Karlik 
+J.F. 
+,  
+McKay 
+A.H. 
+.  
+Leaf area index, leaf mass density, and allometric relationships derived from harvest of blue oaks in a California oak savanna 
+,  
+2002 
+Oaks in California's Changing Landscape: Proceedings of the Fifth Symposium on Oak Woodlands 
+US Department of Agriculture, Forest Service, Pacific Southwest Research Station 
+(pg.  
+719 
+- 
+729 
+)  
+R.B. Standiford, D. McCreary and K.L. Purcell (technical coordinators). General Technical Report PSW-GTR-184 
+ 
+Google Scholar 
+Kaye 
+J.P. 
+,  
+Hart 
+S.C. 
+,  
+Fule 
+P.Z. 
+,  
+Covington 
+W.W. 
+,  
+Moore 
+M.M. 
+,  
+Kaye 
+M.W. 
+.  
+Initial carbon, nitrogen, and phosphorus fluxes following ponderosa pine restoration treatments 
+,  
+Ecol. Appl. 
+,  
+2005 
+, vol.  
+15 
+ (pg.  
+1581 
+- 
+1593 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Ker 
+M.F. 
+.  
+Biomass Equations for Seven Major Maritimes Tree Species 
+,  
+1984 
+Maritime Forest Research Center 
+pg.  
+54 pp 
+   
+Information Report No. M-X-148 
+Ker 
+M.F. 
+,  
+van Raalte 
+G.B. 
+.  
+Tree biomass equations for Abies balsamea and Picea glauca in northwestern New Brunswick 
+,  
+Can. J. For. Res. 
+,  
+1981 
+, vol.  
+11 
+ (pg.  
+13 
+- 
+17 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Kimmins 
+J.P. 
+.  
+Nutrient Removal Associated with Whole-Tree Logging on Two Different Sites in the Prince George Forest District 
+,  
+1973 
+Unpublished Report submitted to British Columbia Forest Service Productivity Committee 
+pg.  
+100 pp 
+   
+[Equations also listed in Stanek and State (1978)] 
+ 
+Google Scholar 
+King 
+W.W. 
+,  
+Schnell 
+R.L. 
+.  
+Biomass Estimates of Black Oak Tree Components 
+,  
+1972 
+Tennessee Valley Authority; Division of Forestry, Fisheries, and Wildlife Development 
+pg.  
+24 
+   
+Technical Note B1 
+King 
+J.S. 
+,  
+Giardina 
+C.P. 
+,  
+Pregitzer 
+K.S. 
+,  
+Friend 
+A.L. 
+.  
+Biomass partitioning in red pine ( Pinus resinosa ) along a chronosequence in the Upper Peninsula of Michigan 
+,  
+Can. J. For. Res. 
+,  
+2007 
+, vol.  
+37 
+ (pg.  
+93 
+- 
+102 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Lambert 
+M.C. 
+,  
+Ung 
+C.H. 
+,  
+Raulier 
+F. 
+.  
+Canadian national tree aboveground biomass equations 
+,  
+Can. J. For. Res. 
+,  
+2005 
+, vol.  
+35 
+ (pg.  
+1996 
+- 
+2018 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Lavigne 
+M.B. 
+.  
+Tree Mass Equations for Common Species of Newfoundland 
+,  
+1982 
+Newfoundland Forest Research Centre 
+pg.  
+40 pp 
+   
+Information Report No. N-X-213 
+Lavigne 
+M.B. 
+,  
+Krasowski 
+M.J. 
+.  
+Estimating coarse root biomass of balsam fir 
+,  
+Can. J. For. Res. 
+,  
+2007 
+, vol.  
+37 
+ (pg.  
+991 
+- 
+998 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Lavigne 
+M.B. 
+,  
+Van Nostrand 
+R.S. 
+.  
+Biomass Equations for Six Tree Species in Central Newfoundland 
+,  
+1981 
+Newfoundland Forest Research Centre 
+pg.  
+51 pp 
+   
+Information Report No. N-X-199 
+Laxson 
+J.D. 
+,  
+Schacht 
+W.H. 
+,  
+Owens 
+M.K. 
+.  
+Above-ground biomass yields at different densities of honey mesquite 
+,  
+J. Range Manage. 
+,  
+1997 
+, vol.  
+50 
+ (pg.  
+550 
+- 
+554 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Levia 
+D.F. 
+.  
+A generalized allometric equation to predict foliar dry weight on the basis of trunk diameter for eastern white pine ( Pinus strobus L.) 
+,  
+For. Ecol. Manage. 
+,  
+2008 
+, vol.  
+255 
+ (pg.  
+1789 
+- 
+1792 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Lieurance 
+D.M. 
+.  
+Biomass allocation of the invasive tree Acacia auriculiformis and refoliation following hurricane-force winds 
+,  
+J. Torrey Bot. Soc. 
+,  
+2007 
+, vol.  
+134 
+ (pg.  
+389 
+- 
+397 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Litton 
+C.M. 
+,  
+Ryan 
+M.G. 
+,  
+Tinker 
+D.B. 
+,  
+Knight 
+D.H. 
+.  
+Belowground and aboveground biomass in young postfire lodgepole pine forests of contrasting tree density 
+,  
+Can. J. For. Res. 
+,  
+2003 
+, vol.  
+33 
+ (pg.  
+351 
+- 
+363 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Lojewski 
+N.R. 
+,  
+Fischer 
+D.G. 
+,  
+Bailey 
+J.K. 
+,  
+Schweitzer 
+J.A. 
+,  
+Whitham 
+T.G. 
+,  
+Hart 
+S.C. 
+.  
+Genetic basis of aboveground productivity in two native Populus species and their hybrids 
+,  
+Tree Physiol. 
+,  
+2009 
+, vol.  
+29 
+ (pg.  
+1133 
+- 
+1142 
+) 
+ 
+Google Scholar 
+Crossref 
+PubMed 
+ 
+  
+Long 
+J.N. 
+,  
+Turner 
+J. 
+.  
+Aboveground biomass of understory and overstorey in an age sequence of four Douglas-fir stands 
+,  
+J. Appl. Ecol. 
+,  
+1975 
+, vol.  
+12 
+ (pg.  
+179 
+- 
+188 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Loomis 
+R.M. 
+,  
+Phares 
+R.E. 
+,  
+Crosby 
+J.S. 
+.  
+Estimating foliage and branchwood quantities in shortleaf pine 
+,  
+For. Sci. 
+,  
+1966 
+, vol.  
+12 
+ (pg.  
+30 
+- 
+39 
+) 
+ 
+Google Scholar 
+ 
+  
+Mack 
+M.C. 
+,  
+Treseder 
+K.K. 
+,  
+Manies 
+K.L. 
+,  
+Harden 
+J.W. 
+,  
+Schuur 
+E.A.G. 
+,  
+Vogel 
+J.G. 
+, et al.  
+Recovery of aboveground plant biomass and productivity after fire in mesic and dry black spruce forests of interior Alaska 
+,  
+Ecosystems. 
+,  
+2008 
+, vol.  
+11 
+ (pg.  
+209 
+- 
+225 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Martin 
+J.L. 
+,  
+Gower 
+S.T. 
+,  
+Plaut 
+J. 
+,  
+Holmes 
+B. 
+.  
+Carbon pools in a boreal mixedwood logging chronosequence 
+,  
+Global Change Biol. 
+,  
+2005 
+, vol.  
+11 
+ (pg.  
+1883 
+- 
+1894 
+) 
+ 
+Google Scholar 
+ 
+  
+McCain 
+C. 
+.  
+Unpublished old-growth Douglas-fir foliage biomass equation. Oregon State University, Forest Science Department, Corvallis, OR. Foliage data described in Massman, W.J. 1982 Foliage distribution in old-growth coniferous tree canopies 
+,  
+Can. J. For. Res. 
+,  
+1994 
+, vol.  
+12 
+ (pg.  
+10 
+- 
+17 
+) 
+ 
+Google Scholar 
+ 
+  
+McGinnis 
+T.W. 
+,  
+Shook 
+C.D. 
+,  
+Keeley 
+J.E. 
+.  
+Estimating aboveground biomass for broadleaf woody plants and young conifers in Sierra Nevada, California, forests 
+,  
+West. J. Appl. Forest. 
+,  
+2010 
+, vol.  
+25 
+ (pg.  
+203 
+- 
+209 
+) 
+ 
+Google Scholar 
+ 
+  
+Means 
+J.E. 
+,  
+Hansen 
+H.A. 
+,  
+Koerper 
+G.J. 
+,  
+Alaback 
+P.B. 
+,  
+Klopsch 
+M.W. 
+.  
+Software for Computing Plant Biomass – BIOPAK Users Guide 
+,  
+1994 
+US Department of Agriculture, Forest Service, Pacific Northwest Research Station 
+pg.  
+184 pp 
+   
+General Technical Report PNW-GTR-340 
+Miles 
+P.D. 
+,  
+Smith 
+W.B. 
+.  
+Specific Gravity and Other Properties of Wood and Bark for 156 Tree Species Found in North America 
+,  
+2009 
+US Department of Agriculture, Forest Service, Northern Research Station 
+pg.  
+35 pp 
+   
+Research Note NRS-38 
+Miller 
+E.L. 
+,  
+Meeuwig 
+R.O. 
+,  
+Budy 
+J.D. 
+.  
+Biomass of Singleleaf Pinyon and Utah Juniper 
+,  
+1981 
+US Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station 
+pg.  
+18 pp 
+   
+Research Paper INT-273 
+Monk 
+C.D. 
+,  
+Child 
+G.I. 
+,  
+Nicholson 
+S.A. 
+.  
+Biomass, litter and leaf surface area estimates of an oak-hickory forest 
+,  
+Oikos. 
+,  
+1970 
+, vol.  
+21 
+ (pg.  
+138 
+- 
+141 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Naidu 
+S.L. 
+,  
+DeLucia 
+E.H. 
+,  
+Thomas 
+R.B. 
+.  
+Contrasting patterns of biomass allocation in dominant and suppressed loblolly pine 
+,  
+Can. J. For. Res. 
+,  
+1998 
+, vol.  
+28 
+ (pg.  
+1116 
+- 
+1124 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+National Academy of Sciences 
+Firewood Crops: Shrub and Tree Species for Energy Production 
+,  
+1980 
+pg.  
+237 pp 
+   
+Report of an ad hoc panel of the advisory committee on technology innovation 
+Navar 
+J. 
+.  
+Allometric equations for tree species and carbon stocks for forests of northwestern Mexico 
+,  
+For. Ecol. Manage. 
+,  
+2009 
+, vol.  
+257 
+ (pg.  
+427 
+- 
+434 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Nicholas 
+N.S. 
+.  ,  
+Stand Structure, Growth, and Mortality in Southern Appalachian Spruce-Fir 
+,  
+1992 
+Virginia Polytechnic and State University 
+pg.  
+77 pp 
+   
+Ph.D. dissertation 
+Norris 
+M.D. 
+,  
+Blair 
+J.M. 
+,  
+Johnson 
+L.C. 
+,  
+Mckane 
+R.B. 
+.  
+Assessing changes in biomass, productivity, and C and N stores following Juniperus virginiana forest expansion into tallgrass prairie 
+,  
+Can. J. For. Res. 
+,  
+2001 
+, vol.  
+31 
+ (pg.  
+1940 
+- 
+1946 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Omdal 
+D.W. 
+,  
+Jacobi 
+W.R. 
+,  
+Shaw 
+C.G. 
+III. 
+.  
+Estimating large-root biomass from breast–height diameters for ponderosa pine in northern New Mexico 
+,  
+West. J. Appl. Forest. 
+,  
+2001 
+, vol.  
+16 
+ (pg.  
+18 
+- 
+21 
+) 
+ 
+Google Scholar 
+ 
+  
+Oswald 
+B.P. 
+,  
+Botting 
+R.R. 
+,  
+Coble 
+D.W. 
+,  
+Farrish 
+K.W. 
+.  
+Aboveground biomass estimation for three common woody species in the post oak savannah of Texas 
+,  
+South. J. Appl. Forest. 
+,  
+2010 
+, vol.  
+34 
+ (pg.  
+91 
+- 
+94 
+) 
+ 
+Google Scholar 
+ 
+  
+Ouellet 
+D. 
+.  
+Biomass equations for six commercial tree species in Quebec 
+,  
+For. Chron. 
+,  
+1985 
+, vol.  
+61 
+ (pg.  
+215 
+- 
+222 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Ouimet 
+R. 
+,  
+Camire 
+C. 
+,  
+Brazeau 
+M. 
+,  
+Moore 
+J.D. 
+.  
+Estimation of coarse root biomass and nutrient content for sugar maple, jack pine, and black spruce using stem diameter at breast height 
+,  
+Can. J. For. Res. 
+,  
+2008 
+, vol.  
+38 
+ (pg.  
+92 
+- 
+100 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Pastor 
+J. 
+,  
+Aber 
+J.D. 
+,  
+Melillo 
+J.M. 
+.  
+Biomass prediction using generalized allometric regressions for some northeast tree species 
+,  
+For. Ecol. Manage. 
+,  
+1984 
+, vol.  
+7 
+ (pg.  
+265 
+- 
+274 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Pearson 
+J.A. 
+,  
+Fahey 
+T.J. 
+,  
+Knight 
+D.H. 
+.  
+Biomass and leaf area in contrasting lodgepole pine forests 
+,  
+Can. J. For. Res. 
+,  
+1984 
+, vol.  
+14 
+ (pg.  
+259 
+- 
+265 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Peichl 
+M. 
+,  
+Arain 
+M.A. 
+.  
+Allometry and partitioning of above- and belowground tree biomass in an age-sequence of white pine forests 
+,  
+For. Ecol. Manage. 
+,  
+2007 
+, vol.  
+253 
+ (pg.  
+68 
+- 
+80 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Perala 
+D.A. 
+,  
+Alban 
+D.H. 
+.  
+Allometric Biomass Estimators for Aspen-Dominated Ecosystems in the Upper Great Lakes 
+,  
+1994 
+US Department of Agriculture, Forest Service, North Central Forest Experiment Station 
+pg.  
+38 pp 
+   
+Research Paper NC-314 
+Petersen 
+K.S. 
+,  
+Ares 
+A. 
+,  
+Terry 
+T.A. 
+,  
+Harrison 
+R.B. 
+.  
+Vegetation competition effects on aboveground biomass and macronutrients, leaf area, and crown structure in 5-year old Douglas-fir 
+,  
+New Forest. 
+,  
+2008 
+, vol.  
+35 
+ (pg.  
+299 
+- 
+311 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Pike 
+L.H. 
+,  
+Rydell 
+R.A. 
+,  
+Denison 
+W.C. 
+.  
+A 400-year-old Douglas-fir tree and its epiphytes: biomass, surface area, and their distributions 
+,  
+Can. J. For. Res. 
+,  
+1977 
+, vol.  
+7 
+ (pg.  
+680 
+- 
+699 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Pitt 
+D.G. 
+,  
+Bell 
+F.W. 
+.  
+Effects of stand tending on the estimation of aboveground biomass of planted juvenile white spruce 
+,  
+Can. J. For. Res. 
+,  
+2004 
+, vol.  
+34 
+ (pg.  
+649 
+- 
+658 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Ralston 
+C.W. 
+,  
+Prince 
+A.B. 
+.  
+Accumulation of dry matter and nutrients by pine and hardwood forests in the lower Piedmont of North Carolina 
+,  
+Forest–Soil Relationships in North America 
+,  
+1965 
+Oregon State University Press 
+(pg.  
+77 
+- 
+94 
+) 
+ 
+Google Scholar 
+ 
+  
+Ramseur 
+G.S. 
+,  
+Kelly 
+J.M. 
+.  
+Forest characterization and biomass estimates for two sites on the Cumberland Plateau 
+,  
+J. Tenn. Acad. Sci. 
+,  
+1981 
+, vol.  
+56 
+ (pg.  
+99 
+- 
+104 
+) 
+ 
+Google Scholar 
+ 
+  
+Rauscher 
+M.H. 
+.  
+Growth and Yield of White Spruce Plantations in the Lake States (a Literature Review) 
+,  
+1984 
+US Department of Agriculture, Forest Service, North Central Forest Experiment Station 
+pg.  
+46 pp 
+   
+Research Paper NC-253 
+Reid 
+C.P.P. 
+,  
+Odegard 
+P.J. 
+,  
+Hokenstrom 
+J.C. 
+,  
+McConel 
+W.J. 
+,  
+Frayer 
+W.E. 
+.  
+Effects of Clearcutting on Nutrient Cycling in Lodgepole Pine Forests 
+,  
+1974 
+Colorado State University, College of Forestry and Natural Resources 
+pg.  
+321 pp 
+   
+Research Paper 
+Reiners 
+W.A. 
+.  
+Structure and energetics of three Minnesota forests 
+,  
+Ecol. Monogr. 
+,  
+1972 
+, vol.  
+42 
+ (pg.  
+71 
+- 
+94 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Reynolds 
+P.E. 
+,  
+Carlson 
+K.G. 
+,  
+Fromm 
+T.W. 
+,  
+Gigliello 
+K.A. 
+,  
+Kaminski 
+R.J. 
+.  
+Pope 
+P. 
+.  
+Phytosociology, biomass, productivity and nutrient budget for the tree stratum of a southern New Jersey hardwood swamp 
+,  
+Proceedings, Central hardwood forest conference II 
+,  
+1978 
+Purdue University 
+(pg.  
+123 
+- 
+139 
+) 
+ 
+Google Scholar 
+ 
+  
+Riemenschneider 
+D.E. 
+,  
+Berguson 
+W.E. 
+,  
+Dickmann 
+D.I. 
+,  
+Hall 
+R.B. 
+,  
+Isebrands 
+J.G. 
+,  
+Mohn 
+C.A. 
+, et al.  
+Poplar breeding and testing strategies in the north-central U.S.: Demonstration of potential yield and consideration of future research needs 
+,  
+For. Chron. 
+,  
+2001 
+, vol.  
+77 
+ (pg.  
+245 
+- 
+253 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Rogerson 
+T.L. 
+.  
+Estimating Foliage on Loblolly Pine 
+,  
+1964 
+US Department of Agriculture, Forest Service, Southern Forest Experiment Station 
+pg.  
+3 pp 
+   
+Research Note SO-16 
+Rolfe 
+G.L. 
+,  
+Akhtar 
+A.M. 
+,  
+Arnold 
+L.E. 
+.  
+Nutrient distribution and flux in a mature oak-hickory forest 
+,  
+For. Sci. 
+,  
+1978 
+, vol.  
+41 
+ (pg.  
+122 
+- 
+130 
+) 
+ 
+Google Scholar 
+ 
+  
+Rowell 
+C.E. 
+,  
+Carpenter 
+S.B. 
+.  
+Black locust biomass prediction on eastern Kentucky strip mines 
+,  
+South. J. Appl. Forest. 
+,  
+1983 
+, vol.  
+7 
+ (pg.  
+27 
+- 
+30 
+) 
+ 
+Google Scholar 
+ 
+  
+Ruark 
+G.A. 
+,  
+Bockheim 
+J.C. 
+.  
+Below-ground biomass of 10-, 20- and 32-year-old Populus tremuloides in Wisconsin 
+,  
+Pedobiologia. 
+,  
+1987 
+, vol.  
+30 
+ (pg.  
+207 
+- 
+217 
+) 
+ 
+Google Scholar 
+ 
+  
+Ruark 
+G.A. 
+,  
+Martin 
+G.L. 
+,  
+Bockheim 
+J.G. 
+.  
+Comparison of constant and variable allometric ratios for estimating Populus tremuloides biomass 
+,  
+For. Sci. 
+,  
+1987 
+, vol.  
+33 
+ (pg.  
+294 
+- 
+300 
+) 
+ 
+Google Scholar 
+ 
+  
+Rubilar 
+R.A. 
+,  
+Allen 
+H.L. 
+,  
+Kelting 
+D.L. 
+.  
+Comparison of biomass and nutrient content equations for successive rotations of loblolly pine plantations on an Upper Coastal Plain site 
+,  
+Biomass Bioenergy. 
+,  
+2005 
+, vol.  
+28 
+ (pg.  
+548 
+- 
+564 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Sabatia 
+O.S. 
+.  ,  
+Effect of Thinning on Partitioning of Aboveground Biomass in Naturally Regenerated Shortleaf Pine ( Pinus echinata mill.) 
+,  
+2007 
+Oklahoma State Uniersity 
+pg.  
+84 pp 
+   
+M.S. thesis 
+Sachs 
+D. 
+.  ,  
+Management Effects on Nitrogen Nutrition and Long-Term Productivity of Western Hemlock Stands 
+,  
+1984 
+Oregon State University 
+pg.  
+72 pp 
+   
+M.S. Thesis 
+Samuelson 
+L.J. 
+,  
+Johnsen 
+K. 
+,  
+Stokes 
+T. 
+.  
+Production, allocation, and stemwood growth efficiency of Pinus taeda L. stands in response to 6 years of intensive management 
+,  
+For. Ecol. Manage. 
+,  
+2004 
+, vol.  
+192 
+ (pg.  
+59 
+- 
+70 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Santantonio 
+D. 
+,  
+Hermann 
+R.K. 
+,  
+Overton 
+W.S. 
+.  
+Root biomass studies in forest ecosystems 
+,  
+Pedobiologia. 
+,  
+1977 
+, vol.  
+17 
+ (pg.  
+1 
+- 
+31 
+) 
+ 
+Google Scholar 
+ 
+  
+SAS Institute Inc 
+,  
+2011 
+  
+SAS/STAT® 9.3 User's Guide Copyright © SAS Institute Inc. Cary, NC. SAS and all other SAS Institute Inc. product or service names are registered trademarks or trademarks of SAS Institute Inc. 
+Schaegel 
+B.E. 
+.  
+Estimating Aspen Volume and Weight for Individual Trees, Diameter Classes or Entire Stands 
+,  
+1975 
+US Department of Agriculture, Forest Service, North Central Forest Experiment Station 
+pg.  
+16 pp 
+   
+General Technical Report NC-20 
+Schnell 
+R.L. 
+.  
+Biomass Estimates of Eastern Redcedar Tree Components 
+,  
+1976 
+Tennessee Valley Authority; Division of Forestry, Fisheries, and Wildlife Development 
+pg.  
+15 pp 
+   
+Technical Note B15 
+Schnell 
+R.L. 
+.  
+Biomass Estimates of Hickory Tree Components 
+,  
+1978 
+Tennessee Valley Authority; Division of Forestry, Fisheries, and Wildlife Development 
+  
+Technical Note B30 39 pp 
+Seiler 
+T.J. 
+,  
+Rasse 
+D.P. 
+,  
+Li 
+J.H. 
+,  
+Dijkstra 
+P. 
+,  
+Anderson 
+H.P. 
+,  
+Johnson 
+D.P. 
+, et al.  
+Disturbance, rainfall and contrasting species responses mediated aboveground biomass response to 11 years of CO 2 enrichment in a Florida scrub-oak ecosystem 
+,  
+Glob. Change Biol. 
+,  
+2009 
+, vol.  
+15 
+ (pg.  
+356 
+- 
+367 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Shenoy 
+A. 
+,  
+Johnstone 
+J.F. 
+,  
+Kasischkea 
+E.S. 
+,  
+Kiellanda 
+K. 
+.  
+Persistent effects of fire severity on early successional forests in interior Alaska 
+,  
+For. Ecol. Manage. 
+,  
+2011 
+, vol.  
+261 
+ (pg.  
+381 
+- 
+390 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Singh 
+T. 
+.  
+Biomass Equations for Ten Major Tree Species in the Prairie Provinces 
+1982 
+Northern Forest Research Centre 
+pg.  
+35 pp 
+   
+Information Report No. NOR-X-242 
+Slik 
+J.W.F. 
+,  
+Aiba 
+S-I. 
+,  
+Brearley 
+F.Q. 
+,  
+Cannon 
+C.H. 
+,  
+Forshed 
+O. 
+,  
+Kitayama 
+K. 
+, et al.  
+Environmental correlates of tree biomass, basal area, wood specific gravity and stem density gradients in Borneo's tropical forests 
+,  
+Global Ecol. Biogeogr. 
+,  
+2010 
+, vol.  
+19 
+ (pg.  
+50 
+- 
+60 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Smith 
+M.W. 
+,  
+Wood 
+B.W. 
+.  
+Pecan tree biomass estimates 
+,  
+HortScience. 
+,  
+2006 
+, vol.  
+41 
+ (pg.  
+1286 
+- 
+1291 
+) 
+ 
+Google Scholar 
+ 
+  
+Snell 
+J.A.K. 
+,  
+Little 
+S.N. 
+.  
+Predicting Crown Weight and Bole Volume of Five Western Hardwoods 
+,  
+1983 
+US Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station 
+pg.  
+37 pp 
+   
+General Technical Report PNW-GTR-151 
+Snell 
+J.A.K. 
+,  
+Max 
+T.A. 
+.  
+Estimating the Weight of Crown Segments for Old-Growth Douglas-fir and Western Hemlock 
+,  
+1985 
+US Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station 
+pg.  
+22 pp 
+   
+Research Paper PNW-329 
+Sollins 
+P. 
+,  
+Anderson 
+R.M. 
+.  
+Dry-Weight and Other Data for Trees and Woody Shrubs of the Southeastern United States 
+,  
+1971 
+Oak Ridge National Laboratory 
+pg.  
+75 pp 
+   
+Ecological Sciences Publication No. ORNL-IBP-71-6 
+ 
+Google Scholar 
+Sollins 
+P. 
+,  
+Reichle 
+D.E. 
+,  
+Olson 
+J.S. 
+.  
+Organic Matter Budget and Model for a Southern Appalachian Liriodendron Forest 
+,  
+1973 
+Oak Ridge National Laboratory 
+pg.  
+150 pp 
+   
+Oak Ridge National Laboratory Report No. EDFB-IBP-73-2 
+Standish 
+J.T. 
+,  
+Manning 
+G.H. 
+,  
+Demaerschalk 
+J.P. 
+.  
+Development of Biomass Equations for British Columbia Tree Species 
+,  
+1985 
+Pacific Forest Research Centre 
+pg.  
+48 pp 
+   
+Information Report No. BC-X-264 
+Stanek 
+W. 
+,  
+State 
+D. 
+.  
+Equations Predicting Primary Productivity (Biomass) of Trees, Shrubs and Lesser Vegetation Based on Current Literature 
+,  
+1978 
+Pacific Forest Research Centre 
+pg.  
+58 pp 
+   
+Information Report No. BC-X-183 
+Storey 
+T.G. 
+,  
+Fons 
+W.L. 
+,  
+Sauer 
+F.M. 
+.  
+Crown Characteristics of Several Coniferous Tree Species 
+,  
+1955 
+US Department of Agriculture, Forest Service, Division of Fire Research 
+pg.  
+95 pp 
+   
+Report No. AFSWP-416 
+Strong 
+W.L. 
+,  
+La Roi 
+G.H. 
+.  
+Root-system morphology of common boreal forest trees in Alberta, Canada 
+,  
+Can. J. For. Res. 
+,  
+1983 
+, vol.  
+13 
+ (pg.  
+1164 
+- 
+1173 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Telfer 
+E.S. 
+.  
+Weight–diameter relationships for 22 woody plant species 
+,  
+Can. J. Bot. 
+,  
+1969 
+, vol.  
+47 
+ (pg.  
+1851 
+- 
+1855 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Ter-Mikaelian 
+M.T. 
+,  
+Korzukhin 
+M.D. 
+.  
+Biomass equations for sixty-five North American tree species 
+,  
+For. Ecol. Manage. 
+,  
+1997 
+, vol.  
+97 
+ (pg.  
+1 
+- 
+24 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Ter-Mikaelian 
+M.T. 
+,  
+Lautenschlager 
+R.A. 
+.  
+Predictive equations for leaf area and biomass for sugar bushes in eastern Ontario 
+,  
+For. Chron. 
+,  
+2001 
+, vol.  
+77 
+ (pg.  
+643 
+- 
+649 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Tritton 
+L.M. 
+,  
+Hornbeck 
+J.W. 
+.  
+Biomass Equations for Major Tree Species of the Northeast 
+,  
+1982 
+US Department of Agriculture, Forest Service, Northeastern Forest Experimental Station 
+pg.  
+46 pp 
+   
+General Technical Report NE-69 
+Tufekcioglu 
+A. 
+,  
+Raich 
+J.W. 
+,  
+Isenhart 
+T.M. 
+,  
+Schultz 
+R.C. 
+.  
+Biomass, carbon and nitrogen dynamics of multi-species riparian buffers within an agricultural watershed in Iowa, USA 
+,  
+Agroforest. Syst. 
+,  
+2003 
+, vol.  
+57 
+ (pg.  
+187 
+- 
+198 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Turner 
+M.G. 
+,  
+Tinker 
+D.B. 
+,  
+Romme 
+W.H. 
+,  
+Kashian 
+D.M. 
+,  
+Litton 
+C.M. 
+.  
+Landscape patterns of sapling density, leaf area, and aboveground net primary production in postfire lodgepole pine forests, Yellowstone National Park (USA) 
+,  
+Ecosystems. 
+,  
+2004 
+, vol.  
+7 
+ (pg.  
+751 
+- 
+775 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Tuskan 
+G.A. 
+,  
+Rensema 
+T.R. 
+.  
+Clonal differences in biomass characteristics, coppice ability, and biomass prediction equations among four Populus clones grown in eastern North Dakota 
+,  
+Can. J. For. Res. 
+,  
+1992 
+, vol.  
+22 
+ (pg.  
+348 
+- 
+354 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Vadeboncoeur 
+M.A. 
+,  
+Hamburg 
+S.P. 
+,  
+Yanai 
+R.D. 
+.  
+Validation and refinement of allometric equations for roots of northern hardwoods 
+,  
+Can. J. For. Res. 
+,  
+2007 
+, vol.  
+37 
+ (pg.  
+1777 
+- 
+1783 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Van Hooser 
+D.D. 
+,  
+Chojnacky 
+D.C. 
+.  
+Whole Tree Volume Estimates for the Rocky Mountain States 
+,  
+1983 
+US Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station 
+pg.  
+69 
+   
+Resource Bulletin INT-RB-29 
+ 
+Google Scholar 
+Van Lear 
+D.H. 
+,  
+Taras 
+M.A. 
+,  
+Waide 
+J.B. 
+,  
+Augspurger 
+M.K. 
+.  
+Comparison of biomass equations for planted vs. natural loblolly pine stands of sawtimber size 
+,  
+For. Ecol. Manage. 
+,  
+1986 
+, vol.  
+14 
+ (pg.  
+205 
+- 
+210 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Vielledent 
+G. 
+,  
+Vaudry 
+R. 
+,  
+Andriamanohisoa 
+S.F. 
+,  
+Rakotonarivo 
+O.S. 
+,  
+Randrianasolo 
+H.Z. 
+,  
+Razafindrabe 
+H.N. 
+, et al.  
+A universal approach to estimate biomass and carbon stock in tropical forests using generic allometric models 
+,  
+Ecol. Appl. 
+,  
+2012 
+, vol.  
+22 
+ (pg.  
+572 
+- 
+583 
+) 
+ 
+Google Scholar 
+Crossref 
+PubMed 
+ 
+  
+Wade 
+D.D. 
+.  
+Estimating Slash Quantity from Standing Loblolly Pine 
+,  
+1969 
+US Department of Agriculture, Forest Service, Southeastern Forest Experiment Station 
+pg.  
+4 pp 
+   
+Research Note SE-125 
+Wahlgren 
+H.E. 
+,  
+Fassnacht 
+D.L. 
+.  
+Estimating Tree Specific Gravity from a Single Increment Core 
+,  
+1959 
+US Department of Agriculture, Forest Service, Forest Products Laboratory 
+pg.  
+26 pp 
+   
+Report 2146 
+Wang 
+C. 
+.  
+Biomass allometric equations for 10 co-occurring tree species in Chinese temperate forests 
+,  
+For. Ecol. Manage. 
+,  
+2006 
+, vol.  
+222 
+ (pg.  
+9 
+- 
+16 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Wang 
+J.R. 
+,  
+Zhong 
+A.L. 
+,  
+Simard 
+S.W. 
+,  
+Kimmins 
+J.P. 
+.  
+Aboveground biomass and nutrient accumulation in an age sequence of paper birch ( Betula papyrifera ) in the Interior Cedar Hemlock Zone, British Columbia 
+,  
+For. Ecol. Manage. 
+,  
+1996 
+, vol.  
+83 
+ (pg.  
+27 
+- 
+38 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Wang 
+J.R. 
+,  
+Letchforda 
+T. 
+,  
+Comeaub 
+P. 
+,  
+Kimmins 
+J.P. 
+.  
+Above- and below-ground biomass and nutrient distribution of a paper birch and subalpine fir mixed-species stand in the Sub-Boreal Spruce Zone of British Columbia 
+,  
+For. Ecol. Manage. 
+,  
+2000 
+, vol.  
+130 
+ (pg.  
+17 
+- 
+26 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Waring 
+R.H. 
+,  
+Emmingham 
+W.H. 
+,  
+Gholz 
+H.L. 
+,  
+Grier 
+C.C. 
+.  
+Variation in maximum leaf area of coniferous forests in Oregon and its ecological significance 
+,  
+For. Sci. 
+,  
+1978 
+, vol.  
+24 
+ (pg.  
+131 
+- 
+140 
+) 
+ 
+Google Scholar 
+ 
+  
+Wartluft 
+J.L. 
+.  
+Weights of Small Appalachian Hardwood Trees and Components 
+,  
+1977 
+U.S. Department of Agriculture, Forest Service, Northeastern Forest Experiment Station 
+pg.  
+4 pp 
+   
+Research Paper NE-366 
+Weaver 
+T. 
+,  
+Forcella 
+F. 
+.  
+Biomass of fifty conifer forests and nutrient exports associated with their harvest 
+,  
+Great Basin Nat. 
+,  
+1977 
+, vol.  
+37 
+ (pg.  
+395 
+- 
+401 
+) 
+ 
+Google Scholar 
+ 
+  
+Weetman 
+G.F. 
+,  
+Harland 
+R. 
+.  
+Foliage and wood production in unthinned black spruce in northern Quebec 
+,  
+For. Sci. 
+,  
+1964 
+, vol.  
+10 
+ (pg.  
+80 
+- 
+88 
+) 
+ 
+Google Scholar 
+ 
+  
+West 
+G.B. 
+,  
+Brown 
+J.H. 
+,  
+Enquist 
+B.J. 
+.  
+A general model for the origin of allometric scaling laws in biology 
+,  
+Science. 
+,  
+1997 
+, vol.  
+276 
+ (pg.  
+122 
+- 
+126 
+) 
+ 
+Google Scholar 
+Crossref 
+PubMed 
+ 
+  
+West 
+G.B. 
+,  
+Brown 
+J.H. 
+,  
+Enquist 
+B.J. 
+.  
+The fourth dimension of life: fractal geometry and allometric scaling of organisms 
+,  
+Science. 
+,  
+1999a 
+, vol.  
+284 
+ (pg.  
+1677 
+- 
+1679 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+West 
+G.B. 
+,  
+Brown 
+J.H. 
+,  
+Enquist 
+B.J. 
+.  
+A general model for the structure and allometry of plant vascular systems 
+,  
+Nature. 
+,  
+1999b 
+, vol.  
+400 
+ (pg.  
+664 
+- 
+667 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+West 
+G.B. 
+,  
+Enquist 
+B.J. 
+,  
+Brown 
+J.H. 
+.  
+A general quantitative theory of forest structure and dynamics 
+,  
+Proc. Natl. Acad. Sci. USA. 
+,  
+2009 
+, vol.  
+106 
+ (pg.  
+7040 
+- 
+7045 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Westman 
+W.E. 
+,  
+Whittaker 
+R.H. 
+.  
+The pygmy forest region of northern California: studies on biomass and primary productivity 
+,  
+J. Ecol. 
+,  
+1975 
+, vol.  
+63 
+ (pg.  
+493 
+- 
+520 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Whisenant 
+S.G. 
+,  
+Burzlaff 
+D.F. 
+.  
+Predicting green weight of mesquite ( Prosopis glandulosa Torr.) 
+,  
+J. Range Manage. 
+,  
+1978 
+, vol.  
+31 
+ (pg.  
+396 
+- 
+397 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Whittaker 
+R.H. 
+,  
+Niering 
+W.A. 
+.  
+Vegetation of the Santa Catalina Mountains, Arizona. V. Biomass, production, and diversity along the elevation gradient 
+,  
+Ecology. 
+,  
+1975 
+, vol.  
+56 
+ (pg.  
+771 
+- 
+790 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Whittaker 
+R.H. 
+,  
+Bormann 
+F.H. 
+,  
+Likens 
+G.E. 
+,  
+Siccama 
+T.G. 
+.  
+The Hubbard Brook ecosystem study: forest biomass and production 
+,  
+Ecol. Monogr. 
+,  
+1974 
+, vol.  
+44 
+ (pg.  
+233 
+- 
+254 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Wiant 
+H.V. 
+Jr. 
+,  
+Sheetz 
+C.E. 
+,  
+Colaninno 
+A. 
+,  
+DeMoss 
+J.C. 
+,  
+Castaneda 
+F. 
+.  
+Tables and Procedures for Estimating Weights of some Appalachian Hardwoods 
+,  
+1977 
+West Virginia University, Agricultural and Forestry Experiment Station 
+pg.  
+36 pp 
+   
+Bulletin 659T 
+ 
+Google Scholar 
+Williamson 
+G.B. 
+,  
+Wiemann 
+M.C. 
+.  
+Measuring wood specific gravity…correctly 
+,  
+Am. J. Bot. 
+,  
+2010 
+, vol.  
+97 
+ (pg.  
+519 
+- 
+524 
+) 
+ 
+Google Scholar 
+Crossref 
+PubMed 
+ 
+  
+Woodall 
+C.W. 
+,  
+Heath 
+L.S. 
+,  
+Domke 
+G.M. 
+,  
+Nichols 
+M.C. 
+.  
+Methods and Equations for Estimating Aboveground Volume, Biomass, and Carbon for Trees in the U.S. Forest Inventory, 2010 
+,  
+2011 
+US Department of Agriculture, Forest Service, Northern Research Station 
+pg.  
+30 pp 
+   
+General Technical Report NRS-88 
+Woudenberg 
+S.W. 
+,  
+Conkling 
+B.L. 
+,  
+O'Connell 
+B.M. 
+,  
+LaPoint 
+E.B. 
+,  
+Turner 
+J.A. 
+,  
+Waddell 
+K.L. 
+.  
+The Forest Inventory and Analysis Database: Database Description and User’s Manual Version 4.0 for Phase 2 
+,  
+2010 
+US Department of Agriculture, Forest Service, Rocky Mountain Research Station 
+pg.  
+336 pp 
+   
+General Technical Report RMRS-GTR-245 
+Xing 
+Z. 
+,  
+Bourque 
+C.P. 
+,  
+Swift 
+D.E. 
+,  
+Clowater 
+C.W. 
+,  
+Krasowski 
+M. 
+,  
+Meng 
+F.R. 
+.  
+Carbon and biomass partitioning in balsam fir ( Abies balsamea ) 
+,  
+Tree Physiol. 
+,  
+2005 
+, vol.  
+25 
+ (pg.  
+1207 
+- 
+1217 
+) 
+ 
+Google Scholar 
+Crossref 
+PubMed 
+ 
+  
+Yarie 
+J. 
+,  
+Kane 
+E. 
+,  
+Mack 
+M. 
+.  
+Aboveground Biomass Equations for Trees of Interior Alaska 
+,  
+2007 
+University of Alaska, Agricultural and Forestry Experiment Station 
+pg.  
+16 
+   
+Bulletin 115 
+ 
+Google Scholar 
+Zabek 
+L.M. 
+,  
+Prescott 
+C.E. 
+.  
+Biomass equations and carbon content of aboveground leafless biomass of hybrid poplar in Coastal British Columbia 
+,  
+For. Ecol. Manage. 
+,  
+2006 
+, vol.  
+223 
+ (pg.  
+291 
+- 
+302 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Zhou 
+X. 
+,  
+Brandle 
+J.R. 
+,  
+Awada 
+T.N. 
+,  
+Schoeneberger 
+M.M. 
+,  
+Martin 
+D.L. 
+,  
+Xin 
+Y. 
+,  
+Tang 
+Z. 
+.  
+The use of forest-derived specific gravity for the conversion of volume to biomass for open-grown trees on agricultural land 
+,  
+Biomass Bioenergy. 
+,  
+2011 
+, vol.  
+35 
+ (pg.  
+1721 
+- 
+1731 
+) 
+ 
+Google Scholar 
+Crossref 
+ 
+  
+Appendix 
+Preliminary analyses and equation modifications 
+ 
+As discussed above, equations from 55 biomass studies were modified to fit our criteria for estimating aboveground biomass. Nine of these 55 were complete regression refits of raw biomass data published ( Storey et al ., 1955 ; Sollins and Anderson, 1971 ; Schnell, 1976 ; Johnston and Bartos, 1977 ; Miller et al ., 1981 ; Strong and Roi, 1983 ; Sabatia, 2007 ) or graciously obtained from the authors ( Karlik and Chojnacky unpublished (biomass data collected by Karlik and McKay, 2002 ), King et al ., 2007 ). Twelve were relatively minor algebraic manipulations of available study information to obtain desired equation forms ( Weetman and Harland, 1964 ; Harris et al ., 1973 ; Whittaker et al ., 1974 ; Reynolds et al ., 1978 ; Schnell, 1978 ; Whisenant and Burzlaff, 1978 ; Harrington et al ., 1984 ; Sachs, 1984 ; Tuskan and Rensema, 1992 ; Laxson et al ., 1997 ; Naidu et al ., 1998 ; Seiler et al ., 2009 ). The remaining 34 studies involved modifications where 9 were regression refits of equations to eliminate height as a predictor variable, 7 combined biomass components among similar studies, 15 needed an auxiliary foliage equation to estimate total aboveground biomass (1 also needed height elimination), and 4 required other analyses. 
+ 
+When regression was involved in these modifications, three principles were followed: 
+ 
+    Models were devised to best fit data only within the diameter range of the particular study, either by polynomial regression (with weight as a function of diameter where needed) or logarithmic regression that sometimes included an additional diameter-term for more flexibility in regression [ln(biomass) = a + b ln(diameter) + c diameter]. 
+ 
+    If predicted data from equations (pseudodata) were needed for regression refit, these were generated uniformly within the diameter ranges of the equations given in studies (extrapolation outside this range was avoided except for a few cases). 
+ 
+    If auxiliary FIA data ( FIA, 2010 ) were needed (for elimination of height or for other calculations, as described below), they were selected so as to correspond to the original study's geographic area, species, stand origin (plantation or natural stand), and explicit diameter range. 
+ 
+Eliminating height variable 
+ 
+Equations from 9 studies were refit as a function of diameter either by using author-published height-to-diameter equations ( Ralston and Prince, 1965 ; Bella and De Franceschi, 1980 ) or by using select FIA (2010) data to predict biomass (using published equation) from height and diameter, then refitting as a function of diameter. In other words, the regression refit averaged the effect of the height variable by fitting a new equation based on diameter only. 
+ 
+The 7 studies needing additional data to estimate biomass from height and diameter were matched with FIA data for a large population of trees of similar geography (generally a state), similar stand origin, and within the diameter range of species of respective studies ( Clark and Taras, 1976 ; Alban and Laidly, 1982 ; Van Lear et al ., 1986 ; Jokela and Martin, 2000 ; Rubilar et al ., 2005 ). Geographic exceptions included use of Alaska and Washington FIA data for a British Columbia study ( Standish et al ., 1985 ), and use of all plantation poplar data in the FIA database for a Washington study ( Zabek and Prescott, 2006 ) because less than 2,000 plantation poplar trees were measured in the entire US and less than 50 in Washington. 
+Combining studies 
+ 
+There were few biomass equations for western North American species – particularly large-diameter trees – but there were some studies that reported either crown (foliage and branch) or bole (wood and bark) biomass equations, suggesting opportunities for combining equations among studies: 
+ 
+    A large study excluding crown biomass ( Means et al ., 1994 ) included 40 stem wood and bark biomass equations for 18 California, Oregon, and Washington conifer species for trees up to 100- to over 200-cm dbh. We first reduced Means' equations to 18 by refitting when there was more than 1 equation per species and then matched these refitted equations with auxiliary crown equations refit from other studies. Auxiliary crown equations were constructed by generating genus-scale pseudodata from 76 foliage and/or branch equation estimates from 34 studies for the western US and Canada. 
+ 
+    We combined a study of stem material by Duursma et al . (2007) with Brown's (1978) study of crown biomass for the same 10 conifer species in the Inland Northwest; auxiliary bark ratios were obtained from Van Hooser and Chojnacky (1983) . 
+ 
+    A Nevada mountain mahogany ( Cercocarpus ledifolius ) study ( Chojnacky, 1984 ) lacked foliage, so a 6 per cent foliage-to-(wood + bark + branch) ratio devised from Whittaker and Niering (1975) , C. breviﬂorus data were used, and missing branch material less than 3.8 cm was extrapolated from ratios of known branch material mass (for diameters between 3.8 and 7.6 cm). Also for Nevada, a pinyon and juniper study ( Chojnacky and Moisen, 1993 ) required volume equations ( Chojnacky, 1985 ; Chojnacky, 1987 ) for a conversion method that also used FIA data. 
+ 
+    A large-tree mesquite ( Prosopis spp.) equation was gained by combining green-weight biomass equations from El Fadl et al . (1989) with wood moisture content data from Felker et al . (1990) . 
+ 
+    Finally, a Douglas-fir ( Pseudotsuga menziesii) crown biomass equation for trees 85 to 155 cm dbh was obtained by combining Ishii and Kadotani's (2006) branch biomass equation with McCain's (1994) foliage equation. 
+ 
+Foliage equation additions 
+ 
+There were 15 studies including 35 species in 19 genera where, because it was winter, stem wood, bark, and branches were measured but foliage (a minor part of tree biomass) was not. Forty-four percent of these species were oaks ( Quercus ) and maples ( Acer ). The rest were eastern hardwoods, except for poplar (in British Columbia), eastern redcedar ( J. virginiana) , and eastern hemlock ( Tsuga canadensis) . We grouped 190 foliage equations from our database by genus, and used them to estimate foliage at a genus scale for the 15 studies. However, the maple equation was also used for 6 other genera (dogwood ( Cornus ), sassafras ( Sassafras ), sourwood ( Oxydendrum ), sycamore ( Platanus ), tupelo ( Nyssa ), and locust ( Robinia )) because pseudodata for these were based on 3 or fewer equations each and their pseudodata variation was within that of maple. 
+Miscellaneous modifications 
+ 
+Four other studies required modification: 
+ 
+    Biomass equations reported by Perala and Alban (1994) were recalculated by averaging pseudodata from equations developed for different soil types, and in a few cases also by using author-published height-to-dbh equations, to eliminate soil types and height in refits. 
+ 
+    Reiners (1972) published biomass equations for Minnesota species but did not report a maximum dbh needed to generate pseudodata; basal area and trees per area for each species were reported instead of dbh range. Therefore, FIA (2010) data were used for counties included in the study area to model ‘a maximum dbh for each species’ from basal area and trees per acre (0.4047 ha); this maximum dbh was between 20 and 37 cm dbh for most species, but two extremes of 67 and 80 cm were set to 50 cm to guard against possible extrapolation error. 
+ 
+    Pearson et al . (1984) reported lodgepole pine ( P. contorta ) equations segmented into irregular diameter categories that were refit into single-diameter equations. 
+ 
+    Ker and van Raalte (1981) equations were refit using crown width and length equations obtained from Bragg (2001) . 
+ 
+Excluded studies 
+ 
+Twelve studies were excluded because they summarized or duplicated biomass equations reported in other studies that we used ( Baskerville, 1966 ; Clebsch, 1971 ; Fujimori et al ., 1976 ; Santantonio et al ., 1977 ; Stanek and State, 1978 ; Waring et al ., 1978 ; Tritton and Hornbeck, 1982 ; Rauscher, 1984 ; Baldwin, 1987 ; Clark, 1987 ; Felker et al ., 1990 ; Ter-Mikaelian and Korzukhin, 1997 ). Five studies were not used because the reported equations were not clear ( Long and Turner, 1975 ; Ramseur and Kelly, 1981 ; Ruark and Bockheim, 1987 ; Tufekcioglu et al ., 2003 ; Lieurance, 2007 ). Four studies that would have required modification to eliminate height were excluded either because study trees were very small or because species were already well represented by other studies ( Schaegel, 1975 ; Rowell and Carpenter, 1983 ; Bond-Lamberty et al ., 2002 ; Oswald et al ., 2010 ). Ten Canadian studies that fit biomass equations as a function of dbh and height were not used because these data were included with the recent reanalysis by Lambert et al . (2005) of older Canadian biomass data ( Johnstone and Peterson, 1980 ; Alemdag and Horton, 1981 ; Lavigne and Van Nostrand, 1981 ; Alemdag, 1981 , 1982 , 1983 ; Lavigne 1982 ; Singh 1982 ; Evert, 1983 ; Ouellet, 1985 ). Lastly, equations developed by Hu and Wang (2008) were not used because they were developed from FIA biomass estimates, which are based on volume-to-biomass conversion and other auxiliary information instead of direct measurement of biomass. 
+© Institute of Chartered Foresters, 2013. All rights reserved. For Permissions, please e-mail: journals.permissions@oup.com 
+Article has an altmetric score of 1 
+View Metrics 
+Email alerts 
+Article activity alert 
+Advance article alerts 
+New issue alert 
+Receive exclusive offers and updates from Oxford Academic 
+Related articles in 
+ 
+    Web of Science 
+    Google Scholar 
+ 
+Citing articles via 
+Web of Science (153) 
+Google Scholar 
+Crossref 
+ 
+    Latest 
+    Most Read 
+    Most Cited 
+ 
+Early vegetation recovery of a burned Mediterranean forest in relation to post-fire management strategies 
+Development of activity recognition models for mechanical fuel treatments using consumer-grade GNSS-RF devices and lidar 
+Deep learning for forest inventory and planning: a critical review on the remote sensing approaches so far and prospects for further applications 
+Nonresponse bias in change estimation: a national forest inventory example 
+Applying multidate Sentinel-2 data for forest-type classification in complex broadleaf forest stands 
+ 
+    About Forestry 
+    Editorial Board 
+    Author Guidelines 
+    Contact Us 
+    Facebook 
+ 
+    Twitter 
+    Purchase 
+    Recommend to your Library 
+    Advertising and Corporate Services 
+    Journals Career Network 
+ 
+Forestry: An International Journal of Forest Research 
+ 
+    Online ISSN 1464-3626 
+    Print ISSN 0015-752X 
+    Copyright © 2022 Institute of Chartered Foresters 
+ 
+    About Us 
+    Contact Us 
+    Careers 
+    Help 
+    Access & Purchase 
+    Rights & Permissions 
+    Open Access 
+    Potentially Offensive Content 
+ 
+Connect 
+ 
+    Join Our Mailing List 
+    OUPblog 
+    Twitter 
+    Facebook 
+    YouTube 
+    Tumblr 
+ 
+Resources 
+ 
+    Authors 
+    Librarians 
+    Societies 
+    Sponsors & Advertisers 
+    Press & Media 
+    Agents 
+ 
+Explore 
+ 
+    Shop OUP Academic 
+    Oxford Dictionaries 
+    Epigeum 
+    OUP Worldwide 
+    University of Oxford 
+ 
+Oxford University Press is a department of the University of Oxford. It furthers the University's objective of excellence in research, scholarship, and education by publishing worldwide 
+Oxford University Press 
+ 
+    Copyright © 2021 Oxford University Press 
+    Cookie Policy 
+    Privacy Policy 
+    Legal Notice 
+    Site Map 
+    Accessibility 
+ 
+Scholarly IQ 
+View PDF 
+183 
+9 
+231 
+2 
+hide 

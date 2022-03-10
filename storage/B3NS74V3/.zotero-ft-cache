@@ -1,0 +1,147 @@
+FIA’S VOLUME-TO-BIOMASS CONVERSION METHOD (CRM) GENERALLY UNDERESTIMATES BIOMASS
+IN COMPARISON TO PUBLISHED EQUATIONS
+David C. Chojnacky1
+Abstract.—An update (Chojnacky et al. in preparation) of the Jenkins et al. (2003) biomass estimation equations for North American tree species resulted in 35 generalized equations developed from published equations. These 35 equations, which predict aboveground biomass of individual species grouped according to a taxa classification (based on genus or family and sometimes specific gravity), generally predicted higher biomass than estimates from the U.S. Department of Agriculture, Forest Service Forest Inventory and Analysis Program (FIA). FIA uses a conversion approach called the component ratio method (CRM) (Woodall et al. 2011) to generate biomass estimates. This method converts cubic volume estimates to biomass using constant specific gravity values and auxiliary information for branches, bark, and stumps. FIA tree biomass data were grouped by the same taxa as used for the 35 equations, biomass for the same trees was also predicted with the equations, and then diameter-class averaged values were compared. FIA estimates excluded foliage, but the amount of biomass by which the equation predictions exceeded FIA’s estimates generally suggested more than a foliage discrepancy. The equations predicted 2 to 28 percent higher biomass (at 30-cm d.b.h.) for most conifer and hardwood taxa. Exceptions were Larix and western Tsuga genera which predicted 10 to 12 percent lower for trees at 30-cm d.b.h. Equations for woodland taxa predicted biomass 45 to 53 percent higher than FIA estimates (at 30-cm d.r.c.) but FIA’s woodland biomass definition may have confounded comparison. In a similar study, Zhou et al. (2011) found that a volume-to-biomass conversion method (resembling FIA’s approach) underestimated biomass by 6.3 to16.6 percent—supporting the idea that CRM may inherently underestimate biomass.
+
+INTRODUCTION
+The generalized Jenkins et al. (2003) biomass equations came from an effort to produce standardized, consistent, and well-documented tree estimation equations on a national scale, through compilation and synthesis of equations published in the literature, for use in the forest sector (Heath et al. 2011) of the Inventory of U.S. Greenhouse Gas Emissions and Sinks (EPA 2012). A meta-analysis was used to develop 10 generalized species-groupspecific equations for estimating biomass from only
+1 Adjunct Faculty, Virginia Tech University, 144 Rees Place, Falls Church, VA 22046. To contact, call 703-237-8620 or email at dchojnac@vt.edu.
+
+diameter measurements using regression and logtransformation.
+Current work (Chojnacky et al. in preparation) updated the Jenkins et al. (2004) database and refined biomass modeling. Generalized equations were developed based on allometric scaling theory (Chojnacky 2002); taxonomic groupings (genus or family) and wood specific gravity were used as surrogates for scaling parameters that could not be estimated. The update resulted in 35 biomass equations for a taxa classification described below. The purpose of this paper is to compare the biomass predictions from the new equations to estimates of live-tree biomass from the U.S. Department Agriculture, Forest Service’s Forest Inventory and Analysis Program (FIA).
+
+Moving from Status to Trends: Forest Inventory and Analysis Symposium 2012
+
+GTR-NRS-P-105
+
+396
+
+UPDATED EQUATIONS
+The initial database for Jenkins et al. (2003) included 2,626 total biomass and component equations; the new study brought the total to 3,464 equations for North American tree species from 206 source studies. These included published equations up to May 2011 developed in the United States or Canada that estimated total bone-dry biomass for individual trees and/or components thereof, based on diameter alone or on diameter and height. The published equations were used (as in Jenkins et al. [2003]) to generate biomass values (pseudodata) for diameters at equally spaced, approximately 5-cm intervals within the diameter range of the trees used for each original equation.
+The pseudodata from the published equations were classified into what we defined as “taxa” based on genus or family and sometimes specific gravity for finer separation (Table 1). The classification was mostly genus-based for conifer species, but familybased for hardwood and woodland species.
+Biomass equations were developed from pseudodata by using logarithmic regression for a 2-parameter model [ln(biomass) = β0 + β1 ln(diameter), where diameter = diameter at 1.37 m (d.b.h.) for conifer/ hardwood species and diameter near root collar (d.r.c.) for woodland species]. Parameters for the 13 conifer, 18 hardwood, and 4 woodland taxa are listed in our more detailed manuscript in process of publication (Chojnacky et al. in preparation).
+COMPARISON TO FIA DATA
+FIA generates biomass estimates with a biomass expansion factor approach called the component ratio method (CRM) (Heath et al. 2009, Woodall et al. 2011). Cubic volume estimates are converted to biomass using constant wood and bark specific gravity values and auxiliary information for branches, bark, and stumps (Miles and Smith 2009). We expected the new equation estimates to exceed FIA estimates because FIA excluded foliage, but the magnitude
+
+of the differences found suggested more than just a foliage discrepancy.
+The comparison was complicated both by having to sort through FIA definitions to delineate a reasonable biomass without excessive deductions and by FIA’s exclusion of foliage, which particularly underrepresents total biomass for small coniferous trees. We considered using our database to devise an adjustment for foliage but this seemed to further confound comparison. Instead, we defined an estimate of FIA biomass as follows, using USDA Forest Service (2010) variables as listed in uppercase: Live trees (STATUSCD=1) were defined as “growing stock” if measured at d.b.h. (TREECLCD Eq 2 and DIAHTCD Eq 1) or defined as “rough cull” if measured at d.r.c. [TREECLCD In(2,3) and DIAHTCD Eq 2] with no additional CULL coded. From this subset of 2.2 million trees (≤50 cm diameter) for the entire United States, total bone-dry biomass (excluding foliage) was calculated for trees ≥12.7 cm diameter (biomass=DRYBIO_BOLE + DRYBIO_TOP + DRYBIO_STUMP), and selected for saplings (DRYBIO_SAPLING) and for trees measured at d.r.c. (DRYBIO_WDLD_SPP). FIA biomass data for these trees (between 2.5 and 50 cm diameter) were then grouped by our taxa and averaged into 2-cm diameter classes generally based on about 100 to more than 1,000 trees per diameter class. For completeness, FIA data for families (excluding alien species) not included in our 35 taxa classes were grouped as follows: Taxaceae grouped with Pseudotsuga; Aquifoliaceae, Ebenaceae, Lauraceae, Moraceae, Styracaceae and Theaceae grouped with the mixed hardwood group (except a few species exceeding specific gravity 0.60 grouped with deciduous Fagaceae taxa); and woodland families Boraginaceae, Rhamnaceae, and Ericaceae grouped with Fabaceae/Rosaceae taxa. (Although we suggest woodland Aceraceae be estimated from Aceraceae <50 hardwood taxon, it was not included in this comparison). We also predicted biomass with the 35 equations for the same FIA trees, averaged them within 2-cm diameter classes, and then subtracted FIA biomass for comparison.
+
+Moving from Status to Trends: Forest Inventory and Analysis Symposium 2012
+
+GTR-NRS-P-105
+
+397
+
+Table 1.—North American tree species grouped into 35 taxa for biomass equation development. Taxa derivation and further description included in Chojnacky et al. (in preparation).
+
+Group
+
+Taxa name
+
+Description
+
+Conifer
+
+Abies <35 Abies ≥35 Cupressaceae <30 Cupressaceae 30-39
+Cupressaceae ≥40
+Larix Picea <35 Picea ≥35 Pinus <45 Pinus ≥45 Pseudotsuga Tsuga <40 Tsuga ≥40
+
+Abies species with specific gravity <0.35, eastern species & A. lasiocarpa Abies species with specific gravity ≥0.35, western species Cupressaceae family with specific gravity <0.30, eastern Thuja species Cupressaceae family with specific gravity 0.30-0.39, western Calocedrus,
+Sequoiadendron, Thuja species Cupressaceae family with specific gravity ≥0.40, Chamaecyparis species
+& Juniperus virginia Larix species Picea species with specific gravity <0.35, western species Picea species with specific gravity ≥0.35, eastern species & P. abies Pinus species with specific gravity <0.45, western & northeastern species Pinus species with specific gravity >=0.45, southern species Pseudotsuga species Tsuga species with specific gravity <0.40, eastern species Tsuga species with specific gravity ≥0.40, western species
+
+Hardwood
+
+Aceraceae <50 Aceraceae ≥50 Betulaceae 39<40 Betulaceae 40-49 Betulaceae 50-59 Betulaceae ≥60
+
+Fabaceae/Juglanaceae, Carya Fabaceae/Juglandaceae, other
+
+Fagaceae, deciduous Fagaceae, evergreen
+
+Hamamelidaceae Hippocastanaceae/Tiliaceae Magnoliaceae Oleaceae <55 Oleaceae ≥55 Salicaceae <35 Salicaceae ≥35
+
+Mixed hardwoods*
+
+Acer species with specific gravity <0.50 Acer species with specific gravity ≥0.50 Betulaceae genera with specific gravity <0.40, primarily Alnus species Betulaceae genera with specific gravity 0.40-49, primarily Betula species Betulaceae genera with specific gravity 0.50-59, primarily Betula species Betulaceae genera with specific gravity ≥0.60, including Betula & Ostrya
+species Carya species only Fabaceae & Juglandaceae genera except Carya, including Robinia, Juglans
+species Deciduous Fagaceae genera, including Fagus, Quercus, Castanea species Evergreen Fagaceae genera, including Quercus, Chrysolepis, Lithocarpus
+species Hamamelidaceae genera, primarily Liquidambar styraciflua Hippocastanaceae &Tiliaceae genera, primarily Aesculus & Tilia species Magnoliaceae family, primarily Liriodendron tulipifera Oleaceae genera with specific gravity 0.55, primarily Fraxinus species Oleaceae genera with specific gravity ≥0.55, primarily Fraxinus species Saliaceae genera with specific gravity <0.35, primarily Populus species Saliaceae genera with specific gravity ≥0.35, primarily Populus & Salix
+species Cornaceae, Ericaceae, Lauraceace, Platanaceae, Rosaceae, Ulmaceae
+famlies or other hardwood families not listed in this table with specific gravity between 0.45 and 0.65
+
+Woodland Cupressaceae Fabaceae/Rosaceae
+Fagaceae Pinaceae
+
+Cupressaceae genera, primarily Juniperus & Cupressus species Fabaceae & Rosaceae genera, primarily Cercidium, Prosopis, Cercocarpus
+species Woodland Fagaceae genera, primarily evergreen Quercus species Pinyon pine species
+
+*Mixed hardwood equation also appropriate for species not included in table, unless specific gravity of the species more closely related to another taxon.
+
+Moving from Status to Trends: Forest Inventory and Analysis Symposium 2012
+
+GTR-NRS-P-105
+
+398
+
+RESULTS
+For conifers (Fig. 1), the new equations predicted 5 to 24 percent higher biomass (at 30-cm d.b.h.) than FIA estimates for most taxa, and predicted even higher for saplings. Exceptions were Larix and Tsuga ≥0.40 predicting 10 to 12 percent lower at 30-cm d.b.h. The small trees showed an interesting biomass pattern with a peak (or mode) between 10 and 15 cm d.b.h. This peak corresponds to a discontinuity in FIA methodology where tree (d.b.h. ≥12.5 cm) biomass is estimated from volume conversion but sapling (d.b.h. <12.5 cm) biomass is actually estimated from Jenkins et al. (2003) equations (Woudenberg et al. 2010) with some additional adjustment (JENKINS_SAPLING_ ADJUSTMENT). Because foliage can be quite large for small trees—ranging from 13 percent (median) to more than 30 percent (90th percentile) of total biomass for our conifer pseudodata for trees ≤12.5cm d.b.h. (Chojnacky et al. in preparation), it is not surprising that our equations overpredict FIA biomass (with foliage excluded) for small trees. However, the percentage of conifer foliage to total biomass in our pseudodata drops to 4 to 12 percent (depending on species) for trees larger than 12.5-cm d.b.h., indicating some other explanation for the overall 5 to 24 percent larger biomass estimates from our conifer equations.
+Comparison of the woodland equations (Figs. 1 and 2) to FIA data (Fig. 3) revealed a pattern similar to that for conifer and hardwood except differences were much greater—45 to 53 percent for trees at 30-cm d.r.c. However, FIA’s definition of woodland biomass (DRYBIO_WDLD_SPP) could be excluding much branch material less than 3.8 cm in diameter. Although the definition of DRYBIO_WDLD_SPP (Woudenberg et al. 2010) mentions exclusion of tree top above 1.5 inches diameter (3.8 cm) in addition to foliage exclusion, this could mean all branch biomass smaller than 3.8 cm in diameter is excluded, as is typical for
+
+estimating woodland volume for these bushy multistemmed species (Chojnacky 1994). Otherwise, FIA exclusion of only a single top branch less than 3.8 cm in diameter—and not the rest—makes little sense.
+DISCUSSION
+Why did the updated Jenkins et al. (2003) equations (Chojnacky et al. in preparation)—based on all biomass equations in the literature—generally produce estimates higher than those generated by the FIA CRM method? One possibility is volume-tobiomass methods simply underestimate. For example, Zhou (2011) demonstrated for green ash (Fraxinus pennsylvanica), ponderosa pine (Pinus ponderosa), and eastern redcedar (Juniperus virginiana) that volume-to-biomass conversion (using specific gravity similar to FIA’s CRM method) consistently and significantly underestimates biomass from 6.3 to 16.6 percent. However, we cannot determine whether the pseudodata are accurate biomass estimates nor whether volume-to-biomass conversion approaches (as utilized by the FIA) inherently underestimate. These questions can only be answered from measuring new biomass data. We simply offer this comparison that FIA biomass estimates are generally 2 to 28 percent lower (at 30-cm d.b.h.) for most conifer and hardwood taxa than results from a meta-analysis of published biomass equations.
+ACKNOWLEDGMENTS
+The author thanks Linda Heath of the U.S. Forest Service and Phil Radtke of Virginia Tech for helpful manuscript reviews. This researchwas supported in part by the Joint Fire Sciences Program and the U.S. Forest Service, Northern Research Station through Joint Venture Agreement 09-JV-11242305-128.
+
+Moving from Status to Trends: Forest Inventory and Analysis Symposium 2012
+
+GTR-NRS-P-105
+
+399
+
+Figure 1.—Biomass equations for 13 conifer taxa compared to FIA data for 1,209,140 trees. Difference is equation prediction minus FIA biomass estimate, each first averaged within 2-cm diameter class. Legend order corresponds to curves at 30-cm d.b.h.
+
+Figure 2.—Biomass equations for 18 hardwood taxa compared to FIA data for 1,192,774 trees. Difference is equation prediction minus FIA biomass estimate, each first averaged within 2-cm diameter class. Legend order corresponds to
+curves at 30-cm d.b.h.
+
+Moving from Status to Trends: Forest Inventory and Analysis Symposium 2012
+
+GTR-NRS-P-105
+
+400
+
+Figure 3.—Biomass equations for four woodland taxa compared to FIA data for 150,167 trees. Difference is equation prediction minus FIA biomass estimate, each first averaged within 2-cm diameter class. Legend order corresponds to
+curves at 30-cm d.r.c.
+
+LITERATURE CITED
+Chojnacky, D.C. 1994. Volume equations for New Mexico’s pinyon-juniper dryland forests. Res. Pap. INT-471. Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Research Station. 10 p.
+Chojnacky, D.C. 2002. Allometric scaling theory applied to FIA biomass estimation. In: McRoberts, R.E.; Reams, G.A.; Van Deusen, P.C.; Moser, J.W., eds. Proceedings of Third Annual Forest Inventory and Analysis Symposium; 2001 October 17-19; Traverse City, MI. Gen. Tech. Rep. NC-230. St. Paul, MN: U.S. Department of Agriculture, Forest Service, North Central Research Station: 96-102.
+
+Chojnacky, D.C.; Jenkins, J.C.; Heath, L.S. [In preparation]. Updated national-scale biomass estimators for North American tree species. (D.C. Chojnacky may be contacted at dchojnac@vt.edu for draft copy.)
+U.S. Environmental Protection Agency [EPA]. 2012. Inventory of U.S. greenhouse gas emissions and sinks: 1990-2010. Hockstad, L.; Cook, B., comps. Report No. EPA 430-R-12-001. Washington, DC: U.S. Environmental Protection Agency. 481 p. Available at http://www.epa.gov/climatechange/ Downloads/ghgemissions/US-GHG-Inventory2012-Main-Text.pdf. (Accessed August 2012).
+
+Moving from Status to Trends: Forest Inventory and Analysis Symposium 2012
+
+GTR-NRS-P-105
+
+401
+
+Heath, L.S.; Hansen, M.H.; Smith, J.E.; Miles, P.D.; Smith, B.W. 2009. Investigation into calculating tree biomass and carbon in the FIADB using a biomass expansion factor approach. In: McWilliams, W.; Moisen, G.; Czaplewski, R., comps. Forest Inventory and Analysis (FIA) Symposium 2008; 2008 October 21-23; Park City, UT. RMRS-P-56CD. Fort Collins, CO: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station [1 CD]: 26 p.
+Heath, L.S.; Smith, J.E.; Skog, K.E.; Nowak, D.J.; Woodall, C.W. 2011. Managed forest carbon estimates for the US greenhouse gas inventory, 1990-2008. Journal of Forestry. 109(3): 167-173.
+Jenkins, J.C.; Chojnacky, D.C.; Heath, L.S.; Birdsey, R.A. 2003. National-scale biomass estimators for United States tree species. Forest Science. 49(1): 12-30.
+Jenkins, J.C.; Chojnacky, D.C.; Heath, L.S.; Birdsey, R.A. 2004. A comprehensive database of diameter-based biomass regressions for North American tree species. Gen. Tech. Rep. NE-319. Newtown Square, PA: U.S. Department of Agriculture, Forest Service, Northeastern Research Station. 45 p.
+Miles, P.D.; Smith, W.B. 2009. Specific gravity and other properties of wood and bark for 156 tree species found in North America. Res. Note NRS-38. Newtown Square, PA: U.S. Department of Agriculture, Forest Service, Northern Research Station. 35 p.
+
+USDA Forest Service. 2010. FIA data mart: download files, FIADB4.0. Washington, DC: U.S. Department of Agriculture, Forest Service. Accessed online at http://199.128.173.17/fiadb4downloads/datamart.html/. (Accessed November 2010). [No longer available; current version FIADB5.1 is available at http://apps.fs.fed.us/fiadbdownloads/datamart.html/. (Accessed April 6, 2012).]
+Woodall, C.W.; Heath, L.S.; Domke, G.M.; Nichols, M.C. 2011. Methods and equations for estimating aboveground volume, biomass, and carbon for trees in the U.S. forest inventory, 2010. Gen. Tech. Rep. NRS-88. Newtown Square, PA: U.S. Department of Agriculture, Forest Service, Northern Research Station. 30 p.
+Woudenberg, S.W.; Conkling, B.L.; O’Connell, B.M.; LaPoint, E.B.; Turner, J.A.; Waddell, K.L. 2010. The Forest Inventory and Analysis database: database description and users manual version 4.0 for phase 2. Gen. Tech. Rep. RMRS-245. Fort Collins, CO: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station. 336 p.
+Zhou, X.; Brandle, J.R.; Awada, T.N.; Schoeneberger, M.M.; Martin, D.L.; Xin, Y.; Tang, Z. 2011. The use of forest-derived specific gravity for the conversion of volume to biomass for opengrown trees on agricultural land. Biomass and Bioenergy. 35(5): 1721-1731.
+
+The content of this paper reflects the views of the author(s), who are responsible for the facts and accuracy of the information presented herein.
+
+Moving from Status to Trends: Forest Inventory and Analysis Symposium 2012
+
+GTR-NRS-P-105
+
+402
+

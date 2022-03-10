@@ -1,0 +1,353 @@
+/*== common ==*/
+* { margin: 0px; padding: 0px; border: none; box-sizing: border-box; list-style: none; border: none;}
+.clearfix { display: block; }
+.clearfix::after {content: ""; clear: both; display: table;}
+a,a:hover,a:visited {text-decoration:none; outline:none;}
+input:focus, select:focus {outline:none;}
+h1, .h1, h2, .h2, h3, .h3 {margin:0px;}
+body,a{ font-family:'Josefin Sans', sans-serif;}
+.article_consum_wrapper {width: 1260px; margin: 0 auto;}
+.page_left_wrapper {float: left; width: 930px;}
+.page_right_wrapper {float: right; width: 300px;}
+.hide_in_desktop {display: none;}
+.section_title {font: 700 18px/12px 'Josefin Sans', sans-serif; color: #525252; text-transform: uppercase; margin-bottom: 25px;}
+.PT13 {padding-top: 13px;}
+.content_wrapper > br {display: none;}
+ol > br {display: none;}
+ol li {margin-bottom: 20px;}
+em > a {text-decoration: underline; font-weight: bold;}
+/*== common ==*/
+
+
+/*== bred crumb ==*/
+.bread-title {display: none !important;}
+.bred_crum {margin: 20px 0;}
+.nw_breadcrumb .main_cont { width: 1260px; margin: 0 auto; }
+.nw_breadcrumb { padding: 15px 0; border-bottom: 1px solid #c8c8c8; }
+.bred_list { margin: 0px 0 0 5px; padding: 0px; display: inline; }
+.bred_list li { display: inline-block; font: 700 18px/20px 'Josefin Sans', sans-serif; color: #539733; text-transform: uppercase; letter-spacing: 2.7px;}
+.bred_list li a { font: 400 18px/20px 'Josefin Sans', sans-serif; color: #747474; text-transform: none; }
+.bred_list li span {color: #747474; font-weight: 400; width: 10px; display: inline-block;}
+.brad_crum a { font: 400 18px/20px 'Josefin Sans', sans-serif; color: #8B8B8B; text-transform: none; padding: 0; letter-spacing: 2.7px;}
+.brad_crum a:last-child {display: inline-block; font: 700 18px/20px 'Josefin Sans', sans-serif; color: #539733; text-transform: uppercase; letter-spacing: 2.7px;}
+.brad_crum span {color: #747474; font-weight: 400; width: 10px; display: inline-block; margin: 0 3px;}
+.bread-arrow {background: rgba(0, 0, 0, 0) url("https://images.moneycontrol.com/mcnews/images/bread_arrow.jpg") no-repeat scroll left top !important;}
+/*== bred crumb ==*/
+
+
+/*== social icons ==*/
+.social_icons_wrapper {position:sticky; position: -webkit-sticky; margin-left: -55px; top: 70px; height:0px; display: inline-block;}
+.social_icons svg {display: inline-block; vertical-align: top; width: 37px; height: 37px;}
+.social_icons_list li {margin-bottom: 10px;}
+.social_icons_list li a, .social_icons_list li .a {color: #000; fill: #000;}
+/*== social icons ==*/
+
+
+/*== article ==*/
+.ad_after_section.top_ad {margin-top: 0px; margin-bottom: 10px; background-color: transparent;}
+.article_title {font: 700 40px/48px 'Lora', sans-serif; color: #000000; margin-bottom: 21px;}
+.article_desc {font: 400 italic 20px/28px 'Lora', sans-serif; color: #2F2F2F; margin-bottom: 35px;}
+.article_author:before {content: ""; background-color: #005493; height: 12px; width: 60px; margin-right: 10px; display: inline-block; vertical-align: initial;}
+.article_author {font: 700 16px/20px 'Josefin Sans', sans-serif; color: #0A2040; text-transform: uppercase; letter-spacing: 2.4px; border-right: 1px solid #707070; padding-right: 10px; margin-right: 10px; display: inline-block; vertical-align: top;}
+.article_schedule {font: 400 14px/20px 'Josefin Sans', sans-serif; color: #343434; display: inline-block; vertical-align: top; text-transform: uppercase; letter-spacing: 2.1px;}
+.article_image {margin-bottom: 20px; position: relative; margin-top: 20px;}
+.article_image img {width: 100%;}
+.article_image:before {content: ""; position: absolute; width: 92px; height: 12px; background-color: #539733; display: block; bottom: -6px;}
+.article_schedule span {font-weight: 700;}
+.img_desc_with_audio {display: block; margin-bottom: 40px;}
+.img_desc_with_audio .image_desc {font: 400 18px/24px 'Josefin Sans', sans-serif; color: #525252; width: 57%; float: right; border-left: 12px solid #539733; padding-left: 15px;}
+.img_desc_with_audio .image_desc > div {text-transform: uppercase; letter-spacing: 1px;}
+.video_icon {content: ""; background: url("https://images.moneycontrol.com/mcnews/images/video_icon.png") no-repeat; position: absolute; width: 116px; height: 116px; bottom: 0; right: 0;}
+.audio_icon {content: ""; background: url("https://images.moneycontrol.com/mcnews/images/audio_icon.png") no-repeat; position: absolute; width: 116px; height: 116px; bottom: 0; right: 0;}
+.audio_version_block {display: block; text-align: center; margin-bottom: 10px;}
+.audio_version {padding: 14px; background-color: #414141;}
+.audio_version_icon {display: inline-block; vertical-align: middle;}
+.audio_text {display: inline-block; vertical-align: middle; font: 400 14px/20px 'Josefin Sans', sans-serif; color: #FFFFFF; text-transform: uppercase;}
+.content_wrapper {font: 400 20px/32px 'Lora', sans-serif; color: #000000; position: relative;}
+.content_wrapper p {margin-bottom: 20px;}
+.content_wrapper a {font-weight: 600; text-decoration: underline; color: #000000;}
+.content_wrapper a:hover {text-decoration: none;}
+.content_bold {font-size: 18px; font-weight: 700; letter-spacing: 1.8px; display: inline-block; vertical-align: top; text-transform: uppercase;}
+.ad_block {text-align: center; margin: 55px 0;}
+.ad_title {font: 400 12px/24px 'Josefin Sans', sans-serif; color: #525252; letter-spacing: 1.8px;}
+.related_stories_left_block {width: 42%; margin-right: 24px; float: left; margin-bottom: 11px; margin-top: 15px;}
+.related_stories_left_block .section_title {background: url("https://images.moneycontrol.com/mcnews/images/related_story_bar.png") repeat-x; width: 100%; height: 14px;}
+.related_stories_left_block .section_title span {display: inline-block; background-color: #ffffff; padding: 4px 7px 0 0;}
+ul.stories_list {border-bottom: 3px solid #000000;}
+ul.stories_list li a {font: 700 18px/24px 'Josefin Sans', sans-serif; color: #525252;}
+ul.stories_list li {margin-bottom: 20px;}
+ul.stories_list li .image_block {display: inline-table; vertical-align: top; margin-right: 15px;}
+ul.stories_list li .content_block {display: inline-table; vertical-align: top; width: 200px;}
+.paragraph_caps_title {font: 700 22px/32px 'Josefin Sans', sans-serif; color: #000000; text-transform: uppercase;}
+.table_wrap {overflow-x: auto; white-space: nowrap; clear: both; margin-bottom: 20px; margin-top: 20px;}
+.table_wrap table {background: url("https://images.moneycontrol.com/mcnews/images/table_bg.png?v=1") repeat; padding: 15px 30px 20px; border-collapse: inherit;}
+.table_wrap table tr th, .table_wrap table tr:nth-of-type(1) td {font: 700 15px/39px 'Josefin Sans', sans-serif; color: #539733; text-transform: uppercase; border-bottom: 2px solid #000000; text-align: center;}
+.table_wrap .demo1.demo2 tr:nth-of-type(1) td {border-bottom: 0;}
+.table_wrap .demo1.demo2 tr:nth-of-type(2) td {border-bottom: 2px solid #000000;}
+.table_wrap table th:first-child, .table_wrap td:first-child {text-align: left; padding-left: 0;}
+.table_wrap table tr td {font: 400 20px/39px 'Josefin Sans', sans-serif; color: #000000; border-bottom: 1px solid #000000; padding: 0px 20px; text-align: center;}
+.table_wrap table tr:last-child td {border-bottom: 0;}
+.table_wrap p {font: 400 14px/14px 'Josefin Sans', sans-serif; color: #525252; padding-left: 32px; margin-top: 10px;}
+.table_foot_note {font: 400 14px/14px 'Josefin Sans', sans-serif; color: #525252; padding-left: 32px; margin-top: 10px; display:block; font-style:normal;}/*
+.table_wrap ~ em {font: 400 14px/14px 'Josefin Sans', sans-serif; color: #525252; padding-left: 32px; margin-top: 10px; display:block;}*/
+.arti-flow table td {border: 0;}
+.twitter_wrapper {margin-bottom: 30px;}
+.twitt_block {display: flex; flex-wrap: wrap;}
+.twitt_block .left_block {width: unset; align-self: flex-end; margin-right: 10px;}
+.twitt_block .right_block {width: 80%; border-left: 4px solid #539733; padding-left: 20px; font: 400 18px/20px 'Josefin Sans', sans-serif; color: #000000; position: relative; padding-top: 8px;}
+.twitt_block .right_block a {font: 700 14px/16px 'Josefin Sans', sans-serif; color: #525252; display: block; margin-top: 12px;}
+.twitt_block .right_block > p > a {font-size: 20px; display: block; margin-bottom: 15px; color: #000000;}
+.twitt_block .right_block {font: 400 45px/50px 'Teko', sans-serif; color: #000000;}
+.twitt_block .right_block p {font: 400 45px/50px 'Teko', sans-serif; color: #000000;}
+.twitt_block .right_block:before {content: ""; background: #fff url(https://images.moneycontrol.com/mcnews/images/Quotes_1.png) no-repeat; width: 31px; height: 31px; display: block; position: absolute; left: -18px; padding-bottom: 11px; top: 0;}
+.twitt_block .right_block .twitt_author {font: 400 18px/14px 'Josefin Sans', sans-serif; color: #000000; letter-spacing: 2.7px; text-transform: uppercase;margin-top: 15px;}
+.twitt_block .right_block .twitt_author div {font: 700 14px/16px 'Josefin Sans', sans-serif; color: #525252; margin-top: 9px;}
+.article_text, .article_text a {font: 400 18px/24px 'Josefin Sans', sans-serif; color: #525252; margin-bottom: 15px;}
+.article_text span {text-transform: uppercase;}
+.author_wrapper {border-top: 1px solid #707070; border-bottom: 1px solid #707070; padding: 15px 0; margin-top: 15px; clear: both;}
+.author_wrapper .image_block {display: inline-block; vertical-align: middle; width: 94px; height: 94px;}
+.author_wrapper .image_block img {border-radius: 100%; width: 100%; height: 100%;}
+.author_wrapper .content_block {display: inline-block; vertical-align: middle; width: 84%; margin-left: 15px; font: 400 16px/22px 'Lora', sans-serif; color: #000000; font-style: italic;}
+.author_wrapper .content_block span {font: 700 16px/22px 'Josefin Sans', sans-serif; color: #539733; text-transform: uppercase;}
+.other_author_text {border-bottom: 1px solid #707070; padding: 15px 0;}
+.other_author_text .content_block {font: 400 16px/22px 'Lora', sans-serif; color: #000000; font-style: italic; margin-bottom: 15px;}
+.other_author_text .content_block span {font: 700 16px/22px 'Josefin Sans', sans-serif; color: #539733; text-transform: uppercase;}
+.tags_wrapper {padding:30px 0px 20px 0; border-bottom: 10px solid #707070; margin-bottom: 20px;}
+.tags_first_line, .tags_first_line a {font: 400 16px/16px 'Josefin Sans', sans-serif; color: #525252; margin-bottom: 20px;}
+.tags_first_line span {text-transform: uppercase;}
+.tags_last_line {font: 700 14px/14px 'Josefin Sans', sans-serif; color: #525252; text-transform: uppercase;}
+.ad_after_section {display: block; background-color: #EAEAEA; margin: 35px 0; text-align: center;}
+.social_icons_mobile_wrapper {display: none;}
+.ad_after_section.top_ad .article_consum_wrapper {padding: 20px 0 0;}
+.ad_after_section .article_consum_wrapper {padding: 20px 0;}
+.outbrain_wrapper {margin-bottom: 20px;}
+.article_image_wrapper.article_image_main_wrapper {margin-top: 20px;}
+.FT_block {margin-bottom: 20px;}
+.img_caption_whitebx {display: block; font: 400 18px/24px 'Josefin Sans', sans-serif; color: #525252; border-bottom:0px; padding-top:20px;position:relative;}
+.img_caption_whitebx:before{content: ""; position: absolute; width: 92px; height: 12px; background-color: #539733; display: block; top: -6px;}
+.arti-flow a, .article_box a{ font-family:'Lora', sans-serif; color:#000;}/*
+.arti-flow strong{font: 400 26px/28px 'Teko', sans-serif;}*/
+/*== article ==*/
+
+/*RHS Widgets start*/
+.video-widget p a, .video_on_hp_widget li a.content_block, .watch_title, .blog-box h2, .section-title h1, .section-title h2 a, .section-title h3{font-family:'Josefin Sans', sans-serif !important;}
+.contact .form-control input{font-style:normal; padding:7px 5px 3px;}
+/*RHS Widgets start*/
+
+/*stock widget start*/
+.stockwidget, .stockwidget .stockwidgettabs li a, .trd_btn, .stockwidget .bseliveselectbox, .stockwidget .bseliveselectbox .stk-Typ, .stockwidget ul.bselivelist li, .stockwidget .gainlosstxt, .stockwidget .greentxt, .stockwidget .greentxt span, .stockwidget .volumetxt, .stockwidget a.text12, .stockwidget .redtxt, .stockwidget ul.tabslinks li a{font-family:'Josefin Sans', sans-serif !important;}
+.stockwidget .volumetxt span{font-family:'Lora', sans-serif;}
+.trd_btn{line-height:35px;}
+/*stock widget end*/
+.scroll-paginate .paginate-section-nav div.page-title{width:100%;}/*
+.table_wrap table tr td:nth-child(2){text-align:left;}*/
+.interview_header{border-top:0px; padding-top:0px; border-bottom:0px;}
+.interview_header .interview_title{border-top:0px; padding:0px 0px 20px 0; border-bottom:0px;}
+.interview_header .interview_title img{border:0px;}
+.interviewee{font: 700 20px/24px 'Josefin Sans', sans-serif; color:#000000; padding-bottom:2px; padding-top:7px;}
+.interview_header .interview_title .titles .designation{ color:#707070; letter-spacing:2.8px; font: 400 14px/18px 'Josefin Sans', sans-serif; border-top:2px solid #dbdbdb; padding-top:5px; margin-left:72px; text-transform:uppercase;}
+
+.table_wrap table tr:first-child td{border-bottom:0px; vertical-align:middle;}
+.table_wrap table tr:nth-child(2) td{border-top:0px solid #000000;/* border-bottom:0px solid #000000;*/}
+
+
+.stockwidget {margin: 40px 0 20px; max-width: 605px;}
+.stockwidget .bseliveselectbox {width: 85px;}
+.stockwidget .bseliveselectbox .downarw {margin-top: 4px;}
+.stockwidget .volumetxt {padding: 0; min-width: 100px;}
+.stockwidget .rightcol {padding-left: 5px;}
+.stockwidget .morearw {top: -3px;}
+.stockwidget ul.bselivelist li {width: 85px;}
+
+
+.mc_cartoons_consumption_page .article_title {font-size: 48px; line-height: 55px;}
+.mc_cartoons_consumption_page .article_desc {font-size: 26px; line-height: 35px; color: #5A5A5A; font-style: normal;}
+.mc_cartoons_consumption_page .mc_cartoon_article_author { font: 600 19px/23px 'Josefin Sans', sans-serif; color: #337AB7; text-transform: uppercase; letter-spacing: 2.4px; border-right: 1px solid #707070; padding-right: 10px; margin-right: 10px; display: inline-block; vertical-align: top; }
+.mc_cartoons_consumption_page .mc_cartoon_article_author:before { content: ""; background-color: #005493; height: 12px; width: 60px; margin-right: 10px; display: inline-block; vertical-align: initial; }
+.mc_cartoons_consumption_page .mc_cartoon_article_schedule { font: 400 14px/20px 'Josefin Sans', sans-serif; color: #343434; display: inline-block; vertical-align: top; text-transform: uppercase; letter-spacing: 2.1px; }
+.mc_cartoons_consumption_page .mc_cartoon_article_schedule span { font-weight: 700; }
+.mc_cartoons_consumption_page .article_author {font: 600 19x/23px 'Josefin Sans', sans-serif; color: #337AB7; text-transform: uppercase; letter-spacing: 2.4px; border-right: 1px solid #707070; padding-right: 10px; margin-right: 10px; display: inline-block; vertical-align: top;}
+.mc_cartoons_consumption_page .article_schedule {font: 400 19px/23px 'Josefin Sans', sans-serif; color: #999999; display: inline-block; vertical-align: top; text-transform: uppercase; letter-spacing: unset;}
+.mc_cartoons_consumption_page .article_schedule span {font-weight: 300;}
+.mc_cartoons_consumption_page .article_image {margin-bottom: 0;}
+.mc_cartoons_consumption_page .article_text, .mc_cartoons_consumption_page S.article_text a {font-family: 'Lora', sans-serif; font-size: 24px; font-style: italic; background-color: #FDFCE3; padding: 20px; text-align: center;}
+.mc_cartoons_consumption_page .article_image:before {content: none;}
+.mc_cartoons_title {font-family: 'Josefin Sans', sans-serif; font-size: 20px; line-height: 24px; text-transform: uppercase; border-bottom: 1px solid #AFAFAF; border-top: 1px solid #AFAFAF; padding-top: 15px; padding-bottom: 15px; margin-bottom: 20px; color: #539733; font-weight: 600;}
+
+
+
+/*== more cartoons ==*/
+.mc_cartoons_consumption_page .ad_block {margin: 0 0 50px;}
+.mc_cartoons_consumption_page .more_cartoons .section_title {font: 700 20px/20px 'Josefin Sans', sans-serif; color: #000000; text-transform: uppercase; margin-bottom: 20px; border-bottom: 1px solid #AFAFAF; padding-bottom: 10px;}
+.mc_cartoons_consumption_page .more_cartoons ul li {float: left; margin-right: 22px; width: 295px; margin-bottom: 30px;}
+.mc_cartoons_consumption_page .more_cartoons ul li:nth-child(3n+3) {margin-right: 0;}
+.mc_cartoons_consumption_page .more_cartoons ul li .image_block {width: 295px;}
+.mc_cartoons_consumption_page .more_cartoons ul li .image_block img {width: 100%; height: 165px; border-radius: 5px;}
+.mc_cartoons_consumption_page .more_cartoons ul li .content_block {margin-top: 15px;}
+.mc_cartoons_consumption_page .more_cartoons ul li .content_block p:nth-of-type(1) {font: 400 12px/14px 'Josefin Sans', sans-serif; color: #999999;}
+.mc_cartoons_consumption_page .more_cartoons ul li .content_block p:nth-of-type(2), .more_cartoons ul li .content_block p:nth-of-type(2) a {font: 700 20px/30px 'Lora', sans-serif; color: #333333; text-decoration: none;}
+.mc_cartoons_consumption_page .more_cartoons ul li .content_block p:nth-of-type(3), .more_cartoons ul li .content_block p:nth-of-type(3) a {font: 400 15px/19px 'Lora', sans-serif; color: #5A5A5A; font-style: italic; text-decoration: none;}
+.mc_cartoons_consumption_page .more_cartoons ul li:after {content: ""; background: url("https://stgwww.moneycontrol.com/news/images/cartoons/small_border.svg") no-repeat; height: 10px; display: block; margin-top: 20px; visibility: visible;}
+/*== more cartoons ==*/
+
+
+/*== this week in cartoons ==*/
+.mc_cartoons_consumption_page .trending_cartoons .trending_cartoons_list li {margin-top: 20px;}
+.mc_cartoons_consumption_page .trending_cartoons .trending_cartoons_list li .first_block {font: 700 12px/14px 'Josefin Sans', sans-serif; color: #999999; text-transform: uppercase; margin-bottom: 10px; letter-spacing: 1.2px;}
+.mc_cartoons_consumption_page .trending_cartoons .trending_cartoons_list li .first_block span {font-weight: 400;}
+.mc_cartoons_consumption_page .trending_cartoons .trending_cartoons_list li .second_block, .trending_cartoons .trending_cartoons_list li .second_block a {font: 700 20px/28px 'Lora', sans-serif; color: #333333; margin-bottom: 5px;}
+.mc_cartoons_consumption_page .trending_cartoons .trending_cartoons_list li .second_block a:hover {text-decoration: none;}
+.mc_cartoons_consumption_page .trending_cartoons .trending_cartoons_list li .third_block, .trending_cartoons .trending_cartoons_list li .third_block a {font: 400 15px/19px 'Lora', sans-serif; color: #5A5A5A; font-style: italic;}
+.mc_cartoons_consumption_page .trending_cartoons .trending_cartoons_list li .third_block a:hover {text-decoration: none;}
+.mc_cartoons_consumption_page .trending_cartoons .trending_cartoons_list li .image_block {margin-bottom: 15px;}
+.mc_cartoons_consumption_page .trending_cartoons .trending_cartoons_list li .image_block img {width: 100%;}
+.mc_cartoons_consumption_page .trending_cartoons .trending_cartoons_list li:after {content: ""; background: url("https://stgwww.moneycontrol.com/news/images/cartoons/small_border.svg") no-repeat; height: 10px; display: block; margin-top: 20px; visibility: visible;}
+.mc_cartoons_consumption_page .trending_cartoons_list {margin-bottom: 50px;}
+.rhs_title {font: 700 18px/22px 'Josefin Sans', sans-serif; color: #000000; text-transform: uppercase; border-bottom: 1px solid #AFAFAF; padding-bottom: 10px; margin-bottom: 10px;}
+/*== this week in cartoons ==*/
+
+
+
+/*== contact ==*/
+.mc_cartoons_consumption_page .contact .stay-up {font: 700 18px/22px 'Josefin Sans', sans-serif; color: #000000; text-transform: uppercase; border-bottom: 1px solid #AFAFAF; padding-bottom: 10px; margin-bottom: 10px;} 
+.mc_cartoons_consumption_page .contact .subscribe {font: 400 16px/22px 'Josefin Sans', sans-serif; color: #666666;}
+.mc_cartoons_consumption_page .contact .form-control button {display: inline-block; width: auto; background: #303030; color: #fff; padding: 9px 20px; outline: 0; border-radius: 3px;
+    border: none; text-transform: capitalize; position: absolute; top: 0; right: 0;}
+.mc_cartoons_consumption_page .contact .form-control {padding: 3px 10px !important; position: relative; border: 1px solid #ccc; height: 40px;}
+.mc_cartoons_consumption_page .contact .form-control input {line-height: 33px; padding: 0; border: 0;}
+.mc_cartoons_consumption_page .contact:after {content: ""; background: url("https://stgwww.moneycontrol.com/news/images/cartoons/small_border.svg") no-repeat; height: 10px; display: block; margin-top: 20px;}
+/*== contact ==*/
+/* == gift article ==*/
+.social_icons_list li a.gift_icon g.a {fill: transparent;}
+.you_can_gift a {font: 500 16px/19px 'Lato', sans-serif; color: #FF8D45; background-color: #F4F4F4; border-radius: 20px; padding: 10px 20px; display: inline-block; margin-bottom: 15px; text-decoration: none;}
+.you_can_gift svg {width: 18px; height: 18px; display: inline-block; vertical-align: middle;}
+/* == gift article ==*/
+
+@media screen and (max-width: 1440px){
+	.social_icons_wrapper {margin-left: -65px;}
+}
+
+
+@media screen and (max-width: 1366px){
+	.social_icons_wrapper {margin-left: -43px;}
+}
+
+
+
+@media screen and (max-width: 1279px){
+.article_consum_wrapper {width: 100%; padding: 0 15px;}
+.article_image {width: 100%;}
+.article_image img {width: 100%;}
+.page_left_wrapper {width: 635px;}
+.ad_block img {width: 100%;}
+ul.stories_list li .image_block {width: 140px;}
+ul.stories_list li .image_block img {width: 100%;}
+ul.stories_list li .content_block {width: 135px; font-size: 14px; line-height: 20px;}
+.related_stories_left_block {width: 48%;}
+.content_wrapper {font-size: 18px; line-height: 28px;}
+.related_stories_left_block .section_title:after {width: 120px;}
+.twitt_block .right_block {font-size: 30px; line-height: 35px; width: 75%;}
+}
+
+
+@media screen and (max-width: 980px){
+	.hide_in_mobile {display: none;}
+	.show_in_mobile {display: block !important;}
+	.page_left_wrapper {width: 100%; float: none;}
+	.page_right_wrapper {display: none;}
+	.social_icons_wrapper {display: none;}
+	.social_icons_mobile_wrapper {text-align: center; margin-top: 10px;}
+	.social_icons_mobile_wrapper .social_icons_list li {display: inline-block; margin: 0 7px;}
+	.social_icons_mobile_wrapper .social_icons svg {width: 30px; height: 30px;}
+	.social_icons_mobile_wrapper {display: block;} 
+	.footer_navigation_list.hide_in_desktop {display: flex;}
+}
+
+
+@media screen and (max-width: 767px){
+	.bred_crum {margin: 20px 0 5px;}
+	.bred_list {margin-left: 0px;}
+	.bred_list li:nth-of-type(3) span {display: none;}
+	.bred_list li, .bred_list li a {font-size: 10px; line-height: 20px;}
+	.bred_crum .article_consum_wrapper {text-align: center;}
+	.bred_list li:last-child {display: block; font-size: 14px; line-height: 20px;}
+	.bred_list li span {width: 5px;}
+	.ad_block {margin: 25px 0;}
+	.content_wrapper p {margin-bottom: 10px;}
+	.article_image_main_wrapper .article_text, .article_image_main_wrapper .article_text a {text-align: center;}
+	.article_text, .article_text a {font-size: 12px; line-height: 16px; text-align: left;}
+	.article_text span {display: block;}
+	.article_title {font-size: 32px; line-height: 36px; text-align: center;} 
+	.article_desc {font-size: 16px; line-height: 24px; text-align: center; margin-bottom: 19px;}
+	.article_author {font-size: 12px; line-height: 20px; border-right: 0; width: 100%; text-align: center;}
+	.article_author:before {display: none;}
+	.article_schedule {font-size: 10px; line-height: 20px; width: 100%; text-align: center; margin-bottom: 0px;}
+	.article_schedule:after {content: ""; background-color: #005493; display: block; width: 60px; height: 5px; margin: 10px auto 0;}
+	.content_bold {font-size: 14px; line-height: 24px;}
+	.related_stories_left_block {width: 100%; margin-right: 0;}
+	ul.stories_list li .content_block {font-size: 14px; line-height: 16px; vertical-align: middle; color: #343434; font-weight:400;}
+	ul.stories_list li .image_block {width: 130px; line-height: 90px; vertical-align: middle;}
+	.section_title {font-size: 13px; line-height: 12px;}
+	.related_stories_left_block .section_title {height: 12px;}
+	.related_stories_left_block .section_title span {padding: 2px 7px 0 0;}
+	.related_stories_left_block {width: 100%; margin-top: 35px; margin-bottom: 30px;}
+	.paragraph_caps_title {font-size: 14px; line-height: 26px;}
+	.table_wrap {margin-left: -15px; margin-right: -15px;}
+	.table_wrap table tr th, .table_wrap table tr:nth-of-type(1) td {font-size: 14px; line-height: 30px; width: 16%;}
+	.table_wrap table tr td {font-size: 14px; line-height: 30px;}
+	.table_wrap p {font-size: 10px; line-height: 14px; padding-left: 15px;}
+	.table_foot_note{font-size: 10px; line-height: 14px; padding-left: 15px; margin-top:0px; margin-bottom:15px;}/*
+	.table_wrap ~ em{font-size: 10px; line-height: 14px; padding-left: 15px;}*/
+	.twitt_block .left_block {width: 12%; margin-right: 0;}
+	.twitt_block .right_block {width: 87%; font-size: 36px; margin-top: 0;}
+	.twitt_block .left_block img {width: 65%;}
+	.twitt_block .right_block .twitt_author {font-size: 16px; line-height: 14px;}
+	.twitt_block .right_block .twitt_author div {font-size: 10px; line-height: 16px; margin-top: 3px;}
+	.author_wrapper .image_block {width: 84px; height: 84px; line-height: 84px;}
+	.author_wrapper .image_block img {width: 100%; height: 100%;}
+	.author_wrapper .content_block, .author_wrapper .content_block span, .other_author_text .content_block, .other_author_text .content_block span {width: 67%; font-size: 12px; line-height: 18px;}
+	.other_author_text .content_block {width: 100%;}
+	.ad_title {font-size: 8px; line-height: 15px;}
+	.tags_first_line, .tags_first_line a {font-size: 12px; line-height: 16px;}
+	.tags_last_line {font-size: 12px; line-height: 14px;}
+	.audio_text {font-size: 12px; line-height: 18px;}
+	.audio_version {padding: 11px;}
+	.article_image_main_wrapper .article_image:before {margin: auto; left: 0; right: 0; height: 11px; bottom: -6px;}
+	.article_image:before {margin: auto; left: 0; right: unset; height: 8px; bottom: -4px;}
+	.outbrain_wrapper img {width: 100%;}
+	.video_icon, .audio_icon {background-size: contain; width: 50px; height: 50px;}
+	.ad_after_section {background-color: transparent; margin: 0;}
+	.brad_crum a {font-size: 10px; line-height: 20px;}
+	.brad_crum a:last-child {display: block; font-size: 14px; line-height: 20px;}
+	.brad_crum .FL {float: none; text-align: center;}
+	.brad_crum span {background-size: contain !important; top: 0px; width: 6px; height: 6px;}
+	.bred_list li:nth-of-type(3) span {display: none;}
+	.img_caption_whitebx {font-size: 12px;line-height: 16px; padding-top:15px;}
+	.img_caption_whitebx:before {margin: auto; left: 0; right: unset; height: 8px; top: -4px;}
+	.scroll-paginate .paginate-section-nav div.page-title{width:100%;}
+	.interviewee{ font-size:16px; line-height:19px;}
+	.interview_header .interview_title .titles .designation{font-size:10px; letter-spacing:2px; line-height:13px;}
+	.interview_header .interview_title{padding-bottom:15px;}
+	.related_stories_left_block .section_title{margin-bottom:15px;}
+	.mid-arti-ad {text-align: center; margin: 25px 0;}
+	brad_crum a { font: 400 18px/20px 'Josefin Sans', sans-serif; color: #8B8B8B; text-transform: none; padding: 0; letter-spacing: 2.7px;}
+	social_icons_list li a, .social_icons_list li .a {color: #000; fill: #000;}
+	article_desc {font: 400 italic 20px/28px 'Lora', sans-serif; color: #2F2F2F; margin-bottom: 35px;}
+	article_schedule {font: 400 14px/20px 'Josefin Sans', sans-serif; color: #343434; display: inline-block; vertical-align: top; text-transform: uppercase; letter-spacing: 2.1px;}
+	.mc_cartoons_consumption_page .article_title {font-size: 24px; line-height: 30px;}
+	.mc_cartoons_consumption_page .article_desc {font-size: 14px; line-height: 18px;}
+	.mc_cartoons_consumption_page .article_schedule {font-size: 10px; line-height: 13px;}
+	.mc_cartoons_consumption_page .article_text, .mc_cartoons_consumption_page S.article_text a {font-size: 12px; line-height: 18px;}
+	.mc_cartoons_consumption_page .more_cartoons ul li {width: 47%; margin-right: 0;}
+	.mc_cartoons_consumption_page .more_cartoons ul li .image_block img {height: unset;}
+	.mc_cartoons_consumption_page .more_cartoons ul li .content_block p:nth-of-type(1) {font-size: 8px; line-height: 10px;}
+	.mc_cartoons_consumption_page .more_cartoons ul li .content_block p:nth-of-type(2), .more_cartoons ul li .content_block p:nth-of-type(2) a {font-size: 12px; line-height: 15px;}
+	.mc_cartoons_consumption_page .more_cartoons ul li .content_block p:nth-of-type(3), .more_cartoons ul li .content_block p:nth-of-type(3) a {font-size: 10px; line-height: 13px;}
+	.mc_cartoons_consumption_page .more_cartoons ul li .image_block {width: unset;}
+	.mc_cartoons_consumption_page .more_cartoons ul li:nth-of-type(even) {margin-left: 22px;}
+    
+     .social_icons_list li a.gift_icon g.a {fill: transparent;}
+	.you_can_gift {text-align: center;}
+	.you_can_gift a {font-size: 12px; line-height: 15px; padding: 7px 20px;}
+	.you_can_gift svg {width: 14px; height: 14px;}
+}

@@ -1,0 +1,236 @@
+An Accurate Solution to the Multispecies Lotka-Volterra Equations Author(s): Shmuel Olek Source: SIAM Review , Sep., 1994, Vol. 36, No. 3 (Sep., 1994), pp. 480-488 Published by: Society for Industrial and Applied Mathematics Stable URL: https://www.jstor.org/stable/2133079
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide range of content in a trusted digital archive. We use information technology and tools to increase productivity and facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org. Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at https://about.jstor.org/terms
+Society for Industrial and Applied Mathematics is collaborating with JSTOR to digitize, preserve and extend access to SIAM Review
+This content downloaded from 209.147.115.9 on Wed, 16 Feb 2022 19:38:57 UTC
+All use subject to https://about.jstor.org/terms
+
+SIAM REVIEW (.) 1994 Society for Industrial and Applied Mathematics Vol. 36, No. 3, pp. 480-488, September 1994 Oil
+AN ACCURATE SOLUTION TO THE MULTISPECIES LOTKA-VOLTERRA EQUATIONS*
+SHMUEL OLEKt
+Abstract. The decomposition method is applied to the solution of the Lotka-Volterra equations mo dynamic behaviour of an arbitrary number of species. The analytical solution derived is an infinite pow each species, where the n term is given by a recurrence relation. As particular examples, the cases of three species are considered. For these cases, comparisons between the present semi-analytical solution numerical solution (or an exact one for one species) show exc ellent agreement.
+Key words. Lotka-Volterra, decomposition, species dynamics
+AMS subject classification. 92D25
+1. Introduction. The Lotka-Volterra equations model the dynamic behaviour of an ar bitrary number of competitors (Hofbauer and Sigmund (1988)). Though originally formulate to describe the time history of a biological system, these equations find their application in number of engineering fields such as simultaneous chemical reactions and nonlinear contr In fact, the one predator one prey Lotka-Volterra model is one of the most popular ones t demonstrate a simple nonlinear control system.
+The accurate solution of the Lotka-Volterra equations may become a difficult task eithe if the equations are stiff (even with a small number of species), or when the number of specie is large.
+The objective of this study is not a qualitative analysis of the rich dynamic behaviour o the noted equations, but to present an accurate solution to the Lotka-Volterra equations for arbitrary number of competitors, using the "decomposition method."
+The decomposition method yields analytical approximations to a rather wide class of no linear (and stochastic) equations without linearization, perturbation, closure approximation or discretization methods.
+The formal solution obtained by decomposition is generally an infinite series, where f computational purposes, usually a small number of terms is used to obtain accurate numeri results.
+The advantage of the decomposition method relies on the fact that it provides an easil computable scheme and an efficient algorithm, as we shall see, for the continuous approxim tion of the dynamical response of the system equations.
+As will be shown, the main achievement of this study is an accurate series solution by t decomposition method, which is very compact in form and easy to apply. It is a fortunate c here that the n term in the series can be written down immediately in terms of preceding on unlike a step by step procedure for its expression obtained by the decomposition method other types of equations.
+In ?2 the decomposition method is introduced and in ?3 it is applied to the solution the Lotka-Volterra equations for an arbitrary number of species. In ?4 we present results f either one, two, or three species. For one species, the results of the decomposition meth are compared with both numerical and exact solutions. For two and three species the resul of the solution by decomposition are compared with an accurate numerical solution, that u the Runge-Kutta-Vemer method. In all cases excellent agreement is obtained.
+*Received by the editors January 25, 1993; accepted for publication December 15, 1993. tResearch and Development Division, Israel Electric Corporation Ltd., P.O. Box 10, Haifa 31000, Israel.
+480
+This content downloaded from 209.147.115.9 on Wed, 16 Feb 2022 19:38:57 UTC
+All use subject to https://about.jstor.org/terms
+
+CLASSROOM NOTES 481
+
+2. The decomposition method. The presentation of the decomposition method in the sequel follows Adomian (1988). Consider an equation
+(1) Lu+Ru+Nu=g,
+where L is an easily invertib R is the remainder of the li g denotes the nonhomogeneous part. Solving for Lu yields
+(2) Lu=g-Ru-Nu.
+Because L is invertible, an equivalent expression is
+(3) L -Lu = L-g- L-1Ru - LNu.
+In the case of an initial-value problem, the integ integrals from to to t. If L is a second-order operator, L- is a two-fold integration operator and L' Lu = u - u(to) - (t - to)u'(to). For boundary value problems (and, if desired, for initial-value problems as well), indefinite integrations are used and the constants are evaluated from the given conditions. Solving (3) for u yields
+(4) u = A + Bt + L-Ig-L-'Ru-L-'Nu.
+
+The nonlinear term Nu will be equated to E??O An, wh be discussed, and u will be decomposed into En=O Un, w
+so that
+
+00
+
+00
+
+00
+
+(5) 1:Un = uo -L-'R E n- L1 1: An n=O n=O n=O
+
+Consequently, we can write
+
+ul = -L-'Ruo-L'-lAo U2 =-L-1Ru1-L-1A1
+
+(6) Un+1 =-L'-Run - L-'An
+The polynomials An are generated for each nonlinearit depends only on uo and ul, A2 depends on uo, Ul, U2, e calculable, and u = _n-0 Un. If the series converges will be the approximate solution since lim-,oo OtJn = Eo emphasize that the An can be calculated for complicated or f (g(u)).
+The An polynomials are defined by
+Ao = f(uo), Al = ui (d/duo) f (uo),
+A2 = u2(d/duo)f(uo) + (u2/2!)(d2/du2)f(uo),
+(7) A3 = u3(d/duo)f(uo) + uIu2(d2/du2)f(uo) + (U3 /3!)(d3/du3)f(uo)
+
+This content downloaded from 209.147.115.9 on Wed, 16 Feb 2022 19:38:57 UTC
+All use subject to https://about.jstor.org/terms
+
+482 CLASSROOM NOTES
+There are a number of ways to defin
+n
+(8) An = (l/n !) E c(v, n)dV f/duv,
+v=1
+where the second index in the coefficient is the order of the derivative and the first index progresses from 1 to n along with the order of the derivative. In the linear case f(u) = u, and the An reduce to un . Otherwise An = An (uo, Ui, . . ., un). For f (u) = u2, for example, Ao = u2, A1 = 2u0ul, A2 = u2 + 2u0u2, A3 = 2ulu2 + 2uOu3, .... It is to be noted that i this scheme the sum of the subscripts in each term of the An are equal to n. It is possible to find simple symmetry rules for writing the An quickly to high orders.
+3. Analysis. Consider the Lotka-Volterra model for an m species system
+
+dt= Ni bi+EaijiNj i= 2 m.
+No mathematical constraints are posed on the various coeff represent either predator-prey or competition cases.
+It can be realized that in the present case the nonlinear ter form, so that very simple symmetry rules for the decomposi
+If we denote L _ d/dt, the formal solution of (9) may be p
+
+(10) N1(t) = N1(0) +L1 (biN+EaijNiNi)j
+
+(11) ~ ~ ~Ni (t) =NE in i= 1929 . . ,m where L1 g [o]d t. According to the decomposition method
+form is assumed:
+00
+n=O
+
+Substituting (11) into (10) gives
+
+(12)
+
+oo m o00 o
+N;(t) = N;(0) n=0 j=1 n=O n=0
+
++
+
+L-
+
+or after rearranging the products
+
+(13)
+
+oo m oo n\
+Nj(t) = N1(0)+L-1
+n=O j=1 n=O k=O
+
+The solution is ensured by requiring
+
+(14) Lio = Ni (0) i ) , i = 1, 2, 2, .
+
+m O
+(15) NilI = L- bi Nio + E aij
+
+This content downloaded from 209.147.115.9 on Wed, 16 Feb 2022 19:38:57 UTC
+All use subject to https://about.jstor.org/terms
+
+CLASSROOM NOTES 483
+m1
+(16) =i2 = L' bi1iI + Eaij E VikVj(lkk) , i = 1, 2, .. ., m,
+j=1 k=O
+m n-I
+(17) Nin = L- I bNi(nX1)+ZaIiENi,NikNj(nf-k-I)) , i = 1,2, ., m.
+j= 1 k=O
+After carrying out the integrations, the following solution is obtained:
+oo tn
+(18) Ni(t) = ECinL, i = 1,2, ... ,m,
+n=O
+where
+(19) cio = Ni(0), i = 1, 2, ..., m
+and the general term is defined through the following recurrence relation:
+m n-I1 i jnk1
+(20) cin = bici(n-1)+ (n-i)! EE aj k! (n - k-1)! ' i = 1, 29 ... m n > 1.
+The decomposition method does not assure, on its own, existence and uniqueness of the solution. In fact, it can be safely applied when a fixed point theorem holds. A theorem proved in Repaci (1990) indicates that it is hopeless to look fQr solutions globally in time. On the other hand, the decomposition method can be used as an algorithm for the approximation of the dynamical response in a sequence of time intervals [0, t1), [tl, t2), ..., [tn_I, T) such that the condition at tp is taken as initial condition in the interval [tp, tp+1) which follows.
+This method has the following advantages. (1) In each time-interval one can apply a theorem proved in Repaci (1990), which states that the solution obtained by the decomposition method converges to a unique solution as the number of terms in the series becomes infinite. (2) The approximation in each interval is continuous in time and can be obtained with the desired approximation corresponding to the desired number of terms. The latter procedure is adopted in the numerical computations for the examples to be presented in the next section. 4. Results and discussion. In the following, a few numerical examples are presented for one, two, and three species. 4.1. One species. The Verhulst logistic equation for one species competing for a given, finite source of food is
+dN (21) t=N(b+aN), b > O, a < O, N(O) > O,
+where a and b are constants. This equation has an exa
+(22) NN(t)= b + aNbebt(#O) bt bae
+N(O)
+This content downloaded from 209.147.115.9 on Wed, 16 Feb 2022 19:38:57 UTC
+All use subject to https://about.jstor.org/terms
+
+484 CLASSROOM NOTES
+TABLE 1 One species competing over a common ecolog different time steps and number of terms in The number of terms in the decomposition seri
+Decomposition Decomposition Decomposition t /At = 0.1 At = 0.001 At = 0.1 Numerical Exact
+n = 3 n = 3 n =16
+0.0 0.1000000000 0.1000000000 0.1000000000 0.1000000000 0.1000000000 0.5 0.1380362959 0.1380126144 0.1380126120 0.1380126120 0.1380126120 1.0 0.1794249532 0.1793671813 0.1793671754 0.1793671754 0.1793671754 1.5 0.2192866937 0.2192063831 0.2192063750 0.2192063750 0.2192063750 2.0 0.2534123465 0.2533347169 0.2533347092 0.2533347092 0.2533347092 2.5 0.2798079939 0.2797519782 0.2797519727 0.2797519727 0.2797519727 3.0 0.2986706260 0.2986403402 0.2986403373 0.2986403373 0.2986403373
+(23) N(t) = (1 f b =bO. I- aN(O)t
+The exact solution will serve to assess both the accuracy of the solution by the decompos method and the numerical solution by the Runge-Kutta method. For one species, the solu by decomposition takes the following form:
+tn
+(24) N(t) ECnn=O n!
+where
+(25) co = (O),
+and the general term is def
+n CI C(n-k1)
+(26) C0= bc(n) + (n - 1)!a k! (n-k-i1)! n >.
+Table 1 shows a comparison between the decomposition, numerical, and exact solutions for b = 1, a = -3, and N(O) = 0.1. From left to right, the first column shows time, the second and third columns represent the solution by the decomposition method with 3 terms in the series, and for time steps At of 0.1 and 0.001, respectively. The fourth column shows the solution by decomposition with 16 terms in the series and a time step of 0.1, in the fifth column there are the results of a numerical solution, and the last column shows the exact solution. The numerical solution is obtained by using the DIVPRK subroutine from the IMSL library. This high accuracy subroutine employs the Runge-Kutta-Verner method of the 5th and 6th order.
+4.1.1. The accuracy of the solution by the decomposition method. From Table 1, it can be realized that the numerical solution and the one by decomposition with a time step of At = 0.1 and n = 16 terms in the series are identical to the exact solution for the 10 digits presented here. It can be seen that an increase in the accuracy by the decomposition method
+can be achieved by either decreasing the time step or by increasing the number of terms in the series. Note that the solution with 16 terms and a time step of 0.1 is more accurate than the one with 3 terms and time steps of 0.001. It may be realized that the decomposition solution is indeed very accurate.
+This content downloaded from 209.147.115.9 on Wed, 16 Feb 2022 19:38:57 UTC
+All use subject to https://about.jstor.org/terms
+
+CLASSROOM NOTES 485
+In general, there is not known an exact solution for the Lotka-Volterra equations with more than one species. Thus, the accuracy of the decomposition method in the examples to be presented in the sequel will be assessed by its comparison to the numerical solution by the Runge-Kutta method.
+4.2. Two species. The Lotka-Volterra equations for this case take the following form:
+(27) dNl = N1 (b1 + all N1 + al2N2), dt
+(28) d N2 = N2 (b2 + a2l N, + a22N2). dt Equations (27) and (28) model two species competing for a common ecological niche.
+According to the decomposition method, the consequent solution results
+00 tn
+(29) Xl(t) = E Cln n=O n
+00 tn
+(30) 0N2(t) = 0C2n -
+n=O n
+where
+(31) clo = N, (0)
+(32) C20 =N2(0)9
+and the general terms are again gi
+n-I
+(33) Cln = blCl(n-1) + [allClkcl(n-k-l) + al2ClkC2(n-k-I)I n > 1,
+k=O
+n-i
+(34) C2n = b2C2(n-1) + j[a21ClkC2(n-k-1) + a22C2kC2(n-k-1)I, n > 1
+k=O
+The asymptotic behavior which results from the Lotka-Volterra equations for two species is convergence to one or other of the 4 possible equilibrium points: 1 and 2 coexisting; 1 alone; 2 alone; both vanishing, depending on the relative magnitudes of the competition coefficients. - Consider a numerical example which appears in Pielou (1969). The initial values are
+N, (0) = 4 and N2(0) = 10, and the various constants are all = -0.0014, a12 = -0.0012, a2l = -0.0009, a22 = -0.001, bi = 0.1, and b2 = 0.08. It turns out that in this case the
+species coexist. Table 2 shows a comparison between an analytical solution and a numerical solution
+obtained using subroutine DIVPRK from the IMSL library. The analytical solution is obtained with three terms in the series, and time steps of 0.001, in a procedure explained before. It may be realized that an excellent agreement between the two solutions is obtained, suggesting that both the decomposition and Runge-Kutta solutions for this case are accurate to at least 9
+significant digits. t
+This content downloaded from 209.147.115.9 on Wed, 16 Feb 2022 19:38:57 UTC
+All use subject to https://about.jstor.org/terms
+
+486 CLASSROOM NOTES
+TABLE 2
+Two species competing over a common solutions. The model parameters are a22 =-0.001, NI(0) = 4, N2(0) = 10.
+Decomposition solution Numerical solution t I N1 N2 N1 N2 0 4.00000000 10.00000000 4.00000000 10.00000000 10 8.45764164 18.34438086 8.45764162 18.34438085 20 14.73840948 29.06458094 14.73840945 29.06458097 30 20.68367509 39.10222921 20.68367507 39.10222921 40 24.42920273 46.16594844 24.42920270 46.16594844 50 26.02503288 50.36508268 26.02503285 50.36508268 60 26.34551108 52.78271552 26.34551106 52.78271553 70 26.07375943 54.28149923 26.07375941 54.28149924 80 25.56693235 55.33333017 25.56693234 55.33333018 90 24.98478037 56.16294739 24.98478036 56.16294740 100 24.39370745 56.87231129 24.39370749 56.87231131
+TABLE 3 Two species competing over a common ecological niche-long time variation of population
+between decomposition and numerical solutions. The model parameters are: bI = 0.1 -0.0012, b2 = 0.08, a2j = -0.0009, a22 = -0.001, N1 (0) = 4, N2(0) = 10.
+Decomposition solution Numerical solution t N1 N2 N1 N2 0 4.00000000 10.00000000 4.00000000 10.00000000 500 14.66140862 66.68801736 14.66140865 66.68801734 1000 12.87224339 68.39746922 12.87224339 68.39746921 1500 12.56961791 68.68415010 12.56961791 68.68415010 2000 12.51321778 68.73750049 12.51321778 68.73750050 2500 12.50251671 68.74762016 12.50251671 68.74762016 3000 12.50047945 68.74954663 12.50047945 68.74954663 3500 12.50009135 68.74991362 12.50009135 68.74991362 4000 12.50001741 68.74998354 12.50001740 68.74998354 4500 12.50000332 68.74999686 12.50000332 68.74999686 5000 12.50000063 68.74999940 12.50000063 68.74999940
+Table 3 shows the population variation for long times, for the same mod in Table 1. This case is of special interest since the steady state may easily analytically by setting to zero the left-hand side of equations (21) and (22) a and N2. The values which result are N1 = 12.500 and N2 = 68.750. Again solutions by decomposition and Runge-Kutta suggests that for this case bot at least 9 significant digits. One may also realize that the analytically determ values are approached by the two solutions.
+4.3. Three species. The case of two species is described by May and Leonard (1975) to be rather dull as compared to the case of three species. For in the latter case, there are 8 possible equilibrium points: all three coexisting; 3 combinations of two coexisting; 3 single populations; and all three vanishing. But, unlike the two-species case, there remain combinations of the competition coefficients such that the system does not converge to any one of the 8 equilibrium points. As stated in the introduction, this paper does not intend to analyze the case of three species in a qualitative way but rather to show that the decomposition method may be used to yield accurate predictions of the multispecies dynamics.
+This content downloaded from 209.147.115.9 on Wed, 16 Feb 2022 19:38:57 UTC
+All use subject to https://about.jstor.org/terms
+
+CLASSROOM NOTES 487
+TABLE 4 Three species competing overa common ecological niche-a comparison between decomposition and numerical
+solutions. The model parameters are: c = 0.1, p = 0.1, N1 (0) = 0.2, N2 (0) = 0.3, N3 = 0.5.
+Decomposition solution Numerical solution t N1 N2 N3 N1 N2 N3 0 0.200000 0.300000 0.500000 0.200000 0.300000 0.500000 2 0.554110 0.667837 0.799034 0.554111 0.667836 0.799031 4 0.766028 0.806442 0.841979 0.766027 0.806440 0.841978 6 0.819938 0.829794 0.837851 0.819939 0.829792 0.837849 8 0.830674 0.832908 0.834704 0.830675 0.832907 0.834704 10 0.832789 0.833289 0.833689 0.832788 0.833288 0.833689 12 0.833219 0.833330 0.833420 0.833217 0.833329 0.833420 14 0.833309 0.833334 0.833353 0.833308 0.833334 0.833354 16 0.833328 0.833334 0.833338 0.833328 0.833334 0.833334 18 0.833332 0.833333 0.833334 0.833332 0.833334 0.833334 20 0.833333 0.833333 0.833334 0.833333 0.833333 0.833334
+For demonstration purposes, a reduced number of parameters will be used in the threespecies system, by making some symmetry assumptions, to yield the equations obtained by May and Leonard (1975). These equations take the following form:
+(35) dN = N,(1 -N, -cN2- fN3), dt
+(36) dN2 = N2(I1- fiN,-N2-cN3)
+(37) dN3 = N3(1 -cN, -fPN2-N3),
+dt
+where c and ,6 are constants. It can be shown (May and Leonard (1975)) that for c > 0 and ,6 > 0 the sufficient
+condition for neighborhood stability is c + ,6 < 2. Such a case is shown in Table 4, for c = , = 0.1, where the initial conditions are 0.2, 0.3, and 0.5. As before, three therms in the series were used with time steps of 0.001. A comparison between the analytical and numerical solutions shows an agreement of 5 significant digits at least.
+An interesting case is depicted in Fig. I, where the variation of one species, namely N1 (t), is shown for c = 0.8, ,6 = 1.3, and the initial conditions are 0.6, 0.6, and 0.1. In this case the system equations is very stiff, and the nonlinearities mathematically produce nonperiodic phenomena, though biologically it is nonsense (see discussion in May and Leonard (1975)). In this figure, a comparison is made between the analytical solution (solid line) with three terms in the series and time steps of 0.001 and the numerical one (dashed line) using again subroutine DIVPRK. The curves are seen to practically coincide. It should be noted that care must be taken in employing numerical methods. Using subroutine DIVPAG from the IMSL library, which is based on the Gear method, yielded unacceptable results in the present case. For example, for relatively short times the results were in good agreement with the analytical method (or the numerical method based on subroutine DIVPRK), but for long times it yielded results which are substantially outside the range (0, 1), e.g., large positive or negative values.
+To summarize, the decomposition method was employed to solve the multispecies LotkaVolterra equations. Formally, this approximate analytical solution is an infinite power series for each species, and has a very compact form due to the particular form of the equations. For
+This content downloaded from 209.147.115.9 on Wed, 16 Feb 2022 19:38:57 UTC
+All use subject to https://about.jstor.org/terms
+
+488 CLASSROOM NOTES
+
+0.90.80.7 0.6 N1 0.5 0.40.30.20.1-
+
+1----7
+
+0 500 1000 1500 2000 2500 3000 t
+
+numerWcaL soLut(on anaLyUWa. soLuton
+FIG. 1. The behavior of one of the three species, namely N1 (t), as afunction of time for c = 0.8 and a = 1.3 and the initial conditions N1 (0) = 0.6, N2(0) = 0.6, and N3(0) = 0.1. A comparison between the analytical and numerical solutions shows that they practically coincide.
+
+practical computations, a finite number of terms in the series is used in a time step procedure outlined above.
+The excellent accuracy of the present solution was demonstrated through comparisons between the present solution by decomposition and an exact analytical solution for one species (10 significant digits) or to fully numerical solutions for the cases of two (9 significant digits) and three species (5 significant digits).
+
+REFERENCES
+[1] G. ADOMAIN (1988), A review of the decomposition method in applied mathematics, J. Math. Anal. Appl., 135, pp. 501-544.
+[21 J. HOFBAUER AND K. SIGMUND (1988), The Theory of Evolution and Dynamical Systems, Cambridge University Press, London.
+[31 A. RtPACI (1990), Nonlinear dynamical systems: on the accuracy of Adomian 's decomposition method, Appl. Math. Lett., 3, pp. 35-39.
+[41 E. C. PIELOU 1969, An Introduction to Matlhematical Ecology, Wiley-Interscience, New York. [5] R. M. MAY AND W. J. LEONARD (1975), Nonlinearaspects ofcompetition between three species, SIAM J. Appi.
+Math., 29, pp. 243-253.
+
+This content downloaded from 209.147.115.9 on Wed, 16 Feb 2022 19:38:57 UTC
+All use subject to https://about.jstor.org/terms
+

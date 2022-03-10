@@ -1,0 +1,848 @@
+JOURNAL OF MATHEMATICAL
+
+ANALYSIS AND APPLICATIONS
+
+62, 453-473 (1978)
+
+The Stability of Generalized Volterra Equations
+
+YMXIRO
+
+TAKEUCHI, KORIHIKO ADACHI, XND HIDEKATSU TOKUMARU
+
+Department of Applied Mathematics and Physics, P7aculty of Engineering, Kyoto University, Sakyoku, Kyoto, Japtrn
+Submitted by J. Cronin
+
+In this paper, a particular type of a system of generalized Volterra equations [l], whose solutions are assured to be nonnegative for arbitrary nonnegative initial values, is considered. The extended stability theorem of LaSalle is used for deriving conditions for a nonnegative equilibrium point to be stable with respect to a certain subset of the Euclidean space. The obtained stability theorem has a close relation with Lyapunov’s stability condition for linear systems with constant coefficients and is generally less restrictive than conditions known so far.
+1. INTRODUCTION
+In this paper, a particular type of a system of generalized Volterra equations [l], whose solutions are assured to be nonnegative for arbitrary nonnegative initial values, is considered. The system arises frequently in the fields of ecology, economics, etc.
+Many papers, for example, ones by MacArthur [2], Kilmer [3], Aiken and Lapidus [4], Goel et al. [5], etc., have been published on the stability of a positive equilibrium point of the generalized Volterra equation. In [2, 4, 51, a characteristic matrix of the quadratic term is restricted to be symmetric or skew-symmetric. Kiimer’s stability condition is valid for the very restraint matrix [3].
+The purpose of this paper is to provide sufficient conditions for a nonnegative equilibrium point of the generalized Volterra equation to be stable with respect to a certain subset of the Euclidean space, without imposing such restrictions on the matrix as in [2-51. It is accomplished by using LaSalle’s extended stability theorem [6]. Further, a necessary and sufficient condition is gamed under a certain restriction to the matrix.
+
+2. DESCRIPTION OF SYSTEM AND DEFINITION OF STABILITY
+
+2.1. Description of System and Notations Let us consider an n-dimensional differential equation,
+
+d dt Xi = xi
+
+bi -
+
+i aiixj
+j-1
+
+,
+
+i =- 1, 2,. .., n.
+
+(2.1)
+
+453 0022-247X/78/0623~453$02.00/0
+Copyright 0 1978 by Academic Press, Inc. All rights of reprodunion in any form reserved.
+
+454
+
+TAKEUCHI, ADACHI, AND TOKUMARU
+
+Here, xi is a variable, bi and aij are real constant parameters. In this paper, system (2.1) is called a generalized Volterra equation after the famous VolterraLotka equation [5]. From (2.1), a rate of change per unit quantity (=ni/xi) is a linear combination of n variables xi (j = 1, 2,..., n), where the symbol “.” means the time derivative.
+In vector form, system (2.1) is
+
+(d/dt) x = X(b - Ax)
+
+(2.2)
+
+where x = (x1, x2 ,..., X# is an n-vector, X = diag(x, , xa ,..., x,) is an n x n real diagonal matrix, b = (b, , b, ,.,., b,)t is an n-dimensional real constant vector, and A = (Q) is an n x n real nonsingular matrix.
+Unless otherwise specified, the following notations are employed. If A = (Q) and B = (b,,) are two n x n real matrices, A 2 B and A > B mean that all the elements of them satisfy a,j > bij and aij > b, , respectively. A > B implies A 2 B but A # B. Inequalities 1, >, and 3 between two vectors are similarly defined. A vector x is said to be positive (nonnegative) if x > 0 (x 2 0). At (xi) is the transpose of A (3). DiagA = diag(u,, , u2a,..., un,J. Off-diagA = A - Diag A.
+Rn represents the n-dimensional Euclidean space. R’$, = (x 1x E Rn, x 2 O}. R,” = {x 1x E R”, x > O}. R,* = (x [ x E R”, xi > 0, xj > 0 ,..., xK 3 0, x, > 0, m # i, j,..., K>defines the set which corresponds to the nonnegative equilibrium point X* = (x1*, ~a*,..., x,*)~, where xi* = xi* = *.. = xk* = 0, x,* > 0 for m # i, j,..., k. Therefore, if x* > 0, R,n means R+*, and if x* = 0, R,” implies
+Go -
+
+2.2. DeJnition of Stability For system (2.1)
+
+=o
+
+(2.3)
+
+Xi'0
+
+holds for every i, so solutions x(t) of (2.1) are positive, namely, x(t) E R+n for all t > to , for arbitrary positive initial values x(t,) = x0 E R+n, because the solution is uniquely determined. This property of solutions has a physical meaning, since a variable x(t) of system (2.1) represents populations, chemical, or biochemical concentrations, etc. That is, it makes no sense to speak of negative populations or chemical concentrations. Therefore, only nonnegative solutions are considered in this paper.
+Now, define the stability of system (2.1) in consideration of the nonnegative property of the solution.
+
+DEFINITION 1. A nonnegative equilibrium point x* of system (2.1) is said to be asymptotically stable in the large with respect to the set R*“, if and only if
+
+STABILITY OF GENERALIZED VOLTEBBA EQCATIONS
+
+455
+
+(1) the equilibrium point x * 3 0 is stable with respect to R.+n, namely, if for every E > 0 there exists a(~; t,,) such that if 1x0 - x* 1< 6 and the solution x(t; t, , x0) is in R*n, then 1x(t; to, x0) - x* 1< E for t Gr to,
+(2) and every solution converges to x* as t ---f +CO, if x0 E R,n.
+As can be seen in the above definition, only the nonnegative set R,” is considered in connection with the stability. The nonnegative equilibrium point is said to be stable briefly hereafter, if it is stable in the sense of Definition 1.
+
+3. STABILITY CONDITIONS
+
+Denote the equilibrium point by xf = (xl+, x2+,..., x,-+)t of system (2.1), and
+
+xf satisfies
+
+X+(b - Ax+) = 0,
+
+(3.1)
+
+where
+
+X+ = diag(x,+, x2+,..., x,+).
+
+(3.2)
+
+There are 2” solutions of Eq. (3.1), because A is nonsingular. Assume the equilibrium point x* which satisfies
+
+b - Ax* = 0,
+
+(3.3)
+
+to be nonnegative, that is,
+
+x* = A-lb >, 0.
+
+(3.4)
+
+In this paper, let us consider the stability for x*. Substituting (3.3) into (2.2),
+
+; x = -XA(x - x*),
+
+(3.5)
+
+that is,
+
+-dxi = -xi g1 aij(xf - xj*), dt
+
+i = 1, 2,...) n.
+
+The following theorem gives a sufficient condition for x* to be stable.
+
+THEOREM 1. Assume the existence of the nonnegative equilibrium point x* = A-l@ for system (2.1). Then x* is stable if there exists a positive dejkite diagonal matrix W such that a matrix
+
+WA + AtW
+
+(3.7)
+
+is positive dejinite.
+
+456
+
+TAKEWHI,
+
+ADACHI, AND TOKUMARU
+
+Proof. Assume for simplicity that the rth component of the nonnegative equilibrium point x* is equal to zero and others are positive, that is,
+
+x,* = 0, xi* > 0 for i # Y.
+
+(3.8)
+
+The solution of (3.6) is positive if the initial value is positive, so, it is possible to define a transformation such that
+
+for any i # r, (3.9)
+
+that is,
+
+xi = xi* exp(y,) XT =yr -
+
+By this transformation, (3.6) becomes
+
+for any i # r,
+
+(3.10)
+
+Obviously, by the transformation (3.10), x* is transformed into the equilibrium point y = 0 of (3.11).
+Now, define a continuously differentiable function V(y),
+
+V(Y)= i xi*wi(exp(yJ- yi - 1) + w,y,
+
+(3.12)
+
+i-l i+r
+
+where wi is the ith component of W, that is,
+
+W = diag(w, , ws ,..., w,),
+
+q >0
+
+for any i.
+
+(3.14)
+
+STABILITY OF GENERALIZED VOLTERRA EQUATIONS
+
+457
+
+Further, define a bounded and closed (compact) set Q = {y 1yT > 0, V(y) 5;
+~(Y~J)~. Here ~Y(&N is a positive constant number which depends on an initial value y(t,), and it satisfies L(y(t,,)) > V(y(t,)).
+The following properties for V(y) are easily obtained:
+
+(1) WY) 2 0 in Q, (2) Jf(Y) = 0 holds only for y = 0 in Q. The time derivative of V(y(t)) along a solution of (3.11) is
+
+(3.15)
+
+-YW& @1)$),11)
+
+= -(q(yl> - l,..., yr ,-, exP(m>- 1)
+
+= -9WAz =- B- zt(WA + AtW) x, where
+
+(3.16)
+
+(3.17)
+From the assumption, the right-hand side of Eq. (3.16) is negative definite. By Eq. (3.11) and the uniqueness of the solution, yr(t) = 0 for t > t, ify,(t,,) = 0. So, y,.(t) > 0 for t > t, if yr(to) >, 0. Therefore, every solution of (3.11) remains in Q for all t >, t, , if the initial value belongs to Sz.Accordingly, all the solutions starting in J2 approach the origin y = 0 as t -+ +co by the extended stability theorem of LaSalle [a]. Further, the origin is stable with respect to Q, since every solution initially in !2 remains in Q.
+
+458
+
+TAKEUCHI, ADACHI, AND TOKUMARU
+
+The set 52approaches the set {y 1yr > 0, yi E R1 for any i # r} asL(y(t,)) --f
+
++co. This set corresponds to the set R,n = {x 1x E Rn, x, > 0, xt > 0 for any
+
+i# Y} by (3.10). Th erefore, the equilibrium point described by (3.8) is stable
+
+with respect to R,n in the sense of Definition 1.
+
+With regard to the nonnegative equilibrium point x* = A-lb whose zero
+
+components are more than one, or with regard to the positive equilibrium point,
+
+it can be proved similarly that x* is stable.
+
+Q.E.D.
+
+When W is not a diagonal matrix, but is positive definite, the stability condition given in Theorem 1 is the famous Lyapunov necessary and sticient condition for linear systems with constant coefficients. However, the necessary and sufficient condition for the existence of a positive definite diagonal matrix W of Theorem 1 is not known yet.
+Let us consider sufficient conditions and necessary conditions for the existence of W given in Theorem 1.
+
+DEFINITION 2 [7]. Let B = (b,) be an n x n real matrix. Then B is said to have a positive dominant diagonal if and only if there is a set of n positive numbers rri > 0 (i = 1,2,..., n) such that
+
+(3.18)
+
+DEFINITION 3 [S]. Let B = (&) be an n x n real matrix. Then B is said to be an M-matrix if and only if the off-diagonal elements are all nonpositive and the principal minors are all positive.
+Detine a matrix 2 = (&) for A such that
+
+c?ii = aii , a-ij = - 1a,$ I ,
+
+i == 1, 2,..., n, i#j.
+
+(3.19)
+
+Obviously, the off-diagonal elements of 2 are all nonpositive. By Definition 2, A has a positive dominant diagonal if and only if there is a positive vector -7r= (Trl , Trz,..a,.rr$ > 0 such that .&r > 0. This is equivalent to that A is an M-matrix [S]. Therefore, A has a positive dominant diagonal if and only if A is an M-matrix.
+On the other hand, if 2 is an M-matrix, then there is a positive definite diagonal matrix W such that W2i + ztW is positive definite [8].
+
+COROLLARY 1.1. Assume the existence of the nonnegative equilibrium point
+x* = A-lb for system (2.1). Then x* is stable if A has a positive dominant
+diagonal.
+
+STABILITY OF GENERALIZED VOLTERRA EQUATIONS
+
+459
+
+Proof. In the proof of Theorem 1, Eq. (3.16) is
+
+= - $ =vwi2
+
+- icl WiaiiZiZj i#j
+
+=- HI~1I,I~2 I,...I,x,I)(WA+JtW)/zzl”i , (3.20) i IinI1
+where 2 is defined by (3.19). A has a positive dominant diagonal if and only if A is an M-matrix. Therefore,
+there is a positive definite diagonal matrix W such that WJ + JtW is positive definite. So, the remainder can be proved similarly to the proof of Theorem 1.
+Q.E.D.
+By inequality (3.20), it is clear that, if A has a positive dominant diagonal, then there exists a positive definite diagonal matrix W such that WA + AtW is positive definite. Therefore, the condition given in Corollary 1.1 is sufficient for the condition given in Theorem 1 to hold.
+DEFINITION 4 [7]. Let B = (bij) be an n x n real matrix and u be an n-dimensional real vector. Then B is said to be a positive quasi-definite matrix if and only if the quadratic form utBu is positive definite.
+By definition 4, A is positive quasi-definite if and only if (A + At)/2 is positive definite. Therefore, if A is positive quasi-definite, then there is a positive definite diagonal matrix W (an 7t x 71unit matrx) such that WL4 + AtW is positive definite, so x* is stable.
+COROLLARY 1.2. Assume the existence of the nonnegative equilibrium point
+x* = A-lb for system (2.1). Then x* is stable if A is positive quasi-definite.
+Next, consider necessary conditions for the stability condition given in Theorem 1 to hold.
+DEFINITION 5 [7]. Let B =(bi3) be an n x 12real matrix. Then B is said to be a P-matrix if and only if the principal minors of B are all positive.
+4og/W-2
+
+460
+
+TAKEUCHI, ADACHI, AND TOKUMARU
+
+THEOREM 2. If there exists a positive definite diagonal matrix W such that WA + AtW is positiwe definite, then A is a P-matrix and the real parts of the eigenvalues of A are all positive.
+Proof. It is obvious by Lyapunov’s theorem that -A is stable, so the real parts of the eigenvalues of A are all positive.
+Further, if WA + AtW is positive definite, then the matrix WA is positive quasi-definite by Definition 4. If WA is positive quasi-definite, then the principal minors of WA are all positive, namely, WA is a P-matrix [7]. The principal minor of WA is equal to the product of the corresponding principal minors of A and W, since W is diagonal. Therefore, every principal minor of A is positive, that is, A is a P-matrix, since W is positive definite. This proves Theorem 2.
+Q.E.D.
+Conditions given in Theorem 1 and Corollaries 1.l and 1.2 are sufhcient for X* to be stable. The following theorem gives a necessary and sufficient condition.
+
+THEOREM 3. Let A of (2.1) be an n x n matrix with nonpositive ojf-diagonal
+
+elements, namely,
+
+off-diag A 2 0,
+
+(3.21)
+
+and assume the existence of the nonnegative equilibrium point x* = A-lb for (2.1). Then x* is stable if and only if the principal minors of A are all positive.
+The following lemma is used for the proof of the necessity.
+
+LEMMA 1. Consider the initial value problem of the autonomous system of an n-dimensional diSferentia1 equation;
+
+-gx =f(x),
+
+x(&J = x0.
+
+(J-J)
+
+Assume that there exists a nonempty subset D of R$, and a scalar function V(x) with a continuous Jirst derivative in 8 such that
+(1) the solution x(t) remains in the set Q u ES2fw any t 2 to if the initial value x0 E Q, where &Q is a boundary of Q,
+(2) V(x) > 0 and dV(x)/dt j(L.l) 3 0 in Q, (3) V(x) = 0 holds for only x = x*, where f (x*) = 0, (4) X*E asz.
+Then the equilibrium point x* is unstable.
+The proof of Lemma 1 is given in Appendix 2.
+Proof of Theorem 3. Suficiency.
+
+STABILITY OF GENERALIZED VOLTERRA EQIJATIOKS
+
+461
+
+Since A is an M-matrix, there is a positive definite diagonal matrix W such that WA + At W is positive definite. Therefore, x* is stable by Theorem I.
+
+Necessity.
+
+When off-diag A 5 0, A is an M-matrix if and only if there is a vector y g> 0 such that Aty > 0 [S]. By a theorem for a linear inequality (see Lemma 2 of Appendix 2), there is no vector z 2 0 such that Az 2 0 if and only if there is a vector y > 0 such that Ry > 0. Therefore, it is enough to prove that X* is unstable, if there is a vector z >, 0 such that Az 5 0. Choose a vector z as x -- x*, and it is sufficient to prove that x* is unstable, if there is a vector x - X* 3 0 such that A(x - x*) = AN - b 2 0.
+First consider condition (1) of Lemma 1. There is a nonempty set Sz = {X / b - Ax 2 0, .X > x*} by the assumption. Define a set Q, = {X i X 3 X*).
+By a transformation:
+
+y = m - x*,
+
+(3.22)
+
+system (2.1) and Q, are
+
+fy = -(x* + Y) AY, QlV = {Y I Y >, 01,
+
+(3.23)
+
+where Y = diag(y, , yz ,..., m), X* = diag(x,*, ~a*,..., x,*). For each i # j,
+
+= -Xi* f Uijyj
+
+20
+
+kl
+
+V,>O
+
+j#i
+
+holds, since aij < 0 for any i + j and Xi * > 0. Therefore, every trajectory y(t) of (3.23) initially in QI, remains in Sz,, for any t > to by Appendix 1, so every trajectory x(t) of (2.1) starting in s;), remains in iR, for any t > to .
+Next, define a set Q, = {x j b - Ax 1 O}. By a transformation:
+
+z=b--Ax,
+
+(3.24)
+
+system (2.1) and Sz, are
+
+$ x = AZA-l(z - b), Qn,, = (2 1x >=01,
+
+(3.25)
+
+462
+
+TAKEUCHI, ADACHI, AND TOKUMARU
+
+where Z = diag(z, , x2 ,..., z,). Every trajectory x(t) remains in a set J2,, , where
+
+Qsz= (z 1--A-l(x - b) h O} = {x 1x 2 O} = I?:!),
+
+(3.26)
+
+if the initial value x(tO) E Sz,, , since the solution x(t) starting in R$ remains in Ko * For every trajectory z(t) initially in G,, n Sz,, ,
+
+d xxi
+
+$.=()= a,VA-1(x
+
+-
+
+b) >/ 0 .q=o
+
+&O
+
+zjYJ
+
+(3.27)
+
+holds for each i # j, since aij < 0 for any i #j, where at = (CZARai,a ,..., ain). Theorefore, z(t) remains in Qn,, n J2s, , namely, every trajectory of (2.1) starting in Sz,n Sz, remains in Sz,19J2afor t > to .
+Accordingly, any trajectory of (2.1) initially in Gr n J2an !C?aremains in JIr n 52, n 52, for t > to. Since G, C G, , any trajectory remains in 9, n 9, (= Q). Th is shows condition (1) of Lemma 1.
+Define a scalar function:
+
+V(x) = f (Xi - xj*y
+j=l
+= (x - x*>t (x - x*>.
+
+(3.28)
+
+Then V(x) > 0 in Sz.The time derivative of V(x(t)) along a solution of (2.1) is
+
+$ vm>I(.1)= 2(x - x*)t X(b - Ax) 3 0 in 9.
+
+(3.29)
+
+Therefore, condition (2) of Lemma 1 holds. Obviously, conditions (3) and (4)
+
+of Lemma 1 hold. Accordingly, x* is unstable.
+
+Q.E.D.
+
+Let us consider a special type of system (2.1)
+
+d zxi
+
+It
+
+= -xi
+
+C aijxj ,
+j=l
+
+d xx=
+
+-XAx.
+
+i = 1, 2,..., n,
+
+(3.30)
+
+A scalar function V(x) corresponding to (3.13) is
+
+V(x) = i wixi ) i-l
+
+wi > 0,
+
+i = 1, 2,..., n,
+
+(3.31)
+
+STABILITY OF GENERALIZED VOLTERRA EQUATIONS
+
+463
+
+and the time derivative of V(x(t)) along a solution of (3.30) is
+
+Define a bounded and closed set 8 = (X 1x >=0, V(X) < L(x(t,))}, where
+
+444l)) 2 two)), &J 2 0. Therefore, it can be shown that Theorem 1 and Corollaries 1.1 and 1.2 give
+sufficient conditions for an equilibrium point x* = 0 of (3.30) to be stable with respect to the set R’$, .
+It is also obvious that Theorem 3 gives a necessary and sufficient condition for the equilibrium point x * = 0 of (3.30) to be stable.
+The following theorem shows that, if a matrix A, instead of A, satisfies the condition given in Theorem 1, then x* = 0 of (3.30) is stable. Here A” is defined
+
+bY
+
+iiii = ai, ,
+
+i =T 1, 2,... n,
+
+dij = min(aij , 0) for any i # j.
+
+(3.33)
+
+THEOREM 4. Let B = (&) be an n x n matrix defined by (3.33). Then the equilibrium point x* = 0 of (3.30) is stable, if there exists a positive definite diagonal matrix W such that a matrix
+
+WA + &w
+
+(3.34)
+
+is positive definite.
+
+Proof. The matrix A of (3.30) can be expressed as
+
+A=A+D,
+
+(3.35)
+
+D = (dij);
+
+dii = 0,
+
+dii = max(aij , 0)
+
+i = 1, 2,..., n, for any i # j,
+
+(3.36)
+
+by the definition of A. The time derivative of V(x(t)) defined by (3.31) along a solution of (3.30) is
+
+& f+(t)) I(3 3o) = - + x”( WA + At W) x =-- ; x”(WA + AiW) x - xtWDx.
+The right-hand side of (3.37) is nonpositive in a’, namely,
+
+(3.37)
+
+(3.38)
+
+464
+
+TAKEUCHI, ADACHI, AND TOKUMARU
+
+because A satisfies the assumption of the theorem and D is a nonnegative matrix
+
+(D > 0). The equality of (3.38) hoIds only for x = 0 in a. So, it can be proved
+
+similarly to the proof of Theorem 1 that x* = 0 is stable.
+
+Q.E.D.
+
+The sufficient condition given in Theorem 4 is equivalent to the condition “A is an M-matrix,” since the off-diagonal elements of A are all nonpositive. By a property of the M-matrix, this is equivalent to the condition, “the leading principal minors of A are all positive,” that is,
+
+M
+%I
+
+a- I2 a*. %
+
+der q,, f?22 ::’ f& > 0
+
+a.+.i,1 a..-i,
+
+* : 0-e aid
+
+for i = 1, 2,..., n.
+
+(3.39)
+
+A has a positive dominant diagonal if and only if there exists a positive vector m > 0 such that An > 0, since the off-diagonal elements of A are all nonpositive. So, A has a positive dominant diagonal if and only if A is an M-matrix. Therefore, the stability condition given in Theorem 4 is also equivalent to the condition “A has a positive dominant diagonal.”
+
+COROLLARY 4.1. Let A = (&) be an n x n matrix dejked by (3.33). Then the equilibrium point x* = 0 of (3.30) is stable, if the leading principal minors of A aye all positive, OYif A has a positive dominant diagonal.
+If A has a positive dominant diagonal, then A has a positive dominant diagonal, since A 2 A by the definition (3.33). Therefore, with regard to the stability of the equilibrium point x * = 0 of (3.30), sufficient conditions given in Theorem 4 and Corollary 4.1 include those given in Theorem 1 and Corollary 1.1.
+Further, if A is a positive quasi-definite matrix, the n x n unit matrix can be chosen for a positive definite diagonal matrix W such that WA + AtW is positive definite.
+COROLLARY 4.2. Let A = (&) be an n x n matrix defined by (3.33). Then the equilibrium point x* = 0 of (3.30) is stable, if A is a positive quasi:deJinite matrix.
+A necessary and sufficient condition for x* = 0 of (3.30) to be stable is not known yet, when the off-diagonal elements of A are not nonpositive. However, for the case of n = 2, the following theorem is obtained.
+
+THEOREM 5. Consider system (3.30) of n = 2. Then the equilibrium point x* = 0 of (3.30) is stable, if and only if
+(1) aii>O, i=l,2, (2) there exists a vector 5 = (& , [.# > 0 such that A[ > 0.
+
+STABILITY OF GENERALIZED VOLTERRA EQUATIONS
+
+465
+
+4. COMPARISON OF STABILITY CONDITIONS
+
+In this section, the stability conditions given in Theorem 1 and Corollaries 1.1 and 1.2 are compared with those given by MacArthur and Kilmer. Further, relations among sufficient conditions obtained in Section 3 are discussed.
+
+4.1. Relations to MacArthur’s and Kilmer’s Conditions
+MacArthur’s result can be stated as follows [2], “If A is positive definite, then the positive equilibrium point x* = A-9 (if it exists) of (2.1) is stable with respect to R,.n.” If A is positive definite, then the matrix A + At is also positive definite. Since a positive defmite diagonal matrix W such that WA + AtW is positive definite, can be chosen as a unit matrix, the condition given in Theorem 1 includes MacArthur’s condition. But the inverse is not true. Therefore, the stability condition given in Theorem 1 is less restrictive than the one given by MacArthur. The most important difference between them is that Theorem 1 does not require the symmetry of the matrix A.
+Kilmer showed the stability condition as follows [3]. “If A of (2.1) satisfies the following conditions:
+
+(1) aii > 0 for i = 1, 2,..., n,
+
+(4.1)
+
+(2) min I aii I > i i I aij I ,
+
+i
+
+j=li-1
+
+i+j
+
+(4.2)
+
+then the positive equilibrium point x* = A-% (if it exists) of (2.1) is stable with respect to R+n.”
+If these conditions are satisfied, then an inequality,
+
+(4.3) i = 1, 2 ,..., n,
+
+holds. This inequality implies that A has a positive dominant diagonal if conditions (4.1) and (4.2) are satisfied. Therefore, the stability condition given in Corollary 1.1 is less restrictive than the one given by Kilmer.
+The stability conditions obtained in Section 3 are not only for a positive equilibrium point x* = A-lb > 0 but also for a nonnegative equilibrium point x* = A-lb > 0 and their stability region R,= includes R+%of MacArthur and Kilmer.
+
+4.2. Relations of Stability Conditions
+Next, consider the relations among the conditions In Section 3, the following relations were obtained.
+
+provided
+
+in Section 3.
+
+466
+
+TAKEUCHI, ADACHI, AND TOKUMARU
+
+(1) If A is an M-matrix (Theorem 3), then A has a positive dominant diagonal (Corollary 1.1).
+(2) If A has a positive dominant diagonal (Corollary l.l), then there is a positive definite diagonal matrix W such that WA + AtW is positive definite (Theorem 1).
+
+The inverse of (1) is not true, since the off-diagonal elements of A which has a positive dominant diagonal are not necessarily nonpositive. The inverse of (2) also is not true. For example,
+
+1 1 1 A= 1 3 1 .
+( 0 2 1)
+
+Choose as
+
+W = diag(l,2, l),
+
+then
+
+WA+AtW=
+
+2 31 3 12 4 ( 142 1
+
+is positive definite. On the other hand, A defined by (3.19),
+
+is not an M-matrix. Therefore, A does not have a positive dominant diagonal. With respect to a positive quasi-definite matrix, the following relations were
+obtained in Section 3. (3) If A is positive quasi-definite (Corollary 1.2), then there exists a
+positive definite diagonal matrix W such that WA + AtW is positive definite (Theorem 1).
+(4) If A is positive quasi-definite (Corollary 1.2), then A is a P-matrix and the real parts of the eigenvalues of A are all positive (Theorem 2).
+If A is an M-matrix, then there exists a positive definite diagonal matrix W such that WA + At W is positive definite, but A is not necessarily a positive quasi-definite matrix. Therefore, the inverse of (3) also is not true. For example,
+is an M-matrix, but is not positive quasi-definite, since det 1A + At 1= 0. Similarly, if A is an M-matrix, then A is a P-matrix and -A is a stable matrix,
+
+STABILITY OF GENERALIZED VOLTERRA EQUATIONS
+
+467
+
+FIG. I. Relations of the stability conditions given in Section 3. “A =) B” means that condition A is included in condition B. See Section 4 for details.
+but A is not necessarily positive quasi-definite as can be seen in the above example.
+Accordingly, there are relations shown in Fig. 1 among the stability conditions provided in Section 3.
+If there exists a positive definite diagonal matrix W such that WA + AtW is positive definite, then A is a P-matrix and the real parts of the eigenvalues of A are all positive by Theorem 2. However, it has not been proved that it is also a sufficient condition for the existence of such a matrix W. However, when A is a 2 x 2 matrix, it can be shown that it is a necessary and sufficient condition. The 2 x 2 matrix A is a P-matrix if and only if
+a11> 0, az2> 0, (4.4)
+(711~22 - U&21 > 0.
+THEOREM6. Let A = (Q) be a 2 x 2 matrix. Xhen there exists a positive
+dejinite diagonal matrix W such that WA + At W is positive definite, if and on2.yif A is a P-matrix.
+Proof. Necessity is obvious by Theorem 2. Denote
+
+C = WA + AtW = (a,2;~;w;2 w a12w;a+&~1w2) .
+
+(4.5)
+
+12
+
+When u12# 0,
+
+det 1C 1= -a;2 (w, - 2aiiuaaa; %z"21 w2)2 + ‘k1%2kW%~
+12
+holds. Define
+
+- a12az1) w2
+
+Wl = 2%la22
+
+- a12fJ21 > 0 9
+
+a122"2
+
+then det 1C 1> 0, that is, C is positive definite, if conditions (4.4) are satisfied.
+
+468
+
+TAKEUCHI, ADACHI, AND TOKUMARU
+
+When ara = 0, aar # 0,
+
+det]Cl =--&(~~-~q)~+~w~
+
+21
+
+21
+
+holds. Define
+
+2%a22 w2=-3---
+a21w1
+
+> 0 >
+
+then det 1C 1> 0.
+
+When u12= aa = 0, wr and w2 are chosen arbitrarily, since det 1C 1=
+
+4a,,a,,w,w, > 0.
+
+Q.E.D.
+
+5. APPLICATIONS
+In this section, let us consider how the obtained stability conditions can be explained in the context of multispecies’ community models in biology.
+In population dynamics, a generalized Volterra equation (2.1) is interpreted as a model for the dynamics of species i (xi) in an n species’ interacting community. The first term (b,x,) of (2.1) represents the behavior of species i in the absence of others; b( may be positive, negative, or zero, corresponding to the sign of the difference in the rate of births over deaths. The quadratic terms (-Cj”=, atixis) of (2.1) imply interactions of species i with itself and other species. The diagonal elements of the matrix ---A = -(aii) describe the interactions with itself through the density dependence, so --aii is less than zero. This means the intraspecies’ competition for limited resources lumped in the evironment. The off-diagonal elements of --A express the interactions of the one species with others. When aii = -aji for i # j, the interaction with others is the relation of predator-prey; the species i lost (or gained) per unit time are equal to the j’s gained (or lost), which was studied by Aiken and Lapidus [4] and Goel et. al [5]. When apj = a5j 3 0 for i # j, it is the relation of competition, which was studied by MacArthur [2].
+In Section 3, Theorem 3 gives a necessary and sufficient condition for the nonnegative equilibrium point x * = A-lb of (2.1) to be stable. The premise “off-diag A I; 0” of Theorem 3 can be considered to mean that interactions among species are symbiotic. On the other hand, an M-matrix implies that the diagonal element of A is larger than the sum of absolute values of the offdiagonal elements in a certain sense. Therefore, the interpretation of Theorem 3 can be that the symbiotic community is stable if and only if the gain by symbiotic interactions is less than the loss by density dependences.
+No assumptions are made on the signs of the off-diagonal elements of A in Theorem 1 and Corollaries 1.1 and 1.2, so they give sufficient conditions for the
+
+STABILITY OF GENERALIZED VOLTERRA EQUATIONS
+
+469
+
+system with “mixed competitive predator-prey symbiotic” interactions among species to be stable.
+
+EXAMPLE. Let us consider a chain system which is shown in Fig. 2. For this chain system, the matrix A is
+
+A=
+
+Bl a2 Y3 0.
+
+0 I32 05 Y4 .
+
+o...
+
+.
+
+0 * * 0 AZ-2 ,o * * 0 0
+
+. 0 * 0
+. .() 1 %2--l Yn
+Al-1 “n
+
+(5.1
+
+n
+
+n-i
+8
+
+FIG. 2. A chain system used in Section 5. If species i either feeds on species j or eaten by j, a bond connects circles i and j. See Section 5 for details.
+
+470
+
+TAKEUCHI, ADACHI, AND TOKUMARU
+
+Assume that ai , /3i , and yi satisfy the following relations:
+
+ai > 0, i = 1, 2,..., n,
+
+BiYi+1 < 0, i = 1, 2,..., 12- 1.
+
+(5.2)
+
+If there exists a nonnegative equilibrium point x* = A-%, then (2.1) with the matrix A defined by (5.1) is
+
+& Xi = -xi(Bi-l(xi-l
+
+- xC1) + %CXi - %i*) + Yi+ltxi+l
+
+- xT+J>,
+
+i = 1, 2,..., n, (5.3) where /3s= yn+r = 0.
+Define the positive definite diagonal matrix Win order to satisfy the relations,
+
+that is,
+
+wiYi+l
+
++ wi+lPi
+
+= O,
+
+i = 1, 2,..., n - 1,
+
+= wi+l
+
+-(+Yi+l/Pi)
+
+wi > O, i = 1, 2,..., n - 1.
+
+Using these relations, We(; = 1,2,..., n) is determined as follows,
+
+(5.4) (5.5)
+
+i-l
+Wi = fl Aj > 0,
+j=O
+
+i = 1, 2,..., n,
+
+(5.6)
+
+where A, = 1, A, = -yj+Jpj > 0. If Wi is determined by (5.6), then
+
+WA + AtW = diag(w,ol, , wao1,s..,., w,ol,)
+
+(5.7)
+
+is positive definite, since oli > 0, wi > 0 for i = 1,2,..., n. Therefore, this chain system with A defined by (5.1) is stable by Theorem 1.
+
+6. CONCLUSIONS
+The stability of the system of the generalized Volterra equations, whose solutions are nonnegative for arbitrary nonnegative initial values, was considered.
+Using the extended stability theorem of LaSalle, it was shown that the nonnegative equilibrium point x * = A-9 is stable (if such an equilibrium point exists), if there exists a positive definite diagonal matrix W such that WA + AtW is positive definite (Theorem 1). This condition includes the stability conditions obtained by MacArthur and Kilmer.
+If the matrix A has a positive dominant diagonal (Corollary l.l), or if A is positive quasi-definite (Corollary 1.2), then A satisfies the condition given in Theorem 1.
+
+STABILITY OF GENERALIZED VOLTERR EQUATIONS
+
+471
+
+Further, when the off-diagonal elements of A are all nonpositive, x* = A-lb is stable if and only if the principal minors of A are all positive (Theorem 3).
+For the system described by only the quadratic terms, the equilibrium point x* = 0 is stable if the matrix A defined by (3.33), instead of A, satisfies conditions given in Theorem 1 and Corollaries 1.1 and 1.2 (Theorem 4 and Corollaries 4.1 and 4.2).
+In the last, relations among stability conditions were considered.
+
+APPENDIX 1
+THEOREM. Consider the initial wake problem of a system of an n-dimensional autonomous dzfferential equation,
+
+in J = [0, T], 0 < T < +KI. Assume that (1) there is a solution of (A.l) in J and it is uniquely determined, (2) x(0) = 7 > 0, (3) for any i = 1, 2 ,..., n, if xi = 0 and xj > 0 (j # i), then fi(x) > 0.
+Then the solutions of system (A.l) are all nonnegative. Proof. Consider the initial value problem,
+
+(A.2) 5(O) = 7 + 6,
+
+where E and 6 are positive vectors. Since x(t) is a solution of the initial value problem (A.1) which exists in J and is uniquely determined by the assumption (I), if / E 1, / 6 j are sufficiently small, then all the solutions e(t) of (A.2) exist in J. Further, e(t) converges to x(t) uniformly in J as c---f 0, S + 0 [9]. By assumptions (2), (3) and E > 0, 6 > 0,
+
+f(0) = r) + 6 > 0, f&f) + % > 0
+
+for & = 0, & > 0 (j # i).
+
+Therefore, all the solutions E(t) are positive in J. Since t(t) > 0 converges to
+
+x(t) as E-+ 0, 6 -+ 0, all the solutions x(t) are nonnegative in J. This proves the
+
+Theorem.
+
+Q.E.D.
+
+472
+
+TAKEUCHI, ADACHI, AND TOKUMARU
+
+APPENDIX 2
+
+LEMMA 1. Consider the initial value problem of the autonomous system of an n-dimensional diflerential equation,
+
+-g x =f(x),
+
+x(t,) = x0.
+
+(L.1)
+
+Assumethat there exists a nonempty subsetl2 of Rio and a scalar function V(x) with a continuous$rst derivative in Q such that
+(1) the solution x(t) remains in the set Q u al2 for any t > to if the initial vaZuex0 E Q, where aQ is a boundary of ii’,
+(2) V(x) > 0 and dV(x)/dt I(L.l) >, 0 in 52, (3) V(x) = 0 holds for onZy x = x*, where f (x*) = 0, (4) x*~arn.
+Then the equilibrium point x* is unstable.
+Proof. V(x(t)) is a nondecreasing function of t along a solution of system (L.l) since r(x)Iu.r) > 0 in Sz.There is a subset Gr = {x 1x EG, 0 < V(x) < L} of 52such that x* E aGr since V(x*) = 0 and V(x) > 0 in 9. Here, L is a positive constant number. Define a set J& = (x 1x E S2,V(x) > L) (that is, !Sr v fi, = Sz). Solutions of system (L.l) initialy in 9, remain in 9, U ai-2*since V(x) is nondecreasing along solutions and they remain in 52U aJ2.Therefore, they never approach a boundary point x* of Sz,, since Sz,v ?X2,$ x*. This proves Lemma 1.
+Q.E.D.
+LEMMA 2. Let A be p x n matrix. Then
+(1) there exists a solution x E Rn such that Ax 5 0, x > 0, or (2) there exists a solution y E RP such that Aty > 0, y > 0,
+but both do not hold simultaneously.
+Proof. Tucker’s theorem for linear inequalities can be stated as follows [lo]. “Let B, C, and D be pr x it, p2 x n, p3 x n matrices, and B not a zero matrix. Then
+(1) there exists a solution x E Rn such that Bx 3 0, Cx 2 0, Dx = 0, or (2) there exist solutions y2 E Rp’, y3 E RPa,and y4 E RPSsuch that Bty2 + Cty,+Dty,=0,y2>Oandy3Z0,
+but both do not hold simultaneously.”
+
+STABILITY OF GENERALIZED VOLTERRA EQUATIONS
+
+473
+
+Let B = (&) be an n x n unit matrix, C = --A be a p x n matrix, and
+D = 0 be a zero matrix, and Propositions (l), (2) of Tucker’s theorem can be
+stated as follows:
+
+(1)’ There exists a solution x E R" such that x > 0, Ax 5 0. (2)’ There exist solutions ya E Rn, y3 E Rp such that ya - A”y, = 0,
+yz > 0, and ya I 0.
+
+Since A”y, = y2 > 0, Proposition (2)’ is equivalent to
+
+(2)” there exists a solution ya E Rp such that Aty, > 0, ya 2 0.
+
+It is obvious that if ya = 0, then Atys = 0, so (2)” is equivalent to (2)“’ there
+
+exists a solution ya E Rp such that Ny, > 0, ya >, 0.
+
+This proves Lemma 2.
+
+Q.E.D.
+
+REFERENCES
+1. J. CRONIN, Periodic solution in n dimensions and Volterra equations, J. Differential Equations 19 (1975), 21-35.
+2. R. MACARTHUR, Species packing and competitive equilibrium for many species, Theor. Pop. Biol. 1 (1970), l-11.
+3. W. L. KILMER, On some realistic constrains in prey-predator mathematics, I: Theor. Biol. 36 (1972), 9-22.
+4. R. C. AIKEN AND L. LAPIDUS, The stability of interacting populations, Internat. J. System Sci. 4, No. 4 (1973), 691-695.
+5. N. S. GOEL, S. C. MAITRA, AND E. W. MONTROL, On the Volterra and other nonlinear models of interacting populations, Rev. Modern Phys. 43, No. 2, Part 1 (1971), 23 l-276.
+6. J. P. LASALLE, Some extensions of Liapunov’s second method, IIRE Trans. Circuit Theory CT-7 (1960), 52@-527.
+7. H. NIKAIDO, “Convex Structure and Economic Theory,” Academic Press, New York/ London, 1968.
+8. M. ARAKI AND B. KONDO, Stability and transient behavior of composite nonlinear systems, IEEE Trans. Automatic Control AC-18 (1972), 537-541.
+9. W. WALTER, “Differential and Integral Inequalities,” Springer-Verlag, Berlin/ Heidelberg/New York, 1970.
+10. 0. L. MANCASARIAN, “Nonlinear Programming,” McGraw-Hill, New York, 1969.
+

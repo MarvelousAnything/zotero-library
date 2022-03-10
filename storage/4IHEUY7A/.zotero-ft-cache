@@ -1,0 +1,459 @@
+
+JavaScript is disabled on your browser. Please enable JavaScript to use all the features on this page. Skip to main content Skip to article
+Elsevier logo ScienceDirect
+
+    Journals & Books 
+
+Owen Hayes
+
+    View  PDF
+    Download full issue 
+
+Outline
+
+    Highlights
+    Abstract
+    Keywords
+    1. Introduction
+    2. Models and equilibria
+    3. Analysis of equilibria for Model I on the line L K
+    4. Turing instability and the zip bifurcation for Model II
+    5. Discussion
+    Acknowledgments
+    Appendix.
+    References 
+
+Figures (4)
+
+    Fig. 1. Graphs of: (a) Aj, (b) Bj, (c) Cj and (d) AjBj−Cj, as functions of μj
+    Fig. 2. Graphs of: (a) Aj, (b) Bj, (c) Cj and (d) AjBj−Cj, as functions of μj
+    Fig. 3. Graphs of: (a) Aj, (b) Bj and (c) Cj, as functions of μj
+    Fig. 4. Graphs of: (a) Aj, (b) Bj and (c) Cj, as functions of μj
+
+Elsevier
+Physica D: Nonlinear Phenomena
+Volume 400 , 15 December 2019, 132141
+Physica D: Nonlinear Phenomena
+Stability analysis of predator–prey models involving cross-diffusion
+Author links open overlay panel Jocirei D. Ferreira a Severino Horácio da Silva b V. Sree Hari Rao c
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.physd.2019.06.007 Get rights and content
+Highlights
+
+•
+
+    Models with two predators competing for a prey involving cross-diffusion are developed.
+•
+
+    Cross-diffusion accounts predators’ migratory strategies and prey’s defense switching.
+•
+
+    The models possess a continuum of equilibria unlike as in models of many real world applications.
+•
+
+    The analysis reveals occurrence of unsustainable zip bifurcation as Turing instability emerges.
+•
+
+    As switching migratory efforts are not instantaneous models involving delays have been included.
+
+Abstract
+
+In this paper we have considered a three dimensional system of partial differential equations to model the dynamical interactions of two predators competing for a single prey. The model is developed by introducing cross diffusion in such a way as to take into account the migratory strategy adopted by the predators, who take advantage of the defense switching behavior of the prey. Equilibria of the model are determined and a local stability analysis is discussed. The main result presented here is that for certain range of values of the cross diffusion parameters, the system has a continuum of equilibria and a zip-type bifurcation occurs and this is not sustainable due to the emergence of Turing type instability.
+
+    Previous article in issue
+    Next article in issue 
+
+Keywords
+Cross-diffusion system
+Turing instability
+Zip bifurcation
+Predator–prey system
+1. Introduction
+
+Spatial ecology addresses the fundamental effects of space on the dynamics of individual species and on the structure, dynamics, diversity, and stability of multi species communities. Essentially, this subject is designed to highlight the importance of space in the areas of stability, patterns of diversity, invasions, coexistence, and pattern generation. The mathematical formulation of the ideas dealing with the spacial aspect of species leads to reaction–diffusion models. Reaction–diffusion systems have attracted much attention as prototype models for pattern formation. The above-mentioned patterns (fronts, spirals , targets, hexagons, stripes, and dissipative solitons) may be found in various types of reaction–diffusion systems in spite of large discrepancies in the local reaction terms. It has also been argued that reaction–diffusion processes are an essential basis for those connected with animal coats and skin pigmentation  [1] , [2] . Another reason for the interest in reaction–diffusion systems is that although they represent nonlinear partial differential equations , often there exists scope for analytical treatment.
+
+All beings, including different kinds of populations live in a spatial world and it is a natural phenomenon that a substance goes from high-density regions to low-density regions. As a result, more and more scholars use spatial artifacts to model the interactions between the prey and the predator species . In a natural setting when populations diffuse/migrate from one environment to another, they are often subject to unfavorable conditions. Naturally, predation will obligate the individuals of populations to follow defense strategies as, for example, to diffuse in the direction of lower concentrations of its predators. As a consequence, the predators also will develop some strategies to take advantage of the defense switching of the prey, looking at the migration of the prey and diffusing in that direction. In general, the escape velocity of the prey may be taken as proportional to the dispersive velocity of the predators. Also, the tendency of predators would be to get closer to the prey and thus the chase velocity of predators may be considered to be proportional to the dispersive velocity of the prey. This phenomenon is known as cross-diffusion [3] . As the predators cross diffuse, and the preys switch their defense, we might expect such an ecosystem to exhibit a rich dynamical interplay among the three species.
+
+In this paper, we study an ecosystem consisting of two predators competing for one single prey. In such a system, we might expect the prey to develop two separate sets of defensive capabilities, one effective against each of the predators, and would switch from one set to the other depending on the relative abundance of the two predator species. Such defense switching behavior has been described, for example, for a fish species in the Lake Tanganyika against two phenotypes of the scale-eating cichlid P. microlepis  [4] . On the other hand, we might also expect the predators to develop migratory strategies to take advantage of the defense switching behavior of the prey. In the present work this is indeed the case. The purpose of this paper is to investigate such a migration which involves cross-diffusion process. In particular, we will demonstrate the emergence of Turing instability . For a detailed discussion and examples on cross-diffusion models describing real world phenomena, we refer the readers to  [1] , [2] , [3] , [5] , [6] , [7] , [8] , [9] .
+
+Turing instability  [8] refers to “diffusion-driven instability”, in the sense that the stationary solution stays stable with respect to a kinetic system (a system without diffusion) but becomes unstable with respect to the system with diffusion. This phenomenon is interesting because the general experience is that diffusion is a uniform phenomenon that helps stability by evening out differences, and now the opposite happens, and it is also of interest because Turing instability may go together with the occurrence of a spatially non constant stationary solution, which is called a pattern .
+
+In a recent study on a model describing the interactions of two predator species competing for one prey  [10] , [11] , under certain natural assumptions, it has been observed that the model system admits a one dimensional continuum of equilibria leading to, what is described as a zip bifurcation phenomenon. In this model, a predator that has relatively low growth rate and survives at low carrying capacity K is identified as a k -strategist while the other predator that exhibits high growth rate is identified as an r -strategist. The model is not structurally stable however, it serves as an illustration to the intuitively evident fact that at low values of the carrying capacity K , both predators might survive but as K grows the k -strategist loses ground and only the r -strategist may survive with the prey. Subsequently a whole class of models that showed the zip phenomenon are proposed and are analyzed in the literature (see  [12] , [13] , [14] , [15] , [16] , [17] , [18] ). Interestingly enough, in all the above studies, the zip bifurcation is sustainable even in the presence of self diffusion.
+
+This paper is organized as follows. In Section  2 we present the Models I and II and determine the equilibria. The analysis of equilibria for Model I is carried in Section  3 , while Section  4 deals with Turing instability and zip bifurcation for the cross diffusion Model II. A discussion follows in Section  5 .
+2. Models and equilibria
+
+Consider the following ODE system  [10] (1) S ̇ = γ ( 1 − S K ) S − m 1 S a 1 + S u 1 − m 2 S a 2 + S u 2 u 1 ̇ = m 1 S a 1 + S u 1 − d 1 u 1 u 2 ̇ = m 2 S a 2 + S u 2 − d 2 u 2 , in which u = ( S , u 1 , u 2 ) and S is the population density of the prey, and u i ,    i = 1 , 2 , are the population densities of two predators competing for the prey. In this model, K > 0 denotes the carrying capacity of the environment with respect to the prey, γ > 0 is the intrinsic growth rate of the prey, m i , d i , a i are non negative parameters and represent the maximum birth rate, the death rate and the “half saturation constant”, respectively, of the i th predator.
+
+Apart from the trivial equilibrium solutions ( S , u 1 , u 2 ) = ( 0 , 0 , 0 ) and ( S , u 1 , u 2 ) = ( K , 0 , 0 ) , system (1) has biologically interesting equilibria only if m i > d i and λ = λ 1 = λ 2 , where λ i = a i d i m i − d i is the prey quantity threshold for predators i = 1 , 2 . Thus, it follows that “non-trivial” equilibrium points of (1) belong to the straight line segment (2) L K = { ( S , u 1 , u 2 ) ∈ R 3 ; S = λ , u 1 ≥ 0 , u 2 ≥ 0 and m 1 S a 1 + S u 1 + m 2 S a 2 + S u 2 = γ ( 1 − λ K ) } in the positive octant of the S , u 1 , u 2 -space, which will be denoted by u ∗ = ( λ , ξ 1 , ξ 2 ) . Hence u ∗ ∈ L K .
+
+It is easy to see that the trivial equilibria ( 0 , 0 , 0 ) and ( K , 0 , 0 ) are unstable provided 0 < λ < K (see [10] for details). It is clear that all equilibria on L K are stable for all K that satisfy the inequality λ < K ≤ a 2 + 2 λ . This means that if food is scarce both the r and k -strategists may live together in the long run in a steady state that depends on the initial values of the species. When a 2 + 2 λ < K < a 1 + 2 λ (i.e., when a 1 > a 2 ) the family of equilibria on the line L K undergoes a split and a part of L K is unstable; that is, there exists a point ( λ , ξ 1 ( K ) , ξ 2 ( K ) ) on L K such that the equilibria on L U = { ( λ , ξ 1 , ξ 2 ) ∈ L K : ξ 1 < ξ 1 ( K ) } are unstable for the flow of (13) and the equilibria on L S = { ( λ , ξ 1 , ξ 2 ) ∈ L K : ξ 1 > ξ 1 ( K ) } are stable. The point ( ξ 1 ( K ) , ξ 2 ( K ) ) is obtained by solving the system (3) m 1 ξ 1 a 1 + λ + m 2 ξ 2 a 2 + λ = γ ( K − λ ) K m 1 ξ 1 ( a 1 + λ ) 2 + m 2 ξ 2 ( a 2 + λ ) 2 = γ K . As K takes on the value a 1 + 2 λ the equilibrium that exists in ( S , u 1 )-plane is stable while all other equilibria on L K lose stability. When K > a 1 + 2 λ all equilibria on L K become unstable.
+
+Note that as K increases from a 2 + 2 λ to a 1 + 2 λ the point ( λ , ξ 1 ( K ) , ξ 2 ( K ) ) moves along L K continuously from ( λ , 0 , ξ 2 ( K ) ) to ( λ , ξ 1 ( K ) , 0 ) so that the points left behind become unstable. This phenomenon has been termed as zip bifurcation (see  [10] , [19] ). From the point of view of the competition, as the quantity of available food increases the K -strategist loses ground and those equilibria where the relative growth of K -strategist is high compared to the growth of r -strategist, are the first to be destabilized. When K reaches the value a 1 + 2 λ all interior equilibria become destabilized and the only stable equilibrium remaining is the endpoint of L in the ( S , u 1 ) - plane. This means that at this value of the carrying capacity the K -strategist dies out. One may prove that if K is increased further then even the equilibrium in the ( S , u 1 ) - plane gets destabilized but the prey and the r -strategist continue to coexist in a periodic manner due to the occurrence of Andronov–Hopf bifurcation. For a complete discussion of the zip bifurcation phenomenon we refer the readers to  [10] , [11] , [19] , [20] .
+
+It is worth noting that in  [18] the authors incorporated discrete delay and self-diffusion on model (1) . They showed that the zip bifurcation is “unsustainable” for certain ranges of values of the time-delay parameter. Also, for the delay reaction–diffusion model, they showed that the zip bifurcation remains unsustainable. The results obtained in  [18] are surprising, since the zip phenomenon is sustainable in the whole class of models studied previously. Furthermore, the dynamic interaction described by the models studied in  [18] is highly desirable, as it will facilitate coexistence among the species. We also observe that time delay and cross-diffusion are not incorporated yet in model (1) .
+
+Our interest in this work is to consider a modified version of the system (1) that models the spatial segregation phenomena of the competing species. It is important to observe that the proposed system connects two particular cases depending on the values of the parameters: the coupled system of partial differential equations describes spatial segregation phenomena of the competing species connecting self-diffusion and cross-diffusion. The main result presented herein is that for certain range of values of the cross-diffusion parameter, a zip-type bifurcation may not sustain for the cross-diffusion model due to the emergence of Turing instability. Accordingly, we consider the system (4) − d i v ( k ( u ) ∇ u ) = G ( u )  in  Ω . where Ω ⊂ R N ( N ≥ 1 ) is an open connected bounded domain with smooth boundary ∂ Ω . Eq.  (4) is equivalent to the following system of equations (5) − d i v ( k ( u ) ∇ u ) = ∇ . ( k 11 ∇ S + k 12 ∇ u 1 + k 13 ∇ u 2 ) ∇ . ( k 21 ∇ S + k 22 ∇ u 1 + k 23 ∇ u 2 ) ∇ . ( k 31 ∇ S + k 32 ∇ u 1 + k 33 ∇ u 2 ) = γ ( 1 − S K ) S − m 1 S a 1 + S u 1 − m 2 S a 2 + S u 2 m 1 S a 2 + S u 1 − d 1 u 1 m 2 S a 2 + S u 2 − d 2 u 2 , where k i j = k i j ( u ) ,   u = ( S , u 1 , u 2 ) ,   i , j = 1 , 2 , 3 . We will assume that the functions S and u i satisfy the Neumann boundary conditions (6) ∂ S ∂ ν ( x , t ) = 0 , ∂ u i ∂ ν ( x , t ) = 0 , i = 1 , 2 ,  on  ∂ Ω × [ 0 , ∞ ) , where ν = ν → ( x ) denotes the outer unit normal to ∂ Ω . The function G ( u ) is defined as G ( u ) = ( γ ( 1 − S K ) S − m 1 S a 1 + S u 1 − m 2 S a 2 + S u 2 , m 1 S a 2 + S u 1 − d 1 u 1 , m 2 S a 2 + S u 2 − d 2 u 2 ) and k ( u ) = ( k i j ( u ) ) 3 × 3  is a 3 × 3 matrix. In general ( [3] , p. 300), the diffusion coefficients may be positive, negative or zero. In the present model, we assume that these coefficients k i j ( u ) satisfy (7) k 11 , k 22 , k 33 > 0 , k 12 , k 13 ≥ 0 and k 21 , k 23 , k 31 , k 32 ≤ 0 . The variables and parameters in (4) have the same meaning as in the model (1) .
+
+In the model (4) , J 0 = − k 11 ( u ) ∇ S − k 12 ( u ) ∇ u 1 − k 13 ( u ) ∇ u 2 ,   J 1 = − k 21 ( u ) ∇ S − k 22 ( u ) ∇ u 1 − k 23 ( u ) ∇ u 2  and   J 2 = − k 31 ( u ) ∇ S − k 32 ( u ) ∇ u 1 − k 33 ( u ) ∇ u 2  indicate the population fluxes of S , u 1 and u 2 , respectively, where the terms k 11 ( u ) , k 22 ( u ) and k 33 ( u ) represent the “self-diffusion” while the terms k i j ( u ) , i ≠ j , correspond to the “cross-diffusion” .
+
+The conditions k 1 j ( u ) ≥ 0 , j = 2 , 3 , imply that the part − k 12 ( u ) ∇ u 1 − k 13 ( u ) ∇ u 2 of the flux of S is directed towards decreasing population density of u j , that is, the prey S runs away from the predators. On the other hand, the conditions k 2 j ( u ) ≤ 0 , j = 1 , 3 , imply that the part − k 21 ( u ) ∇ S − k 23 ( u ) ∇ u 2 of the flux of u 1 is directed towards the increasing population density of S and u 2 , which means that the predator u 1 moves in anticipation of the predator u 2 and of the defense switching behavior of the prey S , that is, u 1 chases the prey. Analogously, the conditions k 3 j ( u ) ≤ 0 , j = 1 , 2 , imply that the part − k 31 ( u ) ∇ S − k 32 ( u ) ∇ u 1 of the flux of u 2 is directed towards increasing population density of S and u 1 , which means that the predator u 2 moves in anticipation of the predator u 1 and of the defense switching behavior of the prey S , that is, u 2 chases the prey. A more detailed discussion may be found in [3] , [21] . Thus, in order to discuss the diffusion-driven instability considering the strategy adopted by the predators taking advantage of the defense switching behavior of the prey, we will introduce a cross-diffusion among the species in the model (1) . Noting that the relationship between the two predators in (1) is competitive, we shall introduce the cross-diffusion terms as follows:
+
+Model I: (8) − d i v ( δ 0 ∇ S ) = γ ( 1 − S K ) S − m 1 S a 1 + S u 1 − m 2 S a 2 + S u 2 − d i v [ ( δ 1 + k 1 a 1 + u 2 ) ∇ u 1 − k 1 u 1 ( a 1 + u 2 ) 2 ∇ u 2 ] = ( m 1 S a 1 + S − d 1 ) u 1 − d i v [ ( δ 2 + k 2 a 2 + u 1 ) ∇ u 2 − k 2 u 2 ( a 2 + u 1 ) 2 ∇ u 1 ] = ( m 2 S a 2 + S − d 2 ) u 2  on  Ω × [ 0 , ∞ ) with Neumann boundary conditions (9) ∂ S ∂ ν ( x , t ) = 0 , ∂ u i ∂ ν ( x , t ) = 0 , i = 1 , 2 ,  on  ∂ Ω × [ 0 , ∞ ) .
+
+Remark 1
+
+In the system (8) , k 1 and k 2 denote the cross-diffusion coefficients . The predators u 1 ,  and   u 2 diffuse with flux J 1 = − ( δ 1 + k 1 a 1 + u 2 ) ∇ u 1 + k 1 u 1 ( a 1 + u 2 ) 2 ∇ u 2 . We observe that, as k 1 u 1 ( a 1 + u 2 ) 2 ≥ 0 , the part k 1 u 1 ( a 1 + u 2 ) 2 ∇ u 2 of the flux of u 1 is directed towards the increasing population density of the predator u 2 . In this way, the first predator moves in anticipation of the predator u 2 and of the defense switching behavior of the prey. Similarly, we can observe that the flux of u 2 is directed towards the increasing population density of the predator u 1 so that the second predator also moves in anticipation of predator u 1 and of the defense switching behavior of the prey, which shows the competition between the two predators.
+
+As a starting point in this exposition, we consider the one dimensional form of the system (8) – (9) by letting Ω = [ 0 , l ] , l a fixed constant. Accordingly, the corresponding system assumes the form given by (10) S t = δ 0 Δ S + γ ( 1 − S K ) S − m 1 S a 1 + S u 1 − m 2 S a 2 + S u 2 u 1 t = Δ ( δ 1 u 1 + k 1 u 1 a 1 + u 2 ) + ( m 1 S a 1 + S − d 1 ) u 1 u 2 t = Δ ( δ 2 u 2 + k 2 u 2 a 2 + u 1 ) + ( m 2 S a 2 + S − d 2 ) u 2 , S x = u 1 x = u 2 x = 0 , on [ 0 , l ] × [ 0 , ∞ ) . or equivalently (11) u t = K ( u ) u x x + F ( u , u x ) , u x = 0 , on [ 0 , l ] × [ 0 , ∞ ) . where    [ 0 , l ] ⊂ R is an interval of R with l ∈ R + , u x = ( S x , u 1 x , u 2 x ) T , u x x = ( S x x , u 1 x x , u 2 x x ) T ,    K ( u ) = δ 0 0 0 0 δ 1 + k 1 a 1 + u 2 − k 1 u 1 ( a 1 + u 2 ) 2 0 − k 2 u 2 ( a 2 + u 1 ) 2 δ 2 + k 2 a 2 + u 1 , F ( u , u x ) = ( γ ( 1 − S K ) S − m 1 S a 1 + S u 1 − m 2 S a 2 + S u 2 , m 1 S a 1 + S u 1 − d 1 u 1 + 2 k 1 u 1 ( a 1 + u 2 ) 3 ∇ u 2 2 − 2 k 1 ( a 1 + u 2 ) 2 ∇ u 1 ∇ u 2 , m 2 S a 2 + S u 2 − d 2 u 2 + 2 k 2 u 2 ( a 2 + u 1 ) 3 ∇ u 1 2 − 2 k 2 ( a 2 + u 1 ) 2 ∇ u 1 ∇ u 2 ) , and Δ = ∑ j = 1 N ∂ ∂ x j is the Laplacian operator .
+
+Model II:
+
+Keeping Ω = [ 0 , l ] and l fixed, we also consider a study of the one dimensional form of the system (5) – (6) . The corresponding system is given by (12) S t = Δ ( k 11 S + k 12 u 1 + k 13 u 2 ) + γ ( 1 − S K ) S − m 1 S a 1 + S u 1 − m 2 S a 2 + S u 2 u 1 t = Δ ( k 21 S + k 22 u 1 + k 23 u 2 ) + ( m 1 S a 1 + S − d 1 ) u 1 u 2 t = Δ ( k 31 S + k 32 u 1 + k 33 u 2 ) + ( m 2 S a 2 + S − d 2 ) u 2 , S x = u 1 x = u 2 x = 0 , on [ 0 , l ] × [ 0 , ∞ ) , where k i j ,   i , j = 1 , 2 , 3 are constants.
+
+We notice that the equilibria for Models I and II are ( S , u 1 , u 2 ) = ( 0 , 0 , 0 ) , ( S , u 1 , u 2 ) = ( K , 0 , 0 ) and those described in Eq.  (2) .
+
+Remark 2
+
+The corresponding system associated with the system (5) was considered in  [17] when k i , j ≠ 0 for i = j and k i , j = 0 for i ≠ j . The results obtained in  [17] suggest that, if there is no cross-diffusion included in system (1) , then diffusion-driven instability can not happen and the zip bifurcation phenomenon is sustainable regardless of the self diffusion coefficients. The maim aim of this paper is to show that the zip bifurcation is sustainable for system (10) and that diffusion-driven instability emerges for system (12) . We also establish that the conditions k 11 , k 22 , k 33 , k 12 , k 13 > 0 and k 21 , k 31 , k 23 , k 32 < 0 , are sufficient for the occurrence of the diffusion-driven instability for system (12) .
+
+3. Analysis of equilibria for Model I on the line L K
+
+In the following, we consider the cross-diffusion model (10) and determine the stability properties of the equilibria u ∗ = ( λ , ξ 1 , ξ 2 ) . Observe that K ( u ∗ ) = δ 0 0 0 0 δ 1 + k 1 a 1 + ξ 2 − k 1 ξ 1 ( a 1 + ξ 2 ) 2 0 − k 2 ξ 2 ( a 2 + ξ 1 ) 2 δ 2 + k 2 a 2 + ξ 1 and F u ( u ∗ , 0 ) = G u ( u ∗ ) = − γ λ K + λ ∑ i = 1 2 m i ( a i + λ ) 2 ξ i − m 1 λ a 1 + λ − m 2 λ a 2 + λ β 1 ξ 1 a 1 + λ 0 0 β 2 ξ 2 a 2 + λ 0 0 , where β i = m i − d i since λ = a i d i m i − d i , i = 1 , 2 . Hence, the linearized system of (11) at u ∗ is given by (13) ψ t = K ( u ∗ ) ψ x x + G u ( u ∗ ) ψ , 0 < x < l , t ≥ 0 ψ x = 0 , x = 0 , l , t ≥ 0 , where ψ = ( ψ 1 , ψ 2 , ψ 3 ) T .
+
+Let 0 = μ 0 < μ 1 < μ 2 < ⋯ → ∞ and { ϕ j } j = 0 ∞ be the eigenvalues and eigenfunctions of the Laplacian operator in ( 0 , l ) with Neumann boundary, i.e., : (14) ϕ j ′ ′ ( x ) = μ j ϕ j ( x )  on  ( 0 , l ) , ϕ j ′ ( x ) = 0  at  x = 0 , l , where   μ j = j 2 π 2 l 2 ,   j = 0 , 1 , 2 , … . We can assume that { ϕ j } j = 0 ∞ is an orthonormal basis of L 2 ( Ω ) .
+
+So, the solution of (13) with initial condition u ( ⋅ , 0 ) = u 0 is given by (15) u ( x , t ) = ∑ k = 0 ∞ e ( G u ( u ∗ ) − μ j K ( u ∗ ) ) t 〈 u 0 , ϕ k 〉 ϕ k ( x ) , where 〈 u 0 , ϕ j 〉 = ∫ 0 l u 0 ( x ) ϕ j ( x ) d x .
+
+It follows from the linearization principle that a ‘non-trivial’ homogeneous solution of (11) is asymptotically stable if the eigenvalues of the matrix G u ( u ∗ ) − μ j K ( u ∗ ) have negative real parts ; if there exists a k ≥ 1 such that G u ( u ∗ ) − μ j K ( u ∗ ) has an eigenvalue with positive real part then the solution is unstable. Note that for μ 0 = 0 the matrix G u ( u ∗ ) has zero as an eigenvalue of multiplicity 1 and two eigenvalues with positive (resp. negative) real part according as (16) m 1 ξ 1 ( a 1 + λ ) 2 + m 2 ξ 2 ( a 2 + λ ) 2 > γ K  or  < γ K .
+
+The following result is an immediate consequence of this note.
+
+Proposition 1
+
+If K > a 1 + 2 λ , then all equilibria on L K are unstable.
+
+Now, if u ∗ is an unstable equilibrium for the flow of (1) then u ∗ is also an unstable homogeneous equilibrium for the flow of (11) , since the subspace of the functions independent of x is invariant for the flow of (11) . The next theorem shows that if u ∗ is stable for the flow of (1) then u ∗ may not be stable for the flow of (11) .
+
+To simplify the computations, we introduce the notations a = λ ∑ i = 1 2 m i ξ i ( a i + λ ) 2 − γ λ K , b = β 1 ξ 1 a 1 + λ , c = β 2 ξ 2 a 2 + λ , d = − m 1 λ a 1 + λ , e = − m 2 λ a 2 + λ , f = μ j k 2 ξ 2 ( a 2 + ξ 1 ) 2 , g = μ j k 1 ξ 1 ( a 1 + ξ 2 ) 2 .
+
+The following result presents the conditions under which the PDE system (11) and its corresponding ODE system (1) share the same stability behavior.
+
+Theorem 1
+
+Suppose that u ∗ is an equilibrium of (11) independent of x . If u ∗ is stable for the flow of (1) , then u ∗ will be stable for the flow of (11) .
+
+Proof
+
+Let u ∗ = ( λ , ξ 1 , ξ 2 ) be an equilibrium of (11) independent of x . The hypothesis that u ∗ is stable for (1) is equivalent to (17) m 1 ξ 1 ( a 1 + λ ) 2 + m 2 ξ 2 ( a 2 + λ ) 2 < γ K so that the condition  (17) implies that a < 0 .
+
+We denote by P k ( ν ) the characteristic polynomial of G u ( u ∗ ) − μ j K ( u ∗ ) . For each k ≥ 0 , the eigenvalues of G u − μ j K are the roots of the polynomial (18) P j ( ν ) = ν 3 + A j ν 2 + B j ν + C j , The complete expressions for A j , B j and C j are presented in Item 1, Appendix .
+
+Since a < 0 , we have A j > 0 , B j > 0 and C j > 0 , for all j ≥ 1 . At j = 0 , the polynomial P 0 ( ν ) = ν 3 − a ν 2 + h ν , where h = β 1 ξ 1 m 1 λ ( a 1 + λ ) 2 + β 2 ξ 2 m 2 λ ( a 2 + λ ) 2 , has zero as a single eigenvalue and two complex conjugates with negative real parts. We claim that, for any j ≥ 1 , all eigenvalues of G u ( u ∗ ) − μ j K ( u ∗ ) have negative real parts. This will follow from Routh–Hurwitz’s criterion if we show that A j B j > C j , for any j ≥ 1 . To prove this, some tedious calculations were carried out using MAPLE 13, as follows. We consider the function A j B j − C j = ( A j B j − C j ) ( μ j ) whose expression is presented in Item 2, Appendix , where μ j > 0 for any j ≥ 1 . Since a < 0 , the graphs of the function ( A j B j − C j ) ( μ j ) intersect the ordinate axis at a positive point and it is strictly increasing for μ j ≥ 0 . In fact, the derivative of ( A j B j − C j ) ( μ j ) with respect to μ j is a quadratic function whose graph is a parabola concave upwards since (19) E = ( δ 1 + k 1 a 1 + ξ 2 + δ 2 + k 2 a 2 + ξ 1 + δ 0 ) [ ( δ 1 + k 1 a 1 + ξ 2 ) ( δ 2 + k 2 a 2 + ξ 1 ) + ( δ 1 + k 1 a 1 + ξ 2 ) δ 0 + ( δ 2 + k 2 a 2 + ξ 1 ) δ 0 − k 2 ξ 2 k 1 ξ 1 ( a 2 + ξ 1 ) 2 ( a 1 + ξ 2 ) 2 ] − ( δ 1 + k 1 a 1 + ξ 2 ) ( δ 2 + k 2 a 2 + ξ 1 ) δ 0 + k 2 ξ 2 k 1 ξ 1 δ 0 ( a 2 + ξ 1 ) 2 ( a 1 + ξ 2 ) 2 > 0 (see Item 3, Appendix ).
+
+Furthermore, the parabola intersects the ordinate axes at a positive point (see Item 4, Appendix ). Hence, u ∗ is stable due to the Routh–Hurwitz’s criterion, the Rouché’s Theorem and the results of Henry  [22] p. 108, as in  [17] (see Theorem 4.3, p. 51). □
+
+Theorem 1 may be viewed as a result on the preservation of stability under self-diffusion for prey population and cross-diffusion for both predator populations for Model I. As a consequence, if λ < K < a 2 + 2 λ , the line of equilibrium points L K of (1) is locally asymptotically stable for the flow of (11) . If K > a 1 + 2 λ , then L K is unstable. We have the following corollary.
+
+Corollary 1
+
+For any K satisfying a 2 + 2 λ ≤ K ≤ a 1 + 2 λ , the point ( λ , ξ 1 ( K ) , ξ 2 ( K ) ) splits L K in two parts L K u and L K s ; the equilibria of (11) on the set L K u = { ( λ , ξ 1 , ξ 2 ) ∈ L K : ξ 1 < ξ 1 ( K ) } are unstable and those on the set L K s = { ( λ , ξ 1 , ξ 2 ) ∈ L K : ξ 1 > ξ 1 ( K ) } are stable, regardless the cross-diffusion coefficients given in the system (11) .
+
+Remark 3
+
+The result in Corollary 1 shows that the zip bifurcation phenomenon is sustainable even by the introduction of cross-diffusion in the model (1) . In the following, we present an example to illustrate the result obtained in Theorem 1 .
+
+Example 1
+
+We choose the following values of parameters in system (11) which contribute to the occurrence and sustainability of the zip bifurcation: a 1 = 0 . 6 ; a 2 = 0 . 4 ; m 1 = 0 . 9 ; d 1 = 0 . 3 ; m 2 = 0 . 7 ; d 2 = 0 . 3 ; β 1 = m 1 − d 1 = 0 . 6 ; β 2 = m 2 − d 2 = 0 . 4 ; γ = 0 . 9 ; ≔ λ ≔ 0 . 3 ; ≔ K ≔ 1 . 1 ; k 1 = 0 . 3 ; k 2 = 0 . 4 ; δ 0 = 0 . 5 ; δ 1 = 0 . 6 ; δ 2 = 0 . 8 . In this case we have that a stable constant solution of the system (11) should satisfy m 1 ξ 1 a 1 + λ + m 2 ξ 2 a 2 + λ − γ ( 1 − λ K ) = 0 and m 1 ξ 1 ( a 1 + λ ) 2 + m 2 ξ 2 ( a 2 + λ ) 2 < γ K . So, a stable constant solution of system (11) is given by u ∗ = ( λ , ξ 1 , ξ 2 ) = ( 0 . 3 , 0 . 4545 , 0 . 2 ) . Note that, a = m 1 ξ 1 ( a 1 + λ ) 2 + m 2 ξ 2 ( a 2 + λ ) 2 − λ γ K = − 0 . 0274170274 . Furthermore, we have: A j = 2 . 743085106 μ j + 0 . 008225108220 ; B j = 2 . 334583521 μ j 2 + 0 . 01844961774 μ j + 0 . 1251948052 ; C j = 0 . 6065204840 μ j 3 + 0 . 009977393242 μ j 2 + 0 . 1659734880 μ j  and A j B j − C j = 5 . 797440801 μ j 3 + 0 . 05983368050 μ j 2 + 0 . 1775982676 μ j + 0 . 001029740821 .
+
+In Fig. 1 we present the graphs of A j , B j , C j and A j B j − C j as function of μ j , j = 1 , 2 , … . Note that, for j = 1 and l = 5 we get μ 1 = 1 2 × 3 . 141 6 2 5 2 = 0 . 3947860224 . Thus, we have A j > 0 , B j > 0 , C j > 0 and A j B j − C j > 0 for all j = 1 , 2 , …  , since 0 = μ 0 < μ 1 < μ 2 < ⋯ → ∞ . Hence, by Theorem 1 if u ∗ is stable for the flow of the system (1) then u ∗ is stable for the flow of the system (11) .
+4. Turing instability and the zip bifurcation for Model II
+
+The Turing instability  [8] refers to “diffusion-driven instability,” that is the stability of the constant equilibrium u ∗ = ( λ , ξ 1 , ξ 2 ) changing from stability for the ODE system (1) , to instability for the PDE system (12) . In the following, we perform some calculations to find a criterion for the Turing instability.
+
+    Download : Download high-res image (370KB)
+    Download : Download full-size image 
+
+Fig. 1 . Graphs of:   (a) A j ,   (b) B j ,   (c) C j   and   (d) A j B j − C j ,  as functions of μ j .
+
+In what follows, we discuss the Turing instability for the model (12) which depends on the cross-diffusion coefficients. Following the framework of the previous section we have K ( u ∗ ) = k 11 k 12 k 13 k 21 k 22 k 23 k 31 k 32 k 33 and F u ( u ∗ , 0 ) = G u ( u ∗ ) = − γ λ K + λ ∑ i = 1 2 m i ( a i + λ ) 2 ξ i − m 1 λ a 1 + λ − m 2 λ a 2 + λ β 1 ξ 1 a 1 + λ 0 0 β 2 ξ 2 a 2 + λ 0 0 , where    β i = m i − d i ,   i = 1 , 2 and k i j are constants with k 11 , k 22 , k 33 , k 12 , k 13 ≥ 0 and k 21 , k 31 , k 23 , k 32 ≤ 0 .
+
+In the next theorem we show that if u ∗ is stable for the flow of (1) then u ∗ may not be stable for the flow of (12) .
+
+Theorem 2
+
+Suppose that u ∗ is an equilibrium of (12) independent of x . Then, if u ∗ is stable for the flow of (1) , u ∗ will be stable for the flow of (12) provided the inequality (22) below, holds for all j = 1 , 2 , … . Further, the equilibrium u ∗ is unstable, if any of the below mentioned inequalities (23) or (24) holds for some j = 1 , 2 , … .
+
+Proof
+
+To simplify the computations, we introduce the notations a = λ ∑ i = 1 2 m i ξ i ( a i + λ ) 2 − γ λ K , b = β 1 ξ 1 a 1 + λ − μ j k 21 , c = β 2 ξ 2 a 2 + λ − μ j k 31 , d = − m 1 λ a 1 + λ − μ j k 12 , e = − m 2 λ a 2 + λ − μ j k 13 .
+
+Let u ∗ = ( λ , ξ 1 , ξ 2 ) be an equilibrium of (12) independent of x . The hypothesis that u ∗ is stable for (1) is equivalent to (20) m 1 ξ 1 ( a 1 + λ ) 2 + m 2 ξ 2 ( a 2 + λ ) 2 < γ K so that the condition  (20) implies that a < 0 .
+
+We denote by P k ( ν ) the characteristic polynomial of G u ( u ∗ ) − μ j K ( u ∗ ) . For each k ≥ 0 , the eigenvalues of G u − μ j K are the roots of the polynomial (21) P j ( ν ) = ν 3 + A j ν 2 + B j ν + C j , The complete expressions for A j , B j and C j are presented in Item 5, Appendix .
+
+Since a < 0 , we have A j > 0 , for all j ≥ 1 . On the other hand as β 2 ξ 2 m 2 λ a 2 + λ 2 + β 1 ξ 1 m 1 λ a 1 + λ 2 > 0 , then if k 11 ( k 22 + k 33 ) − k 12 k 21 − k 13 k 31 + k 22 k 33 − k 23 k 32 < 0 we have B j < 0 for μ j > 0 big enough, otherwise if k 11 ( k 22 + k 33 ) − k 12 k 21 − k 13 k 31 + k 22 k 33 − k 23 k 32 > 0 then B j > 0 for all j = 1 , 2 , 3 … . Similarly, the coefficients of μ j 2 and μ j in the expression for C j are positive since a , k 21 , k 31 , k 32 , k 23 < 0 . So, if ( − k 21 k 33 + k 23 k 31 ) k 12 + ( k 22 k 33 − k 23 k 32 ) k 11 + ( k 21 k 32 − k 22 k 31 ) k 13 < 0 then C j < 0 for μ j > 0 big enough, otherwise if ( − k 21 k 33 + k 23 k 31 ) k 12 + ( k 22 k 33 − k 23 k 32 ) k 11 + ( k 21 k 32 − k 22 k 31 ) k 13 > 0 then C j > 0 for all j = 1 , 2 , 3 … . It is easy to see that the inequalities (22) A j > 0 , B j > 0 , C j > 0 and A j B j − C j > 0 ensure the stability of u ∗ while the equilibrium u ∗ is unstable if either of (23) or (24) holds for j = 1 , 2 , … (23) A j > 0 , C j > 0 and B j < 0 (24) A j > 0 , B j < 0 and C j < 0 . We present the expression for A j B j − C j in Item 6, Appendix .
+
+Thus, if u ∗ is stable for the flow of (1) u ∗ will be stable for the flow of (12) provided the inequality (22) holds for all j = 1 , 2 , … . Further, the equilibrium u ∗ is unstable for the flow of (12) , if any of the inequalities (23) or (24) holds for some j = 1 , 2 , … . □
+
+In Theorem 2 we observe that the stability of the equilibria for Model II is not preserved as in the case of Model I ( Theorem 1 ), which may be due to the introduction of cross-diffusion in all interacting populations.
+
+Corollary 2
+
+Suppose that u ∗ is an equilibrium of (12) independent of x . Moreover, suppose that one of the conditions   (23) – (24) holds. Then If u ∗ is stable for the flow of (1) , u ∗ may not be stable for the flow of (12) .
+
+Remark 4
+
+This final result shows that the Turing instability may emerge upon the introduction of cross-diffusion in the model (1) and the zip bifurcation phenomenon may not sustain.
+
+Choosing the following values of parameters which contribute to the occurrence of zip bifurcation, we present some examples illustrating the results obtained in Theorem 2 .
+
+Example 2
+
+Consider the following values of parameters in the system (12) : a 1 = 0 . 6 ; a 2 = 0 . 4 ; m 1 = 0 . 9 ; d 1 = 0 . 3 ; m 2 = 0 . 7 ; d 2 = 0 . 3 ; γ = 0 . 9 ; β 1 = m 1 − d 1 = 0 . 6 ; β 2 = m 2 − d 2 = 0 . 4 ; ≔ λ ≔ 0 . 3 ; ≔ K ≔ 1 . 1 ; ξ 1 = 0 . 4545 ; ξ 2 = 0 . 2 ; k 11 = 0 . 3 ; k 22 = 0 . 4 ; k 33 = 0 . 3 ; k 12 = 0 . 2 ; k 13 = 0 . 3 ; k 21 = − 0 . 7 ; k 23 = − 0 . 1 ; k 31 = − 0 . 8 ; k 32 = − 0 . 1 . In this case we have that a stable constant solution of system (12) should satisfy m 1 ξ 1 a 1 + λ + m 2 ξ 2 a 2 + λ − γ ( 1 − λ K ) = 0 and m 1 ξ 1 ( a 1 + λ ) 2 + m 2 ξ 2 ( a 2 + λ ) 2 < γ K . So, a stable constant solution of the system (12) is given by u ∗ = ( λ , ξ 1 , ξ 2 ) = ( 0 . 3 , 0 . 4545 , 0 . 2 )  where   a = m 1 ξ 1 ( a 1 + λ ) 2 + m 2 ξ 2 ( a 2 + λ ) 2 − λ γ K = − 0 . 027417 .
+
+Furthermore, we have: A j = μ j + 0 . 0274170274 ; B j = 0 . 70 μ j 2 + 0 . 5640836941 μ j + 0 . 1251948052 ; C j = 0 . 208 μ j 3 + 0 . 2502886003 μ j 2 + 0 . 05350649352 μ j  and A j B j − C j = 0 . 492 μ j 3 + 0 . 3329870130 μ j 2 + 0 . 08715380978 μ j + 0 . 003432469405 .
+
+In Fig. 2 we present the graphs of A j , B j , C j and A j B j − C j as function of μ j , j = 1 , 2 , … . Note that, for j = 1 and l = 5 we get μ 1 = 1 2 × 3 . 141 6 2 5 2 = 0 . 3947860224 . Thus, we have A j > 0 , B j > 0 , C j > 0 , and A j B j − C j > 0 for all j = 1 , 2 , …  , since 0 = μ 0 < μ 1 < μ 2 < ⋯ → ∞ . Hence, by Theorem 1 if u ∗ is stable for the flow of the system (1) then u ∗ is stable for the flow of the system (12) .
+
+    Download : Download high-res image (348KB)
+    Download : Download full-size image 
+
+Fig. 2 . Graphs of:   (a) A j ,   (b) B j ,   (c) C j   and   (d) A j B j − C j ,  as functions of μ j .
+
+Example 3
+
+Consider the following values of parameters in the system (12) : a 1 = 0 . 6 ; a 2 = 0 . 4 ; m 1 = 0 . 9 ; d 1 = 0 . 3 ; m 2 = 0 . 7 ; d 2 = 0 . 3 ; β 1 = m 1 − d 1 = 0 . 6 ; β 2 = m 2 − d 2 = 0 . 4 ; γ = 0 . 9 ; ≔ λ ≔ 0 . 3 ; ≔ K ≔ 1 . 1 ; ξ 1 = 0 . 4545 ; ξ 2 = 0 . 2 ; k 11 = 0 . 3 ; k 22 = 0 . 1 ; k 33 = 0 . 1 ; k 12 = 0 . 2 ; k 13 = 0 . 1 ; k 21 = − 0 . 9 ; k 23 = − 0 . 9 ; k 31 = − 0 . 1 ; k 32 = − 0 . 9 . In this case we have that a stable constant solution of system (12) should satisfy m 1 ξ 1 a 1 + λ + m 2 ξ 2 a 2 + λ − γ ( 1 − λ K ) = 0 and m 1 ξ 1 ( a 1 + λ ) 2 + m 2 ξ 2 ( a 2 + λ ) 2 < γ K . So, a stable constant solution of system (12) is given by u ∗ = ( λ , ξ 1 , ξ 2 ) = ( 0 . 3 , 0 . 4545 , 0 . 2 )  where   a = m 1 ξ 1 ( a 1 + λ ) 2 + m 2 ξ 2 ( a 2 + λ ) 2 − λ γ K = − 0 . 027417 .
+
+Furthermore, we have: A j = 0 . 5 μ j + 0 . 0274170274 ; B j = − 0 . 55 μ j 2 + 0 . 3775180375 μ j + 0 . 1251948052 and C j = − 0 . 122 μ j 3 + 0 . 3331139972 μ j 2 + 0 . 1251948052 μ j .
+
+In Fig. 3 we present the graphs of A j , B j and C j as function of μ j , j = 1 , 2 , … . Note that, for j = 5 and l = 5 we get μ 5 = 5 2 × 3 . 141 6 2 5 2 = π 2 . Thus, we have A j > 0 , B j < 0 , and C j < 0 for j = 5 . Hence, by Theorem 1 if u ∗ is stable for the flow of the system (1) then u ∗ is unstable for the flow of the system (12) .
+
+    Download : Download high-res image (279KB)
+    Download : Download full-size image 
+
+Fig. 3 . Graphs of:   (a) A j ,   (b) B j   and   (c) C j ,  as functions of μ j .
+
+Example 4
+
+Consider the following values of parameters in the system (12) : a 1 = 0 . 6 ; a 2 = 0 . 4 ; m 1 = 0 . 9 ; d 1 = 0 . 3 ; m 2 = 0 . 7 ; d 2 = 0 . 3 ; β 1 = m 1 − d 1 = 0 . 6 ; β 2 = m 2 − d 2 = 0 . 4 ; γ = 0 . 9 ; ≔ λ ≔ 0 . 3 ; ≔ K ≔ 1 . 1 ; ξ 1 = 0 . 4545 ; ξ 2 = 0 . 2 ; k 11 = 0 . 2 ; k 22 = 0 . 5 ; k 33 = 0 . 5 ; k 12 = 0 . 2 ; k 13 = 0 . 3 ; k 21 = − 0 . 9 ; k 23 = − 0 . 9 ; k 31 = − 0 . 4 ; k 32 = − 0 . 9 . In this case we have that a stable constant solution of system (12) should satisfy m 1 ξ 1 a 1 + λ + m 2 ξ 2 a 2 + λ − γ ( 1 − λ K ) = 0 and m 1 ξ 1 ( a 1 + λ ) 2 + m 2 ξ 2 ( a 2 + λ ) 2 < γ K . So, a stable constant solution of system (12) is given by u ∗ = ( λ , ξ 1 , ξ 2 ) = ( 0 . 3 , . 4545 , 0 . 2 )  where   a = m 1 ξ 1 ( a 1 + λ ) 2 + m 2 ξ 2 ( a 2 + λ ) 2 − λ γ K = − 0 . 027417 .
+
+Furthermore, we have: A j = 1 . 2 μ j + 0 . 0274170274 ; B j = − 0 . 06 μ j 2 + 0 . 5123088023 μ j + 0 . 1251948052 and C j = 0 . 353 μ j 3 + 0 . 6804819625 μ j 2 + 0 . 1752727273 μ j .
+
+In Fig. 4 we present the graphs of A j , B j and C j as function of μ j , j = 1 , 2 , … . Note that, for j = 5 and l = 5 we get μ 5 = 5 2 × 3 . 141 6 2 5 2 = π 2 . Thus, we have A j > 0 , B j < 0 , and C j > 0 for j = 5 . Hence, by  Theorem 1 if u ∗ is stable for the flow of system (1) then u ∗ is unstable for the flow of system (12) .
+5. Discussion
+
+In this paper we have considered a three dimensional system of partial differential equations to model the dynamical interactions among two predators competing for a single prey. It is often realistic to consider that the prey species exhibits a switching behavior which may be viewed as a strategy to defend themselves from the predators. In accordance with the strategies depicted by the prey, the predators may also develop migratory strategies, which depend on the concentration of both predators. This activity of the predators is usually known as cross diffusion effect. We have presented two models to represent the cross-diffusion phenomenon. In Model I the prey population undergoes self-diffusion while the predator populations follow cross-diffusion. On the other hand, in Model II all interacting populations follow cross-diffusion. It is evident from the present study that in the absence of the prey population developing defense strategies to move away from the predators the system that exhibits stability ( Theorem 1 ). It is surprising to note that when both prey and predator populations develop migratory strategies due to cross-diffusion, the stability of the system is not automatically guaranteed ( Theorem 1 ). This conclusion is a welcoming addition to the literature. Generally time delays in biological models induce instabilities in the system. It is interesting to study the effect of time delays in these models and the interplay between the cross diffusion and time delays. Indeed one of the reviewers have also agreed with the view of introducing time delays in appropriate terms of the model since the operational aspects of the switching migratory efforts in the real world environment are not instantaneous. Accordingly, our models assume the following form:
+
+    Download : Download high-res image (268KB)
+    Download : Download full-size image 
+
+Fig. 4 . Graphs of:   (a) A j ,   (b) B j   and   (c) C j ,  as functions of μ j .
+
+Model III: (25) − d i v ( δ 0 ∇ S ( t , x ) ) = γ ( 1 − S ( t − τ , x ) K ) S ( t , x ) − m 1 S ( t , x ) a 1 + S ( t , x ) u 1 ( t , x ) − m 2 S ( t , x ) a 2 + S ( t , x ) u 2 ( t , x ) − d i v [ ( δ 1 + k 1 a 1 + u 2 ( t , x ) ) ∇ u 1 ( t , x ) − k 1 u 1 ( t , x ) ( a 1 + u 2 ( t , x ) ) 2 ∇ u 2 ( t , x ) ] = ( m 1 S ( t , x ) a 1 + S ( t , x ) − d 1 ) u 1 ( t , x ) − d i v [ ( δ 2 + k 2 a 2 + u 1 ( t , x ) ) ∇ u 2 ( t , x ) − k 2 u 2 ( t , x ) ( a 2 + u 1 ( t , x ) ) 2 ∇ u 1 ( t , x ) ] = ( m 2 S ( t , x ) a 2 + S ( t , x ) − d 2 ) u 2 ( t , x ) ∂ S ∂ ν ( x , t ) = 0 , ∂ u i ∂ ν ( x , t ) = 0 , i = 1 , 2 ,  on  ∂ Ω × [ 0 , ∞ ) ,
+
+Model IV: (26) S t ( t , x ) = Δ ( k 11 S ( t , x ) + k 12 u 1 ( t , x ) + k 13 u 2 ( t , x ) ) + γ ( 1 − S ( t − τ , x ) K ) S ( t , x ) − m 1 S ( t , x ) a 1 + S ( t , x ) u 1 ( t , x ) − m 2 S ( t , x ) a 2 + S ( t , x ) u 2 ( t , x ) u 1 t ( t , x ) = Δ ( k 21 S ( t , x ) + k 22 u 1 ( t , x ) + k 23 u 2 ( t , x ) ) + ( m 1 S ( t , x ) a 1 + S ( t , x ) − d 1 ) u 1 ( t , x ) u 2 t ( t , x ) = Δ ( k 31 S ( t , x ) + k 32 u 1 ( t , x ) + k 33 u 2 ( t , x ) ) + ( m 2 S ( t , x ) a 2 + S ( t , x ) − d 2 ) u 2 ( t , x ) , ∂ S ∂ ν ( x , t ) = 0 , ∂ u i ∂ ν ( x , t ) = 0 , i = 1 , 2 ,  on  ∂ Ω × [ 0 , ∞ ) . In models (25) , (26) the parameter τ ≥ 0 represents the time delay due to gestation. It would be interesting to study the inter-play among the cross-diffusion coefficients and the time delays. We defer our work in this direction to a subsequent exposition.
+Acknowledgments
+
+Jocirei D. Ferreira acknowledges support from CNPq-Brazil under Grant No. 445356/2014-6 and from INCTMat/CNPq, Brazil. Severino Horácio da Silva was supported by CAPES/CNPq-Brazil under Grant Casadinho/Procad No. 552.464/2011-2 and by INCTMat/CNPq, Brazil. V. Sree Hari Rao has been supported by CNPq-Brazil under Grant No. 445356/2014-6 and also by the Foundation for Scientific Research and Technological Innovation (FSRTI) - A Constituent Division of Sri Vadrevu Seshagiri Rao Memorial Charitable Trust, Hyderabad-500 102, India. The authors wish to thank the reviewers for their helpful comments.
+Appendix.
+
+Item 1
+
+In the following we present the expressions for the coefficients A j , B j and C j of the polynomial given by (18) . A j = μ j ( δ 0 + δ 1 + δ 2 + k 1 a 1 + ξ 2 + k 2 a 2 + ξ 1 ) − a , B j = [ δ 0 ( δ 1 + k 1 a 1 + ξ 2 ) + δ 0 ( δ 2 + k 2 a 2 + ξ 1 ) + ( δ 1 + k 1 a 1 + ξ 2 ) ( δ 2 + k 2 a 2 + ξ 1 ) − k 2 ξ 2 k 1 ξ 1 ( a 2 + ξ 1 ) 2 ( a 1 + ξ 2 ) 2 ] μ j 2 − a ( δ 1 + k 1 a 1 + ξ 2 + δ 2 + k 2 a 2 + ξ 1 ) μ j − ( c e + b d ) − f g = ( δ 1 δ 2 + δ 1 k 2 a 2 + x i 1 + k 1 δ 2 a 1 + ξ 2 + δ 0 δ 1 + δ 0 k 1 a 1 + ξ 2 + δ 0 δ 2 + δ 0 k 2 a 2 + ξ 1 + k 1 k 2 ( a 1 a 2 + a 1 ξ 1 + ξ 2 a 2 ) ( a 2 + ξ 1 ) 2 ( a 1 + x i 2 ) 2 ) μ j 2 − a ( δ 1 + k 1 a 1 + ξ 2 + δ 2 + k 2 a 2 + ξ 1 ) μ j + β 1 ξ 1 m 1 λ ( a 1 + λ ) 2 + β 2 ξ 2 m 2 λ ( a 2 + λ ) 2 C j = ( ( δ 1 + k 1 a 1 + ξ 2 ) ( δ 2 + k 2 a 2 + ξ 1 ) δ 0 − k 2 ξ 2 k 1 ξ 1 δ 0 ( a 2 + ξ 1 ) 2 ( a 1 + ξ 2 ) 2 ) μ j 3 + a ( − ( δ 1 + k 1 a 1 + ξ 2 ) ( δ 2 + k 2 a 2 + ξ 1 ) + k 2 ξ 2 k 1 ξ 1 ( a 2 + ξ 1 ) 2 ( a 1 + ξ 2 ) 2 ) μ j 2 + ( β 1 ξ 1 m 1 λ ( δ 2 + k 2 a 2 + ξ 1 ) ( a 1 + λ ) 2 + β 2 ξ 2 m 2 λ ( δ 1 + k 1 a 1 + ξ 2 ) ( a 2 + λ ) 2 + β 1 ξ 1 m 2 λ k 2 ξ 2 ( a 1 + λ ) ( a 2 + λ ) ( a 2 + ξ 1 ) 2 + β 2 ξ 2 m 1 λ k 1 ξ 1 ( a 1 + λ ) ( a 2 + λ ) ( a 1 + ξ 2 ) 2 ) μ j = ( δ 0 δ 1 δ 2 + δ 0 δ 1 k 2 a 2 + x i 1 + δ 0 δ 2 k 1 a 1 + x i 2 + δ 0 k 1 k 2 ( a 1 a 2 + a 1 ξ 1 + a 2 ξ 2 ) ( a 2 + ξ 1 ) 2 ( a 1 + ξ 2 ) 2 ) μ j 3 − a ( δ 1 δ 2 + δ 1 k 2 a 2 + ξ 1 + δ 2 k 1 a 1 + ξ 2 + k 1 k 2 ( a 1 ξ 1 + a 2 ξ 2 + a 1 a 2 ) ( a 1 + ξ 2 ) 2 ( a 2 + ξ 1 ) 2 ) μ j 2 + ( β 1 ξ 1 m 1 λ ( δ 2 + k 2 a 2 + ξ 1 ) ( a 1 + λ ) 2 + β 2 ξ 2 m 2 λ ( δ 1 + k 1 a 1 + ξ 2 ) ( a 2 + λ ) 2 + β 1 ξ 1 m 2 λ k 2 ξ 2 ( a 1 + λ ) ( a 2 + λ ) ( a 2 + ξ 1 ) 2 + β 2 ξ 2 m 1 λ k 1 ξ 1 ( a 1 + λ ) ( a 2 + λ ) ( a 1 + ξ 2 ) 2 ) μ j .
+
+Item 2
+
+In the following we present the expression for the function ( A j B j − C j ) ( μ j ) . A j B j − C j = { ( δ 1 + k 1 a 1 + ξ 2 + δ 2 + k 2 a 2 + ξ 1 + δ 0 ) [ ( δ 1 + k 1 a 1 + ξ 2 ) ( δ 2 + k 2 a 2 + ξ 1 ) + ( δ 1 + k 1 a 1 + ξ 2 ) δ 0 + ( δ 2 + k 2 a 2 + ξ 1 ) δ 0 − k 2 ξ 2 k 1 ξ 1 ( a 2 + ξ 1 ) 2 ( a 1 + ξ 2 ) 2 ] − ( δ 1 + k 1 a 1 + ξ 2 ) ( δ 2 + k 2 a 2 + ξ 1 ) δ 0 + k 2 ξ 2 k 1 ξ 1 δ 0 ( a 2 + ξ 1 ) 2 ( a 1 + ξ 2 ) 2 } μ j 3 + { a ( δ 1 + k 1 a 1 + ξ 2 ) ( δ 2 + k 2 a 2 + ξ 1 ) − a k 2 ξ 2 k 1 ξ 1 ( a 2 + ξ 1 ) 2 ( a 1 + ξ 2 ) 2 − a [ ( δ 1 + k 1 a 1 + ξ 2 ) ( δ 2 + k 2 a 2 + ξ 1 ) + ( δ 1 + k 1 a 1 + ξ 2 ) δ 0 + ( δ 2 + k 2 a 2 + ξ 1 ) δ 0 − k 2 ξ 2 k 1 ξ 1 ( a 2 + ξ 1 ) 2 ( a 1 + ξ 2 ) 2 ] + ( δ 1 + k 1 a 1 + ξ 2 + δ 2 + k 2 a 2 + ξ 1 + δ 0 ) [ − a ( δ 2 + k 2 a 2 + ξ 1 ) − a ( δ 1 + k 1 a 1 + ξ 2 ) ] } μ j 2 + { − a ( − a ( δ 2 + k 2 a 2 + ξ 1 ) − a ( δ 1 + k 1 a 1 + ξ 2 ) ) + ( δ 1 + k 1 a 1 + ξ 2 + δ 2 + k 2 a 2 + ξ 1 + δ 0 ) ( β 1 ξ 1 m 1 λ ( a 1 + λ ) 2 + β 2 ξ 2 m 2 λ ( a 2 + λ ) e 2 ) − β 1 ξ 1 m 1 λ ( δ 2 + k 2 a 2 + ξ 1 ) ( a 1 + λ ) 2 − β 2 ξ 2 m 2 λ ( δ 1 + k 1 a 1 + ξ 2 ) ( a 2 + λ ) 2 − β 1 ξ 1 m 2 λ k 2 ξ 2 ( a 1 + λ ) ( a 2 + λ ) ( a 2 + ξ 1 ) 2 − β 2 ξ 2 m 1 λ k 1 ξ 1 ( a 1 + λ ) ( a 2 + λ ) ( a 1 + ξ 2 ) 2 } μ j − a ( β 1 ξ 1 m 1 λ ( a 1 + λ ) 2 + β 2 ξ 2 m 2 λ ( a 2 + λ ) 2 )
+
+Item 3
+
+In the following we determine the sign of the expression (19) . E = 2 δ 0 δ 1 k 2 a 2 + ξ 1 + 2 δ 0 k 1 δ 2 a 1 + ξ 2 + 2 δ 0 δ 1 δ 2 + δ 0 2 k 1 a 1 + ξ 2 + δ 0 2 k 2 a 2 + ξ 1 + k 2 2 δ 0 ( a 2 + ξ 1 ) 2 + k 1 2 δ 0 ( a 1 + ξ 2 ) 2 + k 2 2 δ 1 ( a 2 + ξ 1 ) 2 + k 1 2 δ 2 ( a 1 + ξ 2 ) 2 + δ 1 2 k 2 a 2 + ξ 1 + k 1 δ 2 2 a 1 + ξ 2 + 2 δ 0 k 1 k 2 ( a 1 + ξ 2 ) ( a 2 + ξ 1 ) + 2 δ 1 k 1 δ 2 a 1 + ξ 2 + 2 δ 1 δ 0 k 1 a 1 + ξ 2 + 2 δ 2 δ 1 k 2 a 2 + ξ 1 + 2 δ 2 δ 0 k 2 a 2 + ξ 1 + δ 1 2 δ 2 + δ 0 δ 1 2 + δ 1 δ 2 2 + δ 0 δ 2 2 + δ 0 2 δ 1 + δ 0 2 δ 2 + k 2 k 1 [ ( ( δ 1 + δ 2 ) ξ 2 + 2 a 1 δ 1 + 2 a 1 δ 2 ) ξ 1 + ( 2 a 2 δ 1 + 2 a 2 δ 2 ) ξ 2 + 2 a 1 a 2 δ 1 + 2 a 1 a 2 δ 2 ] ( a 2 + ξ 1 ) 2 ( a 1 + ξ 2 ) 2 + k 2 k 1 ( a 1 + ξ 2 ) 3 ( a 2 + ξ 1 ) 3 + [ a 1 k 1 ξ 1 2 + ( ( a 1 k 2 + a 2 k 1 ) ξ 2 + a 1 2 k 2 + 2 a 1 k 1 a 2 ) ξ 1 + a 2 k 2 ξ 2 2 + ( 2 a 1 a 2 k 2 + a 2 2 k 1 ) ξ 2 + a 1 2 a 2 k 2 + a 1 a 2 2 k 1 ] > 0 .
+
+Item 4
+
+The following calculations show that the parabola in Theorem 1 intersects the ordinate axes at a positive point. − a ( − a ( δ 2 + k 2 a 2 + ξ 1 ) − a ( δ 1 + k 1 a 1 + ξ 2 ) ) + ( δ 1 + k 1 a 1 + ξ 2 + δ 2 + k 2 a 2 + ξ 1 + δ 0 ) ( β 1 ξ 1 m 1 λ ( a 1 + λ ) 2 + β 2 ξ 2 m 2 λ ( a 2 + λ ) 2 ) − β 1 ξ 1 m 1 λ ( δ 2 + k 2 a 2 + ξ 1 ) ( a 1 + λ ) 2 − β 2 ξ 2 m 2 λ ( δ 1 + k 1 a 1 + ξ 2 ) ( a 2 + λ ) 2 − β 1 ξ 1 m 2 λ k 2 ξ 2 ( a 1 + λ ) ( a 2 + λ ) ( a 2 + ξ 1 ) 2 − β 2 ξ 2 m 1 λ k 1 ξ 1 ( a 1 + λ ) ( a 2 + λ ) ( a 1 + ξ 2 ) 2 = a 2 δ 2 + a 2 k 2 a 2 + ξ 1 + a 2 δ 1 + a 2 k 1 a 1 + ξ 2 + δ 1 β 1 ξ 1 m 1 λ ( a 1 + λ ) 2 + δ 2 β 2 ξ 2 m 2 λ ( a 2 + λ ) 2 + ( δ 0 β 2 ξ 2 m 2 λ ( a 2 + λ ) 2 + k 2 β 2 ξ 2 m 2 λ ( a 2 + ξ 1 ) ( a 2 + λ ) 2 − β 1 ξ 1 m 2 λ k 2 ξ 2 ( a 1 + λ ) ( a 2 + λ ) ( a 2 + ξ 1 ) 2 ) + ( δ 0 β 1 ξ 1 m 1 λ ( a 1 + λ ) 2 + k 1 β 1 ξ 1 m 1 λ ( a 1 + ξ 2 ) ( a 1 + λ ) 2 − β 2 ξ 2 m 1 λ k 1 ξ 1 ( a 2 + λ ) ( a 1 + λ ) ( a 1 + ξ 2 ) 2 ) = a 2 δ 2 + a 2 k 2 a 2 + ξ 1 + a 2 δ 1 + a 2 k 1 a 1 + ξ 2 + δ 1 β 1 ξ 1 m 1 λ ( a 1 + λ ) 2 + δ 2 β 2 ξ 2 m 2 λ ( a 2 + λ ) 2 + 1 ( a 2 + λ ) 2 ( a 2 + ξ 1 ) 2 ( a 1 + λ ) [ ξ 2 m 2 λ ( ( λ β 2 δ 0 + a 1 β 2 δ 0 ) ξ 1 2 + ( 2 λ a 2 β 2 δ 0 + 2 a 1 a 2 β 2 δ 0 − λ β 1 k 2 + λ β 2 k 2 + a 1 β 2 k 2 − a 2 β 1 k 2 ) ξ 1 + λ a 2 2 β 2 δ 0 + a 1 a 2 2 β 2 δ 0 + λ a 2 β 2 k 2 + a 1 a 2 β 2 k 2 ) ] + 1 ( a 1 + λ ) 2 ( a 1 + ξ 2 ) 2 ( a 2 + λ ) [ ξ 1 m 1 λ ( ( λ β 1 δ 0 + a 2 β 1 δ 0 ) ξ 2 2 + ( 2 λ a 1 β 1 δ 0 + 2 a 1 a 2 β 1 δ 0 + λ β 1 k 1 − λ β 2 k 1 − a 1 β 2 k 1 + a 2 β 1 k 1 ) ξ 2 + λ a 1 2 β 1 δ 0 + a 1 2 a 2 β 1 δ 0 + λ a 1 β 1 k 1 + a 1 a 2 β 1 k 1 ) ] > 0 . The last inequality follows because the expressions ( λ β 2 δ 0 + a 1 β 2 δ 0 ) ξ 1 2 + ( 2 λ a 2 β 2 δ 0 + 2 a 1 a 2 β 2 δ 0 − λ β 1 k 2 + λ β 2 k 2 + a 1 β 2 k 2 − a 2 β 1 k 2 ) ξ 1 + λ a 2 2 β 2 δ 0 + a 1 a 2 2 β 2 δ 0 + λ a 2 β 2 k 2 + a 1 a 2 β 2 k 2 and ( λ β 1 δ 0 + a 2 β 1 δ 0 ) ξ 2 2 + ( 2 λ a 1 β 1 δ 0 + 2 a 1 a 2 β 1 δ 0 + λ β 1 k 1 − λ β 2 k 1 − a 1 β 2 k 1 + a 2 β 1 k 1 ) ξ 2 + λ a 1 2 β 1 δ 0 + a 1 2 a 2 β 1 δ 0 + λ a 1 β 1 k 1 + a 1 a 2 β 1 k 1 are positive for ξ 1 , ξ 2 ≥ 0 .
+
+Item 5
+
+In the following we present the expressions for the coefficients A j , B j and C j of the polynomial given by (21) . A j = ( k 11 + k 22 + k 33 ) μ j − a , B j = ( k 11 k 22 + k 11 k 33 + k 22 k 33 − k 23 k 32 ) μ j 2 − a ( k 22 + k 33 ) μ j − b d − c e = [ k 11 ( k 22 + k 33 ) − k 12 k 21 − k 13 k 31 + k 22 k 33 − k 23 k 32 ] μ j 2 + [ − a ( k 22 + a k 33 ) + β 1 ξ 1 k 12 a 1 + λ − k 21 m 1 λ a 1 + λ + β 2 ξ 2 k 13 a 2 + λ − k 31 m 2 λ a 2 + λ ] μ j + β 2 ξ 2 m 2 λ a 2 + λ 2 + β 1 ξ 1 m 1 λ a 1 + λ 2 , and C j = ( k 11 k 22 k 33 − k 11 k 23 k 32 ) μ j 3 + a ( k 23 k 32 − k 22 k 33 ) μ j 2 + ( − b d k 33 + b e k 32 + c d k 23 − c e k 22 ) μ j = [ ( − k 21 k 33 + k 23 k 31 ) k 12 + ( k 22 k 33 − k 23 k 32 ) k 11 + ( k 21 k 32 − k 22 k 31 ) k 13 ] μ j 3 + [ k 22 ( β 2 ξ 2 k 13 a 2 + λ − k 31 m 2 λ a 2 + λ ) + k 33 ( β 1 ξ 1 k 12 a 1 + λ − k 21 m 1 λ a 1 + λ ) − a k 22 k 33 + a k 23 k 32 + k 32 ( − β 1 ξ 1 k 13 a 1 + λ + k 21 m 2 λ a 2 + λ ) + ( − β 2 ξ 2 k 12 a 2 + λ + k 31 m 1 λ a 1 + λ ) k 23 ] μ j 2 + β 2 ξ 2 m 2 λ k 22 a 2 + λ 2 − β 2 ξ 2 m 1 λ k 23 a 2 + λ a 1 + λ − β 1 ξ 1 m 2 λ k 32 a 2 + λ a 1 + λ + β 1 ξ 1 m 1 λ k 33 a 1 + λ 2 μ j .
+
+Item 6
+
+In the following we present the expression for A j B j − C j given in Theorem 2 . A j B j − C j = [ ( k 11 + k 22 + k 33 ) ( k 11 k 22 + k 11 k 33 + k 22 k 33 − k 23 k 32 ) − k 11 k 22 k 33 + k 11 k 23 k 32 ] μ j 3 + a [ ( k 22 k 33 − k 23 k 32 − k 11 k 22 + k 11 k 33 + k 22 k 33 − k 23 k 32 ) − ( k 11 + k 22 + k 33 ) ( k 22 + k 33 ) ] μ j 2 + [ a 2 ( k 22 + k 33 ) + ( k 11 + k 22 + k 33 ) ( − b d − c e ) + b d k 33 − b e k 32 − c d k 23 + c e k 22 ] μ j − a ( − b d − c e ) . = [ k 11 + k 22 + k 33 − k 12 k 21 + k 11 k 22 + k 11 k 33 − k 13 k 31 + k 22 k 33 − k 23 k 32 + k 12 k 21 k 33 − k 11 k 22 k 33 − k 31 k 12 k 23 + k 11 k 23 k 32 − k 21 k 13 k 32 + k 13 k 31 k 22 ] μ j 3 + [ − β 2 ξ 2 k 13 a 2 + λ + k 31 m 2 λ a 2 + λ k 22 + − β 1 ξ 1 k 12 a 1 + λ + k 21 m 1 λ a 1 + λ k 33 + a k 22 k 33 − a k 23 k 32 − − β 1 ξ 1 k 13 a 1 + λ + k 21 m 2 λ a 2 + λ k 32 − − β 2 ξ 2 k 12 a 2 + λ + k 31 m 1 λ a 1 + λ k 23 − a a − k 12 k 21 + k 11 k 22 + k 11 k 33 − k 13 k 31 + k 22 k 33 − k 23 k 32 + k 11 + k 22 + k 33 ( − a a k 22 + β 1 ξ 1 k 12 a 1 + λ − k 21 m 1 λ a 1 + λ − a a k 33 + β 2 ξ 2 k 13 a 2 + λ − k 31 m 2 λ a 2 + λ ) ] μ j 2 + [ a a k 22 + β 1 ξ 1 k 12 a 1 + λ − k 21 m 1 λ a 1 + λ − a a k 33 + β 2 ξ 2 k 13 a 2 + λ − k 31 m 2 λ a 2 + λ + k 11 + k 22 + k 33 β 2 ξ 2 m 2 λ a 2 + λ 2 + β 1 ξ 1 m 1 λ a 1 + λ 2 − β 2 ξ 2 m 2 λ k 22 a 2 + λ 2 + β 2 ξ 2 m 1 λ k 23 a 2 + λ a 1 + λ + β 1 ξ 1 m 2 λ k 32 a 2 + λ a 1 + λ − β 1 ξ 1 m 1 λ k 33 a 1 + λ 2 ] μ j − a a β 2 ξ 2 m 2 λ a 2 + λ 2 + β 1 ξ 1 m 1 λ a 1 + λ 2 .
+References
+
+[1]
+    Murray J.D.
+    Mathematical Biology I: An Introduction
+    (third ed.), Springer, USA (2002)
+    Google Scholar
+[2]
+    Murray J.D.
+    Mathematical Biology II: Spatial Models and Biomedical Applications
+    (third ed.), Springer, USA (2003)
+    Google Scholar
+[3]
+    Okubo A., Levin Simon A.
+    Diffusion and Ecological Problems: Modern Perspectives
+    (second ed.), Springer-Verlag, Berlin (2000)
+    Google Scholar
+[4]
+    Takahashi S., Hori M.
+    Unstable evolutionarily stable strategy and oscillation: a model of lateral asymmetry in scale-eating cichlids
+    Amer. Nat., 144 (1994), pp. 1001-1020
+    View Record in Scopus Google Scholar
+[5]
+    Guin Lakshmi Narayan
+    Existence of spatial patterns in a predator–prey model with self- and cross-diffusion
+    Appl. Math. Comput., 226 (2014), p. 320?335
+    Google Scholar
+[6]
+    Lou Y., Wei-Ming Ni
+    Diffusion, self-diffusion and cross-diffusion
+    J. Differential Equations, 131 (1996), pp. 79-131
+    Article Download PDF Google Scholar
+[7]
+    Sambath M., Balachandran K., Guin L.N.
+    Spatiotemporal Patterns in a predator–prey Model with Cross-Diffusion Effect
+    Int. J. Bifurcation Chaos, 28 (2) (2018), 10.1142/S0218127418300045
+    Google Scholar
+    16
+    0
+    3
+    0
+[8]
+    Turing A.
+    The chemical basis of morphogenesis
+    Phil. Trans. Soc. B, 237 (1952), pp. 37-72
+    View Record in Scopus Google Scholar
+[9]
+    Wang M.
+    Stationary patterns of strongly coupled prey-predator models
+    J. Math. Anal. Appl., 292 (2004), pp. 484-505
+    Article Download PDF View Record in Scopus Google Scholar
+[10]
+    Farkas M.
+    Zip bifurcation in a competition model
+    Nonlinear Anal. Theory, Methods Appl., 8 (1984), pp. 1295-1309
+    Article Download PDF View Record in Scopus Google Scholar
+[11]
+    Farkas M.
+    Competitive exclusion by zip bifurcation
+    Dynamical Systems. IIASA Workshop 1985 Sopron, Lecture Notes in Economics and Mathematical Systems, vol. 287, Springer (1987), pp. 165-178
+    CrossRef Google Scholar
+    9
+    0
+    12
+    0
+[12]
+    Bocsó A., Farkas M.
+    Political and economic rationality leads to velcro bifurcation
+    Appl. Math. Comput., 140 (2003), pp. 381-389
+    Article Download PDF View Record in Scopus Google Scholar
+[13]
+    Sáez E., Stange E., Szántó I.
+    Simultaneous zip bifurcation and limit cycles in three dimensional competition models
+    SIAM J. Appl. Dyn. Syst., 05 (2006), pp. 1-11
+    CrossRef Google Scholar
+    7
+    0
+    7
+    0
+[14]
+    Farkas M., Jocirei D. Ferreira E.
+    Zip bifurcation in a reaction-diffusion system, differential equations and dynamical systems-an international journal for theory
+    Appl. Comput. Simul., 15 (2007), pp. 169-183
+    View Record in Scopus Google Scholar
+[15]
+    Farkas M., Sáez E., Szántó I.
+    Velcro bifurcation in competition models with generalized holling functional response
+    Miskolc Math. Notes, 6 (2) (2005), pp. 185-195
+    CrossRef Google Scholar
+    12
+    0
+    5
+    0
+[16]
+    Ferreira Jocirei D., Fernandes de Oliveira Luiz A.
+    Hopf and zip bifurcation in a specific (n+1)-dimensional competitive system
+    Mat. Eñanza Univ., 15 (2007), pp. 33-50
+    View Record in Scopus Google Scholar
+[17]
+    Ferreira Jocirei D., Fernandes de Oliveira Luiz A.
+    Zip bifurcation in a competitive system with diffusion
+    Differ. Equ. Dyn. Syst. Syst.- Int. J. Theory Appl. Comput. Simul., 17 (2009), pp. 37-53
+    CrossRef View Record in Scopus Google Scholar
+    6
+    0
+    10
+    0
+[18]
+    Ferreira Jocirei D., Sree Hari Rao V.
+    Unsustainable zip-bifurcation in a predator–prey model involving discrete delay
+    Proc. Roy. Soc. Edinburgh, 143A (2013), pp. 1209-1236
+    View Record in Scopus Google Scholar
+[19]
+    Farkas M.
+    Periodic Motions
+    Springer-Verlag, New York (1994)
+    Google Scholar
+[20]
+    Farkas M.
+    Dynamical Models in Biology
+    Academic Press, New York (2001)
+    Google Scholar
+[21]
+    Panga P.Y.H., Wang M.
+    Strategy and stationary pattern in a three-species predator–prey model
+    J. Differential Equations, 200 (2004), pp. 245-273
+    Google Scholar
+[22]
+    Henry D.B.
+    Geometric Theory of Semilinear Parabolic Equations, Lecture Notes in Mathematics, vol. 840, Springer-Verlag (1981)
+    Google Scholar
+
+View Abstract
+© 2019 Elsevier B.V. All rights reserved.
+Recommended articles
+
+    Bilinear form and new interaction solutions for the sixth-order Ramani equation
+    Applied Mathematics Letters, Volume 98, 2019, pp. 411-418
+    Download PDF View details
+    An analysis of a stochastic model for bacteriophage systems
+    Mathematical Biosciences, Volume 241, Issue 1, 2013, pp. 99-108
+    Download PDF View details
+    A size structured model for bacteria–phages interaction
+    Nonlinear Analysis: Real World Applications, Volume 15, 2014, pp. 100-117
+    Download PDF View details
+
+1 2 Next
+Citing articles (4)
+Article Metrics
+View article metrics
+Elsevier logo with wordmark
+
+    About ScienceDirect
+    Remote access
+    Shopping cart
+    Advertise
+    Contact and support
+    Terms and conditions
+    Privacy policy 
+
+We use cookies to help provide and enhance our service and tailor content and ads. By continuing you agree to the use of cookies .
+
+Copyright © 2022 Elsevier B.V. or its licensors or contributors. ScienceDirect ® is a registered trademark of Elsevier B.V.
+
+ScienceDirect ® is a registered trademark of Elsevier B.V.
+RELX group home page
+View PDF
+3
+0
+3
+0
+hide

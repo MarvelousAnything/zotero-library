@@ -1,0 +1,30 @@
+@media only screen and (min-width:1024px) {
+    .wotr_article_head .wotr_datetime { text-align:right; }
+}
+@media only screen and (max-width:1023px) {
+
+    .wotr_article_head .wotr_title h1 {
+        margin-bottom:16px;
+        font-size: 2em;
+    }
+
+    .related-posts h4, .related-posts h4.long {
+        font-size: 2.5em;
+        word-wrap: initial;
+        width: 100%;
+    }
+    .wotr_article_head .wotr_meta {
+        font-size:1.4rem;
+        line-height:1.2;
+    }
+    .wotr_lede_img {
+        margin:1em 0;
+    }
+
+    #tag-post-list li { min-height:auto; }
+
+    .contributors-container { text-align: center; }
+
+    .contributor-content { width:40%; margin-left:2.5%; margin-right:2.5%; }
+    /*.contributors-container { font-size: 0.7em; }*/
+}

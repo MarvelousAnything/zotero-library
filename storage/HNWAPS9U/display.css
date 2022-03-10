@@ -1,0 +1,218 @@
+/* This stylesheet is used to style the public view of the plugin. */
+
+.form-control:focus {
+    outline: none;
+}
+
+/* Nexstar theme */
+/* Newsnation theme */
+.nexstar .sailthru-signup-display-area,
+.newsnation .sailthru-signup-display-area {
+    background: #000;
+    color: #fff;
+    padding: 10px 20px 5px 20px;
+    text-align: center;
+}
+
+.nexstar .sailthru-signup-display-button-area,
+.newsnation .sailthru-signup-display-button-area {
+    display: inline-block;
+    margin: 18px 5px 13px 5px;
+}
+
+.nexstar .sailthru-signup-display-message,
+.newsnation .sailthru-signup-display-message {
+    display: inline-block;
+    font-family: Roboto Condensed,arial,helvetica,verdana,sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    overflow-wrap: break-word;
+    line-height: 1;
+    margin: 0.3rem 1rem 0.7rem 1rem;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.nexstar .sailthru-signup-display-message span,
+.newsnation .sailthru-signup-display-message span {
+    text-transform: none;
+}
+
+.nexstar .sailthru-signup-success-message,
+.newsnation .sailthru-signup-success-message {
+    line-height: 1;
+    margin: 1rem 0.5rem;
+    text-align: center;
+    font-family: Roboto Condensed,arial,helvetica,verdana,sans-serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.nexstar .sailthru-signup-display-button,
+.newsnation .sailthru-signup-display-button {
+    cursor: pointer;
+    background-color: #2d5ea8;
+    border: 0;
+    color: #fff;
+    font: bold 12px Arial !important;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nexstar .sailthru-signup-display-button:focus,
+.newsnation .sailthru-signup-display-button:focus {
+    outline:none;
+}
+
+.nexstar .sailthru-add-subscriber-errors,
+.newsnation .sailthru-add-subscriber-errors {
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    height: 16px;
+}
+
+.nexstar .sailthru-subscribe-grid-display,
+.newsnation .sailthru-subscribe-grid-display {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    align-items: center;
+}
+
+.nexstar .sailthru-subscribe-SM-display,
+.newsnation .sailthru-subscribe-SM-display {
+    display: block !important;
+}
+
+.nexstar .sailthru-add-subscriber-form,
+.newsnation .sailthru-add-subscriber-form {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    margin-top: 0.7rem;
+}
+
+.nexstar .sailthru-subscribe-form-SM-display,
+.newsnation .sailthru-subscribe-form-SM-display {
+    text-align: center;
+    margin: 0.5rem 0rem !important;
+    width: 100%;
+}
+
+.nexstar .sailthru-signup-display-button .sailthru-subscribe-form-SM-display,
+.newsnation .sailthru-signup-display-button .sailthru-subscribe-form-SM-display {
+    margin: 0.2rem 0rem 1.3rem 0rem !important;
+}
+
+/* Nexstar WV theme */
+.nexstar-wv .sailthru-signup-display-area {
+    min-height: 210px;
+}
+
+.nexstar-wv .content-area .sailthru-signup-display-area {
+    min-height: 120px;
+}
+
+.nexstar-wv .sailthru-signup-display-message {
+    font-family: "Source Serif Pro", georgia, times, serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 34px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.nexstar-wv .sailthru-signup-display-message span {
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.nexstar-wv .content-area .sailthru-signup-display-message {
+    font-size: 41px;
+    line-height: 40px;
+}
+
+.nexstar-wv .content-area .sailthru-signup-display-message span {
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.nexstar-wv .sailthru-signup-success-message {
+    font-family: "Source Sans Pro", arial, helvetica, verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    position: relative;
+    text-align: center;
+    top: 100px;
+}
+
+.nexstar-wv .content-area .sailthru-signup-success-message {
+    top: 70px;
+}
+
+.nexstar-wv .sailthru-signup-success-message::before {
+    content: url('../img/check-circle.png');
+    left: 50%;
+    margin-left: -19px;
+    height: 37px;
+    position: absolute;
+    top: -47px;
+    width: 37px;
+}
+
+@media only screen and (min-width: 800px) {
+    .nexstar-wv .content-area .sailthru-subscribe-grid-display {
+        display: grid;
+        grid-template-columns: 5fr 5fr;
+    }
+    .nexstar-wv .content-area .sailthru-add-subscriber-form {
+        padding-left: 15px;
+    }
+}
+
+.nexstar-wv .sailthru_email {
+    background-color: #fff;
+    border: 1px solid #0a3488;
+    border-radius: 2px;
+    color: #1c1c1c;
+    font-family: "Source Serif Pro", georgia, times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -.01em;
+    line-height: 20px;
+    margin: 0 0 5px;
+}
+
+.nexstar-wv .sailthru-signup-display-button {
+    background-color: #fff;
+    border: 2px solid #0a3488;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #1c1c1c;
+    cursor: pointer;
+    font-family: "Source Sans Pro", arial, helvetica, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 20px;
+    margin: 15px 0 10px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.nexstar-wv .sailthru-signup-display-button:hover {
+    background-color: #123498;
+    color: #fff;
+}
+
+.nexstar-wv .sailthru-add-subscriber-errors {
+    color: #921e17;
+    font-family: "Source Sans Pro", arial, helvetica, verdana, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}

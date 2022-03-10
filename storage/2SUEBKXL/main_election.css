@@ -1,0 +1,374 @@
+
+.quirkycnt { padding:0 50px 50px; position: relative;}
+.quirkycnt:after { content: ""; position: absolute; bottom: 0px; left: 0px; z-index:-1; width: 100%; height:400px; background:#D5EBE2;}
+.QCmainstory { margin-bottom: 20px;}
+.QCmainstory a { display: block; position: relative;}
+.QCmainstory a span { background: #4f806bf2;    color: #fff;    font: bold 30px/40px 'Playfair Display', sans-serif;
+position: absolute; top: 50%; transform: translate( 0px , -50%); padding: 25px; border: 5px solid white; left: auto; right: -30px; width: 380px; box-sizing: border-box; text-align: center;}
+.qs_rigtad { margin-top:168px;}
+.electionNocnt { display: flex;}
+.electionNocnt .elecnoBx { width:305px; display: flex; flex-flow: column;}
+.bxhorz1, .bxhorz2 { margin:3px;  border-radius:10px; padding:10px; box-sizing: border-box; display: flex; justify-content: center; align-items: center; text-align: center; font:500 12px/18px 'Poppins', arial, Sans-Serif; flex-flow: column; }
+.bxhorzcnt2 { display: flex; flex-flow: row;}
+.elnobx_bluebg { background:#D5EBE2; color:#2C2C2C !important; text-decoration: none !important; } 
+.elnobx_lighcream { background:#FFFAE3; color:#315A48 !important; text-decoration: none !important;} 
+.elnobx_purpal { background:#DDDDDD; color:#2C2C2C !important;  text-decoration: none !important;} 
+.elnobx_lightpurpal { background:#F2E9E7; color:#802E1A !important; text-decoration: none !important;} 
+.bxhorz1 { height:150px;}
+.bxhorz1 strong { display: block; margin-bottom:10px; font:900 62px/62px 'Playfair Display', sans-serif; }
+.bxhorz2 { height:165px;}
+.bxhorz2 strong { display: block; margin-bottom:10px; font:900 40px/40px 'Playfair Display', sans-serif;}
+.bxhorz1 strong span { font-size:36px; text-transform: uppercase;}
+.morenews_btm.electionNo .mcel-line-title {letter-spacing:-2px;}
+.graph_item { width:290px;margin:0 15px;}
+.elgrph_cnt { /*border:1px solid #DDDDDD; */border-radius: 5px; margin-bottom:10px;  }
+.elgrph_cnt img{border:1px solid #DDDDDD; }
+.graph_item a { display: block; color:#2C2C2C;  font:700 14px/20px 'Poppins', arial, Sans-Serif;  }
+.elgraphslide .slick-slide{margin: 0 10px;}
+.elgraphslide .slick-dots { margin-top:30px;}  
+.pollresult_slider .slick-dots {margin-top:15px;} 
+.elgraphslide .slick-dots li, .pollresult_slider .slick-dots li { padding:0 4px; }
+.elgraphslide .slick-dots button, .pollresult_slider .slick-dots button { text-indent:-999em;  background:rgba(79, 128, 107,0.5); width:10px; height:10px;}
+.elgraphslide .slick-dots .slick-active  button, .pollresult_slider .slick-dots .slick-active button { border-radius:10px;  background:rgba(79, 128, 107, 1); width:26px;  }
+.QCmainstory a figure { position: relative; color:#fff;}
+.mcel-other-opinions .opinion-thumb a { display: block; position: relative;}
+.vidplay {position: absolute; left: 8px; bottom: 8px; color: #fff;}
+.pollresult_slider a:hover { text-decoration:none;}
+
+.photo_interview_section {background: #FFFAE3; padding: 20px 0 20px; margin: 30px 0px 20px 0; }
+.photo_interview_section .mcel-left-news{ padding-right: 0; }
+.photo_interview_section .lead_story_wrap img, .photo_interview_section .interview_story_wrap img{border-radius:5px;} 
+.photo_interview_section .elect_sponbx img{border-radius:0;} 
+.photo_aside a:hover,.photo_aside a:focus{ color:#fff;}
+.interview_story_wrap a:hover,.interview_story_wrap a:focus{ color:#2C2C2C;}
+.photo_interview_section a, .photo_interview_section a:hover,.photo_interview_section a:focus,.photo_interview_section a:active,.photo_interview_section a:visited{text-decoration: none; outline: 0;}
+.photo_interview_section .mcel-container.flex{display: flex;justify-content: space-around; padding-top: 20px;grid-row-gap: 10px;}
+.photo_interview_section .elect_sponbx{grid-row-gap: 7px; flex-direction: column; right:0;}
+.photo_interview_section .circlebg{ background: url(https://images.moneycontrol.com/mcnews/images/election_2022/orange_dots_bg_white.png) center top no-repeat; } 
+
+.photo_aside .lead_story_wrap .lead_story_blk{position: relative;} 
+.photo_aside .lead_story_wrap figcaption{width: 100%; position: absolute; bottom: 0; left: 0; z-index: 1; padding-bottom: 50px; background:-moz-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.66) 5060,#000 100%);background:-webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.66) 40%,#000 100%);background:linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.66) 40%,#000 100%);border-radius: 0 0 5px 5px;}   
+.photo_aside .lead_story_wrap .title{ font-size: 28px; line-height: 37px; font-family: 'Playfair Display', Didot, Bodoni MT, Times New Roman, serif; margin-bottom: 10px; font-weight: 700; display: block; color: #fff; padding: 20px 20px 20px 30px;}
+
+
+.photo_story_slider{background: #4F806B; position: relative; z-index: 9; width: calc(100% - 30px); margin: -50px 0 0 auto;display: -webkit-flex; display: -moz-flex; display: -o-flex; display: -ms-flex; display: flex; flex-wrap: nowrap; justify-content: center; gap: 28px; padding-right: 65px;}
+.photo_story_slider .slide_story_item{padding: 15px 0 15px 15px;}
+.photo_story_slider .slide_story_item img{margin-bottom: 10px;} 
+.photo_story_slider .story_ttl{font-size: 14px; line-height: 20px; font-family: 'Poppins', arial, Sans-Serif; font-weight: 700; display: block; color: #fff; }
+.photo_story_slider.slick-slider .slick-slide{margin:0 10px 0 0;}
+.photo_story_slider .slick-prev, .photo_story_slider .slick-next{text-indent: -999em; position: absolute; text-align: center; line-height: 32px; width: 32px;  height: 32px; bottom: -45px; border: 1px solid #fff; border-radius: 50%;background-color: transparent; outline: 0; cursor: pointer; background: none !important; top: unset;}
+.photo_story_slider .slick-arrow.slick-prev {  right: 17px; top: 25px; left: unset; }
+.photo_story_slider .slick-arrow.slick-next {   right: 17px;  top: 65px; }
+.photo_story_slider .slick-next:before, .photo_story_slider .slick-prev:before{content: ""; position: absolute; left: 9px;  background: url(https://images.moneycontrol.com/mcnews/images/election_2022/contarrow_white.svg) no-repeat; width: 13px; height: 9px;}
+.photo_story_slider .slick-next:before { top: 10px; transform: rotate(180deg); }
+.photo_story_slider .slick-prev:before { transform: rotate(180deg); top: 11px; }
+.photo_story_slider .slick-next.slick-arrow.slick-disabled,.photo_story_slider .slick-prev.slick-arrow.slick-disabled{ opacity: 50%;}
+ 
+.interview_story_wrap{display: -webkit-flex; display: -moz-flex; display: -o-flex; display: -ms-flex; display: flex; flex-wrap: nowrap; justify-content: space-between; grid-gap: 22px;}
+.intv_lead_story_item{ width: calc(100% - 215px); margin-left: 28px;}
+.intv_story_list{width: 184px;}
+.intv_lead_story_item img{margin-bottom: 15px;}
+.intv_lead_story_item .intv_title{ font-size: 30px; line-height: 38px; font-family: 'Playfair Display', Didot, Bodoni MT, Times New Roman, serif; margin-bottom: 15px; font-weight: 700; display: block; color: #2C2C2C; text-align: center;}
+.intv_lead_story_item .intv_desc{font-size: 14px; line-height: 20px; font-family: 'Poppins', arial, Sans-Serif; margin: 0 auto 10px auto; font-weight: 400; display: block; color: #2C2C2C;text-align: center; width:90%;}
+.intv_story_list img{margin-bottom: 7px;} 
+.intv_story_list .intv_title{font-size: 14px; line-height: 20px; font-family: 'Poppins', arial, Sans-Serif; font-weight:700; margin-bottom: 15px; display: block; color: #2C2C2C;} 
+
+.quote_unquote_sec{background: #802E1A; padding: 50px 0 100px; margin-top:50px;  color: #fff;text-align: center;}
+.quote_container{width: 1100px;margin:0 auto;}
+.quote_main_slider{ border:10px solid #84A396;padding: 60px 80px; margin-bottom:60px; }
+.quote-title{color: #FFFAE3;font:700 40px/35px 'Playfair Display', serif;margin:0 0 40px;position: relative;z-index: 1;}
+.quote_unquote_sec .circlebg { background: unset; } 
+.quote_unquote_sec .mcel-line-title{ margin: 0 0 40px; position: relative; z-index: 1;}
+.quote-main .slick-list{padding: 0 !important;}
+.quote_unquote_sec .mcel-line-title:before { position: absolute; top: 0px; content: ''; width: 160px; height: 205px;  background: url('https://images.moneycontrol.com/mcnews/images/election_2022/quote-bg2.jpg?v=1')center center no-repeat; left: 0; right: 0;  margin: 0 auto; background-size: 100%; z-index: -1;}
+.quote_unquote_sec .elect_sponbx{ top: 64px; color: #ad8c8c;}
+.quote-inn{max-width: calc(1100px - 160px);margin:0 auto}
+.quote-inn p{font:700 30px/40px 'Playfair Display', serif;margin:0 auto 30px;}
+.quote-inn a{color: #fff !important; text-decoration: none !important; outline: 0px !important; outline: none !important;}
+.quote-author{display: flex; align-items: center; justify-content: center;}
+.author-img{width: 70px;height: 70px;border-radius: 50%;margin-right:20px}
+.quote-author span{color: #FFFAE3;font:700 18px/20px 'Poppins', sans-serif;}
+.quote_main_slider .slick-dots{position: absolute; left:0;right:0;margin:0 auto;text-align: center;bottom: -60px;}
+.quote_main_slider .slick-dots li { position: relative; display: inline-block; width: 10px;height: 12px;margin: 0 4px; padding: 0; cursor: pointer; border-bottom: 0px !important;}
+.quote_main_slider .slick-dots li.slick-active button{background:#FFFAE3;width: 26px; border-radius: 10px;}
+.quote_main_slider .slick-dots li{width: auto;}
+.quote_main_slider .slick-list{padding: 0 !important;}
+.quote_main_slider .slick-dots li button{ width: 10px;height: 10px; font-size: 0; line-height: 0; display: block; padding: 5px;cursor: pointer; color: transparent;border: 0;outline: none; background: transparent;background-color: #D6CACA; border-radius: 100%;} 
+.quote_unquote_sec .mcel-line-title{color:#FFFAE3;}
+
+ 
+.quirkystory:after { background:url("https://images.moneycontrol.com/mcnews/images/election_2022/right_bg.png") right -150px top no-repeat; width:475px; height:415px; right:0px; bottom:-70px; position: absolute; content: ""; z-index:-1;}
+
+
+/* Election Phase 3 caa start here */
+
+
+.sb_mtit {margin-bottom:50px;  position: relative; background: #4F806B; cursor: pointer; display: inline;  font:700 50px/71px 'Playfair Display', serif;}
+
+.sb_mtit a { padding: 10px;  color: #ffffff; -webkit-box-decoration-break: clone; box-decoration-break: clone; }    
+.sb_mtit a:hover, .sb_mtit a:focus { color:#fff; } 
+.storyblg ul { padding-top:25px; display: flex; justify-content: space-between;}
+.storyblg ul li { color:#4F806B; font-size:20px;  list-style: disc outside; margin:0 20px;  }
+.storyblg ul li a { color:#2C2C2C; font:700 14px/20px 'Poppins', sans-serif;}
+
+.lstream_cnt { position: relative;}
+.headlive { color:#4F806B; font:700 30px 'Playfair Display', serif;  }
+.headlive span { vertical-align: middle; position: relative; color:#C92C2C; display: inline-block; padding-left:12px; font:16px 'Poppins', sans-serif; margin-left:5px;  }
+.headlive span:before {position: absolute; left:0px; top:10px; content:""; width:6px; height:6px; background:#C92C2C; border-radius:50%; }
+.assembly_elVideo { box-sizing: border-box; margin-top:25px; width:825px; height:463px; overflow: hidden; position: relative; background-color: #052434;}
+.assembly_elVideo:before{border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #3498db;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite; content: ""; position: absolute; z-index: 0; margin-top: -25px; margin-left: -25px; left: 50%; top: 50%; }
+  /* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.assembly_elVideo .rightadBand { display: none; box-sizing: border-box; position: absolute;left:0px; top:0px; width:178px;  height:463px; background:#ccc; border:1px solid #000000;  }
+.assembly_elVideo .bottomadBand { display: none;  box-sizing: border-box;  position: absolute; right:0px; width:648px; height: 100px; bottom:0px; background:#ccc; border:1px solid #000000; }
+.assembly_elVideo.lband { padding:0px 0px 100px  178px;}
+.assembly_elVideo.lband .ima-ad-container iframe { height:100%; }
+.assembly_elVideo.lband .rightadBand, .assembly_elVideo.lband .bottomadBand { display: block; }
+.assembly_elVideo iframe { height:100%;} 
+.assembly_elVideo.lband .lbandbx iframe { height:463px; }
+
+
+.ele22_livestream { margin-bottom:50px; }
+.ele22_livestream article { float: left; position: relative; z-index:9; }
+.ele22_livestream aside { background:#FFFAE3; box-sizing:border-box; width:510px; position: absolute; right:0px;  padding:20px 20px 20px 100px;}
+.headhighlight { color:#315A48; font:700 30px 'Playfair Display', serif; margin-bottom:10px;}
+.ele22_livestream aside p { color:#2C2C2C;  font:italic 500 16px/24px 'Playfair Display', serif; margin-bottom:15px;   }
+.livefeed_list {height:350px; overflow-y:auto;padding:0 0px 0 5px; }
+.ele22_livestream aside ul { padding:0 0 0 15px;  border-left:1px solid #CCCCCC;   position:relative;  }
+.ele22_livestream aside ul li { margin-bottom:20px; }
+.ele22_livestream aside ul li strong { position: relative; display: block; margin-bottom:5px;  color:#C92C2C; font:600 14px/14px 'Poppins', sans-serif;}
+.ele22_livestream aside ul li strong:before { content: ""; position: absolute; width:11px; height:11px; border-radius:50%; border:2px solid #FFFAE3; top:0px; left:-23px; background:#C92C2C;  }
+.ele22_livestream aside ul li a { color:#2C2C2C; font:14px/21px 'Poppins', sans-serif;}
+
+
+.pollresult_slider { background:#D5EBE2; padding:15px; max-height: 300px; overflow: hidden;}
+.pr_box {  border:1px solid #D5D5D5; background:#fff; padding:15px; border-radius:10px; box-sizing: border-box;}
+.stat_survey {display:flex; justify-content: space-between; align-items:center;}
+.stat_survey .pprStatename { color:#1D1D2C; font:700 16px/18px 'Poppins', sans-serif;}
+.stat_survey p { background:#00294E; height:22px; padding:0 10px; color:#FFFFFF; border-radius:14px; font:12px/22px 'Poppins', sans-serif;}
+.seatswin { padding-top:10px; color:#212121; font:700 14px 'Poppins', sans-serif;}
+.seatswin span { color:#666666;  font:500 10px 'Poppins', sans-serif;}
+.partynseat table thead th { text-align: center;border-bottom:1px solid #fff; width:25%; padding:3px 0; color:#FFFFFF; font:700 14px 'Poppins', sans-serif;}
+.partynseat {margin-top:10px;}
+.partynseat table tbody td { color:#fff;  text-align: center; font:700 16px 'Poppins', sans-serif; padding:7px 0;}
+.partynseat table thead th:nth-child(1), .partynseat table tbody td:nth-child(1) { background:#92C53C;}
+.partynseat table thead th:nth-child(2), .partynseat table tbody td:nth-child(2) { background:#EA8333;}
+.partynseat table thead th:nth-child(3), .partynseat table tbody td:nth-child(3) { background:#B5193C;}
+.partynseat table thead th:nth-child(4), .partynseat table tbody td:nth-child(4) { background: #454545;}
+.pollresult_slider .slick-list {margin: 0 -5px;}
+/* item */  
+.pollresult_slider .slick-slide{ padding: 0 5px;}
+
+
+
+.analytic_center { display:flex; height:100px; margin:50px 0 0px; background:url("https://images.moneycontrol.com/mcnews/images/election_2022/analyticc-bg-desktop.png?v=1") no-repeat; padding:0 50px; align-items: center;}
+.analytic_center h3 { color: #FFFAE3; font: italic 700 36px/36px 'Playfair Display', sans-serif; display: flex; height: 50px;}
+.analytic_center p { display: flex;}
+.analytic_center a { display: flex; color: #FFFFFF; font:italic 28px 'Poppins', sans-serif;}
+.analytic_center span {border:2px solid #FFFAE3; display:inline-block; vertical-align: middle; margin-left:20px;  width:40px; height:40px; border-radius:50%;     align-items: center;
+    display: flex; color:#fff; 
+    justify-content: center;}
+.analytic_center em {border-right:1px solid #84A396; width:1px; height:50px; margin:0 30px;  display:flex; }
+.analytic_center a:hover, .analytic_center a:focus { color:#fff; text-decoration: none;}
+
+.livefeed_list::-webkit-scrollbar {
+  width:6px;
+}
+
+/* Track */
+.livefeed_list::-webkit-scrollbar-track {
+  background:url("https://images.moneycontrol.com/mcnews/images/election_2022/scroll_line.png") center top repeat-y;
+}
+ 
+/* Handle */
+.livefeed_list::-webkit-scrollbar-thumb {
+  background: #84A396; border-radius:10px; width:10px;
+}
+
+.livefeed_list::-webkit-scrollbar-thumb:hover {  background:#84A396; }
+/* Election Phase 3 caa end here */
+#el_battelgHome .election_wrapper .slick-next{ transform: rotate(180deg); }
+
+
+.videoPlayerBox{position: relative; z-index: 1;}
+.lbandbx{position: absolute; left: 0px; top: 0px; width: 100%; z-index: 0; height: 463px;}
+
+
+ 
+@media all and (max-width:1199px) {
+	.quote_main_slider{width: 90%;padding: 40px 30px;border:5px solid #84A396;margin: 0 auto}
+	.quote_unquote_sec .ad-right{right:0;bottom: -20px;}
+	.quote-inn{max-width: 100%}
+	.quote_container{width: 100%;}
+ .ele22_livestream aside { width:405px; }
+ .assembly_elVideo { width:648px; }
+ .assembly_elVideo:before{ margin-top: -29px; }
+ 
+	
+}
+
+@media all and (max-width:980px) {
+	.quote_container{ width: 100%;padding: 0px;}
+	.quote_unquote_sec{ padding: 20px 0 70px;}	
+	.quote_unquote_sec .mcel-line-title-wrap{ justify-content: space-between; padding: 0 15px;}
+	.quote_unquote_sec .mcel-line-title {font-size: 24px; line-height: 30px; color: #FFFAE3; width: 120px; display: flex; padding-top: 0; margin: 0px 0 24px;} 
+	.quote_unquote_sec .mcel-line-title:before{ width: 100px; height: 115px;}
+	.quote_main_slider{ width: calc(100% - 30px); margin: 0 auto; padding: 40px 30px; border:5px solid #84A396;}
+	
+	.quote-title{font-size: 24px;margin-bottom: 28px; width: 125px;}
+	.quote-title:before{width: 100px;}
+	.quote-inn p{font-size: 20px;line-height: 30px;}
+	.quote-author span{font-size: 16px;}
+	.quote_unquote_sec .author-img{margin-right: 10px;}
+	.quote_unquote_sec .ad-right{display: flex;flex-direction: column;right:15px;bottom: -20px;}
+	
+	.quote_main_slider .slick-dots{bottom: -45px;}
+	.quote_unquote_sec .elect_sponbx {top: -25px; position: relative;}
+ 
+ .photo_interview_section .circlebg{background:unset;}
+	.photo_interview_section{padding: 20px 0 20px;}
+	.photo_interview_section .mcel-container.flex{ padding-top: 0px; flex-wrap: wrap;}	 
+	.photo_story_slider { white-space: nowrap; width: 100%; overflow-x: auto;overflow-y: hidden; padding-right: 0; }
+	.photo_story_slider .slide_story_item{display: inline-block; white-space: normal; width: 160px; margin-right: 10px;padding: 15px 0 15px 0px; vertical-align: top;}
+	.photo_story_slider .slide_story_item:first-of-type{ margin-left: 15px;}
+	.photo_aside .lead_story_wrap .title { font-size: 16px; line-height: 22px; margin-bottom: 0; padding: 15px 15px 15px 15px;} 
+	.photo_story_slider .story_ttl{ font-size: 12px; line-height: 18px;}
+	.photo_aside .lead_story_wrap figcaption{ padding-bottom: 0px; width: calc(100% - 30px); left: 15px; right: 15px; border-radius: 0 0 0 0;}
+	.photo_aside .lead_story_wrap .lead_story_blk { padding: 0 15px;}
+	.photo_aside .lead_story_wrap .lead_story_blk{display:block;}
+	.photo_interview_section .mcel-line-title-wrap{ justify-content: space-between; padding: 0 15px 0px 15px;} 
+	.photo_story_slider{margin: 0; display: block;}
+	.photo_interview_section .mcel-line-title{font-size: 24px; line-height: 28px;}	 
+	.photo_interview_section .elect_sponbx{ padding-top: 0; padding-bottom: 5px;}
+	.intv_lead_story_item { width: auto; margin-left: 0; padding: 0 15px;} 	
+	.intv_story_item{display: inline-block; white-space: normal; width: 160px; margin-right: 10px; vertical-align: top; }
+	.intv_story_list{white-space: nowrap; width: 100%; overflow-x: auto;overflow-y: hidden; }
+	.intv_story_item:first-of-type{ margin-left: 15px;}	
+	.intv_lead_story_item .intv_desc{display:none;}
+	.interview_story_wrap{ display: block; width: 100%;}
+	.intv_lead_story_item .intv_title { font-size: 22px; line-height: 28px;}
+	.intv_lead_story_item img{margin-bottom: 10px;}
+	.photo_interview_section .mcel-left-news{ padding: 0;}	
+	
+ .photo_interview_section .mcel-line-title {
+    background: url(https://images.moneycontrol.com/mcnews/images/election_2022/orange_dots_bg.png) center center no-repeat;
+    background-size: 90px 90px;
+    min-height: 90px;
+    display: flex;
+    align-items: center; position: relative; bottom:-10px; 
+}
+ 
+	.intv_story_list .intv_title{margin-bottom: 0px;}
+	.interview_aside .mcel-line-title-wrap{width: 100%;}
+ 
+ 
+.QCmainstory { margin-bottom:0px; }
+.quirkycnt { padding:0px 10px 10px; position: relative;}
+.quirkycnt:after { content: "";    position: absolute;    bottom: 0px;    left: 0px;    z-index: -1;    width: 100%;
+    height: 400px;    background: #D5EBE2;}
+.QCmainstory a { color:#fff; }
+.QCmainstory a span {  text-align: center; background: #4f806bf2;  color: #fff;   font: bold 22px/28px 'Playfair Display', sans-serif; right: auto; transform: none; width: auto; padding: 10px; border: 4px solid white;
+font-size: 22px; line-height: 28px; margin:0px 10px; margin-top: -20px; position: relative; display: block; z-index:9;}
+.elect_sponbx { margin-left:auto;}
+.quirkystory .mcel-line-title { width: 110px;  font: 700 24px/28px 'Playfair Display', sans-serif;   display: flex;    justify-content: center; align-items: center;}
+.quirkystory:after { display: none;}    
+    
+.state_section.electionGraph { background: #D5EBE2; padding: 20px 0 50px; margin:10px 0px 20px;}
+
+.electionNocnt { display: block; padding:0 10px; overflow-x: auto; white-space: nowrap;}
+.electionNocnt .elecnoBx { display: inline-block; /*width:265px;*/ flex-flow: column; white-space: normal; vertical-align: top;}
+.bxhorz1, .bxhorz2 { margin:3px;  border-radius:10px; padding:10px; box-sizing: border-box; display: flex; justify-content: center; align-items: center; text-align: center; font:500 12px/18px 'Poppins', arial, Sans-Serif; flex-flow: column; }
+.bxhorzcnt2 { display: flex; flex-flow: row;}
+.elnobx_bluebg { background:#D5EBE2; color:#2C2C2C;  } 
+.elnobx_lighcream { background:#FFFAE3; color:#315A48;  } 
+.elnobx_purpal { background:#DDDDDD; color:#2C2C2C;  } 
+.elnobx_lightpurpal { background:#F2E9E7; color:#802E1A; } 
+.bxhorz1 { height:150px;}
+.bxhorz1 strong { display: block; margin-bottom:10px; font:900 62px/62px 'Playfair Display', sans-serif; }
+.bxhorz2 { height:165px;}
+.bxhorz2 strong { display: block; margin-bottom:10px; font:900 40px/40px 'Playfair Display', sans-serif;}
+.bxhorz1 strong span { font-size:36px; text-transform: uppercase;}
+
+.morenews_btm.electionNo .mcel-line-title { letter-spacing:0px; width:190px;}
+
+.elgraphslide { padding:10px 10px 0px;}/*
+.elgraphslide .graph_item { margin:0px;}*/
+
+.elgrph_cnt { border:1px solid #DDDDDD; border-radius: 5px; margin-bottom:10px;  }
+.graph_item a { display: block; color:#2C2C2C;  font:700 14px/20px 'Poppins', arial, Sans-Serif;  }
+.elgraphslide .slick-dots { margin-top:30px;}  
+.elgraphslide .slick-dots li, .pollresult_slider .slick-dots li { padding:4px; }
+.elgraphslide .slick-dots button, .pollresult_slider .slick-dots button { text-indent:-999em;  background:rgba(79, 128, 107,0.5); width:10px; height:10px;}
+.elgraphslide .slick-dots .slick-active  button, .pollresult_slider .slick-dots .slick-active button { border-radius:10px;  background:rgba(79, 128, 107, 1); width:26px;  }
+.QCmainstory a figure { position: relative; color:#fff;}
+.mcel-other-opinions .opinion-thumb a { display: block; position: relative;}
+.vidplay {position: absolute; left:5px; bottom:auto; top:5px;  color: #fff;}
+
+
+/* election phase 3 style start here */
+.sb_mtit { font:700 24px/34px 'Playfair Display', serif; }
+.storyblg ul  { padding-top:10px;  display:block;}
+.storyblg ul li { margin-bottom:10px; }
+.storyblg { padding:0 15px;}
+.ele22_livestream aside { position:relative; width:auto; padding:100px 15px 15px; margin-top:-75px;  }
+.headlive {font-size:26px; margin-top:20px;}
+.ele22_livestream article {padding:0 15px; float: none; }
+.assembly_elVideo { margin-top:10px; width:auto; height:165px;}
+.headhighlight { font-size:24px; }
+.ele22_livestream aside p { font-size:15px; line-height:16px;}
+.ele22_livestream { margin-bottom:20px;}
+.pollresult_slider { margin-top:3px;  }
+
+ .partynseat table tbody td, .partynseat table thead th { font-size:13px; }
+
+
+.pollResult .slick-list{padding:0 15% 0 0 !important;}
+.analytic_center { background:url("../../images/election_2022/analyticc-bg-mobile.png") right bottom no-repeat; background-size: cover;width:auto;  padding:15px; display: block; margin:30px 15px;  }
+.analytic_center em { display: none; }
+.analytic_center h3 { font:italic 700 24px 'Playfair Display', sans-serif; height: auto;
+    margin-bottom: 10px; }
+.analytic_center a { align-items: center; font:italic 20px 'Poppins', sans-serif; width:100%;  }
+.analytic_center span { margin-left:auto; }
+.rightadBand, .bottomadBand { display: none;}
+.mobileadBand  { display: none; border:1px solid #000000; box-sizing: border-box; width:100%; height:50px; position: absolute; bottom:0px; left:0px; background:#ccc; z-index: 1;}
+.assembly_elVideo.lband { padding:0px 0 50px 0; height:215px;   }
+.assembly_elVideo.lband .mobileadBand { display: block; }
+.assembly_elVideo.lband .rightadBand, .assembly_elVideo.lband .bottomadBand { display: none; }
+.assembly_elVideo.lband iframe, .assembly_elVideo iframe { height:100%; }
+ /* election phase 3 style end here */
+ #el_battelgHome .election_wrapper .slick-prev, #el_battelgHome .election_wrapper .slick-next{ display: block !important; }
+ .battel2022{ margin-bottom: 10px; }
+ .card_slider .slick-list{padding-right: 80px !important;}
+
+ .lbandbx{display: none;}
+.assembly_elVideo:before{border: 2px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 2px solid #3498db;
+  width: 30px;
+  height: 30px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite; content: ""; position: absolute; z-index: 0; margin-top: -15px; margin-left: -15px; left: 50%; top: 50%; }
+ 
+} 
+
+@media all and (max-width:380px) {
+    .quote-title{font-size: 18px;margin-bottom: 20px;}
+    .quote-title:before {width: 70px;}
+    .pollResult .slick-list{padding:0 8% 0 0 !important;}
+    .pollresult_slider .slick-slide {
+    padding: 0 2px;
+}

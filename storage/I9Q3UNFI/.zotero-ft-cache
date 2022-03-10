@@ -1,0 +1,2091 @@
+National-Scale Biomass Estimators for United States Tree Species
+
+Jennifer C. Jenkins, David C. Chojnacky, Linda S. Heath, and Richard A. Birdsey
+ABSTRACT. Estimates of national-scale forest carbon (C) stocks and fluxes are typically
+based on allometric regression equations developed using dimensional analysis techniques.
+However, the literature is inconsistent and incomplete with respect t o large-scale forest C
+estimation. We compiled all available diameter-based allometric regression equations for estimating total aboveground and component biomass, defined in dry weight terms, for trees
+i n the United States. We then implemented a modified meta-analysis based on the published equations to develop a set of consistent, national-scale aboveground biomass regression
+equations f o r U.S. species. Equations for predicting biomass of tree components were
+developed as proportions of total aboveground biomass for hardwood and softwood groups.
+A comparison with recent equations used to develop large-scale biomass estimates from U.S. forest inventory data for eastern U.S. species suggests general agreement (+30%)between
+biomass estimates. The comparisonalso shows that differences in equation forms andspecies groupings m a y cause differences at small scales depending o n tree size and forest species composition. This analysis representsthe first major effort to compile and analyze all available
+biomass literature in a consistent national-scaleframework. The equations developed here are used t o compute the biomass estimates used b y the model FORCARB t o develop the U.S. C budget. FOR.SCI.49(1): 12-35.
+Key Words: Allometric equations, forest biomass, forest inventory, global carbon cycle.
+
+ESEARCHERS IN VARIOUS COUNTRIES have developed Forest Service's Forest Inventory and Analysis (FIA) Sam-
+
+national-scale forest carbon (C) budgets to increase pling design includes a network of plots chosen to represent
+
+understanding of forest-atmosphere C exchange at conditions across the landscape. In the past, the plots were
+
+large scales and to support policy analysis regarding green- periodically measured; however, an annualized design was
+
+house gas reductions (Birdsey and Heath 1995,Turner et al. recently adopted. In either design, plot-level information is
+
+1995,Kauppi et al. 1997,Nabuurs et al. 1997,Kurz and Apps computed directly from individualtree characteristics,such
+
+1999,Nilsson et al. 2000). These C budgets have been based as diameter at breast height (dbh) and species, which are
+
+primarily on regional forest inventory data, which provide a measured during the inventory. Plot statistics may then be
+
+good representation of forest conditionsand trends when the aggregated to provide information about forest populations
+
+data are based on extensive networks of sampleplots that are of interest,providedthosepopulationsareadequately sampled
+
+remeasured periodically. In the United States, the USDA by the inventory.
+
+p
+
+p
+
+p
+
+p
+
+p
+
+p
+
+p
+
+p
+
+p
+
+p
+
+p
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Jennifer C. Jenkins, Research Forester, USDA Forest Service, George D. Aiken Forestry Sciences Laboratory, 705 Spear Street, South Burlington, VT 05403. Current address: University of Vermont, School of Natural Resources, 590 Main St., Burlington, VT-Phone: (802) 656-2953; Fax: (802) 636-2995; E-mail: jennifer.c.jenkins@uva.edu. David C. Chojnacky, Enterprise Business Owner, USDA Forest Service, Forest Inventory Research, P.O. Box 96090, Washington, DC 200906090-E-mail: dchojnacky@fs.fed.us. Linda S. Heath, Research Forester, USDA Forest Service, Louis C. Wyman Forestry Sciences Laboratory, 271 Mast Road, Durham, NH 03824-E-mail Lheath@fs.fed.us. Richard A. Birdsey, Program Manager, USDA Forest Service, Northern Global Change Program, 11 Campus Blvd., Suite 200, Newtown Square, PA 19073-E-mail: rbirdsey@fs.fed.us.
+
+Acknowledgments:The authors are grateful to Eric Wharton for providing the initial biomass literature and to Stan Arner for helpful discussions. We thank Brad Smith for his interest andencouragement. We also appreciate the editorial remarks of Lane Eskew, Timothy Gregoire, and Paul van Deusen as well as the helpful suggestions made by four anonymous reviewers. This research was supported by the USDA Forest Service Northern Global Change Program.
+
+Manuscript received December 4, 2000, accepted October 15, 2001.This article was written by U.S. Government employees and is therefore in the public domain.
+
+12
+
+Reprintedfrom Forest Science, Vol. 49, No. 1, February 2003. Not for.further reproduction.
+
+representative of the target population because of factors such as size range of sample trees and stand conditions; (3) statistical error associated with estimated coefficients and form of selected equation; (4) inconsistent standards, definitions, and methodology; (5) use of indirect estimation methods that compound errors; and (6) measurement and data processing errors. It may be nearly impossible to quantify all of these errorsin a practical application (Phillipset al. 2000). Indeed, inconsistencies in methods, analyses, and reporting among the numerous published biomass studies were substantial obstacles in this analysis.
+Despite these inconsistencies, or perhaps because of them, the need is clear for a consistent method for forest biomass estimation for application in large-scale studies. To accomplish this goal with our synthesisof the existing literature,we incorporated data from published studies into new biomass estimation equations. Variations on this technique have been applied successfully in the past by other researchers wishing to combine measured or modeled data points into new, more general, equations (Schmitt and Grigal 1981, Pastor et al. 1984, Schroeder et al. 1997).
+Methods
+Overview
+The formal statistical method for compiling information from many studies is meta-analysis (Hedges and Olkin 1985). This method was devised to summarize studies on the same topic by different investigators, generally to obtain a combined significance level for an overall mean among studies. Simply stated, meta-analysis is: (1) identification of a problem; (2) retrieval of relevant studies;(3) extractionof appropriate data; and (4) formulation of a statistical model for combining data (Iyengar 1991).
+Unfortunately, an accepted statistical model for combining diverse regression equations has not yet been developed. For example, a recent paper by Peila (1997) describes an approach for combining regression estimates from independent samples, but formal meta-analytic approaches like this one do not apply to the current situation because: (1) formal meta-analysisrequiresanestimateof regressionerrors,which are rarely published in an appropriate format for existing biomass equations; (2) all equations used in such a metaanalysis must have identical forms and identical variable transformations; and (3) there is no clear method for combining estimatesfromthree or more regression equations.Application of formal meta-analytic techniques for combining regression coefficients would not work in our study, with its goal of developing generalizable biomass equations based on all available published literature. Application of published formal meta-analytic techniques would have limited the number of available equations (by requiring identical model forms and variable transformations, as well as specificinformation on regression errors) to the point where the resulting biomassequations would havebeen internally consistent, but not at all generalizable.
+Therefore, we chosefor our analysisa modified versionof a type of meta-analysis used by Pastor et al. (1984). Pastor followed the first three steps in Iyengar's definition of meta-
+14 Forest Science 49(I) 2003
+
+analysis, but refitting of regression predictions was used in place of a formal statisticalmodel for combining the regression results. Because developmentof new statisticalmethods is beyond the scope of this study, we based our approach on Pastor's "modified meta-analysis" to developnew diarneterbased regression equations from predictions by equations in the literature.
+We grouped species across taxonomic and geographic bounds. We did this because all species were not represented by published biomass equations,and because equations were not alwaysavailablethroughouttheentirerange for a species. For each species group, we sought a pool of regression equations that adequately capturedtrends in the diameter-tobiomass relationship. Using systematic graphing of published species-specific equations for total aboveground biomass, we found that within-species variation (i.e., variation among biomass regressions published by different authors for the same species) often exceeded variation between different species. Regionaldifferencesmight accountfor this phenomenon, but we found no apparent regional pattern in the published data. Most likely, noise in biomass measurements due to differences in methodology, together with some site-level variability in biomass values and the relatively small sample size, are the main contributors to this withinspecies variability.
+Theoretical literatureon plant allometry (West et al. 1997, Enquistet al. 2000)groupsthediameter-to-totalaboveground biomasscorrelation in a family of allometricscalingrelationships that view plants as fractal-like networks, which can be described by the same model regardless of species or size. Whethera singleallometricequationcan adequatelydescribe all tree speciesneeds to be rigorously tested, but the apparent similarityin the diameter-to-totalabovegroundbiomass relationship across species in our data encourages such investigation. For this study, species were grouped into six softwood and four hardwood categoriesbased on a combination of taxonomicrelationships, wood specificgravity, and diarneter-to-aboveground biomass relationships. The woodland "softwood" group includes some hardwood mesquite, acacia, and oak species; these woodland species are all from dryland forests and are measured for diameter at ground line (see below for procedure used to transform diameters from ground line to breast height). In addition to the ten speciesgroup equations for predicting total aboveground biomass, we also developed equations to predict the relative biomass of tree components for hardwood and softwood types.
+Literature Search
+The first step in this analysis was to compile all available published biomass equations for U.S. tree species from the literature.Because many tree species common in the United States have also been studied intensively by Canadian researchers, we included all applicableinformation from studies conducted in Canada. In some cases, we also included biomass information for U.S. genera growing on other continents.
+While many researchers have reported that dbh is adequate for local or regional biomass estimation,others have suggested that both dbh and height must be included for
+
+Table 1. Hardwood species groups for the diameter-based aboveground biomass equations.
+
+No. of Species group eqs.
+
+Genus
+
+Species
+
+Wood-specific gravity*
+
+Literature reference
+
+Aspen/alder/ co~onwoodl willow
+
+36 Alnus Populus
+
+rubra sinuata
+SPP. balsamifera deltoides
+
+0.37
+
+7,8,44,55
+
+grandidentata
+
+SPP. tiemuloides
+
+Soft maple/ birch
+
+Salk 47 Acer
+
+SPP. macrophyllum pensylvanicum
+
+rubrum
+
+Betula
+
+spicatum alleghaniensis
+
+lenta papyrifera
+
+Mixed hardwood
+
+populifolia
+
+40 Aesculus
+
+octandra
+
+Castanopsis chvysophylla
+
+Cornus
+
+jlorida
+
+Fraxinus
+
+americana
+
+nigra
+
+pennsylvanica
+
+Liquidambar styracijlua Liriodendron tulipifera
+
+Nyssa
+
+aquatica sylvatica
+
+Oxydendrum arboreum
+
+Platanus
+
+occidentalis
+
+Prunus
+
+pensylvanica
+
+serotina virginiana
+
+Sassaf as Tilia
+
+albidum americana
+
+Ulmus
+
+heterophylla americana
+
+Hard maple/ oakhickory beech
+
+49 Acer Carya
+Fagus Quercus
+
+SPP. saccharum SPP . grandifolia alba coccinea
+
+ellipsoidalis
+
+falcata laurifolia
+
+_nigra
+
+_
+
+-
+
+-
+
+-
+
+-
+
+prinus
+
+rubra
+
+stellata
+
+* US Forest Products Laboratory. 1974. Wood handbook: Wood as an engineering material. USDA Agric. Handb. 72, rev.
+Reference numbers are matched to authors in Table 2. Reference number 32 for Freedman's combined species equation is also included in
+each species group.
+
+midpoint of the stump portion to be analyzed, using speciesspecific equations as described by Raile (1982). From these diameters, we computed total stump volume (outside bark) and stump wood volume (inside bark) assuming the stump was cylindrical.Stumpbark volumewas foundby difference. Stump wood and bark volume were multiplied by specific gravity values appropriate for each species and component, and added together to find total stump biomass.
+16 Forest Science 49(I)2003
+
+Aboveground Biomass
+"Pseudodata" from published equations.-The first step in the Pastor et al. (1984) method was generation of "pseudodata" from published equations. Biomass values were calculated for each of five diameters equally spaced within the diameter range of the trees used to develop each published equation. The diameter and biomass values were log-transformed to linearize the dbhlbiomass rela-
+
+Table 2. Key to reference numbers in Tables 1 and 3.
+
+Ref. no. Author reference
+
+1
+
+Acker and Easter (1994)
+
+Anurag et al. (1989)
+
+Bajrang et al. (1996)
+
+Barclay et al. (1986)
+
+Barney et al. (1978)
+
+Baskerville (1965)
+
+Binkley (1983)
+
+Binkley and Graham (1981)
+
+Bockheim and Lee (1984)
+
+Boerner and Kost (1986)
+
+Bormann (1990)
+
+Briggs et al. (1989) Brown (1978) Bunyavejchewinand Kiratiprayoon (1989) Busing et al. (1993)
+
+Campbell et al. (1985) Carlyle and Malcolm (1986) Carpenter (1983) Carter and White (1971) Chapman and Gower (1991) Chojnacky (1984) Clark et al. (1985) Clark et al. (1986)
+
+Clary and Tiedemann (1987) Crow (1976) Crow (1983) Darling (1967) Dudley and Fownes (1992) Felker et al. (1982) Feller (1992) Freedman (1984) Freedman et al. (1982) Gholz et al. (1979) Gower et al. (1987) Gower et al. (1992) Gower et al. (1993) Green and Grigal(1978) Grier et al. (1984) Grier et al. (1992) Grigal and Kernik (1984)
+
+Harding and Grigal(1985) Harmon (1994) Hegyi (1972) Helgerson et al. (1988) Hocker and Earley (1978) Honer (1971) J=Olmstod-Bmos(f9?7) - - - - - Jokela et al. (198 1) Jokela et al. (1986) Ker (198Oa)
+
+Ref. no. 52
+
+Author reference
+Ker and van Raalte (1981) Kinerson and Bartholomew (1977) Koerper and Richardson (1980) Koerper (1994) Knunlik (1974) Landis (1975) Lieffers and Campbell (1984) Lodhiyal et al. (1995) Lovenstein and Berliner (1993) MacLean and Wein (1976) Marshall and Wang (1995) Martin et al. (1998) Miller et al. (1981) Monteith (1979) Moore and Verspoor (1973) Morrison (1990) Naidu et al. (1998) Nelson and Switzer (1975) Ouellet (1983) Parker and Schneider (1975) Pastor and Bockheim (1981) Pearson et al. (1984) Perala and Alban (1982) Perala and Alban (1994) Peterson et al. (1970) Phillips (1981) Pollard (1972) Rajeev (1998) Ralston (1973) Reiners (1972) Rencz and Auclair (1980) Ribe (1973) Ross and Walstad (1986) Ruark and Bockheim (1988) Sachs (1984) Schnell(1976) Schubert et al. (1988) Siccama et al. (1994) Singh (1984) St. Clair (1993) Swank and Schreuder (1974) Teller (1988) Van Lear et al. (1984) Vertanen et al. (1993) Wang et al. (1995) Westman (1987)
+Woodwell (1968) Whittaker and Niering (1975) - Williams and McClenahen (1984) Young et al. (1980)
+
+tionship, so that it could be fitted with simple linear regression rather than a more complicated nonlinear model. Finally, a new linear equation was fitted from the pseudodata. In this way, the new regression was a synthesis of the original published regressions.
+W e modified this approach slightly. In our analysis, if the range between the minimum and maximum diameters of the original equations was wider than 25 crn, the diameter range was divided by 5to obtain (to the nearest integer) the number of diameter values included for that equation, spaced at 5 cm intervals. If the upper diameter limit for a given equation was
+
+larger than 100cm, we spaced the diameter values larger than 100cm at 10cm intervals to moderate the influence of the these few large-tree equations. The median number of pseudodata points per equation was 8, but 10% of the equations spanned diameter ranges that exceeded 100cm; these large-tree equations were all developed for softwood species and represented between 20 and 50 pseudodata predictions each.
+Generalized regression for total aboveground biomass.-The pseudodata developed from the published equations were used to predict the relationships between tree dbh
+Forest Science 49(I) 2003 17
+
+Table 3. Softwood and woodland species groups for the diameter-based aboveground biomass equations.
+
+Species group No. of eqs
+
+Genus
+
+Species Wood-specific gravity
+
+Literature reference*
+
+Cedarllarch
+
+2 1
+
+Calocedrus
+
+decurrens
+
+0.37
+
+42
+
+Chamaecyparis Chamaecyparis/ Thuja Juniperus Larix
+
+nootkatensis
+SPP .
+virginiana
+laricina
+
+occidentalis
+
+Douglas-fir
+True fir/ hemlock
+
+Sequoiadendron Thuja
+
+11
+
+Pseudotsuga
+
+3 2
+
+A bies
+
+SPP. giganteum occidentalis plicata menziesii amabilis balsamea concolor grandis
+
+Iasiocarpa magnijka procera
+
+Tsuga
+
+Pine
+
+43
+
+Pinus
+
+SPPcanadensis heterophylla mertensiana albicaulis banksiana contorta discolor edulis
+
+jeflvi lambertiana
+
+monophylla monticola ponderosa
+
+resinosa rigida strobus
+
+Spruce
+
+28
+
+Picea
+
+taeda abies
+
+engelmannii glauca mariana rubens sitchensis
+
+Woodland
+
+11
+
+Acacia
+
+Cercocarpus
+
+Juniperus
+
+Prasopis Quercus
+
+* Reference numbers are matched to authors in Table 2.
+
+SPP. SPP. ledifolius
+monosperma osteospema
+spp.- - gambelii hypoleucoides
+
+0.70
+
+99
+
+(as the independent variable) and aboveground biomass for each speciesgroup. The logarithmicmodel form,commonin biomass studies, was used:
+bm = Exp(Po +PIIn dbh)
+where
+bm = total aboveground biomass (kg dry weight) for trees 2.5 cm dbh and larger
+dbh = diameter at breast height (cm) Exp = exponential function
+In = log base e (2.7 18282)
+
+Speciesgroups.4pecies wereassignedto 10groups(Tables 1 and 3) for developing the generalized total aboveground biomass regressions. Specific factors considered in assigning groupswere (inapproximateorderof importance): (1)phylogenetic relationships; (2) similarity of pseudodata; (3) adequate numbers of equationsper speciesgroup;(4)easeof applyingthe equationsforspeciesnot represented in the published literature; (5)adequatediameterrange of pseudodata; and (6)similarityof wood specificgravity. Thoughwe recognize that wood specific gravityisanimportantdeterminantof breebiomass,wechosenot to emphasize this parameter as a primary means of assigning species to groups because specific gravity was rarely reported with the published equations,and when reported it often varied
+
+18 Forest Science 49(1) 2003
+
+among different portions of an individual tree. Instead, we grouped speciesprimarily according to similaritiesin tree morphology, which are reflected in taxonomic affiliations. Where very few equationsexistedfor speciesin aparticulartaxonomic group,pseudodata were examined and specieswere assigned to groups with similar dbh/biomassrelationships.
+Large trees.-In addition to ensuring that the species group equations were developed from adequate numbers of pseudodata, came from populations with reasonably similar dbhlbiomass relationships and were appropriate for use with species not represented by a biomass equation, we ensured that each of the equations will be applicable for the entire dbh range of stems growing in the United States. Inclusion of large-tree equations for each group was especially critical because logistic regression equations may not extrapolate well beyond the range of data. Based on the full set of Eastwide and Westwide FIA data (Hansen et al. 1992, Woudenberget al. 1999,the largest softwoodand hardwood trees measured in the most recent inventory sample in the United States were 250 and 230 cm, respectively. Ample softwood pseudodata included trees as large as 250 cm dbh, such that we were able to include one equation with a dbh limit close to 250 cm in each of the softwood species groups.
+However, published hardwood equations have upper dbh limits ranging only from 56 to 73 cm. To ensure that our generalized hardwood equations would be applicable at diameters substantially larger than this, the generalized hardwood equation published by Freedman (1984) was used to predict biomass values for diameters between 100 and 230 cm for each hardwood species group. This equation's stated upper limitis 31.3cm, sowe were concernedthat it might bias biomass estimates at large dbh values. We plotted the generalizedFreedman (1984)hardwood equationtogetherwith the pseudodata from the softwood equations based on measured data to 250 cm that were used to develop the generalized regressions in this analysis. The Freedman (1984) equation matched the large-tree softwood equations closely at all values of dbh, suggesting that this equation does not contribute to substantial bias at large dbh values.
+While this solution is clearly not ideal, we re-emphasize that there are no published hardwood regression equations available for use in this analysis that were developed using hardwood trees as large as the largest trees in the inventory sample.Furthermore,we assertthat: (1)it is importantforour equations to be applicable at the large dbh values observed in nature; (2) equations developed without this correction were quite clearly biased upward at large diameters; (3) available mensurationaldatasets (e.g., Baker 1971,Sollinsand Anderson 1971,Crow 1976,Briggs et al. 1989)do not include trees at diameters approaching 230 cm; and (4) the only other approach to estimate biomass for hardwood trees with very large diameters would have been to use pseudodata from equations developed for softwoods.
+Correction factom-logarithmic regressionsare reported to result in a slight downward bias when data are back-transformed to arithmetic units (Baskerville 1972, Beauchamp and Olson 1973,Sprugel.1983).Toremedythisproblem, it has been proposed that the back-transformed results (from natural loga-
+
+rithmic units) be multiplied by a correction factor (CF), defined as exp(MSEQ) (Sprugel 1983),where MSE refers to the mean squared error of a line fit by least-squares regression. Because MSE varies inversely with sample size, however, the CF also varies with samplesize.Thisdoes not necessarily resultin more accurate estimates, and the correction itself might be biased for small sample sizes (Flewelling and Pienaar 1981).To avoid the bias potentially introduced by using such CFs, we uncorrected any equation coefficients that were presented by the original authors as having been corrected, and we did not use CFs when they were presented separately. In addition, though our regressions are presented in logarithmicform, we do not include CFs for the reader to use after back-transformation.The root mean squared error (RMSE) for each regression is included in Table 4, however, for the reader who wishes to calculate CF values.
+Goodness-of-fiL-Because ourgeneralizedregressionswere refit from published equations without using a technique that included a measure of the variability of the equations, it was difficult to calculate confidence intervals or other standard regression statistics to assess prediction error. However, we examined regression residuals in terms of percentage of predicted value. The residuals (pseudodataminus predicted value) fromthegeneralizedregressionswerefirstexpressed in termsof "percent of the predicted value," and these percentage values were ranked. Table 5 lists the 10th and 90th percentiles of the residual distribution (expressed as percent of predicted value) for each species group, which is an upper and lower bound for 80% of the pseudodata. These results indicated that 80% of the pseudodata fell within about 20 to 35% of our generalized regression equations.
+Comparison with other datasets.-As stated above, there is no available, representative, and complete set of tree mensurational data against which to compare our generalized biomass equations at the national scale. As a test of our equations, then, we compared our equations against other equations that were developed to be reasonably generalizable, and which have also been used to develop large-scale biomass estimates. Whilethiscomparisoncannotdetermineunequivocally whether anyof these equationstruly representthe conditionsobserved in nature,it can point out areas of disagreementand suggesttopics for further study.
+We predictedbiomassfor dbh valuesbetween 5 and 80cm using our equations and equations for northeastern species, which have also been applied to the USDA Forest Service FIA dataset for large-scale biomass estimation, published by Schroeder et al. (1997) and Brown et al. (1999). For this comparison, our four hardwood species group equations were compared with the general hardwood equation published by Schroeder et al. (1997); our spruce and true fir1 hemlock equations were compared with the sprucelfir equation published by Brown and Schroeder(1999);and our pine equation was compared directly with the equation for pine published by Brown and Schroeder (1999). Three of our species groups-Douglas-fir, woodland, and cedarllarchwere excluded from this analysis because trees in these groups were not represented in the dataset used by Schroeder et al. (1997) and Brown and Schroeder (1999) to develop their equations.
+Forest Science 49(1)2003 19
+
+Table 4. Parameters and equations* for estimating total aboveground biomass for all hardwood and softwood
+
+species in the United States.
+
+Parameters
+
+Data
+
+ax ttdbh RMSE"
+
+Species group
+
+h
+
+PI
+
+pointst
+
+cm
+
+log units
+
+R2
+
+Hardwood Aspen/alder/cottonwood~willow -2.2094 2.3867
+
+230
+
+70
+
+0.507441
+
+0.953
+
+Soft maplehirch
+
+-1.9123 2.3651
+
+316
+
+66
+
+0.491685
+
+0.958
+
+Mixed hardwood
+
+-2.4800 2.4835
+
+289
+
+5 6
+
+0.360458 0.980
+
+Hard maple/oak/hickory/beech
+
+-2.0127
+
+2.4342
+
+485
+
+73
+
+0.236483
+
+0.988
+
+Softwood
+
+Cedarllarch Douglas-fir True firkemlock Pine Spruce
+
+Woodland" Juniper/oak/mesquite
+* Biomass equation:
+bm = Exp(PO+ PI In dbh)
+
+-0.7152 1.7029
+
+6 1
+
+78
+
+0.384331
+
+where
+
+bm = total aboveground biomass (kg) for trees 2.5cm dbh and larger
+
+dbh = diameter at breast height (cm)
+
+Exp = exponential function
+
+In = natural log base "e" (2.718282)
+Number of data points generated from published equations (generally at 5 cm dbh intervals) for parameter estimation. tt Maximum dbh of trees measured in published equations. 8 Root mean squared error or estimate of the standard deviation of the regression error term in natural log units. 11 Woodland group includes both hardwood and softwood species fiom dryland forests.
+
+0.938
+
+Component Biomass
+We could not determine if the species groups used for total aboveground biomass were appropriate for grouping components because adequate numbers of equations were not available to predict the biomass of each component in each of the species groups. Attempts to devise new species groupings raised suspicions that dbh-based allometric relationships for tree components are much more complex than for total aboveground biomass. As a result, equations were pooled into hardwood and softwood groups for component biomass estimation.
+Merchantable stem and bark were defined from a 12 in. (30.48 cm) stump height to a 4 in. (10.16 cm) top (dob). Foliage estimates exclude twigs and include the current year's foliage and petioles plus any previous year's foliage still on the tree. Due to the scarcity of root biomass equations, we included all equations describing root biomass, regardless
+
+of the author's definition of roots. While some authors did not specify a root definition, most equations limited roots to a minimum diameter ranging from 0.15 to 5 cm. Where an author specified that an equation referred to stump plus roots, the biomass of the stump portion was calculatedas described above and then subtracted to find root biomass only.
+Where allometric equations were available for each component of interest [coarse roots, merchantable stem (wood and bark computed separately), and foliage], biomass estimates of component biomass were made and expressed as proportions of abovegroundtotal biomass. Thelogarithmsof these proportions were modeled as functions of inverse diameter so that the ratios reach an asymptote for large trees:
+
+[ !kz) ratio = Exp Po+-
+
+\
+
+/
+
+Table 5. Distribution percentiles of regression residuals-expressed as a percentage of predicted value-for aboveground biomass equations (Table 41 for all hardwood and softwood s~eciesin United States.
+
+Percent of predicted biomass
+
+Species group
+
+Data points*
+
+10th percentile
+
+90th percentile
+
+Hardwood
+
+Aspen/alder/cottonwood~willow
+
+230
+
+-35.2
+
+31.4
+
+Soft maplehirch
+
+3 16
+
+-23.8
+
+28.5
+
+Mixed hardwood
+
+289
+
+-24.7
+
+34.8
+
+Hard mapleloaWhickoryheech
+
+485
+
+-19.2
+
+22.3
+
+Softwood
+
+Cedarllarch Douglas-fir True firkemlock Pine Spruce
+
+Woodland
+
+Juniper/oak/mesquite
+
+61
+
+-32.2
+
+38.5
+
+* Number of data points generated fiom published equations (generally at 5 cm dbh intervals) for parameter estimation.
+
+Woodland group includes both hardwood and softwood species from dryland forests.
+
+20 Forest Science 49(1) 2003
+
+where
+ratio = ratio of component to total aboveground
+biomass (dry weight) for trees
+2.5 cm dbh and larger
+dbh = diameter at breast height (cm)
+Exp = exponential function
+In = log base e (2.718282)
+Due to the scarcity of component biomass equations and the substantialvariation in componentestimates, no attempt was made to quantify variability among published estimates.
+Results and Discussion Aboveground Biomass Regressions
+Aboveground biomass regression equations were developed for four hardwood and six softwood species groups (Table 4). In general, the hardwood species had greater biomass at a given dbh than did the softwoodspecies(Figure 1).Twohardwoodspeciesgroups-hard maple/oak/hickory/ beech, and soft maplebirch-had the greatest biomass at a given dbh. The woodland species had the lowest biomass values for a given diameter, and three of the softwood species groupshad thenext-lowestbiomassvalues: cedarllarch,pine, and spruce. The Douglas-fir species group had the largest of the softwood biomass values, while the aspen/alder/cottonwood/willow group had the smallest of the hardwood biomass values.
+Hardwood species groups.-The aspen/alder/cottonwood/willow group, the lightest of the hardwood groups at a given dbh, is comprised of species belonging to the Salicaceae
+
+- softmaple/birch
+Douglas fir
+mixed hadwod true fir/hemlod<
+
+cedar/Iarch
+1 10. wmdW
+200.
+
+0-
+
+. , . . . . . , . ........ I , , . . , . . , . .......
+
+Figure 1. Graphs of ten equations for predicting total aboveground biomass by species group. Hardwoods are represented by dashed lines, softwoods by solid lines.
+
+(Populus and Salk spp.) and Betulaceae (Alnus spp.) families. Though specific gravity was not used as the primary determinant of species grouping, these fast-growing species do have similar small bole wood specific gravity values (Table 1). Additional representatives of the Betulaceae family (Betula spp.) occur in the soft maplebirch species group. These species were grouped with the soft maple species separate from the members of the Betulaceae family in the aspen1 alder/cottonwood/willow group. The pseudodata developed from published equations for Betula species indicated that they were heavier at a given dbh than the Alnus species, and that they were more similar to the soft maple species than to the other members of their taxonomic group.
+Sugarmaple (Acersaccharurn)was groupedwith thehard maple/oaklhickory/beech group, apart from the other members of its family Aceraceae. This split reflects the different dbh/biomassrelationships in the soft and hard maple species, as well as the higher bole wood specific gravity in sugar maple compared to other species in the Aceraceae family. Speciesin the family Fagaceae,including oak (Quercusspp.) and American beech (Fagus grandifolia), had pseudodata that matched sugar maple closely and were thus included in this group, as were members of the Juglandaceae family
+(Carya spp.). Forty equations were included in the mixed hardwood
+group, compared with 36 in aspen/alder/cottonwood, 47 in soft maplebirch, and 49 in the hard maple/oak/hickory/beech group. However, more species and families are represented in the mixed hardwood group--21 and 14, compared with 8 species and 2 families in both the aspen/alder/cottonwoodl willow and softmaplelbirch groups,and 13speciesin 3families in the hard maple/oak/beechlhickory group. Because the pseudodata for different species and families, especially the speciesof intermediatebole wood specificgravity found in the mixed hardwood group,often overlappedwith one another,we grouped the mixed hardwoods together unless it was clear that they belonged in one of the other three groups. This grouping was consistent with the pseudodata distribution, resulted in reasonable prediction intervals about each of the groups, and allowed for more systematic group assignment of species not represented in the published literature.
+Softwood and woodland species groups.-Many of the softwood speciesin this analysis belong to the family Pinaceae. However, within the family, four genus groups-Douglasfir, fir/hemlock, pine, and spruce--display distinct patterns of dbh~biomassrelationships. The relative biomass of the groups [Douglas-fir is the heaviest at a given dbh, followed by firlhemlock, then spruce and pine (Figure I)] reflects roughlythe mean bole wood specificgravitiesof the different groups, with the exception of pine, which has a higher mean specific gravity than the spruce and firlhemlock groups. Several members of the Pinaceae family, particularly of the genus Taxodiaceae, are included with members of the genus Cupressaceae in the cedarllarch group. Despite the general agreement about the shape of the dbhlbiomass relationship within all of the species groups, there was as much variation within a single species as between different species in a group (this is illustrated for the genus Pinus in Figure 2).
+Forest Science 49(1) 2003 21
+
+The woodland group includes both softwood and hardwood species with very low biomass values at a given dbh; these species come from the Leguminoseae, Rosaceae, Cupressaceae,Betulaceae,and Fagaceaefamilies. The mean bole wood specific gravity for this group is higher than for any of the other groups (hardwood or softwood). Several factors may contribute to the low biomass of woodland species at a given dbh: (1) increased proportions of biomass in branches and foliage (Grier et al. 1992), putting greater emphasison accuratemeasurement of thesehard-to-measure components; (2) increased proportions of dead wood in live trees (Chojnacky 1994), potentially altering the allometric relationship for these species; and (3) potential errors in applying the drc to dbh conversion, which was based on a small sample of stems from western Colorado.
+Prediction intervals.-For the hardwood species group equations, the regression residuals (expressed as a percentage of the predicted value) in the 10th percentile fell, on average, 25.7% below the predicted values (Table 5). The regression residuals in the 90th percentile fell, on average, 29.3% higher than the predicted values (Table 5). For the softwood species groups, on average the regression residuals falling in the 10th and 90th percentiles fell, respectively, 24.7% below and 29.1% above the predicted values (Table 5).The group with the smallest prediction interval (i.e., 80% of the standardized residuals fell the closest to the predicted values) was the true firhemlock group, and the groups with the largest intervals were the woodland and the cedartlarch groups. These prediction intervals are a tool for evaluating the variability amongthepseudodatarelativeto thepredicted values;whilethey are aguideforinterpretingourresults,they are not meant to be quantitative estimators of uncertainty.
+
+Comparison with other datasets.-Our results suggest that softwood biomass is, on average, lower than hardwood biomass for a given tree diameter.This result is consistent with that of Schroederet al. (1997) and Brown and Schroeder (1999), who developed generalized equations from a combination of measured data and predicted data points from other equations. They found that softwood biomass (including pine, spruce, and fir species) was slightly lower than hardwood biomass in the northeastern maple-beech-birch forest. This result is also consistent with that of Freedman (1984), who developed generalized softwood and hardwood biomass equations from 285 measured trees in Nova Scotia and found that hardwood biomass was slightly higher than softwood biomass over all dbh values.
+Forhardwood species,there is general(k 30%)agreement between biomass predictions made for individual trees using our species-groupequations and the generalhardwoodequation of Schroeder et al. (1997) (Figure 3). While the mean difference between approaches is not excessively large, our equations predict lower biomass for the aspen/alder/cottonwood/willow group, and higher biomass for the hard maple/ oak/hickory/beech group than the Schroeder et al. (1997) equation at dbh values smaller than 110cm. This difference is to be expected, as our equations are split by species group according to general trends in the dbldbiomass relationship, in contrast to the single hardwood equation published by Schroeder et al. (1997).
+For softwood species, the mean difference between approacheswas againlessthan 40%.However, ourequationfor pine biomass predicted lower biomass values for pine species in these four states than the Brown and S c W e r (1999)
+40. 1. maple/oaWh'Id<ory/beech 2. true fir/hemlod< 3. soft maplebirch
+30. 4. spruce 5, mixed
+
+dbh flcm)
+Flgure 2. Example of pseudodata for Pinus species. Loblolly (gray square), lodgepole (large dot), and pinyon (star) species are highlighted. Smaller dots represent 11 other pine species. Dashedlinesindude809'0ofthepseudo-dataclosestto regression equation (solid line).
+22 Forest Science 49(1) 2003
+
+Figure 3. Our equations dlffer by up to 30% from regional equations developed by Brown and Schroeder (1999) and Schroodwetal. (1997).Differenceisrepresentedbyour equation minus the BrownISchroeder equation divided by the mean of the two sets of predictions.
+
+equation. The rapidly increasing and decreasing shape of the difference between the two pine datasets suggests that the discrepancy is likely due more to equation-form differences than to actual differences in the overall biomass relationships represented by the two equations. We limited this comparison to the diameter range of the trees used to develop the Schroeder et al. (1997) and Brown and Schroeder (1999) equations; inclusion of additional large tree diameters show the Brown and Schroeder equations approach an asymptote while ours continue to increase (Figure 4).
+Overall, the shape of the differences between the two approaches is dueto differentequationforms. The Schroederetal. (1997)and Brownand Schroeder(19%) equationsfollowalogtransformed, nonlinear half-saturationshapewith two inflection points, so that they increase quickly and begin to flatten out at dbh values aboveroughly 120cm. The Schroederet al. (1997) and Brown and Schroeder (1999) equations are based on trees withmaximumdiameterof 85.1 and71.6cmdbhforhardwoods and softwoods,respectively.Our analysis,which includedpredictions from equations developed using trees as large as 250 cm, suggests that the log-log equation form is more appropriate for very large trees.
+While there is general agreement between our broad conclusionsand those of otherresearchers,a similarcomparisonusing these equations to predict biomass at the individual site level or at alocal scaleisproblematic. Ourequationsweredevelopedfor application at regional to continental spatial scales and are designed to provide biomass estimates for regions containing a variety of site types. The most appropriate evaluation of our equations would be to compare against a large, representative, continental-scaleset of biomass data taken from sitesthat span the observed range for each species. Such a large, unbiased, and representative data set does not exist, to our knowledge. If it
+
+1. maple/oak/hickory/beech
+
+,I
+
+2. soft mapletbirch
+
+1
+
+3. pine
+
+I
+
+4. spruce
+
+I
+
+5. Brown/Schroeder spruce
+
+I 2
+
+6. Brown/Schroeder hardwood ,I 1
+
+0 20 40 60 80 100 120 140 160 180 200
+dbh (m
+Figure 4. Our equations predict higher biomass for large trees than dothosefrom Brown and Schroeder (1999)and Schroeder et al. (1997). Hardwoods are represented by dashed lines, softwoods by solid lines.
+
+could be developed,however,it would be immeasurably useful for endeavors like this one-indeed, this is absolutely the only way the accuracy of our equations (or of any set of generalized biomass equations) can be verified with certainty.
+Component Biomass
+We developed equations representing the average proportion of aboveground biomass in foliage, stem bark, stem wood, and coarse roots for hardwood and softwood species as a function of dbh (Tables 6 and 7, Figures 5 and 6). Branch (bark and wood) biomass was found by difference. Because our equations represent many species over a large variety of sites, we expect a larger range in component biomass than those equations from studies of smaller scope.
+Comparisonswith other datasets.-The range in softwood stem wood biomass reported here, roughly 30 to 60% of aboveground biomass, corresponds to the range (44 to 66% for softwoods larger than 8 cm dbh) reported by Freedman et al. (1982). For hardwood stem wood biomass, the same authors report a range from 45 to 7 1% of aboveground tree biomass for stems larger than 8 cm; this corresponds to the range we report for hardwoods larger than 10 cm, from 40 to 60% of aboveground biomass. Ker (1980a) reported that 67% of aboveground dry weight was contained in the merchantable stem for softwoods and 70% for hardwoods. Other authors have thus reported somewhat larger percentages of biomass in stem wood than we found in this study. However, this direct comparison may be misleading: the studies appropriate for this comparison include species such as birch, aspen, and sugar maple, which have the largest stem wood percentages in our dataset (Table 7). In addition, our approach emphasizes the change in these percentages with tree diameter, while the studies cited lump together a number of medium to large trees to develop one estimate across all diameters. Finally, most of these authors give little indication of potential variability in their ratio estimates.
+Freedman et al. (1982) reported that the percentage of biomass in merchantable stem bark varied from 8 to 11% for softwoods, and from 8 to 19% for hardwoods. Ker (1980b) reported that stem bark comprised 8 and 12% of softwood and hardwood biomass, respectively. These data fall roughly within the bounds reported from this analysis of 8 to 14% for softwoods and 10 to 15% for hardwoods.
+Freedman et al. (1982) report that foliage comprises from 7 to 19%of aboveground biomass for softwoods, and from 2 to 6% for hardwoods, while Ker (1980b) reported 8% for softwoods and 2% for hardwoods. Our results, that foliage makes up between 10 and 30% of aboveground biomass for softwoods and from 3 to 12% for hardwoods, were somewhat larger (at the upper end) than the mean published values. However, the upper portion of the percentage range in our data is based on very small trees, while the data from the studies cited include predominantly larger trees.
+Freedman et al. (1982) report that softwood branch biomass comprises between 7 and 20% of aboveground biomass for softwoods, and between 15 and 96% for hardwoods (where branches comprise a larger proportion
+Forest Science 49(1)2003 23
+
+Table 7. Data ranges for biomass component ratios expressed as the ratio of total aboveground biomass) for all
+
+hardwood and softwood species in the United States.
+
+Biomass
+
+Ratio percentiles
+
+dbh range
+
+component
+
+Species group
+
+5th
+
+95 th
+
+k*
+
+min
+
+max
+
+Hardwood
+
+Foliage
+
+Coarse roots
+
+Stem bark
+
+Stem wood
+
+Aspen/alderlcottonwood/willow Soft maplebirch Mixed hardwood Hard maple/oak/hickory/beech Aspen/alder/cottonwood/willow
+Soft maplebirch Mixed hardwood Hard maple/oak~hickoryb/eech
+Aspen/alderlcottonwood/willow Soft maplehirch Mixed hardwood Hard maple/oak/hickory/beech Aspen/alder/cottonwood/willow
+Soft maplehirch Mixed hardwood Hard maple/oak~hickoryb/eech
+
+Softwood
+
+Foliage
+
+Cedarllarch
+
+Douglas-fir
+
+True firlhemlock
+
+Pine
+
+Spruce
+
+Woodland
+
+Coarse roots
+
+Cedarllarch
+
+Douglas-fir
+
+True firhemlock
+
+Pine
+
+Spruce
+
+Stem bark
+
+Cedarllarch
+
+Douglas-fir
+
+True firhemlock
+
+Pine
+
+Spruce
+
+Stem wood
+
+Cedarllarch
+
+Douglas-fir
+
+True firlhemlock
+
+Pine
+
+Spruce
+
+0.37
+
+0.87
+
+10
+
+J
+
+285
+
+* Number of dbh-based biomass component equations in literature used to develop ratio equations for each species group. All references included in Table 2 except for Baldwin (1989), McCain (1994), and Thies and Cunningham (1996).
+
+tree growing in a dense stand, and the proportion of biomass in the stem might change with variables such as wind exposure or water availability. These differences appear as noise in component ratios, but they are most likely the predictable results of site-level variability in abiotic conditions.
+Applying These Equations
+Aboveground biomass.-Equation parameters for total aboveground biomass prediction for each of the species groups are presented in Table 4. For future use, species represented in the dataset used to develop these equations should be assigned to the groups shown in Tables 1 and 3. For species not included in this dataset, we suggest that the species key in Appendix A be used as a guideline for species group assignment.
+Componentbiomass.-Theproportionoftotalaboveground biomass in a given biomass component can be calculated from dbh as a ratio, using the parametersfor hardwood and softwood species given in Table 6. To find total biomass in a particular
+
+component, multiply the total aboveground biomass (found as described above) by the proportion in that component. Total biomass in branches and treetops may be found by difference. Note that stem bark and stem wood are defined from a 12 in. (30.48 cm) stump height to a 4 in. (10.16 cm) dob top.
+Large-scale biomass estimation.-The equations presented here are applicable to individual trees on a stem-bystem basis. To estimate forest biomass at large scales using these equations, several approaches based on ground data are possible. For example, one might apply these equations directly to measured tree diameters from a large-scale forest mensuration dataset such as the FIA dataset. Alternatively, measured tree parameters from FIA plots could be used with biomass and volume prediction equations to develop ratios between merchantable volume and biomass; these ratios could then be used to estimate plot biomass given its volume, as the approach used in the FORCARB model.
+Forest Science 49(1) 2003 25
+
+There is potential error in using these equations. For clarity, we provide a summary of the potential errors inherent in using two different methods for large-scale biomass estimation (Table 8). For this purpose, we have compared errors potentially introduced in using individual species- and site-specific equations as they currently exist in the literature with the errors potentially introduced by using the generalized regression equations presented here. We emphasize, however, that: (1) errors are potentially introduced whenever an allometric method is used to estimate biomass, no matter what method and at what spatial scale; (2) it may not be feasible to ascertain whether any of these errors is actually introduced; and (3) our generalized equations represent the most comprehensive effort to date to develop consistent, accurate biomass equations for application all across the United States.
+Conclusions
+In this analysis, we performed a thorough review of available biomass literature and a rigorous analysis of a subset of pseudodata derived from that literature. We found that many of the published equations were unusable for largescale application because of inconsistencies in methodology and definitions, incomplete reporting of methods, lack of access to original data, and sampling from narrow segments of the population of trees of the United States. Our equations may be applied for large-scaleanalyses of biomass or carbon stocksand trends, but shouldbe used cautiously at very small scales where local equations may be more appropriate.
+The clear variability in tree C allocation from site to site and from study to study suggests that more information is needed about the differences in biomass and allocation among different tree species and sites. This variability
+
+makes it difficult to estimate tree biomass accurately even when a site-specific regression equation is used. Development of continental-scale regressions of known accuracy requires a continental-scale measurement campaign, in which individuals of all species and sizes are measured, over the entire range of site conditions typical of each species. This would be a formidable task.
+In futurework, we strongly suggest that a consistentset of measurementand reporting protocols be adoptedforbiomass measurement studies (Clark 1979, Crow 1983) and that researchers publish theraw datafromwhich their regressions were developed in additionto the equationsthemselves. This would facilitate future efforts to synthesize the biomass literature. We suggest that an effort be made to sample trees across the entire diameter range of a species, as well; any analysis of availablebiomass equationssuffersfromthe clear lack of biomass equationsfor predicting biomass (especially for hardwoods) at large diameters.
+Literature Cited
+ACKERS,., AND M. EASTER1.994. Unpublished equations.In Software for computing plant biomass-BIOPAK Users Guide, Means, J., et al. (eds.). USDA For. Serv. Gen. Tech. Rep. PNW-GTR-340.
+ANURAGR,., M. SRIVASTAVANAD, A. RAIZADA19. 89. Biomass yield and biomass equations for Populus deltoides Marsh. Indian J. For. 12:56-61.
+BAJRANGS.,, P. MISRAA,ND B. SINGH1.996. Biomass, energy content and fuel-wood propertiesof Populus deltoides clones raised in North Indian plains. Indian J. For. 18:278-284.
+BAKERJ,. 1971. Response of sapling loblolly pine (Pinus taeda L.) to nitrogenfertilization: Growth,accumulation,and recovery. Ph.D. thesis, Mississippi State University, Mississippi State, MS.
+BALDWINV,.J. 1989. Is sapwood area a better predictor of loblolly pine crown biomass than bole diameter? Biomass 20: 177-185.
+
+Table 8. Potential sources of error in allometric biomass estimation at large scales using species- and region-
+
+specific equations versus the generalized equations developed in this study.
+
+Type of application
+
+Potential source of error
+
+Species- and site-specific equations (a) Coefficients developed for one species (or species group) may not apply to another species
+
+applied to national scale
+
+(or species group).
+
+Coefficients developed for one site may not apply to another site.
+
+Sample trees and wood density samples may not be representative of the target population because of factors such as size range of sample trees and stand conditions.
+
+Relationship of trees used to develop specific regression to the target population (i.e., all
+
+trees) is unknown. Statistical error may be associated with estimated coefficients and form of selected equation.
+
+Inconsistent standards, definitions, and methodology. Use of indirect estimation methods may compound errors.
+
+Measurement and data processing errors. Regional boundaries may be sharply delineated due to differences in methodology.
+
+Generalized equations (this study) applied to national scale
+
+(a) Generalized equations may be biased in favor of species for which published equations exist. (b) Relationship of trees used to develop generalized regression to the target population (i.e. all
+trees) is unknown. Potential bias in applying generalized equations to species where no published equations exist. No obvious way to estimate uncertainty or variability. Generalized equations may inherit shortcomings of published equations, including:
+(i) statistical error associated with estimated coefficients and form of selected equation, (ii) inconsistent standards, definitions, and methodology, (iii) use of indirect estimation methods that compound errors, and (iv) measurement and data processing errors.
+
+26 Forest Science 49(1) 2003
+
+BARCLAYH,., P. PANG,AND D. POLLARD1.986. Aboveground biomass distribution within trees and stands in thinned and fertilized Douglasfir. Can. J. For. Res. 16:438442.
+BARNEYR,.J., K. VANCLEVEa,nd SCHLENTNE19R7.8. Biomass distribution and crown characteristics in two Alaskan Picea mariana ecosystems. Can. J. For. Res. 8:36-41.
+BASKERVILLGE., 1965. Dry-matter production in immature balsam fir stands. For. Sci. Monogr. 9.
+BASKERVILGL.EL,. 1972.Use of logarithmic regression in the estimation of plant biomass. Can. J. For. Res. 2:49-53.
+BEAUCHAMJ.PJ., AND J.S. OLSON1. 973. Corrections for bias in regression estimates after logarithmic transformation. Ecology 54:1403-1407.
+BINKLEYD,., AND R. GRAHAM19. 81. Biomass, production, and nutrient cycling of mosses in an old-growth Douglas-fir forest. Ecology 62:1387-1389.
+BINKLEYD, . 1983. Ecosystem production in Douglas-fir plantations: Interaction of red alder and site fertility. For. Ecol. Manage. 5:2 15-227.
+BIRDSERY.,A., AND H.T. SCHREUDE1R99. 2. An overview of forest inventory and analysis estimation procedures in the Eastern United States-with anemphasis on the components of change. USDA For. Serv. Gen. Tech. Rep. RM-GTR-214.
+BIRDSEYR,.A., AND L.S. HEATH1. 995. Carbon changes in U.S. forests. P. 56-70, in Productivity of America's forests and climate change, Joyce, L.A. (ed.). USDA For. Serv. Gen. Tech. Rep. RM-GTR-271.
+BOCKHEIMJ., AND S. LEE. 1984. Biomass and net primary production equations for thinned red pine plantations in central Wisconsin. Univ. of Wisconsin Coll. of Agric. For. Res. Notes No. 256.
+BOERNERR., AND J. KOST.1986.Biomass equations forflowering dogwood, Cornusflorida L. Castanea 5 1:153-155.
+BORMANBN., 1990. Diameter-based biomass regression models ignore large sapwood-related variation in Sitka spruce. Can. J. For. Res. 20: 1098-1 104.
+BRIGGSR,., J. PORTERA,ND E. WHITE1. 989. Component biomass equations for Acer rubrum and Fagus grandifolia. State Univ. of New York Coll. of Environ. Sci, and For., Fac. of For. Tech. Publ. No. 4.
+BROWNJ., 1978.Weight and density of crowns of Rocky Mountain conifers. USDA For. Sew. Res. Pap. INT-197.
+BROWNS,.L., P. SCHROEDEARND, J.S. KERN.1999. Spatial distribution of biomass in forests of the Eastern USA. For. Ecol. Manage. 123231-90.
+BUNYAVEJCHESW.,INAN,D S. KIRATIPRAYO1O9N89. . Primary production of plots of five young close-spaced fast-growing tree species I. Biomass equations. Natur. Hist. Bull. Siam Soc, 37:47-56.
+BUSINGR,T, ECLEBSCH,ANDP.WHTE;-9~9 3 . 3 i m m and prortuctiorrof southern Appalachian cove forests reexamined. Can. J. For. Res. 23:760-765.
+CAMPBELJL.S, ., V.J. LIEFFERSA, ND E.C. PIELOU.1985. Regression equations for estimating single tree biomass of trembling aspen: Assessing their applicability to more than one population. For. Ecol. Manage. 11:283-295.
+CARLYLJE.,, AND D. MALCOLM19. 86. Biomass and element capital of a 7year-old lodgepole pine (Pinus contorta Dougl.) stand growing on deep peat. For. Ecol. Manage. 14:285-291.
+CARPENTEER. ,1983. Above-ground weights for tamarack in northeastern Minnesota. USDA For. Serv. Res. Pap. NC-245.
+CARTERM,., AND E. WHITE1. 971. Dry weight and nutrient accumulation in young stands of cottonwood (Populus deltoides Bartr.). Auburn Univ. Agric. Exp. Sta. Circ. 190.
+CHAPMAJN.,, AND S. GOWER1.991. Aboveground production and canopy dynamics in sugar maple and red oak trees in southwestern Wisconsin. Can. J. For. Res. 21:1533-1543.
+CHOINACKDY., 1984. Volume and biomass for curlleaf cercocarpus in Nevada. USDA For. Serv. Res. Pap. INT-332.
+
+CHOJNACKDY. 1, 994. Volume equations for New Mexico's pinyon-juniper dryland forests. USDA For. Sew. Res. Pap. INT-471.
+CHOJNACKDY.C, ., AND P. ROGERS1.999.Converting tree diameter measured at root collar to diameter at breast height. West. J. Appl. For. 14:14-16.
+CLARKA,.I. 1979. Suggested procedures for measuring tree biomass and reporting tree prediction equations. P. 615-628 in Forest resource inventories. Vol. 2. Frayer, W. (ed.). Colorado State Univ., Fort Collins, CO.
+CLARKA,.I., AND J. SCHROEDE1R98. 6.Weight,volume,and physicalproperties of major hardwood species in the southern Appalachian mountains. USDA For. Serv. Res. Pap. SE-153.
+CLARKA, .I., D. PHILLIPSA,ND D. FREDERIC1K9.85. Weight, volume, and physical properties of major hardwood species in the Gulf and Atlantic Coastal Plains. USDA For. Sew. Res. Pap. SE-250.
+CLARKA, .I., D. PHILLIPSAN, D D. FREDERIC1K9.86a. Weight, volume, and physical properties of major hardwood species in the Piedmont. USDA For. Serv. Res. Pap. SE-255.
+CLARKA,.I., D. PHILLIPASN, D D. FREDERIC1K9.86b. Weight, volume, and physical properties of major hardwood species in the upland south. USDA For. Serv. Res. Pap. SE-257.
+CLARYW, ., AND A. TIEDEMAN1N9.87. Fuelwood potential in large-tree Quercus gambelii stands. West. J. Appl. For. 2:87-90.
+CROWT,.R. 1976.Biomass and production regressions for trees and woody shrubs common to the Enterprise Forest. P. 63-67 in The Enterprise radiation forest: Radioecological studies, Zavitkovski, J. (ed.). US Energy Res. Dev. Adm. Rep. TID-26113-P2.
+CROWT, .R. 1978. Biomass and production in three contiguous forests in northern Wisconsin. Ecology 59:265-273.
+CROWT,.R. 1983.Comparing biomass regressions by site and stand age for red maple. Can. J. For. Res. 13:283-288.
+DARLINMG.,L. 1967.Structure andproductivity of pinyon-juniper woodland in northern Arizona. Ph.D. Diss., Duke University, Durham, NC.
+DUDLEYN,., AND J. FOWNES19. 92. Preliminary biomass equations for eight species of fast-growing tropical trees. J. Trop. For. Sci. 5:68-73.
+ENQUISTB,., G. WEST,and J. BROWN2.000. Quarter-power allometric scaling in vascular plants: functional basis and ecological consequences. P. 167-199 in Scaling in biology, Brown, J., and G. West (eds.). Oxford University Press, Oxford.
+FELKERP.,, P. CLARKJ.,OSBORNan,dG. CANNEL1L9.82.Biomass estimation in a young stand of mesquite (Prosopis spp.), ironwood (Olneya tesota), paloverde (CercidiumJloridiumandParkinsonia aculeata), and leucaena (Leucaena leucocephala). J. Range Manage. %(I): 87-89.
+FELLJR,M_ 1992. Generalized versus site-specific biomass regression equations for ~~eudot~~amGziGiiTar~menanz&iT~h@ijia pticma in coastal British Columbia. Bioresource Tech. 39:9-16.
+FLEWELLINJ.GW,., AND L.V. PIENAAR19. 81. Multiplicative regression with lognormal errors. For. Sci. 27:28 1-289.
+FREEDMABN. ,1984. The relationship between the aboveground dry weight and diameter for a wide size range of erect land plants. Can. J. Bot. 62:2370-2374.
+FREEDMABN.,,P. DUINKERH,. BARCLARY., MORASHAN, D U. PRAGER1.982. Forest biomass and nutrient studies in central Nova Scotia. Maritimes Forest Research Centre, Can. For. Serv., Dep. of the Environ. Inf. Rep. M-X- 134.
+GHOLZH,.L., C.C. GRIERA, .G. CAMPBELALND, A.T. BROWN1.979.Equations for estimating biomass and leaf area of plants in the Pacific Northwest. Oregon State Univ. School of For. For. Res. Lab Res. Pap. No. 41.
+GOWERS,., C. GRIERD, . VOGTA, ND K. VOGT.1987. Allometric relations of deciduous (Larix occidentalis) and evergreen conifers (Pinus contorta and Pseudotsuga menziesii) of the Cascade Mountains in central Washington. Can. J. For. Res. 17:630-634.
+Forest Science 49(1) 2003 27
+
+GOWERS,.T.,K.A. VOGTA,ND C.C. GRIER1. 992.Carbon dynamicsof Rocky Mountain douglas-fir: Influence of water and nutrient availability. Ecol. Monogr. 62:43-65.
+GOWERS,.T., P.B. REICHA,ND Y. SON.1993. Canopy dynamics and aboveground production of five tree species with different leaf longevities. Tree Physiol. 12:327-345.
+GREEND, ., AND D. GRIGAL1.978. Generalized biomass estimation equations for jack pine. Coll. of For., Univ. of Minnesota, Minnesota For. Res. Notes No. 268.
+GRIERC, ., K. LEE,AND R. ARCHIBAL1D98. 4.Effect of urea fertilization on allometric relations in young Douglas-fir trees. Can. J. For. Res. 14:900-904.
+GRIERC, ., K. ELLIOTTA,ND D. MCCULLOUG1H9.92. Biomass distribution and productivity of Pinus edulis-Juniperus monosperma woodlands of north-central Arizona. For. Ecol. Manage. 50:33 1-350.
+GRIGADL,., AND L. KERNIK1.984.Generality of black sprucebiomass estimation equations. Can. J. For. Res. 14:468-470.
+HANSENM,.H., T. FRIESWYJK.F,. GLOVEARN,D J.F. KELLY1. 992.The Eastwide Forest Inventory Data Base: Users Manual. USDA For. Serv. Gen. Tech. Rep. GTR-NC-151.
+HARDINGR,.B., AND D.F. GRIGAL1.985. Individual tree biomass estimation equationsfor plantation-grown white sprucein northern Minnesota. Can. J. For. Res. 15:738-739.
+HARMOMN,. 1994.Unpublished equations. In Softwarefor computingplant biomass-BIOPAKUsers Guide, Means, J., et al. (eds.) USDA For. Serv. Gen. Tech. Rep. PNW-GTR-340.
+HEATHL, ., AND R. BIRDSEY1.993. Impacts of alternative forest management policies on carbon sequestration on U.S. timberlands. World Resour. Rev. 5:171-179.
+HEATHL,., R. BIRDSEYC,. ROW,AND A. PLANTING1A9.96. Carbon pools and fluxes in US forest products. P. 271-278 in Forest ecosystems, forest management and the global carbon cycle, Apps, M., and D. Price (eds.). Springer-Verlag, Berlin.
+HEDGELS.,, AND I. OLKIN1.985. Statisticalmethods for meta-analysis. Academic Press, New York. 369 p.
+HEGYFI,. 1972.Dry matterdistributioninjack pine standsinnorthern Ontario. For. Chron. 48:193-197.
+HELGERSON., K, . CROMACSK. S, TAFFORRD.,MILLERA,ND R. SLAGLE. 1988. Equations for estimating aboveground components of young Douglas-fir and red alder in a coastal Oregon plantation. Can. J. For. Res. 18:1082-1085.
+HOCKERH,.W., AND D.J. EARLY1.978. Biomass and leaf area equations for northern forest species. University of New Hampshire, New Hampshire Agric. Exp. Sta., Res. Rep. Number 102. Durham, NH.
+HONERT,. 1971. Weight relationships in open- and forest-grown balsam fir trees. P. 65-78 in Forest biomass studies: IUFRO working group on forest biomass studies, Young, H. (ed.). Univ. of Maine Coll. of Life Sci. and Agric., Orono, ME.
+IYENGASR.,1991.Much ado about meta-analysis. Chance 4:33-40.
+JENKINJS.C, ., R.A. BIRDSEYAN, D Y. PAN.2001. Biomass and NPP estimation for the mid-Atlantic region (USA) using plot-level forest inventory data. Ecol. Appl. 11:1174-1 193.
+
+JOHNSTORN.,, AND D.L. BARTOS1.977. Summary of nutrient and biomass data from two aspen sites in the western United States. USDA For. Sew. Res. Pap. INT-227.
+JOKELAE,., C. SHANNOANND, E. WHITE19.81.Biomass and nutrient
+equationsfor mature Betula papyrifera Marsh. Can. J. For. Res. 11:298-304.
+JOKELAE,.J., K.P. VANGURPR, .D. BRIGGSA,ND E.H. WHITE1. 986. Biomass estimation equations for Norway spruce in New York. Can. J. For. Res. 16:413-415.
+KAUPPPI,., M. POSCHP,. HANNINEHN.,H E ~ O N EAN. I,HALAINEEN., LAPPALAINMEN. S, TARRA,ND P. TAMMINE1N9.97. Carbon reservoirs in peatlands and forests in the boreal regions of Finland. Silva Fennica 31:13-25.
+KER,M. 1980a. Tree biomass equations for ten major species in Cumberland County, Nova Scotia.Maritime For. Res. Cent. Inf. Rep. M-X- 108.
+KER,M. 1980h. Tree biomass equations for seven species in southwestern New Brunswick. Maritime For. Res. Cent. Inf. Rep. M-X-114.
+KER,M., AND G. VAN RAALTE1.981.Treebiomass equationsforAbies balsamea and Picea glauca in northwestern New Brunswick. Can. J. For. Res. 11:13-17.
+KINERSOAN., AND I. BARTHOLOM1E9W77..Biomass estimation equations and nutrient composition of white pine, white birch, red maple, and red oak in New Hampshire. New Hampshire Agric. Exp. Sta., Univ. of New Hampshire Res. Rep. Number 62.
+KOERPEGR,., AND C. RICHARDSO1N98.0. Biomass and net annual primary production regressions for Populus grandidentata on three sites in northern lower Michigan. Can. J. For. Res. 10:92-101.
+KOERPEGR.,J. 1994.Unpublishedequations.In Softwareforcomputing plant biomass-BIOPAK Users' Guide, Means, J.E., et al. (eds.). USDA For. Sew. Gen. Tech. Rep. PNW-GTR-340.
+KRUMLIJK.G, . 1974. Biomass and nutrient distribution in two old growthforestecosystemsin southcoastalBritishColumbia.M.S. Thesis, Univ. of British Columbia, Vancouver, BC.
+KURZW, ., AND M. APPS.1999. A 70-year retrospective analysis of carbon fluxes in the Canadian forest sector. Ecol. Appl. 9:526-547.
+LANDIST,., AND E. MOGREN1.975.Tree strata biomass of subalpine spruce-fir stands in southwestern Colorado. For. Sci. 21:9-12.
+LIEFFERVS.,, AND J. CAMPBEL1L98. 4.Biomass and growthof Populus tremuloides in northeastern Alberta:Estimatesusing hierarchy in tree size. Can. J. For. Res. 14:610-616.
+LODHIYALL.,,R. SINGHA,ND S. SINGH1.995. Structure and function of an age series of poplar plantations in central Himalaya: I. Dry matter dynamics. Ann. Bot. 76: 191-199.
+LOVENSTEHIN., ,AND P. BERLINE1R9.93.Biometric relationshipsfor non-destructive above ground biomass estimations in young plantations ofAcaciasalicina Lindl. andEucalyptus occidentalis Endl. New For. 7:255-273.
+MACLEAND,.A., AND R.W. WEIN.1976. Biomass of jack pine and mixed hardwood stands in northeastern New Brunswick. Can. J. For. Res. 6:441447.
+
+28 Forest Science 49(1) 2003
+
+MADGWICHK.,,AND T. SATOO1.975.On estimating the aboveground weights of tree stands. Ecology 56: 1446-1450.
+MARSHALP.LL,., AND Y. WANG1.995.Above ground tree biomass of interior uneven-aged Douglas-fir stands. Canada-British Columbia Partnership Agreement on Forest Resource Development, Univ. of British Columbia Work. Pap. WP-1.5-003.
+MARTINJ., B. KLOEPPETL.,SCHAEFEDR.,IGMBLEARN,D S. MCNULTY. 1998. Aboveground biomass and nitrogen allocation of ten deciduous southern Appalachian tree species. Can. J. For. Res. 28: 1648-1659.
+MCCAINC,. 1994.Unpublished equations. In Software for comput-
+ing plant biomass - BIOPAK Users Guide, Means, J., et al.,
+(eds.). USDA For. Serv. Gen. Tech. Rep. PNW-GTR-340, Portland, OR.
+MEANSJ.,, H. HANSENG,. KOERPEPR.,ALABACAKN,D M. KLOPSCH. 1994. In Software for computing plant biomass-BIOPAK Users' Guide,Means,J.E., et al. (eds.).USDA For. Sew. Gen.Tech. Rep. PNW-GTR-340.
+MILLERE,., R. MEEUWIAGN,D J. BUDY1.981.Biomass of singleleaf pinyon and Utah juniper. USDA For. Serv. Research Paper INT-273.
+MONTEITDH., 1979. Whole tree weight tables for New York State. University of New York Coll. of Environ. Sci. and For., Appl. For. Res. Inst. AFRI Res. Rep. No. 40.
+MOORET,.R., AND E. VERSPOO1R9.73. Aboveground biomass of black spruce stands in subarctic Quebec. Can. J. For. Res. 3:596-598.
+MORRISOIN. 1,990.Organicmatterandmineral distributionin an oldgrowthAcersaccharumforestnear the northern limit of itsrange. Can. J. For. Res. 20:1332-1342.
+NABUURGS.-,J., R. PAIVINERN. ,SIKKEMAAN,D G. MOHREN19. 97.The role of European forests in the global carbon cycle-a review. Biomass Bioenergy 13:345-358.
+NAIDUS,.,E. DELUCIAAN, D R. THOMA1S9.98.Contrastingpatterns of biomass allocation in dominant and suppressed loblolly pine. Can. J. For. Res. 28:1116-1 124.
+NELSONL,., AND G. SWITZER19. 75.Estimating weights of loblolly pine trees and their components in natural stands and planta-
+- thnsinxentralMississippi. Miss, A x r i ~wdFor.Exq. Sta, Tech. Bull. 73.
+NIKLAKS,.J. 1994.Plant allometry: The scalingof form and process. The Univ. of Chicago Press, Chicago. 395 p.
+NILSSONS.,, A. SHVIDENKVO. S, TOLBOVMO.I,GLUCKM, . JONASA,ND M. OBERSTEIN2E0R0.0. Full carbon account for Russia. Internat. Inst. for Appl. Sys. Anal., A-2361 Laxenburg, Austria. IIASA Interim Rep. IR-00-021.
+OUELLEDT,. 1983. Biomass equations for black spruce in Quebec. Laurentian For. Res. Cent., Can. For. Serv., Environ. Canada. Inf. Rep. LAU-XdOE.
+PARKEGR.,, AND G. SCHNEIDE1R97. 5.Biomass and productivity of an alder swamp in northern Michigan. Can. J. For. Res. 5:403-409.
+PASTORJ.,, AND J. BOCKHEIM19.81. Biomass and production of an aspen-mixed hardwood-spodosol ecosystem in northern Wisconsin. Can. J. For. Res. 11:132-138.
+
+PASTORJ., J.D. ABERA,ND J.M. MELILLO19. 84.Biomass prediction using generalized allometric regressions for some northeast tree species. For. Ecol. Manage. 7:265-274.
+
+PEARSONJ., T. FAHEYA,ND D. KNIGHT1.984. Biomass and leaf area in contrasting lodgepole pine forests. Can. J. For. Res. 14:259-265.
+
+PENAD, . 1997.Combining information in statisticalmodeling. Am. Stat. 51:326332.
+
+PERALAD,., AND D. ALBAN1.982.Biomass, nutrient distribution and litterfallin Populus,Pinus and Picea standson two different soils in Minnesota. Plant Soil 64: 177-192.
+
+PERALDA.,A., ANDD.H.ALBAN1.994.Allometricbiomassestimators foraspen-dominatedecosystemsinthe upperGreatLakes. USDA For. Serv. Res. Pap. NC-3 14.
+
+PETERSONE.,B., Y.H. CHANA,ND J.B. CRAGG1.970. Aboveground standing crop, leaf area, and caloric value in an aspen clone near Calgary, Alberta. Can. J. Bot. 48:1459-1469.
+
+PHILLIPDS,. 1981. Predicted total-tree biomass of understory hardwoods. USDA For. Sew. Res. Pap. SE-223.
+
+PHILLIPDS,., S. BROWNP.,SCHROEDAENRD,R. BIRDSE2Y0.00.Toward error analysis of large-scale forest carbon budgets. Global Ecol. Biogeog. 9(4):305-3 14.
+
+PLANTINGAA.,,AND R. BIRDSEY19. 93.Carbon fluxes resulting from U.S. private timberland management. Clim. Change 23:37-53.
+
+POLLARD., 1972. Above-ground dry matter production in three stands of trembling aspen. Can. J. For. Res. 2:27-33.
+
+RAILE,G.K. 1982.Estimating stump volume. USDA For. Serv.Res. Pap. NC-224.
+
+RAJEEVM,., D. BANKHWARL. P, ACHOLVI., SINGHA,ND R. MISHRA. 1998. Biomass status of mixed dry deciduous forest of Shiwalik hills in Haryana. Indian For. l24:287-291.
+
+RALSTOCN., 1973. Annual primary productivity in a loblolly pine plantation. P. 105-1 17 in IUFRO biomass studies, Proc. of the working party of the mensuration of the forest biomass. Internat. Div. of For. Res. Org. 54.01 Mensuration, Growth, and Yield, Vancouver, BC, Canada.
+
+REINERSW, .A. 1972. Structure and energetics of three Minnesota
+
+- forests. EcoKMonogr.T2:n-%.-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+RENCZA, .N., AND A.N. AUCLAIR1.980. Dimension analysis of various components of black spruce in subarctic lichen woodland. Can. J. For. Res. 10:491-497.
+
+RIBEJ, . 1973. Puckerbrush weight tables. Life Sci. and Agric. Exp. Sta., Univ. of Maine. Misc. Rep. 152.
+
+Ross, D.W., AND J.D. WALSTAD19. 86. Estimating aboveground biomass of shrubs and young ponderosa and lodgepole pines. For. Res. Lab., Oregon State Univ. Res. Bull. 57.
+
+RUARKG, .A., AND J.G. BOCKHEIM19.88. Biomass, net primary production, and nutrient distribution for an age sequence of Populus rrernuloides ecosystems. Can. J. For. Res. l8:435-443.
+
+SACHSD,. 1984.Managementeffectson nitrogen nutrition and longterm productivity of western hemlock stands. M.S. Thesis, Oregon State Univ., Corvallis, OR.
+
+Forest Science 49(1)2003 29
+
+S C H M ~M,.D.C., AND D.F. GRIGAL.1981. Generalized biomass
+estimation equations for Betula papyrifera Marsh. Can. J . For.
+Res. 11:837-840.
+SCHNELLR,. 1976. Biomass estimates of eastern redcedar tree components. Div. of For., Fisheries and Wildl. Dev., Tennessee Valley Authority Tech. Note No. B 15.
+SCHROEDEPR., S. BROWNJ,. Mo, R. BIRDSEYA, ND C. CIESZEWSKI. 1997. Biomass estimation for temperate broadleaf forests of the United States using inventory data. For. Sci. 43:424-434.
+SCHUBERTT., R. h a n d , T. COLEA, ND K.MCDUFFIE.1988.Equations
+for predicting biomass of six introduced subtropical tree species, Island of Hawaii. USDA For. Sew. Res. Note PSW-401.
+SICCAMAT,.G., S.P. HAMBURGM, .A. ARTHURR, .D. YANAI,F.H.
+BORMANNA,ND G.E. LIKENS.1994. Corrections to aUometric equations and plant tissue chemistry for Hubbard Brook Exp. For. Ecology 75:246-248.
+SINGHT, . 1984. Biomass equations for six major tree species of the Northwest Territories. North. For. Res. Cent., Can. For. Serv. Inf. Rep. NOR-X-257.
+SOLLINSP,., AND R. ANSERSON19. 71. Dry-weight and other data for trees and woody shrubs of the southeastern United States. Oak
+Ridge National Laboratory. Ecol. Sci. Publ. No. 407. ORNLIBP-7 1-6. Oak Ridge, TN.
+SPRUGELD,.G. 1983. Correcting for bias in long-transformed allom-
+etric equations. Ecology 64:209-2 10.
+ST.CLAIRB,. 1993.Family differences in equations for predicting biomass and leaf area in Douglas-fir (Pseudotsuga menziesii var. Menziesii). For. Sci. 39:743-755.
+SWANWK,.T., AND H.T. SCHREUD1E9R7.4.Comparisonof three methods of estimating surface area and biomass for a forest of young eastern white pine. For. Sci. 20:91-100.
+TELLERA,. 1988. Biomass productivity and wood waste evaluation in a spruce (Picea abies) forest (Strainchamps 1983).Cornrnonw.For. Rev. 67: 129-139.
+TER-MIKAELIMA.N, A,ND M. KORZUKH1I9N9.7.Biomassequationsfor sixtyfive North American tree species. For. Ecol. Manage. 97: 1-24.
+THIESW, .G., AND P.G. CUNNINGH1A9M96.. Estimating large-root biomass from stump and breast-height diameters for Douglas fir in western Oregon. Can. J. For. Res. 26:237-243.
+TRITTOLN.,M., AND J.W. HORNBEC1K98. 2.Biomass equations for major tree species of the northeast. USDA For. Serv. Gen. Tech. Rep. NEGTR-69.
+
+TURNEDR.,P., G.J. KOERPEMR,.E. HARMOANN,D J.J. LEE.1995.A carbon budget for forests of the coterminous United States. Ecol. Appl. 5:421-436.
+VANLEARD, ., J. WAIDEA,ND M. TEUKE1.984.Biomassand nutrient content of a 41-year-old loblolly pine (Pinus taeda L.) plantation on a poor site in South Carolina. For. Sci. 30:395404.
+WANGJ.,, A.ZHONGP.,COMEAMU.,TSZEA,NDJ.KIMMINS1.995.Aboveground biomass andnutrientaccumulationin an agesequenceof aspen(Populus tremuloides) stands in the boreal white and black spruce zone, British Columbia. For. Ecol. Manage. 78: 127-138.
+WESTG, ., R. BROWNAN, D B. ENQUIS1T9. 97. A general model for the origin of allometric scaling laws in biology. Science 276:122-126.
+WESTMAWN., 1987. Aboveground biomass, surface area, and production relations of red fir (Abies magnifica) and white fir (A. concolor). Can. J. For. Res. 17:311-319.
+WHARTOEN.,,AND T. CUNIA1.986.Estimatingtree biomass regressions and their error. USDA For. Sen. Gen. Tech. Rep. NE-GTR-117.
+WHARTOEN.H, ., AND D.M. GRIFFIT1H9.98.Estimating total forest biomass in Maine, 1995. USDA For. Sen. Resour. Bull. NE-142.
+WHARTOEN.H, ., A.L. ALERICHAN, D D.A. DRAKE1.997. Estimating total forest biomass in New York, 1993. USDA For. Serv. Resour. Bull. NE-139.
+WHITTAKERR., AND W. NIERING19. 75. Vegetation of the Santa Catalina Mountains, Arizona. V. Biomass, production, and diversity along the elevation gradient. Ecology 56:77 1-790.
+WHITTAKERR.H,., AND G.M.WOODWEL1L96. 8.Dimension and production relations of trees and shrubs in the Brookhaven forest, New York. J. Ecology 56: 1-25.
+WHITTAKERR.H,., AND P.L. MARKS1.975. Methods of assessing terrestrial productivity. P. 55-1 18in Primary productivity of the biosphere, Lieth, H., and R.H. Whittaker (eds.). Springer-Verlag, New York.
+WIANTH,.J., F. CASTANECD.AS,HEETAZ.,COLANINNANOD,J. DEMOSS1.979. Equations for predicting weights of some Appalachian hardwoods. West Virginia Univ. Agric. and For. Exp. Sta., Coll. of Agric. and For. West Virginia For. Notes, No. 7.
+WILLIAMRS.A, ., ANDJ.R. MCCLENAH1E9N84. .Biomass predictionequations for seedlings, sprouts, and saplings of ten central hardwood species. For. Sci. 30523-527.
+WOUDENBESR.GW,., AND T.O.FARRENKO1P9F9.5. The Westwide forest inventory inventory data base: User's manual. USDA For. S e n . Gen. Tech. Rep. INT-GT-317.
+YOUNGH,.E., J.H. RIBEA, ND K. WAINWRIG1H9T8.0. Weight tables for tree and shrub species in Univ. of Maine Life Sci. and Agric. Exp. Sta., Maine Misc. Rep. 230.
+
+30 Forest Science 49(1) 2003
+
+APPENDIX A. Species groups (SG*) identified for Forest Inventory and Analysis (FIA') species list.
+
+SG Genus
+
+Species
+
+FIA Common name
+
+Alnus
+
+rhombifolia
+
+White alder
+
+rubra
+
+Red alder
+
+rugosa
+
+Speckled alder
+
+Populus
+
+alba
+
+Silver poplar
+
+angustifolia
+
+Narrowleaf cottonwood
+
+balsamijiera
+
+Balsam poplar
+
+deltoides
+
+Eastern cottonwood
+
+fremontii
+
+Fremont cottonwood
+
+grandidentata
+
+Bigtooth aspen
+
+heterophylla
+
+Swamp cottonwood
+
+sargentii
+
+Plains cottonwood
+
+SPP.
+
+Cottonwood
+
+tremuloides
+
+Quaking aspen
+
+trichocarpa
+
+Black cottonwood
+
+Salix
+
+amygdaloides
+
+Peachleaf willow
+
+eriocephala
+
+Diamond willow
+
+nigra
+
+Black willow
+
+SPP.
+
+Acer
+
+nigrum
+
+Willow Black maple
+
+saccharum
+
+Sugar maple
+
+Caiya
+
+aquatica
+
+Water hickory
+
+cordiform is
+
+Bitternut hickory
+
+glabra
+
+Pignut hickory
+
+illinoensis
+
+Pecan
+
+laciniosa
+
+Shellbark hickory
+
+ovata
+
+Shagbark hickory
+
+SPP. texana
+
+Hickory spp. Black hickory
+
+tomentosa
+
+Mockernut hickory
+
+Fagus
+
+grandifolia
+
+American beech
+
+Quercus
+
+agrifolia
+
+California live oak
+
+alba
+
+White oak
+
+bicolor
+
+Swamp white oak
+
+chrysolepis
+
+Canyon live oak
+
+coccinea
+
+Scarlet oak
+
+douglasii
+
+Blue oak
+
+durandii
+
+Durand oak
+
+ellipsoidalis
+
+Northern pin oak
+
+engelmannii
+
+Engelmann oak
+
+falcata var.falcata
+
+Southern red oak
+
+falcata var. pagodaefolia
+
+Cherrybark oak, swamp red oak
+
+garryana
+
+Oregon white oak
+
+ilicijiolia
+
+Bear oak, scrub oak
+
+im bricaria
+
+Shingle oak
+
+incana
+
+Bluejack oak
+
+kelloggii
+
+California black oak
+
+laevis
+
+Turkey oak
+
+Iaurifolia
+
+Laurel oak
+
+lobata
+
+California white oak
+
+Tyrata-
+
+Qvercugoak - - - - - -
+
+macrocarpa
+
+Bur oak
+
+marilandica
+
+Blackjack oak
+
+michawcii
+
+Swamp chestnut oak
+
+muehlenbergii
+
+Chinkapin oak
+
+nigra
+
+Water oak
+
+Quercus
+
+nuttalii
+
+Nuttall oak
+
+palustris
+
+Pin oak
+
+phellos
+
+Willow oak
+
+prinus
+
+Chestnut oak
+
+rubra
+
+Northern red oak
+
+shumardii
+
+Shurnard oak
+
+Scrub oak
+
+mo
+
+stellata
+
+835 Post oak
+
+Forest Science 49(1)2003 31
+
+APPENDIX A. (continued)
+
+SG Genus
+
+Species
+
+mo Quercus
+
+stellata var. mississippiensis
+
+mo
+
+velutina
+
+mo
+
+virginiana
+
+mo
+
+wislizeni
+
+mh Aesculus
+
+californica
+
+mh
+
+glabra
+
+mh
+
+octandra
+
+mh mh mh Ailanthus
+
+SPP. SPP. altissima
+
+mh
+
+fordii
+
+mh Amelanchier mh Arbutus
+
+SPP. menziesii
+
+mh Asimina
+
+triloba
+
+mh Bumelia
+
+lanuginosa
+
+mh Carpinus
+
+caroliniana
+
+mh Castanea
+
+dentata
+
+mh
+
+ozarkensis
+
+mh
+
+pumila
+
+mh Castanopsis
+
+chrysophylla
+
+mh mh Catalpa
+
+SPP. bignonioides
+
+mh
+
+speciosa
+
+mh mh Celtis
+
+SPP. laevigata
+
+mh
+
+occidentalis
+
+mh mh Ceriss
+
+SPP. canadensis
+
+mh Cornus
+
+jlorida
+
+mh
+
+nuttallii
+
+rnh Cotinus
+
+obovatus
+
+mh Crataegus mh Diospyros
+
+SPP. virginiana
+
+mh Eucalyptus mh Fraxinus
+
+SPP. americana
+
+mh
+
+latifolia
+
+mh
+
+nigra
+
+mh
+
+pennsylvanica
+
+mh
+
+profinda
+
+mh
+
+quadrangulata
+
+mh mh Gleditsia
+
+SPP. aquatica
+
+mh
+
+triacanthos
+
+mh Gordonia
+
+lasianthus
+
+mh Gymnocladus
+
+dioicus
+
+mh Halesia mh Hardwood mh Ilex
+
+SPP. SPP. opaca
+
+mh Juglans
+
+cinerea
+
+mh
+
+nigra
+
+mh mh Liquidambar
+
+SPP. styraclflua
+
+mh Liriodendron
+
+tulipifera
+
+mh Lithocarpus
+
+densijlorus
+
+mh Maclura
+
+pom ifera
+
+mh Magnolia
+
+acuminata
+
+mh
+
+grandijlora
+
+mh
+
+macrophylla
+
+mh
+
+SPP.
+
+mh
+
+virginiana
+
+rnh Malus mh Melia
+
+SPP. azedarach
+
+mh Moms
+
+alba
+
+mh
+
+ru bra
+
+FIA Common name 836 Delta post oak
+Black oak Live oak Interior live oak California buckeye Ohio buckeye Yellow buckeye Buckeye, horsechestnut Buckeye (except 331,332) Ailanthus Tung-oil tree Serviceberry Pacific madrone Pawpaw Chittamwood, gum bumelia American hornbeam, musclewood American chestnut Ozark chinkapin Allegheny chinkapin Golden chinkapin Chinkapin Southern catalpa Northern catalpa Catalpa Sugarberry Hackbeny Hackberry spp. Eastern redbud Flowering dogwood Pacific dogwood Smoketree Hawthorn Common persimmon Eucalyptus White ash Oregon ash Black ash Green ash Pumpkin ash Blue ash Ash Waterlocust Honeylocust Loblolly-bay Kentucky coffeetree Silverbell Hardwoods (general) American holly Butternut Black walnut Walnut Sweetgum Yellow-poplar Tanoak Osage-orange Cucumbertree Southern magnolia Bigleaf magnolia Magnolia spp. Sweetbay
+Apple Chinaberry White mulberry 682 Red mulberry
+
+32 Forest Science 49(I)2003
+
+APPENDIX A. (continued)
+
+SG Genus
+
+Species
+
+mh Moms mh Nyssa
+
+SPP. aquatica
+
+mh
+
+ogeche
+
+mh
+
+sylvatica
+
+mh
+
+sylvatica var. bzflora
+
+mh Ostrya
+
+virginiana
+
+mh Oxydendrum
+
+arboreum
+
+mh Paulownia
+
+tomentosa
+
+mh Persea
+
+borbonia
+
+mh Planera
+
+aquatica
+
+mh Platanus
+
+occidentalis
+
+rnh
+
+racemosa
+
+mh Prunus
+
+americana
+
+mh
+
+nigra
+
+mh
+
+pensylvanica
+
+mh
+
+serotina
+
+mh
+
+SPP.
+
+mh
+
+SPP.
+
+mh
+
+virginiana
+
+mh Robinia
+
+psuedoacacia
+
+mh Sapium
+
+sebiferum
+
+mh Sassafras
+
+albidum
+
+mh Sorbus
+
+americana
+
+rnh
+
+aucuparia
+
+mh Tilia
+
+americana
+
+mh
+
+heterophylla
+
+rnh
+
+SPP.
+
+mh Ulmus
+
+alata
+
+mh
+
+americana
+
+mh
+
+crassifolia
+
+mh
+
+pumila
+
+mh
+
+rubru
+
+mh
+
+serotina
+
+mh
+
+SPP.
+
+mh
+
+thomasii
+
+mh Umbellularia
+
+californica
+
+mh Vaccinium
+
+arboreum
+
+mb Acer
+
+barbatum
+
+mb Acer
+
+macrophyllum
+
+mb
+
+negundo
+
+mb
+
+pensylvanicum
+
+mb
+
+rubrum
+
+mb
+
+saccharinum
+
+mb
+
+spicatum
+
+mb Betula
+
+alleghaniensis
+
+mb
+
+lenta
+
+mb
+
+n igra
+
+mb
+
+occidentalis
+
+mb
+
+papyrifera
+
+mb
+
+papyrifera var. commutata
+
+mb
+
+popul ifolia
+
+mb cl Calocedrus
+
+SPP. decurrens
+
+cl Chamaecyparis lawsoniana
+
+cl
+
+nootkatensis
+
+cl
+
+thyoides
+
+cl Juniperus
+
+silicicola
+
+cl
+
+virginiana
+
+cl Larix
+
+laricina
+
+cl
+
+lyallii
+
+cl
+
+occiden talis
+
+cl cl Sequoia
+
+SPP. sempewirens
+
+cl Sequoiadendron giganteum
+
+FIA Common name
+680 Mulberry spp.
+~ g e e c h e etupelo Blackgum Swamp tupelo Eastern hophornbeam, ironwood Sourwood Paulownia, Empress tree Redbay Water-elm Sycamore California sycamore Wild plum Canada plum Pin cherry Black cherry Cherry, plum spp. Plums, cherries, except 762 Chokecherry Black locust Chinese tallowtree Sassafras American mountain-ash European mountain-ash American basswood White basswood Basswood Winged elm American elm Cedar elm Siberian elm Slippery elm September elm Elm Rock elm California-laurel Sparkleberry Florida maple Bigleaf maple Boxelder Striped maple Red maple Silver maple Mountain maple Yellow birch Sweet birch River birch Water birch Paper birch Western paper birch Gray birch Birch spp. Incense-cedar Port-Orford-cedar Alaska-cedar Atlantic white-cedar Southern redcedar Eastern redcedar Tamarack (native) Subalpine larch Western larch Larch (introduced) Redwood Giant sequoia
+
+Forest Science 49(1) 2003 33
+
+APPENDIX A. (continued)
+
+SG Genus
+
+Species
+
+Softwood Taxodium
+
+SPP. distichurn
+
+Thuja
+
+distichum var. nutans occidentalis
+
+Pseudotsuga
+
+plicata macrocarpa
+
+Pinus
+
+menziesii albicaulis
+
+aristata
+
+arizonica
+
+attenuata
+
+balfouriana banksiana
+
+clausa contorta
+
+coulteri discolor echinata
+
+edulis
+
+elliottii
+
+engelmannii jlexilis
+
+glabra jeflreyi
+
+lambertiana
+
+leiophylla monophylla
+
+monticola
+
+Pinus
+
+muricata nigra
+
+palustris ponderosa pungens
+
+radiata
+
+resinosa
+
+rigida
+
+sabiniana
+
+serotina strobiformis
+
+strobus sylvestris taeda
+
+Picea
+
+virginiana abies
+
+breweriana engelmannii
+
+glauca mariana
+
+pungens
+
+rubens sitchensis
+
+Abies
+
+SPP. amabilis
+
+balsamea
+
+bracteata
+
+concolor fraseri
+
+grandis
+
+lasiocarpa lasiocarpa var. arizonica magnzjka magnzfxa var. shastensis procera
+
+spp.
+
+FIA Common name 0 Softwoods (general)
+22 1 Baldcypress 222 Pondcypress 241 White-cedar
+Western redcedar Bigcone Douglas-fir Douglas-fir Whitebark pine Bristlecone pine Arizona pine Knobcone pine Foxtail pine Jack pine Sand pine Lodgepole pine Coulter pine Border pinyon Shortleaf pine Pinyon pine Slash pine Apache pine Limber pine Spruce pine JeRey pine Sugar pine Chihuahuan pine Singleleaf pinyon Western white pine Bishop pine Austrian pine Longleaf pine Ponderosa pine Table Mountain pine Monterey pine Red pine Pitch pine California foothill pine Pond pine southwestern white pine Eastern white pine Scotch pine Loblolly pine Virginia pine Norway spruce Brewer spruce Engelmann spruce White spruce Black spruce Blue spruce Red spruce Sitka spruce Spruce Pacific silver fir Balsam fir Bristlecone fir White fir Fraser fir Grand fir Subalpine fir Corkbark fir California red fir Shasta red fir Noble fir 10 Abies
+
+34 Forest Science 49(1) 2003
+
+APPENDIX A. (continued]
+
+SG Genus
+
+Species
+
+FIA Common name
+
+Taus
+
+brevifolia
+
+Pacific yew
+
+Torreya
+
+californica
+
+California nutmeg
+
+Tsuga
+
+canadensis
+
+Eastern hemlock
+
+caroliniana
+
+Carolina hemlock
+
+heterophylla
+
+Western hemlock
+
+rnertensiana
+
+Mountain hemlock
+
+Acacia Acer
+
+SPPSPP. glabrum
+
+Hemlock Acacia Rocky Mountain maple
+
+grandiden tatum
+
+Bigtooth maple
+
+Cercocarpus
+
+intricatus
+
+Littleleaf mountain-mahogany
+
+ledifolius
+
+Curlleaf mountain-mahogany
+
+montanus
+
+True mountain-mahogany
+
+montanus var. glaber
+
+Birchleaf mountain-mahogany
+
+montanus var. pauciden
+
+Hairy mountain-mahogany
+
+Cupressus
+
+arizonica
+
+Arizona cypress
+
+Juniperus
+
+SPP. californica
+
+Cypress California juniper
+
+comrnunis
+
+Common juniper
+
+deppeana
+
+Alligator juniper
+
+erythrocarpa
+
+Redberry juniper
+
+monosperrna
+
+Oneseed juniper
+
+occidentalis
+
+Western juniper
+
+osteosperma
+
+Utah juniper
+
+pinchotti
+
+Pinchot juniper
+
+scopulorum
+
+Rocky Mountainjuniper
+
+Olneya
+
+tesota
+
+Tesota (Arizona ironwood)
+
+Prosopis Prunus
+
+SPP. emarginata
+
+Mesquite Bitter cherry
+
+Quercus
+
+arizonica, grisea
+
+Arizona white oak, Gray oak
+
+ernolyi
+
+Emory oak
+
+gambelii
+
+Gambel oak
+
+hypoleucoides
+
+Silverleaf oak
+
+oblongifolia
+
+Mexican blue oak
+
+SPP.
+
+Deciduous oak spp.
+
+SPP.
+
+Evergreen oak spp.
+
+wo Robinia
+
+neomexicana
+
+902 New Mexico locust
+
+* Species groups (SG) include aspen/alder/cottonwood/willow(aa), hard mapleloaWhickory1beech (mo), m i x e r
+
+hardwood (mh), soft maplehirch (mb), cedarllarch (cl), Douglas-fir (do, true firhemlock (tf), pine (pi), spruce (sp), and
+
+woodland conifer and softwood (wo).
+
+FIA species codes.
+
+Forest Science 49(1)2003 35
+

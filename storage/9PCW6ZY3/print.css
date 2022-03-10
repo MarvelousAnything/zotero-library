@@ -1,0 +1,29 @@
+/*body { background-color:red; }*/
+
+a[href]::after {
+    content: " (" attr(href) ")"
+}
+
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
+
+.wotr_article_head .wotr_title h1 { font-size:24px; line-height:1.1; margin-bottom:20px; } 
+.wotr_article_head .wotr_meta { font-size:20px; line-height:1.1; } 
+
+/*.wotr_article_head { float:left; width:70%!important; }
+.wotr_lede_img { float:left; width:25%!important; }
+*/.wotr_content { margin-top:20px; }
+
+
+.title-bar,
+.wotr_primary_nav_container,
+.wotr_secondaryt_nav_container,
+.wotr_secondary_nav_container,
+.wotr_article_share,
+.wotr_featured-stories,
+.wotr_footer_nav,
+.wotr_footer_links
+ { display:none; }

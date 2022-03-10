@@ -1,0 +1,11 @@
+#EXTM3U
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=398000,RESOLUTION=426x240,CODECS="avc1.66.30, mp4a.40.2",CLOSED-CAPTIONS=NONE
+https://rferl-vh.akamaihd.net/i/Pangeavideo/2022/03/d/d0/d059b1a9-0156-4490-bf7b-98afa42b18cf,_240p,,_480p,_720p,_1080p,.mp4.csmil/index_0_av.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=696000,RESOLUTION=640x360,CODECS="avc1.64001f, mp4a.40.2",CLOSED-CAPTIONS=NONE
+https://rferl-vh.akamaihd.net/i/Pangeavideo/2022/03/d/d0/d059b1a9-0156-4490-bf7b-98afa42b18cf,_240p,,_480p,_720p,_1080p,.mp4.csmil/index_1_av.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1422000,RESOLUTION=852x480,CODECS="avc1.64001f, mp4a.40.2",CLOSED-CAPTIONS=NONE
+https://rferl-vh.akamaihd.net/i/Pangeavideo/2022/03/d/d0/d059b1a9-0156-4490-bf7b-98afa42b18cf,_240p,,_480p,_720p,_1080p,.mp4.csmil/index_2_av.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2125000,RESOLUTION=1280x720,CODECS="avc1.64001f, mp4a.40.2",CLOSED-CAPTIONS=NONE
+https://rferl-vh.akamaihd.net/i/Pangeavideo/2022/03/d/d0/d059b1a9-0156-4490-bf7b-98afa42b18cf,_240p,,_480p,_720p,_1080p,.mp4.csmil/index_3_av.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=3900000,RESOLUTION=1920x1080,CODECS="avc1.64001f, mp4a.40.2",CLOSED-CAPTIONS=NONE
+https://rferl-vh.akamaihd.net/i/Pangeavideo/2022/03/d/d0/d059b1a9-0156-4490-bf7b-98afa42b18cf,_240p,,_480p,_720p,_1080p,.mp4.csmil/index_4_av.m3u8

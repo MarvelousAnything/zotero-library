@@ -1,0 +1,5792 @@
+DOE/HP/35397--1 DE91 006263
+Biomass Estimates for .Five Western States
+
+Submitted by:JamesO. Howard Research Forester USDA, Forest Service Pacific NorthwestResearchStation
+Submittedto: PacificNorthwestand Alaska Regional BioenergyProgram
+
+PrincipalFunding:U.S. Departmentof Energy
+Program Management:BonnevillePowerAdministration ir_eragencyAgreement DE-AC79-87BP35397 October 1990
+SI[R
+
+DI_TR!_I.r'R'ON OF THIS D©O".I_.,_Er,,.IT!_ LJ'NLiMITEE)
+
+_
+
+' _l' m _r , _r
+
+' ,'ql_l
+
+List oi Tables ............................................................................................. iii Lis! oi Figures .......................................................................................... v Forward .................................................................................................... 1 Introduction .............................................................................................. 3 Methods ..................................................................................................... 5 Assessmentof the Resource .................................................................... 9 Conclusion .............................................................................................. 41 References ............................................................................................. 44 Glossary .................................................................................................. 49 Appendix ................................................................................................ 55
+Tables 13-23 ................................................................................... 55 Biomass Relationships .................................................................... 67 Metric Equivalents ............................................................................ 70
+
+Table or"
+
+;
+
+Contents '
+
+DISC1LAIMER
+This repor_ was prepared a,san account of work sponsored by an agency of the United States Governme"m Neither the United States Government nor any agency thereof, nor any of their employees, mak¢_ any warranty, express or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, or represents that its use would not infrinse privately owned rights. Reference herein to any specific commercial product, process, or servic_ by trade name, trademark, manufacturer, or othcrwisa dots not necessarily constitute or imply its endorsement, rccommendationl or favoring by the United States Government or any agency thereof. The views and opinions of authors expresre, d herein do net neccs.sarily state or rc,fleet those of the United ,States Government or any agency thereof.
+
+Acknowledgments
+Biomass_nformationpresentedinthis reportisbasedon inventory data madeavailablebytheU.S. DepartmentofAgriculture,Forest Service. Inventorystatisticswere derived from publishedand unpublishedreportsfrom the followingoffices:
+• PacificNorthwestResearchStation Forest Inventoryand AnalysisResearchUnits Anchorage, Alaskaand Portland,Oregon
+• IntermountainResearchStation Forest Inventoryand AnalysisResearchUnit Ogden, Utah
+Special acknowledgmentis given to the personnel from these Forest Service Research Unitsfor providingcritical review of methodsusedto developbiomasstables displayedin thisreport.
+The authorand ForestServicewishto thanktheU 3. Department of Energy,(BonnevillePower Administration)t,hroughthe Pacific Northwest and Alaska Regional Bioenergy Program, for their supportof this undertaking. Their recognitionof the need for a comprehensivebiomassdata base forthis regionhas resultedin an importantbaselinefor furtherdevelopmentof the roleof our forests in meetingfutureenergy needs.
+
+Table 1. Total land area by State, resourcearea, and land class.
+
+9
+
+Table 2. Area of timberland by State, resource area, and ownership.
+
+11
+
+Table 3. Area of timberland by State, resource area, and stand-size
+
+13
+
+class.
+
+Table 4. Total dry weight of above ground biomass on timberland by
+
+17
+
+State, resource area, and class of timber.
+
+Table 5. Total green weight of above ground biomass on timberland
+
+18
+
+by State, resource area, and c_assof timber.
+
+Table 6. Dry weight per acre of above ground biomass of growing
+
+22
+
+stock trees on timberland by State, resource area, and ownership.
+
+Table 7. Total dry weight of above ground biomass of growing stock
+
+23
+
+trees on timberland by State, resource area, softwoods and hard-
+
+woods, and by bole and crown.
+
+Table 8. Dry weight per acre of above ground biomass of growing
+
+24
+
+stock trees on timberland by State, resource area, softwoods and
+
+hardwoods, and by bole and crown.
+
+Table 9. Total dry weight of above ground biomassof livetrees on tim-
+
+26
+
+berland by State, resource area, and diameter class.
+
+Table 10. Total dry weight of net annualgrowth of growing stock trees
+
+28
+
+on timberland by State, resource area, and ownership.
+
+Table 11. Total gross and net weight (wood and bark) of logging
+
+30
+
+residue by area, ownership, and harvest method.
+
+Table 12. Energy values of potentially available woody biomass by
+
+33
+
+State, resource area, and source.
+
+Table 13. Area of timberland by Star'.er,esource area, and forest type.
+
+55
+
+Table 14. Area of timberland by State, resource area, and cubic-foot
+
+56
+
+site class.
+
+Table 15. Total dry weight of above ground biomass of growing stock
+
+56
+
+trees on timberland by State, resource area, and ownership.
+
+Listof Tables
+
+Table 16. Total dryweightof abovegroundbiomassof growingstock trees on timberlandby State, resourcearea, and species.
+
+Page 57
+
+Table 17. Dry weight per acre of net annual growth ofgrowing stock
+
+58
+
+trees on timberland by State, resource area, and ownership.
+
+Table 18. Average gross volume (wood and bark) of logging residue
+
+58
+
+by area, ownership, and hawest method.
+
+Table 19. Average net volume (wood and bark) of logging residue by
+
+59
+
+area, ownership, and harvest method.
+
+Table 20. Average net dry weight of logging residue by area, owner-
+
+60
+
+ship, and harvest method.
+
+Table 21. ,Averagegrossvolume (wood only) of logging residue by
+
+60
+
+area, ownership, harvest method and live or dead/cull material.
+
+Table 22. Average gross volume (wood only) of logging residue per
+
+6'1
+
+acre by area, ownership, harvest method, and small-end diameter and
+
+length classes.
+
+'Table23. Average number of pieces of logging residueper acre by
+
+64
+
+area, ownership, harvest method, and small-end diameter and length
+
+cl_asses.
+
+:!
+'i
+mmemmnmlm
+
+irl , _r........
+
+tif!I'
+
+IIq'lqi1111
+
+"' " Pl_t ' "" '" _'
+
+Figure 1. Map of study area showing resource areas Figure 2. Generalized forest zones within 5-State area Figure 3. Total land area by classification by resource area Figure 4. Percent of timberland by ownership class by resource area Figure 5. Percent of timberland by stand-size class by resource area Figure 6. Percent of timberland by forest type by resource area Figure 7. Proportion of total timberland compared to proportion of total biomass by area Figure 8. Percent of total biomass by stand-size class by resource area Figure 9. Biomass distribution (percent) by diameter class by resource area Figure 10. Gross and net weight of logging residue by area Figure 11. Proportion of total energy potential for each source
+Figure 12. Distribution of total biomass inventory by source by resource area Figure 13. Small size residue (less than 3.0 inches) such as this may be available for energy Figure 14. Cull trees, which contain logs like this, and dead trees are a significant but widely scattered resource
+Figure 15. Recovery of biomass from thinning small trees may be an important source of wood for energy in the future
+
+List of Figures
+
+The purpose ofthis reportisto describethewoodybiomassresourcewithin U.S. Department of Energy's Pacific Northwest and Alaska Regional Biomass P='ogram,comprised of southeast Alaska, Idaho, Montana, Oregon, and Washington. In additionto the regional forest biomass assessment, information will be presented for logging residue, which represents current energy conversion opportunities.
+
+The information presented in the report is based on data and relationships already published. Regionally applicable biomass equations are generally not available for species occurring in the west.Because of this,a number of assumptions were made to develop whole-tree biomass tdbles. These assumptions are required to link algorithms f"om biomass studies to regional timber inventory data published by the Forest Inventoryand Analysis Research Units (FIA), of the Pacific Northwest and Intermountain Research Stations, U.S. Forest Service. These sources and assumptions will be identified later in this report. Tabular biomass data will be presented for 11 resource areas, identified in the FS inventory publications. These areas are shown below:
+
+State SE Alaska Idaho Montana Oregon
+Washington
+
+ResourceAreas
+
+Inventory Date
+
+Entireare_
+
+1970-1976
+
+Entire State
+
+1981
+
+EntireState
+
+1980
+
+Northwest
+
+1977
+
+West Central
+
+1975
+
+Southwest
+
+1975
+
+Eastern
+
+1977
+
+OlympicPeninsula 1980
+
+PugetSound Southwest
+Eastern
+
+1979 1978
+1981
+
+References (23),(24), (33-37)
+(6) (15) (13) (13) (13) (11) (3)
+_) (2) (5)
+
+Forward
+IBJ
+
+H....
+
+/
+
+''
+
+'
+
+,
+
+,
+
+I
+
+IL
+
+,,,,
+
+_ii]_i_ii:]]ii,_i__;i:i_!]!:i]iii<:]:]:_]_]:i:.:i::]I.:_:ii:_].]__!i!'il:__:]:ii::i]:':i;:] ii: !iii"ii _/i: i:,.:i:!i.._]:!..i:_i__i_!ii:_i ii:i:,]l
+
+:..-._ _:;:::,,.._.:::::::....'.,._.:,:_:::::::::: ::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+;-,,::::,: :::::::::::::::::::::::::::::::::::::
+
+.,.:;: :.:: :::;.:::: :.:::: .::: ::;::::;,
+
+::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+_:SW_::_::.:.:._._.,.-:.:_._.,.::_:.:T_._i._i::_;i:_ii:_i:ii_i:i:i:i_iii:i_:ii:_i:i_ i;:_i:_iii_%ii!ii!ii;iiii!ii_:i_!i!;i__::_: :ii!ii;i:!:i:!_i_ii_:<:i_i;_:i_iii_i_<:_
+
+a_'_'_':':':': :':':' ::;: ::::::::::::::::::::::::::::::::::::::::: :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+i:]:ii!_l:_'.ii_,:i:i._ii'%:'ib:i:i__i:ii_i:!ii:i'ii:,:ii_<i:_i:!i:!iiii_ii:::_i:.i_i::i:!_i]',:iii!ii:i!:!:',:i_!!',!iii:ii
+
+• ;.::.
+
+.:,;...._,:..,:.;...... :.:,:,.:...... :,: .............
+
+•..... :...... ,......................
+
+:i:_:i:_:iii:ii:!i,,:!:!:i:i:i:!:!:i:!!::!:,.i_!:!i:.i.:?._.:.j::.:i.::_.<<.:.::.__.:.:::.!!.:::.i,.:,.:.ii._f.i.:.:i.:._..:.:.!.!.i.!:::
+
+SE
+
+SEAK SoutheaAsltaska OPWA OlympPiceninsula __,_
+
+lD Idaho
+
+Washington
+
+,_
+
+'"___
+
+MT Montana
+
+PSWA PugeStound
+
+'=,._I_IL"'__
+
+sww,,
+
+SWOR SouthweOsrtegon
+
+Washington
+
+EOR E_sterOnregon EWA EasterWnashington
+
+Figure 1" Map of study area showingresourceareas
+This report does not include information for the vast area encompassing interior
+I
+Alaska.Comparableinventorydataare notavailablefor this areathusbiomass tablescouldnot bedeveloped.In addition,muchof the interiorareaisinaccessible to conventionalharvestingoperationsor is in areas consideredto be
+sensitive to these operations. Thus it is doubtful if the bioma,,r _ resource of this area could generate significant outputs under these circumstances.
+Total tree biomass as defined in the report refers to the above ground weight of a tree above a 1.0 foot stump, and exclusive of foliage. A glossary is included that defines specific terms as used in the report. Inventory terminology is derived from forest inventory reports from Forest Inventory and Analysis units at the Intermountain and Pacific Northwest Research Stations.
+Significant highlights and relationships of the regional resource will be shown in a series of graphs and charts.
+
+_1_, ,,
+
+The five western States representing the Pacific Northwest and Alaska Regional Biomass Program of the U.S. Department of Energy, cover about 256 million acres of land and contain approximately one-third of the Nation's timber resource (U.S. Department of Agriculture 1981b). This vast resource is concentrated on approximately 30 percent of the total area, referred to as timberland; land supporting timber that is generally considered to be available for continuing production of woody fiber (see figure 2 for general forest zones). This resource supports a largeforest products industry, accounting for a significant shareof the wood products consumed ir United States. This resource also represents a source of supply for a potentially significant wood using ipdustry----energy. Energy production based on woody biomass1grew considerably following the fuel shortages of the mid-seventies. This growth occurred primarily within the forest products industry and residential sectors of the economy. New legislation, advancing technology, and the renewabSenature of wood provide the basis for greater relianceon biomass as a contributor to the region's energy needs in the future.
+
+Introduction
+"
+
+Figure2: Generalizedforestzoneswithin5-Statearea
+' See Glossary for terms used in this report.
+
+The current surplus of energy in the region, while dwindling, has temporarily slowedthe rateof growthof consumptionof woodfor energy. An examination of thewood energysituationin California,however,givesa good indicationof changesthat mightbe expected in the near future in thisfive-State region.
+Based on different economicand energysupply and demand relationships,the use of woody biomassfor energy in California hasexpanded rapidly in the last five years. Information from energy producers in that State indicate that total demand for wood by ali existing and planned facilities equals almost 10'million tons annually. This expansion has resulted in some energy producers looking to other areasfor potential sources of wood supply. Where and how thisgrowth in the use of wood for energy will occur is an important question. A better understanding ofthe region's vast timber resource is a prerequisite for addressing this question. Adequate information exists to evaluate the suppiy needed by conventional wood product industries. What is needed, however, is more information on the entire woody biomass resource. This report brings together the best data available on the woody biomass resource of the 5-State area, as input to energy and other wood products industries and decisionmakers consideringthe above question. This report does notadd to the depth and precision of biomass data,a majorissue faced by aliwoody biomass users and managers in the West. This need must be met before the region's biomass resource can be effectively managed.
+The pdma_/purpose of this report is to identify significantsourcesof woody biomassthatmayhave potentialforsupplyingcurrentorfutureenergyconversionfacilities.No attemptis madeto defineamountsthat mightbe availableto a specificlocation.This is a large task, needinginformationon a complexset of criteria that affect the r)hysicaland economicfeasibilityof using woody biomassfor energy. Because of this complexity,and additionalconstraints related to forest management objectives,estimates of the total amount of biomass that might be available on an annual basis were not made. An exceptionto this are the loggingresidue data, which are based on annual harvestlevels.
+
+Area figures were taken directly from the FIA inventory reports noted above. Total land area represents ali land within the State boundaries, except bodies of water so designated by the Bureau of Census. Timber"landis that area considered to be suitable for producing continuing crops of trees, and not withdrawn from timber production for various reasons. Trees do occur on other lands, but are not considered for future timber production because of statute, low productivity, or other special use designations.
+
+Inventory volumes (cubicfeet) were accumulated for each State or resource area from the latest FIA report. These volumes were then converted to weight using average weight values. These average values were computed by taking wood density information by species, weighted by the proportion of total inventory volume by that species. This information is displayed in the appendix of this report, for green and dry weights. Following calculation of inventory weight, bark was added to the bole by applying bark factors, also shown in the appendix. This value, wood and bark, is reported as total bole weight.
+
+['he next step was to add the top to the bole. Top factors were derived from tariff table used by FIA at the PNW Station. Evaluation of the relationshipof top to main portion of the bole showed very little variation by species. Therefore, average values for ali species were applied to the bole weight figures. These values are shown in the appendix.
+
+Weight of ali branches was then added to the total weight of the entire bole. This
+
+was accomplished I:y applying branch factors from published sources tothe bole
+
+weight figures. Many sources were used to develop the branch factors. Where
+
+different sources gave widely different values for branches an average value was
+
+.
+
+f
+
+chosen. This, of course, was the norm rather than the exception. A summary of
+
+branch factors is shown in the appendix.
+
+Methods
+Area Determination
+Growing Stock Trees
+
+Small Trees
+m
+Cull Trees
+
+The generalt0mtula for this processis shownbelow: totaltree weight = (inventorybole vol.) x (ave. wooddensity/2000 Ibs.) x {1.0 + barkfactor) x _1.0+ top factor) x (1.C + branch factor)
+Th6se calculationswere completedby speciesand diameterclassin orderto generatethedeslredtablesshowninthis report.ProportionsfromFIA inventory repOJrtswereused wheno*_he_l stributionsof biomasswere required,such as forOwnership.
+Totalbiomassfor sn,_.ltlrees (1.0to4.9 ;nches,dbh)was developedbyapplying average treeweightsto totalnumberof treesfrom FIA r- _rts. Forsome areas the numberof smalltrees was not identifiedin theFIA reports.Fortheseareas total weight taken from a 1980 biomass assessment (U.S. Department of Agriculture1981a). The date o! inventoryfor thesecases was similar,thusthe expectednumberand weightof smalltrees shouldbe approxirr_telythe same torthe two time periods.Averageweightoi smalltreos, by diameterclassand species,isshownin the appendix.Dryweightswere computedusingdry/green weight ratiosfrom the densityvaluesalso shownin the appendix.
+Vo_me ofculltrees (net) was takenfrom the respectiveFIA inventor/reportfor each area. The boleweight of these trees was c<>mputeidn the same manner asfor growingstocktrees. The proportionof otherbiomass,topand branches, was cornputedusingthe proportionsdevelopedfor the 1980 compilation(U.S. Der_artmer_otl Agriculture1981a). An assumptionwas madethattheproportion of crown _elght to bol_ weighthas not changedsince the 1980 figures were computed.
+
+r
+
+m
+
+Weight of salvable dead trees was computed by converting FIA inventory volumeto dry or green weight usingthe average densityvaluesnoted above. Only bole weightis shownfor salvabledead trees.._n assumptionwas made that barkand branchmaterialdoes notexist.This isof course notentirelytrue, but no data exists to determine the amount of the material that is present, Becauseof this, figuresgive,_inthis reportunderestimatethe actual weightm salvabledead trees by an unknownamount.
+Loggingresidueinformationin this reportincludesonly piecesthat are at least 3.0 inchesindiameterand1.0 footlong. Otherma,_eriapl,rimarilycrownsoftrees llarvested,has notbeenestimatedona regionalbasis.The -_lume ofadditional residuelr, the smallersizescouldbe in excessof 20 dry tonsper acre (Maxwell and Ward 1976). Estimatesof loggingresiduevolumeandweightwere derived from publisheddata for each area (Howard1981a, 1981b; Howardand Fiedler 1984; Howardand Seizer 1989). Informationin Tables 18, 19, 21, 22, and 23 was taken directlyfrom these reports. Weight informationin Table 20 was derived by applyingdry weight valuesto cubicfoot loggingresiduevolumes. Total residueweight for each area (Table 12)was computedby multiplyingthe average weightof residue per 1,000 board feet of timber harvestby the total boardfootvolumeof timberharvest.Thiswas donefor eachownership/h3rvest methodrepresentedin eacharea. Totalweightfortheareawas the sumofthese computations.
+Energy values, Btu's, were computedfor portionsof theforest biomassof the 5State areathat were considered to be the .mostlikely conversion opportunities. This includes crowns of growing stock trees, small trees, cull trees, and logging residue. No information is given on the amount of these sources that might actually be available for energy conversion, nor is tb .,_un_tion made that ali of this material should in fact be used for that purpose. Energy values, expressed in Btu's per pound, vary considerably by species and type of
+
+Salvable Dead Trees
+Lo_gingResidue
+Ene _rgyV, ;._iues
+
+II
+
+li I
+
+II
+
+IIIII
+
+I1. II
+
+I
+
+"
+
+Iii I
+
+mated;_(lwoodandbark). Noattemptwas madetodeterminetheactual_nergy valueof each _urce ofbiomass;weighingspecievaluesby proportionofwood and bark. Rather,an average value of8500 Btu'sper bonedrypound was used to compute=,_ergyvalues.This amountsio 17 millionBtu's per bone dry ton.
+
+Thisfigure, apresentsan estimateofthe higherheatingvalue of each biomass
+
+source. Actual recoverableenergy values depend on moisturecontent and
+
+efficienciesof conversionequipment.The informationgivenin this reportis in-
+
+tended to providerelativeenergyvaluesforeach area. Actual opportunitiesfor
+
+convertingwoodybiomassto energy must be made on a site specificbasis,
+
+,
+
+utilizingdetailedinformationforthe area and sourcesconsideredas supplyfor
+
+the facilityunder study.National energy consumptionis frequentlyshownin
+
+terms of quads (1 x 10 15 Btu's). This measure is used to judge the relative
+
+significancea particularsource of energy con',ribute_o, r mightcontribute,to
+
+Nationalor regionalsupplies.
+
+lr
+
+w
+
+I
+
+As noted earlier this area oi the United States containsa large share of the Nation'stimber resource.This resourceoccurson a landarca of neady80 million acres; about 30 percent of the total land area of the live states,The area of
+
+Assessment
+of the
+Resource
+
+timberland by resource area is -3hownin table 1. As this data shows the
+
+propoLlionof timberland varies consio_rably between the 11 resource areas.
+
+Area Analysis
+
+The p#oportion ranges from 16 percent in Montana, to 80 percent in southwest
+
+,
+
+Wasllington (see figure 3). In general the area west of the Cascade mountain
+
+range has a much higher proportion of timberland than the areasto the east. Just
+
+over 40 percent of the Southeast Alaska area is covered by timberland.
+
+.....
+
+•
+
+LL
+
+PI
+
+Table 1. Total land area by State, resource area, and land class
+
+State and resource area
+
+........
+
+Forest land ........
+
+Timberland
+
+Other
+
+Total
+
+Non-forest land
+
+Total land area
+
+.....................
+
+Thousand acres .....................
+
+SOUTHEAST ALASKA
+IDAHO
+MONTANA !/
+OREGON: Northwest West Central Southwest Eastern Total
+WASHINGTON: Olympic Peninsula Puget Sound Southwest Eastern Total
+
+6,317 17,661 13,571
+
+4,364 4,280 6,655
+
+I0,681 21,941 20,226
+
+3,548 3,978 6,143 10.126 23,795
+
+213 337 891 _ 5,679
+
+3,761 4,315 7,034 _. 29,474
+
+3,092 3,462 3,652 7.144 17,350
+
+863 1,017
+218 .2.073 4,171
+
+3,955 4,479 3,870 99_218 21,521
+
+4,820 30,950 63,453
+
+15,501 52,891 83,679
+
+1,824 1,117 1,116 27.865 31,922
+
+5,585 5,432 8,150 42.229 61,396
+
+612 2,074
+689 I__7_751 21,126
+
+4,567 6,553 4,559
+42,647
+
+!/Does not include 8.1 million acres of Land for which no data was available. (see Green, OIBrien, and Schaefer 1985)
+,
+
+I
+
+|
+
+,Ill
+
+lO0
+
+go 80
+
+70 LEGEND:
+
+60
+
+[-'--1 Non.torest
+
+so
+
+O hfo,,r,'st
+
+40
+
+Timberbnd
+
+3O
+
+20
+
+10
+
+0
+
+SE lD MT NW WC SW E OP PS SW E
+
+AK
+
+OR OR OR OR WA WA WA WA
+
+Resourcaerea
+
+KEY:
+
+SEAK SoutheaAstlaska
+lD Idaho MT Monlana NWOR NorlhwesOtregon WCOR WestCentraOl regon
+
+SWOR SouthwesOtregon E OR EasterOn regon
+OPWA OlympiPceninsuWlaashington PSWA PugeSl oundWashington SWWA SouthwesWt ashington
+EWA EasterWn ashington
+
+Figure3: Total land area by classificationby resourcearea
+A considerable amount of timber exists on Other Forest Land throughout the 5state area. The proportion of this land classification ranges from 4-28 percent of the total land base. Timber on this land is not reeadilly available for harvest, either by being withdrawn from production by statute, or by nature of its quality, species, or remoteness. A certain amount of wood from these lands might enter the energy market in the future. No effort has been made to estimate these quantities in this report. Future biomass assessment, however, may incorporate thi_ in;ormation.
+
+Of the 80 million acres of timberland, roughly two-thirds is in public ownership (table 2). National Forests account for about 55 percent of the total, with Bureau of Land Management and State lands being the next largest owner groups. AS shown in figure 4, the highest proportion of public ownership is in southeast Alaska (93 percent)and the lowest in southwest Washington (41 percent). Western Washington has the highest percentage ofland in private ownership of ali the areas, an average of about 58 percent, over 60 percent of which is owned by forest industries. Other Private holdings are highestin Montana and the Puget Sound area of Washington. Ranches and farms are a major component of this ownership in Montana, while miscellaneous private owners predominate the Puget Sound area.
+
+Table 2. Area of timberland by State, resource area, and ownership
+
+State and resource area
+
+National Forest
+
+Other public
+
+Forest industry
+
+Other private
+
+ALL ownerships
+
+.................. Thousand acres ...................
+
+SOUTHEAST ALASKA
+IDAHO
+MONTANA
+OREGON: Northwest West Central Southwest Eastern Total
+WASHINGTON: Olympic Peninsula , Puget Sound Southwest Eastern Total
+
+5,649
+12,808
+8,162
+r 936 1,630 2,019 7 046 11,631
+538 835 1,081 2__907 5,361
+
+200
+1,635
+759
+802 551 1,509 606 3,468
+758 629 427 _ 3,791
+
+--
+1,178
+1,601
+1,042 1,097 1,641 _ 5,347
+1,215 998
+1,495 880
+4,588
+
+468
+2,040
+3,049
+768 700 974 907 3,349
+581 1,000
+649 _ 3,610
+
+6,317
+17,661
+13,571
+3,548 3,978 6,143 10 126 23,795
+3,092 3,462 3,652
+17,350
+
+1_o go BO
+i
+70 60
+50 40 30
+
+LEGEND: _ Otheprrivate
+
+_
+
+Foresint dustry
+
+_
+
+Othepr ublic
+
+mm Nationfaolrest
+
+10
+c SE lD MT NW AK _1 Ot:ll _,_
+
+SW E OP PS SW E OR OR WA WA WA WA
+area
+
+1
+Figur4e: Percenotftin_berlbaynodwnershicplassby resourcearea
+
+The data in table3 showthattimberlandwith sawtimbersizetrees are by far the most highlyrepresentedin each of the resourceareas. Sawtimberstandscover from 54 to 95 percent of totaltirnbedand.As shown in figure 5, most of the resourceareas averageabout55-65 percentof timberlandin standsof thissize. Poletimber and seedling/saplingstands range from 5 to 43 percent of the timberlandbase. A later discussionwill show that the resourcearea withthe highestpercentof poleltimbear nd seedling/saplingstands,OlympicPeninsulain Washington,alsohasthe highestperacregrowthrate. Aswillbe discussedlater these standshavethepotentialOfmakingsignificanct _, _tdbutiontsotheNation's supplyof energy.
+
+_ =i==._...
+
+']
+
+..I.... ..•.-.-.
+
+"--
+
+:===_c==..=.._..........
+
+'.......
+
+i'
+
+l lll
+
+_==_,
+
+_
+
+State and resource area
+
+Table 3--Area of timberland by State, resource area, and stand-size class.
+
+Sawtimber stands U
+
+Large
+
+Small
+
+sawtimber
+
+sawtimber
+
+Total
+
+Poletimber stands
+
+Sapling and seedling stands
+
+Nonstocked areas
+
+,-.': .__..._==L::
+Ali classes
+
+SOUTHEAST ALASF_
+
+IDAHO
+
+:
+
+MONTANA
+OREGON :
+Northwest West Central Southwest Eastern
+Total
+WASHINGTON:
+Olympic Peninsula Puget Sound Southwest Eastern
+Total
+
+2/
+2__/
+2/
+646 1,313 2,424
+16_ 4,547
+377 493 819 728 2,417
+
+L
+
+2/
+
+5,993
+
+2,/
+
+9,408
+
+2_/
+
+8,280
+
+i, 509 1,196 1,453 _6_6_589 10,747
+
+2,155 2,509 3,877 6,753 15,294
+
+1,2'79 1,569 1,221 3.559 7,628
+
+1,656 2,062
+2,040 _ 10,045
+
+Thousand acres ....................
+
+_......
+
+54
+2,157
+3,111
+508 395 513 2.238 3,654
+
+270
+1,669
+1,962
+679 841 1,404 _ 3,762
+
+--_/
+773
+218
+206 233 349 29 Z 1,085
+
+6 ,317 i
+14,006 _/
+13,571
+3,548 3,978 6,143 I0 126 23,795
+
+601 641 592 _ 3,068
+
+748 659 851 _ 3,626
+
+87 i00 169 255 611
+
+3,092 3,462 3,652 7 144 17,350
+
+9On National Forests, large sawtimber includes stands I00 years or older and small sawtimber less than
+
+i00 years old. On other ownerships, On other ownerships, small sawtimber
+
+large sawtimber includes trees 21.O-inch includes softwood trees 9.0- to 20.9-inch
+
+ii.0- to 20.9-inch d.b.h, ii.0- to 20.9-inch d.b.h.
+
+d.b.h, and larger. d.b.h, and hardwood
+
+trees
+
+_Breakdown llIncluded
+
+by size-class not available from existing with seedling and sapling stands.
+
+inventory reports.
+
+_Does not include 3,654,000 acres of low productivity
+
+land not classified by stand size-class.
+
+, _lll ,_l [, i
+
+IIII
+100= 90" 80" 70 -
+
+I H II ""
+
+d.
+
+1 III ' '
+
+IlPll
+
+LEGEND:
+
+_. 50" 40 -
+'_ 630O"=
+20 °
+
+I_ Seedling/
+
+sapling
+
+'
+
+[r_E_EE,_Non-stockedpoletimber
+
+Sawtimber
+
+mm=
+
+10"
+._,
+
+•
+
+•
+
+•
+
+l,
+
+•
+
+•
+
+•
+
+•
+
+•
+
+r
+
+•
+
+SE lD MT NW WC SW E OP PS SW E
+
+AK
+
+OR OR OR OR WA WA WA WA
+
+Resouracreea
+i
+
+Figure5: Percentof timberlandby stand-sizeclassby resourcearea
+Douglas-firis thepredominateforesttype in the 5-State area (see table 13, in appendix).Onlyin southeastAlaska(hemlock/spruce),and Montanaand easternOregon(pines)dootherspeciescovera higherproportionofthe timberland. The proportionof majorforesttypes is depictedin figure 6. Stands of red alder coveroccurin manyofthe resourceareas. Table 13 showsred alderto be well representedin 6 of the resource areas, ranging from 6-20 percent of the timberlandbase. Throughthe years red alder has been underutilized,in comparisontoits inventory.Whilethere hasbeen a recentupswingin interestin red alder,thistyperepresentsa potentialmajorcontributoor f woodenergy, ltshould be noted that forest type classificationdepictsthe predominatespecies in a stand.Other speciesdo occurin m_,qyof thesestands,and are often notused to the sameextent as the majorspecies.A goodexampleof thisis smallhemlock inDouglas-lirstands,and Iodgepolepineinponderosapinetype.Aviableenergy marketmightencouragebetter utilizationof thesetrees.
+
+_l
+100 9080-
+.... 60 -
+s40o- -
+30 -0lO70o-
+
+rl II I ,
+
+I
+II
+
+[_ Other
+
+iZZ_ Redalder
+
+.,
+
+I_
+
+TPriuneefir
+
+Hemlock/ spruce
+
+II
+
+Douglas-fir
+
+, LEGEND:
+
+Figure 6: Percent of timberland by forest I[ype by resource area
+Table 14 (in the appendix) shows area of timberland by cubic-foot site class. This classification is an attempt to define the basic growth capability of a stand. Stands with the highest potential can produce in excess of 225 cubic feet per acre per year. Those with the lowest potential produce less than 49 cubic feet per acre per year. Stands capable of producing 120 cubic feet or more per year' are considered as sites with good growth potential. The data in table 14 show that almost 30 percent of the timberland is capable of producing 120 cubic feet per acre per year. These stands are not uniformly distributed. Roughly 72 percent of stands with this growth potential are located in the western parts of Oregon and Washington. Data on site class are not available for southeast Alaska, thus the above figures do not include the Alaska acreage.
+Stands with a relatively high level of productivity, are also the stands that produce high quantities of total biomass. On the other hand, stands with lower
+
+The Biomass Resource
+
+productivity,like Iodgepolepine. often represent a good potentialfor wood energy due to the smaller size and lowerqualitytree that occurs on the site. Treeswiththese characteristicsare frequentlynothighlydemandedforconventionalproducts.Thus, the proportionof biomassin these standsavailablefor energy is relativelyhigh, in some cases nearly 100 percent. These data are usefulfor aeterminingthe relativegrowthpotentialof stands.As the examples above indicate,however,growthpotentialis not directlycorrelatedwith wood energy supplies.
+The estimated total quantity of woody biomass for the 5-State area is 4.425 billion bone dry tons (table 4). As notedearlier totaltree biomassrefers to the above groundweightof a tree above a 1.0 foot stump,and exclusiveof foliage; includedare smalltrees, thosefrom 1.0 - 4.9 inchesin diameter;cull trees;and salvabledead trees. The equivalentgreen weight (containingwater, in natural conditions)of thewoody biomassis just under 9.3 billiongreentons (table 5). Currentfiguresforthe U.S. are notavailable,butthetotalgreenweightof the 5State area roughlycomparesto 13.9 billiongreen tons for a 13 state area in southeasternU.S. (Waldropand Brooks1984). About 44 percentof the 4.425 billiondrytonsoccursinwesternOregonandwesternWashington.The remainderis dividedfairlyevenlyamongtheotherfive areas(southeastAlask_hasthe nexthighesttotal, 14 percent).
+
+Table 4. Total dry weight of above ground biomass on timberland by State, resource area, and class of timber.
+
+State and resource area
+
+Sawtimber trees
+
+Poletimbcr trees
+
+All growing
+stock
+
+Small trees
+
+Cull trees
+
+Salvable dead trees
+
+..........................
+
+Million bone dry tons ..............................
+
+Ali timber
+
+SOUTHEAST ALASKA
+IDAHO
+MONTANA
+OREGON : Nor thwes t West Central Soulhwes t Eastern Total
+WASHINGTON: Olympic Peninsula Puget Sound Southwest Eastern Total
+
+-=-_-
+
+- .......
+
+-- z. .--- |
+
+520,86 351.97 300.66
+
+56,47 163.99 168.11
+
+577.33 515.96 468.77
+
+10,80 18.40 32.60
+
+217.56 306.21 365.70 278.86 I, 168.33
+
+30.34 24.18 38.85 80.17 173.54
+
+247.90 330.39 404.55 359,03 1,341,87
+
+23.50 18.50 34.80 19.30 96.10
+
+222.87 234.14 247.86
+245.06 949.93
+
+28.87 33.17 26.33
+55.97 144.34
+
+-_ .............J...
+
+251.74 267.31 274.19
+301.03 !,094.27
+
+8.40 10.20
+9.10
+20.50 48.20
+
+..... J
+
+28.06 10.20
+9.29
+
+8.66 24.26 36. e0
+
+624,85 568.82 546.66
+
+6.70 9.U5 28.09 10.08 53.92
+
+2.02 4.41 6.43 3.70 16.56
+
+280.12 362.35 473.87 392.11 1,508.45
+
+2.71 4,85 8.16
+2.95 18.67
+
+3.91 4.30 4,14
+3.45 15.80
+
+266.76; 286.66 295.59
+327.93 1,176.94
+
+_-.tru
+
+L
+
+,lm
+
+Table 5,Total green welghtof above ground biomass on timberland by State, resource area, and class of timber
+
+State and resource area
+
+Sawt imber trees
+
+Polet imber trees
+
+Ali growing
+stock
+
+Small trees
+
+Cull trees
+
+Salvable dead trees
+
+AI[ t imber
+
+.............................
+
+Million green tons ..........................
+
+SOUTHEAST ALASKA
+
+1,176.10
+
+iDAHO
+
+738.43
+
+MONTANA
+
+615.45
+
+OREGON : Northwest West Central Southwest Eastern Total
+
+455.14 634.77 748,,59 574.17 2,412.67
+
+WASH!NGION: Olympic Peninsula Puget Sound Southwest Eastern Total
+
+451,76 496.14 521,74 507.52
+1,977.16
+
+127.50
+
+1,303.60
+
+344.0',; I,082.48
+
+344.12
+
+959.57
+
+24.39 38.60 66.73
+
+63.36 21.40 19,02
+
+19.56 50.90 73.69
+
+1,410.91 I, 193.38 1,119.01
+
+63.47 50.12 79.53 165.07 358.19
+
+518.61 684.89 828.12 739.24 2,770.86
+
+49.16 38.35 71.24 39.74 198.49
+
+14.02 18.76 57,50 20,75 111.03
+
+4.23 9.14 13.16 7.62 34.15
+
+586.02 751.14 970.02 807.35 3,114.53
+
+58.52 70.29 55.42 115;91
+300.14
+
+510.28 566,43 577.16 623.43
+2,277.30
+
+17.03 21.61 19.16 42.46
+100.26
+
+5.49 I0,28 17.18
+6.11
+39.06
+
+7,93 9.11 8.71 7.14
+32.89
+
+540.73 607,43 622.21 679.14
+2,449.51
+
+Bcoomthpadrraytivaendengerregeynvawlueeigsh, tassaitrerempraoinvsidreedla.tDivreylywceoingshttainst fuosr eadgitvoencaslpceuclaietes and is the basis for most reported levels of energy values. Green weight on the other hand is commonly used to determine the weight of biomass that has to be
+"
+handled by harvesting equipment or transported to conversion facilities.
+Biomass is distributed somewhat differently than acreage of timberland among the 11 resource areas covered by this report. Figure 7 below shows a comparison of proportion of acres of timberland to proportion of total biomass for eacharea. Noticeable is the difference in these proportions between the wetter and drier areas. Idaho, Montana, eastern Oregon, and eastern Washington have higher percents of timberland than biomass, while the other, wetter, areas exhibit
+
+the opposite situation. Grea_erquantities of biomass may represent greater opportunities for energy conversion, although this is not always the case.
+
+2_ I
+
+I
+
+IIIII I
+
+IIII
+
+,
+
+IIIII
+
+_ _!ii:::@!:sii;i:i:::!::i::
+
+_-
+
+_/!i!i!il iii!iii
+
+} LEGEND:
+
+o.
+5
+
+/'_/W! WA '
+
+J
+
+Figure7: Proportionof totaltimberlandcomparedto proportion of total biomassby area
+ASmight be expected the largestportion of the total is represented by sawtimber trees, those greater than 11.0 inches in diameter. Figure 8 shows the distribution of total biomass by class of timber. While sawtimber trees accountfor the largest share of the total, the distribution by class of timber is not uniform when comparing the different areas. Montana, for example differs considerably from the other areas. The sawtimber portion in Montana is the lowest among the areas, at 55 percent, while poletimber trees account for 31 percent, highest among the 11 areas. Also notable is the relatively high proportion of biomass in salvable dead trees. This ismost likely attributable to the high incidence of beetle killed Iodgepole pine trees. Southeast Alaska on the other hand has 83 percent of its biomass in sawtimber trees and only 9 and 2 percent respectively in poletimber and seedling/sapling trees.
+
+_. r IIII I
+
+I
+
+'
+
+I
+
+II
+
+II I I II I II II
+
+..........
+
+8O
+
+LEGEND
+
+Smallrees
+
+400
+
+_
+
+CPuollle/dtiemabder
+
+Sa.timber
+
+2O
+
+0
+
+SE lD MT NW WC SW E OP PS SW E
+
+AK
+
+OR OR OR OR WA WA WA WA
+
+Resourca,rea
+
+Figure 8: Percentof total biomassby stand-sizeclass by resourcearea
+
+Generallyspeakingtheseproportiongsive a clueto the sourcesof woody
+
+biomassthatmaybe availableforenergy.Sawtimbesrtandsarethe sourceof mostofthewoodharvesteidnthe5-Statearea.Thus,itisthesestandsthatoffer
+
+'
+
+opportunitietsoincreaseutilizatiodnuringregulahr arvestoperationsP. oletim-
+
+berandsomeofthelargerseedling/saplinsgtandsofferdifferenotpportunities.
+
+Specificallym, anylandmanagerswouldliketoenterthesestandsat an earlier
+
+ageto accomplishsilviculturaolbjectivesT.hinningto increasegrowthon re-
+
+mainingtreesisan exampleC. ostsof doingthisworkare high,andfrequently
+
+there is no incometo offsetthesecosts.Havinga marketfor thismaterial,
+
+possiblyforenergy,wouldofferthe incentiveneededto increasethe levelof
+
+theseactivitiesA. veryactiveenergymarketmightattracta significanatmount oib_om_sfsromthesestandsb, eyondthatlefttoprotectotherresourcevalues.
+
+i1i
+The proportionoftotalbiomassin small,cull,and salvabledeadtrees isrelatively smallin ali areas, rangingfrom 5-15 percent. These classesoftimber do offer someopportunityfor energy conversion,usuallyin conjunctionwith regularor salvage harvest operations.Cull and dead trees are usuallyscattered throughout the forests, the exception being treeskilled by fire or insects and diseases. Small trees are found both as components of stands with larger trees and as entire stands, particularly following harvesting, in most situations they offer lirnitedconversion opportunities, at least until they reach the rize where thinning becomes a management alternative.
+Publiclands accountfor about three quarters of the 4 billiondry tonsof woody biomass from growing stock tree,,.;(table 15, in appendix). National Forests contribute nearly 60 percent, while other public owners account for just over 16 percent. The National Forest figure is only an estimate since a breakdown by ownership is not available for southeast A_aska(at the date of the inventories used as a basis for this report). In terms of acres of timberland, National Forests in southeastAlaska accountfor almost90 percentof the total. This proportion was used to develop the National Forest estimate noted above.
+With some exceptions National Forestlands also have the Ilighest per acre amounts of biomass, ranging from 28.52 tons per acre, dry weight, in Idaho to 123.63 tons per acre, _Jryweight, in West Central Oregon (table 6). Averages for ali owners range from 29.2'; tons per acre, dry weight, in Idaho to 81.42 tons per acre, dry weight, in the Olympic Peninsula area of Washington. Ownership breakdown is was not available Ior southeast Alaska when data for this report were compiled. Thus, the range of biomass weights may differ when the Alaska data are known.
+'1lr
+
+....
+
+_IIr
+
+_ lr
+
+II
+
+....
+
+Table 6. Dry weight per acre of above ground biomass of growing stock trees' on timborland by State, resource area, and ownership.
+
+State and resoarce area
+
+National Forest
+
+Other public
+
+Forest industry
+
+Other private
+
+All ownerships
+
+....
+
+Bone dry tons per acre
+
+SOUTHEAST IDAHO
+
+ALASKA
+
+MONTANA
+
+OREGON : Northwest West Central Southwest Eastern
+
+WASHINGTON :
+Olympic Peninsula Puget Sound Southwest Eastern
+
+__/
+28.52
+39.80
+118.88 123.63
+91.16 39,38
+95.32 105.86 109.41
+42.65
+
+._/
+34.72
+29.91
+57.32 86.08 76.58 42.39
+89.96 81.10 74.61 46.69
+
+_/
+32 72
+31.73
+53.31 48.24 46.88 24.56
+83.48 63.57 59.13 46.89
+
+2_/
+27.13
+23.09
+45.72 40.76 28.75 19.17
+53.08 64.47 54.95 31.51
+
+91.39
+29.22
+34.54
+69.87 83.04 65.86 35.45
+81.42 77.20 75.08 42.14
+
+!IIncludes trees 5.0-inch d.b.h, and larger.
+
+2-/Breakdown by ownership
+
+class not available
+
+for Southeast Alaska.
+
+rll
+
+I
+
+_"...... __
+
+......
+
+r
+
+Table 7 givesthe total amountof woody biomassby tree component; bole and crown (excluding foliage), ltshould benoted thatweights for boles include bark, which is different from most reported inventory volumes ttlat show wood only. Bark is included w!th the bole because most of it is attached to the bole wh/_n harvested and transported to the conversion facility. An unknown quantilt of bark is knocked off trees during harvest. When evaluating the additional quantity of biomass that may be available during harvest, bark should not be considered. Much of the bark is subsequently converted to enetrgyor other products at the receiving facility.
+
+....
+
+ii!,' '
+
+, ,,,
+
+,
+
+,L,J
+
+_ iii
+
+i
+
+,,
+
+,,,
+
+r )n _.
+
+_ll
+
+llnl
+
+L _
+
+:
+
+--- :
+
+Table 7, Total dry welght of above ground blomass of growlng stock trees' on timberland by State, resource area, softwoods and hardwoods, and by bole and crown,
+
+State and resource area
+
+...... Bole
+
+Softwoods .............
+
+Crown
+
+Total
+
+Bole
+
+Hardwoods ...........
+
+Crown
+
+Total
+
+Ali species .......
+
+Bole
+
+Crown
+
+Total
+
+...............................
+
+Million bone dry tons ................................
+
+SOUTHEAST ALASKA
+
+484.72 88.26
+
+572.98
+
+IDAHO
+
+421.35 89.31
+
+510.66
+
+MONTANA
+OREGON: Northwest West Central Southwest Eastern Total
+WASHINGTON: Olympic Peninsula Puget Sound Southwest Eastern
+Total
+
+361.61
+184.60 269.49 315.85 295.83 1,065.77
+184.92 187.69 207.90 ...2.47.2? 827.80
+
+100.60
+33.42 39.19 46.76 62.59 181.96
+34.68 35.19 36.39 49.44 155.70
+
+462.21
+218.02 308.68 362.61 358.42 1,247.73
+219.60 222.88 244.29 296.73 983.50
+
+3.28
+4.34
+5.04
+24.92 18.51 35.82 0.50 79.75
+26.79 36.95 25.05
+3.52 92.31
+
+1.07 0.96 1.52
+
+4.35 5.30 6.56
+
+488.00 89.33 425.69 90.27 366.65 102.12
+
+577.33 515.96 468.77
+
+4.96 3.20 6.12
+0.11 14.39
+
+29.88 21.71 41.94
+0.61 94.14
+
+209.52 288.00 351.67
+296.33 1,145.52
+
+38.38 42.39 52.88
+62.70 196.35
+
+247.90 330.39 404.55
+359..0--3 I,341.87
+
+5.35 7.48 4.85 0.7__8 18.46
+
+32.14 44.43 29.90
+4.30 110.77
+
+211.71 224.64 232.95 250.81 920.11
+
+40.03 42.67 41.24 50.22 174.16
+
+251.74 267.31 274.19 301.03 1,094.27
+
+L/[nclude_ trees 5.0-inch d.b.h, and larger.
+
+_._
+
+L ...........
+
+_. ............
+
+_
+
+........
+
+---__
+
+llll
+
+_nr
+
+The proportion of crown to total tree biomass does not differ much between areas. At first thought this might not be expected. Particularly since the proportion does vary by species. From table 7 the amount of crown in softwood trees varies from '12.7to 21.8 percent of total biomass. The higher figure is in Montana. The next highest proportion of crown matedal is in Idaho, at 17.5 percent, and is closer to that of the other areas. The reason for the relatively high proportion in Montana is not known. The proportion of hardwood crown material exhibits roughly the same pattern between the areas. There is also little difference in the proportion of crown to total biomass between softwoods and hardwoods. For ali areas and species crown biomass averages 16.3 percent.
+
+I
+
+I
+
+I
+
+IIIII
+
+IIII
+
+jI
+
+t
+
+Table 8 gives the per acre values for bole and crown biomass. These are includedto give someidea of concentrationsof potentiallyavailablebiomass.
+,
+Generallyspeakinghigherconcentrationstendto be more economicallyattractive to potentialusers.This is particularlytrue for situationswhere only crown materialsare currentlynot utilizedfor other products.In some cases, small diameter Iodgepolepine standsfor example, additionalbiomassin the boles may be availablefor energy products.In these situationsthe amountof crown biomassunderestimatesthe overallpotential.
+
+_--
+mn
+
+I
+
+_
+
+ta
+
+lirT..... _, _,.¢_ If'iii lal
+ii
+
+Table 6, Dry weight per acre of above ground biomass of growing stock trees on timborland by State, resource area, softwoods and hardwoods, and
+by bole and crown.
+
+State and resource area
+
+.... Softwoods ......... Bole Crown Total
+
+Hardwoods ......... Bole Crown Total.
+
+ALL species --Bole Crown Total
+
+.......................
+
+Bone dry tons per acre .....................
+
+SOUTHEAST ALASKA
+IDAHO
+MONTANA
+OREGON: Northwest West Central Southwest Eastern
+WASHINGTON: Olympic Peninsula Puget Sound Southwest Eastern
+
+76.73 13.97 90.70
+
+23.86 26.65
+
+5.06 28.92 7.41 34.06
+
+0.52 0.25 0.37
+
+0.17 0.05 0.11
+
+0.69 77.25 14.14 91.39
+
+0.30 24.11 0.48 27.02
+
+5.11 29.22 7.52 34.54
+
+52.03 67.74 51.42 29.21
+
+9.42 9.85 7.61 6.18
+
+61.45 77.59 59.03 35.39
+
+7.02 4.65 5.83 0.05
+
+1.40 0.80 1.00 0.01
+
+8.42 5.45 6.83 0.06
+
+59.05 72.39 57.25 29.26
+
+10.82 10.65
+8.61 6.19
+
+69.87 83.04 65.86 35.45
+
+59.81
+54.21 56.93 34.62
+
+11.22
+10.16 9.96 6.92
+
+7_.03
+64.37 66.89 41.54
+
+8.66
+10.67 6.86 0.49
+
+1.73
+2.16 1.33 0.11
+
+10.39
+12.83 8.19 0.60
+
+68.47
+64.88 63.79 35.11
+
+12.95
+12.32 11.29
+7.03
+
+81.42
+77.20 75.08 42.14
+
+li L ==
+
+i
+
+i
+
+..
+
+II II
+
+I II IIIIIIII • II I
+
+111111
+
+_
+
+.
+
+_
+
+_
+
+.
+
+.= u_u,i
+
+II
+
+III
+
+111 llrl
+
+The totaldryweightof biomass by speciesis given intable 16 (inappendix). For the mostpartthedistributionof biomassfollowsthesamepatternasfor acreage of timberlandbyforesttypenotedearlier(seefigure6). The distr'butionby major species or speciesgroupis shownbelow,
+
+Species Dcuglas-fir Hemlock/spruce Pines Trueflrs Redalder Otherspecies Total
+
+Totalbiomass, millionBDtons
+1,413 1,070
+621 399 119
+376 3,998
+
+Percentof total biomass
+35.3 26.8 15.5 10.0
+3.0
+9.4 100.0
+
+Distributionof the biomassbyspeciesisnot uniformamongthe resourceareas. Pines are generally found in the drier interior forests, while Douglas-fir and hemlock are found in the coastal regions. Nearly half of the hemlock/spruce type occurs in southeast Alaska, however, none of the Douglas-fir is located there. Red alder is also geographically specific. Of the 119 million dry tons, 98 percent grows in western Oregon and western Washington. As noted earlier in this report, acreage of Iodgepole pine exceeds that of ponderosa pine. "['hesame situation exists for biomass, where Iodgepole accounts for 296 million dry tons and ponderosa just over 281 million dry tons.
+
+1able 9. Total dry weight of abo-e ground mass of live trees on timberland by State, resource area, dnd diameter class.
+
+State and resource area
+
+....................................
+
+Diameter class ...................................
+
+1.0+ 5.04.9 6.9
+
+7.0- 9.0- 11.0- 13.0- 15.0- 17.0- 19.0- 21.0- 29.0 & 8.9 10.9 12.9 14.9 16.9 18.9 20.9 28.9 larger
+
+AIL classes
+
+................................
+
+MiLlion bone dry tons ...............................
+
+SOUTHEAST ALASKA IDAHO
+
+10.80 !/
+
+_/ 56.47 2/
+
+2/
+
+2/
+
+2/ 188.68183.87_/148.31
+
+18.4044.2962.3657.3453.9351.1643.1337.8331.2782.62
+
+52.03
+
+588.13 534.36
+
+MONTANA
+
+32.60 74.33 93.78 73.92 58.43 43.02 32.44 24.44 18.33 36.92 13.16 501.37
+
+OREGON: Northwest West Central SoutP_est East,:rn Total
+
+23.50 18.50 34.80
+
+12.99 I0.26 19.16
+
+17.35 13.92 19.69
+
+19.30 44.97 35.20
+
+96.1087.3886.1685.71
+
+19.26 21.56 20.34 19.33 14.94 16.95 17.o8 17.63 18.41 19.93 19.68 19.56
+33..I--030.54 25.77 23.43 80.9883.7779.95
+
+18.97 18.97 20.29
+
+15.76 47.29 17.57 61.05 19.05 68.97
+
+55.05 141.12 179.81
+
+21.54 19.53 66.89 58.06
+
+79.7771.91244.20434.04
+
+271.40 348.89 439.35
+378.33 1,437.97
+
+WASHINGTON:
+
+Olympic Peninsula
+
+8.40 10.95 17.92 21.79 21.73 21.99 20.62 20.12 17.38 47.20 52.04
+
+260.14
+
+'
+
+Puget Sound
+
+10.20 13.11 20.06 24.95 25.34 26.00 23.22 19.78 16.92 44.45 53.48
+
+277.51
+
+Southwest
+
+9.10 10.82 15.51 19.41 22.22 22.66 23.33 21.64 18.27 55.11 65.22
+
+283.29
+
+Eastern
+
+20.50 22.35 33.62 30._7 32.27 30.35 27.50 23.59 18.99 49.16 32.93
+
+321.53
+
+Total
+
+48.20 57.23 87.11 96.42101.56101.0094.6785.13
+
+71.56195.92203.67
+
+1,142.47
+
+1/Weight of trees from 5.0- 8.9 inches in diameter are included in 9.0- 10.9 inch diameter class. _/Weight of trees from 11.0- 18.9 inches in diameter are included in 19.0- 20.0 inch diameter class. _/Weight of trees from 28.9- 30.9 inches in diameter are included in the 21.0- 28.9 inch diameter class.
+
+mnill
+
+|
+
+Size is the biggest factor in amount of biomass per tree. The proportion of bole and crown materials is also related to tree size. As noted above harvest usually occurs in stands of largertrees, while silvicultural activities are directed at stands in earlier stages of development. While different, both situations offer opportunities for the use of woody biomass for energy. Table 9 shows the distribution of total biomass by diameter class. This data differs from that in prior tables in that treel 'ess than 5.0 inches in diameter are included.
+
+The distributior_ of biomass by diameter class differs considerably between the resource areas. This distribution is depicted in figure 9. As can be seen there are some interesting differences in the si ,-'_,class distributiOns. For example, in Montana 55percent of total biomass is in trees less than 1 1.0 inches in diameter. "]his compares to a 5-State average of only 28 percent in this samesize range. There are a number of factors that lead to this size distribution, one of which is that nearly 30 percent of biomass in Montana is accounted for by Iodgepole pine, usually occurring as stands of relatively small di_meter trees. Just the opposite occurs in southeast Alaska where trees less than 11.0 inches account for only 11 percent of total biomass in the area. Another unique situation occurs in western Oregon. Two resource areas, Southwest and West Central, account for 38 percent of biomass in trees greater than 29.0 inches. The other area with a high proportion of biomass in this size class of tree is southeast Alaska, having about 17 percent of the 5-State total. As figure 9 shows the interior areas tend to have a higher proportion of biomass in trees less than 11.0 inches than do the coastal areas.
+II
+
+1O0 "_........ _. 90 Hl ---
+
+80 Hl
+
+---
+
+70-11"/ _ _ .,e../....
+60 -41-/"
+
+50 -41"/ - - _
+
+./f
+
+,_///'_
+
+'., .m,,.-,m-
+-
+iY
+--
+-,...,-,
+
+/.,,,_
+
+;;
+
+/j//
+
+""
+- - ""
+".
+
+-.--
+
+LEGEND:
+
+L_._J 29.0+ inches
+
+_
+
+11.0-28.i9nches
+
+0 !_
+
+SE lD MT NW WC SW E OP PS SW E
+
+AK
+
+OR OR OR OR WA WA WA WA
+
+Resourcearea
+
+Figure 9: Biomass distribution (percent) by diameter class by resource area
+
+_---- __-_____' :.__;_.r,ill" _....................--_-._.........
+
+-r4'....'.._L_I ---_
+
+.... _
+
+.-.-.... '-- --:.,............_.. ................... ... -......_. ...........IIUI
+
+Table 10. Total dry weight of net annual growth of growing stock trees on timberland by State, resource area, and ownership.
+
+State and resource area
+
+National Forest
+
+Other public
+
+Forest industry
+
+Other private
+
+All ownerships
+
+Million bone dry tons
+
+SOUTHEAST ALASKA
+IDAHO
+MONTANA
+OREGON: Northwest West Central Southwest Eastern Total
+WASHINGTON: Olympic Peninsula Puget Sound Southwest Eastern Total
+
+I_/
+4.65
+4.01
+0.67 0.89 I. 01 2.83 5.40
+0.19 0.16 0.71 I. 22 2.28
+
+i_/
+I. 02
+0.33
+1.17 0.71 0.83 0.28 2.99
+1.83 1.31 0.96 _!. 54 5.64
+
+!/
+0.86
+0,64
+i. 85 1.40 I. 02 0.65 4.92
+2.84 1.84 2.85 0.76 8.29
+
+I_/
+I. 35
+i. 12
+I. 04 0.82 0,75 0.37 2.98
+0.85 1.89 i. I0 I, 19 5.03
+
+0.24
+7.88
+6. i0
+4.73 3.82 3.61 _ 4,13 16.29
+5.71 5.20 5.62 4.71 21.24
+
+U Breakdown by ownership not available for Southeast Alaska.
+
+Table 10 gives the dry weight of net annual growth for each of the 11 resource areas. These figures represent growth on only the bole portion of trees. Increments of crown biomass tlave not been estimated for this report. The total net annual growth of ali 11 areas is approximately 52 million dry tons. A comparison to annual removals (harvest plus logging residue and other types of removals) is not readily available. For the most part removals are reported in units otherthan weight. The latest National assessment (U.S. Department of Agriculture 1981b) gives removals in cubic faet. Using average dry density factors calculated for this report, the above reported removals equals approximately 51 million dry tons. Even with the differences in data bases and inventory dates the two estimates indicate that growth and removals are roughly in balance. Table 17 in the appendix gives per acre figures for net annual growth for each resource area.
+
+Biomass left in the wOodsfollowing logging operations has been the focus of many feasibility studies since the energy crises of the mid-1970's. Aside from by-products from the forest products industries, this potential source of wood is usually considered to be the most likely to be converted to energy. Most often economics have played a key role in determining the rate at which this biomass is actually recovered for energy uses. ]'he highest degree of recovery is currently occurring in California, spurred by construction of numerous wood fired power plants overthe past 10years. While recovery of logging residue has not beenvery high, lower amounts are being left now than in the past. Irl the future we can expect higher levels of utilization during harvest, which means less logging residue. Until that time rather large total quantities of residue will be available for potential conversion to energy, lt should be noted that not ali logging residue is available for energy or any off-site product. Other resource considerations, such as site productivity and wildlife habitat, will require that some amount of biomass needs to remain on site. The amount associated with these needs is not well defined atthis time.
+Table 11 shows the total gross and net weight of logging residue by resource area. No breakdown is given for resource areas within western Oregon and western Washington. The total net weight, 17.2 million dry tons, is about 62 percent of the total gross weight, 27.8 million dry _ons.This means that the average usable cor=tenot f the residue is 62tons per every 1O0tons. Manyfactors affectthe economic and physical feasibility of using residual materials for energy. The relation of net to gross weight by area is shown in figure 10.
+
+Logging Residue
+_
+
+I_
+
+" lilt IIM _1_' "1 M "
+
+_----:I
+
+----
+
+_IIIIIi
+
+,
+
+_
+,.,,,
+
+i, ........
+
+Table 11. Total gross and net weight (wood and bark) of logging residue by area, ownership, and harvest method.
+
+Area and ownership
+
+Clearcut
+
+GrOss
+
+Net
+
+Partial cut
+
+Gross
+
+Net
+
+'
+
+1
+
+All 'nethods-/
+
+Gross,
+
+Net
+
+Total
+
+Gross
+
+Net
+
+SOUTHEAST ALAgKA Public Private Total
+
+IDAHO: National Forest Other public Private Total
+
+MONTANA:
+
+Public
+
+Private
+
+Lodgepole pine2/
+
+fetal
+
+-
+
+WESTERN OREGON: National Forest Other public Private Total
+
+EASTERN OREGON: Public Private Total
+
+WESTERN WASHINGTON: National Forest
+other public P r ivate
+Total
+
+EASTERN WASHINGTON: Public Private Total
+
+580 732 1,312
+
+Thousand bone dry tons
+
+,r
+
+393
+
+.......
+
+535
+
+.........
+
+928 .........
+
+616
+
+375
+
+......... ........
+
+616
+
+375
+
+975
+
+643
+
+975
+
+643
+
+....
+576 _ 2,041
+
+370 956 1,326
+
+480
+
+321
+
+........
+
+........
+
+480
+
+321
+
+585
+
+348
+
+585
+
+348
+
+.... 1,418
+686 2,104
+
+879 453 1,332
+
+1,877 1,098 _ 5,101
+
+1,146 715
+_ 3,169
+
+592 696 _ 3,024
+
+371 320 1,077 1,768
+
+.... .... ..... ....
+
+........ ........ ........
+
+2,571 756
+3,327
+
+1,416 473
+1,889
+
+809
+835 _ 4,404
+
+481
+533 _ 2,635
+
+276
+231 1,086 1,593
+
+17-3
+135 676 984
+
+....
+
+....
+
+"L
+
+""
+
+....
+
+........ ......... ........
+
+1,488 758
+2,246
+
+965 488 1,453
+
+580
+
+393
+
+732
+
+535
+
+1,312
+
+928
+
+1,591 576
+_ 3,632
+
+1,018 370 956
+2,344
+
+1,065 1,418
+686 3,169
+
+669 879 453 2,001
+
+2,469 1,794 _ 8,125
+
+1,517 1,035 2,385 4,937
+
+2,571 756
+3,327
+
+1,416 473
+1,889
+
+1,085
+
+654
+
+1,066
+
+668
+
+3_3L846.8426297
+
+5_997
+
+3,619
+
+1,488 758
+2,246
+
+965 488 1,453
+
+NOTE: -- means no data are availble.
+!Isamples were selected from all harvest methods; most samples were from partial cut areas. _/Data for pure lodgepole pine harvest areas; samples were selected from all harvest methods and
+ownership classes.
+
+I
+
+Illl
+
+i
+
+I
+
+IIIII II
+
+'
+
+8- i!iiiiiiiii_i_iii_iiiiiiiiiii!iiiiiiiii_i!i_i_i_iiiiiiiiii!_i 7.Uc.')g: o6" _' 5-
+"0
+CE 21-
+
+LEGEND: mm Groswseighl
+portion•
+
+i
+
+•
+
+•
+
+SE lD MT W
+
+EWE
+
+AK
+
+OR OR WA WA
+
+Area
+
+Figure10:Grossand net weightof loggingresidueby area
+
+Size, recoverable volume, location, and policies of land owners are examples of such factors. Some information needed to make feasibility assessments is provided in tables in the appendix of this report. Data given in tables 21-23 in the appendix can be used to determine the allocation of these weights by diameter and length classes, whether the material was liveor dead o/cull at the time of harvest, and provides information on the number of pieces per acre. Also included in the appendix are factors (tables 18-20) that can be used to estimate gross and net volumes of logging residue by owner class. These factors were the basis for the weight estimates shown in table 11. As table 11 shows about 7.4 million dry tons of residue comes from clearcut harvesting. This is 43 percent of the17.2 million ton total. Some clearcutting does occur in the areas
+
+Energy Potential
+
+j, I:
+where residue is shown under the "ali methods".Thus,thetotalweightofresidue from clearcuttingis a little higher that indicated above. Also notable is the distributionof residuebygeographicarea. Almostone-half,8.6 milliondrytons, of thetotal amountof residueexistsinwesternOregonandwesternWashington. The totalweightin theotherareas reflectseitherlowertotal harvestvolumes,or lowerper acre harvestvolumes.These figuresdo notincluderesiduelessthan 3.0 inches in diameter,essentiallythe biomass in tree crowns. Region-wide
+estimatesfor this smaller mate_al are not available,but the tol_alweight is considerable.In termsof energypotentialtheopportunitiesaremuchless, since smallersize pieces tend to be much more costlyto recover. Additionallyt,his sourceof residueis usuallyviewed asan importantsourceof nutrientsforfuture trees. The relativeamountneededfor this purposeis notwell defined.
+i
+lt shouldbe notedthat the logging residueweightsprovided in this report are not additive to the total weight of the biomass inventory (table 4). The inventory figure includes the biomass of ali trees, above a 1.0 foot stump (excluding foliage). The logging residue figure includes parts of trees that remain on site following a logging operation. As such, residue biomass has been included in the inventory estimate. The term logging residue only defines the disposition of some biomass at the time of harvest.
+Energy potential as expressed here is defined as the maximum amount of energy that wouldbe availableif the stated sourcewas fully convertedat the highestlevelof efficiency.Thisof courseis notf_asiblenor necessarilydesirable in the real world.The value offiguresreportedhereis foridentificationof those areas or sourceswith the greatest potential for energy production.Table 12 showstheenergypotentialby sourceof biomassforeach geographicarea. The total amount of energy representedby these sources, nearly 19 quads, is equivalent to 25 percent of current US consumption.
+
+i ..i...._...i...... II....i.¸..U.......
+
+Table 12. Energy values I of potentially available woody biomass by State, resource area, and source.
+
+State and resource area
+
+Annual togging residue
+
+Cult/dead trees
+
+Crowns of grow ing stock
+trees
+
+Small trees
+
+ALL _ot_rces
+
+..... ........................
+
+Quads2/ ...............................
+
+SOUTHEAST ALASKA
+IDAHO
+MONTANA
+OREGON: Northwest West Central Southwest Eastern Total
+WASHINGTON: Olympic Peninsula Puget Sound Southwest Eastern Total
+
+0.02
+0.04
+0,03
+0.02 0.03 0.03 0,0__3 0.11
+0.02 0.02 0.02 0,02 0.08
+
+0,62
+0.59
+0,77
+0.15 0.23 0.59 0.23 1.20
+0,11 0.16 0.21 0,1__I 0,59
+
+1,54
+1,53
+1.74
+0.65 0.72 0.90 1.07 3.34
+0,68 0,73 0,70 0.8_.__5 2,96
+
+0.18
+0.31
+0,55
+0.40 0,31 0,59 0,3__3 1.63
+0,14 0,17 0,15 0.3__5 0,81
+
+2;36
+2,47
+3,09
+1,22 1.29 2,11 1,6__6 6.28
+0,95 1,08 1,08 1,3__33 4,44
+
+_-/Derived by converting bone dry tons to maximum heating value using an average of 17,000,000 Btu's per ton.
+-2/A quad equals 1 X 1015 Btu_s.
+
+__r
+I
+
+......
+
+_
+
+"r
+
+The logging residue figure is based on estimated annual quantities of residue created as a result of current levels of timber harvesting. The other biomass energy sources are based on standing inventory data, and as such would be available for conversion to energy over a considerable time period. No attempt has been made to estimate the time period over which this material might enter the energy market. As will be discussed below there are other sources of woody
+
+biomassthatmightprovideadditionalopportunitiesforenergyconversion.The relativecontributionofeach sourceofwoodybiomassisshowninfigures11and 12. Since loggingresidueisan annualestimateitis p_'oportionallyessthanthe other sources. Realisticallyspeaking,the other sources of biomass are the resourcefrom wllich loggingresidue is created dudng harvest. Thus, in the currontenergy market,loggingresiduerepresentsthemainportionof theother sources that might be considered available on an annual basis. Even this arno_,lt issignificanitfconvertedintoenergy.The totalvalueforloggingresidue isabout0.3 quad, almost10timestheenergy outputofthe Trojannuclearplant operatingat 80 percentof capacity.
+
+l
+
+-I
+
+1.5%
+
+18.7%
+
+LEGEi_ID: II_ Culil/deatrdees
+Smatlrlees Treecrowns Logginregsidue
+59.6%
+
+Figure11:Proportioonf totalenergypotentiafloreachsource
+
+II I I I
+
+IIII I ¸ I I
+
+I
+
+II
+
+IIII
+I ¸ IIIIIIII II
+
+I
+
+III
+
+III
+
+II
+
+III
+
+iiiil!i!!iiiii!iiii!ilili!iiiiiii!iiiii!iiilil
+
+o-
+
+i:!:_:.!.:.._..:._..:._..:._..:.!:.._..:;:i:_:_ii:!_:_::!i::_i!:_ii::_:::!i:!i_ii:iii ii!:,i iii::! LEGEND:
+
+2.0
+
+_i_i_i_::_i_i_i_ii__!i_i_;:_:__i_:_::_::_i_::_::_[_] Cull/Dead
+
+iiiii_i_il i!_!i_ii::_::i::_i!i_i_!_i::_::ii__i::_!i!_Si!m!!ia_lT!l_r:e:ie::s!::_i_i_!_ii_::_::_.:_
+
+w_ 1.o
+
+mm TreeCrowns
+
+o
+
+SE lD MT NW WC SW E OP PS SW E
+
+AK:
+
+OR OR OR OR WA WA WA WA
+
+Resourcaerea
+
+Figure 12: I)istributionof total biomassinventory by source by resourceArea
+Eachsource:)fbiomasshasuniquecharacteristicasndopportunitiefsorenergy production.These uniqueaspectsare brieflydescribedbelow.
+Loggingresidue--As notedearlier,the figurefor loggingresiduedoesnot includematerialslessthan3,0 inchesindiameterT. hiswouldbe primarilytree crownsT. hus,the energyvaluenotedaboveisonlypartof tl_eabsolutetotal quantitythatexists,lt is questionablewhetherthissmallermateriawl ouldbe convertedto energyin todaystechnologicaalnd energyenvironmentT.his materiailsalsoconsideredtobe valuableformaintainingsiteproductivitay._d habitatformanyanimalspeciesa, lthoughtheamountanddistributiofnorthese purposesis not welldefined.Withtheseexistingconstraintsit wouldseem unreasonablteoexpecmt uchofacontributiofrnomthissmaldl iametermaterial.
+
+Changing harvest technology, coupled with growing demand for ali wood produc_s,may resultin a differentutilizationrate forthese smallertree componentsin thefuture.Aswe lookintothe futurewe willbe payinglessattentionto what we now call loggingresidue and more to total biomass management. Eventuallythe term loggingresiduewillbecomeobsolete.
+Figure13:Smallsizeresidue(lessthan3.0 inches)suchasthismaybe available for energy.
+The amountof loggingresiduethat mightentertheenergymarketundercurrent circumstancesis a functionof cost of irecovery,transportationdistance, and energyvalues. Ali of these are in relationto locationof the conversionfacility. WhatmaybefeasibleinwesternWastlington,may notbe economicallypossible in the moresparselytimberedareasin Idaho and Montana.Thus, sitespecific analysesareneededto determinetheamountofresiduethatmay be converted intoenergy. A recentreport to the U. S. Departmentof Energy (Envirosphere 1986 a,b) provides supplycurves for logging residuefor the five state area encompassingRegionX of DOE. This informationmaybe usefulin makingthe economic assessments needed to determine the=feasibility of converting residueto energyfor a specificlocationin the 5-State area.
+
+Cull/Dead trees--Energy potentialfromthis sourceis fairlysignificant,nearly 4 quads.A keyquestionforthesesources,however,isavailability.Forthe most partcull and dead treesare scatteredthroughouttheforestsof the5-State area, an exceptionbeing concentrationsof dead trees caused by incidentssuch as insect epidemics. Trees in this classificationtend to be associatedwith older stands,with areas like southeastAlaska and southwestOregon,where large acreages of older standsexist,havinghigherconcentrationsof biomassin cull and dead trees. Absolutequantities,and thereforeopportunitiesfor recoveryof thismaterialforenergy,are higherfortheseareasthanforareaswhere younge_r forestspredominate.
+Figure14:Culltrees,whichcontainlogslikethis, and deadtrees are a significantbut widelysctatteredresource.
+The scattered nature of cull and dead trees inhibits their recovery for energy because of higher harvesting costs. As a result, biomass from these sources is generally associated with normal harvesting operations, or salvage sales. Even the salvage sales tend to produce a high proportion of product recovery for other uses. In areas with flatter terrain, characteristic of the ponderosa pine type east of the Cascades, there are greater opportunities for recovery of cull and dead trees. This is due largely to lower harvesting costs and the partial cut practices that are common to these areas. For most areas it is likely that good energy markets might spur recovery of additional amounts of cull and dead biomass.
+
+Tree crowns--Crowns of live trees comprisesthe single largest source of biomassin the 5-State area, over 11 quads. As defined earlierthis does not includefoliage,whichwould add considerablyto this total. Obviouslycrowns shouldnotbe consideredas a sourcefor energyconversionindependentofthe entiretree. Nor shouldthe total amountof potentialenergy be consideredas beingavailablefor energyproduction.The forestresourcewillbe managedand harvestedin conjunctionwith a complexset of societaland ownersobjectives. As trees are deemed ready for harvestthe crown portionthen comesintothe energyequation.As is the case for loggingresidues, some quantityof crown materialmay be left on siteto enhance or protectotherenvironmentalconsiderationsor forfuturesite productivityH. owmuchof thismaterialneedstobe left onsiteisunderinvestigationandwillprobablyvary considerablyfromone area to another.
+The opportunityto utilizecrown biomassfor energy,or otherproductsfor that matter,ismuchgreaterfor youngerstands.Averagediametersofthese stands isconsiderablylessthanfortheoldgrowthstandsthat have constitutedmostof the harvestfor this decade. Smallertrees are more likelyto be harvestedby mechanicalmeans,or if dop _by handare lessaptto breakup duringthe felling process. Harvesting whole trees or longer sections with crowns intact will provideeconomicincentivesforgreaterutilizationofcrownmaterials, ingeneral the amountof crownbiomassenteringthe energy market willbe closelytied to harvestlevelsand criteriathatdeterminetheproportionthat mustremainoil site. The opportunityto extendharvestto trees of marginalvalue willbe greater ifa largerportionof the tree can be marketed.Thus, expandingenergy markets mightactuallyresultin greater amountsof these materialsbeing availablefol' utilizationA. key togreater utilizationofcrownbiomass willbe efficienthandling and processingtechnology.Lower valued productsusually require a higher degree of efficiencyto ensureeconomicfeasibilityof recovery.New technologiesmay help bridgethis gap.
+i
+LI
+
+Small trees--Trees less than 5.0 inches in diameter accountfor a significant energy opportunityin total,about 3.5 quads, butare extremelyvariablein terms of real opportunity.These trees, along with seedlings less than 1.0 inch irl diameter, representour futureforests. As suchtheywouldnotbe consideredas a currentsourceof rawmaterialforenergyoranyotherproduct.Forthemostpart small trees occur as components in standswith I_rger trees, or as the single component, suchas followingclearcutting,or firesand other naturalcatastrophes. In the first case they may be an integral part of the stand structure, representingone of severalage classes. In the lattercase theyare fromnatural orplantedoriginsand of varyingstockingdensities. In eithercase overstocking of small trees may presentan opportunityforenergy conversion.
+
+i
+
+i
+
+Before:
+
+After:
+
+i llllU
+
+iiii
+
+Figure15: Recoveryof biomassfromthinningsmalltreesmay bean importantsourceof woodfor energyin the future.
+
+Reducing the density of overstocked stands is usually accomplished by thinning operations. In many operations, called pre-commercial thinnings, unwanted trees are cut and left to decay, providinggreater growing space for remaining desirable trees. These procedures are expensive and usually do not result in removal of products until the trees are larger; the operations are then called commercial thinnings. The smallertrees have rarely had much product value, off site that is. This has contributed to a lower ttlan desirable level of thinning operations for most land owners. A viable market for small trees might change the situ_ationconsiderably. First, additional biomass might be recovered from current or planned operations. Secondly, the ability to generate some income from these operations might create opportunities for additional thinnings that would otherwise be passed over. While thinnings do take piace, there are thousands of acres of forests irl the 5-State area that could benefit from thinning, but are being delayed because of high treatment costs, lt is these stands, along with some having slightly larger trees, that rePresent a significant opportunity to recover energy wood. The extent and feasibility of these opportunities are unique to each location, Availability to energy markets may be a key to more intensive forest management in the future.
+
+ii
+
+i
+
+.[_....
+
+-I
+
+II1' ' lr
+
+..................
+
+I
+
+_
+
+irl I
+
+In addition to woody biomass currently being converted to energy, primarily in the forest industries and for residential heating, the forests of the Pacific Northwest and Alaska represent a significarlt opportunity to help meet future energy needs. The extent to which these forests contribute is a function of a complex set of criteria, and varies considerably from one geographic area to another. Expanding the useof woody biomass for energy holds promise not only for meeting growing demands, but may provide an economic incentive for intensifying management of the region's forests. Obviously only a small portion of the nearly 19 quads of energy from the sources in this rePortwill be physically available in any given year. Even less may find its way to markets because of critical economic factors. But, the amount that does reach conversion facilities can make a significant and lasting contribution to the region's energy requirements. Unlike other sourcesof energy, woody biomass is a renewable resource.
+There are other sources of forest biomass not addressed by this report. The largest such source is biomass occurring on what are frequently referred to as non-commercial forests. Juniper stands in eastern Oregon and Washington are examples of this type of forest. Data in table 1 showed a total of just over 25 million acres of "otherforest land" in the 5-State ar,ea.Muchof this land is covered with trees that are not generally considered to bf, of commercial value. Eastern Oregon alone has over 3.6 million acres of othi_rforest land, most of which is occupied by non-commercial species (Farrenkopf 1982). The very definition of these stands indicates that few products are removed from trees growing on these sites. In some cas_.sproducts such as posts, poles,and firewood are taken from these forests. Large scale removal of biomass from these forests may not be reasonable for a number of reasons. They do, however, represent a potentially large source of biomass, particularly for products that do not require high quality wood--such as energy.
+Reliability of data for most of the sources of biomass presented in this report is difficult to assess. Each of the Forest Service reports from which inventory
+
+Eonclusion
+
+!
+
+volumeswere derived, gives information on sampling errors for land area and
+
+volume. These sampling errors, however, do not apply to the total biomass
+
+estimates in this report, which were constructed by applying factors to the basic
+
+inventory estimates. Thus, sampling errors for total tree biomass estimates by
+
+resource area were not determined. The main stem of a tree accounts for the
+
+largest proportion of total tree biomass, and the sampling errors associated with thls portion are relatively low as indicated in the Forest Service rel_rts.
+
+Therefore, the combined error associated with total tree biomass in almost ali cases will be lower than that for the non-stem portion of a tree. For example, standard error of 5 percent for the main stem and 25 percent for the other
+
+biomass components, could result in a combined error as low as 10 percent for total tree biomass, because the biomass of the main stem accounts for such a
+
+large proportion of the total biomass of the tree. The data presented here provides information on the relative size and distribution of biomass for the resources areas. Site specific needs should be metby deriving estimates from
+
+the localdata base. Standard errors for logging residue estimates are available in the referenced reportsl Since total residue estimates rely on actual harvest figures, errors associated with the.totals should bethe same as those associated with the estimators themselves.
+
+Whether augmenting regional supplies or facilitating forest management, the use of woody biomass for energy has the potential to impact both people and forests of the region. Energy markets in the 5-State area are currently not conducive to rapidgrowth in the use of woodybiomass. Likewise, there are many gaps in harvesting and processing technologies needed to support this growth. Finally, we do not fully understand the role of woody biomass in the enhancement and protection of the forest environment. Time, however, will see changes in ali three elements: markets, technology, management, lt is anticipated that woody biomass will play a larger rol¢_in future energy production. The extent and rapidity with which this may occur ,Isunknown. Another unknown, and a potentially major consideration, is the et,_ectof international energy demands and politics on utilization of the region's forest biomass. While not widely discussed,
+
+the potential exists for forests within the 5-State area to become significant sources of wood for the many nations in the world that are facing serious shortages of fuel for cooking and heating, ltwould not be unreasonable to expect these countries to look toward the U.S. for assistance with this critical issue. Following the example ofother commodities, we could easily see a flow of woody biomass to some of these countrie_ within a matter of years.
+How much and when are the main questions concerning the use of woody biomass for energy. Possibly where should be added to that list. The resource available to support this use is large and spread throughout the 5-State area of the Pacific Northwest and Alaska. A great deal of research, development, and innovation will occur as we move toward the year 2000. Ali three will be necessary to ensure efficient and effective management of this important resource.
+
+References
+
+¢1) Adamovich, L.L. 1975. Engineering characteristicsof Canadian trees, centreof gravityand green weightof componentsof three conifersin interior BritishColumbia(_npoorgrowingsites. InformationRep. FMR-X-82. Vancouver, BritishColumbia,Canada: Universityof BritishColumbia,ForestManagement Institute.65 p.
+(2) Bassett, Patricla M.; Oswald, Daniel D. 1981. TimberstatisticsforsouthwestWashington.Rest.ur. Bull.PNW-RB-91. Portland,OR:U.S. Departmentof Agriculture,ForestF_e'vice,PacificNortliwest Forest and Range Experiment Station.24 p.
+(3) Bassett, Patricla M.; Oswald, Daniel D. 1981. Timber statisticsfor the OlympicPeninsula,Washington.Resour.Bull.PNW-RB-93. Portland,OR:U.S. DepartmentofAgriculture,ForestService,PacificNorthwestForestand Range ExperimentStation.31 p.
+(4) Bassett, Patrlcla M.; Oswald, DanleBD. 1982. Timber Statisticsfor the PugetSoundarea, Washington.Resour.Bull. PNW-RB-96. Portland,OR: U.S. Departmentof AgricultureF, orestService, PacificNorthwestForestand Range ExperimentStation.31 p.
+(5) Bassett, Patricla M.;Oswald, Daniel D. 1983.Timberstatisticsfor eastern Washington.Resour. Bull. PNW-RB-104. Portland,OR: U.S. Departmentof Agriculture,Forest Service, PacificNorthwestForest and Range Experiment Station.32 p.
+(6) t:BensonR, obertE. ;Green, Alan W.;Van Hooser, DwaneD.1987. Idaho's Forest Resource. Resour. Bull. INT-RB-39. Ogden, UT: U.S. Departmentof Agriculture,ForestService, IntermountainResearchStation. 114 p.
+(7) Brackett, Michael.1973. Notes on tarif tree volume computation.ResourceManagementReport#24. Olympia,WA: State of Washington,Department of NaturalResources.26 p.
+(8) Brown, James K. 1978. Weightand densityofcrownsof RockyMountain conifers.Res. Pap. INT-RP-197. Ogden, UT: U.S. Departmentof Agriculture, Forest Service, IntermountainForestand Range ExperimentStation.56 p.
+(9) Envirosphere C'Jmpany, 1986a. RegionalloggingresidJe supplycurve project,Volume 1 - Final report.Reportto U.S. Departmentof Energy, Pacific Northwestand AlaskaRegionalBioenergyProgram(BonnnvillePowerAdministration).Bellevue,WA: EnvirosphereCompany.[Not paged].
+
+(10) Envirosphere Company, 1986b. Regionalloggingresiduesupplycurve
+project,Volume2- Appendices.Reportto U.S. Departmentof Energy,Pacific
+,",luL_i_wesatnd AlaskaRegional+BioenergPyrogram(BonnnvillePowerAdministration).Bellevue, WA: EnvlrosphereCompany.[Not paged].
+
+(11) Farrenkopf, Thomas O. 1982. ForeststatisticsforeasternOregon,1977.
+Resour.Bull.PNW-RB-94. Portland,OR' U.S. DepartmentofAgricultureF, orest Service,PacificNorthwest Forestand Range ExperimentStation.28 p.
+
+(12) Forest Products Laboratory. 1987. Wood handbook:woodas an engi-
+
+neeringmaterial.Agric.Handb. 72. Washington,DC' U.S. Departmentof Agri-
+
+culture; rev. 1987. 466 p,
+
+'
+
+=
+(13) Gedney, Donald R. 1982. Thetimber resources of western Oregonhighlights and statistics. Resour. Bull. PNW-RB-97. Portland, OR' U.S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station. 84 p.
+
+(14) Gholz, H.L.; Grler, C.C.; Campbell, A.G.; Brown, A.T. 1979. Equations for estimating biomass and leafareaof plants in the Pacific Northwest. Res. Pap. 41. Corvallis, OR: Oregon State University, School of Forestry, Forest Research Laboratory. 39 po
+(15) Green, Alan W.; O'Brlen, Renee A.; Schaefer, James C. 1985. Montana'sForests. Resour.Bull. INT-RB-38. Ogden, UT: U.S. Departmentof Agriculture,Forest Service, IntermountainResearch Station.70p.
+
+(16) Howard, James O. 1981a. Ratiosfor estimatingloggingresiduein the PacificNorthwest. Res. Pap. PNW-RP-288. Portland,OR' U.S. Departmentof Agriculture,Forest Service, Pacific Northwest Forest and RangeExperiment Station.26 p.
+
+(17) Howard, James O. 1981b. Loggingresidue in the Pacific Northwest: characteristicsaffectingUtilizationR. es.Pap. PNW-RP-289. Portland,OR:UoS. Department of Agriculture, Forest Service, Pacific Northwest Forestand Range Experiment Station. 41 p.
+
+(18) Howard, James O.; Fiedler, Carl E. 1984. Estimators and characteristics of logging residue in Montana. Res. Pap. PNW-RP-321. Portland, OR' U.S. Departmentof Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station. 29 p.
+
+(19) Howard, James O.; Seizer, Theodore S. 1989. Logging residue in south, east Alaska. Res. Pap. PNW-RP-405. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest research Station. 36 p.
+
+(20) Johnstone, W, DI.1970. Componentdryweightsof 100=years-oldlodgepole pine trees. Infor. Rep. A-X-31. Calgary, Alberta, Canada: Canadian ForestryService,Departmentof Fisheriesand Forestry.14 p.
+
+(21) Keays, J. L. 1971. Complete-treeutilization,an analysisof the literature, Part I: unmerchantabletop of bole. Infor. Rep. VP-X-69. Vancouver, British Columbia,Canada: Canadian ForestryService, Departmentof Fisheriesand
+Forestry.98 p.
+
+(22) Keays, J. L. 1971. Complete-treeutilization,an analysisof the literature, Part II1:branches.InformationReport VP-X-71. Vancouver,BritishColumbia, Canada: Canadian Forestry Service, Departmentof Fisheriesand Forestry. 98 p.
+
+(23) LaBau, vernon J,; Van Hees, Willem W.S. 1983. Timber resource statisticsfor the Juneauinventoryunit,Alaska, 1970. Resour. Bull.PNW-RB98. Portland,OR:U.S. DepartmentofAgriculture,ForestService, PacificNorthwest Forestand Range ExperimentStation.30 p.
+
+(24) LaBau, Vernon J.; Hutchlson, O. Kel.h. 1976. Timbersupplyanduse in the Haines-Skaway area, Alaska. Resour. Bull. PNW-RB-67. Portland,OR: U.S. Departmentof Agriculture,ForestService, PacificNorthwestForestand Range ExperimentStation.44p.
+
+(25) Maxwell,Wayne G.; Ward, Franklin R. 1976. Photoseriesforquantifying forestresiduein the:coastalDouglas-fir.-- hemlocktype,coastalDouglas-fir hardwood type. Gen. Tech. Rep. PNW-GTR-51. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station. 103 p.
+
+(26) Pillsbury, Norman H.; Stephens, Jeffery A. 1978. Hardwood volume andweighttablesforCalifornia'scentralcoast.FortheCentralCoast Resource Conservationand DevelopmentProject.San LuisObispo,CA: CaliforniaPolytechnicState University,Natural ResourcesManagementDepartment. 54 p,
+
+(27) Shaw, D.L. 1977. Biomassequationsfor Douglas-fir,western hemlock,
+
+red cedar, and red alderin Washingtonand Oregon.Tech. Rep. 044-3001/77/
+
+L
+
+22. Centralia, WA: Weyerhaeuser Corporation, Western Forestry Research
+
+Center. 19 p.
+
+(28) Snell, J.A. Kendall; Max, Timothy A. 1982. Bark-to-wood ratios for logging residue in Oregon, Washington, and Idaho. Admin. Rep. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station. 9 p.
+
+(29) Snell, J.A. Kendall; Little, Susan N. 1983. Predictingcrownweight and bole of fivewestern hardwoods. Gen. Tech. Pep. PNW-GTR-151. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station. 37 p.
+(30) Stanek, W.; State, D. 1978. Equations, predicting primary productivity (biomass) of trees, shrubs and lesser vegetation based on current literature. Infor. Rep. BC-X-183. Victoria, British, Canada: Environment Canada, Canadian Forestry Service, Pacific Forest Research Centre. 58 p.
+(31) U.S. Department of Agriculture, Forest Service. 1981a. Tree biomass-a state-of- the-art compilation.Gen. Tech. Rep. WO-GTR-33. Washington, DC: U.S. Department of Agriculture, Forest Service. 34 p.
+(32) U.S, Department of Agriculture, Forest Service, 1981b. An assessment of the forest and range land situation inthe United States. For. Res. Rep. No. 22. Washington, DC: U.S. Department of Agriculture, Forest Service. 352 p.
+(33) Van Hees, Willem W.S. 1984. Timber resource statistics for the Ketchikan inventory unit,Alaska, 1974.Resour. Bull. PNW-RB-117. Portland, OR: U.S. Department of Agriculture, Fores: Service, Pacific Northwest Forest and Range Experiment Station. 33 p.
+(34) Van Hees, Willem W.S.; LaBau, Vernon J. 1983. Timber resource statistics for the Sitka inventory unit, Alaska, 1971. Resour. Bull. PNW-RB-101. Portland, OR: U.S. Departmentof Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station. 35 p.
+(35) Van Hees, Willem W.S.; LaBau, Vernon J. 1983. Timber resource statistics for the Prince of Wales inventory unit, Alaska, 1973. Resour. Bull. PNW-RB-103. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station. 30 p.
+(36) Van Hees, Willem W.S.; LaBau, Vernon J. 1983. Timber resource statistics for the Petersburg/Wrangell inventoryunit, Alaska, 1972. Resour. Bull. PNW-RB-102. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station. 36 p.
+(37) Van Hees, Willem W.S.; LaBau, Vernon J. 1984. Timber resource statisticsfor the Yakutatinventoryunit, Alaska, 1975. Resour.Bull. PNW-RB 105. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific NorthwestForestand Range ExperimentStation.31 p.
+
+, ,,,;,,,,,,,
+
+,!
+
+(38) Waldrop, Thomas A.; Brooks, Robert T. Jr. 1984. Woody biomass analysisfor 13 southeasternstates. Tech NoteB52. Knoxville,TN: Tennrssee Valley Authority,OiviGionof Land and EconomicResources,Office of Natural Resourcesand EconomicDevelopment.149 p.
+
+(39) Yarle, John; Mead, Delbert R. 1982. Abovegroundtree biomass on
+
+productiveforestland in Alaska. Res. Pap. PNW-RP-298. Portland,OR: U.S.
+
+DepartmentofAgricultureF, orestService,PacificNorthwestForestand Range
+
+,
+
+ExpedmentStation_16 p.
+
+Basal area- The area in square feet (square meters)of tile cross sectionat breastheightof a singletreeorofalitreesin a stand,usuallyexpressedassquare feet (square meters)of basal area per acre (hectare).
+Class of timber-- A classificationof trees asgro!_vingstock,cull, and salvable dead. Growingstocktreesaresubdividedintoseedling,sapling,poletimber,and sawtimbertrees.
+Cull trees -- Live trees of noncommerciasl pecies,or livetrees of commercial speciesthat are morethan 75-percentdefectiveorwith defectcausedprimarily by poorformor roughness,and are unlikelyto become growingstock.
+Diameter class -- A classif;cationof trees based on diameter outsidebark measuredat breastheight,4-1/2 feet (1.37 m) abovethe ground.D.B.H. isthe common abbreviationfor "diameter at breastheight".
+Forest Industry lands -- Lands ownedbycompaniesor individualsowningor operatingwood-usingplants.
+Forest land -- Land at least 10 percent (16.7 percentin southeastAlaska) stockedwithlivetrees or landformerlyhavingsuchtree coverand notcurrently developedfor nonforestuse.
+Forest types-- Standswith50 percentor morestockingin liveconifertreesare classifiedas softwoodtypes. Standswitha majodtyof stockingin livehardwood treesare classifiedas hardwoodtypes. Withinthese twogroups,the ind!vidual foresttype is determined by pluralityof stockingby speciesof livesoftwoodor hardwoodtrees.
+Growing stock trees -- Ali livetrees withthe exceptionof culltrees.
+Growing stock volume -- Net volume in cubic feet of live sawtimberand poletimbergrowingstocktrees fromstumpto a minimum4-inch(10 cim)top (of centralstem) outsidebark. Net volumeequalsgrossvolumelessdeductionfor rotand missingbole sections.
+Hardwoods --Trees that are angiosperms, usually broad-leaved and deciduous.
+Land area--AreaasreporteadslandbytheBureauofCensus.Totalandarea includedsrylandand landtemporariloyrpartialcloyveredby watersuchas marshes,swamps,and dverflood plains;streams,sloughs,andcanalslessthan 1/8-mile (200 m) wide; and lakes, recervoirs, and ponds less than 40 acres (16 ha)in area.
+
+Glossary
+A. ForestInventory Terms
+
+Mean annual Increment R Ameasureoftheproductivityofforestland interms of the average increasein cubic,foot volumeper acre per year. For a given speciesand siteindexthe average isbased onthe numberofyears neededfor the mean annualincrementto culminatein fullystockedstands.
+Mortality -- Volumeof soundwoodin trees dyingfromnaturalcauses during a specifiedperiod,suchas betweeninventories.
+National Forest lands -- Federal lands which have been designated by Executiveorderorstatuteas NationalForestorpurchaseunitsand other lands under the administrationof the Forest Service, includingexperimental areas and Bankhead-JonesTitle III lands.
+Net annual growth -- The net increasein volumeof trees duringa specified year. Componentsofnetannualgrowthoftrees:(a) theincrementin netvolume of trees aliveat the beginningof the Specifiedyear and survivingto the year's end, plus (b) the net volumeof trees reachingsawtimber or poletimber size duringtheyear,minus(c)thenetvolumeof treesthatdiedduringtheyear,minus (d) the netlossto tree decayduringthe year.
+Noncommercial species -- A tree species not suitablefor industrialwood products.
+Nonforest land -- I.and that has never supported forestsor was formerly forestedandis currentlydevelopedfornonforestuses. Includedare landsused ;or agdcultura;r,rops, Christmas tree farms, improved pasture, residential areas, city parks, improvedroads, operatingrailroadsand their right-of-way clearings,powerlineand pipelineclearings,streamsover 30 feet (10 m) wide, and 1- to 40-acre (0.4- to 16- ha) areas of water classifiedby the Bureauof Census as land. If intermingledin forest areas, unimprovedroads and other nonforeststripsmustbe morethan 120 feet (35 m) wide,and c!earingsor other areas mustbe 1 acre (0.4 ha) or largerin size to qualifyas nonforestland.
+Nonstocked areas -- Timberland less than 10 percent (16.7 percent in southeastAlaska)stockedwith growingstocktrees.
+Other torest land -- Forestland incapableof producing20 cubicfeet per acre per year of industrialwoodbecause of adverse siteconditionssuch as sterile soils, dry climate,poor drainage, high elevation,steepness,or rockiness;or public land withdrawnfrom timber utilizationthroughstatute, ordinance, or administrativeorder but which otherwisequalifiesas timberland; or National Foresttimberlandtemporarilywithdrawnfromtimberutilizationand J:_=;erstudy for possibleinclusionin the wildernesssystem.
+
+,r
+Other private lands-- Ali privatelyownedlandsexceptthoseclassedasforest industrylands.
+Other public lands -- Landsadministeredby publicagenciesotherthan the ForestService.
+Poletimber stands-- Standsof timberlandwith a meandiameter(weightedby basal area) from 5.0-9.0 inches (12.5-22.5 cm) if softwoodand from 5.0-11.0 (12.5-27.5 cre) if hardwood.
+Poletimber trees m Livetrees ofcommercialspeciesat least 5.0 inches (12.5 cre) in d.b.h, but smallerthan sawtimbersize, and of goodform and vigor.
+Salvable dead trees -- Standingor downtrees ofcommercialspecies,at least 9.0 inches(22.5 cre) ind.b.h forsoftwoodsand at least 11.0 inches(27.5 cre)in d.b.h, for hardwoods,containing25 percentormoresoundwoodvolumeand at least one merchantable12-foot(3.8-m) logif softwoodorone merchantable8foot (2.5_m)logif hardwood.
+Sapling and seedling stands -- Standsof timberlandwith a mean diameter (weightedby numberof trees) less than 5.0 inches (12.5 cm).
+Sapling and seedling trees -- Live trees of commercialspecies lessthan 5 inches(12.5 cm) ind.b.h,withnodisease,defects,ordeformitieslikelytoprevent their becomingpoletimbertrees.
+Sawtimber stands -- Standsoftimberlandwith a meandiameter(weightedby basal area) largerthan9.0 inches(22.5 cre) if softwood(11.0 inches [27.5 cm] in southeastAlaska) and largerthan 11.0 inches(27.5 cre) if hardwood.
+Sawtimber trees -- Live softwoodtrees of commercial species at least 9.0 inches (22.5 cm)in d.b.h. (11.0 inches [27.5 cre] in southeastAlaska) and hardwood trees of commercialspeciesat least 11.0 inches(27.5 cm) in d.b.h. At least25 percentoftheboard-footvolumein a sawtimbertreemustbefreefrom defect. Softwoodtrees mustcontain at least one 12-foot(3.8-m) saw log with a topdiameterof notlessthan6 inches (15cm) insidebark;hardwoodtrees must containat least one 8-foot (2.5-m) saw logwith a top diameterof notless than 8 inches (20 cre)inside bark.
+Site class -- A classificationofthe potentialproducltivitoyf forestland, defined by capacityforcubic-footannualgrowthper acre atculminationof mean annual growth in fullystocked naturalstands.
+
+q
+B. ogglng Residue Terms
+
+Softwoods -- Coniferoustrees, usuallyevergreen.
+Stocking-- Ameasureofthearea occupiedbytrees ofspecifiedclasses.FIA forestinventoriesconsiderthree categoriesof stocking'ali livetrees,growing stocktrees, and desirabletrees. Stockingofali livetrees isusedto delineate forest land and forest types. Stockingof growing stock trees is used in classificationsofstandsize andstandage. Stockingof desirabletrees isused to delineatearea conditionclasses.
+Timber harvest --Volume of roundwood removed from forest land for products.
+Timberland -- Forestland capableof producing20 cubicfeet per acre (1.4 cubicmeterper ha) peryearofindustriawl ood, and notwithdrawnfromtimber utilization.
+Volume of growing stock-- Volumeof soundwoodintheboleoflivegrowing stocksawtimberand poletimbertrees fromstumpto a minimum4.0-inch(10cm) top outsidethe bark or to the pointwhere the central stem breaks into limbs.
+Clearcut A harvestoPerationin whichall, or nearlyall, trees in a stand are cutin one operation.
+Cutover area -- Synonymouswith sample unit or sample area; the area encompassinga single harvestoperation;a clearcutfor example.
+Harvest volume -- Net scaledvolumeof timberremoved,orestimatedto be removed,froma cutoverarea duringharvesting;expressedinthousandboard feet (log scale, as reported by land owners)per acre (MBF/AC).
+Logging residue:
+General -- Alidownanddead woodymaterialexistingon a cutoverarea after harvestingis completed;excludingstandingtrees or portions thereof.
+Specific -- Ali loggingresidue(as definedabove) 3.01 inches (7.5 cm) and larger in diameter inside bark (d.i.b.) and 1.0 foot (30.5 cre) and longer in length;includeslimbs, slabs,and splinters.
+MBF -- One thousandboardfeet of logs;a measureof the volumeoftimber harvested.
+
+Owner class:
+Private-- Lands ownedby private individuals,forest industries, and Native and other corporations.
+Public -- Lands owned by the public or managed by a public agency.
+Partial cut m A harvest method in which portions of a stand of timber are cut during a number of entries over time; precommercialthinnings are not included.
+Residue volume:
+Chlppability -- Conditionof residue soundenoughto be physically handled and capableofproducingusablechips;includesresidueexhibitingearlystages of wet or dry rot.
+Cull-- Residue from trees that were cull (lessthan 25 percent sound) at the time of harvest.
+Dead- Residue from trees or portions of trees that were dead before harvest; includes material on the ground at the time of harvest.
+Gross -- Volume of a piece of residue measured only by its external dimensions; includes rot, cracks, and missing parts.
+Live m Residue from trees or portions of trees that were alive before they were cut or knocked down during harvest.
+Net -- The usable portion of a piece of residue; for this report, usability is based on physical chippability of the material and does not imply solid product potential.
+Small-end-diameter -- measured inside bark at the smallest end of a piece of residue, to a 3.01-inch (7.5-cm) minimum.
+Stratum m A category of timber harvest area defined for this study by land ownership.
+Supply zone w A uniquely defined area containing timber or logging residue that is considered to be potentially available for a processing facility.
+
+residue yardedor bulldozed to a common location. Ifthe residue has been piled
+
+..
+
+YwUithMs(oomr ePdUeMgr)eme oTfeurnmifsorumsietyd ibt yisthreefeUrrSeDdAtoFaosrePsUt MSe(rpviilceed fuonrmlaerrgcehapniletasbloef
+
+__-__.-..-.
+
+material); otherwise,the term YUM (yarded unmerchantable material) is used.
+
+ii_p#___
+
+C. BiomassTerms
+
+Biomass Inventory raThe dryorgreenweightof woodandbarkoftrees,above a 1.0 foot(30.5 crn)stump,excludingfoliage,that areat least1.0 inch(2.54 cm) in diameter at d.b.h., and locatedon timberland.
+Bole m Ali woodand barkof a tree above a 1.0 foot (0.4 m) stumpand below thepointwhere eitherthediameterofthecentralstemislessthan4.0 inches(10 cm) or the centralstem breaksinto limbs.
+Bone dry ton -- One dry ton, 2000 pounds (907.2 kg), of woodor bark.
+Branches -- Weightof woodand bark of trees from pointwhere main stem breaks into limbsto a minimumof 1/4-inch (0.6 cre) in diameter; excluding foliage.
+Crown -- Synonymouswith branchesfor this report.
+Dry weight -- Weightof woodor bark containingno water.
+Green weight -- Weightof wood or bark in its naturalor growingcondition; varies by seasonand locationin tree;green weightis equalto dryweighttimes (1 + moisturecontent,oven dry basis).
+Wood density -- Weightofwoodexpressedin poundsper cubicfoot, greenor dry; affected by specificgravity and moisturecontent; where dry densityis calculatedbymultiplyingspecificgravityof woodtimesthedensityof water (62.4 poundsper cubicfoot).
+Quad -- Quadrillion(lx10 15) Btu's.
+Top m Portionof the mainstem or forksof a tree above 4.0 inches (10 crn)to the tip of the mainstemor fork.
+
+• 54: .....
+
+Appendix
+
+Biomass Information
+Metric Equivalents Tables 13 -- 23
+
+Table 13. Area of timberland by State, resource area, and forest type
+
+State and resource area
+
+Douglas-fir
+
+Hemtock true fir
+
+Lodgepote pine
+
+Incense cedar
+
+Western redcedar
+
+Sitka spruce
+
+Sugar pine
+
+Western white pine
+
+Ponderosa pine
+
+...............................................
+
+SOUTHEAS1 ALASKA iDAHO
+
+-5,846
+
+4,772 542
+
+MONTANA
+OREGON: Northwest West Central Southwest Eastern Total
+WASHINGTON: Olympic Peninsula Puget Souncl Southwest Eastern Total
+
+4,780
+2,007 2,S_ 3,383 1.260_ 9,238
+1,022 1,202 1,701 _ 6,515
+
+94
+250 383 169 146 948
+1,10B 768 767 130
+2,773
+
+7
+1,767
+1,448
+180 129 450 _ 2,800
+110 468 278 _ 1,882
+
+....
+3,020
+3,827
+38 12 83 _ 1,919
+32 .... 25 714 771
+
+lhousand acres ..................................
+
+794
+
+6_2
+
+......
+
+--
+
+616
+
+....
+
+--
+
+122
+
+....
+
+--
+
+60
+
+160 .....
+
+14
+
+43
+
+16
+
+....
+
+111
+
+51
+
+26
+
+25
+
+40
+
+..LL
+
+--
+
+--9
+
+165
+
+154
+
+202
+
+34
+
+--
+
+155
+
+21
+
+......
+
+11_
+
+........
+
+--
+
+_
+
+11
+
+--
+
+--
+
+_
+
+_
+
+--
+
+--
+
+436
+
+32
+
+--
+
+' .............
+
+239 38
+17 2_4 41
+
+10906
+1,597
+6 3 116 4317 4,442
+
+7
+
+4
+
+_
+
+144___
+
+11
+
+1,490
+
+State and resource area
+
+Englemann spruce
+
+Western larch
+
+Other softwood
+
+Red alder
+
+Aspen/ cottonwood
+
+Other
+
+All
+
+Oak
+
+hardwood Nonstocked _/
+
+ty_s
+
+SOUTHEAST ALASKA
+IDAHO
+MONTANA
+OREGON: Northwest West Central Southwest Eastern Total
+UASHIflGTON: Olympic Peninsula Puget Sound Southwest Eastern Total
+
+............................................
+
+....
+
+2
+
+2,49q
+
+657
+
+....
+
+312
+
+663
+
+179
+
+2 5 I
+9._5 103
+
+-. '' --
+9___2 92
+
+2 20 101
+__5 128
+
+Thousand acres .............................................
+
+16
+
+_'o
+
+......
+
+569
+
+......
+
+"-
+
+282
+
+--
+
+11
+
+554 389 351
+-I0294
+
+9 """
+___Z_7 16
+
+53 70 36T
+-490
+
+110 162 657
+__7 936
+
+6o317
+
+17,661
+
+218
+
+13,5;'1
+
+117 144 235
+29.__.__7 793
+
+3,548 3,978 6,143
+10 126 23,795
+
+....
+
+....
+
+6
+
+....
+
+19___I
+
+511
+
+195
+
+511
+
+2 2
+9 _
+
+487 686 550
+5 1,728
+
+16 22 26 6......_.7 109
+
+--" 2 2__5 27
+
+54 96 86 10 24"-_"
+
+87 100 169 _._ 611
+
+3,092 3,462 3,652 7 144 17,350
+
+J/ Nonstocked type is tess than 10 percent stocked with live trees.
+
+Table 14. Area of timberland by State, resource area, and cubic-foot site class
+
+State and resource area
+
+_ .............................
+
+Site class !/ ..............................
+
+225 or more 165 to 224 120 to 164 85 to 119 50 to 84
+
+49 or tess
+
+All classes
+
+.......................................
+
+Thousand acres ...................................
+
+SOUTHEASATLASKA
+IDAHO
+MONTANA
+OREGON: Northwest West Central Southwest Eastern Total
+WASHINGTON: olympic Peninsula Puget Sound Southwest Eastern Total
+
+2/
+""
+"-
+180 77 58
+I 316
+543 185 404
+-1,132
+
+2/
+543
+53
+456 670 606
+69 1,801
+987 848 997 212 3,044
+
+2/
+2_005
+1,426
+1,846 1,904 1,971
+302 6,023
+774 1,156
+946 988 3,864
+
+2/
+3,640
+4,032
+599 829 1,518 _ 4,717
+511 845 559 _ 3,651
+
+2/
+4,078
+4,702
+454 447 1,495 _ 7,314
+204 337 661 _ 3,715
+
+2/
+3,740
+3,358
+13 51 495 _6_ 3,624
+T3 91 85 _ 1,944
+
+6,317 14,006_/ 13,571
+3,548 3,978 6,143 23,795
+3,092 3,462 3,652 17,350
+
+URelative measure of stand productivity defined by capacity for cubic-foot annual growth per acre at culmination of mean annual growth in fully stocked natural stands.
+_/8reakdownby cublc-foot site class not available for Southeast Alaska.
+_/Does not include 3,654,000 acres of low productivity land not classified by site class.
+
+Table 15. Total dry weight oi above ground biomass of growing stock' trees on timberland by State, resource area, and ownership
+
+State and resource area
+
+National Forest
+
+Other public
+
+Forest industry
+
+Other private
+
+All ownerships
+
+......
+
+Million bone dry tons
+
+SOUTHEAST ALASKA
+IDAHO
+MONTANA
+OREGON: Northwest West Central Southwest Eastern Total
+WASHINGTON: Olympic Peninsula Puget Sound Southwest Eastern Total
+
+2/
+365.29
+324.86
+111.27 201.51 184,06 _ 774,31
+51,28 88.39 118.27 _ 381.93
+
+2/
+56.77
+22.70
+45.97 47,43 115.56 2_,6_ 234.65
+68.19 51.01 31.86 9_,_Q 243.36
+
+2_/
+38.55
+50.80
+55.55 52.92 76.93 38148 223.88
+101.43 63.44 88.40 41.26
+294.53
+
+2_/ 55.35 70.41
+
+577,33 515.96 468.77
+
+35.11 28.53 28.00
+___7_=_3_9_ 109.03
+
+247.90 330.39 404.55
+359,03 1,341.87
+
+30.84 64.47 35.66
+_ 174.45
+
+251.74 267.31 274.19
+30]..0_ 1,094.27
+
+Includes trees 5.0-inch d.b.h, and larger. Breakdown by ownership class not available
+
+for Southeast
+
+Alaska.
+
+Table 17. Dry weight per acre of net annual growth of growing stock trees on timberland by State, resource area, and ownership
+
+State
+
+and
+
+resource
+
+area
+
+National Forest
+
+Other public
+
+Forest industry
+
+Other private
+
+A]I ownerships
+
+Bone dry tons per acre .....
+
+SOUTIIEAST
+
+AIASKA
+
+IDAHO
+
+MONTANA
+
+OREGON: Northwest West central Southwest Eastern
+
+WASHINGTON:
+
+Olympic
+
+Peninsula
+
+Puget Sound
+
+Southwest Eastern
+
+l/
+0.36
+0.49
+0.72 0.55 0.50 0.40
+0.35 0.19 0.66 0.42
+
+i_/
+0.62
+0,43
+1.46 1.29 0.55 0.46
+2.41 2.08 2.25 0.78
+
+I_/
+0.73
+0.40
+1.76 1.28 0.62 0.41
+2.34 1.84 1.91 0.86
+
+i/
+0.66
+0.37
+1.35 1.17 0.77 0.41
+1.46 1.89 1.69 0.86
+
+O. 04
+0.45
+0.45
+1.33 0.96 0.59 0.41
+1.85 1.50 1.54 0.66
+
+9Breakdown
+
+by ownership
+
+not available
+
+for Southeast
+
+Alaska.
+
+Table 18. Average gross volume (wood and bark) of logging residue by area, ownership, and harvest method
+
+Area and ownership
+
+Cubtc feet per 1,000 Br harvested ,
+
+Ctearcut
+
+Partial cut
+
+All harvest methodsU
+
+cubic feet per acre
+
+Ctearcut
+
+Partial cut
+
+Ali harvest methods!!
+
+SOUTHEASATLASKA
+
+Public Private
+
+143
+
+....
+
+182
+
+....
+
+IDAHO:
+
+Nationat forest
+
+143
+
+185
+
+.-
+
+Other pubti¢
+
+....
+
+221
+
+Private
+
+....
+
+167
+
+MONTANA:
+
+Pubttc
+
+142
+
+173
+
+..
+
+Private
+
+....
+
+221
+
+Ledgepote pine2/
+
+....
+
+162
+
+WESTERNOREGON:
+
+Rational Forest
+
+77
+
+217
+
+--
+
+Other public
+
+80
+
+143
+
+..
+
+Private
+
+65
+
+477
+
+..
+
+EASTERNOREGON:
+
+Public
+
+....
+
+I]8
+
+Private
+
+....
+
+128
+
+WESTERNWASHINGTON:
+
+Nationat forest
+
+74
+
+217
+
+..
+
+Other I_blic
+
+80
+
+202
+
+--
+
+Private
+
+63
+
+225
+
+..
+
+EASTERNWASHINGTON:
+
+Pubtlc
+
+....
+
+148
+
+Private
+
+....
+
+112
+
+4,602 6,1T6
+3,564 .... ....
+2,369 .... ....
+3,982 &,037 3,306
+
+.... .... _,585
+1,846
+2,375 1,820 2,478
+
+.... ....
+4,1T] 3,310 2,27"]
+
+2,375 1,533 1,596
+
+.... ....
+
+-1,833 1,26_
+.. 1,602 2,009
+... -.-
+1,008 860
+--" ..
+1,026 607
+
+NOTE: -- means no data are availbte, _'Samples _ere _etected from ali harvest methods; most samptes were fro_ partier cut areas. Z/Data for pure t odgepote pine harvest areas; samptes were selected from atr harvest methods and ownerships.
+
+Table 19. Average net volume (wood and bark) of logging residue by area, ownership, and harvest method
+
+Area and ownership
+
+Cubic feet per 1,000 BF harvested
+
+Ctearcut
+
+Partial cut
+
+At( harvest methods !/
+
+Cubic feet per acre
+
+Clear'cut
+
+Partial cut
+
+Atr harvest methods U
+
+SOUTHEASTALASKA
+
+Public Private
+
+97
+
+....
+
+13]
+
+....
+
+iOAHO:
+
+National Forest
+
+87
+
+i22
+
+--
+
+Other public
+
+....
+
+142
+
+Private
+
+....
+
+109
+
+MONTANA:
+
+Public Private
+
+95
+
+103
+
+""
+
+....
+
+137
+
+Lodgepo(e pine2/
+
+....
+
+107
+
+WESTERN OREGON:
+
+National Forest
+
+47
+
+136
+
+-.
+
+Other public
+
+52
+
+93
+
+--
+
+Pr(rate
+
+40
+
+296
+
+-"
+
+£ASIERN OREGON:
+
+Pubtic
+
+....
+
+76
+
+Private
+
+....
+
+80
+
+WESIERN WASHINGTON:
+
+Nationa( Forest
+
+44
+
+136
+
+--
+
+Ot'ber pub(ic
+
+51
+
+118
+
+--
+
+Private
+
+37
+
+140
+
+-.
+
+EASTERN WASHINGTON:
+
+Pubtic
+
+....
+
+96
+
+i
+
+Private
+
+....
+
+72
+
+3,130
+
+....
+
+4+502
+
+....
+
+2,182
+.... ....
+
+1,701
+
+1,594 ....
+....
+
+1,100
+
+2,471 2,642 2,070
+
+1,48,B 1,184 1,537
+
+.... ....
+2,497 2,110 1,33_
+
+1,488 B95 992
+
+.... ....
+
+-1,182
+824
+-" 994 I,]21
+----
+553 534
+----
+670 304
+
+are avattb(e. NUOSaTmE:ptes-- wmeeraenssenleocteddata from at( harrest methods; most samples were fro_ partial
+
+cut areas.
+
+_Data for pure t odgepote pine harvest areas; samples were selected fr=n atr harvest methods and ownerships.
+
+, ,,
+
+, , ii ....
+
+, " '1Fii ........
+
+,_ 1,r1q
+
+., ii ii lP ....
+
+IF'
+
+,, ,
+
+, iii
+
+rq
+
+lr
+
+Table 20. Average net dry weight(wood and bark) of logging residue by area, ownership, and harvest method
+
+Area ar-,d o_nersh _p
+
+Bone dry tons per 1,000 BF harvested
+
+C(earcut
+
+Part_a[ cut
+
+Atr harvest method__/
+
+Bohe dry tOnS _, _cre
+
+Ciearcut
+
+Partfat cut
+
+Atr harvest _ethods !/
+
+SOUIHEASI ALASKA Pub[l_ _rivete
+IDAHO: _ational Forest Othe. public Private
+MONTANA: Public Private Lodgepo[a pine_/
+WESIERNOREGON: Hationa( Forest Other PUbtic Private
+EASTERNOREGON: P_tJc Private
+_ES1ERN WASHINGTON: Nat_onat Forest Other pubt_c Private
+EASTERNWASH,JGTOfl: Publtc Private
+
+1,18 1.62
+1,06
+1.19
+0,62 0.69 0.53
+.... ""
+0.56 0.65 0._7
+.... ....
+
+.... ....
+1.49 -. ."
+1,29 .-.
+I,_ 1 23 _,91
+I._ 1.50 1.7B
+
+-" 1._ 1,33
+"" 1.71 1.34
+-". -.
+0,9] 0.98
+--. --
+1,21 0.91
+
+38,03 5_.92
+_6.62 .... ....
+19,92 ..... ....
+32,62 34.87 27.32
+.... ....
+31,71 26,80 16.90
+.... ....
+
+.... .... 20,_
+13,_
+19,64 15.63 20,29
+18.90 11,]7 12.60
+
+-1&,42 10.05
+"" 12._2 16,51
+-. .. --
+6._ 6,51
+-. -. .,
+8,_4 4,96
+
+NO_E: ". means ,_ data are avattb|e, :'SampteS _ere se|ected fr_ at[ harvest methods; most samptes were from partlat cut areas.
+Data for pure [odgepote p_ne harvest areas; samPtes uere selected from ali harvest methods and ownerships.
+
+Table 21. Average gross volume (wood only) of logging residue by area, ownership, harvest method, and live or dead/cull material
+
+Area and ownership
+
+.... Clearcut
+
+.......
+
+Live
+
+Dead/cull
+
+Partial cut _
+
+Live
+
+Dead/cull
+
+SOUTHEAST Public Private
+
+ALASKA
+
+IDAHO:
+
+National
+
+Forest
+
+Other public Private
+
+MONTANA: Public Prlvater
+Lodgepole
+
+pine
+
+WESTERN
+
+OREGON:
+
+National
+
+Forest
+
+Other public
+
+Private
+
+EASTERN
+
+OREGON:
+
+Public
+
+Private
+
+WESTERN
+
+WASHINGTON:
+
+National
+
+Forest
+
+Other public
+
+Private
+
+EASTERN
+
+WASHINGTON:
+
+Public
+
+Private
+
+...........
+
+Cubic feet per acre ..........
+
+1,737 2,847
+
+2,274 2,530
+
+.... ....
+
+1,394
+.... ....
+
+1,704
+
+642
+
+1,573
+
+412
+
+1,174
+
+407
+
+694
+
+930 --
+....
+
+1,091 --
+
+489 498
+636
+
+1,089 847
+1,180
+
+1,485 1,293 1,179
+
+1,890 2,109 1,627
+
+646
+
+1,374
+
+555
+
+987
+
+649
+
+1,443
+
+.... ....
+
+184
+
+654
+
+230
+
+490
+
+1,475 1,314
+894
+
+2,123 1,542 1,050
+
+646
+
+1,374
+
+312
+
+989
+
+406
+
+949
+
+.... ....
+
+280
+
+570
+
+IB]
+
+325
+
+/'Includes
+
+clearcuts
+
+_or own_rshlps
+
+harvesting
+
+is by partial cutting.
+
+where
+
+the predominate
+
+method for
+
+Table 22. Average gross volume (wood only) of logging residue ' per acre, by area, ownership, harvest method, and small-end diameter and length class
+
+Area, ownership, and harvest
+method
+
+Small-end diameter
+
+..........
+
+Length(feet)
+
+i.07.9
+
+. 8.015.9
+
+16.031.9
+
+.............
+
+32.0+
+
+Total
+
+Inches
+
+........ cubic feetper
+
+acre --_ .....
+
+SOUTHEAST Public
+
+ALASKA
+
+Total Private
+
+Total
+
+IDAHO
+
+National
+
+Forest:
+
+ClearcUt
+
+Total Partial cut
+
+Total
+
+3.1- 7.9 8.0-15.9 16.0-27.9 28. o_
+3.1- 7.9 8.0-15.9 16.0-27.9 28.0_
+
+275 250 174 _ 744
+214 164 225 _ 812
+
+315 4DI 433 _ 1,358
+223 396 347 __!!Q 1,316
+
+278 355 513 _lQg. 1,354
+318 471 746 __/_ 1,997
+
+54 63 194 _ 354
+177 230 277 _ 1,080
+
+3.1- 7.9 8.0-15.9 16.0-27.9 28. o+
+3.1- 7.9 8.0-15.9 16.0-27.9 28.0+
+
+50 30
+9 _L_ 104
+30 32 i0 to 82
+
+i12 102
+42 -256
+112 114
+50 __--
+276
+
+231 279 309
+57 876
+
+397 310 401 _ Ii282
+
+237 288
+68_ _
+633
+
+367 441
+357 --
+1,165
+
+922 i,159 1,314 ___. 3,810
+932 1,261 1,595
+5,205
+p
+790 721 761 __/46 2,518
+746 875 485
+2,156
+
+Other public Total
+
+3.I- 7.9 8.0-15.9 16.0-27.9 2 8. o+
+
+17
+
+54
+
+17
+
+86
+
+8
+
+29
+
+__
+
+_-27
+
+44
+
+176
+
+130
+
+226
+
+194
+
+417
+
+75 _
+
+264
+
+3_/1
+
+_//
+
+430
+
+924
+
+427 714 376
+__57 1,574
+
+Private '
+Total
+
+3.1- 7.9
+
+24
+
+83
+
+171
+
+2i9
+
+497
+
+8.0-15.9
+
+19
+
+65
+
+139
+
+153
+
+376
+
+16.0-27.9
+
+7
+
+29
+
+80
+
+52
+
+168
+
+28.0+
+
+--
+
+....
+
+J2,
+
+__.4_
+
+50
+
+177
+
+390
+
+466
+
+1,083
+
+MONTANA _I
+
+.
+
+National Forest:
+
+Clearcut
+
+3.1- 7.9
+
+234
+
+246
+
+276
+
+155
+
+911
+
+8.0-15.9
+
+131
+
+117
+
+Ii0
+
+79
+
+437
+
+16.0-19.9
+
+21
+
+43
+
+37
+
+19
+
+120
+
+2 o. o +
+
+_21
+
+_19_
+
+__
+
+__L_
+
+__/9_5_
+
+Total
+
+407
+
+424
+
+474
+
+268
+
+1,573
+
+Partial cut Total
+
+3.1- 7.9
+
+137
+
+182
+
+8.0-15.9
+
+87
+
+109
+
+16.0-19.9
+
+I0
+
+24
+
+20.0+
+
+_.19.
+
+_.l,l
+
+253
+
+346
+
+219 128
+29 ___ 408
+
+213 102
+47 __Q 382
+
+751 426 ii0 __/_92 1,389
+
+;_.._2..;.f:.4.f.6;._2__..w/(..¢../.w_.._._t._._....._//....(_(f.K&_._;_.4f../....w,...';(_;_._.:_....z _._.;_.¢...(-_..•.2_:-...'/_;.;.:4_..;.;.;(._/..'_;.;.;.;_.;.;.:•..;:_.:..;:..;;..;:_...2•.:...;.;;..;_._;2..;..(...••.;.;.;.;•.;..:._._......:.:.:.?;.;o;....;..:..;..._.._. ....w..q_;._/._."..:'_.._.(.. w.;:..".... _,'_/Y._;:.'/,_."_XI..:I,%""_".',_:.__,,_,_;_..:'._×'.,,:_i>_',E'_:;_:';_'.,._Y//;_;_:,_.s,_,×,x.:_.,__/.._:_.#_,:.::,..__>.'_.:.:_.._,_,,_:.:_.:_.____:.,:,...:..::.:.×:,,./:_._.,.,._.:',,.x..:::..__::,.::.:._:/.._,'#;_:._...:,:.,..,_,_..'7/,_;.:.:.x,,y./2.:.:
+
+Table 22. Average gross volume (wood only) of logging residue ' per acre, by area, ownership, harvest mothod, and small-end diameter and length class (continued)
+
+Area, ownership, and harvest
+method
+
+Small-end diameter
+
+............
+
+Length (feet) ...........
+
+1.07,9
+
+8.015.9
+
+16.03i.9
+
+32..0+
+
+Total
+
+Inches
+
+......... Cubic feet per acre ........
+
+MONTANA I_ (Continued)
+
+Other public Total
+
+3.l-
+
+7.9
+
+8.0-15.9
+
+16.0-19.9
+
+20.0+
+
+125 90
+i19
+i-f_.
+289
+
+153
+
+152
+
+73
+
+86
+
+78
+
+50
+
+13
+
+32
+
+8
+
+._li _
+
+__._
+
+266
+
+294
+
+163
+
+503 304
+72
+__IU
+1,012
+
+Lodgepole
+
+pine
+
+Total WESTERN OREGON
+
+3.1- 7,9 8.0-15.9 16.0-19.9
+20.o+
+
+237 86
+7
+_._Q
+330
+
+226 71
+21
+15
+333
+
+309 80
+16
+____:_-,_
+405,
+
+177 35
+3
+15
+230
+
+949 272
+47
+.__30
+1,2_8
+
+National
+
+Forest:
+
+Clearcut
+
+Total Partial cut
+
+Total
+
+3,1- 7.9
+8.0-15.9 16,0-27,9
+28.o+
+
+3.1-
+
+7.9
+
+8.0-15,9
+
+16.0-27.9
+28. o,
+
+60
+157 105
+_42
+364
+18 34 16
+_j
+74
+
+122
+312 269
+46
+749
+49 90 90
+_
+269
+
+235
+244 592
+_
+t,297
+91 164 275
+_
+666
+
+130
+265 250
+_
+819
+74 197 452
+_/2/
+946
+
+547 978 1,216
+_488
+3,229
+232 485 833
+1,955
+
+Other public: Clearcut
+
+3.1-
+
+7,9
+
+41
+
+154
+
+275
+
+243
+
+713
+
+8.0-15.9 16.0-27.9
+28. o,
+
+77
+
+210
+
+395
+
+433
+
+29
+
+172
+
+239
+
+356
+
+3
+
+_
+
+_
+
+_
+
+1,115 796
+_3_Q2
+
+:
+
+Total
+
+153
+
+633
+
+1,299
+
+1,242
+
+3,327
+
+Partial cut
+Total Private:
+
+3.i- 7.9
+
+15
+
+8.0-15.9
+
+25
+
+16.0-27.9
+
+13
+
+28. o,
+
+_J
+
+57
+
+53
+
+115
+
+135
+
+56
+
+112
+
+186
+
+61
+
+136
+
+316
+
+_Ai .__.0. __/gA
+
+185
+
+428
+
+838
+
+318
+379 526
+,,/._
+1,508
+
+C1earcut Total
+
+3.1- 7.9
+8.0-15.9
+1_.0-27.9
+28. o+
+
+31 55
+40
+_IQ
+156
+
+77 137
+213
+_41
+474
+
+161
+229
+422
+_
+1,218
+
+151 187
+351
+__19_
+928
+
+420 608
+1,026
+___Lt
+2,776
+
+Partial cut
+
+3.I- 7.9
+
+20
+
+8.0-15.9
+
+22
+
+Total
+
+16.0-27.9
+
+18
+
+2e. o+
+
+__j
+
+64
+
+57
+77 94
+____
+283
+
+114
+157 236
+_
+647
+
+93
+204 426
+._/_7._
+1,093
+
+284 460 774
+_,087
+
+:
+
+_ASTERN OREGON
+
+Public
+Total Private
+Total
+
+3.1- 7.9 8.0-15.9 16.0-27.9
+28. o.
+3.1- 7.9 8.0-15.9 16.0-27.9
+28.o+
+
+11 12
+6
+_i
+30
+17 li
+4
+__.I
+33
+
+30
+35 24
+_11
+i00
+
+48
+71 71
+_
+230
+
+115
+214 110
+_..__
+478
+
+54
+25 20
+__/
+102
+
+72
+48 53
+--
+173
+
+104 130 117
+__i_
+410
+
+204 332 211
+838
+247 214 194
+_J2
+718
+
+_
+
+Table 22. Average gross volume (wood only) of logging residue ' per acre, by area, ownership, harvesl method, and small-end diameter and length clsss (continued)
+
+Area, ownership, and harvest method
+
+Small-end diameter
+
+........... Length (feet) ...........
+
+1.07.9
+
+8.015.9
+
+16,031.9
+
+32.0+
+
+Total
+
+WESTERN WASHINGTON National Forest: Clearcut
+Total Partial cut
+Total Other public:
+Clearcut
+Total Partial cut
+Total Priv_te:
+Clearcut
+Total Part_al cut
+Total EASTERN WASHINGTON
+Public
+Total Private
+Total
+
+Inches
+
+........ Cubic feet per acre ........
+
+3.1- 7.9
+
+58
+
+174
+
+236
+
+54
+
+8.0-15.9
+
+136
+
+368
+
+260
+
+169
+
+16.0-27.9
+
+120
+
+363
+
+761
+
+376
+
+28. o+
+
+_ll _
+
+_
+
+--
+
+346 1,024
+
+1,420
+
+599
+
+3.1- 7.9
+
+18
+
+49
+
+91
+
+74
+
+8.0-15.9
+
+34
+
+90
+
+164
+
+197
+
+16.0-27,9
+
+16
+
+90
+
+275
+
+452
+
+28. o+
+
+._i
+
+_
+
+_
+
+223
+
+74
+
+269
+
+666
+
+946
+
+3.1- 7.9
+
+46
+
+125
+
+221
+
+105
+
+8.0-15.9 16.0-27.9
+
+67
+
+178
+
+208
+
+88
+
+59
+
+263
+
+359
+
+2?4
+
+28. o+
+
+_,_
+
+_
+
+_ _ICL_
+
+269
+
+192
+
+730 1,154
+
+736
+
+3.1- 7.9
+
+22
+
+67
+
+170
+
+14?
+
+8.0-15.9 16.o-27.9
+
+.22
+
+34
+
+115
+
+45
+
+2
+
+36
+
+59
+
+214
+
+28.o+
+
+--
+
+____.,9./ _
+
+.__
+
+46
+
+234
+
+527
+
+494
+
+3.I- 7.9
+
+47
+
+8.0-15.9
+
+69
+
+16.0-27.9
+
+36
+
+159
+
+3.1- 7.9
+
+26
+
+8.0-15.9
+
+18
+
+16.0-27.9
+
+14
+
+28. o,
+
+....
+
+58
+
+142 178 92
+479
+89 117
+40
+246
+
+238 217 159
+810
+203 117 148 .LIQ 598
+
+60 139 150
+460
+271 51 70
+.._ 451
+
+522 933 1,620
+3,389
+232 485 833 4o5 1,955
+497 541 955 _LL_ 2,812
+406 216 311 __/_ 1,301
+487 603 437
+1,908
+589 303 272 _i_ 1,353
+
+3.i- 7.9 8.0-15.9 16.o-27.9 28. o+
+3.1- 7.9 8.0-15.9 16.0-27.9 28.0.
+
+16 14
+5 . _i
+36
+ii 11
+5 _2
+29
+
+48 41 15 __a 112
+36 23 13 __ 78
+
+66 i02
+68 __ 258
+85 47 52 _--_ 193
+
+106 154 13o __ 418
+70 58 56 .__ 192
+
+236 311 218 ___ 824
+202 139 126 ....L_ 492
+
+;Does not include residue in large piles.
+Sampling by diameter classes was different in Montana than that in the other States.
+
+,r,ll
+
+Table 23. Average number of pieces of logging residue ' per acre, by area, ownership, ha_est method, and small-end diameter and length class
+
+Area, ownership, and harvest
+method
+
+Small-end diameter
+
+............ Length (feet) ...........
+
+1,07.9
+
+8.015.9
+
+16.031.9
+
+32.0+
+
+Total
+
+SOUTHEAST A [AS KA public
+Total Private
+Total IDAHO
+National Forest: Clearcut
+Total Part,_a] cut
+Total
+
+Inches
+3.1- 7.9 8.0-15.9 ]6.0-27.9 28. o*
+3.1- 7.9 8.0-15.9 16.0-27.9 28.0+
+3.1- 7.9 8.0-15.9 16.0-27.9 28. o+
+3.1- 7,9 8.0-15.9 16.0-27.9 28. o+
+
+Numbei- of pieces per acre .....
+
+150.8 29.5 7.1
+o_=._ 188.2
+129.4 23.2 9.0
+.__2_ 164.0
+
+144.4 52.6 14.6
+__2__o 213.6
+94,2 42.3 12.1 _ 152.8
+
+97.2 30.0 16.3 ___g.._._ 146,4
+87.4 42.1 22.2 ___ 157,9
+
+12.6 4.2 3.9 o. 7 21.4
+38.6 13.0
+7.3 _/J! 62.6
+
+405.0 ii6.3
+41.9 __6_.4 569.6
+349.6 120.6
+50.6 _h6 .__ 537.3
+
+71.6 11.3
+1.0 .__o._A
+84.3
+56.7 13.3
+] .2 __0_..2
+71.4
+
+71.0 12.8
+1.6 --
+85,4
+67.1 15.3
+2.3 --
+84.7
+
+59.7 14.2
+4.7 __(2_,__
+79.0
+
+26.6 7.0 2.0 o. 6
+36.2
+
+60.0 16.0
+1.4
+.__4. 77.8
+
+22.2 9.6 3. 1
+-3-4°_
+
+228.9 45.3 9.3
+__i.,...4_ 284.9
+206.0 54.2 8.9 o. 6
+268.8
+
+Other public
+
+3_I- 7.9 8.0-15.9
+
+31.2 6.0
+
+34.3 10.9
+
+31.3 10.9
+
+15.5 8.0
+
+112.3 35.8
+
+16.0-27.9
+
+1.3
+
+1.4
+
+1.5
+
+2.1
+
+6.3
+
+28.o*
+
+o.2
+
+Q.2
+
+o. 3
+
+0.2
+
+o.9
+
+I
+
+Total
+
+38.7
+
+46.8
+
+44.0
+
+25.8
+
+155.3
+
+Prlvate Total
+
+3. i- 7.9 8.0-15.9 16.0-27.9
+•:8. o+
+
+41.9 6.9 I.I
+
+52.5 9.1 1.3
+
+......
+
+49.9
+
+62.9
+
+46.6 8.0 1.8
+56.4
+
+18. 3 3.0 0,4
+_.o._3 22.0
+
+159 3 27.0 4.6
+...Q..._. 191.2
+
+MONTANA _
+
+National ForeJt : Clearcut
+Total
+
+3.1- 7.9 8.0-]5.9 16.0-27.9 28.0.,
+
+182.7
+19.1 1.2
+_.9_,.._ 203.6
+
+166.2
+14.9 2.2
+..... _.5 183.8
+
+168.5
+12.8 1.5
+.... !.__4. 184.2
+
+66.7
+6.7 0.9
+__0_.__ 74 .8
+
+584.1
+53.5 5.8
+.... 3_.Q.: 646.4
+
+Partial cut Total
+
+3.I- 7.9 8.0-15.9 16.0-27.9 2 _a. 0.+
+
+103.6 12.6 0.6
+__g .___5 . 17.3
+
+117.8 13.3 1.3 .L.o_
+133.4
+
+117.5 16.3 1.4
+_._(:' L2 135.9
+
+73.7 9.2 1.7
+__.0__.4. 85.0
+
+412.6 51.4 5.0
+_.__2.6 471.6
+
+l
+
+Table 23. Average number of pieces of logging residue' per acre, by area, ownership, harvest method, and small,end diameter and length class (continued)
+
+Area ownership, and harvest
+method
+
+Small-end diameter
+
+............ Length (feet) ...........
+
+1.07.9
+
+8.015.9
+
+16.031.9
+
+32.0+ Total
+
+!
+
+,!,
+
+Inches
+
+MONTANA _I (Cont inued)
+
+...... Number of pieces per acre .....
+
+Other public Total
+
+3.1- 7.9 8.0"15.9 16.0-27.9 28. o+
+
+100.1 i 12.0 ; 0.9
+__I_I 114.3
+
+93.6 11.0
+0.7
+o.4 105.7
+
+87.2 8.7 1.3
+o,B 98.0
+
+29.7 4.8 0.4
+_oo_ 35.5
+
+310.6 36.5 3.3
+__LA 353.5
+
+Lodgepole pine
+Total WESTERN OREGON
+
+3.1- 7.9 8.0-15.9 16.0-27.9
+28.0*
+
+190.4 14.5 0.5
+-205.4
+
+159.4 9.8 0.7
+0.3 170.2
+
+181.5 10.5 0.8
+_ -192.8
+
+74.9 3.8 0.2
+_ 79.4
+
+606.2 38.6 2.2
+___,s 647.8
+
+National Forest: C] earcut
+Total Partial cut
+Total
+
+3.1- 7.9 8.0-15.9 16.0-27.9 28,o+
+3.1- 7.9 8.0-15.9 16.0-27.9 28.o+
+
+97,7 50.3 11.2 _I,8 161.0
+28.6 11.6 2.2 ._p..j 42,7
+
+72.0 37.2 10.5 _ 120.4
+27,5 10.3
+3.7 _
+42.0
+
+58.7 15.4
+9.6 1.4 85.1
+21.4 8.7 4.6 1.o
+35.7
+
+18.3 4.0 2.8 o._
+25.8
+5.3 3.4 3.5 o.6 12.8
+
+246.7 106.9
+34,1
+392.3
+82.8 34.0 ,14.0 __L_t 133.2
+
+O_:her public: Clearcut Total
+
+3.I- 7.9 8.0-15.9 16.0-27.9 28. o+
+
+74.8 27.3
+3.3
+_ 105.8
+
+97.4 27.2
+6.9
+__LI 133.2
+
+69.6 20.8
+4.7
+2.1 97.2
+
+23.0 7.2 2.7
+o._Ji 33.7
+
+264.8 82.5 17.6
+369.9
+
+Partial
+
+cut
+
+Total
+
+3.1- 7.9 8.0-15.9 16.0-27.9 28.0+
+
+29.0
+9.7 1.3
+_ 40.2
+
+36.3
+8.1 2.4
+o,2 47.0
+
+30.8
+6.3 2.7
+o._ 40.2
+
+9.8
+3.8 2.3
+_9.,/ 16.6
+
+105.9 27.9 8.7
+144.0
+
+Private:
+
+Clearcut Total
+
+3.1- 7.9
+8.0-15.9 ).6.0-27.9
+28.o+
+
+48.0
+18.8 4.3
+_0.,3 72.0
+
+47.4
+19.1 8.2
+_ 75.5
+
+40.2
+13.2 7.3
+_Lt 63.0
+
+12,4
+3.8 3.0
+_9_ 19.9
+
+148,0
+54.9 22.8
+__t.J. 230.4
+
+Partial cut Total
+
+3.1- 7.9 8.0-15.9 16.0-27.9
+28.o+
+
+36.6 7.5 2.2
+_o.2 46.5
+
+40.2 9,3 3.8
+I,o 54,3
+
+32.1 9.0 3.8
+_I.2 46.1
+
+9.5 2,9 3.4
+_1.1 16.9
+
+118.4 28.7 13.2
+163.8
+
+EASTERN OREGON
+
+Public
+
+3.1- 7.9
+
+19.9
+
+17.2
+
+9.8
+
+4.7
+
+51.6
+
+8.0-15.9 16.0-27.9
+
+3.3
+
+4.0
+
+3.0
+
+2.2
+
+0.8
+
+0.9
+
+1.2
+
+0.8
+
+12.5 3.7
+
+28. O*
+
+_
+
+_9_,_3
+
+_9__I
+
+_
+
+_oB
+
+'
+
+Total
+
+24.1
+
+22.4
+
+14.3
+
+7.8
+
+68.6
+
+Private Total
+
+3.1- 7.9 8.0-15.9 16.0-27.9
+2B. o,
+
+31.4 4.2 0.5
+o.1 36.2
+
+31.0 3.0 0.7
+__ 34.8
+
+17.7 2.6 1.0
+-21.3
+
+5.3 1.6 0.5
+_ 7.6
+
+85.4 11.4
+2.7
+__9.._/ 99.9
+
+Table 23. Average number of pieces of logging residue' per acre, by area, ownership, harvest method, and small-end diameter and length class (continued)
+
+Area, ownership, and harvest
+method
+
+Small-end diameter
+
+............ Length (feet) .............
+
+1.07,9
+
+8,015.9
+
+16.03 i. 9
+
+32.0+
+
+Total
+
+WESTERN WASHING'TON National Forest: Clearcut
+Total Partial cut
+Total Other public:
+Clearcut
+Total Partial cut
+Total Private:
+Clearcut
+Total PartJai cut
+Total EASTERN WASHINGTON
+Public
+Total Private
+Total
+
+Inches
+3.1- 7.9 8.0-15.9
+16.0-27.9
+28. O+
+3.1- 7.9 8.0-15.9 16,0-27.9
+28.o+
+3.1- 7.9 8,0-15.9 16.0-27.9
+28.0+
+3.1- 7.9 8.0-15.9 16.0-27.9
+28.o+
+3.1- 7.9 8.0-15.9 16.0-27.9
+28. o+
+3.1- 7.9 8.0-15.9 16,0-27.9 28.0+
+3.1- 7,9 8.0-15.9 16.0-27.9
+28. o,
+3.1- 7.9 8.0-15.9 16.0-27.9
+28.0.
+
+...... Number of pieces per acre -....
+
+88.9 46.3
+11.5
+_ 148.1
+28.6 11.6
+2.2
+_
+42.7
+
+86.9 44.0
+15.4
+2.1 148.4
+27.5 10.3
+3.7
+o.5
+42.0
+
+54.4 14,8
+12.9
+,_ 83.2
+21.4 8.7 4,6
+_L_
+35.7
+
+82.9
+24.8 7.1
+_
+115.5
+
+81.1
+25,5 I0.0
+_
+118.7
+
+50.0 5.7
+0.4
+--
+56.1
+
+55.2 4.2
+1.2
+1.2
+61.8
+
+62.4 14.4
+6.0
+_
+85.0
+55.6 6,9 1.2
+_
+64.5
+
+77.7
+24.8 3.5
+_
+106.2
+
+80.1
+24.4 3.2
+_
+I08_3
+
+49.5 7.3 1.5
+.... 58.3
+
+68.6 7.8 1.8
+78.2
+
+62.7 13.7
+3.5
+_
+80.9
+68.6 7.3 3.3
+_ 79.8
+
+5.3 3,3
+3.7
+-12,3
+5.3 3.4 3.5
+_o._
+12.8
+
+235.5 108.4
+43.5
+392.0
+82.8 34.0 14.0
+133.2
+
+14.3 2.2 2,1
+_O.J..
+19.4
+18.1 1.2 1.6
+0.4
+21.3
+
+240.7 66.9 25.2
+338.6
+178.9 18.0 4.4
+__L4
+203.7
+
+7.2 3.6 1.4
+_
+12.4
+27.6 1.4 0,8
+0.2 30.0
+
+227.7 66.5 11.6
+_ ?,..,_.0.
+307.8
+214.3 23.8 7.4
+246.3
+
+27.2 5.3 0.6
+.__q_.
+33.2
+19.2 3.2 0.7
+__9_.2
+23 _3
+
+26.7 5.4 0.5
+o.2
+32.8
+22.3 3.1 0.6
+o.1
+26.1
+
+16.3 5.1 1.5
+_9.__
+23.1
+16.8 2.8 1.2
+_
+20.9
+
+6.4 3.2 I.i
+_
+10.9
+4.7 1.4 0.7
+o,1
+6.9
+
+76.6 19.0
+3.7
+__0.7
+I00.0
+63.0 10.5
+3.2
+77.2
+
+//Does not include residue in large piles.
+_/Sampling by diameter classes was different in the other States.
+
+in Montana than that
+
+Wood Density Values 1
+
+State and Resource area
+
+Wood densities Drywelght Green weight
+(Pounds per cubic foot)
+
+Southeast Alaska Idaho Montana
+
+24.3
+
+54.87
+
+24.3
+
+50.97
+
+24.9
+
+50.96
+
+Oregon: Northwest West Central Southwest Eastern
+
+26.0
+
+54.39
+
+26.4
+
+54.73
+
+26.3
+
+53.83
+
+24.4
+
+50.25
+
+Washington: Olympic Pen. Puget Sound Southwest
+Eastern
+
+25.3
+
+51.29
+
+25.2
+
+53.40
+
+25.7
+
+54.10
+
+25.2
+
+52.18
+
+Average densityvalues derivedby weightingindividual specie values by the proportionotinventory volumefor that
+particularspecies. Densityinformationfrom Wood Handbook.
+
+Biomass Relationships
+A. Wood Densities
+
+B. Bark Factors C.Top of Tree
+
+Bark Weight Ratios by Species (oven dry basis)
+
+Ratio of bark
+
+Species
+
+to wood
+
+.J
+
+LI
+
+J
+
+1
+
+11
+
+.._._
+
+L L ....
+
+I I JL_LI_ I IJ .
+
+Douglas.fir Truefirs W. Hemlock W. redcedar
+
+0.15 0.18 0.13 0.10
+
+Spruces
+
+0.10
+
+Ponderosa pine
+
+0.19
+
+W. white pine
+
+0.16
+
+Lodgepole pine
+
+0.08
+
+Larch
+
+0.10
+
+Incense cedar
+
+0.26
+
+Other conifers
+
+0.15
+
+Red alder
+
+0.18
+
+Other hardwoods 0.16
+
+Top of Tree as a Percent oi Total Stem 1
+
+Diameter Percent of top
+
+5.0
+
+0.510
+
+7.0
+
+0.190
+
+9.0 1i.0 '19.0
+
+0.100 0.060 0.035
+
+29.0
+
+0.O33
+
+39.0
+
+0.030
+
+-
+
+i
+
+, i i '1 I
+
+]
+
+ii ii i
+
+ii i
+
+..
+
+I
+
+" Averagevaluesfor top of tree from 4.0" top to tip of stem. No apparentdifferencesexistbetween species, so one set of factors was used. Relationshipsare from tarifftables used in FIA inventoryvolumecomputations,
+
+Branchesas a Percentof Total Stem1
+
+Species
+
+Diameter Class (inches) 5,0- 8.9 9.0,18.9 19.0-28.9
+(Percent)
+
+Douglas-fir
+
+20.0
+
+12.0
+
+9.0
+
+Ponderosa pine 18.0
+
+10.0
+
+8.0
+
+True firs
+
+20.0
+
+12,0
+
+7,0
+
+Spruces
+
+38.0
+
+Larch/redwood 20.0
+
+Hemlocks
+
+25.0
+
+W. White pine
+
+15.0
+
+Cedars
+
+25.0
+
+15.0
+
+10.0
+
+7.0
+
+5.0
+
+15.0
+
+10.0
+
+8.0
+
+6.0
+
+15.0
+
+8.0
+
+Lodgepole pine 15.0
+
+12.0
+
+10.0
+
+Other softwoods 20.0
+
+12.0
+
+8.0
+
+Cottonwood/aspen 25.0
+
+12.0
+
+9.0
+
+Red alder
+
+25.0
+
+15.0
+
+11.0
+
+Oaks
+
+35.0
+
+20.0
+
+15.0
+
+Other hardwoods 25.0
+
+12.0
+
+10.0
+
+29.0+
+5.0 6.0 5.0 6.0 4.0 8.0 4.0 6.0 8.0 5.0 7.0 8.0 12.0 8.0
+
+' Averageof values from varioussourcesof biomass Information.Does not Includefoliage.
+
+D. Branch Factors
+
+E. Small Tree Information
+
+Metric
+
+P_....e
+
+IA.__L__
+
+i=qulvalent5
+
+AverageSmall Tree Weight 1 by Diameter Class
+
+Species
+Douglas-fir Poiflderosa/sugar pine True firs Spruces Larch/redwood Hemlocks W. white pine W. redcedar Other cedars Lodgepole pine Other softwoods Cottonwood/aspen Red alder Oaks Other hardwoods
+
+Diameter Class (Inches)
+
+1.0 - 2.9
+
+3.0 - 4.9
+
+green pounde
+
+8.20 6.05 6.15
+15.50 15.50
+15.80
+6.25 15.65 15.50
+
+69.00 37.90 47.10
+85,00 92.50
+91.85
+37.50 82.55 80.00
+
+7.50 10.00
+8.50 8.50 15.00 11.75
+
+46.60 75.00
+80.00 79.75 97.,50 85.00
+
+1 Dry weight computed using ratio of dry to green weight by species, from densityvalues showr in tabulationA, above
+
+1 inch = 2.54 centlmet, rs 1 foot = 30.48 centimeters 1 mile = 1.609 kilometers 1 acre = 0.40_ hectare 1 square foot = 0.0929 square meter 1 cubic foot = 0.0283 cubic meter 1 cubic foci per acre = 0.07 cubic meter per hectare 1 pound = 0.454 kilogram
+1 British thermal unit (Btu) = 1,055.87 Joules 1 ton = 0.907 metric ton
+
+!ii
+
