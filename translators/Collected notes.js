@@ -14,10 +14,10 @@
 	"inRepository": false,
 	"configOptions": {
 		"getCollections": true,
-		"hash": "ac4c711ed806496d444f9ea24232e8bb7dc9377e327de9f403787ac4cb1bdf1f"
+		"hash": "e1536a189751c60f201d479e400b359d73a99e28af27195efc38dfcd0197e931"
 	},
 	"priority": 100,
-	"lastUpdated": "2022-02-25"
+	"lastUpdated": "2022-03-14"
 }
 
 ZOTERO_CONFIG = {"GUID":"zotero@chnm.gmu.edu","ID":"zotero","CLIENT_NAME":"Zotero","DOMAIN_NAME":"zotero.org","REPOSITORY_URL":"https://repo.zotero.org/repo/","BASE_URI":"http://zotero.org/","WWW_BASE_URL":"https://www.zotero.org/","PROXY_AUTH_URL":"https://zoteroproxycheck.s3.amazonaws.com/test","API_URL":"https://api.zotero.org/","STREAMING_URL":"wss://stream.zotero.org/","SERVICES_URL":"https://services.zotero.org/","API_VERSION":3,"CONNECTOR_MIN_VERSION":"5.0.39","PREF_BRANCH":"extensions.zotero.","BOOKMARKLET_ORIGIN":"https://www.zotero.org","BOOKMARKLET_URL":"https://www.zotero.org/bookmarklet/","START_URL":"https://www.zotero.org/start","QUICK_START_URL":"https://www.zotero.org/support/quick_start_guide","PDF_TOOLS_URL":"https://www.zotero.org/download/xpdf/","SUPPORT_URL":"https://www.zotero.org/support/","TROUBLESHOOTING_URL":"https://www.zotero.org/support/getting_help","FEEDBACK_URL":"https://forums.zotero.org/","CONNECTORS_URL":"https://www.zotero.org/download/connectors"}
@@ -35074,7 +35074,7 @@ ${indent}${this.formatError(e.error, "  ")}
       }
       this.ping.done();
     }
-    *references() {
+    *regularitems() {
       for (const item of this.list) {
         switch (item.itemType) {
           case "annotation":
@@ -35260,9 +35260,9 @@ ${indent}${this.formatError(e.error, "  ")}
       this._items = this._items || new Items(this.cacheable);
       return this._items.items();
     }
-    get references() {
+    get regularitems() {
       this._items = this._items || new Items(this.cacheable);
-      return this._items.references();
+      return this._items.regularitems();
     }
   };
   var Translator = new ITranslator();
@@ -38519,10 +38519,10 @@ ${indent}${this.formatError(e.error, "  ")}
       }
       const unfiled = { name: "Unfiled", items: Object.values(items).filter((item) => !filed.has(item.itemID)), collections: [], root: true };
       if (!this.prune(unfiled))
-        this.collection(unfiled);
+        this.write_collection(unfiled);
       for (const collection of sorted(Object.values(collections))) {
         if (collection.root && !this.prune(collection))
-          this.collection(collection);
+          this.write_collection(collection);
       }
       let style = "\n  body {\n    counter-reset: h1;\n  }\n\n";
       for (let level = 1; level <= this.levels; level++) {
@@ -38549,28 +38549,28 @@ ${indent}${this.formatError(e.error, "  ")}
     show(context, args) {
       log.debug(`collectednotes.${context}: ${JSON.stringify(Array.from(args))}`);
     }
-    collection(collection, level = 1) {
+    write_collection(collection, level = 1) {
       log.debug(`collection ${collection.name} @ ${level} with ${collection.collections.length} subcollections`);
       this.levels = Math.max(this.levels, level);
       this.body += `<h${level}>${html(collection.name)}</h${level}>
 `;
       for (const item of collection.items) {
-        this.item(item);
+        this.write_item(item);
       }
       for (const coll of sorted(collection.collections)) {
-        this.collection(coll, level + 1);
+        this.write_collection(coll, level + 1);
       }
     }
-    item(item) {
+    write_item(item) {
       switch (item.itemType) {
         case "note":
           this.note(item.note, "note");
           break;
         case "attachment":
-          this.reference(item);
+          this.item(item);
           break;
         default:
-          this.reference(item);
+          this.item(item);
           break;
       }
     }
@@ -38617,7 +38617,7 @@ ${indent}${this.formatError(e.error, "  ")}
           return `${cr.slice(0, cr.length - 1).join(", ")}, and ${cr[cr.length - 1]}`;
       }
     }
-    reference(item) {
+    item(item) {
       let notes = [];
       let title2 = "";
       if (item.itemType === "attachment") {

@@ -16,9 +16,9 @@
 	},
 	"priority": 100,
 	"configOptions": {
-		"hash": "7cf7a7607b726e729a02f47a61a1f7a35d2ea3ac6482bb7bff27c1ef3f211988"
+		"hash": "b85019fc7cbf2594f835f357ba2cb128b07948296c46e354b035541c4e8918a3"
 	},
-	"lastUpdated": "2022-02-25"
+	"lastUpdated": "2022-03-14"
 }
 
 ZOTERO_CONFIG = {"GUID":"zotero@chnm.gmu.edu","ID":"zotero","CLIENT_NAME":"Zotero","DOMAIN_NAME":"zotero.org","REPOSITORY_URL":"https://repo.zotero.org/repo/","BASE_URI":"http://zotero.org/","WWW_BASE_URL":"https://www.zotero.org/","PROXY_AUTH_URL":"https://zoteroproxycheck.s3.amazonaws.com/test","API_URL":"https://api.zotero.org/","STREAMING_URL":"wss://stream.zotero.org/","SERVICES_URL":"https://services.zotero.org/","API_VERSION":3,"CONNECTOR_MIN_VERSION":"5.0.39","PREF_BRANCH":"extensions.zotero.","BOOKMARKLET_ORIGIN":"https://www.zotero.org","BOOKMARKLET_URL":"https://www.zotero.org/bookmarklet/","START_URL":"https://www.zotero.org/start","QUICK_START_URL":"https://www.zotero.org/support/quick_start_guide","PDF_TOOLS_URL":"https://www.zotero.org/download/xpdf/","SUPPORT_URL":"https://www.zotero.org/support/","TROUBLESHOOTING_URL":"https://www.zotero.org/support/getting_help","FEEDBACK_URL":"https://forums.zotero.org/","CONNECTORS_URL":"https://www.zotero.org/download/connectors"}
@@ -894,7 +894,7 @@ ${indent}${this.formatError(e.error, "  ")}
       }
       this.ping.done();
     }
-    *references() {
+    *regularitems() {
       for (const item of this.list) {
         switch (item.itemType) {
           case "annotation":
@@ -1080,9 +1080,9 @@ ${indent}${this.formatError(e.error, "  ")}
       this._items = this._items || new Items(this.cacheable);
       return this._items.items();
     }
-    get references() {
+    get regularitems() {
       this._items = this._items || new Items(this.cacheable);
-      return this._items.references();
+      return this._items.regularitems();
     }
   };
   var Translator = new ITranslator();
@@ -1115,7 +1115,7 @@ ${indent}${this.formatError(e.error, "  ")}
       year: Zotero.getOption("Year")
     };
     const items = [];
-    for (const ref of Translator.references) {
+    for (const ref of Translator.regularitems) {
       const label = [ref.citationKey];
       if (add.title && ref.title) {
         label.push(`\u201C${ref.title.replace(/"/g, "'")}\u201D`);

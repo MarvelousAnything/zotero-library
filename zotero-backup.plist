@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated for serviceman. Edit as you wish, but leave this line. -->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>zotero-backup</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/bin/sh</string>
+		<string>backup.sh</string>
+	</array>
+
+	<key>RunAtLoad</key>
+	<true/>
+	<key>KeepAlive</key>
+	<true/>
+	<!--dict>
+		<key>Crashed</key>
+		<true/>
+		<key>NetworkState</key>
+		<true/>
+		<key>SuccessfulExit</key>
+		<false/>
+	</dict-->
+
+	<key>WorkingDirectory</key>
+	<string>/Users/owen_hayes/Zotero</string>
+
+	<key>StandardErrorPath</key>
+	<string>/Users/owen_hayes/.local/share/zotero-backup/var/log/zotero-backup.log</string>
+	<key>StandardOutPath</key>
+        <string>/Users/owen_hayes/.local/share/zotero-backup/var/log/zotero-backup.log</string>
+
+        <key>StartCalendarInterval</key>
+        <dict>
+          <key>Hour</key>
+          <integer>17</integer>
+        </dict>
+</dict>
+</plist>
